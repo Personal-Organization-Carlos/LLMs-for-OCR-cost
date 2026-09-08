@@ -1,0 +1,2776 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.5496,
+                "bbox": [
+                    165,
+                    125,
+                    298,
+                    153
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7285,
+                "bbox": [
+                    714,
+                    121,
+                    965,
+                    151
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.5066,
+                "bbox": [
+                    1379,
+                    121,
+                    1596,
+                    150
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9473,
+                "bbox": [
+                    99,
+                    173,
+                    607,
+                    254
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7433,
+                "bbox": [
+                    208,
+                    244,
+                    499,
+                    270
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9852,
+                "bbox": [
+                    104,
+                    270,
+                    610,
+                    553
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9822,
+                "bbox": [
+                    103,
+                    551,
+                    610,
+                    709
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9287,
+                "bbox": [
+                    233,
+                    719,
+                    476,
+                    746
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8954,
+                "bbox": [
+                    301,
+                    754,
+                    414,
+                    783
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7867,
+                "bbox": [
+                    124,
+                    786,
+                    325,
+                    812
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9853,
+                "bbox": [
+                    105,
+                    813,
+                    607,
+                    1070
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9736,
+                "bbox": [
+                    105,
+                    1070,
+                    606,
+                    1198
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6468,
+                "bbox": [
+                    128,
+                    1198,
+                    298,
+                    1223
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9814,
+                "bbox": [
+                    105,
+                    1222,
+                    606,
+                    1403
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9796,
+                "bbox": [
+                    103,
+                    1402,
+                    604,
+                    1533
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8602,
+                "bbox": [
+                    296,
+                    1531,
+                    414,
+                    1558
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9771,
+                "bbox": [
+                    103,
+                    1562,
+                    603,
+                    1693
+                ],
+                "index": 17
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5231,
+                "bbox": [
+                    124,
+                    1692,
+                    342,
+                    1718
+                ],
+                "index": 18
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.7812,
+                "bbox": [
+                    100,
+                    1726,
+                    602,
+                    1934
+                ],
+                "index": 19,
+                "html": "<table><tr><td>Alfafa dtartameile -2 112 kilos</td><td></td><td>Aos cavallos</td><td>dos muares</td><td></td></tr><tr><td>Capim-</td><td></td><td></td><td>2 kilos</td><td></td></tr><tr><td></td><td>1</td><td></td><td>8</td><td></td></tr><tr><td>Laaala—</td><td></td><td>n</td><td>3</td><td>z</td></tr><tr><td>Fareto—</td><td>8</td><td>#</td><td></td><td></td></tr><tr><td>Mi tho -</td><td></td><td></td><td>3</td><td></td></tr><tr><td>Su1</td><td>ue 3 ein 3 das—i decil,</td><td></td><td></td><td></td></tr><tr><td>De Il de Abril em deante :</td><td></td><td></td><td>1 deci</td><td></td></tr></table>"
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.7529,
+                "bbox": [
+                    619,
+                    172,
+                    1123,
+                    331
+                ],
+                "index": 20,
+                "html": "<table><tr><td></td><td></td><td>Alfafa díarlamente -1 1 kilos1 kilu.</td><td></td><td></td><td></td></tr><tr><td>Capim — Canna</td><td></td><td></td><td>8</td><td>8</td><td>x</td></tr><tr><td></td><td></td><td></td><td>-3</td><td></td><td></td></tr><tr><td>Farello-</td><td></td><td></td><td>-1</td><td></td><td></td></tr><tr><td>Milho Sal</td><td></td><td></td><td>-3 -de 3 em 3 dias-1 decil</td><td>一</td><td>3,</td></tr></table>"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9582,
+                "bbox": [
+                    620,
+                    337,
+                    1126,
+                    392
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8524,
+                "bbox": [
+                    619,
+                    395,
+                    1125,
+                    448
+                ],
+                "index": 22
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9431,
+                "bbox": [
+                    619,
+                    448,
+                    1124,
+                    552
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9767,
+                "bbox": [
+                    619,
+                    551,
+                    1123,
+                    707
+                ],
+                "index": 24
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.98,
+                "bbox": [
+                    616,
+                    706,
+                    1120,
+                    1119
+                ],
+                "index": 25
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9474,
+                "bbox": [
+                    617,
+                    1117,
+                    1119,
+                    1170
+                ],
+                "index": 26
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9758,
+                "bbox": [
+                    616,
+                    1169,
+                    1120,
+                    1298
+                ],
+                "index": 27
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9775,
+                "bbox": [
+                    614,
+                    1296,
+                    1119,
+                    1425
+                ],
+                "index": 28
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9719,
+                "bbox": [
+                    613,
+                    1424,
+                    1118,
+                    1503
+                ],
+                "index": 29
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.978,
+                "bbox": [
+                    613,
+                    1501,
+                    1116,
+                    1604
+                ],
+                "index": 30
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9727,
+                "bbox": [
+                    614,
+                    1603,
+                    1112,
+                    1680
+                ],
+                "index": 31
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9723,
+                "bbox": [
+                    615,
+                    1680,
+                    1118,
+                    1782
+                ],
+                "index": 32
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6963,
+                "bbox": [
+                    641,
+                    1783,
+                    968,
+                    1810
+                ],
+                "index": 33
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7164,
+                "bbox": [
+                    640,
+                    1810,
+                    1043,
+                    1836
+                ],
+                "index": 34
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.684,
+                "bbox": [
+                    639,
+                    1835,
+                    1118,
+                    1862
+                ],
+                "index": 35
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5751,
+                "bbox": [
+                    640,
+                    1861,
+                    992,
+                    1888
+                ],
+                "index": 36
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6069,
+                "bbox": [
+                    642,
+                    1885,
+                    950,
+                    1912
+                ],
+                "index": 37
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7977,
+                "bbox": [
+                    637,
+                    1910,
+                    1107,
+                    1940
+                ],
+                "index": 38
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.518,
+                "bbox": [
+                    1151,
+                    178,
+                    1646,
+                    522
+                ],
+                "index": 39
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9618,
+                "bbox": [
+                    1134,
+                    523,
+                    1641,
+                    630
+                ],
+                "index": 40
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.918,
+                "bbox": [
+                    1322,
+                    637,
+                    1477,
+                    665
+                ],
+                "index": 41
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9732,
+                "bbox": [
+                    1131,
+                    662,
+                    1636,
+                    769
+                ],
+                "index": 42
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9662,
+                "bbox": [
+                    1130,
+                    767,
+                    1633,
+                    846
+                ],
+                "index": 43
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9713,
+                "bbox": [
+                    1130,
+                    844,
+                    1635,
+                    949
+                ],
+                "index": 44
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9477,
+                "bbox": [
+                    1130,
+                    947,
+                    1635,
+                    1026
+                ],
+                "index": 45
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6285,
+                "bbox": [
+                    1152,
+                    1022,
+                    1294,
+                    1049
+                ],
+                "index": 46
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9669,
+                "bbox": [
+                    1130,
+                    1050,
+                    1634,
+                    1152
+                ],
+                "index": 47
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8267,
+                "bbox": [
+                    1148,
+                    1151,
+                    1400,
+                    1179
+                ],
+                "index": 48
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9689,
+                "bbox": [
+                    1129,
+                    1179,
+                    1637,
+                    1281
+                ],
+                "index": 49
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9771,
+                "bbox": [
+                    1129,
+                    1281,
+                    1634,
+                    1438
+                ],
+                "index": 50
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9752,
+                "bbox": [
+                    1129,
+                    1436,
+                    1634,
+                    1565
+                ],
+                "index": 51
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9689,
+                "bbox": [
+                    1129,
+                    1563,
+                    1633,
+                    1642
+                ],
+                "index": 52
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7202,
+                "bbox": [
+                    1307,
+                    1685,
+                    1468,
+                    1718
+                ],
+                "index": 53
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.667,
+                "bbox": [
+                    1177,
+                    1727,
+                    1635,
+                    1758
+                ],
+                "index": 54
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9407,
+                "bbox": [
+                    1131,
+                    1760,
+                    1637,
+                    1868
+                ],
+                "index": 55
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9095,
+                "bbox": [
+                    1133,
+                    1866,
+                    1636,
+                    1916
+                ],
+                "index": 56
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7704,
+                "bbox": [
+                    1157,
+                    1915,
+                    1602,
+                    1944
+                ],
+                "index": 57
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    167,
+                    127,
+                    292,
+                    152
+                ],
+                "score": 0.898,
+                "text": "Doming\", 1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    720,
+                    126,
+                    964,
+                    147
+                ],
+                "score": 0.918,
+                "text": "DIARIOOFFICIAL:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1382,
+                    123,
+                    1589,
+                    147
+                ],
+                "score": 0.904,
+                "text": "Abril1900733"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    103,
+                    206,
+                    604,
+                    225
+                ],
+                "score": 0.874,
+                "text": "raneado curador por dereto de G de Maiç, cor-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    104,
+                    233,
+                    172,
+                    253
+                ],
+                "score": 0.948,
+                "text": "rente."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    105,
+                    176,
+                    602,
+                    201
+                ],
+                "score": 0.897,
+                "text": "A-t pio GandidoXavier deAlmelda  Souza, no-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    217,
+                    247,
+                    492,
+                    269
+                ],
+                "score": 0.946,
+                "text": "Requerimentos despachados"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    135,
+                    273,
+                    604,
+                    293
+                ],
+                "score": 0.928,
+                "text": "Do bacbareiOtaviano.de Agutrra Cumargo, ex-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    108,
+                    299,
+                    601,
+                    320
+                ],
+                "score": 0.932,
+                "text": "promolor qpublico da coriarca de Ytú, pedindo pro"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    114,
+                    325,
+                    604,
+                    345
+                ],
+                "score": 0.949,
+                "text": "videncias no rentido de oder rect berno Tbesouro"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    112,
+                    351,
+                    605,
+                    370
+                ],
+                "score": 0.89,
+                "text": "do Estadu, os vencimentos a que,lem dlirtito, du-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    113,
+                    376,
+                    603,
+                    396
+                ],
+                "score": 0.941,
+                "text": "rante o tempo em que esteve em gtso:da, licença"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    106,
+                    402,
+                    605,
+                    420
+                ],
+                "score": 0.942,
+                "text": ".gue lhe foi concedi.is pur scto de .23 de.Janeiro"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    114,
+                    429,
+                    604,
+                    446
+                ],
+                "score": 0.937,
+                "text": "do corrente anro, i-ara tralar da saude de pegsoa"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    113,
+                    452,
+                    605,
+                    473
+                ],
+                "score": 0.97,
+                "text": "de sua fumilia, vistoter-se extraviado a respecliva"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    114,
+                    479,
+                    606,
+                    499
+                ],
+                "score": 0.961,
+                "text": "portaria.—Atlendido, retirando desla secretaris por"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    114,
+                    506,
+                    604,
+                    523
+                ],
+                "score": 0.964,
+                "text": "certidao,uma copia da pu:tiria da llcença que foi"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    107,
+                    529,
+                    220,
+                    549
+                ],
+                "score": 0.978,
+                "text": ".extraviada."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    134,
+                    553,
+                    603,
+                    577
+                ],
+                "score": 0.952,
+                "text": "Do backarel Bento Ribeiro da Luz, juiz de di-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    109,
+                    580,
+                    605,
+                    603
+                ],
+                "score": 0.947,
+                "text": "reito da comarca de Nuporanga, pedinto que se he"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    108,
+                    605,
+                    605,
+                    628
+                ],
+                "score": 0.935,
+                "text": "mande corlifcar si obteve desta secrelaria a por-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    110,
+                    631,
+                    605,
+                    653
+                ],
+                "score": 0.945,
+                "text": "laria, devidamerte selladz, da licença de sessenta"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    109,
+                    656,
+                    605,
+                    678
+                ],
+                "score": 0.956,
+                "text": ".dias, em cujo goso entrou tim 3) de -Janeiro do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    109,
+                    682,
+                    544,
+                    705
+                ],
+                "score": 0.968,
+                "text": ".corrente anno.—Gertifque-se o que constar."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    238,
+                    723,
+                    471,
+                    744
+                ],
+                "score": 0.919,
+                "text": "2.* SUB DIRECTORIA"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    303,
+                    752,
+                    411,
+                    787
+                ],
+                "score": 0.853,
+                "text": "1.* SECÇÃO"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    130,
+                    790,
+                    318,
+                    809
+                ],
+                "score": 0.904,
+                "text": "Transmittirea se :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    133,
+                    814,
+                    604,
+                    838
+                ],
+                "score": 0.978,
+                "text": "Ao ministro da Justiça e Negocios Interiores os"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    112,
+                    840,
+                    602,
+                    863
+                ],
+                "score": 0.933,
+                "text": "deoumentos oficiaes relalivos a.) aclo bumanitario"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    111,
+                    866,
+                    602,
+                    889
+                ],
+                "score": 0.851,
+                "text": "pralicado pelo saldarlu isncise, da Cu 」a Bene-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    112,
+                    917,
+                    602,
+                    941
+                ],
+                "score": 0.927,
+                "text": "em Sinto, a 31 de Janeiro do anno findo, se ali-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    112,
+                    969,
+                    602,
+                    993
+                ],
+                "score": 0.93,
+                "text": "de Bombeiros Municiptes, que s lauçara do caes"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    112,
+                    995,
+                    602,
+                    1019
+                ],
+                "score": 0.896,
+                "text": "para afugir-ie, alim  qie équelie soldado, seja"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    110,
+                    1046,
+                    442,
+                    1067
+                ],
+                "score": 0.86,
+                "text": "creto de 1i d, Deznbo de 1s59."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    112,
+                    892,
+                    602,
+                    914
+                ],
+                "score": 0.871,
+                "text": "vides, do2.:atalhā, da Brigala }' cial, que"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    111,
+                    945,
+                    602,
+                    966
+                ],
+                "score": 0.974,
+                "text": "rou ao mar no intuito de salvar a praça so Corpo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    112,
+                    1022,
+                    601,
+                    1043
+                ],
+                "score": 0.924,
+                "text": "concedids a medalha de distincção, crrada por d.-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    111,
+                    1097,
+                    601,
+                    1122
+                ],
+                "score": 0.925,
+                "text": "cópia, o olficio do delegado de olicia de Arára-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    110,
+                    1123,
+                    593,
+                    1148
+                ],
+                "score": 0.937,
+                "text": "quara, de  do currente mez, communleando te"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    109,
+                    1149,
+                    602,
+                    1173
+                ],
+                "score": 0.944,
+                "text": "rem spparecido naquell, loealidade dois casos de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    111,
+                    1176,
+                    257,
+                    1193
+                ],
+                "score": 0.936,
+                "text": "febre amarelos."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    131,
+                    1073,
+                    601,
+                    1095
+                ],
+                "score": 0.977,
+                "text": "Ao dr. secretario dos Negocios do Interior, por,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    132,
+                    1201,
+                    291,
+                    1221
+                ],
+                "score": 0.992,
+                "text": "Remetteram-se :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    110,
+                    1302,
+                    602,
+                    1326
+                ],
+                "score": 0.928,
+                "text": "gmeato dos dtslacamentus de A.arquara e de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    110,
+                    1352,
+                    600,
+                    1377
+                ],
+                "score": 0.982,
+                "text": "dido pela delegado de Pedreira, para si a Poase"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    112,
+                    1379,
+                    229,
+                    1398
+                ],
+                "score": 0.905,
+                "text": "d: Rcsacce."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    131,
+                    1226,
+                    601,
+                    1246
+                ],
+                "score": 0.913,
+                "text": "Au commanda:t: do Co-po Policiil no Interior"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    110,
+                    1252,
+                    602,
+                    1273
+                ],
+                "score": 0.869,
+                "text": "us otficios tio dr. ch:fe de pulicia, ns, tãi, 857 e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    111,
+                    1277,
+                    600,
+                    1299
+                ],
+                "score": 0.898,
+                "text": "S5S, datados de 27 do cortonle, referentts av au"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    110,
+                    1329,
+                    601,
+                    1350
+                ],
+                "score": 0.973,
+                "text": "Santos e sobre uma licçí concedida a um sol-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    129,
+                    1404,
+                    599,
+                    1428
+                ],
+                "score": 0.96,
+                "text": "Ao dr, el.ef: de poicia, es das camaras muni-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    109,
+                    1455,
+                    600,
+                    1480
+                ],
+                "score": 0.949,
+                "text": "Antonio da -coeira e do juiz de paz d: Santo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    107,
+                    1509,
+                    214,
+                    1529
+                ],
+                "score": 0.967,
+                "text": "rente mez,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    109,
+                    1431,
+                    600,
+                    1452
+                ],
+                "score": 0.959,
+                "text": "cipaes de Remedls da Ponte do Tiete, de Sino"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    108,
+                    1482,
+                    599,
+                    1504
+                ],
+                "score": 0.916,
+                "text": "Autonio da Afeg ia, datados de 22 e 2) do cor-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    300,
+                    1531,
+                    409,
+                    1560
+                ],
+                "score": 0.843,
+                "text": "2.CÇÃO"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    108,
+                    1590,
+                    599,
+                    1615
+                ],
+                "score": 0.945,
+                "text": "que na distri. ui,ão de torragem aos animaes da"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    108,
+                    1615,
+                    599,
+                    1641
+                ],
+                "score": 0.892,
+                "text": "Força Publi :a, da liepaitição da Puiicia, sejam"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    109,
+                    1668,
+                    398,
+                    1689
+                ],
+                "score": 0.928,
+                "text": "douro, ag seg.Inles tabellas :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    127,
+                    1566,
+                    599,
+                    1587
+                ],
+                "score": 0.953,
+                "text": "O secretario do、 Negocis da Justiça resolve"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    108,
+                    1643,
+                    598,
+                    1664
+                ],
+                "score": 0.933,
+                "text": "ob,ervadascontar de 5 de Ab:il p.oximo vin-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    129,
+                    1695,
+                    335,
+                    1716
+                ],
+                "score": 0.944,
+                "text": "De 5 a 10 de A5:l:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    648,
+                    340,
+                    1119,
+                    364
+                ],
+                "score": 0.948,
+                "text": "Oservação,-Os animaes no paslo vencerão a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    627,
+                    366,
+                    978,
+                    388
+                ],
+                "score": 0.951,
+                "text": "ração de aifafa, canna, milbo e sal."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    646,
+                    399,
+                    1119,
+                    423
+                ],
+                "score": 0.979,
+                "text": "Secretaria da Jusliça do Estado de São Paulo,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    624,
+                    424,
+                    1116,
+                    448
+                ],
+                "score": 0.965,
+                "text": "30 de Março de 1900.-José Pereira de Queiror."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    646,
+                    449,
+                    1119,
+                    475
+                ],
+                "score": 0.965,
+                "text": "Remettep se có;ia da presente tabella provisoria"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    626,
+                    476,
+                    1118,
+                    500
+                ],
+                "score": 0.909,
+                "text": "ao dr, chefe de loicia, coroiel c-mmandante da"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    625,
+                    501,
+                    1118,
+                    526
+                ],
+                "score": 0.924,
+                "text": "Brigada Policist e ch fe do Almoxarifado da Forçs"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    625,
+                    524,
+                    707,
+                    550
+                ],
+                "score": 0.915,
+                "text": "Pblica."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    645,
+                    554,
+                    1119,
+                    576
+                ],
+                "score": 0.942,
+                "text": "Por acto desta dala fui elevada d; 80) réis a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    626,
+                    580,
+                    1118,
+                    603
+                ],
+                "score": 0.929,
+                "text": "153G0 a di-ria de alimentação aos presos pobres"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    625,
+                    605,
+                    1118,
+                    629
+                ],
+                "score": 0.941,
+                "text": "da cadeia de São l'aul, dos Agudos, a contar de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    625,
+                    631,
+                    1116,
+                    655
+                ],
+                "score": 0.942,
+                "text": "1.º le Abril d. corente anno,-Deu-se conheci-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    624,
+                    657,
+                    1117,
+                    681
+                ],
+                "score": 0.972,
+                "text": "mento aos drs. chefe de policia e secretario da"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    624,
+                    683,
+                    715,
+                    704
+                ],
+                "score": 0.955,
+                "text": "Fazenda."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    645,
+                    707,
+                    1115,
+                    732
+                ],
+                "score": 0.959,
+                "text": "Secretaria dos Neg cios da Justiça,—2. sub-di-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    624,
+                    811,
+                    1109,
+                    836
+                ],
+                "score": 0.91,
+                "text": "communico qur ent ando em vigor, a 2 -te Abril pro"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    624,
+                    837,
+                    1115,
+                    861
+                ],
+                "score": 0.887,
+                "text": "ximo viudouro,o  va  gulame ttu do sello do Esta-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    622,
+                    1093,
+                    1056,
+                    1117
+                ],
+                "score": 0.941,
+                "text": "commandaate do Corpo Policial d, Iuterior."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    624,
+                    735,
+                    1117,
+                    756
+                ],
+                "score": 0.91,
+                "text": "rectoria.-2 secção.-N. 930,-São Paulo, 31 de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    625,
+                    761,
+                    1116,
+                    782
+                ],
+                "score": 0.905,
+                "text": "Março de 190). S. coronel-commandante d"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    625,
+                    786,
+                    1116,
+                    808
+                ],
+                "score": 0.907,
+                "text": "Brlgada Policlal.-Para o3 dertjos efeitos voa"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    623,
+                    864,
+                    1115,
+                    886
+                ],
+                "score": 0.929,
+                "text": "do, que laixou com o decreto n. 759, de 2) do cor-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    622,
+                    891,
+                    1114,
+                    911
+                ],
+                "score": 0.89,
+                "text": "rente mez, devem, & colr daquelia dat, as pe-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    623,
+                    915,
+                    1113,
+                    937
+                ],
+                "score": 0.966,
+                "text": "tições e memoriaes dirigidos á auctoridade admi-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    623,
+                    941,
+                    1115,
+                    962
+                ],
+                "score": 0.872,
+                "text": "aislrativa estadua' ou municípsl, tr. ze a estam-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    623,
+                    967,
+                    1115,
+                    988
+                ],
+                "score": 0.879,
+                "text": "pilha de 1$o ptla rimei a 1clha de pape: escri-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    623,
+                    993,
+                    1116,
+                    1014
+                ],
+                "score": 0.893,
+                "text": "pla e 200 réis peias lestanies, d: accòrdo como"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    623,
+                    1018,
+                    1113,
+                    1039
+                ],
+                "score": 0.957,
+                "text": "n. 5 da tabell、l annesa ao referido regulamento."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    623,
+                    1043,
+                    1113,
+                    1064
+                ],
+                "score": 0.903,
+                "text": "—Saude e fiaternidade.—Jos F.r:irt de Queiroz."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    642,
+                    1069,
+                    1114,
+                    1090
+                ],
+                "score": 0.921,
+                "text": "—ldenticss a. dr. chefe de policis e a coronel"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    624,
+                    1147,
+                    852,
+                    1166
+                ],
+                "score": 0.929,
+                "text": "seguintes paganentos :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    643,
+                    1121,
+                    1116,
+                    1142
+                ],
+                "score": 0.928,
+                "text": "Solicitaram-se do dr. sec:elario da Fezenda, os"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    623,
+                    1272,
+                    812,
+                    1295
+                ],
+                "score": 0.956,
+                "text": "cadeia emPlatina;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    642,
+                    1171,
+                    1115,
+                    1193
+                ],
+                "score": 0.92,
+                "text": "De FosM, pela collectoria de Campos Navos."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    623,
+                    1198,
+                    1115,
+                    1218
+                ],
+                "score": 0.952,
+                "text": "darante o sctual exercicio, mensalmente, a coatar"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    623,
+                    1223,
+                    1115,
+                    1245
+                ],
+                "score": 0.967,
+                "text": "de 1.o de Janeiro ullimo, a José Antunio da Cos-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    623,
+                    1249,
+                    1116,
+                    1271
+                ],
+                "score": 0.986,
+                "text": "ta, pelo aluguel do predio que serve de quartel e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    620,
+                    1399,
+                    841,
+                    1422
+                ],
+                "score": 0.982,
+                "text": "deia em Bello Monte;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    642,
+                    1298,
+                    1114,
+                    1320
+                ],
+                "score": 0.899,
+                "text": "De 35so), pela collectoria de Pirají, mensel-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    622,
+                    1325,
+                    1113,
+                    1346
+                ],
+                "score": 0.928,
+                "text": "mente, sté 39 de Junb, do corrente anno e a con-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    621,
+                    1350,
+                    1111,
+                    1373
+                ],
+                "score": 0.927,
+                "text": "tac de 1.º de Jan i o findo, a Jo:ge Alleu Jefecy,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    620,
+                    1376,
+                    1114,
+                    1398
+                ],
+                "score": 0.963,
+                "text": "pelo aluguel do predio que serve de quattel e ca-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    639,
+                    1426,
+                    1113,
+                    1449
+                ],
+                "score": 0.888,
+                "text": "De 6Ogo)), a Manoei Joazuim Gonçalves, peto"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    619,
+                    1453,
+                    1114,
+                    1475
+                ],
+                "score": 0.97,
+                "text": "aluguel da casa cnde está installado o posto poli-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    620,
+                    1478,
+                    1032,
+                    1500
+                ],
+                "score": 0.845,
+                "text": "ciala  oòca,  lativo a Jan iro aRimo ;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    620,
+                    1527,
+                    1113,
+                    1554
+                ],
+                "score": 0.961,
+                "text": "guel do prejio que serv; de quarlel em Morro Pe."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    618,
+                    1577,
+                    696,
+                    1602
+                ],
+                "score": 0.952,
+                "text": "fados ;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    639,
+                    1503,
+                    1111,
+                    1525
+                ],
+                "score": 0.886,
+                "text": "De COsOO), a d. Anna Maria Caldeira, pelo alu."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    619,
+                    1555,
+                    1112,
+                    1577
+                ],
+                "score": 0.977,
+                "text": "llado, relativo aos mezes de Janeiroe Fevereiro"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    621,
+                    1658,
+                    692,
+                    1678
+                ],
+                "score": 0.96,
+                "text": "genia ;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    639,
+                    1606,
+                    1107,
+                    1628
+                ],
+                "score": 0.875,
+                "text": "De 171šJ0, a A: toui, Linzi, por divergos con"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    619,
+                    1632,
+                    1103,
+                    1654
+                ],
+                "score": 0.884,
+                "text": "certos realizalos no post, policíal de Santa Ephi"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    622,
+                    1758,
+                    923,
+                    1779
+                ],
+                "score": 0.841,
+                "text": "data en que feran .xchuidos:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    641,
+                    1682,
+                    1114,
+                    1704
+                ],
+                "score": 0.925,
+                "text": "As ex·praça; abaixo mencionadas, pruveniente da"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    622,
+                    1709,
+                    1110,
+                    1728
+                ],
+                "score": 0.906,
+                "text": "restituiçà) do dezcotto de fardament, de volunta-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    620,
+                    1733,
+                    1116,
+                    1756
+                ],
+                "score": 0.885,
+                "text": "ru e de vencimintos a que tiveram direito até a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    644,
+                    1783,
+                    962,
+                    1808
+                ],
+                "score": 0.885,
+                "text": "De {SS O), a Caelano Pestrì ;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    643,
+                    1805,
+                    1035,
+                    1837
+                ],
+                "score": 0.853,
+                "text": "De 858S00, a José Juaquim de Lemes;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    643,
+                    1836,
+                    1116,
+                    1859
+                ],
+                "score": 0.908,
+                "text": "De 32S20O, a Ftancisco Míartins de Oliveira;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    643,
+                    1859,
+                    987,
+                    1887
+                ],
+                "score": 0.94,
+                "text": "De 738 10, a Gregorio Vasques;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    645,
+                    1885,
+                    942,
+                    1912
+                ],
+                "score": 0.85,
+                "text": "De 118§020, a ArteI Pereira;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    647,
+                    1910,
+                    1096,
+                    1938
+                ],
+                "score": 0.884,
+                "text": "De 1.5s333, a Raymundo Aatonio de Souza;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1161,
+                    182,
+                    1539,
+                    209
+                ],
+                "score": 0.903,
+                "text": "De 15Sgã58, a José Antonio Sampaio"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1161,
+                    209,
+                    1536,
+                    235
+                ],
+                "score": 0.84,
+                "text": "De G5gSXu, a José Pedru de Cainpos;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1161,
+                    236,
+                    1632,
+                    261
+                ],
+                "score": 0.914,
+                "text": "De 2308503,'a Antonio de Assis Peceira da Silva"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1161,
+                    262,
+                    1503,
+                    288
+                ],
+                "score": 0.874,
+                "text": "De 2g520, a Horacio JoséMaria;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1160,
+                    288,
+                    1422,
+                    314
+                ],
+                "score": 0.825,
+                "text": "De 160135, 8 Joré Leite"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1160,
+                    317,
+                    1571,
+                    342
+                ],
+                "score": 0.772,
+                "text": "De 135§715 a Franelscu da Slva Leitão"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1160,
+                    344,
+                    1604,
+                    368
+                ],
+                "score": 0.875,
+                "text": "De 1593i06, à Raymundo Djna'o Ferreir;:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1160,
+                    371,
+                    1623,
+                    394
+                ],
+                "score": 0.879,
+                "text": "De 19sS00G, a Franeisco R_drigues Eeteves;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1160,
+                    396,
+                    1616,
+                    420
+                ],
+                "score": 0.862,
+                "text": "De 159g16, a Fortuaato A_1,oio das Gtrgas;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1160,
+                    422,
+                    1549,
+                    446
+                ],
+                "score": 0.903,
+                "text": "De 15t§10G, a José Vicira Brszileío :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1160,
+                    448,
+                    1572,
+                    473
+                ],
+                "score": 0.89,
+                "text": "De 11757uG, a Benediet, B€no da Silva;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1159,
+                    474,
+                    1533,
+                    498
+                ],
+                "score": 0.935,
+                "text": "De 1375506, a Caclano Jré da Silva;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1160,
+                    499,
+                    1451,
+                    522
+                ],
+                "score": 0.973,
+                "text": "Transmittiram-se ao me-mo :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1160,
+                    528,
+                    1632,
+                    551
+                ],
+                "score": 0.925,
+                "text": "Oñictos dos delegados de puici d, Río Claro,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1141,
+                    554,
+                    1633,
+                    577
+                ],
+                "score": 0.876,
+                "text": "Atibaia e Nuporangá subre u p gumenlo das dia"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1139,
+                    579,
+                    1635,
+                    603
+                ],
+                "score": 0.926,
+                "text": "rias de alimentação aos preso pob-es\"recolhidoi"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1138,
+                    603,
+                    1361,
+                    625
+                ],
+                "score": 0.949,
+                "text": "ás respectives cadtias."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1326,
+                    641,
+                    1476,
+                    666
+                ],
+                "score": 0.938,
+                "text": "Requerimentos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1157,
+                    667,
+                    1629,
+                    690
+                ],
+                "score": 0.942,
+                "text": "De Diogo Anlonio de Arruda Meules, pedindo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1137,
+                    693,
+                    1630,
+                    716
+                ],
+                "score": 0.872,
+                "text": "pagamento da quaitia de 2āßko, proetisute de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1137,
+                    719,
+                    1628,
+                    742
+                ],
+                "score": 0.928,
+                "text": "melicamentos foraecidos.a presos p bes tec. lbi-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1137,
+                    743,
+                    1453,
+                    766
+                ],
+                "score": 0.951,
+                "text": "dos à cadeia de Dous Corregos ;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1157,
+                    770,
+                    1625,
+                    793
+                ],
+                "score": 0.917,
+                "text": "De J. G. dos Santos F gueircdo, d, de 7IS009,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1136,
+                    797,
+                    1627,
+                    820
+                ],
+                "score": 0.859,
+                "text": "provenicote du fo n ciman', ide: t co aos presus"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    820,
+                    1426,
+                    844
+                ],
+                "score": 0.959,
+                "text": "p bres da cadeia de Mocóca;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1155,
+                    847,
+                    1629,
+                    870
+                ],
+                "score": 0.97,
+                "text": "De Franciseo Fereira da Sifva, soldado do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1137,
+                    874,
+                    1626,
+                    895
+                ],
+                "score": 0.826,
+                "text": "Cp Policial do Iuterior, pediniu pagtteat de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1137,
+                    899,
+                    1624,
+                    922
+                ],
+                "score": 0.897,
+                "text": "IlsoS), correspoadente a vencimentos qus deixuu"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1136,
+                    922,
+                    1384,
+                    944
+                ],
+                "score": 0.923,
+                "text": "de receber no anno fiado."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1156,
+                    952,
+                    1627,
+                    972
+                ],
+                "score": 0.907,
+                "text": "De Franciscd de Slles Gomes, s bre pgsmenlo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1136,
+                    977,
+                    1626,
+                    999
+                ],
+                "score": 0.806,
+                "text": "da quantia de 2o50) pur serviços tnedcos pte"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1136,
+                    1002,
+                    1554,
+                    1023
+                ],
+                "score": 0.892,
+                "text": "tajos a presos pobres da caàe.e de Tatuiy."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1156,
+                    1023,
+                    1286,
+                    1048
+                ],
+                "score": 0.964,
+                "text": "Decltou se :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1134,
+                    1125,
+                    1260,
+                    1151
+                ],
+                "score": 0.95,
+                "text": "téis diarios;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1154,
+                    1053,
+                    1627,
+                    1075
+                ],
+                "score": 0.893,
+                "text": "Ao mesmo, gue fot contectad: coia Mhri Ga"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1079,
+                    1626,
+                    1101
+                ],
+                "score": 0.73,
+                "text": "tto, o forapcimento da alne tayã, aus pies"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1105,
+                    1627,
+                    1128
+                ],
+                "score": 0.728,
+                "text": "pobres da cadeia da Aana,al, á rszio de m.l"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1156,
+                    1154,
+                    1393,
+                    1176
+                ],
+                "score": 0.969,
+                "text": "Ao de. chefe de polícia :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1134,
+                    1253,
+                    1196,
+                    1279
+                ],
+                "score": 0.994,
+                "text": "dade;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1155,
+                    1183,
+                    1630,
+                    1204
+                ],
+                "score": 0.956,
+                "text": "Que, por falta de verba, não pude ser aflendilo o"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1136,
+                    1208,
+                    1627,
+                    1230
+                ],
+                "score": 0.947,
+                "text": "pedido do defegado de policia de Jundishy, subre"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1234,
+                    1626,
+                    1255
+                ],
+                "score": 0.912,
+                "text": "o fornecitnento de uin siuo á cadeta daquelia ci-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1153,
+                    1283,
+                    1627,
+                    1306
+                ],
+                "score": 0.97,
+                "text": "Que para se poder prosidenciar scbre o psga-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1136,
+                    1310,
+                    1627,
+                    1331
+                ],
+                "score": 0.975,
+                "text": "menta do aluguel do predio que serve de quartel"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1335,
+                    1628,
+                    1356
+                ],
+                "score": 0.811,
+                "text": "c cedeia ein Taquary, telalivu au auio de 1. 98,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1362,
+                    1624,
+                    1382
+                ],
+                "score": 0.968,
+                "text": "torna-se preciso que o pruprietaric do mesmo re-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1387,
+                    1628,
+                    1409
+                ],
+                "score": 0.895,
+                "text": "queira a eale secretariado, pur interinedio ue、sa"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1413,
+                    1610,
+                    1435
+                ],
+                "score": 0.919,
+                "text": "chefia, o psgamento a que se juigd cum úireto."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1156,
+                    1438,
+                    1627,
+                    1459
+                ],
+                "score": 0.891,
+                "text": "Ao presidente da camara uauieipal de Sá Juão"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1464,
+                    1628,
+                    1485
+                ],
+                "score": 0.908,
+                "text": "da Boa Vista, que a Superintendencta ee U as"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1136,
+                    1489,
+                    1628,
+                    1510
+                ],
+                "score": 0.913,
+                "text": "Publícas Toi aucturizada a despeuder a quintia de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1516,
+                    1628,
+                    1537
+                ],
+                "score": 0.84,
+                "text": "5:250s123 com os reparos de que necezsta o tli:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1136,
+                    1540,
+                    1444,
+                    1561
+                ],
+                "score": 0.938,
+                "text": "fleio da cadeia daquella ciuade."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1157,
+                    1566,
+                    1626,
+                    1588
+                ],
+                "score": 0.953,
+                "text": "Auctorizou-se o chefe do alanxarifado da Furça"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1592,
+                    1626,
+                    1614
+                ],
+                "score": 0.934,
+                "text": "Publca a fornecer diverzos artigos de expeuiente"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1134,
+                    1616,
+                    1289,
+                    1636
+                ],
+                "score": 0.99,
+                "text": "à Penitenciaria."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1310,
+                    1685,
+                    1466,
+                    1720
+                ],
+                "score": 1.0,
+                "text": "Fazenda"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1182,
+                    1730,
+                    1632,
+                    1755
+                ],
+                "score": 0.84,
+                "text": "EXPEDIENTE DO DIA 8I DS MARC, DE 19J)..!"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1839,
+                    1557,
+                    1866
+                ],
+                "score": 0.751,
+                "text": "o mez de Fevartiro proxins passaao :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1156,
+                    1765,
+                    1630,
+                    1785
+                ],
+                "score": 0.872,
+                "text": "Do dr, secrelario da Ag. icultura, slc.1snda"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1790,
+                    1629,
+                    1812
+                ],
+                "score": 0.885,
+                "text": "gamento das seguintes cu:tz, d fu.iccirnentos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1816,
+                    1630,
+                    1838
+                ],
+                "score": 0.907,
+                "text": "Feilos á Repartição de Asuas e Exgo,'o-, durante"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1139,
+                    1891,
+                    1348,
+                    1914
+                ],
+                "score": 0.895,
+                "text": "ladora de S. Paulo ;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1158,
+                    1867,
+                    1629,
+                    1890
+                ],
+                "score": 0.812,
+                "text": "De G:00390O, à Comparh a Mechantéi e Inpur-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1161,
+                    1913,
+                    1601,
+                    1945
+                ],
+                "score": 0.891,
+                "text": "De 7328100, a Espiadola, Siqueira & Comp.;"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1792,
+            "height": 2070
+        }
+    }
+]

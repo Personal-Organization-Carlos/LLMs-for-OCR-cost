@@ -1,0 +1,86 @@
+{
+  "chave": "moonshotai/kimi-k3|1910-04-01_p986|p1|0",
+  "registro": {
+    "model_id": "moonshotai/kimi-k3",
+    "prompt_id": "p1",
+    "doc_id": "1910-04-01_p986",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 90.23163160006516,
+    "prompt_tokens": 4419,
+    "completion_tokens": 2730,
+    "total_tokens": 7149,
+    "cost_usd": 0.054207,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Moonshot AI",
+    "generation_id": "gen-1788830828-blhER4pFaad6sjK9kHXk",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T01:27:09Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788830828-blhER4pFaad6sjK9kHXk",
+        "object": "chat.completion",
+        "created": 1788830828,
+        "model": "moonshotai/kimi-k3",
+        "provider": "Moonshot AI",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diário Official - Abril 1910</title>\n<style>\n  body { font-family: \"Times New Roman\", serif; font-size: 14px; margin: 20px; }\n  .header { display: flex; justify-content: space-between; border-bottom: 2px solid #000; padding-bottom: 4px; font-weight: bold; }\n  .header .center { text-align: center; font-size: 20px; letter-spacing: 2px; }\n  .columns { display: flex; gap: 20px; margin-top: 10px; }\n  .col { width: 50%; text-align: justify; }\n  h2 { text-align: center; font-size: 16px; margin: 18px 0 10px; }\n  p { margin: 0 0 10px; text-indent: 1.5em; }\n</style>\n</head>\n<body>\n\n<div class=\"header\">\n  <span>986&nbsp;&nbsp;Sexta-feira&nbsp;&nbsp;1</span>\n  <span class=\"center\">DIARIO OFFICIAL</span>\n  <span>Abril&nbsp;&nbsp;&nbsp;&nbsp;1910</span>\n</div>\n\n<div class=\"columns\">\n  <div class=\"col\">\n    <p><i>a)</i> Planta geral da linha concedida com a indicação dos pontos de passagem obrigatorios, configuração do terreno, representada por meio de curvas de nivel equidistantes de cinco metros no maximo, e, bem assim, em uma zona de cincoenta metros pelo menos, para cada lado, os campos, mattas, terrenos pedregosos e brejos, e, sempre que fôr possivel, a divisa das propriedades particulares, minas e terras devolutas.</p>\n    <p>Nessa planta, em escala de um para quatro mil, serão indicadas todas as distancias kilometricas, contadas a partir do ponto inicial da estrada; a extensão dos alinhamentos rectos e curvos; os grãos e raios das curvas empregadas.</p>\n    <p><i>b)</i> Perfil longitudinal, na escala de um para quatrocentos, para as alturas, e de um para quatro mil, para as distancias horizontaes, mostrando, por meio de convenção, o terreno natural, as platformas dos côrtes e aterros e as obras de arte.</p>\n    <p><i>c)</i> O perfil longitudinal deverá ser acompanhado de perfis transversaes intervallados de cincoenta metros, no maximo.</p>\n    <p><i>d)</i> Projectos completos e especificados de todas as obras de arte necessarias para o estabelecimento da estrada, pontes, tuneis, viaductos, passilhões, boeiros, estações e dependencias, bem como plantas de todas as propriedades, na parte cuja desapropriação fôr indispensavel.</p>\n    <p><i>e)</i> O desenho dos trilhos e accessorios, em grandeza de execução.</p>\n    <p><i>f)</i> Relação do material rodante, contendo o typo das locomotivas, vagões, gondolas e carros de passageiros, na escala de um para cincoenta, ou em catalogos das fabricas.</p>\n    <p>Esses dados poderão ser apresentados por secções, contanto que estas não sejam menores de cinco kilometros.</p>\n    <p>Os projectos das pontes, estações e outras obras importantes poderão ser apresentados à medida que forem de ser executados.</p>\n    <p>O Governo poderá rejeitar os projectos, quando não offerecerem garantia de solidez; mas terá então de apresentar as modificações que julgar convenientes.</p>\n    <p>Não se sujeitando a concessionaria a ellos, poderá recorrer á arbitragem, como vão determinado na clausula XIX.</p>\n\n    <h2>VI</h2>\n    <p>Dentro de seis mezes, a contar da data da publicação do decreto de concessão de licença, deverão ser iniciados os trabalhos de construcção desta estrada de ferro, os quaes deverão estar concluidos dentro de dois annos, a contar da data da approvação dos projectos a que se refere a clausula antecedente.</p>\n    <p>Se, esgotado o prazo marcado para inicio, não houver começado as obras da linha, a concessionaria perderá a importancia da caução, em proveito do Estado, salvo caso de força maior, a juizo do Governo, que concederá mais uma só prorogação, da metade daquelle prazo.</p>\n\n    <h2>VII</h2>\n    <p>A caução feita pela concessionaria poderá ser levantada desde que tenham sido dispendidos em construcção tres por cento da importancia total de 5.032:634$284, do orçamento approximativo.</p>\n    <p>A requerimento da Companhia, o Governo mandará um engenheiro da repartição competente examinar se a quantidade de obras feitas corresponde a tres por cento da importancia referida.</p>\n    <p>Esse exame não poderá durar mais de dois mezes. Os vencimentos do engenheiro, durante o tempo do exame das obras, correrão por conta da concessionaria e serão deduzidos da importancia pela mesma caucionada.</p>\n    <p>Se, no fim de um mez, a contar da data do pedido de exame das obras, não tiver o Governo encarregado engenheiro algum desse serviço, será considerado o exame feito e o total da quantia caucionada poderá ser retirado, independentemente da verificação da obra feita.</p>\n\n    <h2>VIII</h2>\n    <p>— O Governo, por seus agentes, poderá intervir, em qualquer tempo, em tudo o que se referir á solidez das obras, resistencia do material e segurança do publico nesta estrada de ferro.</p>\n  </div>\n\n  <div class=\"col\">\n    <h2>XI</h2>\n    <p>As obras de construcção desta estrada de ferro não poderão impedir: o escoamento das aguas das propriedades particulares, a passagem das galerias de esgottos urbanos, de aguas utilizadas para abastecimento ou para fins industriaes e agricolas, a navegabilidade dos rios e canaes e o livre transito das vias publicas. Ficam á cargo desta estrada de ferro as despesas com as obras necessarias para o cruzamento das ruas, estradas publicas e caminhos particulares existentes ao tempo da construcção da linha, ficando tambem a seu cargo as despezas com signaes e guardas, quando se tornarem precisos nesses cruzamentos. Os onus provenientes dos cruzamentos das vias publicas que se abrirem depois da construcção desta estrada de ferro não correrão por conta della.</p>\n\n    <h2>X</h2>\n    <p>Os preços de transporte nesta estrada de ferro serão fixados em tarifas previamente approvadas pela administração publica.</p>\n    <p>Dessas tarifas deverá constar a indicação do logar de partida e de chegada, a determinação dos frêtes pelas distancias a percorrer e a classificação dos generos.</p>\n    <p>Não poderão esses preços exceder os minimos adoptados para as linhas ferreas de egual bitola.</p>\n    <p>E' vedado á estrada adoptar tarifas de favor para prejudicar ou favorecer pessoas ou empresas determinadas, assim como cobrar preços differentes pelo transporte de passageiros e generos, feito em condições identicas, desde que percorram distancias eguaes, salvo o caso de tarifas differenciaes.</p>\n    <p>Depois de approvadas pelo Governo, serão as tarifas impressas em caracteres legiveis e collocadas em todas as estações, para conhecimento do publico.</p>\n\n    <h2>XI</h2>\n    <p>Quando houver necessidade de se elevarem os preços das tarifas, solicitará esta estrada licença do Governo, apresentando as razões do acrescimo. No prazo maximo de um mez resolverá o Governo sobre a questão. Se não o fizer, fica entendido que o accrescimo de preço está approvado. Nenhuma elevação de preços das tarifas poderá ter força obrigatoria, mesmo approvada pelo Governo, senão depois da publicação na imprensa, durante dez dias, annunciando a modificação feita.</p>\n    <p>Essa publicação será feita nos jornaes de maior circulação da Capital do Estado, e, quando fôr possivel, em um de cada localidade servida por esta estrada.</p>\n    <p>A reducção dos preços das tarifas poderá ter logar, independentemente de publicação prévia.</p>\n    <p>Uma vez, porém, adoptada, a publicação será obrigatoria.</p>\n\n    <h2>XII</h2>\n    <p>As combinações que fizer esta estrada de ferro com outras, a respeito de tarifas, só terão força obrigatoria depois de approvadas pelo Governo.</p>\n\n    <h2>XIII</h2>\n    <p>Serão observadas nesta estrada de ferro, emquanto o Governo não expedir o regulamento da lei n. 30, de 13 de Junho de 1892, as bases geraes para o transporte de bagagens, encommendas e mercadorias, estabelecidas pelo decreto n. 1237, de 2 de Maio de 1889.</p>\n\n    <h2>XIV</h2>\n    <p>Para todos os effeitos legaes ou resultantes de contractos de lucros distribuidos entre os accionistas desta estrada de ferro, quer a titulo de bonus, quer sob fórma de acções beneficiarias, ou por qualquer outro meio, serão computados conjunctamente com os pagos sob a denominação de dividendo.</p>\n    <p>Para todos os effeitos resultantes de contractos, esta estrada deverá apresentar ao Governo a conta do seu capital empregado na construcção primitiva, nos melhoramentos da linha e suas dependencias.</p>\n  </div>\n</div>\n\n</body>\n</html>",
+              "refusal": null,
+              "reasoning": "The user wants me to transform an old Brazilian document image (between 1890-1950, actually dated April 1910) into HTML respecting the layout and original words. I need to transcribe the text as faithfully as possible into HTML, maintaining the two-column layout typical of the Diário Oficial.\n\nLet me create an HTML document with the header and two columns.",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "The user wants me to transform an old Brazilian document image (between 1890-1950, actually dated April 1910) into HTML respecting the layout and original words. I need to transcribe the text as faithfully as possible into HTML, maintaining the two-column layout typical of the Diário Oficial.\n\nLet me create an HTML document with the header and two columns.",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 4419,
+          "completion_tokens": 2730,
+          "total_tokens": 7149,
+          "cost": 0.054207,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.054207,
+            "upstream_inference_prompt_cost": 0.013257,
+            "upstream_inference_completions_cost": 0.04095
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 76,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

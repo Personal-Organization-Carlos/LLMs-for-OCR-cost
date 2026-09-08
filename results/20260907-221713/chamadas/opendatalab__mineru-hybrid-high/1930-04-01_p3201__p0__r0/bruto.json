@@ -1,0 +1,46 @@
+{
+  "chave": "opendatalab/mineru-hybrid-high|1930-04-01_p3201|p0|0",
+  "registro": {
+    "model_id": "opendatalab/mineru-hybrid-high",
+    "prompt_id": "p0",
+    "doc_id": "1930-04-01_p3201",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 168.0613492000848,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "total_tokens": null,
+    "cost_usd": 0.0,
+    "cost_source": "local",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "mineru",
+    "provider_upstream": "local",
+    "generation_id": "mineru-hybrid-engine-1930-04-01_p3201__r0",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T17:23:49Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "subprocess",
+      "tentativa": 1,
+      "comando": [
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\.venv-mineru\\Scripts\\mineru.exe",
+        "-p",
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-hybrid-high\\1930-04-01_p3201__r0\\entrada\\1930-04-01_p3201.jpg",
+        "-o",
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-hybrid-high\\1930-04-01_p3201__r0\\saida",
+        "-b",
+        "hybrid-engine",
+        "--effort",
+        "high"
+      ],
+      "returncode": 0,
+      "backend": "hybrid-engine",
+      "artefatos": "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-hybrid-high\\1930-04-01_p3201__r0",
+      "log_final": "_size: 1\u001b[0m\n\u001b[32m2026-09-08 13:24:07.097\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.vlm.vlm_analyze\u001b[0m:\u001b[36mget_model\u001b[0m:\u001b[36m251\u001b[0m - \u001b[1mget transformers predictor cost: 6.42s\u001b[0m\n\u001b[32m2026-09-08 13:24:07.100\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.hybrid.hybrid_analyze\u001b[0m:\u001b[36maio_doc_analyze\u001b[0m:\u001b[36m1139\u001b[0m - \u001b[1mHybrid processing-window run. page_count=1, window_size=64, total_windows=1\u001b[0m\n\u001b[32m2026-09-08 13:24:10.598\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.hybrid.hybrid_analyze\u001b[0m:\u001b[36maio_doc_analyze\u001b[0m:\u001b[36m1161\u001b[0m - \u001b[1mHybrid processing window 1/1: pages 1-1/1 (1 pages)\u001b[0m\n\nLayout Predict:   0%|          | 0/1 [00:00<?, ?it/s]\nLayout Predict: 100%|##########| 1/1 [00:01<00:00,  1.55s/it]\nLayout Predict: 100%|##########| 1/1 [00:01<00:00,  1.55s/it]\n\nLayout Preparation:   0%|          | 0/1 [00:00<?, ?it/s]\nLayout Preparation: 100%|##########| 1/1 [00:00<00:00, 38.21it/s]\n\nPredict:   0%|          | 0/1 [00:00<?, ?it/s]\nPredict: 100%|##########| 1/1 [00:28<00:00, 28.13s/it]\nPredict: 100%|##########| 1/1 [00:28<00:00, 28.13s/it]\n\nLayout Output Parsing:   0%|          | 0/1 [00:00<?, ?it/s]\nLayout Output Parsing: 100%|##########| 1/1 [00:00<00:00, 356.63it/s]\n\nExtract Preparation:   0%|          | 0/1 [00:00<?, ?it/s]\nExtract Preparation: 100%|##########| 1/1 [00:00<00:00, 333.04it/s]\n\nPredict:   0%|          | 0/33 [00:00<?, ?it/s]\nPredict:   3%|3         | 1/33 [00:00<00:11,  2.69it/s]\nPredict:   6%|6         | 2/33 [00:00<00:09,  3.24it/s]\nPredict:   9%|9         | 3/33 [00:01<00:10,  2.99it/s]\nPredict:  12%|#2        | 4/33 [00:01<00:08,  3.25it/s]\nPredict:  15%|#5        | 5/33 [00:01<00:10,  2.79it/s]\nPredict:  18%|#8        | 6/33 [00:11<01:33,  3.46s/it]\nPredict:  21%|##1       | 7/33 [00:27<03:17,  7.59s/it]\nPredict:  24%|##4       | 8/33 [00:52<05:30, 13.20s/it]\nPredict:  27%|##7       | 9/33 [00:53<03:48,  9.54s/it]\nPredict:  30%|###       | 10/33 [00:54<02:33,  6.68s/it]\nPredict:  33%|###3      | 11/33 [00:54<01:44,  4.74s/it]\nPredict:  36%|###6      | 12/33 [00:55<01:14,  3.57s/it]\nPredict:  39%|###9      | 13/33 [00:56<00:58,  2.94s/it]\nPredict:  42%|####2     | 14/33 [00:57<00:41,  2.20s/it]\nPredict:  45%|####5     | 15/33 [00:58<00:31,  1.72s/it]\nPredict:  48%|####8     | 16/33 [00:58<00:23,  1.39s/it]\nPredict:  52%|#####1    | 17/33 [00:59<00:18,  1.18s/it]\nPredict:  55%|#####4    | 18/33 [01:00<00:15,  1.06s/it]\nPredict:  58%|#####7    | 19/33 [01:00<00:13,  1.03it/s]\nPredict:  61%|######    | 20/33 [01:01<00:12,  1.05it/s]\nPredict:  64%|######3   | 21/33 [01:02<00:11,  1.07it/s]\nPredict:  67%|######6   | 22/33 [01:03<00:09,  1.14it/s]\nPredict:  70%|######9   | 23/33 [01:04<00:08,  1.17it/s]\nPredict:  73%|#######2  | 24/33 [01:04<00:06,  1.37it/s]\nPredict:  76%|#######5  | 25/33 [01:05<00:05,  1.58it/s]\nPredict:  79%|#######8  | 26/33 [01:05<00:04,  1.45it/s]\nPredict:  82%|########1 | 27/33 [01:06<00:04,  1.33it/s]\nPredict:  85%|########4 | 28/33 [01:07<00:03,  1.37it/s]\nPredict:  88%|########7 | 29/33 [01:08<00:02,  1.34it/s]\nPredict:  91%|######### | 30/33 [01:09<00:02,  1.31it/s]\nPredict:  94%|#########3| 31/33 [01:09<00:01,  1.27it/s]\nPredict:  97%|#########6| 32/33 [01:26<00:05,  5.61s/it]\nPredict: 100%|##########| 33/33 [01:42<00:00,  8.48s/it]\nPredict: 100%|##########| 33/33 [01:42<00:00,  3.09s/it]\n\nPost Processing:   0%|          | 0/1 [00:00<?, ?it/s]\nPost Processing: 100%|##########| 1/1 [00:00<00:00, 36.36it/s]\n\nOCR-det:   0%|          | 0/20 [00:00<?, ?it/s]\nOCR-det:   5%|5         | 1/20 [00:00<00:10,  1.90it/s]\nOCR-det:  45%|####5     | 9/20 [00:00<00:00, 15.47it/s]\nOCR-det:  90%|######### | 18/20 [00:00<00:00, 29.60it/s]\nOCR-det: 100%|##########| 20/20 [00:00<00:00, 21.11it/s]\n\nProcessing pages:   0%|          | 0/1 [00:00<?, ?it/s]\nProcessing pages: 100%|##########| 1/1 [00:00<00:00, 30.23it/s]\n2026-09-08 13:26:25.943 | INFO     | mineru.cli.client:run_planned_task:883 - Completed batch 1/1 | Processed 1/1 page | 1 of 1 batch finished | task#1 [1930-04-01_p3201]\n"
+    }
+  ]
+}

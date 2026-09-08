@@ -1,0 +1,86 @@
+{
+  "chave": "moonshotai/kimi-k3|1910-04-01_p985|p1|0",
+  "registro": {
+    "model_id": "moonshotai/kimi-k3",
+    "prompt_id": "p1",
+    "doc_id": "1910-04-01_p985",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 81.24254760006443,
+    "prompt_tokens": 4525,
+    "completion_tokens": 2721,
+    "total_tokens": 7246,
+    "cost_usd": 0.05439,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Moonshot AI",
+    "generation_id": "gen-1788830747-XQCHZ9kjLb2x9uCysdOA",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T01:25:47Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788830747-XQCHZ9kjLb2x9uCysdOA",
+        "object": "chat.completion",
+        "created": 1788830747,
+        "model": "moonshotai/kimi-k3",
+        "provider": "Moonshot AI",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diario Official do Estado de São Paulo - 1 de Abril de 1910</title>\n<style>\n  body {\n    font-family: Georgia, 'Times New Roman', serif;\n    max-width: 1100px;\n    margin: 0 auto;\n    padding: 20px;\n    background: #f5f0e1;\n    color: #111;\n  }\n  .masthead { text-align: center; }\n  .masthead h3 { letter-spacing: 4px; margin-bottom: 0; font-size: 20px; }\n  .masthead h1 { font-size: 64px; margin: 5px 0; letter-spacing: 6px; font-weight: 900; }\n  .masthead h2 { font-size: 30px; margin: 5px 0; letter-spacing: 8px; }\n  .rule { border-top: 3px double #000; margin: 10px 0; }\n  .issue-line {\n    display: flex;\n    justify-content: space-between;\n    font-weight: bold;\n    font-size: 14px;\n    padding: 4px 10px;\n  }\n  .columns {\n    display: flex;\n    gap: 0;\n    border-top: 2px solid #000;\n  }\n  .col {\n    width: 50%;\n    padding: 15px 20px;\n    text-align: justify;\n    font-size: 15px;\n    line-height: 1.45;\n  }\n  .col:first-child { border-right: 2px solid #000; }\n  .section-title { text-align: center; font-size: 28px; font-weight: 900; }\n  .decree-title { text-align: center; font-weight: bold; margin-top: 25px; }\n  .decree-date { text-align: center; font-weight: bold; font-size: 13px; }\n  .summary { font-style: italic; }\n  .sig { margin-top: 20px; }\n  .sig p { margin: 4px 0; font-weight: bold; }\n  .clause-head { text-align: center; font-weight: bold; margin: 20px 0 10px; }\n  hr.sep { border: none; border-top: 1px solid #000; width: 120px; margin: 25px auto; }\n</style>\n</head>\n<body>\n\n<div class=\"masthead\">\n  <h3>ESTADOS UNIDOS DO BRAZIL</h3>\n  <h1>DIARIO OFFICIAL</h1>\n  <h2>DO ESTADO DE SÃO PAULO</h2>\n</div>\n\n<div class=\"rule\"></div>\n<div class=\"issue-line\">\n  <span>Anno 19.°—22.° da Republica—N. (68)</span>\n  <span>SÃO PAULO</span>\n  <span>Sexta-feira 1 de Abril de 1910</span>\n</div>\n<div class=\"rule\"></div>\n\n<div class=\"columns\">\n\n  <div class=\"col\">\n    <p class=\"section-title\">Actos do Poder Executivo</p>\n\n    <p class=\"decree-title\">DECRETO N. 1848</p>\n    <p class=\"decree-date\">de 29 de março de 1910</p>\n\n    <p class=\"summary\">Auctoriza a Companhia Estrada de Ferro S. Paulo a Goyaz a abrir ao trafego publico a linha de Bebedouro a Monte Azul</p>\n\n    <p>O Vice-presidente do Estado de S. Paulo, em exercicio na fórma do § 1 artigo 27, da Constituição,</p>\n    <p>Attendendo ao que solicita a Companhia Estrada de Ferro S. Paulo a Goyaz, e ob proposto do secretario de Estado dos Negocios da Agricultura, Commercio e Obras Publicas,</p>\n    <p>Decreta:</p>\n    <p>Artigo 1.° Fica a Companhia Estrada de Ferro S. Paulo a Goyaz, auctorizada a abrir ao trafego publico a via ferrea de Bebedouro a Monte Azul, com 31 kilometros de extensão e á qual se referiu o decreto n. 1732, de 4 de Maio de 1909.</p>\n    <p>Artigo 2.° A presente licença é concedida mediante a condição de, dentro do prazo de 30 dias, contados desta data, serem ultimados os serviços de assentamento da linha telegraphica de retoque do leito e de construcção de cercas lateraes.</p>\n    <p>Palacio do Governo do Estado de S. Paulo, 29 de Março de 1910.</p>\n\n    <div class=\"sig\">\n      <p>FERNANDO PRESTES DE ALBUQUERQUE.</p>\n      <p>Antonio de Padua Salles</p>\n    </div>\n\n    <hr class=\"sep\">\n\n    <p class=\"decree-title\">DECRETO N. 1849</p>\n    <p class=\"decree-date\">de 29 de março de 1910</p>\n\n    <p class=\"summary\">Concede á Companhia Moggyana de Estradas de Ferro e Navegação licença para construcção, uso e gozo de uma estrada de ferro que, iniciando-se no bairro de Jatahy, termine em Ribeirão Preto.</p>\n\n    <p>O Vice-presidente do Estado de S. Paulo, em exercicio na fórma do § 1.°, art. 27 da Constituição.</p>\n    <p>Usando da attribuição que lhe confere o artigo 2.° da lei n. 30, de 13 de Junho de 1892, e attendendo ao requerido pela Companhia Mogyana de Estradas de Ferro e Navegação, nos termos dos paragraphos 2.° e 3.° do artigo e lei citados,</p>\n    <p>Decreta:</p>\n    <p>Artigo unico. Fica concedida á Companhia Mogyana de Estradas de Ferro e Navegação licença para construcção, uso e gozo de uma via ferrea que — partindo do ponto terminal da que lhe foi concedida pelo decreto n. 1773, de 1.° de Outubro de 1909 — vá terminar em Ribeirão Preto, de conformidade com as clausulas que com esta baixam, assignadas pelo sr. dr. secretario de Estado dos Negocios da Agricultura, Commercio e Obras Publicas.</p>\n    <p>Palacio do Governo do Estado de S. Paulo, 29 de Março de 1910.</p>\n\n    <div class=\"sig\">\n      <p>FERNANDO PRESTES DE ALBUQUERQUE</p>\n      <p>Antonio de Padua Salles.</p>\n    </div>\n  </div>\n\n  <div class=\"col\">\n    <p style=\"text-align:center;\">Clausulas a que refere o Decreto n. 1849, de 29 de Março de 1910</p>\n\n    <p class=\"clause-head\">I</p>\n    <p>O Governo do Estado de S. Paulo concede á Companhia Mogyana de Estradas de Ferro e Navegação licença para construcção, uso e gozo de uma estrada de ferro que, partindo do ponto terminal da que lhe foi concedida pelo Decreto n. 1773, de 1.° de Outubro de 1909 — vá terminar em Ribeirão Preto.</p>\n\n    <p class=\"clause-head\">II</p>\n    <p>Esta estrada de ferro gozará de uma zona garantida, de cem metros de cada lado, reduzida a 50 metros nas gargantas e declives de serras, limitadas por duas linhas parallelas ao eixo da via permanente, dentro da qual nenhuma outra estrada de ferro poderá receber generos ou passageiros, salvo: 1.°, o caso de outra ou mais estradas terem o mesmo ponto inicial ou terminal; 2.°, o caso em que o ponto inicial ou terminal de outra estrada esteja dentro da zona desta; 3.°, o caso de entroncamento referido nesta clausula.</p>\n    <p>Contanto que dentro da zona garantida desta estrada de ferro não receba generos nem passageiros, poderá qualquer outra atravessar a mesma zona, cruzando a linha desta, sujeita, porém, aos onus provenientes do cruzamento.</p>\n    <p>Qualquer outra estrada de ferro poderá ter simultaneamente os mesmos pontos inicial e terminal desta, respeitada a zona garantida por esta clausula, bem como poderá entroncar na linha desta, resolvendo o Governo, definitivamente, em caso de desaccordo, para regular as relações provenientes de entroncamento.</p>\n    <p>Considerar-se-á entroncamento, não só o caso de ligação por meio de via permanente, como por meio de estação commum.</p>\n\n    <p class=\"clause-head\">III</p>\n    <p>Gozará mais a estrada de ferro do direito de desappropriação, nos termos da legislação do Estado, para os terrenos necessarios á construcção da linha, estações, armazens e mais dependencias.</p>\n    <p>Quando fôr necessario iniciar uma acção de desappropriação, deverá ser apresentada ao Governo a respectiva planta, somente da parte a desapropriar.</p>\n    <p>O Governo, dentro do prazo de trinta dias, da data da apresentação da planta, deverá conceder ou negar a licença, dando os motivos da recusa, no caso de negativa, e indicando as modificações de traçado, de modo a permittir a continuação da obra.</p>\n    <p>Si, dentro do prazo de trinta dias, o Governo não se manifestar, fica entendido que está concedida a mesma licença.</p>\n\n    <p class=\"clause-head\">IV</p>\n    <p>O Governo prestará a esta estrada de ferro toda a protecção compativel com as leis, afim de que possa ella realizar a arrecadação das taxas estabelecidas, para que sejam respeitadas as disposições dos seus regulamentos e mantida a sua policia, devendo todo o empregado na arrecadação das taxas e na policia da linha ser cidadão da Republica.</p>\n\n    <p class=\"clause-head\">V</p>\n    <p><strong>Antes de iniciarem-se os trabalhos da construcção desta estrada de ferro, deverão ser submettidos á approvação do Governo os projectos de todo esses trabalhos, que comprehendem:</strong></p>\n  </div>\n\n</div>\n\n</body>\n</html>",
+              "refusal": null,
+              "reasoning": "The user wants me to convert an old Brazilian newspaper image (Diário Official do Estado de São Paulo, 1910) into HTML respecting layout and original words. Return only HTML code. I should transcribe as faithfully as possible, two-column layout. This is a historical public document (1910), so copyright is not an issue. Provide HTML only.",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "The user wants me to convert an old Brazilian newspaper image (Diário Official do Estado de São Paulo, 1910) into HTML respecting layout and original words. Return only HTML code. I should transcribe as faithfully as possible, two-column layout. This is a historical public document (1910), so copyright is not an issue. Provide HTML only.",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 4525,
+          "completion_tokens": 2721,
+          "total_tokens": 7246,
+          "cost": 0.05439,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.05439,
+            "upstream_inference_prompt_cost": 0.013575,
+            "upstream_inference_completions_cost": 0.040815
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 72,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

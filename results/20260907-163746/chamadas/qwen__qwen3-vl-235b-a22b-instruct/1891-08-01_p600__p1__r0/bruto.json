@@ -1,0 +1,78 @@
+{
+  "chave": "qwen/qwen3-vl-235b-a22b-instruct|1891-08-01_p600|p1|0",
+  "registro": {
+    "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "prompt_id": "p1",
+    "doc_id": "1891-08-01_p600",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 22.75322509999387,
+    "prompt_tokens": 2589,
+    "completion_tokens": 1154,
+    "total_tokens": 3743,
+    "cost_usd": 0.0018733,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Alibaba",
+    "generation_id": "gen-1788813512-Os2sSPGajgrTxl3Pbn2l",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-07T20:38:32Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788813512-Os2sSPGajgrTxl3Pbn2l",
+        "object": "chat.completion",
+        "created": 1788813512,
+        "model": "qwen/qwen3-vl-235b-a22b-instruct",
+        "provider": "Alibaba",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Diário Oficial - Agosto de 1891</title>\n    <style>\n        body {\n            font-family: \"Times New Roman\", serif;\n            line-height: 1.4;\n            margin: 2cm;\n        }\n        .header {\n            text-align: center;\n            font-weight: bold;\n            margin-bottom: 1em;\n            border-bottom: 2px solid black;\n            padding-bottom: 0.5em;\n        }\n        .date {\n            float: right;\n        }\n        .page-number {\n            float: left;\n        }\n        .section {\n            margin-top: 1.5em;\n            font-weight: bold;\n        }\n        .sub-section {\n            margin-left: 1em;\n            text-indent: -1em;\n            margin-top: 0.5em;\n        }\n        .signature {\n            text-align: right;\n            margin-top: 1em;\n        }\n        .divider {\n            text-align: center;\n            margin: 1em 0;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"header\">\n        <span class=\"page-number\">600</span>\n        <span>Sábado 1</span>\n        <span>DIÁRIO OFICIAL</span>\n        <span class=\"date\">Agosto (1891)</span>\n    </div>\n\n    <div class=\"content\">\n        <p>Dos empregados da recebedoria da capital, do collector e escrivão da collectoria de Jundiahy, fazendo igual pedido.—Idem.</p>\n        <p>Do directorio do partido republicano de Cananéa, fazendo equal pedido em favor do administrador e escrivão da Mesa de Rendas daquella localidade.—Idem.</p>\n        <p>D: José Scutari e outro, pedindo para ligar Campinas a Caraguatatuba por uma linha ferrea.—Idem.</p>\n        <p>Do dr. Augusto Daniel de Araujo Lima e outro, propondo-se a promover o saneamento e embelezamento da cidade de Santos.—Idem.</p>\n        <p>Da Companhia Carris de Ferro de S. Paulo, pedindo certidão.—Dê-se em termos.</p>\n\n        <div class=\"section\">5.ª SEÇÃO</div>\n        <p>Foi nomeado o cidadão Augusto Schmidt para o cargo de subdelegado de policia de Bragança.</p>\n        <p>Comunicou-se ao supremo tribunal de justiça, ao ministerio da justiça e á thesouraria do fazenda que, em 23 do corrente, o bacharel Joaquim Cordeiro Coelho Cintra entrou no exercício do cargo de juiz de direito da comarca de Santos, para que fôra nomeado por decreto de 7 de Março ultimo.</p>\n        <p>Palacio do Governo de Estado de S. Paulo, 30 de Julho de 1891. N. 749. Ao cidadão 4º juiz de paz de Santa Cruz do Rio Pardo.—Declaro-vos em referencia ao officio de 1º de Junho findo que estaes impedido de presidir ao casamento de vosso cunhado, com o qual tendes parentesco em 2º grau civil por affinidade, e que, no impedimento legitimo dos 4 juizes de paz serão estes substituidos pelo do districto mais vizinho, segundo o aviso n. 200 de 3 de Agosto de 1835.—Saúde e fraternidade.—Americo Brasiliense de Almeida Mello.</p>\n        <p>Declarou-se ao dr. chefe de policia que, para o governo resolver sobre o pedido de reforma apresentado pelo capitão do corpo de urbanos, José Antonio Corrêa, é mister primeiramente seja aquelle official submettido á rigorosa inspecção de saúde.—Idem.</p>\n        <p>Remetteu-se ao coronel commandante do corpo policial permanente os processos julgados pela junta de justiça a que responderam os soldados daquelle corpo: Angelo Gabriel Joaquim da Silva; Antonio Guilherme Sambier; Benito Antonio de Moraes, Felippe Antonio Pereira; Graciliano de Paula Figueiredo Muniz, João Antonio dos Santos; João Baptista da Rocha, João Florentino de Carvalho, Joaquim Antonio dos</p>\n\n        <div class=\"divider\">— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —",
+              "refusal": null,
+              "reasoning": null
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2589,
+          "completion_tokens": 1154,
+          "total_tokens": 3743,
+          "cost": 0.0018733,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0018733,
+            "upstream_inference_prompt_cost": 0.00067314,
+            "upstream_inference_completions_cost": 0.00120016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

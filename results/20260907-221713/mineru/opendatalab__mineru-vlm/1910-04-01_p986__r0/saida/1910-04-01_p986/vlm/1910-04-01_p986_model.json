@@ -1,0 +1,520 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.093,
+                0.035,
+                0.23,
+                0.049
+            ],
+            "angle": 0,
+            "content": "986 Sexta-feira 1"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.445,
+                0.04,
+                0.591,
+                0.056
+            ],
+            "angle": 0,
+            "content": "DIARIO OFFICIAL"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.84,
+                0.05,
+                0.941,
+                0.065
+            ],
+            "angle": 0,
+            "content": "Abril 1910"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.06,
+                0.066,
+                0.509,
+                0.153
+            ],
+            "angle": 0,
+            "content": "a) Planta geral da linha concedida com a indicação dos pontos da passagem obrigatorios, configuração do terreno, representada por meio de curvas de nível equidistantes de cinco metros no máximo, o, bem assim, em uma zona de cincoenta metros pelo menos, para cada lado, os campos, mattas, terrenes pedregosos e brejos, e, sempre que fôr possível, a divisa das propriedades particulares, minas e terras devolutas.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.058,
+                0.152,
+                0.504,
+                0.202
+            ],
+            "angle": 0,
+            "content": "Nessa planta, em escala de um para quatro mil, serão indicada todas as distancias kilemétricas, contadas a partir do ponto inicial da estrada; a extensão dos alichamentos rectos o curvos; os grâns e ratos das curvas empregadas.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.058,
+                0.201,
+                0.501,
+                0.247
+            ],
+            "angle": 0,
+            "content": "(3) Peral longitudinal, na escala de um para quatrocentos, para as altaras, e de um para quatro mil, para as distancias horizontais, mostrando, por meio de convenção, o terrano natural, as plataformas dos cortes e aterros e as obras de arte.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.058,
+                0.246,
+                0.5,
+                0.271
+            ],
+            "angle": 0,
+            "content": "c) O perfil longitudinal deverá ser acompanhado de perfis transversaes intervallados do cincoenta metros, no maximo.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.055,
+                0.27,
+                0.5,
+                0.327
+            ],
+            "angle": 0,
+            "content": "d) Projectos completos o especificados de todas as obras de arte necessarias para o estabelecimento da estrada, pontes, tunnais, viafactos, praxisões, boeiros, estações e dependências, bem como planas de todas as propriedades, na parte cuja desapropriação fêo indispensável.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.055,
+                0.327,
+                0.499,
+                0.35
+            ],
+            "angle": 0,
+            "content": "c) O desenho dos trilhos e acessorios, em grandeza de execução.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.055,
+                0.35,
+                0.499,
+                0.388
+            ],
+            "angle": 0,
+            "content": "f) Relação do material rodante, contendo e tipo das locomotivas, vegetas, gondolas e carres de passageiros, na escala de une para cincentra, ou em catalogos das fabricos.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.054,
+                0.387,
+                0.498,
+                0.412
+            ],
+            "angle": 0,
+            "content": "Es, éldos poderão ser apresentados por seções, contanto que os as até sejeon monclares de cinco kilómetros.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.053,
+                0.411,
+                0.495,
+                0.444
+            ],
+            "angle": 0,
+            "content": "Os projectos das pontes, estações e outras obras importantes poderão ser apresentados à medida que vivacem de ser executados.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.048,
+                0.445,
+                0.495,
+                0.481
+            ],
+            "angle": 0,
+            "content": "O Governo poderá rejeitar os projectos, quando não oferecerem gerendido de solidez; mas terá então do apresentar as modificações que julgar convenientes.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.049,
+                0.482,
+                0.495,
+                0.507
+            ],
+            "angle": 0,
+            "content": "Aço se reojitando a concessivaria a elles, poderá recoirer à coilingem, como vzo determinado na clausula XIX.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.261,
+                0.519,
+                0.283,
+                0.532
+            ],
+            "angle": 0,
+            "content": "VI"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.047,
+                0.542,
+                0.493,
+                0.603
+            ],
+            "angle": 0,
+            "content": "Dentre do seis mezos, a contar da data da publicação de decreto de concessão de licença, deverão ser iniciados os trabalhos de construção desta entrada de forro, os quais deverão estar concuidos dentro do dois anos, a contar da data da approvação dos projectos e que se reíra a clausula antecedente.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.045,
+                0.602,
+                0.491,
+                0.661
+            ],
+            "angle": 0,
+            "content": "Si, exgottado o prazo marcado para início, não houver começado as óreas da liha, a concessionaria perderá a importância da canção, em proveite do Estado, salvo caso de força maior, a juzão ao Governo, que concederá mais uma ad protegação, do metade daquelle prazo.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.255,
+                0.668,
+                0.282,
+                0.68
+            ],
+            "angle": 0,
+            "content": "VII"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.044,
+                0.69,
+                0.49,
+                0.728
+            ],
+            "angle": 0,
+            "content": "A esução feita pela concessionaria poderá ser levasada desde que tenham sido dispendidos em construção tres por cento da importância total de 5.032:634\\$284, do orçamento approximativo.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.044,
+                0.728,
+                0.489,
+                0.763
+            ],
+            "angle": 0,
+            "content": "A requerimento da Companhia, o Governo mandará um enguêrio da repartição competente examinar si a quantidade de cieras feitas corresponde a tres por cento da importância referida.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.043,
+                0.762,
+                0.488,
+                0.809
+            ],
+            "angle": 0,
+            "content": "Esse exame não poderá durar mais de dois mezes. Os ven- ciamentos do engenheiro, durante o tempo do exame das obras, coiterão por conta da concessionaria e serão deduzidos da im- portancia pela mesma caucionada.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.042,
+                0.809,
+                0.488,
+                0.868
+            ],
+            "angle": 0,
+            "content": "Si, no fim do um mez, a contar da data do pedido de orame das obras, não tiver o Governo encarragado engenheiro algum desse serviço, será considerado o orame feito e o total da quantia erucionada poderá ser retirado, independentemente da verificação da obra feita.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.247,
+                0.871,
+                0.281,
+                0.884
+            ],
+            "angle": 0,
+            "content": "VIII"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.037,
+                0.892,
+                0.486,
+                0.934
+            ],
+            "angle": 0,
+            "content": "O Governo, por seus agentes, poderá intervir, em qualquer tempo, em tudo o que se referir à solides das obras, resistencia do material e segurança do publico nesta estrada de ferro.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.733,
+                0.079,
+                0.757,
+                0.092
+            ],
+            "angle": 0,
+            "content": "XI"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.512,
+                0.1,
+                0.966,
+                0.253
+            ],
+            "angle": 0,
+            "content": "As obras de construção desta estrada de ferro não poderão impedir: o escôamento das aguas das propriedades particularas, a passagem das galerias de exgottes urbanos, de aguas utilizadas para abastecimento ou para finas industriacs e agrícolas, a navo-gabilidade dos rios e canaes e o livre transito das vias publicas. Ficam a cargo desta estrada de ferro as despesas com as obras necessarias para o cruzamento das rios, estradas publicas e caminhos particulares existentes ao tempo da construção da linha, ficando também a seu cargo as despesas com aignaos e guardas, quando se tornarem precisos necessos cruzamentos. Os onus provenientes dos cruzamentos das vies publicas que se abrirem depois da construção desta estrada de ferro não correção por conta della.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.729,
+                0.268,
+                0.745,
+                0.28
+            ],
+            "angle": 0,
+            "content": "X"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.507,
+                0.288,
+                0.958,
+                0.315
+            ],
+            "angle": 0,
+            "content": "Os preços de transporte neste estrada de ferro aos fixados em tarifas previamente approvas las pela administração, publios.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.507,
+                0.314,
+                0.957,
+                0.351
+            ],
+            "angle": 0,
+            "content": "Desias tarifas deverá constar a indicação do logar de partida e de chegada, a determinação dos frêtes pelas distancias a percorrer e a classificação dos generos.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.507,
+                0.35,
+                0.956,
+                0.373
+            ],
+            "angle": 0,
+            "content": "Não poderão meses preços exceder os mínimos adoptados para as linhas ferreas de igual bitola.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.506,
+                0.372,
+                0.956,
+                0.431
+            ],
+            "angle": 0,
+            "content": "E' vedado à estrada adoptar tarifas de favor para prejudicar ou favorecer pesiões ou cumpresas determinadas, assim como cobrar preços diferentes pelo transporte de passageiros e genetos, feito em condições identicas, desde que percizram distancias eguias, salvo o caso de tarifas diferenciacs.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.506,
+                0.431,
+                0.955,
+                0.466
+            ],
+            "angle": 0,
+            "content": "Depois de approvadas pelo Governo, serão as tarifas impressas em caractéres logíveis e collocadas em todas as estações, para conhecimento do publico.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.721,
+                0.467,
+                0.743,
+                0.478
+            ],
+            "angle": 0,
+            "content": "XI"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.502,
+                0.487,
+                0.956,
+                0.584
+            ],
+            "angle": 0,
+            "content": "Quando houver necessidade do se elevarem os preços das tarifas, solicitará esta estrada licença do Governo, apresentando as razões do acerescimo. No praso máximo de um moz reselverá o Governo sobre a questão. Si não o fizer, fica entendido que o acerescimo de preço está approvado. Neuluma elevação de preços das tarifas poderá tor força obrigatoria, mesmo approvada pelo Governo, são depois da publicação na imprense, durante dez dias, anunciando a modificação feita.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.501,
+                0.583,
+                0.952,
+                0.617
+            ],
+            "angle": 0,
+            "content": "Essa publicação será feita noz jornaes de maior circulação da Capital do Estado, e, quando for possível, em um de cada localidade servida por esta estrada.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.501,
+                0.618,
+                0.95,
+                0.641
+            ],
+            "angle": 0,
+            "content": "A reducção dos preços das tarifas poderá ter logar, independentemente de publicação prévia.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.533,
+                0.641,
+                0.95,
+                0.657
+            ],
+            "angle": 0,
+            "content": "Ums vez, porém, adoptada, a publicação será obrigatoria.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.71,
+                0.664,
+                0.74,
+                0.676
+            ],
+            "angle": 0,
+            "content": "XJI"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.5,
+                0.686,
+                0.948,
+                0.722
+            ],
+            "angle": 0,
+            "content": "As combinações que fizer esta estrada de forzo com outras, a respeito de tarifas, ao terão força obrigatoria depois de approvadas pelo Governo.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.706,
+                0.722,
+                0.741,
+                0.734
+            ],
+            "angle": 0,
+            "content": "XIII"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.497,
+                0.744,
+                0.949,
+                0.802
+            ],
+            "angle": 0,
+            "content": ": Serão observadas nesta estrada de ferro, enquanto o Governo não expedir o regulamento da lei n. 30, de 13 de Junho de 1892, as bases gerais para o transporte de bagagons, encomendes e mercadorias, estabelecidas pelo decreto n. 1237, de 2 de Maio de 1889.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.707,
+                0.804,
+                0.741,
+                0.816
+            ],
+            "angle": 0,
+            "content": "XIV"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.495,
+                0.825,
+                0.948,
+                0.887
+            ],
+            "angle": 0,
+            "content": "Para todos os efeitos legres ou, resultantes de contractos de lucros distribuidos entre os accionistas desta estrada de ferro, quer a título de bonus, quer sob forma de acções beneficiarias, ou por qualquer outro mero, serão computados conjunctamente com os pagos sob a denominação de dividendo.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.495,
+                0.886,
+                0.948,
+                0.932
+            ],
+            "angle": 0,
+            "content": "Para todos os efeite s resultantes de contractos, esta estrada deverá apresentar no Governo a conta do seu capital empregado na construção primílya, nos melhoramentos da linha e suas dependencias.",
+            "merge_prev": false
+        }
+    ]
+]

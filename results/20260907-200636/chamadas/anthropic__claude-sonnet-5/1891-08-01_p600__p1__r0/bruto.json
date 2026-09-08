@@ -1,0 +1,87 @@
+{
+  "chave": "anthropic/claude-sonnet-5|1891-08-01_p600|p1|0",
+  "registro": {
+    "model_id": "anthropic/claude-sonnet-5",
+    "prompt_id": "p1",
+    "doc_id": "1891-08-01_p600",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 44.21176390000619,
+    "prompt_tokens": 4655,
+    "completion_tokens": 3997,
+    "total_tokens": 8652,
+    "cost_usd": 0.04928,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Anthropic",
+    "generation_id": "gen-1788826047-TfIR9Un5pl7j6rMJgYx9",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T00:07:26Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788826047-TfIR9Un5pl7j6rMJgYx9",
+        "object": "chat.completion",
+        "created": 1788826047,
+        "model": "anthropic/claude-sonnet-5",
+        "provider": "Anthropic",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "end_turn",
+            "message": {
+              "role": "assistant",
+              "content": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diario Official - Sabbado 1 Agosto (1891)</title>\n<style>\n    body {\n        font-family: 'Times New Roman', Times, serif;\n        background-color: #f4f0e8;\n        margin: 0;\n        padding: 20px;\n    }\n    .page {\n        max-width: 1000px;\n        margin: 0 auto;\n        background-color: #fff;\n        padding: 20px 30px;\n        border: 1px solid #ccc;\n        box-shadow: 0 0 10px rgba(0,0,0,0.1);\n    }\n    .header {\n        display: flex;\n        justify-content: space-between;\n        font-weight: bold;\n        font-size: 14px;\n        border-bottom: 2px solid #000;\n        padding-bottom: 5px;\n        margin-bottom: 15px;\n    }\n    .header .center {\n        letter-spacing: 2px;\n        font-size: 16px;\n    }\n    .columns {\n        display: flex;\n        gap: 20px;\n        text-align: justify;\n    }\n    .col {\n        flex: 1;\n        font-size: 13px;\n        line-height: 1.3;\n    }\n    .col p {\n        margin: 0 0 8px 0;\n        text-indent: 15px;\n    }\n    h3.section-title {\n        text-align: center;\n        margin: 15px 0;\n        font-size: 15px;\n    }\n    h4.subsection {\n        text-align: center;\n        font-variant: small-caps;\n        margin: 15px 0 8px 0;\n        font-size: 12px;\n        letter-spacing: 1px;\n    }\n    .divider {\n        text-align: center;\n        margin: 15px 0;\n    }\n    .italic {\n        font-style: italic;\n    }\n    .signature {\n        font-style: italic;\n    }\n</style>\n</head>\n<body>\n<div class=\"page\">\n\n    <div class=\"header\">\n        <span>600 Sabbado 1</span>\n        <span class=\"center\">DIARIO OFFICIAL</span>\n        <span>Agosto (1891)</span>\n    </div>\n\n    <div class=\"columns\">\n\n        <div class=\"col\">\n            <p>Dos empregados da recebedoria da capital, do collector e escrivão da collectoria de Jundiahy, fazendo egual pedido.—Idem.</p>\n\n            <p>Do directorio do partido republicano de Cananéa, fazendo egual pedido em favor do administrador e escrivão da Mesa de Rendas daquella localidade.—Idem.</p>\n\n            <p>De José Scutari e outro, pedindo para ligar Campinas a Caraguatatuba por uma linha ferrea.—Idem.</p>\n\n            <p>Do dr. Augusto Daniel de Araujo Lima e outro, propondo-se a promover o saneamento e embellezamento da cidade de Santos.—Idem.</p>\n\n            <p>Da Companhia Carris de Ferro de S. Paulo, pedindo certidão.—Dê-se em termos.</p>\n\n            <div class=\"divider\">— — — — —</div>\n\n            <h3 class=\"section-title\">5.ª SECÇÃO</h3>\n\n            <p>Foi nomeado o cidadão Augusto Schmidt para o cargo de subdelegado de policia de Bragança.</p>\n\n            <p>Communicou-se ao supremo tribunal de justiça, ao ministerio da justiça e a thesouraria de fazenda que, em 23 do corrente, o bacharel Joaquim Cordeiro Coelho Cintra entrou no exercicio do cargo de juiz de direito da comarca de Santos, para que fôra nomeado por decreto de 7 de Março ultimo.</p>\n\n            <p>Palacio do Governo de Estado de S. Paulo, 30 de Julho de 1891. N. 749. Ao cidadão 4º juiz de paz de Santa Cruz do Rio Pardo.—Declaro-vos em referencia ao officio de 1º de Junho findo que estaes impedido de presidir ao casamento de vosso cunhado, com o qual tendes parentesco em 2º gráu civil por affinidade, e que no impedimento legitimo dos 4 juizes de paz serão estes substituidos pelo do districto mais visinho, segundo o aviso n. 200 de 3 de Agosto de 1835.—Saúde e fraternidade.—<span class=\"italic\">Americo Brasiliense de Almeida Mello.</span></p>\n\n            <p>Declarou-se ao dr. chefe de policia que, para o governo resolver sobre o pedido de reforma apresentado pelo capitão do corpo de urbanos, José Antonio Corrêa, é mister primeiramente seja aquelle official submettido a rigorosa inspecção de saúde.</p>\n\n            <p>Remetteu-se ao coronel commandante do corpo policial permanente os processos julgados pela juuta de justiça a que responderam os soldados daquelle corpo, Angelo Gabriel Joaquim da Silva, Antonio Guilherme Sambier, Bento Antonio de Moraes, Felippe Antonio Pereira, Graciliano de Paula Figueiredo Muniz, João Antonio dos Santos, João Baptista da Rocha, João Florentino de Carvalho, Joaquim Antonio dos</p>\n        </div>\n\n        <div class=\"col\">\n            <p>Santos, Joaquim Dias de Siqueira, José dos Santos, José Matheus Calderaro, José Alves Teixeira, José Rufino de Oliveira, Manoel Xavier de Souza, Pedro Antonio de Oliveira e Sebastião Domingos de Oliveira.</p>\n\n            <h4 class=\"subsection\">OFFICIOS DESPACHADOS</h4>\n\n            <p>Da intendencia municipal da villa do Tijuco Preto, pedindo para ser aquelle termo elevado a comarca.—Remeta-se ao Congresso do Estado.</p>\n\n            <p>Da intendencia municipal e directorio republicano de Belém do Descalvado, representando sobre o decreto que creou a comarca de Pirassununga.—Idem.</p>\n\n            <p>Do dr. juiz de direito da 2ª vara, enviando a reclamação apresentada pelo procurador fiscal do Thesouro do Estado contra o facto de não se lhe abonarem custas forenses nos autos de inventarios a que asiste e sobre o facto de ser excluido da porcentagem que para o juizo se costuma deduzir da taxa de heranças e legados.—Idem.</p>\n\n            <p>Do dr. juiz de direito da 1ª vara, representando sobre a necessidade de ser creado o logar de auditor do corpo policial permanente.—Idem.</p>\n\n            <h4 class=\"subsection\">REQUERIMENTOS DESPACHADOS</h4>\n\n            <p>Do bacharel Gabriel Dias da Silva, solicitando certidão relativamente ao tempo em que exerceu o officio de tabellião em Campinas.—Sim, em termos.</p>\n\n            <p>Do preso Fortunato Augusto dos Santos, pedindo por certidão a data da sua entrada para a cadeia de São José do Barreiro.—Ao dr. juiz de direito da comarca de S. José do Barreiro para attender.</p>\n\n            <div class=\"divider\">——◈——</div>\n\n            <h4 class=\"subsection\">Expediente do Thesouro do Estado</h4>\n            <p style=\"text-align:center; text-indent:0; font-style:italic;\">Dia 31 de Julho</p>\n\n            <p>Officio da directoria do Seminario da Gloria, remettendo a relação nominal das educandas desse estabelecimento, etc.—Informe a contadoria.</p>\n\n            <p>Dito da intendencia municipal de São Sebastião, solicitando ao Governo um auxilio para concertos na caixa d'agua dessa cidade.(2.º despacho).—Entregue-se a quantia de 1:000$000.</p>\n\n            <p>Requerimento do cidadão Candido Henrique da Silva, alferes do corpo policial permanente, solicitando o pagamento da quantia de 48$000.—Remetta-se ao commandante do corpo policial, solicitando a necessaria informação.</p>\n\n            <p>Officios de professores do Estado, pedindo expedição de ordem aos exactores para lhes pagarem os ven-</p>\n        </div>\n\n        <div class=\"col\">\n            <p>cimentos devidos durante o exercicio corrente.—Informe a Contadoria.</p>\n\n            <p>Requerimento de Francisco Teixeira da Silva, pedindo que seja autorisado o collector de Casa Branca a receber o imposto predial que deve o supplicante do exercicio de 1890-1891.—Providenciado com circular n. 37 de 27 de Julho corrente.</p>\n\n            <p>Dito de Moysés Bernardo de Camargo, marido e curador de d. Guilhermina Maria da Silva, solicitando que se mande certificar qual o tempo em que a referida senhora exerceu effectivamente o cargo de professora, depois de estar em vigor a lei de 22 de Agosto de 1887.—Sim, em termos.</p>\n\n            <p>Dito do cidadão Justo Nogueira de Azambuja, solicitando o pagamento da quantia de 72:833$76, proveniente de fardamento fornecido aos corpos de urbanos e permanentes.—Pague-se.</p>\n\n            <p>Dito de João Jacyntho Gonçalves de Andrade, solicitando que se mande certificar si deve imposto predial.—Sim, em termos.</p>\n\n            <p>Mandou-se pagar a quantia de 1.000$000 a Fortunato Betoldi, proveniente do fornecimento de cem japonas aos presos da cadeia desta capital.</p>\n\n            <p>Idem idem o dito de 450$000 a Pompeu Scuvero, proveniente de caixilhos envidraçados fornecidos á mesma.</p>\n\n            <p>Declarou-se ao cidadão dr. Norberto Cruz, engenheiro ajudante da commissão do Alto Paraná, que deve recolher á superintendencia de Obras Publicas os objectos pertencentes a essa extincta commissão, constantes da relação n. 2, etc.</p>\n\n            <p>Communicou-se ao cidadão superintendente de Obras Publicas, essa resolução.</p>\n\n            <p>Autorisou-se o cidadão collector do Jahú a pagar ao cidadão José Vaz Pinto Ribeiro, em cujo poder se acham os animaes e outros objectos pertencentes á extincta commissão do Alto Paraná, a pastagem dos mesmos, na razão de dous mil réis (2$000) por cabeça, etc.</p>\n\n            <p>Remetteu-se ao cidadão administrador da Meza de Rendas de Santos a factura relativa a volumes vindos do estrangeiro para a Pharmacia do Estado.</p>\n\n            <p>Determinou-se ao cidadão collector da Franca que entregue ao dito do Carmo da Franca os livros de lançamentos do imposto de capitação pertencentes a essa villa, uma relação dos contribuintes dos impostos diversos, etc.</p>\n\n            <div class=\"divider\">—</div>\n\n            <p>Foram expedidas as seguintes quitações, que se acham em poder</p>\n        </div>\n\n    </div>\n</div>\n</body>\n</html>\n```",
+              "refusal": null,
+              "reasoning": "I'm working on transcribing this old Brazilian document into HTML, keeping the original column layout and text content intact.\n\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "I'm working on transcribing this old Brazilian document into HTML, keeping the original column layout and text content intact.\n\n",
+                  "format": "anthropic-claude-v1",
+                  "index": 0,
+                  "signature": "EoQDCqgBCBEYAipAmBMU7cZDMHlM4CVzRKuPRlF9GkBAcikPtDr0WE/1v+IFKXp70H2VWdT5QBMxVR+QvvoTtIR7Dt6sq772E0SBtTIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQwZDk4M2YzZi00OWZhLTRhNDYtODI1NC1iMWJiMjQ5MWEyYTlyEIoho2WObG9fonzPeROVizKIAQGoAcOj/dQGsAECEgzg+fJ0cyrX0wLk/4EaDI7dyH8ELr3y2QN5FiIwM4+pLlZo0qGOZhmUsZB/im4/FUYizMdg2PUGf/MPlXSZEKWTwlRENBNquGIU29TTKogBiKUODH9FTilmEdC/aBSGqV8JWSQgRDBif5N94xlb3/4LRNPbIKWiaCmJvmn7t3arZLr9mjSpN4fZ3IpLxBReNcZ/9d7FksiT39xu1ub0HVOlJG02piqzRbu+5zC5Ke3hSnqmnqYBUsacTTdB9uOxO5ALzu5y3QG/gmLo73SGdUgBpbHxU31ymBgB"
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 4655,
+          "completion_tokens": 3997,
+          "total_tokens": 8652,
+          "cost": 0.04928,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.04928,
+            "upstream_inference_prompt_cost": 0.00931,
+            "upstream_inference_completions_cost": 0.03997
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 37,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

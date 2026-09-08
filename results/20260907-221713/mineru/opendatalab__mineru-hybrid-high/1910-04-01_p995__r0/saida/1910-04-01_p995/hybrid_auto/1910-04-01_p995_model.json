@@ -1,0 +1,1147 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.065,
+                0.049,
+                0.162,
+                0.062
+            ],
+            "angle": 0,
+            "content": "Seita-feira, 1"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.409,
+                0.046,
+                0.558,
+                0.059
+            ],
+            "angle": 0,
+            "content": "DIARIO OFFICIAL"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.792,
+                0.044,
+                0.912,
+                0.057
+            ],
+            "angle": 0,
+            "content": "Abril 1910~995"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.035,
+                0.077,
+                0.329,
+                0.113
+            ],
+            "angle": 0,
+            "content": "O sr. Gabriel Gomide ao sr. Scuz: e Castro, as civeis 5605 do Santos, 5609 do Piracicaba e 5772 da Cospital.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.035,
+                0.113,
+                0.33,
+                0.183
+            ],
+            "angle": 0,
+            "content": "O sr. Firmino Whitacker ao sr. Gabriel Gemide, as cíveis 5184 de Piracicaba, 5648 de Rio Claro, 5441 de Santa Izabel, 5003 de Jaboticabal, 5352 de Agudos, 6023 de Campicas, 5180 e 5368 de Santos, 5729, 5862, 5687, 5339, 6415 e 5787 da Capital.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.037,
+                0.188,
+                0.331,
+                0.259
+            ],
+            "angle": 0,
+            "content": "--O sr. procurador geral do Estado deu parecer nas app llações cíveis ns. 5564, de Espírito Santo do Finhal e 5870 de São Carlos a nos embargos 2270 da Capital, 5804 de Ibitingu, 5502 e 5735 de Jaboticabal.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.14,
+                0.269,
+                0.23,
+                0.28
+            ],
+            "angle": 0,
+            "content": "JULAMENTOS"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.153,
+                0.291,
+                0.218,
+                0.304
+            ],
+            "angle": 0,
+            "content": "Embargos"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.04,
+                0.313,
+                0.334,
+                0.371
+            ],
+            "angle": 0,
+            "content": "N. 5597—Capital—Embargante, A. Weinberg; c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c.\nG. Lunsille & Comp; relator, o. r. Mcirelles Reis.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.042,
+                0.371,
+                0.334,
+                0.397
+            ],
+            "angle": 0,
+            "content": "Julgaram subsistente a desistencia dos embargos.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.425,
+                0.076,
+                0.55,
+                0.09
+            ],
+            "angle": 0,
+            "content": "Appellações cíveis"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.339,
+                0.098,
+                0.635,
+                0.145
+            ],
+            "angle": 0,
+            "content": "N. 5561—Piracicaba—Appelante, Thomiz Alonso Knoso; appellada, d. Laurinda Alves de Oliveira; relator, o sr. Francisco Saldenha.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.356,
+                0.145,
+                0.635,
+                0.158
+            ],
+            "angle": 0,
+            "content": "Converteram o julgamesto em diligência.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.34,
+                0.158,
+                0.636,
+                0.203
+            ],
+            "angle": 0,
+            "content": "N. 6057—Capital—A. pellante, o juiz do de direito; appellados, Theodoro Bubra- ner e sua mulher; rolater, o sr. Ferreira França.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.357,
+                0.203,
+                0.506,
+                0.215
+            ],
+            "angle": 0,
+            "content": "Negaram provimento.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.342,
+                0.214,
+                0.636,
+                0.26
+            ],
+            "angle": 0,
+            "content": "N. 6914—Capital—Appellante, Thomé Gomes Ferreira; appellado, Francisco de Souza Franco; relator, o sr. Juvenal Malheircs.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.358,
+                0.26,
+                0.508,
+                0.272
+            ],
+            "angle": 0,
+            "content": "Negaram provimento.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.343,
+                0.271,
+                0.636,
+                0.306
+            ],
+            "angle": 0,
+            "content": "N. 60 5—Capital—Appellaute, o juiz de de direito; appellados, Laura Hind e outros; relator, o sr. Juvenal Malheiros.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.359,
+                0.306,
+                0.508,
+                0.319
+            ],
+            "angle": 0,
+            "content": "Negaram provimento.",
+            "merge_prev": false
+        },
+        {
+            "type": "doc_title",
+            "bbox": [
+                0.679,
+                0.078,
+                0.904,
+                0.1
+            ],
+            "angle": 0,
+            "content": "ACTOS FEDERAES"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.662,
+                0.122,
+                0.922,
+                0.148
+            ],
+            "angle": 0,
+            "content": "DECRETO N. 7917—DE 24 DE MARÇO\nDE 1910",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.647,
+                0.158,
+                0.94,
+                0.183
+            ],
+            "angle": 0,
+            "content": "Creia o Registro e Archivo Geral de Marcas\npara animaes",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.646,
+                0.191,
+                0.941,
+                0.237
+            ],
+            "angle": 0,
+            "content": "O Presidente da República dos Estados Unidos do Brazil, em execução da lei número 1606, de 29 de Dezembro de 1906, decretas:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.647,
+                0.238,
+                0.942,
+                0.317
+            ],
+            "angle": 0,
+            "content": "Artigo 1.º E' creado o Registro e Archivo Garal de Marcas para animaes de raça bovina, cavaliar e muar, do acordo com o regulamento que com esta baixa, assignado pelo ministro do Estado dos Negócios da Agricultura, Industria e Commeria.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.648,
+                0.317,
+                0.943,
+                0.34
+            ],
+            "angle": 0,
+            "content": "Artigo 2.º Revogam-se as disposições em contrário.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.649,
+                0.34,
+                0.944,
+                0.365
+            ],
+            "angle": 0,
+            "content": "Rio de Janeiro, 24 de Março de 1519, 89.º da Independência e 22.º da República.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.675,
+                0.369,
+                0.777,
+                0.381
+            ],
+            "angle": 0,
+            "content": "Nilo Propanha",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.675,
+                0.381,
+                0.944,
+                0.395
+            ],
+            "angle": 0,
+            "content": "Rodolpho Nogueira da Rocha Miranda.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.101,
+                0.413,
+                0.885,
+                0.432
+            ],
+            "angle": 0,
+            "content": "Directoria de Agricultura — O TEMPO E A LAVOURA — Seção Meteorológica"
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.182,
+                0.439,
+                0.832,
+                0.454
+            ],
+            "angle": 0,
+            "content": "OBSERVACÕES RECEHIDAS PELG TELEGRAPHO, NO DIA 31 DE MARÇO DE 1910"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.045,
+                0.457,
+                0.952,
+                0.803
+            ],
+            "angle": 0,
+            "content": "<table><tr><td rowspan=\"3\">Observatorios</td><td colspan=\"3\">Observações da Respar</td><td colspan=\"8\">Observação do Dia, tomada e Ola. Csa. Gw.</td></tr><tr><td colspan=\"2\">Temperatura</td><td rowspan=\"2\">Tensão</td><td rowspan=\"2\">Preciso normalizada</td><td colspan=\"2\">Thermometro</td><td rowspan=\"2\">Hauíza de ratsiva</td><td colspan=\"2\">Vento</td><td rowspan=\"2\">Corteira do Cau</td><td rowspan=\"2\">OBSERVACÕES</td></tr><tr><td>Max.</td><td>Min.</td><td>Tempo</td><td>Sexté</td><td>Otras</td><td>Velce</td></tr><tr><td>Sautos</td><td>26,6</td><td>22,7</td><td>Bom</td><td>761,2</td><td>24,0</td><td>22,5</td><td>+7 %</td><td>E</td><td>1 m</td><td>Claro</td><td>Orvalho</td></tr><tr><td>Igucapa</td><td>26,0</td><td>21,0</td><td>»</td><td>761,0</td><td>22,0</td><td>19,0</td><td>74 »</td><td>NW</td><td>4 m.</td><td>Enc.</td><td>Bom</td></tr><tr><td>S. Paulo</td><td>28,0</td><td>18,5</td><td>»</td><td>761,4</td><td>22,0</td><td>19,0</td><td>74 »</td><td>NE</td><td>1 m.</td><td>Claro</td><td>Neblina</td></tr><tr><td>Campinas</td><td>28,5</td><td>17,1</td><td>»</td><td>761,5</td><td>23,6</td><td>19,4</td><td>65 »</td><td>E</td><td>2 m.</td><td>»</td><td>Choveu. Neblina</td></tr><tr><td>Ribeirão Preto</td><td>30,4</td><td>17,8</td><td>»</td><td>762,2</td><td>22,7</td><td>20,1</td><td>77 »</td><td>NE</td><td>2 m.</td><td>»</td><td>Bom</td></tr><tr><td>São Carios</td><td>28,0</td><td>16,0</td><td>»</td><td>761,4</td><td>23,4</td><td>20,0</td><td>72 »</td><td>E</td><td>4 m.</td><td>»</td><td>Bom</td></tr><tr><td>Taubaté</td><td>28,2</td><td>20,0</td><td>»</td><td>761,4</td><td>23,0</td><td>20,8</td><td>81 »</td><td>NE</td><td>2 m.</td><td>M. enc.</td><td></td></tr><tr><td>Pracicaba</td><td>33,0</td><td>18,0</td><td>»</td><td>761,1</td><td>21,0</td><td>21,2</td><td>77 »</td><td>N</td><td>1 m.</td><td>»</td><td>Neblioca</td></tr><tr><td>Agudos</td><td>33,0</td><td>19,0</td><td>Var.</td><td>761,6</td><td>22,2</td><td>20,4</td><td>84 »</td><td>C</td><td>—</td><td>Claro</td><td>Choveu 50 mm. Ovalho</td></tr><tr><td>Brotas</td><td>29,0</td><td>17,0</td><td>Bom</td><td>761,1</td><td>23,8</td><td>19,8</td><td>67 »</td><td>N</td><td>1 m.</td><td>»</td><td></td></tr><tr><td>Franca</td><td>26,6</td><td>18,2</td><td>»</td><td>762,2</td><td>21,4</td><td>16,9</td><td>62 »</td><td>NE</td><td>4 m.</td><td>»</td><td>O.valho</td></tr><tr><td>Avaré</td><td>32,2</td><td>19,1</td><td>»</td><td>761,0</td><td>26,4</td><td>23,2</td><td>75 »</td><td>N</td><td>1 m.</td><td>»</td><td>Bom</td></tr><tr><td>Tatuby</td><td>31,0</td><td>17,5</td><td>»</td><td>761,»</td><td>24,0</td><td>21,8</td><td>82 »</td><td>C</td><td>—</td><td>»</td><td></td></tr><tr><td>Ytú</td><td>29,4</td><td>20,2</td><td>»</td><td>761,9</td><td>24,2</td><td>21,2</td><td>75</td><td>NE</td><td>4 m.</td><td>M. enc.</td><td></td></tr><tr><td>Faxina</td><td>30,7</td><td>18,0</td><td>»</td><td>760,8</td><td>22,6</td><td>20,6</td><td>83 »</td><td>C</td><td>—</td><td>»</td><td>Orvalho. Neblina</td></tr><tr><td>Uberaba</td><td>27,5</td><td>20,2</td><td>—</td><td>761,8</td><td>24,3</td><td>21,3</td><td>75 »</td><td>S</td><td>9 m.</td><td>Claro</td><td></td></tr><tr><td>Paranaguá</td><td>26,2</td><td>20,5</td><td>—</td><td>758,8</td><td>24,5</td><td>23,3</td><td>90 »</td><td>C</td><td>—</td><td>M. enc</td><td></td></tr><tr><td>Flcrianopolia</td><td>23,8</td><td>21,0</td><td>—</td><td>759,3</td><td>23,7</td><td>22,0</td><td>86 »</td><td>C</td><td>—</td><td>»</td><td>Choveu 3,2 mm.</td></tr><tr><td>Rio de Janeiro</td><td>27,3</td><td>23,0</td><td>—</td><td>761,4</td><td>25,3</td><td>22,2</td><td>75 »</td><td>NE</td><td>2 m.</td><td>Claro</td><td>B m</td></tr><tr><td>Monteviléu</td><td>20,0</td><td>16,2</td><td>—</td><td>762,5</td><td>19,2</td><td>18,3</td><td>91 »</td><td>SE</td><td>4 m.</td><td>Enc.</td><td>Máu. Gartá e r lampagos</td></tr></table>"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.053,
+                0.812,
+                0.954,
+                0.878
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Cordoba</td><td>22,0</td><td>15,0</td><td>—</td><td>763,5</td><td>17,0</td><td>16,0</td><td>90</td><td>S</td><td>2 m.</td><td>Enc.</td><td></td></tr><tr><td>Mendoza</td><td>27,0</td><td>12,0</td><td>—</td><td>767,2</td><td>14,0</td><td>9,0</td><td>47</td><td>SW</td><td>6 m.</td><td>•</td><td></td></tr></table>"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.116,
+                0.883,
+                0.414,
+                0.909
+            ],
+            "angle": 0,
+            "content": "Tempo provavel para o dia 1.º de Abril: Instavel. Noblias. Temporatura subindo."
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.703,
+                0.892,
+                0.924,
+                0.923
+            ],
+            "angle": 0,
+            "content": "J. N. Belfort Matteo,\nChefe da Seccio Meteorologica."
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.052,
+                0.078,
+                0.329,
+                0.09
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.036,
+                0.09,
+                0.328,
+                0.101
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.037,
+                0.102,
+                0.242,
+                0.114
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.052,
+                0.112,
+                0.328,
+                0.124
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.037,
+                0.125,
+                0.328,
+                0.134
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.037,
+                0.136,
+                0.328,
+                0.146
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.037,
+                0.148,
+                0.328,
+                0.158
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.038,
+                0.159,
+                0.328,
+                0.169
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.037,
+                0.17,
+                0.329,
+                0.181
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.054,
+                0.189,
+                0.33,
+                0.2
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.039,
+                0.224,
+                0.33,
+                0.235
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.039,
+                0.236,
+                0.33,
+                0.246
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.04,
+                0.248,
+                0.09,
+                0.259
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.039,
+                0.2,
+                0.33,
+                0.212
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.04,
+                0.212,
+                0.33,
+                0.223
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.142,
+                0.272,
+                0.229,
+                0.279
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.154,
+                0.291,
+                0.218,
+                0.305
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.056,
+                0.315,
+                0.333,
+                0.325
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.041,
+                0.326,
+                0.333,
+                0.338
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.042,
+                0.339,
+                0.333,
+                0.348
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.042,
+                0.35,
+                0.332,
+                0.36
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.043,
+                0.362,
+                0.119,
+                0.372
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.057,
+                0.372,
+                0.334,
+                0.383
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.044,
+                0.384,
+                0.112,
+                0.395
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.426,
+                0.077,
+                0.548,
+                0.09
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.342,
+                0.099,
+                0.632,
+                0.111
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.34,
+                0.111,
+                0.632,
+                0.123
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.34,
+                0.123,
+                0.631,
+                0.135
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.341,
+                0.135,
+                0.446,
+                0.146
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.534,
+                0.136,
+                0.541,
+                0.141
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.357,
+                0.145,
+                0.634,
+                0.158
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.357,
+                0.158,
+                0.635,
+                0.169
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.341,
+                0.169,
+                0.634,
+                0.181
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.341,
+                0.181,
+                0.634,
+                0.192
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.341,
+                0.192,
+                0.395,
+                0.204
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.359,
+                0.204,
+                0.504,
+                0.215
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.359,
+                0.213,
+                0.635,
+                0.225
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.341,
+                0.226,
+                0.635,
+                0.237
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.343,
+                0.237,
+                0.634,
+                0.249
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.343,
+                0.249,
+                0.395,
+                0.261
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.36,
+                0.26,
+                0.507,
+                0.273
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.36,
+                0.27,
+                0.636,
+                0.283
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.346,
+                0.282,
+                0.635,
+                0.294
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.346,
+                0.295,
+                0.609,
+                0.306
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.361,
+                0.307,
+                0.507,
+                0.318
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.68,
+                0.079,
+                0.902,
+                0.1
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.663,
+                0.123,
+                0.922,
+                0.136
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.762,
+                0.136,
+                0.828,
+                0.147
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.648,
+                0.159,
+                0.939,
+                0.17
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.747,
+                0.171,
+                0.915,
+                0.182
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.664,
+                0.192,
+                0.938,
+                0.204
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.649,
+                0.203,
+                0.941,
+                0.216
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.648,
+                0.215,
+                0.94,
+                0.227
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.649,
+                0.226,
+                0.707,
+                0.238
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.665,
+                0.237,
+                0.939,
+                0.249
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.65,
+                0.249,
+                0.94,
+                0.261
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.648,
+                0.261,
+                0.941,
+                0.272
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.648,
+                0.272,
+                0.941,
+                0.284
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.649,
+                0.284,
+                0.941,
+                0.294
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.65,
+                0.295,
+                0.941,
+                0.307
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.651,
+                0.308,
+                0.702,
+                0.317
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.667,
+                0.317,
+                0.943,
+                0.33
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.651,
+                0.331,
+                0.743,
+                0.34
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.668,
+                0.341,
+                0.944,
+                0.352
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.652,
+                0.352,
+                0.944,
+                0.364
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.677,
+                0.369,
+                0.777,
+                0.383
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.678,
+                0.382,
+                0.943,
+                0.394
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.103,
+                0.413,
+                0.884,
+                0.432
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

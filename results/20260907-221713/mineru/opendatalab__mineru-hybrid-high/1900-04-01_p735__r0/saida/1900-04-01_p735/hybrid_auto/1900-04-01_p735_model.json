@@ -1,0 +1,2761 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.084,
+                0.049,
+                0.143,
+                0.06
+            ],
+            "angle": 0,
+            "content": "Domingo,"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.401,
+                0.047,
+                0.518,
+                0.058
+            ],
+            "angle": 0,
+            "content": "DIARIO OFFICIAL"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.764,
+                0.044,
+                0.882,
+                0.057
+            ],
+            "angle": 0,
+            "content": "AbHI 1900 735"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.06,
+                0.073,
+                0.335,
+                0.11
+            ],
+            "angle": 0,
+            "content": "Oficiou à directoria pedindo providencias para que seja feits uma vistoria nos pradios da rua Breser ns, 42 e 11.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.129,
+                0.115,
+                0.258,
+                0.126
+            ],
+            "angle": 0,
+            "content": "Consolacao—1. secido"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.061,
+                0.128,
+                0.338,
+                0.164
+            ],
+            "angle": 0,
+            "content": "O dr. Synesio Pe-stana, inspector sanitarlo desta seção, visitou hoje as casas da rua 7 de Abril de ns. 88 a 126.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.074,
+                0.165,
+                0.3,
+                0.177
+            ],
+            "angle": 0,
+            "content": "Estado em regulares condições hygienica.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.063,
+                0.178,
+                0.338,
+                0.202
+            ],
+            "angle": 0,
+            "content": "A' rua Braulio Gomes visitou a casa n. 10 a procura de uma fabric de vinhos",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.136,
+                0.203,
+                0.266,
+                0.215
+            ],
+            "angle": 0,
+            "content": "Consolação-3.º seccão"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.065,
+                0.216,
+                0.34,
+                0.265
+            ],
+            "angle": 0,
+            "content": "O dr. Evaristo Bacellar, inspector sanitário desta sacção, visitou hoje as casas da rua dr. Abranches de ns. 1 a 51, inclusive I armazem de secos a cocheira da Companhia Viação Paulista.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.077,
+                0.267,
+                0.194,
+                0.277
+            ],
+            "angle": 0,
+            "content": "Vaccinou 9 creanças.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.077,
+                0.279,
+                0.198,
+                0.29
+            ],
+            "angle": 0,
+            "content": "Expediu 3 Intimações.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.067,
+                0.291,
+                0.34,
+                0.315
+            ],
+            "angle": 0,
+            "content": "Encontrou lidas as casas em regulares condições de assio.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.077,
+                0.316,
+                0.223,
+                0.327
+            ],
+            "angle": 0,
+            "content": "E' bum o estido sanllao.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.141,
+                0.329,
+                0.269,
+                0.34
+            ],
+            "angle": 0,
+            "content": "Consolação -4.¹ secção"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.067,
+                0.342,
+                0.342,
+                0.403
+            ],
+            "angle": 0,
+            "content": "O dr. Alfredo Guaraná, inspector sanitário deste seção, visitou hoje 25 casas da rua Victorino Carmilo, de ns. 1 e 11 e de 19 a -69, encontrando-15, na sua maioria, em boss condições de asseio.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.078,
+                0.404,
+                0.223,
+                0.415
+            ],
+            "angle": 0,
+            "content": "E' bom o estado sanitario.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.15,
+                0.444,
+                0.254,
+                0.464
+            ],
+            "angle": 0,
+            "content": "NOTICIARIO"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.18,
+                0.467,
+                0.231,
+                0.475
+            ],
+            "angle": 0,
+            "content": "一"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.072,
+                0.479,
+                0.344,
+                0.502
+            ],
+            "angle": 0,
+            "content": "Guarda nacional.—Foram declaradoe sem\neffeito :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.072,
+                0.504,
+                0.347,
+                0.553
+            ],
+            "angle": 0,
+            "content": "O decreto de 17 de Março último que nomeou Augusto Moreira de Carvalho para o posto de capitão da L.ª companhia do 126.º batalhão de infanteria da guarda nacional da comarca de Santos;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.072,
+                0.554,
+                0.349,
+                0.64
+            ],
+            "angle": 0,
+            "content": "O decreto da mesma data que annullou a nomeação de Antão Alves de Moura para o posto de capitão da 1.a companhia do 126.o batalhão de infanteria da guarda nacional da comarca de Santos, ficando subsistente o decreto de 26 de Agosto do ano passado na parte em que nomeou o referido oficial.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.074,
+                0.641,
+                0.351,
+                0.677
+            ],
+            "angle": 0,
+            "content": "Pagamentos.—Pelo Ministerio da Indus-\ntrio, Viação e Obras Publicas foram solicitados do\nda Fazenda os seguintes pagamentos :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.678,
+                0.352,
+                0.727
+            ],
+            "angle": 0,
+            "content": "De £ 2093-13-4 à Companhia Mechanica e Importadora de S. Paulo, de fornecimento feito à Estrada de Ferro Central do Brazil, em Dezembro do anno passado.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.077,
+                0.728,
+                0.352,
+                0.753
+            ],
+            "angle": 0,
+            "content": "De E 552-14-10 idem, idem, idem, em Dezembro do ano passado.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.078,
+                0.756,
+                0.353,
+                0.78
+            ],
+            "angle": 0,
+            "content": "Camora Syndical.—Cotação dos fundos públicos e particulares no dia 30 de Março de 1000 :",
+            "merge_prev": false
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.086,
+                0.781,
+                0.358,
+                0.878
+            ],
+            "angle": 0,
+            "content": "<table><tr><td></td><td></td><td>90 d/u</td><td>A&#x27; vista</td></tr><tr><td>Sobre</td><td>Londres</td><td>8 7/32</td><td>7 3,8:</td></tr><tr><td></td><td>Pariz.</td><td>1150</td><td>1173</td></tr><tr><td></td><td>Hamburgo</td><td>1432</td><td>1455</td></tr><tr><td></td><td>Italia.</td><td>—</td><td>1103</td></tr><tr><td></td><td>Portugal</td><td>—</td><td>480</td></tr><tr><td></td><td>New-York</td><td>—</td><td>6110</td></tr><tr><td colspan=\"2\">S. berano</td><td>—</td><td>—</td></tr></table>"
+        },
+        {
+            "type": "table_footnote",
+            "bbox": [
+                0.083,
+                0.87,
+                0.345,
+                0.88
+            ],
+            "angle": 0,
+            "content": "Suberatos . . . . . — —"
+        },
+        {
+            "type": "table_footnote",
+            "bbox": [
+                0.082,
+                0.883,
+                0.358,
+                0.893
+            ],
+            "angle": 0,
+            "content": "CLRSO OFFICIAL DOS FUNDOS PUBLICOS E PARTICULARES"
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.201,
+                0.894,
+                0.241,
+                0.904
+            ],
+            "angle": 0,
+            "content": "Bancos"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.083,
+                0.906,
+                0.358,
+                0.917
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>São Paul)</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>147$000</td></tr></table>"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.083,
+                0.919,
+                0.358,
+                0.93
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Mercantil de Santos.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>135,500</td></tr></table>"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.451,
+                0.073,
+                0.519,
+                0.084
+            ],
+            "angle": 0,
+            "content": "Companhias"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.349,
+                0.085,
+                0.622,
+                0.096
+            ],
+            "angle": 0,
+            "content": "Paulista de Vias Ferreza e Fluvias . . 258$100",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.349,
+                0.097,
+                0.622,
+                0.121
+            ],
+            "angle": 0,
+            "content": "Dila do idem, a 30 dias (1 vontade do veddedor . . . . . . . . . . . . 259$000",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.425,
+                0.123,
+                0.547,
+                0.134
+            ],
+            "angle": 0,
+            "content": "Lettras hypothecarias"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.349,
+                0.136,
+                0.623,
+                0.159
+            ],
+            "angle": 0,
+            "content": "Banco de Credito Real de São Paulo, 8º,\n9.º e 11.º. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.359,
+                0.16,
+                0.623,
+                0.185
+            ],
+            "angle": 0,
+            "content": "S. Paulo, 30 de Março de 1900.—O syndico, enry White.",
+            "merge_prev": false
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.466,
+                0.186,
+                0.507,
+                0.197
+            ],
+            "angle": 0,
+            "content": "DIA 31"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.359,
+                0.198,
+                0.624,
+                0.297
+            ],
+            "angle": 0,
+            "content": "<table><tr><td></td><td>50 d/v</td><td>A&#x27; vista</td></tr><tr><td>Sobre Londres</td><td>8 1/8</td><td>8 d.</td></tr><tr><td>» Pariz .</td><td>1174</td><td>1192</td></tr><tr><td>» Hamburgo . . .</td><td>1449</td><td>1572</td></tr><tr><td>» Italia .</td><td></td><td>1119</td></tr><tr><td>» Portugal . . .</td><td></td><td>485</td></tr><tr><td>New-York. . . .</td><td></td><td>6181</td></tr><tr><td>Siberanos . . . . .</td><td></td><td>—</td></tr></table>"
+        },
+        {
+            "type": "table_footnote",
+            "bbox": [
+                0.351,
+                0.304,
+                0.626,
+                0.314
+            ],
+            "angle": 0,
+            "content": "CURSO OFFICIAL DOS FUNDOS PUBLICOS E PARTICULATÉS"
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.469,
+                0.319,
+                0.508,
+                0.329
+            ],
+            "angle": 0,
+            "content": "Bancos"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.352,
+                0.331,
+                0.627,
+                0.342
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>São Paulo</td><td>$47,000</td></tr></table>"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.456,
+                0.344,
+                0.522,
+                0.355
+            ],
+            "angle": 0,
+            "content": "Companhias"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.353,
+                0.356,
+                0.627,
+                0.368
+            ],
+            "angle": 0,
+            "content": "L'aultsta de Vias Ferreas e Fluvias. 200800)",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.429,
+                0.369,
+                0.554,
+                0.38
+            ],
+            "angle": 0,
+            "content": "Lettras hypothecarias"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.354,
+                0.385,
+                0.628,
+                0.408
+            ],
+            "angle": 0,
+            "content": "Banco de Credito Real de S. Paulo, 4.\na 9ª séries 63\\$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.354,
+                0.41,
+                0.627,
+                0.435
+            ],
+            "angle": 0,
+            "content": "São Paulo, 31 de Março de 1990.—O syndico, Henry White.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.354,
+                0.439,
+                0.63,
+                0.475
+            ],
+            "angle": 0,
+            "content": "Hospederia de Immigrantes.-Boletim do movimento de immigrantes no dia 31 de Março de 1900:",
+            "merge_prev": false
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.364,
+                0.478,
+                0.629,
+                0.86
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>MOVIMENTO</td><td>Jafaros do 12 anos</td><td>De 7 a 12 anos</td><td>De 2 a 6 anos</td><td>Menores do 2 anos</td><td>TOTAL</td><td>PASSAGENS</td><td>Por contesto directo</td><td>Por intermedio dos agenços</td><td>Gom destino certo</td><td>Conducto los de bagagens</td><td>TOTAL</td></tr><tr><td rowspan=\"2\">Existiam</td><td rowspan=\"2\">25</td><td rowspan=\"2\">8</td><td rowspan=\"2\">8</td><td rowspan=\"2\">2</td><td rowspan=\"2\">26</td><td>Pedidas....</td><td>..</td><td>..</td><td>..</td><td>..</td><td>0</td></tr><tr><td>Concedidas.</td><td>..</td><td>..</td><td>..</td><td>..</td><td>0</td></tr><tr><td>Entraram</td><td>..</td><td>..</td><td>..</td><td>..</td><td>..</td><td>Embarcadas</td><td>..</td><td>..</td><td>..</td><td>..</td><td>0</td></tr><tr><td rowspan=\"2\">Bagagem</td><td rowspan=\"2\">..</td><td rowspan=\"2\">..</td><td rowspan=\"2\">..</td><td rowspan=\"2\">..</td><td rowspan=\"2\">..</td><td colspan=\"5\">Sahiram para a capital</td><td>0</td></tr><tr><td colspan=\"5\">Sahiram por conta própria.</td><td>0</td></tr><tr><td>Sahiram</td><td>..</td><td>..</td><td>..</td><td>..</td><td>..</td><td colspan=\"5\">Falleceram</td><td>0</td></tr><tr><td>Existem</td><td>25</td><td>8</td><td>8</td><td>2</td><td>49</td><td colspan=\"6\">1 fuzendeiro fez pedido de 5 famílias</td></tr></table>"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.375,
+                0.665,
+                0.629,
+                0.858
+            ],
+            "angle": 0,
+            "content": "<table><tr><td rowspan=\"2\">MOVIAENIO</td><td>Marces do 12 annos</td><td>De 7 a 12 annos</td><td>De 5 a 6 annos</td><td>Menores do 2 annos</td><td>TOTAL</td></tr><tr><td>25</td><td>8</td><td>2</td><td>25</td><td>43</td></tr><tr><td>Exisiam</td><td>..</td><td>..</td><td>..</td><td>..</td><td>2</td></tr><tr><td>Entraram</td><td>..</td><td>..</td><td>..</td><td>..</td><td>2</td></tr><tr><td>Basingem</td><td>..</td><td>..</td><td>..</td><td>..</td><td>2</td></tr><tr><td>Sabiram</td><td>..</td><td>..</td><td>..</td><td>..</td><td>2</td></tr><tr><td>Existem</td><td>25</td><td>8</td><td>8</td><td>8</td><td>2</td></tr></table>"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.375,
+                0.865,
+                0.641,
+                0.902
+            ],
+            "angle": 0,
+            "content": "Hospedaria de Immigrantes em São Paulo, 31\ne Março de 1900. — O ajudante do director,\nsão M. Pinheiro.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.37,
+                0.906,
+                0.642,
+                0.931
+            ],
+            "angle": 0,
+            "content": "Obituario.—Foram sepultados no Cemiterio Municipal do Araçá os seguintes cadaveres :",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.751,
+                0.071,
+                0.79,
+                0.081
+            ],
+            "angle": 0,
+            "content": "Dia 25"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.633,
+                0.081,
+                0.911,
+                0.104
+            ],
+            "angle": 0,
+            "content": "Domingos dos Santos, 50 anos, brazileiro; hemorragia cerebral.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.633,
+                0.105,
+                0.911,
+                0.128
+            ],
+            "angle": 0,
+            "content": "Maria Luisa, 60 anni, italiana, casada; embolia cerebrui.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.634,
+                0.13,
+                0.911,
+                0.154
+            ],
+            "angle": 0,
+            "content": "Mathias Congo, 70 annos, solteiro, africano; arterio schlerose.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.634,
+                0.155,
+                0.91,
+                0.18
+            ],
+            "angle": 0,
+            "content": "Henedicta Maria Conceição, 19 anos, brazileira, solteira; endocardile syphilitica.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.634,
+                0.18,
+                0.91,
+                0.205
+            ],
+            "angle": 0,
+            "content": "Antonio Correla Costa, 32 anos, portuguez, casado; tuberculose pulmonar.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.634,
+                0.206,
+                0.911,
+                0.229
+            ],
+            "angle": 0,
+            "content": "Féto masculino, filho de Ernesto Pertresi; nasceu morto.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.635,
+                0.23,
+                0.912,
+                0.254
+            ],
+            "angle": 0,
+            "content": "Félo masculino, filho de Antorelli Giovanni; nas-\ncen morlo.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.635,
+                0.255,
+                0.913,
+                0.278
+            ],
+            "angle": 0,
+            "content": "Félo masculino, filho de Carmine Natulli; rasceu morto.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.635,
+                0.28,
+                0.913,
+                0.304
+            ],
+            "angle": 0,
+            "content": "Maria, 13 vezes, brazileira, filba de João Ron; bronchite.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.635,
+                0.305,
+                0.914,
+                0.329
+            ],
+            "angle": 0,
+            "content": "Jannuario Rocco, 55 annos, Italiano, solteiro; insufficiencia mitral.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.635,
+                0.33,
+                0.914,
+                0.354
+            ],
+            "angle": 0,
+            "content": "Benedicta Andrelina Jesus, 23 annos, brazileira, solteira; tuberculose.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.756,
+                0.353,
+                0.796,
+                0.361
+            ],
+            "angle": 0,
+            "content": "Dia 56"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.635,
+                0.361,
+                0.914,
+                0.384
+            ],
+            "angle": 0,
+            "content": "Aldo Rescoli, 17 annos, italiano, solteiro; febre amarella,",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.635,
+                0.385,
+                0.914,
+                0.409
+            ],
+            "angle": 0,
+            "content": "Jacintho Pinheiro, 9 annos, portuguez; febre amarella.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.635,
+                0.41,
+                0.914,
+                0.434
+            ],
+            "angle": 0,
+            "content": "Carlos, 8 mezes, brazileiro, filho de José Pereira Simões; gastro enterite.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.639,
+                0.438,
+                0.915,
+                0.462
+            ],
+            "angle": 0,
+            "content": "Féto masculino, filho de Viceuza Boceia; nasceu morto.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.64,
+                0.464,
+                0.916,
+                0.488
+            ],
+            "angle": 0,
+            "content": "Francisco, 17 mezes, brazileiro, filho de Miguel Depetrangele; eclampsia.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.64,
+                0.489,
+                0.916,
+                0.513
+            ],
+            "angle": 0,
+            "content": "João das Dores Pestana, 25 anos, portuguez, solteiro; febre amarella.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.64,
+                0.514,
+                0.916,
+                0.538
+            ],
+            "angle": 0,
+            "content": "Julio Cesar Martins Pestana, 52 annos, portuguez, casado; febre amarella.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.641,
+                0.539,
+                0.917,
+                0.563
+            ],
+            "angle": 0,
+            "content": "Angelina, 3 annos, brazileira, filha de Michele Guira; bronchite capillar.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.642,
+                0.564,
+                0.919,
+                0.588
+            ],
+            "angle": 0,
+            "content": "Felicio Ferreira dos Santos, 31 anos, brazileiro, casado; perilonite traumatica.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.642,
+                0.589,
+                0.919,
+                0.613
+            ],
+            "angle": 0,
+            "content": "João Evangelista, 33 anos, brazileiro, solteiro; tuberculose.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.643,
+                0.614,
+                0.919,
+                0.638
+            ],
+            "angle": 0,
+            "content": "Francisco, 4 annos, brazileiro, filho de d. Eugenia Maria Conceição; infecção malarica.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.643,
+                0.639,
+                0.919,
+                0.663
+            ],
+            "angle": 0,
+            "content": "Mafalda Ferraz, 50 anos, brazileira, solteira; queimadura.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.644,
+                0.664,
+                0.921,
+                0.687
+            ],
+            "angle": 0,
+            "content": "Pedro Caifa, 22 annos, italiano solteiro; insuficiencia mitral.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.644,
+                0.689,
+                0.921,
+                0.712
+            ],
+            "angle": 0,
+            "content": ". Izabel Slatine, 60 annos, italiana viuva; con-gestão cerebral.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.766,
+                0.711,
+                0.802,
+                0.72
+            ],
+            "angle": 0,
+            "content": "Dia 27"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.646,
+                0.72,
+                0.921,
+                0.742
+            ],
+            "angle": 0,
+            "content": "Angelo Barelta, 72 anni, italiano, vivo; sclerlise cerebral.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.646,
+                0.743,
+                0.923,
+                0.767
+            ],
+            "angle": 0,
+            "content": "Angelo Tedesco, 3) annos, italiano, casado; urenia.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.646,
+                0.768,
+                0.924,
+                0.792
+            ],
+            "angle": 0,
+            "content": "Joaquim, 16 dias, brazileiro, Llho de João Antonio de Oliveira; inviabilidade.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.66,
+                0.794,
+                0.925,
+                0.806
+            ],
+            "angle": 0,
+            "content": "José Rodrigues, 41 annos, portuguez, casado;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.649,
+                0.807,
+                0.925,
+                0.83
+            ],
+            "angle": 0,
+            "content": "Narcisa Amelia Araujo, 22 anos, brazileira, solteira;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.649,
+                0.831,
+                0.926,
+                0.855
+            ],
+            "angle": 0,
+            "content": "Malvina Maria Alexandrina, 35 annos, selteira, brazileira; cachexia epileptica.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.651,
+                0.856,
+                0.926,
+                0.88
+            ],
+            "angle": 0,
+            "content": "Paschool Annunciato, 18 anpes, italiano, solteiro; tuberculose.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.652,
+                0.881,
+                0.927,
+                0.906
+            ],
+            "angle": 0,
+            "content": "Leonardo Lole, 15 annos, italiano, casado; febre typhoide.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.653,
+                0.907,
+                0.927,
+                0.931
+            ],
+            "angle": 0,
+            "content": "Antonio Pereira, 56 anos, p. tuguez, casado; perilonite em consequencia de fractura.",
+            "merge_prev": false
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.072,
+                0.074,
+                0.335,
+                0.084
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.063,
+                0.1,
+                0.225,
+                0.11
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.06,
+                0.086,
+                0.335,
+                0.098
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.234,
+                0.101,
+                0.251,
+                0.11
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.131,
+                0.116,
+                0.257,
+                0.126
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.073,
+                0.128,
+                0.338,
+                0.139
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.141,
+                0.338,
+                0.151
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.06,
+                0.154,
+                0.154,
+                0.164
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.075,
+                0.167,
+                0.298,
+                0.176
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.075,
+                0.179,
+                0.338,
+                0.189
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.193,
+                0.251,
+                0.201
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.138,
+                0.205,
+                0.264,
+                0.214
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.078,
+                0.217,
+                0.337,
+                0.226
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.067,
+                0.255,
+                0.294,
+                0.264
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.065,
+                0.229,
+                0.339,
+                0.24
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.066,
+                0.241,
+                0.338,
+                0.252
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.078,
+                0.268,
+                0.193,
+                0.278
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.079,
+                0.28,
+                0.197,
+                0.29
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.079,
+                0.292,
+                0.34,
+                0.302
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.067,
+                0.306,
+                0.123,
+                0.315
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.079,
+                0.317,
+                0.221,
+                0.327
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.143,
+                0.331,
+                0.267,
+                0.34
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.079,
+                0.342,
+                0.334,
+                0.351
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.069,
+                0.368,
+                0.341,
+                0.377
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.069,
+                0.381,
+                0.341,
+                0.389
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.069,
+                0.393,
+                0.097,
+                0.404
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.068,
+                0.353,
+                0.342,
+                0.365
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.077,
+                0.406,
+                0.223,
+                0.415
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.15,
+                0.445,
+                0.254,
+                0.467
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.084,
+                0.48,
+                0.343,
+                0.489
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.072,
+                0.493,
+                0.117,
+                0.504
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.084,
+                0.505,
+                0.346,
+                0.514
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.074,
+                0.518,
+                0.346,
+                0.527
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.074,
+                0.543,
+                0.347,
+                0.552
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.074,
+                0.529,
+                0.346,
+                0.54
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.085,
+                0.556,
+                0.348,
+                0.564
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.075,
+                0.568,
+                0.348,
+                0.576
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.075,
+                0.605,
+                0.349,
+                0.613
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.075,
+                0.63,
+                0.118,
+                0.64
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.075,
+                0.58,
+                0.347,
+                0.59
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.075,
+                0.593,
+                0.348,
+                0.602
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.075,
+                0.617,
+                0.349,
+                0.627
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.087,
+                0.642,
+                0.35,
+                0.651
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.077,
+                0.655,
+                0.35,
+                0.664
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.077,
+                0.667,
+                0.284,
+                0.676
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.089,
+                0.679,
+                0.35,
+                0.688
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.078,
+                0.705,
+                0.351,
+                0.713
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.079,
+                0.718,
+                0.195,
+                0.727
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.077,
+                0.691,
+                0.351,
+                0.702
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.089,
+                0.729,
+                0.351,
+                0.739
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.08,
+                0.743,
+                0.196,
+                0.751
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.09,
+                0.758,
+                0.351,
+                0.767
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.08,
+                0.77,
+                0.351,
+                0.779
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.452,
+                0.073,
+                0.518,
+                0.084
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.349,
+                0.084,
+                0.622,
+                0.096
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.097,
+                0.503,
+                0.109
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.508,
+                0.097,
+                0.572,
+                0.109
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.607,
+                0.096,
+                0.618,
+                0.1
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.36,
+                0.111,
+                0.411,
+                0.121
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.58,
+                0.11,
+                0.623,
+                0.121
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.376,
+                0.096,
+                0.387,
+                0.1
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.426,
+                0.124,
+                0.546,
+                0.134
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.35,
+                0.136,
+                0.572,
+                0.147
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.359,
+                0.148,
+                0.431,
+                0.159
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.586,
+                0.147,
+                0.623,
+                0.159
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.36,
+                0.16,
+                0.622,
+                0.172
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.357,
+                0.174,
+                0.427,
+                0.185
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.456,
+                0.345,
+                0.522,
+                0.355
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.353,
+                0.357,
+                0.558,
+                0.367
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.585,
+                0.356,
+                0.627,
+                0.368
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.43,
+                0.37,
+                0.553,
+                0.379
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.354,
+                0.386,
+                0.575,
+                0.396
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.363,
+                0.399,
+                0.504,
+                0.408
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.59,
+                0.397,
+                0.628,
+                0.407
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.353,
+                0.411,
+                0.627,
+                0.422
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.356,
+                0.425,
+                0.436,
+                0.434
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.367,
+                0.44,
+                0.629,
+                0.449
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.355,
+                0.452,
+                0.629,
+                0.462
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.357,
+                0.465,
+                0.463,
+                0.475
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.378,
+                0.866,
+                0.64,
+                0.876
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.373,
+                0.878,
+                0.641,
+                0.889
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.549,
+                0.889,
+                0.556,
+                0.895
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.374,
+                0.891,
+                0.471,
+                0.901
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.38,
+                0.907,
+                0.642,
+                0.917
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.372,
+                0.921,
+                0.61,
+                0.929
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.75,
+                0.068,
+                0.791,
+                0.083
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.644,
+                0.081,
+                0.91,
+                0.09
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.094,
+                0.734,
+                0.103
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.644,
+                0.104,
+                0.911,
+                0.116
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.634,
+                0.119,
+                0.702,
+                0.128
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.645,
+                0.131,
+                0.911,
+                0.141
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.635,
+                0.145,
+                0.715,
+                0.154
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.156,
+                0.909,
+                0.166
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.637,
+                0.169,
+                0.81,
+                0.179
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.181,
+                0.91,
+                0.191
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.636,
+                0.195,
+                0.794,
+                0.204
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.206,
+                0.912,
+                0.216
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.635,
+                0.22,
+                0.696,
+                0.228
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.231,
+                0.912,
+                0.241
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.636,
+                0.244,
+                0.697,
+                0.253
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.648,
+                0.256,
+                0.912,
+                0.266
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.636,
+                0.27,
+                0.696,
+                0.278
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.648,
+                0.28,
+                0.912,
+                0.291
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.637,
+                0.293,
+                0.693,
+                0.304
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.649,
+                0.306,
+                0.913,
+                0.316
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.639,
+                0.32,
+                0.75,
+                0.328
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.649,
+                0.331,
+                0.912,
+                0.34
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.639,
+                0.345,
+                0.755,
+                0.353
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.756,
+                0.352,
+                0.796,
+                0.363
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.65,
+                0.361,
+                0.913,
+                0.371
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.64,
+                0.375,
+                0.689,
+                0.384
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.64,
+                0.386,
+                0.912,
+                0.396
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.638,
+                0.4,
+                0.69,
+                0.409
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.65,
+                0.411,
+                0.913,
+                0.42
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.639,
+                0.424,
+                0.791,
+                0.433
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.653,
+                0.44,
+                0.914,
+                0.449
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.64,
+                0.452,
+                0.68,
+                0.463
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.653,
+                0.464,
+                0.915,
+                0.475
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.643,
+                0.478,
+                0.779,
+                0.487
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.654,
+                0.49,
+                0.916,
+                0.5
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.643,
+                0.503,
+                0.775,
+                0.512
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.654,
+                0.515,
+                0.916,
+                0.525
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.643,
+                0.529,
+                0.805,
+                0.537
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.655,
+                0.54,
+                0.917,
+                0.549
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.645,
+                0.553,
+                0.783,
+                0.562
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.655,
+                0.565,
+                0.918,
+                0.574
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.644,
+                0.578,
+                0.827,
+                0.587
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.656,
+                0.59,
+                0.918,
+                0.6
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.645,
+                0.603,
+                0.709,
+                0.612
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.657,
+                0.615,
+                0.918,
+                0.625
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.628,
+                0.865,
+                0.637
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.657,
+                0.639,
+                0.918,
+                0.65
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.645,
+                0.653,
+                0.711,
+                0.662
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.658,
+                0.664,
+                0.92,
+                0.674
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.678,
+                0.731,
+                0.686
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.645,
+                0.689,
+                0.921,
+                0.7
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.703,
+                0.731,
+                0.711
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.765,
+                0.71,
+                0.803,
+                0.722
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.659,
+                0.72,
+                0.92,
+                0.729
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.649,
+                0.733,
+                0.733,
+                0.741
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.66,
+                0.744,
+                0.923,
+                0.755
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.648,
+                0.758,
+                0.687,
+                0.767
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.66,
+                0.769,
+                0.923,
+                0.779
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.65,
+                0.782,
+                0.825,
+                0.792
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.662,
+                0.795,
+                0.923,
+                0.805
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.66,
+                0.807,
+                0.923,
+                0.817
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.651,
+                0.82,
+                0.698,
+                0.83
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.662,
+                0.832,
+                0.924,
+                0.842
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.651,
+                0.844,
+                0.818,
+                0.854
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.664,
+                0.856,
+                0.926,
+                0.867
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.652,
+                0.87,
+                0.741,
+                0.879
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.665,
+                0.882,
+                0.926,
+                0.892
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.653,
+                0.895,
+                0.727,
+                0.905
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.658,
+                0.907,
+                0.927,
+                0.918
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.655,
+                0.92,
+                0.881,
+                0.93
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

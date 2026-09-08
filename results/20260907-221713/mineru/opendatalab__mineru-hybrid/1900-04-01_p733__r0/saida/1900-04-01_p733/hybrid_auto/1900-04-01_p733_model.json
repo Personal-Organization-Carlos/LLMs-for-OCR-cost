@@ -1,0 +1,2721 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.092,
+                0.06,
+                0.166,
+                0.074
+            ],
+            "angle": 0,
+            "content": "Domingo, 1"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.398,
+                0.058,
+                0.539,
+                0.073
+            ],
+            "angle": 0,
+            "content": "DIARIO OFFICIAL"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.77,
+                0.058,
+                0.891,
+                0.072
+            ],
+            "angle": 0,
+            "content": "Abril 1900 x 7:33"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.055,
+                0.084,
+                0.339,
+                0.123
+            ],
+            "angle": 0,
+            "content": "A-tnio Candido Xavier de Almelda e Souza, novamado curador por decreto de 6 de Março corrente.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.116,
+                0.118,
+                0.278,
+                0.13
+            ],
+            "angle": 0,
+            "content": "Requerimentas despackados"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.058,
+                0.13,
+                0.34,
+                0.267
+            ],
+            "angle": 0,
+            "content": "Do bacharel O-taviano de Aguirra Camargo, ex-promotor publico da comarca de Yú, pedindo providencias no sentido de poder receber no Thesouro do Estado, os vencimentos a que tem direito, durante o tempo em que esteve em giso da licença que lhe foi concediris por acto de 23 de Janeiro do corrente ano, para tralar da saude de pessoa de sua família, visto ter-se extraviado a respectiva portaria.—Atendido, retirando desta secretaria por certidão, uma copia da portaria da licença que foi extraviada.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.057,
+                0.266,
+                0.34,
+                0.343
+            ],
+            "angle": 0,
+            "content": "Do bacharel Bento Ribetro da Luz, juiz de direito da comarca de Nuporanga, pedindo que se lhe amande certificar si obteve desta secretaria a portaria, devidamente sellada, da licença de sessenta dias, em cujo goso entrou (im 3) de Janeiro do corrente anno.—Certifique-se o que constar.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.13,
+                0.347,
+                0.266,
+                0.36
+            ],
+            "angle": 0,
+            "content": "2. SUB DIRECTORIA"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.168,
+                0.364,
+                0.231,
+                0.378
+            ],
+            "angle": 0,
+            "content": "1.ª SECCÍO"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.069,
+                0.38,
+                0.181,
+                0.392
+            ],
+            "angle": 0,
+            "content": "Transmittiram se :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.059,
+                0.393,
+                0.339,
+                0.517
+            ],
+            "angle": 0,
+            "content": "Ao ministro da Justiça e Negócios Interiores os documentos oficiais relativos ao acto humanitário praticado pelo soldado Francisco, da Cu Ia Benevides, do 2.º atadhã, da Brigale Pocial, que em Sinto, a 31 de Janeiro do ano findo, se alirou ao mar no intuito de salvar a praça do Corpo de Bombeiros Municipres, que s'langara do caes para afogar-se, alim de que équelle soldado, seja concedida a medalha de distincção, creada por decreto de 1º de Dezembro de 1889.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.059,
+                0.517,
+                0.338,
+                0.579
+            ],
+            "angle": 0,
+            "content": "Ao dr. secretario dos Negócios do Interior, por, cópia, o ofício do delegado de polícia de Araca-quara, de 25 do corrente mez, communicando te rem apparecido naquella localidade dois casos de febre amarelis.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.071,
+                0.579,
+                0.166,
+                0.591
+            ],
+            "angle": 0,
+            "content": "Remetteram-se :"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.059,
+                0.59,
+                0.338,
+                0.678
+            ],
+            "angle": 0,
+            "content": "Ao commandante do Corpo Policial no Interior os ofícios do dr. chife de polícia, ns, 851, 857 e 858, datados de 27 do corticile, referentes ao augmente dos destacamentos de A·ar·quara e de Santos e sobre uma licença concedida a um soldido pelo delegado de Pedreira, para si a Posse d: Resacca.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.057,
+                0.677,
+                0.337,
+                0.741
+            ],
+            "angle": 0,
+            "content": "Ao dr. chef de polícia, os das camaras municipaes de Remedios da Ponte do Tiete, de Santo Antonio da Cicloeira e do juiz de paz de Santo Antonio da Afng ia, datados de 22 e 23 do corrente mez.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.165,
+                0.74,
+                0.231,
+                0.753
+            ],
+            "angle": 0,
+            "content": "2.ª SICÇÃO"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.057,
+                0.755,
+                0.336,
+                0.818
+            ],
+            "angle": 0,
+            "content": "O secretario dos Negocios da Justiça resolve que na distribuição de forragem aos animaes da Força Pública e da Departição da Polícia, sejam observadas a contar de 5 de Abril próximo vin-douro, as seg. Inles tabelas:",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.069,
+                0.817,
+                0.191,
+                0.83
+            ],
+            "angle": 0,
+            "content": "De 5 a 10 de Abril:"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.056,
+                0.834,
+                0.336,
+                0.934
+            ],
+            "angle": 0,
+            "content": "<table><tr><td></td><td></td><td colspan=\"2\">Aos cavallos</td><td colspan=\"2\">Aos muares</td></tr><tr><td>Alfafa</td><td>— diariamente</td><td>— 2</td><td>12 kilos</td><td>—</td><td>2 kilos</td></tr><tr><td>Capim</td><td>—</td><td>— 8</td><td>—</td><td>—</td><td>8</td></tr><tr><td>Lanna</td><td>—</td><td>— 3</td><td>—</td><td>—</td><td>3</td></tr><tr><td>Faretto</td><td>—</td><td>— 1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Mcho</td><td>—</td><td>— 3</td><td>—</td><td>—</td><td>3</td></tr><tr><td>Sul</td><td>— de 3 cin 3 dias—</td><td colspan=\"2\">1 decil,</td><td>—</td><td>1 decil</td></tr><tr><td colspan=\"6\">De 11 de Abril em deante :</td></tr></table>"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.345,
+                0.083,
+                0.627,
+                0.16
+            ],
+            "angle": 0,
+            "content": "<table><tr><td colspan=\"7\">Alfafa — diariamente — 1 1<eq>\\frac{1}{2}</eq> kilos. — 1 kilu.</td></tr><tr><td>Capim —</td><td>»</td><td>—</td><td>8</td><td>»</td><td>—</td><td>8 »</td></tr><tr><td>Canna —</td><td>»</td><td>—</td><td>3</td><td>»</td><td>—</td><td>3 »</td></tr><tr><td>Farello —</td><td>»</td><td>—</td><td>1</td><td>»</td><td>—</td><td></td></tr><tr><td>Milho —</td><td>»</td><td>—</td><td>3</td><td>»</td><td>—</td><td>3 »</td></tr><tr><td>Sal —</td><td>de 3 em 3 dias—</td><td>1</td><td>decli</td><td>—</td><td>—</td><td>1 decli</td></tr></table>"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.346,
+                0.163,
+                0.628,
+                0.189
+            ],
+            "angle": 0,
+            "content": "Observação.-Os animaes no paslo vencerão a\nração de alfalfa, canna, milho e sal.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.345,
+                0.191,
+                0.628,
+                0.216
+            ],
+            "angle": 0,
+            "content": "Secretaria da Justiça do Estado de São Paulo, 30 de Março de 1900.-José Pereira de Queirot.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.345,
+                0.216,
+                0.627,
+                0.267
+            ],
+            "angle": 0,
+            "content": "Remetten se có, ia da presente tabella provisoria ao dr. chefe de polícia, coro nel commandante da Brigada Policial e chefe do Almoxarifado da Força Pública.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.345,
+                0.266,
+                0.627,
+                0.342
+            ],
+            "angle": 0,
+            "content": "Por acto desta dala foi elevada d: 800 réis a 18300 a di-ria de alimentação aos presos pobres da cadeia do São Paulo dos Agudos, a contar de 1.º de Abril d. corrente anno.—Deu-se conhecimento aos drs. chefe de polícia e secretario da Fazenda.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.344,
+                0.341,
+                0.625,
+                0.541
+            ],
+            "angle": 0,
+            "content": "Secretaria dos Negócios da Justiça.—2.ª sub-directoria.—2ª secção.—N. 930.—São Paulo, 31 de Março de 1900.—Sº, coronel-commandante do Brigada Policial.—Para os deridos efeitos vos communico que entando em vigor, a 2 de Abril próximo viadouro, o nº vo regulame no do sello do Estado, que latou com o decreto n. 750, de 2) do corrente mez, devem, a coular daquella data, as petições e memoriaes dirigidos à auctoridade administrativa estadua' ou municipal, trze a estampilha de 1900) pela primeira a folha de papel escripia e 200 reis pelas restantes, de acordo com o n. 5 da tabella a anexa ao referido regulamento.—Saude e fiaternidade.—José L'eviro de Queiroz.—Identicos a, dr. chefe de policis e ao coronel commandante do Corpo Policial do interior.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.344,
+                0.54,
+                0.624,
+                0.565
+            ],
+            "angle": 0,
+            "content": "Solicita:am-se do dr. secretario da Fazenda, os seguintes pagamentos :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.344,
+                0.565,
+                0.625,
+                0.627
+            ],
+            "angle": 0,
+            "content": "De 30\\$30, pela collectoria de Campos Novos, durante o actual exercício, mensalmente, a contar de 1.º de Janeiro último, a José Antonio da Costa, pelo aluguel do predio que serve de quartel e cadeia em Platina;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.343,
+                0.626,
+                0.624,
+                0.688
+            ],
+            "angle": 0,
+            "content": "De 35,300, pela collectoria de Pirajit, mensalmente, até 30 de Junho do corrente ano e a contar de 1.º de Jan i o findo, a Jorge Alreu Jeffery, pelo aluguel do predio que serve de quartel e cadeia em Bello Monte;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.342,
+                0.688,
+                0.624,
+                0.726
+            ],
+            "angle": 0,
+            "content": "De 60§000), a Manuel Joa juim Gonçalves, pelo aluguel da casa onde está installado o posto policial na Modca, relativo a Janiro último;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.342,
+                0.725,
+                0.623,
+                0.775
+            ],
+            "angle": 0,
+            "content": "De 60\\$00, a d. Anna Maria Caldeira, pelo aluguel do predio que serve de quartel em Morro Pellado, relativo aos mezes de Janeiro e Fevereiro findos;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.343,
+                0.774,
+                0.621,
+                0.812
+            ],
+            "angle": 0,
+            "content": "De 171500, a A. toujo Lunzi, por diversos con certos realizados no posto policial de Santa Ephi genia;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.343,
+                0.812,
+                0.624,
+                0.861
+            ],
+            "angle": 0,
+            "content": "As ex-praça abaixo mencionadas, proveniente da restituição do desconto de fardamento de voluntação e de vencimentos a que liveram direito até a data em que foram excluídos:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.358,
+                0.861,
+                0.54,
+                0.874
+            ],
+            "angle": 0,
+            "content": "De US$ 00, a Caelano Pestri w;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.357,
+                0.874,
+                0.582,
+                0.887
+            ],
+            "angle": 0,
+            "content": "De 85§300, a José Joaquim de Lemos;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.357,
+                0.886,
+                0.624,
+                0.9
+            ],
+            "angle": 0,
+            "content": "De 32\\$200, a Francisco Martins de Oliveira;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.357,
+                0.899,
+                0.554,
+                0.912
+            ],
+            "angle": 0,
+            "content": "De 73§.10, a Gregorio Vasques;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.358,
+                0.911,
+                0.53,
+                0.924
+            ],
+            "angle": 0,
+            "content": "De 1183920, a Artoff Pereira;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.355,
+                0.923,
+                0.618,
+                0.937
+            ],
+            "angle": 0,
+            "content": "De 1.5p333, a Raymundo Antonio de Souza;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.642,
+                0.086,
+                0.919,
+                0.252
+            ],
+            "angle": 0,
+            "content": "De 158\\$558, a José Antonio Sampaio;\nDe 65\\$830, a José Pedro de Campos;\nDe 230\\$563, a Antonio de Assis Pereira da Silva;\nDe 23\\$520, a Horácio José Maria;\nDe 160\\$135, a José Leite;\nDe 135\\$715 a Francisco da Silva Leitão;\nDe 159\\$106, a Raymundo Dusão Ferreira;\nDe 193\\$006, a Francisco Rodrigues Eceves;\nDe 159\\$196, a Fortunato Antonio das Gtirgas;\nDe 151\\$106, a José Vieira Brasileño;\nDe 117\\$706, a Benedicto, Beno da Silva;\nDe 137\\$506, a Caclano José da Silva;\nTransmittiram-se ao mesmo;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.633,
+                0.253,
+                0.916,
+                0.304
+            ],
+            "angle": 0,
+            "content": "Ofícios dos delegados de polícia do Rio Claro, Atibaia e Nuporanga sobre o pagamento das diárias de alimentação nos presos, pobres recolhidas às respectivas cadéias.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.738,
+                0.308,
+                0.824,
+                0.321
+            ],
+            "angle": 0,
+            "content": "Requerimentos"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.631,
+                0.32,
+                0.913,
+                0.371
+            ],
+            "angle": 0,
+            "content": "De Diogo Antonio de Arruda Mendes, pedindo pagamento da quantia de 25300, proviente de medicamentos fornecidos, a presos p bres rec. ibidos à cadeia de Dous Corregos;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.631,
+                0.371,
+                0.911,
+                0.409
+            ],
+            "angle": 0,
+            "content": "De J. G. dos Santos Figueiredo, da de 71\\$000, proveniente da fo nacimeno ide t co aos presos pobres da cadeia de Mocóca;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.631,
+                0.408,
+                0.912,
+                0.458
+            ],
+            "angle": 0,
+            "content": "De Francisco Ferreira da Silva, soldado do Grupo Policial do Interior, pedião pagamento de 14.868), correspondente a vencimentos que deixou de receber no ano findo.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.631,
+                0.457,
+                0.912,
+                0.496
+            ],
+            "angle": 0,
+            "content": "De Francisco de Silles Gomes, sobre pagamento da quantia de 250500 por serviços médicos plantados a presos pobres da casa de Taluhy.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.643,
+                0.494,
+                0.722,
+                0.507
+            ],
+            "angle": 0,
+            "content": "Declatou se :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.631,
+                0.507,
+                0.912,
+                0.557
+            ],
+            "angle": 0,
+            "content": "Ao mesmo, que foi contocidade com Mari Gastro, o forsercimento da alimentação aos prees pobres da cadena da Anapalho, à razão de mil reis diarios;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.641,
+                0.556,
+                0.781,
+                0.57
+            ],
+            "angle": 0,
+            "content": "Ao dr. chefe de polícia :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.63,
+                0.57,
+                0.914,
+                0.619
+            ],
+            "angle": 0,
+            "content": "Que, por falta de verba, não pode ser attendido o pedido do delegado de polícia de Jundishy, sobre o fornecimento de um sino à cadira daquella cidade;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.63,
+                0.619,
+                0.912,
+                0.695
+            ],
+            "angle": 0,
+            "content": "Que para se poder providenciar sobre o pagamento do aluguel do predio que serve de quartel e cadeia em Taquary, relativo ao atuo de 198, torna-se preciso que o proprietario do mesmo requeira a este secretariado, por intermedio dessa chefia, o pagamento a que se julga com direito.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.63,
+                0.694,
+                0.912,
+                0.756
+            ],
+            "angle": 0,
+            "content": "Ao presidente da camara municipal de São João da Boa Vista, que a Superintendência de Obas Públicas foi auctorizada a despeender a quanta de 5:350,5123 com os reparos de que necessa o edifício da cadeia daquella cidade.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.63,
+                0.755,
+                0.911,
+                0.793
+            ],
+            "angle": 0,
+            "content": "Autorizou-se o chefe do alanxarifado da Força Pública a fornecer diversos artigos da expediente à Penitenciaria.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.729,
+                0.814,
+                0.819,
+                0.83
+            ],
+            "angle": 0,
+            "content": "Fazenda"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.657,
+                0.834,
+                0.912,
+                0.849
+            ],
+            "angle": 0,
+            "content": "EXPEDIENTE DO DIA 31 DE MARÇ, DE 1993 ...",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.631,
+                0.85,
+                0.914,
+                0.902
+            ],
+            "angle": 0,
+            "content": "Do dr. secretario da Ag- icultura, solicitando ja-\ngamento das seguintes cu: das de fori- cimentos\nfeitos à Repartição de Asuas e Exgofo, durante\no mez de Fevereiro proximo passado :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.632,
+                0.901,
+                0.913,
+                0.926
+            ],
+            "angle": 0,
+            "content": "De 6:0003990, a Companh a Mechanica e Importadora de S. Paulo;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.646,
+                0.925,
+                0.894,
+                0.939
+            ],
+            "angle": 0,
+            "content": "De 732§100, a Espíodola, Siqueira & Comp.;",
+            "merge_prev": false
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.057,
+                0.1,
+                0.337,
+                0.109
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.059,
+                0.113,
+                0.096,
+                0.122
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.059,
+                0.085,
+                0.336,
+                0.097
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.121,
+                0.119,
+                0.275,
+                0.129
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.076,
+                0.132,
+                0.336,
+                0.142
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.06,
+                0.144,
+                0.335,
+                0.154
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.157,
+                0.337,
+                0.167
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.17,
+                0.338,
+                0.179
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.182,
+                0.337,
+                0.192
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.06,
+                0.194,
+                0.338,
+                0.203
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.207,
+                0.337,
+                0.215
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.219,
+                0.337,
+                0.228
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.231,
+                0.338,
+                0.241
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.064,
+                0.244,
+                0.338,
+                0.253
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.257,
+                0.122,
+                0.265
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.075,
+                0.268,
+                0.336,
+                0.278
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.28,
+                0.338,
+                0.291
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.292,
+                0.338,
+                0.303
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.305,
+                0.338,
+                0.315
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.317,
+                0.338,
+                0.328
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.329,
+                0.303,
+                0.34
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.133,
+                0.349,
+                0.263,
+                0.359
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.169,
+                0.364,
+                0.229,
+                0.38
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.073,
+                0.382,
+                0.177,
+                0.391
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.074,
+                0.393,
+                0.337,
+                0.405
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.406,
+                0.336,
+                0.417
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.418,
+                0.336,
+                0.429
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.443,
+                0.336,
+                0.455
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.468,
+                0.336,
+                0.48
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.481,
+                0.336,
+                0.492
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.505,
+                0.247,
+                0.515
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.431,
+                0.336,
+                0.442
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.457,
+                0.336,
+                0.467
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.494,
+                0.335,
+                0.504
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.53,
+                0.335,
+                0.542
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.543,
+                0.331,
+                0.555
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.555,
+                0.336,
+                0.567
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.568,
+                0.143,
+                0.576
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.073,
+                0.518,
+                0.335,
+                0.529
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.074,
+                0.58,
+                0.163,
+                0.59
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.629,
+                0.335,
+                0.641
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.653,
+                0.335,
+                0.665
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.666,
+                0.128,
+                0.676
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.073,
+                0.592,
+                0.335,
+                0.602
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.605,
+                0.336,
+                0.615
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.062,
+                0.617,
+                0.335,
+                0.627
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.642,
+                0.335,
+                0.652
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.061,
+                0.703,
+                0.335,
+                0.714
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.06,
+                0.729,
+                0.12,
+                0.739
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.073,
+                0.679,
+                0.334,
+                0.689
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.06,
+                0.691,
+                0.335,
+                0.702
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.06,
+                0.716,
+                0.334,
+                0.726
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.167,
+                0.74,
+                0.228,
+                0.753
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.071,
+                0.756,
+                0.334,
+                0.768
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.06,
+                0.768,
+                0.334,
+                0.78
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.06,
+                0.806,
+                0.222,
+                0.816
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.06,
+                0.781,
+                0.334,
+                0.792
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.06,
+                0.794,
+                0.334,
+                0.804
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.072,
+                0.819,
+                0.188,
+                0.829
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.362,
+                0.164,
+                0.625,
+                0.176
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.35,
+                0.177,
+                0.545,
+                0.187
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.36,
+                0.192,
+                0.625,
+                0.204
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.204,
+                0.623,
+                0.217
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.36,
+                0.217,
+                0.624,
+                0.229
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.349,
+                0.23,
+                0.624,
+                0.242
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.349,
+                0.242,
+                0.624,
+                0.254
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.349,
+                0.254,
+                0.395,
+                0.266
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.36,
+                0.267,
+                0.624,
+                0.278
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.349,
+                0.28,
+                0.624,
+                0.291
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.349,
+                0.292,
+                0.624,
+                0.304
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.349,
+                0.305,
+                0.623,
+                0.316
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.317,
+                0.623,
+                0.329
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.349,
+                0.33,
+                0.399,
+                0.34
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.36,
+                0.342,
+                0.622,
+                0.354
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.354,
+                0.623,
+                0.366
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.417,
+                0.622,
+                0.429
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.442,
+                0.621,
+                0.453
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.478,
+                0.623,
+                0.49
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.347,
+                0.528,
+                0.589,
+                0.54
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.368,
+                0.623,
+                0.378
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.349,
+                0.38,
+                0.623,
+                0.391
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.393,
+                0.619,
+                0.403
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.405,
+                0.622,
+                0.415
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.347,
+                0.43,
+                0.622,
+                0.44
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.455,
+                0.622,
+                0.465
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.467,
+                0.622,
+                0.477
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.491,
+                0.621,
+                0.501
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.504,
+                0.621,
+                0.514
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.358,
+                0.517,
+                0.622,
+                0.527
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.554,
+                0.475,
+                0.564
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.359,
+                0.542,
+                0.623,
+                0.551
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.614,
+                0.453,
+                0.626
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.358,
+                0.566,
+                0.622,
+                0.576
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.579,
+                0.622,
+                0.589
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.591,
+                0.622,
+                0.601
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.348,
+                0.603,
+                0.623,
+                0.614
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.346,
+                0.664,
+                0.621,
+                0.676
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.346,
+                0.675,
+                0.469,
+                0.687
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.358,
+                0.627,
+                0.622,
+                0.638
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.347,
+                0.64,
+                0.621,
+                0.65
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.347,
+                0.652,
+                0.62,
+                0.663
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.357,
+                0.689,
+                0.621,
+                0.7
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.345,
+                0.702,
+                0.622,
+                0.712
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.346,
+                0.714,
+                0.576,
+                0.725
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.346,
+                0.738,
+                0.621,
+                0.75
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.345,
+                0.763,
+                0.388,
+                0.773
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.356,
+                0.726,
+                0.619,
+                0.737
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.345,
+                0.751,
+                0.621,
+                0.762
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.346,
+                0.8,
+                0.387,
+                0.812
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.357,
+                0.776,
+                0.618,
+                0.786
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.345,
+                0.788,
+                0.616,
+                0.799
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.347,
+                0.825,
+                0.62,
+                0.836
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.347,
+                0.837,
+                0.622,
+                0.849
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.347,
+                0.849,
+                0.515,
+                0.86
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.357,
+                0.813,
+                0.621,
+                0.823
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.359,
+                0.861,
+                0.536,
+                0.873
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.359,
+                0.872,
+                0.577,
+                0.887
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.359,
+                0.886,
+                0.622,
+                0.898
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.359,
+                0.898,
+                0.55,
+                0.911
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.36,
+                0.911,
+                0.526,
+                0.924
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.36,
+                0.921,
+                0.612,
+                0.937
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.648,
+                0.088,
+                0.86,
+                0.101
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.648,
+                0.101,
+                0.858,
+                0.114
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.648,
+                0.114,
+                0.911,
+                0.126
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.648,
+                0.127,
+                0.84,
+                0.139
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.14,
+                0.795,
+                0.152
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.154,
+                0.877,
+                0.165
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.166,
+                0.895,
+                0.178
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.179,
+                0.906,
+                0.19
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.191,
+                0.9,
+                0.203
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.204,
+                0.864,
+                0.215
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.217,
+                0.878,
+                0.229
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.229,
+                0.855,
+                0.241
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.241,
+                0.81,
+                0.252
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.647,
+                0.256,
+                0.911,
+                0.266
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.636,
+                0.268,
+                0.911,
+                0.279
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.636,
+                0.281,
+                0.912,
+                0.291
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.635,
+                0.291,
+                0.759,
+                0.302
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.741,
+                0.309,
+                0.821,
+                0.322
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.646,
+                0.322,
+                0.909,
+                0.334
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.634,
+                0.335,
+                0.91,
+                0.346
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.634,
+                0.347,
+                0.908,
+                0.358
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.634,
+                0.359,
+                0.811,
+                0.37
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.645,
+                0.371,
+                0.907,
+                0.384
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.634,
+                0.385,
+                0.907,
+                0.396
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.634,
+                0.396,
+                0.796,
+                0.407
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.645,
+                0.41,
+                0.909,
+                0.42
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.634,
+                0.422,
+                0.907,
+                0.432
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.634,
+                0.435,
+                0.907,
+                0.445
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.634,
+                0.445,
+                0.771,
+                0.456
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.646,
+                0.459,
+                0.908,
+                0.47
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.634,
+                0.472,
+                0.907,
+                0.483
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.485,
+                0.867,
+                0.494
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.645,
+                0.494,
+                0.718,
+                0.506
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.544,
+                0.703,
+                0.556
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.644,
+                0.509,
+                0.908,
+                0.519
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.522,
+                0.908,
+                0.532
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.534,
+                0.908,
+                0.544
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.645,
+                0.557,
+                0.777,
+                0.568
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.605,
+                0.667,
+                0.618
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.645,
+                0.571,
+                0.91,
+                0.582
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.632,
+                0.584,
+                0.908,
+                0.594
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.632,
+                0.596,
+                0.907,
+                0.607
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.644,
+                0.62,
+                0.908,
+                0.631
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.632,
+                0.908,
+                0.643
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.645,
+                0.908,
+                0.655
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.658,
+                0.906,
+                0.668
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.67,
+                0.908,
+                0.681
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.683,
+                0.898,
+                0.693
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.646,
+                0.695,
+                0.908,
+                0.705
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.707,
+                0.908,
+                0.717
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.634,
+                0.72,
+                0.908,
+                0.729
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.732,
+                0.908,
+                0.743
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.744,
+                0.806,
+                0.754
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.78,
+                0.72,
+                0.791
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.646,
+                0.757,
+                0.907,
+                0.767
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.634,
+                0.769,
+                0.907,
+                0.78
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.731,
+                0.814,
+                0.818,
+                0.831
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.66,
+                0.836,
+                0.911,
+                0.848
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.633,
+                0.889,
+                0.87,
+                0.901
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.645,
+                0.853,
+                0.91,
+                0.862
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.634,
+                0.865,
+                0.909,
+                0.875
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.634,
+                0.877,
+                0.91,
+                0.888
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.636,
+                0.914,
+                0.752,
+                0.924
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.645,
+                0.902,
+                0.909,
+                0.913
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.648,
+                0.926,
+                0.892,
+                0.938
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

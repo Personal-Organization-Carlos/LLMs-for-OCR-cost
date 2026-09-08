@@ -1,0 +1,39 @@
+{
+  "chave": "google/gemini-3.7-flash|1930-04-01_p3192|p1|0",
+  "registro": {
+    "model_id": "google/gemini-3.7-flash",
+    "prompt_id": "p1",
+    "doc_id": "1930-04-01_p3192",
+    "repetition": 0,
+    "ok": false,
+    "error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+    "error_kind": "servidor",
+    "latency_s": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "total_tokens": null,
+    "cost_usd": null,
+    "cost_source": null,
+    "finish_reason": null,
+    "truncated": false,
+    "api_provider": "gemini",
+    "provider_upstream": null,
+    "generation_id": null,
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T20:12:51Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "generateContent",
+      "tentativa": 1,
+      "http_status": 503,
+      "corpo": {
+        "error": {
+          "code": 503,
+          "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+          "status": "UNAVAILABLE"
+        }
+      }
+    }
+  ]
+}

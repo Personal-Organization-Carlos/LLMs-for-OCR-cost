@@ -1,0 +1,3537 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8186,
+                "bbox": [
+                    196,
+                    73,
+                    437,
+                    104
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8051,
+                "bbox": [
+                    694,
+                    73,
+                    938,
+                    105
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7624,
+                "bbox": [
+                    1321,
+                    77,
+                    1466,
+                    107
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8701,
+                "bbox": [
+                    153,
+                    117,
+                    556,
+                    172
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9333,
+                "bbox": [
+                    129,
+                    187,
+                    583,
+                    244
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7681,
+                "bbox": [
+                    149,
+                    259,
+                    546,
+                    289
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8805,
+                "bbox": [
+                    129,
+                    286,
+                    583,
+                    333
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7882,
+                "bbox": [
+                    155,
+                    331,
+                    509,
+                    356
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7723,
+                "bbox": [
+                    154,
+                    354,
+                    554,
+                    380
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8913,
+                "bbox": [
+                    131,
+                    378,
+                    582,
+                    425
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8229,
+                "bbox": [
+                    129,
+                    425,
+                    583,
+                    496
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7032,
+                "bbox": [
+                    155,
+                    493,
+                    582,
+                    520
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8993,
+                "bbox": [
+                    129,
+                    517,
+                    583,
+                    588
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9063,
+                "bbox": [
+                    130,
+                    586,
+                    582,
+                    634
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8859,
+                "bbox": [
+                    129,
+                    633,
+                    584,
+                    705
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5177,
+                "bbox": [
+                    164,
+                    703,
+                    495,
+                    729
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8441,
+                "bbox": [
+                    130,
+                    725,
+                    582,
+                    774
+                ],
+                "index": 17
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9365,
+                "bbox": [
+                    218,
+                    785,
+                    502,
+                    819
+                ],
+                "index": 18
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9268,
+                "bbox": [
+                    281,
+                    836,
+                    435,
+                    868
+                ],
+                "index": 19
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8531,
+                "bbox": [
+                    131,
+                    885,
+                    582,
+                    938
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9524,
+                "bbox": [
+                    129,
+                    955,
+                    584,
+                    1028
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9597,
+                "bbox": [
+                    130,
+                    1026,
+                    583,
+                    1097
+                ],
+                "index": 22
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9703,
+                "bbox": [
+                    129,
+                    1095,
+                    583,
+                    1189
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9456,
+                "bbox": [
+                    128,
+                    1187,
+                    583,
+                    1236
+                ],
+                "index": 24
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9694,
+                "bbox": [
+                    128,
+                    1234,
+                    582,
+                    1327
+                ],
+                "index": 25
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9674,
+                "bbox": [
+                    130,
+                    1325,
+                    583,
+                    1443
+                ],
+                "index": 26
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7984,
+                "bbox": [
+                    155,
+                    1442,
+                    557,
+                    1488
+                ],
+                "index": 27
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8493,
+                "bbox": [
+                    130,
+                    1486,
+                    581,
+                    1535
+                ],
+                "index": 28
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.782,
+                "bbox": [
+                    129,
+                    1534,
+                    581,
+                    1581
+                ],
+                "index": 29
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.944,
+                "bbox": [
+                    125,
+                    1579,
+                    582,
+                    1835
+                ],
+                "index": 30
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8713,
+                "bbox": [
+                    124,
+                    1833,
+                    580,
+                    1928
+                ],
+                "index": 31
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7014,
+                "bbox": [
+                    123,
+                    1926,
+                    583,
+                    2021
+                ],
+                "index": 32
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9334,
+                "bbox": [
+                    608,
+                    119,
+                    1064,
+                    176
+                ],
+                "index": 33
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9152,
+                "bbox": [
+                    758,
+                    190,
+                    914,
+                    223
+                ],
+                "index": 34
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9464,
+                "bbox": [
+                    607,
+                    237,
+                    1063,
+                    316
+                ],
+                "index": 35
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.935,
+                "bbox": [
+                    609,
+                    331,
+                    1064,
+                    381
+                ],
+                "index": 36
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9428,
+                "bbox": [
+                    608,
+                    380,
+                    1063,
+                    428
+                ],
+                "index": 37
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9268,
+                "bbox": [
+                    607,
+                    427,
+                    1063,
+                    498
+                ],
+                "index": 38
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9546,
+                "bbox": [
+                    607,
+                    496,
+                    1063,
+                    613
+                ],
+                "index": 39
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9486,
+                "bbox": [
+                    607,
+                    611,
+                    1065,
+                    757
+                ],
+                "index": 40
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9425,
+                "bbox": [
+                    609,
+                    773,
+                    1063,
+                    825
+                ],
+                "index": 41
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9358,
+                "bbox": [
+                    607,
+                    841,
+                    1062,
+                    915
+                ],
+                "index": 42
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8333,
+                "bbox": [
+                    607,
+                    913,
+                    1062,
+                    984
+                ],
+                "index": 43
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6898,
+                "bbox": [
+                    608,
+                    983,
+                    1061,
+                    1076
+                ],
+                "index": 44
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.7179,
+                "bbox": [
+                    609,
+                    1075,
+                    1059,
+                    1146
+                ],
+                "index": 45
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.716,
+                "bbox": [
+                    608,
+                    1145,
+                    1060,
+                    1215
+                ],
+                "index": 46
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.719,
+                "bbox": [
+                    607,
+                    1214,
+                    1059,
+                    1284
+                ],
+                "index": 47
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.7168,
+                "bbox": [
+                    607,
+                    1283,
+                    1056,
+                    1331
+                ],
+                "index": 48
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.655,
+                "bbox": [
+                    607,
+                    1330,
+                    1059,
+                    1377
+                ],
+                "index": 49
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6758,
+                "bbox": [
+                    607,
+                    1376,
+                    1059,
+                    1423
+                ],
+                "index": 50
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7337,
+                "bbox": [
+                    607,
+                    1422,
+                    1058,
+                    1469
+                ],
+                "index": 51
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8142,
+                "bbox": [
+                    606,
+                    1468,
+                    1058,
+                    1538
+                ],
+                "index": 52
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7889,
+                "bbox": [
+                    605,
+                    1536,
+                    1059,
+                    1608
+                ],
+                "index": 53
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8637,
+                "bbox": [
+                    604,
+                    1606,
+                    1059,
+                    1726
+                ],
+                "index": 54
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9021,
+                "bbox": [
+                    641,
+                    1743,
+                    1035,
+                    1817
+                ],
+                "index": 55
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8589,
+                "bbox": [
+                    603,
+                    1835,
+                    1058,
+                    1884
+                ],
+                "index": 56
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9063,
+                "bbox": [
+                    601,
+                    1882,
+                    1060,
+                    2025
+                ],
+                "index": 57
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9539,
+                "bbox": [
+                    1088,
+                    122,
+                    1557,
+                    267
+                ],
+                "index": 58
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9189,
+                "bbox": [
+                    1086,
+                    265,
+                    1544,
+                    315
+                ],
+                "index": 59
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9593,
+                "bbox": [
+                    1086,
+                    313,
+                    1543,
+                    406
+                ],
+                "index": 60
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9183,
+                "bbox": [
+                    1083,
+                    404,
+                    1541,
+                    454
+                ],
+                "index": 61
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9299,
+                "bbox": [
+                    1085,
+                    453,
+                    1543,
+                    522
+                ],
+                "index": 62
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9684,
+                "bbox": [
+                    1086,
+                    521,
+                    1544,
+                    619
+                ],
+                "index": 63
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9224,
+                "bbox": [
+                    1164,
+                    636,
+                    1474,
+                    666
+                ],
+                "index": 64
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9212,
+                "bbox": [
+                    1087,
+                    682,
+                    1543,
+                    732
+                ],
+                "index": 65
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9657,
+                "bbox": [
+                    1086,
+                    730,
+                    1543,
+                    829
+                ],
+                "index": 66
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9253,
+                "bbox": [
+                    1240,
+                    865,
+                    1393,
+                    896
+                ],
+                "index": 67
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6566,
+                "bbox": [
+                    1086,
+                    913,
+                    1539,
+                    967
+                ],
+                "index": 68
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.8126,
+                "bbox": [
+                    1085,
+                    984,
+                    1540,
+                    1057
+                ],
+                "index": 69
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.8921,
+                "bbox": [
+                    1085,
+                    1056,
+                    1539,
+                    1126
+                ],
+                "index": 70
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.9054,
+                "bbox": [
+                    1084,
+                    1125,
+                    1539,
+                    1195
+                ],
+                "index": 71
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.9165,
+                "bbox": [
+                    1084,
+                    1194,
+                    1539,
+                    1264
+                ],
+                "index": 72
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.9292,
+                "bbox": [
+                    1084,
+                    1263,
+                    1539,
+                    1333
+                ],
+                "index": 73
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.9335,
+                "bbox": [
+                    1084,
+                    1332,
+                    1539,
+                    1403
+                ],
+                "index": 74
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.9175,
+                "bbox": [
+                    1083,
+                    1402,
+                    1540,
+                    1471
+                ],
+                "index": 75
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.9244,
+                "bbox": [
+                    1084,
+                    1471,
+                    1538,
+                    1540
+                ],
+                "index": 76
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.9164,
+                "bbox": [
+                    1084,
+                    1540,
+                    1535,
+                    1588
+                ],
+                "index": 77
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.933,
+                "bbox": [
+                    1084,
+                    1587,
+                    1537,
+                    1657
+                ],
+                "index": 78
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.9303,
+                "bbox": [
+                    1082,
+                    1655,
+                    1544,
+                    1749
+                ],
+                "index": 79
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.9085,
+                "bbox": [
+                    1078,
+                    1748,
+                    1538,
+                    1819
+                ],
+                "index": 80
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.9196,
+                "bbox": [
+                    1082,
+                    1818,
+                    1538,
+                    1887
+                ],
+                "index": 81
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.9361,
+                "bbox": [
+                    1082,
+                    1886,
+                    1539,
+                    1958
+                ],
+                "index": 82
+            },
+            {
+                "cls_id": 19,
+                "label": "reference_content",
+                "score": 0.9285,
+                "bbox": [
+                    1080,
+                    1956,
+                    1542,
+                    2029
+                ],
+                "index": 83
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    198,
+                    69,
+                    435,
+                    106
+                ],
+                "score": 0.979,
+                "text": "3190 Ferça-feira. 1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    695,
+                    72,
+                    934,
+                    106
+                ],
+                "score": 0.998,
+                "text": "DIARIO OFFICIAL"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1322,
+                    77,
+                    1462,
+                    108
+                ],
+                "score": 0.963,
+                "text": "Abril 1930"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    159,
+                    122,
+                    551,
+                    148
+                ],
+                "score": 0.994,
+                "text": "Expediente do dia 29 de Março de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    331,
+                    145,
+                    391,
+                    171
+                ],
+                "score": 1.0,
+                "text": "1930"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    133,
+                    190,
+                    581,
+                    218
+                ],
+                "score": 0.994,
+                "text": "Solieitaram-se da Secretaria da Fazen-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    196,
+                    215,
+                    519,
+                    242
+                ],
+                "score": 0.994,
+                "text": "da os seguintes pagamentos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    153,
+                    262,
+                    541,
+                    288
+                ],
+                "score": 0.961,
+                "text": "270$000, a John Roger, av, 890"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    157,
+                    283,
+                    582,
+                    311
+                ],
+                "score": 0.972,
+                "text": "1:275$000, a Zerronuer, Bulow &"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    134,
+                    309,
+                    375,
+                    333
+                ],
+                "score": 0.961,
+                "text": "Comp Ltd., av, 891."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    159,
+                    329,
+                    506,
+                    358
+                ],
+                "score": 0.954,
+                "text": "438$900, acs mesmos, av, 892."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    159,
+                    349,
+                    554,
+                    383
+                ],
+                "score": 0.928,
+                "text": "579$600, a Δbol G: mes, av. 893."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    157,
+                    376,
+                    580,
+                    404
+                ],
+                "score": 0.956,
+                "text": "101$O0O, a Claudio Ribeiro da Silva"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    137,
+                    401,
+                    235,
+                    424
+                ],
+                "score": 0.99,
+                "text": "av. 894."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    160,
+                    422,
+                    581,
+                    451
+                ],
+                "score": 0.956,
+                "text": "499$500, à Casa Vanorden, av. 895."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    157,
+                    447,
+                    582,
+                    474
+                ],
+                "score": 0.952,
+                "text": "458$500, a A. J. de Souza Alves"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    135,
+                    472,
+                    335,
+                    495
+                ],
+                "score": 0.983,
+                "text": "Brandão, av. 896."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    159,
+                    492,
+                    582,
+                    522
+                ],
+                "score": 0.976,
+                "text": "17$500, á Ltght and Power, av. 897."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    159,
+                    514,
+                    580,
+                    544
+                ],
+                "score": 0.964,
+                "text": "1:5738000, a diversos foruecedores da"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    134,
+                    564,
+                    232,
+                    587
+                ],
+                "score": 0.959,
+                "text": "av. 898."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    133,
+                    541,
+                    580,
+                    567
+                ],
+                "score": 0.971,
+                "text": "Inspectoria de Propbylaxia da lepra,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    158,
+                    585,
+                    579,
+                    612
+                ],
+                "score": 0.956,
+                "text": "30S000, a Carlos Ferrcira de Almei-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    135,
+                    610,
+                    275,
+                    632
+                ],
+                "score": 0.978,
+                "text": "da, av. 899."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    157,
+                    630,
+                    582,
+                    660
+                ],
+                "score": 0.958,
+                "text": "915S0CO, ao pessoal da Inspectoria"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    132,
+                    655,
+                    554,
+                    683
+                ],
+                "score": 0.982,
+                "text": "de Hygiene dos Municipios, av. 900."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    135,
+                    678,
+                    582,
+                    707
+                ],
+                "score": 0.975,
+                "text": "Solicitou-se da Secretaria da Justiça"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    228,
+                    705,
+                    487,
+                    730
+                ],
+                "score": 0.975,
+                "text": "o seguinte pagamento"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    156,
+                    721,
+                    578,
+                    754
+                ],
+                "score": 0.958,
+                "text": "6:631$560, ao «Diario Offieial», av."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    131,
+                    744,
+                    187,
+                    776
+                ],
+                "score": 0.967,
+                "text": "144."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    222,
+                    787,
+                    499,
+                    820
+                ],
+                "score": 0.946,
+                "text": "2. DIRECTORIA"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    285,
+                    841,
+                    432,
+                    870
+                ],
+                "score": 0.893,
+                "text": "1.* SECÇÃO"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    134,
+                    887,
+                    580,
+                    914
+                ],
+                "score": 0.985,
+                "text": "Foram nomeados para substituir adjun-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    216,
+                    913,
+                    502,
+                    936
+                ],
+                "score": 0.997,
+                "text": "tos de Grupos Escolares"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    158,
+                    955,
+                    582,
+                    984
+                ],
+                "score": 0.988,
+                "text": "D. Aliee Cesar Rosa, substituido :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    133,
+                    978,
+                    582,
+                    1008
+                ],
+                "score": 0.97,
+                "text": "João Doretto, do de Santa Rcsalia, em"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    133,
+                    1002,
+                    243,
+                    1028
+                ],
+                "score": 1.0,
+                "text": "Sorocaba."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    157,
+                    1024,
+                    582,
+                    1053
+                ],
+                "score": 0.991,
+                "text": "D. Nair de Oliveira, substituida : d."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    133,
+                    1048,
+                    581,
+                    1077
+                ],
+                "score": 0.973,
+                "text": "Brasilia Gonçalves Pereira, do de Sa-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    135,
+                    1074,
+                    352,
+                    1097
+                ],
+                "score": 0.944,
+                "text": "coman, na Capital."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    133,
+                    1118,
+                    581,
+                    1145
+                ],
+                "score": 0.993,
+                "text": "da: d. Olga Dagmar de Araujo Qui-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    133,
+                    1141,
+                    581,
+                    1168
+                ],
+                "score": 0.967,
+                "text": "rino dos Santos, do «Antonio J.  do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    133,
+                    1163,
+                    437,
+                    1192
+                ],
+                "score": 0.981,
+                "text": "Carvalho», em Araraquara."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    157,
+                    1094,
+                    580,
+                    1121
+                ],
+                "score": 0.998,
+                "text": "D. Zilda Moraes Carvalho, substitui-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    157,
+                    1185,
+                    581,
+                    1214
+                ],
+                "score": 0.987,
+                "text": "D. Addy Silveira, subtituida, d. Lydia"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    132,
+                    1210,
+                    527,
+                    1237
+                ],
+                "score": 0.98,
+                "text": "Motta Minelli, de Sauto Amaro e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    157,
+                    1232,
+                    578,
+                    1260
+                ],
+                "score": 0.977,
+                "text": "D. Lueilla Martins de Camargo, sub-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    131,
+                    1256,
+                    578,
+                    1284
+                ],
+                "score": 0.985,
+                "text": "stituida, d. Oscarliua do Alvarenga Maz."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    134,
+                    1278,
+                    580,
+                    1308
+                ],
+                "score": 0.93,
+                "text": "zola, do «Conde do Parnahybiz' em"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    135,
+                    1301,
+                    248,
+                    1329
+                ],
+                "score": 0.998,
+                "text": "Jundiahy."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    160,
+                    1324,
+                    581,
+                    1353
+                ],
+                "score": 0.977,
+                "text": "Foi removida, a pedido, d. Catharina"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    135,
+                    1371,
+                    579,
+                    1399
+                ],
+                "score": 0.965,
+                "text": "Escolar «Coronel Tobias», em Descal-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    133,
+                    1396,
+                    579,
+                    1422
+                ],
+                "score": 0.963,
+                "text": "vado, para igual eargo no Grupo. Esco-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    132,
+                    1418,
+                    530,
+                    1444
+                ],
+                "score": 0.988,
+                "text": "lar «Rodrigues Alves», na Capital."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    135,
+                    1350,
+                    577,
+                    1374
+                ],
+                "score": 0.975,
+                "text": "Lefcadito, substituta effectiva do Grupo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    158,
+                    1440,
+                    552,
+                    1467
+                ],
+                "score": 0.976,
+                "text": "Licenças coneedidas a adjuutos de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    258,
+                    1465,
+                    453,
+                    1489
+                ],
+                "score": 0.979,
+                "text": "Grupos Escolares"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    158,
+                    1486,
+                    578,
+                    1514
+                ],
+                "score": 0.961,
+                "text": "Oito dias, ao sr. João Quediubo Wolf,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    133,
+                    1509,
+                    578,
+                    1536
+                ],
+                "score": 0.98,
+                "text": "do de Ribeirão Pires, em S. Bernardo."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    157,
+                    1531,
+                    579,
+                    1561
+                ],
+                "score": 0.966,
+                "text": "Vinte dias, a d. Aida Maragliane, do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    133,
+                    1556,
+                    385,
+                    1581
+                ],
+                "score": 0.971,
+                "text": "20 de Ribeirão Preto."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    155,
+                    1575,
+                    581,
+                    1608
+                ],
+                "score": 0.972,
+                "text": "Um mez, a d.d. Laura de Camargo,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    131,
+                    1601,
+                    578,
+                    1628
+                ],
+                "score": 0.982,
+                "text": "do do Belemziuho  Maria da Gloria G."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    131,
+                    1646,
+                    579,
+                    1675
+                ],
+                "score": 0.995,
+                "text": "de Rezende Puech, do do Arouche, to-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    131,
+                    1671,
+                    581,
+                    1698
+                ],
+                "score": 0.982,
+                "text": "dos na Capitai; Adelina Ferraz de Ar."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    129,
+                    1694,
+                    580,
+                    1721
+                ],
+                "score": 0.954,
+                "text": "rada, do «Antonio J. de Carvalho,, em"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    131,
+                    1716,
+                    580,
+                    1744
+                ],
+                "score": 0.987,
+                "text": "Araraquara, Lydia Motta Minellí, do de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    129,
+                    1808,
+                    375,
+                    1836
+                ],
+                "score": 0.998,
+                "text": "do 3.o de Campinas."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    131,
+                    1625,
+                    580,
+                    1650
+                ],
+                "score": 0.985,
+                "text": "da Costa e Silva, do «Pedro II» ; Clara"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    132,
+                    1741,
+                    576,
+                    1766
+                ],
+                "score": 0.962,
+                "text": "Santo Amaro ; Oscarlina de Alvarenga,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    129,
+                    1764,
+                    577,
+                    1789
+                ],
+                "score": 0.984,
+                "text": "Mazzol, do Corde de Parnahyba», em"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    128,
+                    1788,
+                    577,
+                    1812
+                ],
+                "score": 0.985,
+                "text": "Jundiahy e Flisa Agueda dos Santos,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    127,
+                    1852,
+                    578,
+                    1885
+                ],
+                "score": 0.962,
+                "text": "Cresenti, do «Mareello Sehmidts, em"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    130,
+                    1901,
+                    536,
+                    1929
+                ],
+                "score": 0.942,
+                "text": "«Flamínio Ferreira», em Limeira."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    152,
+                    1830,
+                    577,
+                    1858
+                ],
+                "score": 0.989,
+                "text": "Dois mezes, a d.d. Helena Caiuby"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    127,
+                    1879,
+                    576,
+                    1904
+                ],
+                "score": 0.972,
+                "text": "Rio Claro e Osearlina Leme Fraoco, do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    152,
+                    1921,
+                    580,
+                    1952
+                ],
+                "score": 0.95,
+                "text": "Tres' mezes, a d.d. Umbelina Freire"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    130,
+                    1946,
+                    575,
+                    1975
+                ],
+                "score": 0.958,
+                "text": "da Silveira, do 3.o do Bras e Judith"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    125,
+                    1985,
+                    223,
+                    2023
+                ],
+                "score": 0.953,
+                "text": "Capital."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    127,
+                    1972,
+                    575,
+                    1997
+                ],
+                "score": 0.931,
+                "text": "Martins, do «Oswaldo Cruz», todos na"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    632,
+                    122,
+                    1061,
+                    149
+                ],
+                "score": 0.986,
+                "text": "Um anno, a d. Maria Candida Fer-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    611,
+                    147,
+                    1012,
+                    174
+                ],
+                "score": 0.961,
+                "text": "reira Mariins, do 6o de Campinas."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    759,
+                    192,
+                    912,
+                    224
+                ],
+                "score": 0.977,
+                "text": "2. SECÇÃO"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    636,
+                    238,
+                    1061,
+                    265
+                ],
+                "score": 0.941,
+                "text": "Foram uoméadas as seguintes profes-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    613,
+                    266,
+                    1059,
+                    289
+                ],
+                "score": 0.995,
+                "text": "soras para o cargo de substitutas effe-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    614,
+                    290,
+                    944,
+                    312
+                ],
+                "score": 0.978,
+                "text": "ctivas do Grupos Escolares:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    613,
+                    357,
+                    779,
+                    381
+                ],
+                "score": 0.997,
+                "text": "de Penuapolis."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    636,
+                    333,
+                    1062,
+                    359
+                ],
+                "score": 0.965,
+                "text": "D. Carolina Dias de Aguiar, para o"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    637,
+                    378,
+                    1061,
+                    407
+                ],
+                "score": 0.954,
+                "text": "D. Georgina Seabra, para σ João"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    612,
+                    404,
+                    872,
+                    428
+                ],
+                "score": 0.971,
+                "text": "Floreucio», de Tatuhy."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    638,
+                    425,
+                    1061,
+                    454
+                ],
+                "score": 0.958,
+                "text": "D. Maria Julia Roxo, para o de Avahy."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    636,
+                    447,
+                    1061,
+                    478
+                ],
+                "score": 0.973,
+                "text": "D. Celia Teíxeira, para o João Flo-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    612,
+                    473,
+                    831,
+                    498
+                ],
+                "score": 0.98,
+                "text": "rencio», de Tatuhy."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    637,
+                    493,
+                    1062,
+                    523
+                ],
+                "score": 0.969,
+                "text": "O sr. Ienrique\" Unger, adjuneto do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    613,
+                    520,
+                    1061,
+                    545
+                ],
+                "score": 0.991,
+                "text": "Grupo Fscolar de Lins, para substituir"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    612,
+                    543,
+                    1061,
+                    567
+                ],
+                "score": 0.978,
+                "text": "o sr. Ernesto de Lina, director do mes-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    611,
+                    566,
+                    1060,
+                    591
+                ],
+                "score": 0.986,
+                "text": "mo estabelccimento, durante o seu im-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    614,
+                    590,
+                    736,
+                    614
+                ],
+                "score": 0.995,
+                "text": "pedimeuto."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    636,
+                    611,
+                    1062,
+                    637
+                ],
+                "score": 0.966,
+                "text": "D. Maria Galaute, adjuncta do 2.o"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    615,
+                    635,
+                    1061,
+                    661
+                ],
+                "score": 0.985,
+                "text": "Grupo Escolar de Rio Preto, para sub-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    611,
+                    659,
+                    1062,
+                    683
+                ],
+                "score": 0.985,
+                "text": "stituir o sr. Alberto Silverio Gomes dos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    612,
+                    682,
+                    1062,
+                    707
+                ],
+                "score": 0.981,
+                "text": "Reis, director em commissão, do mesmo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    612,
+                    706,
+                    1060,
+                    730
+                ],
+                "score": 0.969,
+                "text": "estabelecimento, durante o seu impedi -"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    612,
+                    729,
+                    824,
+                    754
+                ],
+                "score": 0.995,
+                "text": "mento por licença."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    614,
+                    774,
+                    1060,
+                    801
+                ],
+                "score": 0.99,
+                "text": "As seguiutes sras. para substitair adjun-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    694,
+                    799,
+                    978,
+                    823
+                ],
+                "score": 0.97,
+                "text": "ctas de Grupos Eseolares"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    635,
+                    841,
+                    1055,
+                    870
+                ],
+                "score": 0.979,
+                "text": "D. Alda do Amaral Silva Martiua,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    611,
+                    865,
+                    1060,
+                    895
+                ],
+                "score": 0.956,
+                "text": "substituído : sr. Henrique Ungor, do de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    610,
+                    888,
+                    674,
+                    915
+                ],
+                "score": 0.991,
+                "text": "Lins."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    636,
+                    910,
+                    1061,
+                    941
+                ],
+                "score": 0.97,
+                "text": "D. Joanna Posognoli, substituido :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    611,
+                    935,
+                    1060,
+                    964
+                ],
+                "score": 0.973,
+                "text": "sr. Benedícto de Campos, do de Soc-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    613,
+                    962,
+                    679,
+                    985
+                ],
+                "score": 0.729,
+                "text": "COTTO."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    637,
+                    981,
+                    1060,
+                    1008
+                ],
+                "score": 0.968,
+                "text": "D. Elvira Mani, substituido: sr. Ma-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    613,
+                    1006,
+                    1060,
+                    1033
+                ],
+                "score": 0.976,
+                "text": "nocl Faro, do de Penuapolis, duraute o"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    612,
+                    1029,
+                    1060,
+                    1056
+                ],
+                "score": 0.955,
+                "text": "impedimeuto por licença do sr. Aureo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    612,
+                    1052,
+                    1059,
+                    1079
+                ],
+                "score": 0.962,
+                "text": "Mendes Corréa, que o vem substituiudo."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    637,
+                    1072,
+                    1057,
+                    1101
+                ],
+                "score": 0.982,
+                "text": "D. Nair de Campos, substituida : d."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    614,
+                    1097,
+                    1059,
+                    1124
+                ],
+                "score": 0.979,
+                "text": "Amelia Paes de Aimeida, do de Cer-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    615,
+                    1123,
+                    811,
+                    1146
+                ],
+                "score": 0.936,
+                "text": "quillio, em Fietê."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    616,
+                    1142,
+                    1058,
+                    1171
+                ],
+                "score": 0.969,
+                "text": "D Leonides Carvaiho Almeida, sub-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    613,
+                    1167,
+                    1057,
+                    1193
+                ],
+                "score": 0.988,
+                "text": "stituida: d. Clementina Rocha Catala-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    613,
+                    1192,
+                    855,
+                    1214
+                ],
+                "score": 0.949,
+                "text": "no, do de Bebedouro."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    638,
+                    1213,
+                    1057,
+                    1238
+                ],
+                "score": 0.948,
+                "text": "D. Maria Antonietts de Menez-s, sub-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    612,
+                    1235,
+                    1057,
+                    1264
+                ],
+                "score": 0.994,
+                "text": "stituida: d. Leonor Gonçalves da Silva,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    613,
+                    1258,
+                    811,
+                    1284
+                ],
+                "score": 0.999,
+                "text": "do de Bebedouro."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    636,
+                    1281,
+                    1056,
+                    1309
+                ],
+                "score": 0.978,
+                "text": "D Maria Sandoval, substituida : d."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    611,
+                    1306,
+                    989,
+                    1331
+                ],
+                "score": 0.997,
+                "text": "Josephina Silva, do de ltuverava"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    637,
+                    1327,
+                    1058,
+                    1355
+                ],
+                "score": 0.962,
+                "text": "D. Agar de Sá, substituida: d. I,ola"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    609,
+                    1351,
+                    963,
+                    1378
+                ],
+                "score": 0.979,
+                "text": "Piuto Tavares, do de Barretos."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    636,
+                    1373,
+                    1058,
+                    1401
+                ],
+                "score": 0.98,
+                "text": "D. Iracema de Toledo, substituida:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    610,
+                    1398,
+                    1054,
+                    1424
+                ],
+                "score": 0.96,
+                "text": "d. Francisea da Silva, do de Soccorro."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    637,
+                    1420,
+                    1056,
+                    1446
+                ],
+                "score": 0.984,
+                "text": "D. Dib Asmar.Ventura, substituida:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    610,
+                    1442,
+                    977,
+                    1470
+                ],
+                "score": 0.964,
+                "text": "d. Ottilia Pereira, do de Pirajú"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    635,
+                    1465,
+                    1048,
+                    1494
+                ],
+                "score": 0.986,
+                "text": "D. Celia Teíxeira, substituida: d"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    609,
+                    1488,
+                    1057,
+                    1518
+                ],
+                "score": 0.944,
+                "text": "Palmyra Castanho Flores, do João"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    610,
+                    1514,
+                    876,
+                    1538
+                ],
+                "score": 0.958,
+                "text": "Florencios, de Tatuhy."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    636,
+                    1533,
+                    1057,
+                    1563
+                ],
+                "score": 0.988,
+                "text": "D. Maria da Gloria Prado Altro, sub-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    609,
+                    1558,
+                    1057,
+                    1587
+                ],
+                "score": 0.947,
+                "text": "stituida: d. Luiza Nery da Sonza, do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    609,
+                    1580,
+                    755,
+                    1610
+                ],
+                "score": 0.99,
+                "text": "de Capivary."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    633,
+                    1604,
+                    1055,
+                    1632
+                ],
+                "score": 0.985,
+                "text": "Foi devidaweute apostillado o deere-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    609,
+                    1628,
+                    1058,
+                    1655
+                ],
+                "score": 0.989,
+                "text": "to de 27 do corrento que revalidou a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    607,
+                    1652,
+                    1058,
+                    1678
+                ],
+                "score": 0.982,
+                "text": "remoção da professora d. Adelaide Paes"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    609,
+                    1697,
+                    935,
+                    1724
+                ],
+                "score": 0.999,
+                "text": "Grupo Escclar de Ituverava."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    608,
+                    1676,
+                    1057,
+                    1700
+                ],
+                "score": 0.992,
+                "text": "Landahl para o cargo de adjuncta do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    644,
+                    1742,
+                    1032,
+                    1772
+                ],
+                "score": 0.972,
+                "text": "Foram coucedidas as seguintes"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    658,
+                    1766,
+                    1006,
+                    1795
+                ],
+                "score": 0.988,
+                "text": "licenças a adjunctos de Grupos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    779,
+                    1792,
+                    883,
+                    1815
+                ],
+                "score": 0.99,
+                "text": "Escolares"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    629,
+                    1834,
+                    1056,
+                    1864
+                ],
+                "score": 0.987,
+                "text": "2 mezes, ad. Maria Eugedia Homem,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    606,
+                    1858,
+                    957,
+                    1885
+                ],
+                "score": 0.93,
+                "text": "do «Cel. Vaza, de Jabotieabal."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    631,
+                    1879,
+                    1057,
+                    1908
+                ],
+                "score": 0.991,
+                "text": "D. Herminia Villas Boas, do de Villa"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    607,
+                    1950,
+                    1056,
+                    1978
+                ],
+                "score": 0.994,
+                "text": "da mesma cidade; d. Clenentina Rocha"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    605,
+                    1972,
+                    1057,
+                    2002
+                ],
+                "score": 0.995,
+                "text": "Catalano, do de Bebedouro; d. Leoaor"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    604,
+                    1996,
+                    1054,
+                    2027
+                ],
+                "score": 0.974,
+                "text": "Gonçalves da Silva, do de Bebodouro;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    608,
+                    1906,
+                    1056,
+                    1930
+                ],
+                "score": 0.97,
+                "text": "dos Lavradoras, em Botucatú, em com-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    607,
+                    1929,
+                    1055,
+                    1953
+                ],
+                "score": 0.944,
+                "text": "missão do «Dr. Cardoso de Almeida»,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1096,
+                    127,
+                    1550,
+                    150
+                ],
+                "score": 0.981,
+                "text": "d. Amelia Paes de Almeida, do de Cer-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1094,
+                    150,
+                    1548,
+                    174
+                ],
+                "score": 0.967,
+                "text": "quilho, em Tietê; d. Josepbina Silva,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1093,
+                    173,
+                    1541,
+                    197
+                ],
+                "score": 0.989,
+                "text": "do de Ituverava; d. Francisca da Sil-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1094,
+                    197,
+                    1540,
+                    219
+                ],
+                "score": 0.969,
+                "text": "va, do de Soccorro; d. Lola Pinto Ta-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1093,
+                    221,
+                    1545,
+                    244
+                ],
+                "score": 0.978,
+                "text": "vares, do de Barretos; d Isabel de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1092,
+                    243,
+                    1424,
+                    267
+                ],
+                "score": 0.965,
+                "text": "Paula e Silva, do de Qusluz"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1116,
+                    264,
+                    1541,
+                    291
+                ],
+                "score": 0.99,
+                "text": "45 dias, a d. Maria Ferrara, do «Dr."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1089,
+                    289,
+                    1440,
+                    316
+                ],
+                "score": 0.979,
+                "text": "Jorge Tibiriçá», de Bragança."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1117,
+                    310,
+                    1543,
+                    338
+                ],
+                "score": 0.953,
+                "text": "1 mez, em prorogação, a d. Maria"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1091,
+                    334,
+                    1541,
+                    362
+                ],
+                "score": 0.979,
+                "text": "Lourdes Nogueira, do 1.\" de Rio Preto,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1091,
+                    358,
+                    1539,
+                    385
+                ],
+                "score": 0.97,
+                "text": "e d. Alice de Carvalho, do de São Ma-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1091,
+                    382,
+                    1150,
+                    408
+                ],
+                "score": 0.985,
+                "text": "noel."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1116,
+                    404,
+                    1539,
+                    431
+                ],
+                "score": 0.986,
+                "text": "20 dias, a d Hilda Pessos, do de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1087,
+                    429,
+                    1498,
+                    453
+                ],
+                "score": 0.99,
+                "text": "Villa dos Lavradores, em Botucatú."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1116,
+                    449,
+                    1542,
+                    479
+                ],
+                "score": 0.969,
+                "text": "15 dias, e proregição, a d, Maria"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1088,
+                    471,
+                    1542,
+                    502
+                ],
+                "score": 0.983,
+                "text": "Stael da Rocha Silveira, do de Ribei-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1091,
+                    498,
+                    1221,
+                    522
+                ],
+                "score": 0.997,
+                "text": "rão Bonito."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1114,
+                    522,
+                    1543,
+                    546
+                ],
+                "score": 0.973,
+                "text": "Foram dadas providencias juuto á"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1089,
+                    544,
+                    1540,
+                    571
+                ],
+                "score": 0.994,
+                "text": "Secretaria da Fazenda scbre o assumpto"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1090,
+                    568,
+                    1541,
+                    594
+                ],
+                "score": 0.954,
+                "text": "constante do officio. sob n. 4, da ius-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1093,
+                    593,
+                    1468,
+                    616
+                ],
+                "score": 0.98,
+                "text": "pectoria do 58.\" districto escolar."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1167,
+                    639,
+                    1471,
+                    664
+                ],
+                "score": 0.995,
+                "text": "Requerimeutos despachados"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1115,
+                    682,
+                    1540,
+                    711
+                ],
+                "score": 0.96,
+                "text": "D. Maria Julia Roxo.  Providen-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1089,
+                    706,
+                    1262,
+                    733
+                ],
+                "score": 0.972,
+                "text": "cie-se. (Prov.)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1116,
+                    729,
+                    1541,
+                    757
+                ],
+                "score": 0.946,
+                "text": "Dario Mouteiro de Brito, d. Manoela"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1089,
+                    776,
+                    1537,
+                    803
+                ],
+                "score": 0.956,
+                "text": "des. -- De accordo com a Seeção. Pro"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1092,
+                    799,
+                    1312,
+                    827
+                ],
+                "score": 0.98,
+                "text": "videncie-se. (Prov.)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1089,
+                    754,
+                    1541,
+                    779
+                ],
+                "score": 0.978,
+                "text": "Pousa Fernandes e d. Noemia Fernau-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1240,
+                    866,
+                    1392,
+                    898
+                ],
+                "score": 0.965,
+                "text": "B.\" SECÇÃO"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1089,
+                    914,
+                    1536,
+                    944
+                ],
+                "score": 0.986,
+                "text": "Foram concedidas licenças aos seguin-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1228,
+                    942,
+                    1398,
+                    965
+                ],
+                "score": 0.959,
+                "text": "tes professores"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1114,
+                    984,
+                    1539,
+                    1012
+                ],
+                "score": 0.976,
+                "text": "3 mezes, a d. Dallila Antunes Fil-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1090,
+                    1010,
+                    1536,
+                    1035
+                ],
+                "score": 0.98,
+                "text": "gueiras, da escola mixta, rural, de São"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1090,
+                    1031,
+                    1301,
+                    1060
+                ],
+                "score": 0.969,
+                "text": "Roque, em Areias."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1111,
+                    1053,
+                    1538,
+                    1081
+                ],
+                "score": 0.951,
+                "text": "2 mezee, a d. Carmen Carofalo, da"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1088,
+                    1077,
+                    1537,
+                    1104
+                ],
+                "score": 0.99,
+                "text": "3.a escola mixta urbana, do bairro da"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1090,
+                    1102,
+                    1433,
+                    1126
+                ],
+                "score": 0.981,
+                "text": "Republica, em Ribeirão Preto."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1110,
+                    1120,
+                    1538,
+                    1153
+                ],
+                "score": 0.947,
+                "text": "2 mezes, a d. Dulee Pohrer, da es-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1088,
+                    1145,
+                    1536,
+                    1175
+                ],
+                "score": 0.966,
+                "text": "cola feminina, urbaua, de Villa Novaes,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1091,
+                    1172,
+                    1268,
+                    1193
+                ],
+                "score": 0.969,
+                "text": "em Jaboticabal."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1111,
+                    1192,
+                    1538,
+                    1219
+                ],
+                "score": 0.982,
+                "text": "2 mezes a d. Leopoldina Ponce, das"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1088,
+                    1215,
+                    1538,
+                    1244
+                ],
+                "score": 0.96,
+                "text": "escolas reunidas de Igarassú, em São"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1088,
+                    1238,
+                    1177,
+                    1264
+                ],
+                "score": 0.997,
+                "text": "Manoel"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1111,
+                    1261,
+                    1537,
+                    1288
+                ],
+                "score": 0.978,
+                "text": "2 wezes, a d. Luiza Dias de Carva-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1087,
+                    1284,
+                    1537,
+                    1313
+                ],
+                "score": 0.975,
+                "text": "lho, das escolas reunidas de Boitnva,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1088,
+                    1309,
+                    1271,
+                    1332
+                ],
+                "score": 0.991,
+                "text": "em Porto Feliz."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1111,
+                    1330,
+                    1536,
+                    1359
+                ],
+                "score": 0.967,
+                "text": "2 mezes, a d. Maria Corrêa Dias, das"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1086,
+                    1354,
+                    1537,
+                    1383
+                ],
+                "score": 0.969,
+                "text": "eseolas reunidas de Campo Largo, de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1088,
+                    1377,
+                    1195,
+                    1402
+                ],
+                "score": 1.0,
+                "text": "Sorocaba."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1110,
+                    1399,
+                    1538,
+                    1428
+                ],
+                "score": 0.952,
+                "text": "2 mezes, a d. Miquelina Laudisio, da"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1088,
+                    1425,
+                    1536,
+                    1450
+                ],
+                "score": 0.965,
+                "text": "escola mixta, rural, de Ribeirão Gran-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1089,
+                    1449,
+                    1236,
+                    1471
+                ],
+                "score": 0.953,
+                "text": "de, em Iins."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1110,
+                    1467,
+                    1537,
+                    1497
+                ],
+                "score": 0.968,
+                "text": "2 mezes, a d. Mafalda Baroue, da es."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1088,
+                    1492,
+                    1536,
+                    1521
+                ],
+                "score": 0.99,
+                "text": "cola mixta, raral, do Bairro da Ponte,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1090,
+                    1517,
+                    1214,
+                    1539
+                ],
+                "score": 0.976,
+                "text": "em Itatiba."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1087,
+                    1562,
+                    1428,
+                    1588
+                ],
+                "score": 0.996,
+                "text": "das escolas reuuidas de Bury."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1108,
+                    1539,
+                    1533,
+                    1565
+                ],
+                "score": 0.961,
+                "text": "2 mezes, a d. Maria Julieta Sydow,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1109,
+                    1582,
+                    1535,
+                    1614
+                ],
+                "score": 0.98,
+                "text": "2 mezes, a d. Salvina Teixeira de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1087,
+                    1607,
+                    1536,
+                    1636
+                ],
+                "score": 0.968,
+                "text": "Mendouça da 3.a escola mixta, de Pre-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1088,
+                    1631,
+                    1303,
+                    1656
+                ],
+                "score": 0.991,
+                "text": "sidente Wenceslau."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1112,
+                    1653,
+                    1535,
+                    1680
+                ],
+                "score": 0.976,
+                "text": "45- dias ao sr. Aquilino Pacheco Fi-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1086,
+                    1677,
+                    1537,
+                    1704
+                ],
+                "score": 0.977,
+                "text": "lho, da 3.a escola das reunidas -noctur"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1086,
+                    1701,
+                    1536,
+                    1727
+                ],
+                "score": 0.971,
+                "text": "uas que funccionam no Grupo E:colar"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1089,
+                    1723,
+                    1460,
+                    1750
+                ],
+                "score": 0.992,
+                "text": "Moraes Barros», em Piracicaba."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1107,
+                    1746,
+                    1535,
+                    1774
+                ],
+                "score": 0.977,
+                "text": "1 mez ao ar. Aureo Mendes Corrêa,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1077,
+                    1768,
+                    1536,
+                    1799
+                ],
+                "score": 0.985,
+                "text": "da escola masculína, rural, de Lageado,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1087,
+                    1795,
+                    1262,
+                    1818
+                ],
+                "score": 0.983,
+                "text": "em Pennspolis."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1110,
+                    1812,
+                    1536,
+                    1845
+                ],
+                "score": 0.99,
+                "text": "1 mez, a d. Candida Amaral Campos,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1084,
+                    1838,
+                    1537,
+                    1868
+                ],
+                "score": 0.985,
+                "text": "da escola mixta, rural, de Morumby, em"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1086,
+                    1862,
+                    1250,
+                    1886
+                ],
+                "score": 0.985,
+                "text": "Santo Amaro."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1109,
+                    1883,
+                    1538,
+                    1911
+                ],
+                "score": 0.992,
+                "text": "1 mez, a d. Tareilía Ladeira de Oli-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1085,
+                    1907,
+                    1536,
+                    1936
+                ],
+                "score": 0.954,
+                "text": "veira, da 4.\" escola mixta, das reuni-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1085,
+                    1931,
+                    1482,
+                    1960
+                ],
+                "score": 0.965,
+                "text": "das de Jaguary, em Mogy-Mirim."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1102,
+                    1952,
+                    1535,
+                    1981
+                ],
+                "score": 0.977,
+                "text": "15 dias, ao sr. Joaquim Monteiro da"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1085,
+                    1975,
+                    1537,
+                    2004
+                ],
+                "score": 0.965,
+                "text": "Silva, da escola masculina, das reuni-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1085,
+                    1999,
+                    1254,
+                    2028
+                ],
+                "score": 0.935,
+                "text": "das de Areías."
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1722,
+            "height": 2091
+        }
+    }
+]

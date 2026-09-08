@@ -1,0 +1,86 @@
+{
+  "chave": "moonshotai/kimi-k3|1900-04-01_p735|p1|0",
+  "registro": {
+    "model_id": "moonshotai/kimi-k3",
+    "prompt_id": "p1",
+    "doc_id": "1900-04-01_p735",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 105.95640610007104,
+    "prompt_tokens": 4969,
+    "completion_tokens": 3882,
+    "total_tokens": 8851,
+    "cost_usd": 0.073137,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Moonshot AI",
+    "generation_id": "gen-1788830639-SuNWYKThci0wzqlc4HaV",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T01:24:00Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788830639-SuNWYKThci0wzqlc4HaV",
+        "object": "chat.completion",
+        "created": 1788830639,
+        "model": "moonshotai/kimi-k3",
+        "provider": "Moonshot AI",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>DIARIO OFFICIAL - Abril 1900</title>\n<style>\n  body { font-family: Georgia, 'Times New Roman', serif; font-size: 13px; color: #111; margin: 20px; }\n  .header { display: flex; justify-content: space-between; border-bottom: 3px double #000; padding-bottom: 4px; margin-bottom: 10px; }\n  .header .title { font-weight: bold; font-size: 16px; letter-spacing: 2px; }\n  .columns { column-count: 3; column-gap: 25px; column-rule: 1px solid #000; text-align: justify; }\n  h2 { text-align: center; font-size: 18px; letter-spacing: 3px; margin: 10px 0; }\n  .sec { text-align: center; font-style: italic; margin: 8px 0; }\n  table { border-collapse: collapse; margin: 10px auto; font-size: 11px; }\n  table, th, td { border: 1px solid #000; }\n  th, td { padding: 3px 6px; text-align: center; }\n  .dia { text-align: center; font-weight: bold; }\n</style>\n</head>\n<body>\n\n<div class=\"header\">\n  <span>Domingo, 1</span>\n  <span class=\"title\">DIARIO OFFICIAL</span>\n  <span>Abril 1900 &nbsp; 735</span>\n</div>\n\n<div class=\"columns\">\n\n<p>Officiou á directoria pedindo providencias para que seja feita uma vistoria nos predios da rua Bresser ns. 43 e 41.</p>\n\n<p class=\"sec\">Consolação—1.ª secção</p>\n\n<p>O dr. Synesio Pestana, inspector sanitario desta secção, visitou hoje as casas da rua 7 de Abril de ns. 83 a 125.</p>\n<p>Estão em regulares condições hygienicas.</p>\n<p>A' rua Braulio Gomes visitou a casa n. 10 a procura de uma fabrica de vinhos</p>\n\n<p class=\"sec\">Consolação—3.ª secção</p>\n\n<p>O dr. Evaristo Bacellar, inspector sanitario desta secção, visitou hoje as casas da rua dr. Abraã-ches de n. 1 a 51, inclusive 1 armazem de secos e cocheira da Companhia Viação Paulista.</p>\n<p>Vaccinou 9 creanças.</p>\n<p>Expediu 3 intimações.</p>\n<p>Encontrou todas as casas em regulares condições de asseio.</p>\n<p>E' bom o estado sanitario.</p>\n\n<p class=\"sec\">Consolação—4.ª secção</p>\n\n<p>O dr. Alfredo Guaraná, inspector sanitario desta secção, visitou hoje 25 casas da rua Victorino Carmillo, de ns. 1 a 11 e de 10 a -69, encontrando-as, na sua maioria, em boas condições de asseio.</p>\n<p>E' bom o estado sanitario.</p>\n\n<h2>NOTICIARIO</h2>\n\n<p><b>Guarda nacional.</b>—Foram declarados sem effeito :</p>\n<p>O decreto de 17 de Março ultimo que nomeou Augusto Moreira de Carvalho para o posto de capitão da 1.ª companhia do 126.º batalhão de infanteria da guarda nacional da comarca de Santos ;</p>\n<p>O decreto da mesma data que annullou a nomeação de Antão Alves de Moura para o posto de capitão da 1.ª companhia do 126.º batalhão de infanteria da guarda nacional da comarca de Santos, ficando subsistente o decreto de 26 de Agosto do anno passado na parte em que nomeou o referido official.</p>\n\n<p><b>Pagamentos.</b>—Pelo Ministerio da Industria, Viação e Obras Publicas foram solicitados do da Fazenda os seguintes pagamentos :</p>\n<p>De £ 2093-13-4 á Companhia Mechanica e Importadora de S. Paulo, de fornecimento feito á Estrada de Ferro Central do Brazil, em Dezembro do anno passado.</p>\n<p>De £ 552-14-10 idem, idem, idem, em Dezembro do anno passado.</p>\n\n<p><b>Camera Syndical.</b>—Cotação dos fundos publicos e particulares no dia 30 de Março de 1900 :</p>\n\n<table style=\"border:none;\">\n<tr><td style=\"border:none;\"></td><td style=\"border:none;\"><i>90 d/v</i></td><td style=\"border:none;\"><i>A' vista</i></td></tr>\n<tr><td style=\"border:none;\">Sobre Londres</td><td style=\"border:none;\">8 7/32</td><td style=\"border:none;\">7 3/32</td></tr>\n<tr><td style=\"border:none;\">&nbsp;&nbsp;&nbsp;Pariz.</td><td style=\"border:none;\">1180</td><td style=\"border:none;\">1173</td></tr>\n<tr><td style=\"border:none;\">&nbsp;&nbsp;&nbsp;Hamburgo.</td><td style=\"border:none;\">1432</td><td style=\"border:none;\">1455</td></tr>\n<tr><td style=\"border:none;\">&nbsp;&nbsp;&nbsp;Italia.</td><td style=\"border:none;\">—</td><td style=\"border:none;\">1108</td></tr>\n<tr><td style=\"border:none;\">&nbsp;&nbsp;&nbsp;Portugal</td><td style=\"border:none;\">—</td><td style=\"border:none;\">480</td></tr>\n<tr><td style=\"border:none;\">&nbsp;&nbsp;&nbsp;New-York.</td><td style=\"border:none;\">—</td><td style=\"border:none;\">6110</td></tr>\n<tr><td style=\"border:none;\">Süberanos</td><td style=\"border:none;\">—</td><td style=\"border:none;\">—</td></tr>\n</table>\n\n<p style=\"text-align:center; font-size:11px;\">CURSO OFFICIAL DOS FUNDOS PUBLICOS E PARTICULARES</p>\n<p class=\"sec\">Bancos</p>\n<p>São Paulo . . . . . . . . . . . . 147$000<br>\nMercantil de Santos. . . . . . . . 138$000</p>\n\n<p class=\"sec\">Companhias</p>\n<p>Paulista de Vias Ferreas e Fluviaes . . . 288$000<br>\nDita de idem, a 30 dias (á vontade do vendedor . . . . . . . . . 289$000</p>\n\n<p class=\"sec\">Lettras hypothecarias</p>\n<p>Banco de Credito Real de São Paulo, 8.ª, 9.ª e 11.ª. . . . . . . . . . . 68$000</p>\n<p>S. Paulo, 30 de Março de 1900.—O syndico, <i>Henry White</i>.</p>\n\n<p class=\"dia\">DIA 31</p>\n\n<table style=\"border:none;\">\n<tr><td style=\"border:none;\"></td><td style=\"border:none;\"><i>90 d/v</i></td><td style=\"border:none;\"><i>A' vista</i></td></tr>\n<tr><td style=\"border:none;\">Sobre Londres</td><td style=\"border:none;\">8 1/8</td><td style=\"border:none;\">8 d.</td></tr>\n<tr><td style=\"border:none;\">&nbsp;&nbsp;Pariz.</td><td style=\"border:none;\">1174</td><td style=\"border:none;\">1192</td></tr>\n<tr><td style=\"border:none;\">&nbsp;&nbsp;Hamburgo</td><td style=\"border:none;\">1449</td><td style=\"border:none;\">1172</td></tr>\n<tr><td style=\"border:none;\">&nbsp;&nbsp;Italia</td><td style=\"border:none;\"></td><td style=\"border:none;\">1149</td></tr>\n<tr><td style=\"border:none;\">&nbsp;&nbsp;Portugal</td><td style=\"border:none;\"></td><td style=\"border:none;\">485</td></tr>\n<tr><td style=\"border:none;\">&nbsp;&nbsp;New-York.</td><td style=\"border:none;\"></td><td style=\"border:none;\">6181</td></tr>\n<tr><td style=\"border:none;\">Süberanos</td><td style=\"border:none;\"></td><td style=\"border:none;\">—</td></tr>\n</table>\n\n<p style=\"text-align:center; font-size:11px;\">CURSO OFFICIAL DOS FUNDOS PUBLICOS E PARTICULARES</p>\n<p class=\"sec\">Bancos</p>\n<p>São Paulo . . . . . . . . . . . . 147$000</p>\n<p class=\"sec\">Companhias</p>\n<p>Paulista de Vias Ferreas e Fluviaes . . . 200$000</p>\n<p class=\"sec\">Lettras hypothecarias</p>\n<p>Banco de Credito Real de S. Paulo, 4.ª a 9.ª séries . . . . . . . . . . 63$000</p>\n<p>São Paulo, 31 de Março de 1900.—O syndico, <i>Henry White</i>.</p>\n\n<p><b>Hospedaria de Immigrantes.</b>—Boletim do movimento de immigrantes no dia 31 de Março de 1900 :</p>\n\n<table>\n<tr><th>NAÇÕES</th><th>Existentes</th><th>Entraram</th><th>Sahiram pela Companhia Paulista</th><th>Sahiram por conta particular</th><th>Existencia actual</th></tr>\n<tr><td>Companhia de Operações</td><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td></tr>\n<tr><td>Com o seu desembarque</td><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td></tr>\n<tr><td>Por condução directa</td><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td></tr>\n<tr><td><b>TOTAL</b></td><td>000</td><td>000</td><td>…</td><td>…</td><td>…</td></tr>\n<tr><td>Homens de 12 a 60 annos</td><td>62</td><td></td><td></td><td></td><td>62</td></tr>\n<tr><td>De 2 a 6 annos</td><td>8</td><td></td><td></td><td></td><td>8</td></tr>\n<tr><td>De 7 a 12 annos</td><td>8</td><td></td><td></td><td></td><td>8</td></tr>\n<tr><td>Menores de 12 annos</td><td>55</td><td></td><td></td><td></td><td>55</td></tr>\n<tr><td><b>TOTAL</b></td><td>192</td><td></td><td></td><td></td><td>192</td></tr>\n<tr><td>RESUMO</td><td>Existem</td><td>Entraram</td><td>Passaram em trânsito</td><td>Sahiram</td><td>Existem</td></tr>\n</table>\n\n<p>Hospedaria de Immigrantes em São Paulo, 31 de Março de 1900. — O ajudante do director, <i>João M. Pinheiro</i>.</p>\n\n<p><b>Obituario.</b>—Foram sepultados no Cemiterio Municipal do Araçá os seguintes cadaveres :</p>\n\n<p class=\"dia\">Dia 25</p>\n\n<p>Domingos dos Santos, 50 annos, brazileiro; hemorrhagia cerebral.</p>\n<p>Maria Luiza, 60 annos, italiana, casada ; embolia cerebral.</p>\n<p>Mathias Congo, 70 annos, solteiro, africano; arterio schlerose.</p>\n<p>Benedicta Maria Conceição, 19 annos, brazileira, solteira ; endocardite syphilitica.</p>\n<p>Antonio Correia Costa, 82 annos, portuguez, casado ; tuberculose pulmonar.</p>\n<p>Fêto masculino, filho de Ernesto Pertresi ; nasceu morto.</p>\n<p>Fêto masculino, filho de Antorelli Giovanni; nasceu morto.</p>\n<p>Fêto masculino, filho de Carmine Natulli ; nasceu morto.</p>\n<p>Maria, 13 mezes, brazileira, filha de João Ron ; bronchite.</p>\n<p>Jannuario Rocco, 55 annos, italiano, solteiro ; insufficiencia mitral.</p>\n<p>Benedicta Andrelina Jesus, 23 annos, brazileira, solteira ; tuberculose.</p>\n\n<p class=\"dia\">Dia 26</p>\n\n<p>Aldo Rescoli, 17 annos, italiano, solteiro ; febre amarella,</p>\n<p>Jacintho Pinheiro, 9 annos, portuguez ; febre amarella.</p>\n<p>Carlos, 8 mezes, brazileiro, filho de José Pereira Simões ; gastro enterite.</p>\n<p>Fêto masculino, filho de Vicenzo Boccia; nasceu morto.</p>\n<p>Francisco, 17 mezes, brazileiro, filho de Miguel Depetrangele ; eclampsia.</p>\n<p>João das Dores Pestana, 25 annos, portuguez, solteiro ; febre amarella.</p>\n<p>Julio Cesar Martins Pestana, 52 annos, portuguez, casado ; febre amarella.</p>\n<p>Angelina, 3 annos, brazileira, filha de Michele Gaira ; bronchite capillar.</p>\n<p>Felicio Ferreira dos Santos, 31 annos, brazileiro, casado ; peritonite traumatica.</p>\n<p>João Evangelista, 33 annos, brazileiro, solteiro ; tuberculose.</p>\n<p>Francisco, 1 annos, brazileiro, filho de d. Eugenia Maria Conceição ; infecção malarica.</p>\n<p>Mafalda Ferraz, 50 annos, brazileira, solteira ; queimadura.</p>\n<p>Pedro Caifa, 22 annos, italiano, solteiro ; insufficiencia mitral.</p>\n<p>Izabel Slatine, 60 annos, italiana, viuva ; congestão cerebral.</p>\n\n<p class=\"dia\">Dia 27</p>\n\n<p>Angelo Baretta, 72 annos, italiano, viuvo ; sclerose cerebral.</p>\n<p>Angelo Tedesco, 80 annos, italiano, casado ; uremia.</p>\n<p>Joaquim, 16 dias, brazileiro, filho de João Antonio de Oliveira ; inviabilidade.</p>\n<p>José Rodrigues, 41 annos, portuguez, casado ;</p>\n<p>Narcisa Amelia Araujo, 22 annos, brazileira, solteira ;</p>\n<p>Malvina Maria Alexandrina, 35 annos, solteira, brazileira ; cachexia epileptica.</p>\n<p>Paschoal Annunciato, 18 annos, italiano, solteiro ; tuberculose.</p>\n<p>Leonardo Lote, 15 annos, italiano, casado ; febre typhoide.</p>\n<p>Antonio Pereira, 56 annos, portuguez, casado ; peritonite em consequencia de fractura.</p>\n\n</div>\n\n</body>\n</html>\n```",
+              "refusal": null,
+              "reasoning": "The user wants HTML transcription. Produce an HTML document with three columns layout replicating the text.",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "The user wants HTML transcription. Produce an HTML document with three columns layout replicating the text.",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 4969,
+          "completion_tokens": 3882,
+          "total_tokens": 8851,
+          "cost": 0.073137,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.073137,
+            "upstream_inference_prompt_cost": 0.014907,
+            "upstream_inference_completions_cost": 0.05823
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 19,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

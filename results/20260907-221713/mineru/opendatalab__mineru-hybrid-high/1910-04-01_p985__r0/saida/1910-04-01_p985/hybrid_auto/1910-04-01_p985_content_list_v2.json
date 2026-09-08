@@ -1,0 +1,763 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "ESTADOS UNIDOS DO BRAZIL"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                188,
+                41,
+                811,
+                64
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "DIARIO OFFICIAL"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                44,
+                71,
+                965,
+                135
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "DO ESTADO DE SÃO PAULO"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                209,
+                140,
+                792,
+                167
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ANNO 19,°--22,° DA REPUBLICA--N.(68)"
+                    }
+                ]
+            },
+            "bbox": [
+                71,
+                179,
+                362,
+                202
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "SÃO PAULO"
+                    }
+                ]
+            },
+            "bbox": [
+                469,
+                179,
+                571,
+                194
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "SEXTA-FEIRA 1 DE ABRIL DE 1910"
+                    }
+                ]
+            },
+            "bbox": [
+                683,
+                182,
+                935,
+                197
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Actos do Poder Executivo"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                86,
+                213,
+                450,
+                247
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "DECEHED N. 1818"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                156,
+                267,
+                377,
+                282
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "DE 29 DE MARÇO DE 1910"
+                    }
+                ]
+            },
+            "bbox": [
+                176,
+                293,
+                363,
+                305
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Anctorize a Companhia Estrada de Ferro S. Paulo a Guyas a abrir co trefogo publico a linha de Bebedouro a Monte Azul"
+                    }
+                ]
+            },
+            "bbox": [
+                40,
+                315,
+                500,
+                341
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "O Vice-presidente do Estado de S. Paule, em exercício na forma do § 1 artigo 27, da Constituição,"
+                    }
+                ]
+            },
+            "bbox": [
+                40,
+                349,
+                500,
+                374
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Attendendo ao que soliciton a Gompanhia Estrada do Ferro S. Paulo a Gayas, e sob propo ta do secretario de Estado dos Negocios da Agricultura, Conexo e Obras Publicas,"
+                    }
+                ]
+            },
+            "bbox": [
+                40,
+                373,
+                500,
+                407
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Decreta :"
+                    }
+                ]
+            },
+            "bbox": [
+                74,
+                407,
+                139,
+                418
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Artigo 1.º Fica a Companhia Estrada do Ferro S. Paulo a Goyaz, acutorizada a abrir ao trafego publico a via ferrea do Bebedouro a Monte Azul, com 31 kilometros de extensão e à qual se referiu o decreto n. 1732, de 4 de Maio de 1909."
+                    }
+                ]
+            },
+            "bbox": [
+                40,
+                418,
+                500,
+                464
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Artigo 2.º A presente licença é concedida mediante a condição de, dentro do prazo de 30 dias, contados destaldata; serem ultimados os serviços de assentamento da linha telegraphica de retoque do leito, e de construção de xercas interaes."
+                    }
+                ]
+            },
+            "bbox": [
+                40,
+                462,
+                500,
+                508
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Palacio do Governo do Estado de S. Paulo, 29 do Março de 1910."
+                    }
+                ]
+            },
+            "bbox": [
+                40,
+                508,
+                500,
+                531
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "FERNANDO PRESTES DE ALBUQUERQUE."
+                    }
+                ]
+            },
+            "bbox": [
+                120,
+                530,
+                469,
+                543
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ANTONIO EE PADUA SALLIES"
+                    }
+                ]
+            },
+            "bbox": [
+                120,
+                545,
+                319,
+                557
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "DECRETO N. 1849"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                164,
+                598,
+                386,
+                612
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "DE 29 DE MARÇO DE 1910"
+                    }
+                ]
+            },
+            "bbox": [
+                180,
+                623,
+                370,
+                637
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Concede à Companhia Mogyana de Estradas de Ferro e Navegação licença para construção, uso e goso de uma estrada de ferro que, iniciando-se no bairro de Jatahy, termine em Ribeirão Preto."
+                    }
+                ]
+            },
+            "bbox": [
+                45,
+                645,
+                503,
+                692
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "O Vice-presidente do Estado do S. Paulo, em exercício na fóma do § 1º, art. 27 da Constituição."
+                    }
+                ]
+            },
+            "bbox": [
+                42,
+                700,
+                503,
+                726
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Usando da atribuição que lhe confere o artigo 2.º da lei n. 30, de 13 de Junho de 1892, e attendendo ao requerido pela Campanhia Megyana de Estradas de Ferro e Navegação, nos termos dos paragraphos 2.º e 3.º do artigo e lei citados,"
+                    }
+                ]
+            },
+            "bbox": [
+                42,
+                726,
+                503,
+                771
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Decrata :"
+                    }
+                ]
+            },
+            "bbox": [
+                79,
+                769,
+                144,
+                780
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Artigo unico. Fica concedida à Companhia Mogyana de Estradas de Ferro e Navegação licança para construção, uso e goso de uma via ferrea que — partindo do ponto terminal da que lhe foi concedida pelo decreto n. 1773, de 1.º de Outubro de 1909 — vá terminar em Ribeirão 'Preto, de conformidade com as clausulas que com este baixem, assignadas pelo sr. dr. secretario de Estado dos Negócios da Agricultura, Commercio e Obras Públicas."
+                    }
+                ]
+            },
+            "bbox": [
+                42,
+                780,
+                503,
+                870
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Palacio do Governo do Estado de S. Paulo, 29 do Março de 1910."
+                    }
+                ]
+            },
+            "bbox": [
+                42,
+                870,
+                503,
+                893
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "FERNANDO PRESTES DE ALBUQUERQUE\nANTONIO DE PADUA SALLIS."
+                    }
+                ]
+            },
+            "bbox": [
+                125,
+                893,
+                474,
+                921
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Clausulas a que refere o Decreto n. 1849, de 29 de Março de 1910"
+                    }
+                ]
+            },
+            "bbox": [
+                508,
+                215,
+                967,
+                250
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "I"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                732,
+                258,
+                744,
+                270
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "O Governo do Estado de S. Paulo concede à Companhia Mogyana de Estradas de Ferro e Navegação licença para construção, uso o goso de uma estrada de ferro que, partindo do ponto terminal da que lhe foi concedida pelo Decreto n. 1773, de 1.º do Outubro de 1908 — vá terminar em Ribeirão Preto."
+                    }
+                ]
+            },
+            "bbox": [
+                506,
+                271,
+                969,
+                332
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "II"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                738,
+                341,
+                756,
+                351
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Esta estrada de ferro gosta de uma zona garantida, de cem metros de cada lado, reduzida a 50 metros nas gargantas e declives de serras, limitadas por dura linhas parallelas ao eixo da via permanente, dentro da qual nenhuma outra estrada de ferro poderá receber gencros ou passageiros, salvo: 1.º, o caso de outra ou mais estradas tiram o mesmo ponto inicial ou terminal; 2.º, o caso em que o ponto inicial ou terminal de outra estrada esteja dentro da zona desta; 3.º, o caso de entronecamento referido nesta clausula."
+                    }
+                ]
+            },
+            "bbox": [
+                508,
+                355,
+                969,
+                458
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Comtanto que dentro da zona garantida desta estrada de ferro não receba generos nãm passageiros, poderá qualquer outra atravessar a mesma zona, cruzando a linha desta, sujeita, porém, aos onus provenientes do cruzamento."
+                    }
+                ]
+            },
+            "bbox": [
+                508,
+                458,
+                971,
+                504
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Qualquer outra estuada de ferro poderá ter simultaneamente os meamos pontos inicial e terminal desta, respeitada a zona garantida por esta clausula, bem como poderá entroncar na linha desta, resolvendo o Governo, definitivamente, em caso de desacórdo, para regular as relações provenientes de entroncamento."
+                    }
+                ]
+            },
+            "bbox": [
+                508,
+                504,
+                971,
+                569
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Considerar-se-á entroncamento, não só o caso de ligação por meio de via permanente, como por meio de estação comum."
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                569,
+                971,
+                595
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "III"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                732,
+                603,
+                755,
+                615
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Gosará mais a estrada do ferro do direito de desappropriação, nos termos da legislação do Estado, para os terranos necessários à construção da linha, estações, armazens e mais dependências."
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                618,
+                971,
+                663
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Quando for necessário iniciar uma acção de desappropriação, deverá ser apresentada ao Governo a respectiva planta, sómente da parte a desapropriar."
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                663,
+                971,
+                698
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "O Governo, dentro do prazo de trinta dias, da data da apresentação da planta, deverá conceder ou negar a licença, dando os motivos da recusa, no caso de negativa, e indicando as modificações de traçado, de modo a permitir a continuação da obra."
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                698,
+                971,
+                742
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Si, dentro do prazo de trinta dias, o Governo não se manifestar, fea entendido que está concedida a mesma licença."
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                742,
+                971,
+                765
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "I V"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                729,
+                771,
+                756,
+                784
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "O Governo prestará a esta estrada de ferro toda a protecção compatível com as leis, afim de que possa ella realizar a arrecadação das taxas estabelecidas, para que sejam respeitadas as disposições dos seus regulamentos e mantida a sua polícia, devend, todo o empregado na arrecadação das taxas e na polícia da linha ser cidadão da República."
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                792,
+                974,
+                864
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "V"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                738,
+                872,
+                753,
+                884
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Antes de iniciarem-se os trabalhos da construção desta estrada de ferro, deverão ser submetidas à approvação de Governe os projectos de todo anos trabalhos, que comprehendente!"
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                894,
+                974,
+                932
+            ]
+        }
+    ]
+]

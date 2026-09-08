@@ -1,0 +1,10 @@
+analisando a imagem fornecida, trata-se de uma página do **diário official** do estado de são paulo, datada de **abril de 1900** (página 733).
+abaixo está o código html completo que reproduz fielmente o layout original em três colunas, a tipografia de época (serifada, justificada, com recuos de parágrafo) e a grafia exata das palavras (incluindo termos arcaicos como *transmittiram-se*, *auctoridade*, *exgottos*, *tabellas*, etc.).
+```html
+domingo, 1
+diario official
+abril 1900 733
+antonio candido xavier de almeida e souza, nomeado curador por decreto de 6 de março corrente.
+requerimentos despachados
+do bacharel octaviano de aguiar camargo, ex-promotor publico da comarca de ytú, pedindo providencias no sentido de poder receber no thesouro do estado, os vencimentos a que tem direito, durante o tempo em que esteve em goso da licença que lhe foi concedida por acto de 23 de janeiro do corrente anno, para tratar da saude de pessoa de sua familia, visto ter-se extraviado a respectiva portaria. - attendido, retirando desta secretaria por certidão, uma copia da portaria da licença que foi extraviada.
+do bacharel bento ribeiro da luz, juiz de direito da comarca de nuporanga, pedindo que se lhe mande certificar si obteve desta secretaria a

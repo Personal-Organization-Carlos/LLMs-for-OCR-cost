@@ -1,0 +1,2383 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.4677,
+                "bbox": [
+                    223,
+                    81,
+                    389,
+                    115
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.608,
+                "bbox": [
+                    720,
+                    79,
+                    967,
+                    113
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8414,
+                "bbox": [
+                    284,
+                    127,
+                    711,
+                    163
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.799,
+                "bbox": [
+                    217,
+                    174,
+                    851,
+                    254
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5752,
+                "bbox": [
+                    219,
+                    267,
+                    724,
+                    300
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.552,
+                "bbox": [
+                    1271,
+                    80,
+                    1497,
+                    112
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.5287,
+                "bbox": [
+                    151,
+                    308,
+                    851,
+                    1133
+                ],
+                "index": 7,
+                "html": "<table><tr><td>Camara Municipal de Jahú Tufick Nicolau</td><td>1:770$300 2:000$000</td></tr><tr><td>Nassri Abbud</td><td>3:000$000</td></tr><tr><td>Dr. Fausto Gwyer de Azevedo Paulo Vissotto</td><td>1:359$065 1:359$065</td></tr><tr><td>IIeitor Gouvêa</td><td>1:359$065 10:847$495</td></tr><tr><td>Gredor com privilegio so-</td><td></td></tr><tr><td>bre inmovel Bonfiglio Montotani</td><td>50:000$000</td></tr><tr><td>Credores chirographarios</td><td></td></tr><tr><td>Guilberme Herzog</td><td>660$000</td></tr><tr><td>Banco Commnereial do Estado de</td><td></td></tr><tr><td>S. Paulo</td><td>30:500$000</td></tr><tr><td>Jcsé Antonio</td><td>7:500$000</td></tr><tr><td>Bento do Souza &amp; Conp.</td><td>244S500</td></tr><tr><td>Miguel Zattar &amp; Filhos</td><td>3:33:$500</td></tr><tr><td>Joãc A. Machado &amp; Comp.</td><td></td></tr><tr><td>Nicolan Nassif</td><td>1:3S $000</td></tr><tr><td></td><td>52:224S940</td></tr><tr><td>Sarkis João &amp; Filho</td><td>2:1718000</td></tr><tr><td>A. Sampaio &amp; Comp.</td><td>2:299$800</td></tr><tr><td>Janowitzer, Wahle &amp; Comp.</td><td>878$900</td></tr><tr><td>Januario Cauale</td><td>5828500</td></tr><tr><td>Herm Stoltz &amp; Comp.</td><td>3:5685200</td></tr><tr><td></td><td></td></tr><tr><td>J. Baptista Aloe</td><td>1:1123000</td></tr><tr><td>Nassri Abbud</td><td>8:000$000</td></tr><tr><td>M. Yazigi &amp; Irmão</td><td>3:730$000</td></tr><tr><td>José Milani &amp; Comp.</td><td>22-S000</td></tr><tr><td>Ind. Reuuidas F. Matarazzo</td><td>5:1638650</td></tr><tr><td>Motta Fiibo &amp; Comp.</td><td>1928000</td></tr><tr><td>The Rio de Janeiro F. Mill &amp;</td><td></td></tr><tr><td>Gran, Ltda.</td><td>2:7385000</td></tr><tr><td></td><td></td></tr><tr><td>Pignatari &amp; Matarazz</td><td>1:1125700</td></tr><tr><td>Theodor Bloek &amp; Comp.</td><td>1.0603500</td></tr><tr><td>Barros Loureiro &amp; Morteiro</td><td>418S000</td></tr></table>"
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.7753,
+                "bbox": [
+                    870,
+                    122,
+                    1570,
+                    1023
+                ],
+                "index": 8,
+                "html": "<table><tr><td>Assab Abdaila &amp; Nagib Salem</td><td>6:475$000</td><td></td><td></td></tr><tr><td>Dr. Antonio Neves de Almeida Prado</td><td>12:300$000</td><td></td><td></td><td></td></tr><tr><td>Armando Tersa</td><td>2:000$000</td><td></td><td></td><td></td></tr><tr><td>Barros &amp; Comp.</td><td>6:5138100</td><td></td><td></td><td></td></tr><tr><td>Lazaro Alves dos Santos</td><td>700$000</td><td></td><td></td><td></td></tr><tr><td>Nassim Zattar</td><td>45:000$000</td><td></td><td></td><td></td></tr><tr><td>José Roméro</td><td>1:265$000</td><td></td><td></td><td></td></tr><tr><td>Autonio Bianco</td><td>2:100$000</td><td></td><td></td><td></td></tr><tr><td>José Fernandes</td><td>6:850$000</td><td></td><td></td><td></td></tr><tr><td>Nasser Antonio</td><td>40:101$000</td><td></td><td></td><td></td></tr><tr><td>Aristides Cury</td><td>39:500$000</td><td></td><td></td><td></td></tr><tr><td>Aristiles R Nunes</td><td>40:000$000</td><td></td><td></td><td></td></tr><tr><td>Sad Antonio</td><td>39.500$000</td><td></td><td></td><td></td></tr><tr><td>Semi Zattar &amp; frmãos</td><td>15:401S500</td><td></td><td></td><td></td></tr><tr><td>Banco do Brasiì</td><td>49:552$000</td><td></td><td></td><td></td></tr><tr><td>Banco Melhoramentos do Jahú</td><td>4:000$000</td><td></td><td></td><td></td></tr><tr><td>Gonçalves, Salles &amp; Comp.</td><td>1:345S000</td><td></td><td></td><td></td></tr><tr><td>João Matheus</td><td>5:6003000</td><td></td><td></td><td></td></tr><tr><td>Florido Fabri</td><td>13:440$000</td><td></td><td></td><td></td></tr><tr><td>Banco Paulista</td><td>51:5408000</td><td></td><td></td><td></td></tr><tr><td>Vietor Cesarino Mausur Yasbeek &amp; Irmão</td><td>15:000800</td><td></td><td></td><td></td></tr><tr><td>Felicio Bolini</td><td>285$000</td><td></td><td></td><td></td></tr><tr><td>Bonfiglio Montovani</td><td>21:200$000 48 5258000</td><td></td><td></td><td></td></tr><tr><td>Albino Tesser</td><td>17:9203000</td><td></td><td></td><td></td></tr><tr><td>De Mareo &amp; Coup.</td><td>6:0003000</td><td></td><td></td><td></td></tr><tr><td>Nelsen Bechara &amp; Comp.</td><td>26:159$800</td><td></td><td></td><td></td></tr><tr><td>Farah Antonio</td><td>3:511$700</td><td></td><td></td><td></td></tr><tr><td>Domingos Saro</td><td>7:840$000</td><td></td><td></td><td></td></tr><tr><td>Bazilio Trevizan</td><td>589§200</td><td></td><td></td><td></td></tr><tr><td>Leureiro Costa &amp; Comp.</td><td>2:455550</td><td></td><td></td><td></td></tr><tr><td>Abib Jcsé Tarcha</td><td>3:000$000</td><td></td><td></td><td></td></tr><tr><td>Adriano Blanch</td><td>B:920$000</td><td></td><td></td><td>696:185$990</td></tr><tr><td>Tufick Nieolan</td><td>G:000$000</td><td></td><td></td><td></td></tr><tr><td>Francisco Simaões</td><td>21:300$000</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>Somma Rs.</td><td></td><td>757.033$485</td></tr></table>"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4904,
+                "bbox": [
+                    875,
+                    1032,
+                    1564,
+                    1090
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8592,
+                "bbox": [
+                    240,
+                    1145,
+                    539,
+                    1174
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5298,
+                "bbox": [
+                    158,
+                    1190,
+                    614,
+                    1245
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5885,
+                "bbox": [
+                    158,
+                    1261,
+                    615,
+                    1356
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5755,
+                "bbox": [
+                    162,
+                    1355,
+                    615,
+                    1402
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4596,
+                "bbox": [
+                    163,
+                    1400,
+                    616,
+                    1434
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4792,
+                "bbox": [
+                    164,
+                    1425,
+                    615,
+                    1452
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4634,
+                "bbox": [
+                    163,
+                    1447,
+                    615,
+                    1474
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4729,
+                "bbox": [
+                    164,
+                    1492,
+                    615,
+                    1519
+                ],
+                "index": 17
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6641,
+                "bbox": [
+                    163,
+                    1518,
+                    617,
+                    1563
+                ],
+                "index": 18
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.668,
+                "bbox": [
+                    164,
+                    1562,
+                    617,
+                    1607
+                ],
+                "index": 19
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5058,
+                "bbox": [
+                    165,
+                    1606,
+                    617,
+                    1637
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5945,
+                "bbox": [
+                    163,
+                    1633,
+                    618,
+                    1680
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6295,
+                "bbox": [
+                    164,
+                    1747,
+                    619,
+                    1794
+                ],
+                "index": 22
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5054,
+                "bbox": [
+                    163,
+                    1794,
+                    619,
+                    1849
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5905,
+                "bbox": [
+                    164,
+                    1865,
+                    617,
+                    1910
+                ],
+                "index": 24
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6409,
+                "bbox": [
+                    163,
+                    1910,
+                    618,
+                    1957
+                ],
+                "index": 25
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6811,
+                "bbox": [
+                    163,
+                    1956,
+                    619,
+                    2007
+                ],
+                "index": 26
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5786,
+                "bbox": [
+                    637,
+                    1147,
+                    1093,
+                    1197
+                ],
+                "index": 27
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6239,
+                "bbox": [
+                    638,
+                    1195,
+                    1093,
+                    1223
+                ],
+                "index": 28
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6146,
+                "bbox": [
+                    639,
+                    1221,
+                    1093,
+                    1267
+                ],
+                "index": 29
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6095,
+                "bbox": [
+                    638,
+                    1266,
+                    1094,
+                    1311
+                ],
+                "index": 30
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6075,
+                "bbox": [
+                    640,
+                    1311,
+                    1094,
+                    1358
+                ],
+                "index": 31
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6172,
+                "bbox": [
+                    639,
+                    1358,
+                    1092,
+                    1403
+                ],
+                "index": 32
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6219,
+                "bbox": [
+                    639,
+                    1403,
+                    1093,
+                    1449
+                ],
+                "index": 33
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5465,
+                "bbox": [
+                    640,
+                    1473,
+                    1093,
+                    1518
+                ],
+                "index": 34
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5068,
+                "bbox": [
+                    641,
+                    1515,
+                    1093,
+                    1544
+                ],
+                "index": 35
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4742,
+                "bbox": [
+                    641,
+                    1545,
+                    1093,
+                    1571
+                ],
+                "index": 36
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6467,
+                "bbox": [
+                    641,
+                    1588,
+                    1095,
+                    1637
+                ],
+                "index": 37
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6503,
+                "bbox": [
+                    641,
+                    1640,
+                    1098,
+                    1689
+                ],
+                "index": 38
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5791,
+                "bbox": [
+                    641,
+                    1688,
+                    1096,
+                    1716
+                ],
+                "index": 39
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.644,
+                "bbox": [
+                    641,
+                    1712,
+                    1100,
+                    1760
+                ],
+                "index": 40
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6259,
+                "bbox": [
+                    642,
+                    1763,
+                    1097,
+                    1812
+                ],
+                "index": 41
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4759,
+                "bbox": [
+                    639,
+                    1813,
+                    1097,
+                    1850
+                ],
+                "index": 42
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5173,
+                "bbox": [
+                    638,
+                    1836,
+                    1098,
+                    1885
+                ],
+                "index": 43
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4883,
+                "bbox": [
+                    640,
+                    1887,
+                    1097,
+                    1935
+                ],
+                "index": 44
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.489,
+                "bbox": [
+                    641,
+                    1933,
+                    1098,
+                    1965
+                ],
+                "index": 45
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7196,
+                "bbox": [
+                    1116,
+                    1147,
+                    1572,
+                    1197
+                ],
+                "index": 46
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6784,
+                "bbox": [
+                    1117,
+                    1195,
+                    1570,
+                    1244
+                ],
+                "index": 47
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6323,
+                "bbox": [
+                    1117,
+                    1242,
+                    1569,
+                    1289
+                ],
+                "index": 48
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4828,
+                "bbox": [
+                    1117,
+                    1289,
+                    1571,
+                    1356
+                ],
+                "index": 49
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6385,
+                "bbox": [
+                    1119,
+                    1356,
+                    1572,
+                    1403
+                ],
+                "index": 50
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6739,
+                "bbox": [
+                    1118,
+                    1404,
+                    1572,
+                    1450
+                ],
+                "index": 51
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6954,
+                "bbox": [
+                    1118,
+                    1450,
+                    1572,
+                    1497
+                ],
+                "index": 52
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6678,
+                "bbox": [
+                    1119,
+                    1497,
+                    1572,
+                    1543
+                ],
+                "index": 53
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4877,
+                "bbox": [
+                    1120,
+                    1544,
+                    1572,
+                    1613
+                ],
+                "index": 54
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6908,
+                "bbox": [
+                    1119,
+                    1613,
+                    1573,
+                    1658
+                ],
+                "index": 55
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7324,
+                "bbox": [
+                    1119,
+                    1658,
+                    1574,
+                    1705
+                ],
+                "index": 56
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6711,
+                "bbox": [
+                    1118,
+                    1706,
+                    1575,
+                    1751
+                ],
+                "index": 57
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6875,
+                "bbox": [
+                    1120,
+                    1750,
+                    1576,
+                    1797
+                ],
+                "index": 58
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4609,
+                "bbox": [
+                    1122,
+                    1796,
+                    1573,
+                    1825
+                ],
+                "index": 59
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6732,
+                "bbox": [
+                    1121,
+                    1822,
+                    1574,
+                    1868
+                ],
+                "index": 60
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    224,
+                    77,
+                    393,
+                    119
+                ],
+                "score": 0.96,
+                "text": "Terça-feira, 1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    722,
+                    80,
+                    960,
+                    112
+                ],
+                "score": 0.968,
+                "text": "DIARIO OFFICIAL"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    291,
+                    131,
+                    704,
+                    157
+                ],
+                "score": 0.926,
+                "text": "F» Hencta de Jorge Mussi"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    224,
+                    179,
+                    844,
+                    202
+                ],
+                "score": 0.968,
+                "text": "Quadro geral dos credores admittidos á faliencia, de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    257,
+                    204,
+                    844,
+                    225
+                ],
+                "score": 0.977,
+                "text": "acc rdo com o artigo 85 do dee. 5746, de 9 de De-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    259,
+                    228,
+                    441,
+                    248
+                ],
+                "score": 0.999,
+                "text": "zembro de 1929."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    225,
+                    272,
+                    717,
+                    296
+                ],
+                "score": 0.981,
+                "text": "Credores com privilegio sobre todo o activo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1273,
+                    83,
+                    1490,
+                    111
+                ],
+                "score": 0.96,
+                "text": "Abril 1930 3201"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    945,
+                    1035,
+                    1558,
+                    1061
+                ],
+                "score": 0.982,
+                "text": "Jahù, 21 de Março de 1930. - O juiz de direito"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    880,
+                    1059,
+                    1542,
+                    1086
+                ],
+                "score": 0.962,
+                "text": "Manoel Gomrs de Oliveira. O syndieo : Heitor Gouvêa."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    246,
+                    1147,
+                    533,
+                    1173
+                ],
+                "score": 0.952,
+                "text": "Comarca de Jahú"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    162,
+                    1193,
+                    610,
+                    1218
+                ],
+                "score": 0.953,
+                "text": "Cartorio do 2.° oflicio - Failencia de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    240,
+                    1216,
+                    541,
+                    1243
+                ],
+                "score": 0.935,
+                "text": "L. R. Sehrciuer & Comp."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    192,
+                    1263,
+                    611,
+                    1287
+                ],
+                "score": 0.983,
+                "text": "Quadro geral dos eredores admittidos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    161,
+                    1286,
+                    611,
+                    1312
+                ],
+                "score": 0.975,
+                "text": "á falleneia, de accordo com o art. S5"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    164,
+                    1308,
+                    612,
+                    1334
+                ],
+                "score": 0.976,
+                "text": "do Dee. 5746, dc 9 de Dezemhro de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    165,
+                    1333,
+                    232,
+                    1355
+                ],
+                "score": 1.0,
+                "text": "1929."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    164,
+                    1354,
+                    611,
+                    1381
+                ],
+                "score": 0.981,
+                "text": "Credores comn privilegio sobre todo o"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    331,
+                    1380,
+                    402,
+                    1401
+                ],
+                "score": 0.949,
+                "text": "activo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    168,
+                    1402,
+                    367,
+                    1424
+                ],
+                "score": 0.93,
+                "text": "Josó Mclges, Jahi"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    517,
+                    1403,
+                    610,
+                    1425
+                ],
+                "score": 0.987,
+                "text": "216$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    167,
+                    1424,
+                    399,
+                    1448
+                ],
+                "score": 0.973,
+                "text": "Mario \"Martins, Jahú"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    497,
+                    1426,
+                    612,
+                    1449
+                ],
+                "score": 0.973,
+                "text": "2:143§100"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    165,
+                    1446,
+                    612,
+                    1473
+                ],
+                "score": 0.951,
+                "text": "Pedro Beltran Junior, Jahú 782§500"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    165,
+                    1488,
+                    393,
+                    1521
+                ],
+                "score": 0.943,
+                "text": "Lniz Segolin, Jahú"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    517,
+                    1490,
+                    613,
+                    1521
+                ],
+                "score": 0.871,
+                "text": "160§000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    190,
+                    1538,
+                    251,
+                    1564
+                ],
+                "score": 0.998,
+                "text": "Jahú"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    516,
+                    1538,
+                    613,
+                    1566
+                ],
+                "score": 0.978,
+                "text": "160$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    165,
+                    1518,
+                    478,
+                    1541
+                ],
+                "score": 0.972,
+                "text": "João Manoel do Nascimento,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    188,
+                    1584,
+                    249,
+                    1608
+                ],
+                "score": 0.901,
+                "text": "Jahú"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    518,
+                    1588,
+                    613,
+                    1610
+                ],
+                "score": 0.902,
+                "text": "179S900"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    165,
+                    1561,
+                    479,
+                    1586
+                ],
+                "score": 0.952,
+                "text": "Prudente Authero Bueno;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    167,
+                    1605,
+                    404,
+                    1635
+                ],
+                "score": 0.952,
+                "text": "Aristeu Chaves, Jahú"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    501,
+                    1609,
+                    613,
+                    1635
+                ],
+                "score": 0.998,
+                "text": "1:200$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    164,
+                    1630,
+                    475,
+                    1658
+                ],
+                "score": 0.985,
+                "text": "Camara Municipal de Jahú,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    187,
+                    1655,
+                    249,
+                    1677
+                ],
+                "score": 0.939,
+                "text": "Jah"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    501,
+                    1657,
+                    613,
+                    1679
+                ],
+                "score": 0.998,
+                "text": "2:197$700"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    165,
+                    1742,
+                    475,
+                    1774
+                ],
+                "score": 0.988,
+                "text": "Hermi Stoltz & Comp., São"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    192,
+                    1771,
+                    260,
+                    1794
+                ],
+                "score": 0.991,
+                "text": "Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    502,
+                    1771,
+                    613,
+                    1794
+                ],
+                "score": 1.0,
+                "text": "1:125$800"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    167,
+                    1793,
+                    479,
+                    1816
+                ],
+                "score": 0.984,
+                "text": "D. Almerinda do Canto Al-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    191,
+                    1816,
+                    400,
+                    1839
+                ],
+                "score": 0.989,
+                "text": "meida Prado, Jahú"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    529,
+                    1818,
+                    614,
+                    1841
+                ],
+                "score": 0.898,
+                "text": "67≤900"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    369,
+                    1842,
+                    390,
+                    1850
+                ],
+                "score": 0.807,
+                "text": "1_"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    165,
+                    1860,
+                    477,
+                    1890
+                ],
+                "score": 0.977,
+                "text": "Augusto Vieira da Silva,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    189,
+                    1887,
+                    300,
+                    1912
+                ],
+                "score": 0.931,
+                "text": "Caropinas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    487,
+                    1885,
+                    612,
+                    1911
+                ],
+                "score": 1.0,
+                "text": "48:627$224"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    163,
+                    1905,
+                    472,
+                    1936
+                ],
+                "score": 0.997,
+                "text": "Eduardo Baptista Leite,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    186,
+                    1932,
+                    298,
+                    1957
+                ],
+                "score": 1.0,
+                "text": "Campinas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    487,
+                    1930,
+                    613,
+                    1960
+                ],
+                "score": 0.998,
+                "text": "74:478$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    165,
+                    1950,
+                    472,
+                    1984
+                ],
+                "score": 0.969,
+                "text": "Sampaio Costa & Comp.,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    190,
+                    1976,
+                    316,
+                    2004
+                ],
+                "score": 0.925,
+                "text": "São Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    498,
+                    1977,
+                    613,
+                    2003
+                ],
+                "score": 1.0,
+                "text": "3:602$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    664,
+                    1171,
+                    784,
+                    1196
+                ],
+                "score": 0.992,
+                "text": "SãPaulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    974,
+                    1173,
+                    1088,
+                    1195
+                ],
+                "score": 0.971,
+                "text": "4:820$500"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    639,
+                    1148,
+                    951,
+                    1177
+                ],
+                "score": 0.953,
+                "text": "Lonreiro Costa, & Comp.,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    642,
+                    1197,
+                    913,
+                    1220
+                ],
+                "score": 0.976,
+                "text": "Fratelli Attanasio, fabú"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    972,
+                    1195,
+                    1088,
+                    1222
+                ],
+                "score": 0.954,
+                "text": "1:6173400"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    640,
+                    1217,
+                    954,
+                    1243
+                ],
+                "score": 0.96,
+                "text": "Dr. Rubens G Rocha e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    666,
+                    1243,
+                    860,
+                    1265
+                ],
+                "score": 0.976,
+                "text": "outro, São Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    975,
+                    1243,
+                    1087,
+                    1266
+                ],
+                "score": 0.942,
+                "text": "6:674$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    639,
+                    1263,
+                    950,
+                    1291
+                ],
+                "score": 0.978,
+                "text": "Gonçalves Salles & Comp."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    664,
+                    1287,
+                    784,
+                    1312
+                ],
+                "score": 0.997,
+                "text": "São Panlo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    976,
+                    1289,
+                    1088,
+                    1312
+                ],
+                "score": 0.97,
+                "text": "4:549$800"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    639,
+                    1309,
+                    954,
+                    1338
+                ],
+                "score": 0.979,
+                "text": "Bromberg & Comp., São"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    664,
+                    1334,
+                    735,
+                    1357
+                ],
+                "score": 0.994,
+                "text": "Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    975,
+                    1335,
+                    1088,
+                    1358
+                ],
+                "score": 0.997,
+                "text": "2:024$200"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    664,
+                    1379,
+                    784,
+                    1405
+                ],
+                "score": 0.942,
+                "text": "São Panlo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    961,
+                    1381,
+                    1088,
+                    1405
+                ],
+                "score": 0.974,
+                "text": "11:305$300"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    641,
+                    1357,
+                    943,
+                    1382
+                ],
+                "score": 0.995,
+                "text": "Alves Azevedo & Comp,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    664,
+                    1426,
+                    743,
+                    1450
+                ],
+                "score": 1.0,
+                "text": "Santos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    976,
+                    1427,
+                    1088,
+                    1450
+                ],
+                "score": 0.975,
+                "text": "3:108$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    638,
+                    1401,
+                    952,
+                    1430
+                ],
+                "score": 0.976,
+                "text": "C. Costa Fontes & Comp.,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    640,
+                    1469,
+                    935,
+                    1499
+                ],
+                "score": 0.979,
+                "text": "Juvenal, Franeo & Comp.,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    665,
+                    1494,
+                    768,
+                    1519
+                ],
+                "score": 0.996,
+                "text": "S. Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    992,
+                    1494,
+                    1091,
+                    1522
+                ],
+                "score": 0.992,
+                "text": "906$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    643,
+                    1517,
+                    898,
+                    1544
+                ],
+                "score": 0.963,
+                "text": "Giovanni Pavan, Jahi"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    995,
+                    1518,
+                    1090,
+                    1543
+                ],
+                "score": 0.976,
+                "text": "585$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    641,
+                    1540,
+                    890,
+                    1571
+                ],
+                "score": 0.994,
+                "text": "José Balbo, Campinas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    993,
+                    1543,
+                    1090,
+                    1567
+                ],
+                "score": 0.95,
+                "text": "467$800"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    640,
+                    1583,
+                    935,
+                    1615
+                ],
+                "score": 0.985,
+                "text": "Fidelis Maselli Di Laseio,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    666,
+                    1610,
+                    780,
+                    1639
+                ],
+                "score": 1.0,
+                "text": "Campinas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    963,
+                    1612,
+                    1091,
+                    1635
+                ],
+                "score": 0.977,
+                "text": "35:000$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    641,
+                    1639,
+                    935,
+                    1668
+                ],
+                "score": 0.979,
+                "text": "José de Seixas Junior,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    666,
+                    1663,
+                    780,
+                    1693
+                ],
+                "score": 0.998,
+                "text": "Campinas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    964,
+                    1664,
+                    1093,
+                    1690
+                ],
+                "score": 0.971,
+                "text": "10:000$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    641,
+                    1685,
+                    935,
+                    1717
+                ],
+                "score": 0.985,
+                "text": "Lion & Comp., S. Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    974,
+                    1688,
+                    1092,
+                    1713
+                ],
+                "score": 0.976,
+                "text": "6:557$6:0"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    641,
+                    1709,
+                    935,
+                    1735
+                ],
+                "score": 0.992,
+                "text": "Luciano Vieintim & Filbos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    669,
+                    1735,
+                    770,
+                    1757
+                ],
+                "score": 0.996,
+                "text": "S. Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    996,
+                    1732,
+                    1093,
+                    1761
+                ],
+                "score": 0.974,
+                "text": "834$500"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    641,
+                    1761,
+                    937,
+                    1791
+                ],
+                "score": 0.959,
+                "text": "Soc. Casa Moreira Ltda.,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    666,
+                    1787,
+                    728,
+                    1811
+                ],
+                "score": 0.939,
+                "text": "Jabú"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    991,
+                    1788,
+                    1092,
+                    1812
+                ],
+                "score": 1.0,
+                "text": "168$500"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    644,
+                    1811,
+                    933,
+                    1835
+                ],
+                "score": 0.964,
+                "text": "Adalberto Maia, Canpinas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    997,
+                    1812,
+                    1093,
+                    1835
+                ],
+                "score": 0.98,
+                "text": "940$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    640,
+                    1837,
+                    929,
+                    1852
+                ],
+                "score": 0.889,
+                "text": "Fabrica Ànrora Timitads"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    639,
+                    1833,
+                    948,
+                    1860
+                ],
+                "score": 0.998,
+                "text": "Fabrica Aurora Limitada,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    669,
+                    1857,
+                    789,
+                    1881
+                ],
+                "score": 1.0,
+                "text": "Piracicaba"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    990,
+                    1857,
+                    1093,
+                    1880
+                ],
+                "score": 0.926,
+                "text": "4378200"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    644,
+                    1887,
+                    940,
+                    1912
+                ],
+                "score": 0.952,
+                "text": "Comp. Paulista de Ali ņen-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    668,
+                    1913,
+                    847,
+                    1935
+                ],
+                "score": 0.978,
+                "text": "tação, S. Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    995,
+                    1910,
+                    1095,
+                    1936
+                ],
+                "score": 0.998,
+                "text": "298$400"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    644,
+                    1929,
+                    942,
+                    1961
+                ],
+                "score": 0.94,
+                "text": "Moinho Inglez,: S. Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    974,
+                    1929,
+                    1095,
+                    1961
+                ],
+                "score": 1.0,
+                "text": "1:185$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1118,
+                    1148,
+                    1408,
+                    1176
+                ],
+                "score": 0.965,
+                "text": "Rieckmuan & Comp., S."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1142,
+                    1172,
+                    1211,
+                    1196
+                ],
+                "score": 0.994,
+                "text": "Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1455,
+                    1175,
+                    1568,
+                    1198
+                ],
+                "score": 0.987,
+                "text": "6:113$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1144,
+                    1219,
+                    1244,
+                    1242
+                ],
+                "score": 0.956,
+                "text": "S. Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1449,
+                    1217,
+                    1564,
+                    1246
+                ],
+                "score": 0.996,
+                "text": "2:296$900"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1118,
+                    1195,
+                    1413,
+                    1221
+                ],
+                "score": 0.968,
+                "text": "Costa Nogueira & Comp.,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1118,
+                    1239,
+                    1413,
+                    1268
+                ],
+                "score": 0.977,
+                "text": "Zerrenner, Bulow & Cemp,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1142,
+                    1264,
+                    1244,
+                    1290
+                ],
+                "score": 1.0,
+                "text": "S. Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1451,
+                    1267,
+                    1565,
+                    1290
+                ],
+                "score": 0.994,
+                "text": "4:022$800"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1119,
+                    1286,
+                    1413,
+                    1315
+                ],
+                "score": 0.981,
+                "text": "Comp. Mechanica e Im-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1142,
+                    1311,
+                    1410,
+                    1337
+                ],
+                "score": 0.969,
+                "text": "portado de São Panlo,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1144,
+                    1335,
+                    1244,
+                    1357
+                ],
+                "score": 1.0,
+                "text": "S. Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1455,
+                    1334,
+                    1567,
+                    1359
+                ],
+                "score": 0.953,
+                "text": "1:953S570"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1144,
+                    1380,
+                    1246,
+                    1403
+                ],
+                "score": 0.956,
+                "text": "S. Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1473,
+                    1382,
+                    1568,
+                    1405
+                ],
+                "score": 0.968,
+                "text": "9203000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1119,
+                    1355,
+                    1413,
+                    1384
+                ],
+                "score": 0.938,
+                "text": "Wilson Sons & Comp.,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1117,
+                    1402,
+                    1414,
+                    1430
+                ],
+                "score": 0.993,
+                "text": "Tripaldi & Catena Ltda.,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1143,
+                    1426,
+                    1245,
+                    1451
+                ],
+                "score": 0.992,
+                "text": "S. Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1456,
+                    1429,
+                    1568,
+                    1451
+                ],
+                "score": 0.998,
+                "text": "2:256$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1142,
+                    1471,
+                    1242,
+                    1498
+                ],
+                "score": 0.972,
+                "text": "S. Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1443,
+                    1474,
+                    1567,
+                    1497
+                ],
+                "score": 0.986,
+                "text": "19:354$080"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1118,
+                    1448,
+                    1415,
+                    1476
+                ],
+                "score": 0.961,
+                "text": "Theodor Wille & Comp .,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1119,
+                    1496,
+                    1415,
+                    1521
+                ],
+                "score": 0.97,
+                "text": "João Jorge, Figutiredo &"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1144,
+                    1520,
+                    1331,
+                    1545
+                ],
+                "score": 0.981,
+                "text": "Comp., S. Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1439,
+                    1520,
+                    1568,
+                    1545
+                ],
+                "score": 0.983,
+                "text": "19:937$300"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1120,
+                    1539,
+                    1413,
+                    1568
+                ],
+                "score": 0.988,
+                "text": "Brazilian Warrant Agen-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1144,
+                    1567,
+                    1409,
+                    1592
+                ],
+                "score": 0.992,
+                "text": "cy & Finance Comp."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1145,
+                    1586,
+                    1325,
+                    1613
+                ],
+                "score": 0.94,
+                "text": "Ltda.. S. Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1436,
+                    1587,
+                    1568,
+                    1615
+                ],
+                "score": 0.947,
+                "text": ". 8:253$200"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1146,
+                    1636,
+                    1257,
+                    1659
+                ],
+                "score": 0.998,
+                "text": "Campinas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1455,
+                    1636,
+                    1568,
+                    1659
+                ],
+                "score": 1.0,
+                "text": "1:540$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1117,
+                    1609,
+                    1416,
+                    1637
+                ],
+                "score": 0.998,
+                "text": "José Milani & Comp,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1118,
+                    1654,
+                    1441,
+                    1684
+                ],
+                "score": 0.98,
+                "text": "S/A Moinho Santista, São"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1143,
+                    1681,
+                    1213,
+                    1704
+                ],
+                "score": 1.0,
+                "text": "Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1455,
+                    1679,
+                    1569,
+                    1707
+                ],
+                "score": 0.974,
+                "text": "2:572$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1119,
+                    1700,
+                    1445,
+                    1733
+                ],
+                "score": 0.964,
+                "text": "A. Sampai) & Comp., S."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1145,
+                    1726,
+                    1214,
+                    1752
+                ],
+                "score": 1.0,
+                "text": "Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1455,
+                    1727,
+                    1570,
+                    1752
+                ],
+                "score": 1.0,
+                "text": "4:357$400"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1118,
+                    1746,
+                    1454,
+                    1779
+                ],
+                "score": 0.946,
+                "text": "Motta Filho & Comp., S."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1145,
+                    1771,
+                    1214,
+                    1798
+                ],
+                "score": 1.0,
+                "text": "Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1455,
+                    1774,
+                    1570,
+                    1797
+                ],
+                "score": 0.984,
+                "text": "3:083$200"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1122,
+                    1795,
+                    1570,
+                    1827
+                ],
+                "score": 0.978,
+                "text": "Irmãos Durante, Jahú231$800"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1121,
+                    1818,
+                    1477,
+                    1844
+                ],
+                "score": 0.973,
+                "text": "The Dunlop Pneumatic Tyre"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1146,
+                    1843,
+                    1406,
+                    1868
+                ],
+                "score": 0.974,
+                "text": "Comp. Ltda., S. Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1442,
+                    1839,
+                    1571,
+                    1868
+                ],
+                "score": 1.0,
+                "text": "633$700"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1699,
+            "height": 2096
+        }
+    }
+]

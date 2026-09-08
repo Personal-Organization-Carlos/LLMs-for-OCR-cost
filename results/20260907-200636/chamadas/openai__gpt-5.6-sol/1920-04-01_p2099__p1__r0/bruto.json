@@ -1,0 +1,93 @@
+{
+  "chave": "openai/gpt-5.6-sol|1920-04-01_p2099|p1|0",
+  "registro": {
+    "model_id": "openai/gpt-5.6-sol",
+    "prompt_id": "p1",
+    "doc_id": "1920-04-01_p2099",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 61.918946699937806,
+    "prompt_tokens": 4374,
+    "completion_tokens": 3257,
+    "total_tokens": 7631,
+    "cost_usd": 0.0435035,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "OpenAI",
+    "generation_id": "gen-1788826901-WRmrzQqknEDJNaYYaBGr",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T00:21:41Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788826901-WRmrzQqknEDJNaYYaBGr",
+        "object": "chat.completion",
+        "created": 1788826901,
+        "model": "openai/gpt-5.6-sol",
+        "provider": "OpenAI",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "completed",
+            "message": {
+              "role": "assistant",
+              "content": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"utf-8\">\n<title>Diario Official — Abril de 1920</title>\n<style>\n  *{box-sizing:border-box}\n  html,body{margin:0;background:#f5f2e9;color:#111}\n  body{\n    font-family:\"Times New Roman\",Times,serif;\n    font-size:15px;\n    line-height:1.13;\n  }\n  .page{\n    width:1400px;\n    margin:0 auto;\n    padding:42px 38px 55px;\n    background:#f8f6ee;\n  }\n  .masthead{\n    display:grid;\n    grid-template-columns:1fr 1fr 1fr;\n    align-items:end;\n    padding:0 65px 5px;\n    border-bottom:4px solid #111;\n    font-weight:bold;\n    letter-spacing:1px;\n  }\n  .masthead .left{font-size:22px}\n  .masthead .center{text-align:center;font-size:24px}\n  .masthead .right{text-align:right;font-size:21px}\n  .article{\n    margin-top:10px;\n    column-count:3;\n    column-gap:28px;\n    column-rule:2px solid #111;\n    text-align:justify;\n    hyphens:auto;\n  }\n  h1{\n    margin:0 0 24px;\n    text-align:center;\n    font-size:27px;\n    line-height:1;\n    letter-spacing:1px;\n    break-after:avoid;\n  }\n  .subtitle{\n    margin:0 8px 25px;\n    text-align:center;\n    font-size:16px;\n    font-weight:bold;\n    line-height:1.38;\n    letter-spacing:1.1px;\n  }\n  p{\n    margin:0;\n    text-indent:1.6em;\n  }\n  .noindent{text-indent:0}\n  .signature{margin-top:8px}\n  .list{font-weight:bold}\n</style>\n</head>\n<body>\n<main class=\"page\">\n  <header class=\"masthead\">\n    <div class=\"left\">Quinta-feira, 1</div>\n    <div class=\"center\">DIARIO OFFICIAL</div>\n    <div class=\"right\">Abril&nbsp;&nbsp;1920&nbsp;&nbsp;&nbsp;2039</div>\n  </header>\n\n  <article class=\"article\">\n    <h1>Citação</h1>\n\n    <div class=\"subtitle\">\n      DE CONDÔMINOS AUSENTES E DESCONHECIDOS DA FAZENDA DA ESPERANÇA NOS\n      LOGARES — «ESPLENDOR» DA 1ª DIVISA, — ESPERANÇA» E «BRILHANTE», —\n      DESTA COMARCA, COM O PRAZO DE 90 DIAS\n    </div>\n\n    <p class=\"noindent\">O doutor Antonio Furtado da Rocha Prota, juiz de direito da comarca de Cajurú, Estado de S. Paulo, etc.</p>\n\n    <p>Faço saber aos que o presente edital, com o prazo de noventa dias virem, ou delle noticia tiverem que, por parte de Jeronymo Carmo do Nascimento, Manoel Pedro de Carvalho e Balduino Antonio de Oliveira, me foram dirigidas as petições dos teores seguintes: Exmo. sr. dr. juiz de direito. Por seu procurador infra constituido nos inclusos instrumentos de procuração bastante, dizem Jeronymo Carmo do Nascimento, Manoel Pedro de Carvalho, Balduino Antonio de Oliveira, lavradores, domiciliados e residentes nesta comarca, que, sendo legitimos senhores e possuidores de terras na fazenda Esperança, nos logares «Balduíno da Pedra», «Esperança» e «Brilhante», sita nesta comarca, municipio e districto, em commumhão com os demais condominos da lista annexa, acontece que não lhes convindo o estado de communhão, querem proceder á divisão judicial desse immovel que, compondo-se de terras de cultura e cerrado e campo, em matas, capoeiras cultivadas e pastos, com bemfeitorias proprias das quinhoeiras e movendo a communhão da morte de Manoel Carmo do Nascimento, de João Bernarde da Silva e acquisição de parte no quinhão do «Brilhante» se acha dentro das divisas e confrontações seguintes:</p>\n\n    <p>Principia-se do «Balduíno da Pedra», comarca num antigo forno de olaria á margem esquerda do corrego do Bosque e seguem pelo dito corrego abaixo com percurso de quinhentos e seis metros, onde se colloca um marco de pedra, deste ponto largando o percurso do corrego seguem com o rumo sudeste com quinze graus de variação até outro marco de pedra collocado na distancia de quatrocentos e dois metros; dahi seguem á direita, com o angulo de cento e quarenta graus e quarenta e cinco minutos até outro marco de pedra collocado á distancia de cento e oitenta e dois metros; e seguem dahi á esquerda com o angulo de quarenta e tres graus e trinta minutos, até outro marco de pedra collocado perto de uma arvore de oleo de copaíba com a distancia de setecentos e quarenta metros, divisando até aqui com o quinhão do pagamento que nesta divisão vai ser dado ao socio João Sabino Pereira; e seguindo dahi á esquerda com o angulo de cento e quatro graus e com o percurso de quinhentos e treze, vão ao referido forno de olaria onde tiveram principio estas divisas, confrontando com terras da fazenda da Esperança.</p>\n\n    <p>Começam á margem direita do corrego do Bosque defronte a um antigo forno de olaria que fica ao lado esquerdo do mesmo corrego, onde se colloca um marco de pedra e seguem por este corrego abaixo com o percurso de duzentos e cinco metros e quarenta centimetros, onde se encontra uma peroba com folhas; dahi, largando o percurso do dito corrego do Bosque, seguem com o rumo nordeste com vinte e cinco graus de variação, até a passagem denominada do Cunha, no corrego tambem denominado Cunha e continuam por este corrego abaixo até quatrocentos e quarenta e dois metros e trinta centimetros, ponto onde se encontra a barra do corregosinho denominado Beijo; seguem por este acima até sua cabeceira, e desta, em direcção nordeste com nove graus de variação, vão até um coqueiro e deste ponto seguem á esquerda com percurso de oitocentos e quarenta e cinco metros e o rumo continuará, com o rumo sudeste, com cincoenta e sete graus de variação, até um pau terra conhecido geralmente por arvore grande, confrontando até este ponto com terras da fazenda da União; desse ponto, seguindo á esquerda com o rumo sudeste, com onze graus de variação vão ao caminho velho da Damança e acompanhando este vão ter á passagem do corrego do Bosque, em percurso de novecentos e trinta e cinco metros e dez centimetros; deste ponto continuam por este corrego acima até o rego denominado açude e com o mesmo, de descansa e depois, segue-se a vinte e quatro desviando até aqui com terras da fazenda Negra.</p>\n\n    <p>E seguindo desse ponto em a distancia de duzentos e noventa metros e cincoenta centimetros, pelo dito corrego do Bosque acima até um marco de pedra situado á margem direita do dito corrego, tendo em vista o rumo que levava na divisa e oito sobre duas vezes desse ponto, largando o percurso do corrego seguem á direita em rumo a outro marco de pedra collocado á distancia de duzentos e vinte metros; desse ponto seguem á direita com um percurso de duzentos e quarenta e cinco metros, onde se collocou outro marco de pedra, divisando até aqui com as terras do quinhão que nesta divisão tem de ser dado aos socios José Angelo e Joaquim José de Jesus, seguem em direcção sudeste com vinte graus de variação e com um percurso de duzentos e vinte e tres metros e quarenta centimetros, até a beira do cerrado; seguem dahi, á esquerda, beirando o mato e deixando este á esquerda e o cerrado alto á direita, sempre pelas divisas do mato e do cerrado até encontrar o espigão e continuando por este, que verte para o corrego do Bosque, até uma cóva feita no mesmo espigão e dessa cóva seguem á esquerda, com vinte e seis graus de variação nordeste com a distancia de duzentos e setenta e cinco metros, até um pau de oleo de copahyba, onde se collocou um marco de pedra; dahi, seguem á esquerda, com o angulo de setenta e seis graus e seguem com rumo até a distancia de setecentos e quarenta metros, onde se encontra outro marco de pedra; deste seguem á direita, com um angulo de quarenta e tres graus e trinta minutos, vão até outro marco de pedra, e deste seguem á esquerda, com angulo de cento e quarenta graus e quarenta e cinco minutos, vão até o corrego do — Bosque, em um marco de pedra collocado á margem esquerda do dito corrego do Bosque; e seguem margeando o dito corrego acima até completar a medida de quinhentos e oitenta e quatro metros e cincoenta centimetros, onde se encontra o dito forno de olaria e deste ao marco de pedra onde tiveram principio, confrontando com terras dos quinhões dados aos socios Manoel Carmo do Nascimento e José Tiburcio.</p>\n\n    <p>— Quinhão do Brilhante: — tem principio na barra do corrego do Brilhante e por este acima até as cabeceiras e dellas em rumo ao alto até Manoel José dos Santos e deste até encontrar a divisa da fazenda Bom Successo; dahi, torcendo á esquerda, em rumo á cóva que se acha perto do caminho que vem do Bom Successo a Campo Limpo; deste, torcendo á esquerda, em rumo a um pau de jatobá, que está para cima de um rego dagua de Anna Gonçalves e em rumo a uma moita de aroeira, balizada no corrego da Esperança, e atravessando em rumo a um pau preto do monte, torcendo á esquerda pelo espigão até á baixada do caminho que vai para uma Santa Cruz e pela estrada até encontrar uma cóva que está na encruzilhada da fazenda Mangués e torcendo á esquerda em rumo á ponta de um vallinho que está entre as moradas de Quinolino e Frausino Sattero Braz e pelo vallinho abaixo até o corrego do Brilhante.</p>\n\n    <p>Assim os supplicantes requerem a citação dos condominos da lista annexa, pessoalmente os que forem conhecidos e residirem nesta comarca e por edital de noventa dias os que devem desconhecidos ou ausentes que residam em logar incerto e ignorado, para o fim de virem á primeira audiencia do juizo, após a terminação do prazo edital, louvarem-se com os supplicantes em agrimensor e arbitradores que procedam á divisão e abonar as despesas ficando desde logo citados para todos os demais termos e actos do processo até final sentença e sua execução, sob pena da lei. Nestes termos, servindo-se V. Ex. deferir as citações pedidas, bem como a do curador geral de orphams e ausentes por todo o teor desta e para acompanhar a divisão até final, protestando por todo o genero de provas, especialmente testemunhaes, juntada de documentos, depoimentos pessoaes, vistorias e os demais constantes do art. 136 do Cod. Civ. e 135 do Reg. 737, por força commum e por indemnização de damnos sobre vindos á contestação da lide; servindo o curador geral <i>ad litem</i>, os supplicantes, avaliada esta em cem contos de réis (100:000$000) e distribuida ao cartorio do Segundo Officio, autuada com os inclusos documentos, justificada a ausencia dos condominos ausentes e desconhecidos em dia, logar e hora que forem designados com as testemunhas do rol infra, julgada por sentença e expedidos os necessarios editaes.</p>\n\n    <p class=\"signature\">Recebem mercê. Cajurú, 9 de Agosto de 1918. P.p. Manoel de Sousa Gomes, advogado.</p>\n\n    <p class=\"list noindent\">Lista de condominos promoventes: 1, Jeronymo Carmo do Nascimento; 2, Manoel Pedro de Carvalho; 3, Balduino Antonio de Oliveira; promovidos: 4, Elviro Mendes Oliva; 5, João José Prates; 6, Albertino José Prates; 7, Pedro Lino de Sousa; 8, Estevam Eduardo de Carvalho; 9, Antonio Bento de Siqueira; 10, Olimpio Pereira Conceição; 11, José Porcidio de Sousa; 12, Vicente Alves de Lima; 13, Nicolau Granado; 14, Antonio João de Sousa; 15, João Antonio Conceição; 16, Arthur Pinto Castilhos; 17, Fortunato José Prates; 18, Vito Favolari; 19, Pereira da Ma</p>\n  </article>\n</main>\n</body>\n</html>",
+              "refusal": null,
+              "reasoning": "**Transcribing survey description**\n\nI see that the image has a long survey description, and while I don't need the exact pixel dimensions, I’ll transcribe as much text as I can. It looks like it cuts off after 19, and I’ll need to note that. The HTML styling is set with an old font and has three columns with vertical borders. Maybe I should consider putting all this long text into one article, starting the heading in column one and letting it flow from there. Let’s come up with a plan!",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.summary",
+                  "summary": "**Transcribing survey description**\n\nI see that the image has a long survey description, and while I don't need the exact pixel dimensions, I’ll transcribe as much text as I can. It looks like it cuts off after 19, and I’ll need to note that. The HTML styling is set with an old font and has three columns with vertical borders. Maybe I should consider putting all this long text into one article, starting the heading in column one and letting it flow from there. Let’s come up with a plan!",
+                  "format": "openai-responses-v1",
+                  "index": 0
+                },
+                {
+                  "type": "reasoning.encrypted",
+                  "data": "gAAAAABqn1UfmtZTeeUB8AO75r4FhqTXwpeh2a29cEU1lEtU-MxCLF82lY9ASBbunJ2YOm_ud8avs5L2w0FoxSzk4ZZCWAwhxJo19meEoqMO68NSNMrx0jGlwHD2V5wCVDMFRijMLVBqNXr0pDS0-hx8UX_DlH-cNN4e7FtahcNCrVzUwc8B6eGZG6X5dbw0rdjboAg4H2AvMmcGYFBybzFWSEp6jd_LxubIN5cacXjSCU9f_0_SGKl9gOCm2-3QnOCgnqm0tk_JlBzVhskkjZQFfRY51b7G7ojyNvmNkQzQlwwZ5z3H6QfrQeD4WEX4pnFNBVtfLSWNH2DnDND-873WYwgfLV13B2NlT1mFQvSPpWII9ysgCShQoZBRyr-F422Yq_xAYXyh8MHnKoC33OWZwagougTNCE6Xm67IMpteJGkUtTSmQxERjcBzQzgBL0fWENYTO3sgGWJ1U3Xb66ca0-soHjXwIn26CteijiS5mtM70SgcKX1RfCyPO3yR_--t0SdK0IEre7F-gpm4El2WCpPi4bsTaJ66nwF0LpiuGlos5HE9Slt5SMVHi8VDGg3CzkZVIdGeftUaRcVO7EqQ2OByIhvwSOWiIDN-puAmoJPV0xK7K3xFFLEc12aDIlIl9WZwW0f0c-RKCfyZXf_78VB4h0FzBzCFh1m1eDRPaGslhSJ5aMBv5df0_6TaJeGNXvu6vBzzkCiM6F3HW1RaHysBAOhYD7UCg-9zcoc7X0CV7PoAvVENL-iqcYPLmP6b0K0H2vZo_A26qxJGgonc3ipDFL9JLAB-OXWwzwTXqzastkgduIf0xmvTQN_p2UwO8s49c6VngrkK2kt4YSVnWH-NCTqNw6eGOzLArkJ0nt-mgMr7X3trk4ZNPrfo0e30rxhAXuvHXvMGDdHbnJRwmCWfT-uUwnRbnwXuFu9XmZG_UJXzYOHg9TvIePN_pOA3x2GYo2b1mSQj8kQCm1Chtte4bwcwOWk46rdm1ARkuJzVuWYMUYoSGvJhpkx2we3yvfkcnSipFgNAcDHmyIvusx3ZiwgGCuMPTLVpmHUPCVc0TjL9w2rI8TTA5FYndHeuOWLWwcyFNdcDj62SIjUOxDSN9O_iuJathkN1LLhAmn8_5qYOOhhAqRU7RnDd23D8L0EX0Ni-OJi3TTqLQjCSXAgJonUTdaW3tEqYiv39Oy9hkqfSIcWHkAXHxVUvmPsZ5BRPA6o0GAMeFG0-j4tv50bwU3Vm_-JNslXTd8IfFoBMPmSZJ4ajQ_4vwdQa1HTUG1d8vCfJdVg4pVWuGWdwu4v7du2e95jvYeBCLZrWYa2n7-jFgV9bE3SpnL250NyzvQ9K2qfju-64lsszE2_8ZunhwPOSMINM81NC1t8_oLQxY-UcWivviiutTt74QVEhv9z-tS0OHEgzR50qbHr_GgbXdmGhXhWKPRXkX1X7AqvgcauQYOWHo5soORhCnFojt3gvQlgRM4vb3R9e-K3GufcC41J-MED7Ur-Zy-2cthA4YaXah-_MGAKn_S6M78RXKdCJqlrEjSxOXzgg6hYWlZUmyvLmscaGvHBIUtzCtGQRJ8oHpJsshr7spJ0eBbvVDoOaLBr1GaOPUzd_6AAvPgp-8lVeiKedA_ROCvgXE9QwDAr7zxQbpcOkvvXi6wZWe6aUt-bs5Sym-lUFiaHh4TP-sesQSexnJ8ur1zvQMH2DW7wjdvsPKbO_Sdd2809x-9G_S8reaMd3-9GwPAOFPdIaJ1e5a3q0mPiDnfWf1acjQ8bII0VN6My0jh16PNr6z53HoO_QlTWTgJsftPTOZqxOF64qXeyjqZkkqSUm1kBdW6KfPfHcNTAxst6mHfYQ-iVnOboEYKubuAOAauFwZhqw9ZRnO7NiCv-d_5iS4XU8wgyiXb-_sVjvrsGYS7Azg7S7sh1HOXGU7Ac-O618ITKQeOf5O9N0DMV38DLGV_3KgHgk76IR_o3NwW2xtMWS84Xe2SrHuteQyUX22wg0zdzd7hOVRYBmfgFjfTzE2VoVzdk4hNF8z5N8TClYR8yI2RBExNQDcmESbheNt7LQejXXoF0gIxbRggcK1vbe8UOXtgkLc38njrWbifI6Dar-lCNZnS6jvY7QWxJZV6uuq5ZsAXn9MI1QPq-Wc6J6vTezQ8eXIeodtlV_0DplrU8WneNgKvlUI78O3x1e9Q-3-LDoXYZ1llOEt8qQSLgYcHVPuVfRZ70nM18MD3hxxt3ykHPaIQm3kvEjdECb693a8gVrPC9XM7EqjGqZ1IaeaxRezG7r_Hw2DM3WgXzUGxhV4v3YOI3YzEfmTSBy1SIqYDm6MESvYuoG3SqQ4DVltrDXioCd_sUcfunEX91ocHzyLXhxsed42N3PHBdaQmuTTFfV6bj4gWEv2QUlt2OT69IAafJ1oLn1eL-cctkWKrDTc0VJLdWHvxbFcLXF6H5c4KEUWRkOPEoQgkYrVtYZTyHGosv-aO6KVkeD8hmeNMzlVNg4oDKotPL9LWPb1PqzImYzmp2vwmQzykkSGZZ3PT35qzRWFRR9WOaBhmzGWo7nCs08Cjbh3in7rE-qgQzh5GY5oP7D4bODQdtU9VFVQOb-SdtdV1O7K2-eHImH1Os2YGd0e9sqqkDklblQ7oXEnl-v74KYjT3c3nn7YfqGD9hU9eGcduHGO0nMoQFxMkPIML4uHlbQugH9uUVLW_WPLHIdKJuv7y9IZP2vByolgyIwKhsm9ysitxNAUI3VY9RrFXoAqYPAxoGOTaHUszbmBBncXVzID6oPKxyHNX0P5priBzsW6-aLB7vazKhaltuiv9VIl3KCqfj_NoVF4HwifN-p63ot-e8kEMLCOMmLkiDuAYIQtXdtBW953AJolxCpPfjmJp32g-alSLfOxYqGhFMDI2EExsO5Z5cnkttBJpL1LkxLfhys7F2SqsVkomCDBsn_Cbm0lTh0ETTANq9Ewf2fhp0Pz3f-o6sokG8M4tttC0J8gvJPIsqw5qNR-16DVkCN2peRcxPq-LN1Y9qFXU0NbF7lcFOu49G8d6KNWNhI_CaJWE5tPGaGmxm-V7VsCuNpJ1_ITjUw1CEmO1hj85kGxcpAKcYMWkfw8hojjrJyiPnj3cN30PXyZPIJo9d8qo3vrbtVMwXxJg8oE29gNryYalfDaTvhO-MxpJc-pv1n6X3spnDNv5ThyFoVRqEEXX7VViOS.eyJlbmRwb2ludF9zbHVnIjoib3BlbmFpL2dwdC01LjYtc29sLTIwMjYwNzA5fG9wZW5haSJ9",
+                  "format": "openai-responses-v1",
+                  "id": "rs_0a3adae507fbfe12016a9f551828e887d1815e6e1c3e4b3cd0",
+                  "index": 1
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 4374,
+          "completion_tokens": 3257,
+          "total_tokens": 7631,
+          "cost": 0.0435035,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 4371,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0435035,
+            "upstream_inference_prompt_cost": 0.0109335,
+            "upstream_inference_completions_cost": 0.03257
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 332,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

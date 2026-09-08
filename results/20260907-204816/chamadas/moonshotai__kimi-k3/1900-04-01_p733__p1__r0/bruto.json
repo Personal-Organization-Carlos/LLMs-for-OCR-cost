@@ -1,0 +1,86 @@
+{
+  "chave": "moonshotai/kimi-k3|1900-04-01_p733|p1|0",
+  "registro": {
+    "model_id": "moonshotai/kimi-k3",
+    "prompt_id": "p1",
+    "doc_id": "1900-04-01_p733",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 114.9175954000093,
+    "prompt_tokens": 4895,
+    "completion_tokens": 3873,
+    "total_tokens": 8768,
+    "cost_usd": 0.07278,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Moonshot AI",
+    "generation_id": "gen-1788830523-tl89Lekuib02grdTEop9",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T01:22:04Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788830523-tl89Lekuib02grdTEop9",
+        "object": "chat.completion",
+        "created": 1788830523,
+        "model": "moonshotai/kimi-k3",
+        "provider": "Moonshot AI",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diario Official - Abril 1900</title>\n<style>\n  body {\n    font-family: Georgia, \"Times New Roman\", serif;\n    background: #f5f2e8;\n    margin: 0;\n    padding: 20px;\n  }\n  .page {\n    max-width: 1200px;\n    margin: 0 auto;\n    background: #fffdf5;\n    padding: 30px;\n    border: 1px solid #ccc;\n  }\n  .header {\n    display: flex;\n    justify-content: space-between;\n    border-bottom: 3px double #000;\n    padding-bottom: 5px;\n    font-weight: bold;\n    font-size: 1.1em;\n  }\n  .header .title {\n    font-size: 1.4em;\n    letter-spacing: 2px;\n  }\n  .columns {\n    column-count: 3;\n    column-gap: 25px;\n    column-rule: 1px solid #000;\n    text-align: justify;\n    font-size: 0.85em;\n    margin-top: 15px;\n  }\n  p { margin: 0 0 8px 0; text-indent: 1.5em; }\n  .center { text-align: center; text-indent: 0; font-weight: bold; }\n  .tabela { width: 100%; border-collapse: collapse; margin: 5px 0; }\n  .tabela td { padding: 1px 4px; }\n  .secao { text-align: center; font-weight: bold; margin: 12px 0 6px 0; text-indent: 0; }\n  .fazenda { text-align: center; font-size: 1.6em; font-weight: bold; margin-top: 15px; text-indent: 0; }\n</style>\n</head>\n<body>\n<div class=\"page\">\n\n  <div class=\"header\">\n    <span>Domingo, 1</span>\n    <span class=\"title\">DIARIO OFFICIAL</span>\n    <span>Abril 1900. — 733</span>\n  </div>\n\n  <div class=\"columns\">\n\n    <p><b>A</b>ntonio Gandido Xavier de Almeida e Souza, nomeado curador por decreto de 6 de Março corrente.</p>\n\n    <p class=\"center\"><i>Requerimentos despachados</i></p>\n\n    <p>Do bacharel Octaviano de Aguiar Camargo, ex-promotor publico da comarca de Ytú, pedindo providencias no sentido de poder receber no Thesouro do Estado, os vencimentos a que tem direito, durante o tempo em que esteve em gozo da licença que lhe foi concedida por acto de 23 de Janeiro do corrente anno, para tratar da saude de pessoa de sua familia, visto ter-se extraviado a respectiva portaria. — Attendido, retirando desta secretaria por certidão, uma copia da portaria da licença que foi extraviada.</p>\n\n    <p>Do bacharel Bento Ribeiro da Luz, juiz de direito da comarca de Nuporanga, pedindo que se lhe mande certificar si obteve desta secretaria a portaria, devidamente sellada, da licença de sessenta dias, em cujo gozo entrou em 30 de Janeiro do corrente anno. — Certifique-se o que constar.</p>\n\n    <p class=\"secao\">2.ª SUB DIRECTORIA</p>\n    <p class=\"secao\">1.ª secção</p>\n\n    <p>Transmittiram se:</p>\n\n    <p>Ao ministro da Justiça e Negocios Interiores os documentos officiaes relativos ao acto humanitario praticado pelo soldado Francisco da Cunha Benevides, do 2.º batalhão da Brigada Policial, que em Santos, a 31 de Janeiro do anno findo, se atirou ao mar no intuito de salvar a praça do Corpo de Bombeiros Municipaes, que se lançara do caes para afogar-se, alim de que áquelle soldado, seja concedida a medalha de distincção, creada por decreto de 11 de Dezembro de 1889.</p>\n\n    <p>Ao dr. secretario dos Negocios do Interior, por, cópia, o officio do delegado de policia de Araraquara, de 25 do corrente mez, communicando terem apparecido naquella localidade dois casos de febre amarella.</p>\n\n    <p>Remetteram-se:</p>\n\n    <p>Ao commandante do Corpo Policial no Interior os officios do dr. chefe de policia, ns. 857 e 858, datados de 27 do corrente, referentes ao augmento dos destacamentos de Araraquara e de Santos e sobre uma licença concedida a um soldado pelo delegado de Pedreira, para si a Posse de Resacos.</p>\n\n    <p>Ao dr. chefe de policia, os das camaras municipaes de Remedios da Ponte do Tiete, de Santo Antonio da Cachoeira e do juiz de paz de Santo Antonio da Alegria, datados de 22 e 25 do corrente mez.</p>\n\n    <p class=\"secao\">2.ª secção</p>\n\n    <p>O secretario dos Negocios da Justiça resolve que na distribuição de forragem aos animaes da Força Publica e da Repartição da Policia, sejam observadas, a contar de 5 de Abril proximo vindouro, as seguintes tabellas:</p>\n\n    <p>De 5 a 10 de Abril:</p>\n\n    <table class=\"tabela\">\n      <tr><td></td><td><i>Aos cavallos</i></td><td><i>Aos muares</i></td></tr>\n      <tr><td>Alfafa — diariamente</td><td>— 2 1/2 kilos</td><td>— 2 kilos</td></tr>\n      <tr><td>Capim — \"</td><td>— 8 \"</td><td>— 8 \"</td></tr>\n      <tr><td>Canna — \"</td><td>— 3 \"</td><td>— 3 \"</td></tr>\n      <tr><td>Farello — \"</td><td>— 1 \"</td><td>—</td></tr>\n      <tr><td>Milho — \"</td><td>— 3 \"</td><td>— 3 \"</td></tr>\n      <tr><td>Sal — de 3 em 3 dias</td><td>— 1 decil.</td><td>— 1 decil</td></tr>\n    </table>\n\n    <p>De 11 de Abril em deante:</p>\n\n    <table class=\"tabela\">\n      <tr><td>Alfafa — diariamente</td><td>— 1 1/2 kilos</td><td>— 1 kilo</td></tr>\n      <tr><td>Capim — \"</td><td>— 8 \"</td><td>— 8 \"</td></tr>\n      <tr><td>Canna — \"</td><td>— 3 \"</td><td>— 3 \"</td></tr>\n      <tr><td>Farello — \"</td><td>— 1 \"</td><td>—</td></tr>\n      <tr><td>Milho — \"</td><td>— 3 \"</td><td>— 3 \"</td></tr>\n      <tr><td>Sal — de 3 em 3 dias</td><td>— 1 decil</td><td>— 1 decil</td></tr>\n    </table>\n\n    <p><i>Observação.</i> — Os animaes no pasto vencerão a ração de alfafa, canna, milho e sal.</p>\n\n    <p>Secretaria da Justiça do Estado de São Paulo, 30 de Março de 1900. — <i>José Pereira de Queiroz</i>.</p>\n\n    <p>Remetteu se cópia da presente tabella provisoria ao dr. chefe de policia, coronel commandante da Brigada Policial e chefe do Almoxarifado da Força Publica.</p>\n\n    <p>Por acto desta data foi elevada de 800 réis a 1$000 a diaria de alimentação aos presos pobres da cadeia de São Paulo dos Agudos, a contar de 1.º de Abril do corrente anno. — Deu-se conhecimento aos drs. chefe de policia e secretario da Fazenda.</p>\n\n    <p>Secretaria dos Negocios da Justiça. — 2.ª sub-directoria. — 2.ª secção. — N. 980. — São Paulo, 31 de Março de 1900. — Sr. coronel-commandante da Brigada Policial. — Para os devidos effeitos vos communico que entrando em vigor, a 2 de Abril proximo vindouro, o novo regulamento do sello do Estado, que baixou com o decreto n. 750, de 21 do corrente, a cobrar daquella data, as petições e memoriaes dirigidos á auctoridade administrativa estadual ou municipal, trazem a estampilha de 1$000 pela primeira folha de papel escripta e 200 réis pelas restantes, de accordo com o n. 5 da tabella B annexa ao referido regulamento. — Saude e fraternidade. — <i>José Pereira de Queiroz</i>.</p>\n\n    <p>— Identicos ao dr. chefe de policia e ao coronel commandante do Corpo Policial do Interior.</p>\n\n    <p>Solicitaram-se do dr. secretario da Fazenda, os seguintes pagamentos:</p>\n\n    <p>De 70$000, pela collectoria de Campos Novos, durante o actual exercicio, mensalmente, a contar de 1.º de Janeiro ultimo, a José Antonio da Costa, pelo aluguel do predio que serve de quartel e cadeia em Platina;</p>\n\n    <p>De 35$000, pela collectoria de Pirají, mensalmente, até 30 de Junho do corrente anno e a contar de 1.º de Janeiro findo, a Jorge Allen Jeffery, pelo aluguel do predio que serve de quartel e cadeia em Bello Monte;</p>\n\n    <p>De 60$000, a Manoel Joaquim Gonçalves, pelo aluguel da casa onde está installado o posto policial da Aldeia, relativo a Janeiro ultimo;</p>\n\n    <p>De 60$000, a d. Anna Maria Caldeira, pelo aluguel do predio que serve de quartel em Morro Pellado, relativo aos mezes de Janeiro e Fevereiro findos;</p>\n\n    <p>De 171$500, a Antonio Linzu, por diversos concertos realizados no posto policial de Santa Ephigenia;</p>\n\n    <p>As ex-praças abaixo mencionadas, proveniente da restituição do desconto de fardamento de voluntarios e de vencimentos a que tiveram direito até a data em que foram excluidos:</p>\n\n    <p>De 68$000, a Caetano Pestritto;</p>\n    <p>De 85$300, a José Joaquim de Lemos;</p>\n    <p>De 32$200, a Francisco Martins de Oliveira;</p>\n    <p>De 78$10, a Gregorio Vasques;</p>\n    <p>De 118$020, a Arthur Pereira;</p>\n    <p>De 1.58$33, a Raymundo Antonio de Souza;</p>\n    <p>De 158$558, a José Antonio Sampaio;</p>\n    <p>De 65$800, a José Pedro de Campos;</p>\n    <p>De 230$503, a Antonio de Assis Pereira da Silva;</p>\n    <p>De 28$520, a Horacio José Maria;</p>\n    <p>De 160$135, a José Leite;</p>\n    <p>De 135$15 a Francisco da Silva Leitão;</p>\n    <p>De 159$106, a Raymundo Duarte Ferreira;</p>\n    <p>De 193$006, a Francisco Rodrigues Esteves;</p>\n    <p>De 159$496, a Fortunato Antonio das Chagas;</p>\n    <p>De 151$106, a José Vieira Brazileiro;</p>\n    <p>De 117$706, a Benedicto Bueno da Silva;</p>\n    <p>De 137$306, a Gaetano José da Silva;</p>\n\n    <p>Transmittiram-se ao mesmo:</p>\n\n    <p>Officios dos delegados de policia do Rio Claro, Alibaia e Nuporanga sobre o pagamento das diarias de alimentação aos presos pobres recolhidos ás respectivas cadeias.</p>\n\n    <p class=\"center\"><i>Requerimentos</i></p>\n\n    <p>De Diogo Antonio de Arruda Mendes, pedindo pagamento da quantia de 25$00, proveniente de medicamentos fornecidos a presos pobres recolhidos á cadeia de Dous Corregos;</p>\n\n    <p>De J. G. dos Santos Figueiredo, de de 71$900, proveniente de fornecimento feito aos presos pobres da cadeia de Mococa;</p>\n\n    <p>De Francisco Ferreira da Silva, soldado do Corpo Policial do Interior, pedindo pagamento de 14$081, correspondente a vencimentos que deixou de receber no anno findo.</p>\n\n    <p>De Francisco de Salles Gomes, sobre pagamento da quantia de 250$000 por serviços medicos prestados a presos pobres da cadeia de Tatuiy.</p>\n\n    <p>Declarou se:</p>\n\n    <p>Ao mesmo, que foi contractado com Abilio Garrido, o fornecimento da alimentação aos presos pobres da cadeia de Anna... à razão de mil réis diarios;</p>\n\n    <p>Ao dr. chefe de policia:</p>\n\n    <p>Que, por falta de verba, não póde ser attendido o pedido do delegado de policia de Jundiahy, sobre o fornecimento de um sino á cadeia daquella cidade;</p>\n\n    <p>Que para se poder providenciar sobre o pagamento do aluguel do predio que serve de quartel e cadeia em Taquary, relativo ao anno de 1898, torna-se preciso que o proprietario do mesmo requeira a este secretariado, por intermedio dessa chefia, o pagamento a que se julga com direito.</p>\n\n    <p>Ao presidente da camara municipal de São João da Boa Vista, que a Superintendencia de Obras Publicas foi auctorizada a despender a quantia de 5:050$123 com os reparos de que necessita o edificio da cadeia daquella cidade.</p>\n\n    <p>Auctorizou-se o chefe do almoxarifado da Força Publica a fornecer diversos artigos de expediente á Penitenciaria.</p>\n\n    <p class=\"fazenda\">Fazenda</p>\n\n    <p class=\"center\">EXPEDIENTE DO DIA 31 DE MARÇO DE 1900</p>\n\n    <p>Do dr. secretario da Agricultura, solicitando pagamento das seguintes contas de fornecimentos feitos á Repartição de Aguas e Esgotos, durante o mez de Fevereiro proximo passado:</p>\n\n    <p>De 6:000$000, á Companhia Mechanica e Importadora de S. Paulo;</p>\n\n    <p>De 732$100, a Espindola, Siqueira &amp; Comp.;</p>\n\n  </div>\n</div>\n</body>\n</html>\n```",
+              "refusal": null,
+              "reasoning": "Produce HTML with three columns mimicking newspaper layout, transcribing text as best as possible.",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "Produce HTML with three columns mimicking newspaper layout, transcribing text as best as possible.",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 4895,
+          "completion_tokens": 3873,
+          "total_tokens": 8768,
+          "cost": 0.07278,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.07278,
+            "upstream_inference_prompt_cost": 0.014685,
+            "upstream_inference_completions_cost": 0.058095
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 18,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

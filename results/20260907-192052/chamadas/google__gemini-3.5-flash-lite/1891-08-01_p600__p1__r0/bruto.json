@@ -1,0 +1,67 @@
+{
+  "chave": "google/gemini-3.5-flash-lite|1891-08-01_p600|p1|0",
+  "registro": {
+    "model_id": "google/gemini-3.5-flash-lite",
+    "prompt_id": "p1",
+    "doc_id": "1891-08-01_p600",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 9.444116600090638,
+    "prompt_tokens": 1125,
+    "completion_tokens": 2807,
+    "total_tokens": 3932,
+    "cost_usd": 0.007355,
+    "cost_source": "tabela_precos",
+    "finish_reason": "STOP",
+    "truncated": false,
+    "api_provider": "gemini",
+    "provider_upstream": "google",
+    "generation_id": null,
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T01:42:49Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "generateContent",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Diario Official - Agosto (1891)</title>\n    <style>\n        body {\n            font-family: \"Times New Roman\", Times, serif;\n            font-size: 11pt;\n            line-height: 1.15;\n            color: #111;\n            background-color: #fcfbfa;\n            margin: 0;\n            padding: 20px;\n        }\n        .page-container {\n            max-width: 800px;\n            margin: 0 auto;\n            background: #fff;\n            padding: 40px;\n            box-shadow: 0 0 10px rgba(0,0,0,0.1);\n            border: 1px solid #dcdcdc;\n        }\n        .header-table {\n            width: 100%;\n            border-bottom: 2px solid #000;\n            padding-bottom: 5px;\n            margin-bottom: 15px;\n        }\n        .header-table td {\n            font-size: 12pt;\n            font-weight: bold;\n        }\n        .header-left {\n            text-align: left;\n        }\n        .header-center {\n            text-align: center;\n            font-size: 14pt;\n            letter-spacing: 1px;\n        }\n        .header-right {\n            text-align: right;\n        }\n        \n        .columns {\n            display: flex;\n            justify-content: space-between;\n            gap: 15px;\n        }\n        .col {\n            flex: 1;\n            text-align: justify;\n            text-justify: inter-word;\n        }\n        \n        h3 {\n            text-align: center;\n            font-size: 11pt;\n            margin: 15px 0 10px 0;\n            text-transform: uppercase;\n            letter-spacing: 0.5px;\n        }\n        \n        .section-title {\n            text-align: center;\n            font-weight: bold;\n            margin: 15px 0 10px 0;\n            text-transform: uppercase;\n        }\n        \n        p {\n            margin: 0 0 8px 0;\n            text-indent: 15px;\n            text-align: justify;\n        }\n        \n        .center {\n            text-align: center;\n            text-indent: 0;\n        }\n\n        .divider {\n            text-align: center;\n            margin: 10px 0;\n            font-weight: bold;\n        }\n    </style>\n</head>\n<body>\n\n<div class=\"page-container\">\n\n    <table class=\"header-table\">\n        <tr>\n            <td class=\"header-left\">600</td>\n            <td class=\"header-center\">DIARIO OFFICIAL</td>\n            <td class=\"header-right\">Agosto (1891)</td>\n        </tr>\n    </table>\n\n    <div class=\"columns\">\n        <!-- Coluna 1 -->\n        <div class=\"col\">\n            <p>Dos empregados da recebedoria da capital, do collector e escrivão da collectoria de Jundiahy, fazendo egual pedido.—Idem.</p>\n            <p>Do directorio do partido republicano de Cananéa, fazendo egual pedido em favor do administrador e escrivão da Mesa de Rendas daquella localidade.—Idem.</p>\n            <p>De José Scutari e outro, pedindo para ligar Campinas a Caraguatatuba por uma linha ferrea.—Idem.</p>\n            <p>Do dr. Augusto Daniel de Araujo Lima e outro, propondo-se a promover o saneamento e embellezamento da cidade de Santos.—Idem.</p>\n            <p>Da Companhia Carris de Ferro de S. Paulo, pedindo certidão.—Dê-se em termos.</p>\n            \n            <div class=\"section-title\">5.ª SECÇÃO</div>\n            <p>Foi nomeado o cidadão Augusto Schmidt para o cargo de subdelegado de policia de Bragança.</p>\n            <p>Communicou-se ao supremo tribunal de justiça, ao ministerio da justiça e a thesouraria de fazenda que, em 23 do corrente, o bacharel Joaquim Cordeiro Coelho Cintra entrou no exercicio do cargo de juiz de direito da comarca de Santos, para que fôra nomeado por decreto de 7 de Março ultimo.</p>\n            <p>Palacio do Governo de Estado de S. Paulo, 30 de Julho de 1891. N. 749. Ao cidadão 4º juiz de paz de Santa Cruz do Rio Pardo.—Declaro-vos em referencia ao officio de 1º de Junho findo que estaes impedido de presidir ao casamento de vosso cunhado, com o qual tendes parentesco em 2º gráu civil por affinidade, e que no impedimento legitimo dos 4 juizes de paz serão estes substituidos pelo do districto mais visinho, segundo o aviso n. 200 de 3 de Agosto de 1835.—Saúde e fraternidade.—Americo Brasiliense de Almeida Mello.</p>\n            <p>Declorou-se ao dr. chefe de policia que, para o governo resolver sobre o pedido de reforma apresentado pelo capitão do corpo de urbanos, José Antonio Corrêa, é mistér primeiramente seja aquelle official submetido a rigorosa inspecção de saúde.</p>\n            <p>Remetteu-se ao coronel commandante do corpo policial permanente os processos julgados pela juuta de justiça a que responderam os soldados daquelle corpo Angelo Gabriel e Joaquim da Silva; Antonio Guilherme Sambier, Bento Antonio de Moraes, Felipe Antonio Pereira; Graciliano de Paula Figueiredo Muniz, João Antonio dos Santos, João Baptista da Rocha, João Florentino de Carvalho e Joaquim Antonio dos Santos.</p>\n        </div>\n\n        <!-- Coluna 2 -->\n        <div class=\"col\">\n            <p>Santos, Joaquim Dias de Siqueira, José dos Santos, José Matheus Calderaro, José Alves Teixeira, José Rufino de Oliveira, Manoel Xavier de Souza, Pedro Antonio de Oliveira e Sebastião Domingos de Oliveira.</p>\n\n            <h3>OFFICIOS DESPACHADOS</h3>\n            <p>Da intendencia municipal da villa do Tijuco Preto, pedindo para ser aquelle termo elovado a comarca.—Remeta-se ao Congresso do Estado.</p>\n            <p>Da intendencia municipal e directorio republicano de Belém do Descalvado, representando sobre o decreto que creou a comarca de Pirassununga.—Idem.</p>\n            <p>Do dr. juiz de direito da 2ª vara, enviando a reclamação apresentada pelo procurador fiscal do Thesoure do Estado contra o facto de não se lhe abonarem custas forenses nos autos de inventarios a que asiste e sobre o facto de ser excluido da porcentagem que para o juizo se costuma deduzir da taxa de heranças e legados.—Idem.</p>\n            <p>Do dr. juiz de direito da 1ª vara, representaundo sobre a necessidade de ser creado o logar de auditor do corpo policial permanente.—Idem.</p>\n\n            <h3>REQUERIMENTOS DESPACHADOS</h3>\n            <p>Do bacharel Gabriel Dias da Silva, solicitando certidão relativamente ao tempo em que exerceu o officio de tabellião em Campinas.—Sim, em termos.</p>\n            <p>Do prêso Fortunato Augusto dos Santos, pedindo por certidão a data da sua entrada para a cadeia de São José do Barreiro.—Ao dr. juiz de direito da comarca de S. José do Barreiro para attender.</p>\n\n            <div class=\"divider\">===O===</div>\n            \n            <p class=\"center\"><b>Expediente do Thesoure do Estado</b><br>\n            <i>Dia 31 de Julho</i></p>\n            \n            <p>Officio da directoria do Seminario da Gloria, remettendo a relação nominal das educandas desse estabelecimento, etc.—Informe a contadoria.</p>\n            <p>Dito da intendencia municipal de São Sebastião, solicitando ao Governo urn auxilio para concertos na caixa d'agua dessa cidade. (2.º despacho).—Entregue-se a quantia de 1:000$000.</p>\n            <p>Requerimento do cidadão Candido Henrique da Silva, alferes do corpo policial permanente, solicitando o pagamento da quantia de 48$000.—Remetta-se ao commandante do corpo policial, solicitando a necessaria informação.</p>\n            \n            <p>Officios de professores do Estado, pedindo expedição de ordem aos dostaxadores para lhes pagarem os vencimentos.</p>\n        </div>\n\n        <!-- Coluna 3 -->\n        <div class=\"col\">\n            <p>cimentos devidos durante o exercicio corrente.—Informe a Contadoria.</p>\n            <p>Requerimento de Francisco Teixeira da Silva, pedindo que seja autorisado o collector de Casa Branca a receber o imposto predial que deve o supplicante do exercicio de 1890-1891.—Providenciado com circular n. 37 de 27 de Julho corrente.</p>\n            <p>Dito de Moysés Bernardo de Camargo, marido e curador de d. Guilhermina Maria da Silva, solicitando que se mande certificar qual o tempo em que a referida senhora exerceu effectivamente o cargo de professora, depois de estar em vigor a lei de 22 de Agosto de 1887.—Sim, em termos.</p>\n            <p>Dito do cidadão Justo Nogueira de Azambuja, solicitando o pagamento da quautia de 72:833$76, proveniente de fardamento fornecido aos corpos de urbanos e permanentes.—Pague-se.</p>\n            <p>Dito de João Jacyntho Gonçalves de Andrade, solicitando que se mande certificar si deve imposto predial.—Sim, em termos.</p>\n            <p>Mandou-se pagar a quantia de 1.000$000 a Fortunato Betoldi, proveniente do fornecimento de cem japoras aos presos da cadeia desta capital.</p>\n            <p>Idem idem o dito de 450$000 a Pompeu Scuvero, proveniente de caixilhos envidraçados fornecidos á mesma.</p>\n            <p>Declarou-se ao cidadão dr. Norberto Cruz, engenheiro ajudante da commissão do Alto Paraná, que deve recolher á superintendencia de Obras Publicas os objectos pertencentes a essa extincta commissão, constantes da relação n. 2, etc.</p>\n            <p>Communicou-se ao cidadão superintendente de Obras Publicas, essa resolução.</p>\n            <p>Autorisou-se o cidadão collector do Jahú a pagar ao cidadão José Vaz Pinto Ribeiro, em cujo poder se acham os animaes e outros objectos pertencentes á extincta commissão do Alto Paraná, a pastagem dos mesmos, na razão de dous mil réis (2$000) por cabeça, etc.</p>\n            <p>Remetteu-se ao cidadão administrador da Meza de Rendas de Santos a factura relativa a volumes vindos do estrangeiro para a Pharmacia do Estado.</p>\n            <p>Determinou-se ao cidadão collector da França que entregue ao dito do Carmo da França os livros de lançamentos do imposto de capitação pertencentes a essa villa, uma relação dos contribuintes dos impostos diversos, etc.</p>\n\n            <p style=\"margin-top: 15px;\">Foram expedidas as seguintes quitações, que se acham em poder</p>\n        </div>\n    </div>\n\n</div>\n\n</body>\n</html>\n```",
+                  "thoughtSignature": "El4KXAERTTIPSEm3RdJtw3Twk4KfiVt5Fc8dF75CKKGihf/c4sCdya7b4Rmg+LFZZxxzXfIcZZxp3Y4v97J8dG97delohuRe7+ddO5APPWYq/FIY78H07OG8KzLRiD27"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "index": 0
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 1125,
+          "candidatesTokenCount": 2807,
+          "totalTokenCount": 3932,
+          "promptTokensDetails": [
+            {
+              "modality": "IMAGE",
+              "tokenCount": 1073
+            },
+            {
+              "modality": "TEXT",
+              "tokenCount": 52
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "responseId": "GmifaqDyGszvqtsPsZvmmA4"
+      }
+    }
+  ]
+}

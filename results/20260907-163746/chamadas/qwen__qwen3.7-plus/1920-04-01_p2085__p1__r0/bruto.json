@@ -1,0 +1,86 @@
+{
+  "chave": "qwen/qwen3.7-plus|1920-04-01_p2085|p1|0",
+  "registro": {
+    "model_id": "qwen/qwen3.7-plus",
+    "prompt_id": "p1",
+    "doc_id": "1920-04-01_p2085",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 72.12061169999652,
+    "prompt_tokens": 2566,
+    "completion_tokens": 3980,
+    "total_tokens": 6546,
+    "cost_usd": 0.00591552,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Alibaba",
+    "generation_id": "gen-1788814555-nviSZMQ0CrgUJgsWbKXo",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-07T20:55:54Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788814555-nviSZMQ0CrgUJgsWbKXo",
+        "object": "chat.completion",
+        "created": 1788814555,
+        "model": "qwen/qwen3.7-plus",
+        "provider": "Alibaba",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diario Official do Estado de São Paulo - 1 de Abril de 1920</title>\n<style>\n  body {\n    font-family: 'Georgia', 'Times New Roman', serif;\n    max-width: 900px;\n    margin: 0 auto;\n    padding: 20px;\n    background: #f5f0e8;\n    color: #1a1a1a;\n    font-size: 14px;\n    line-height: 1.5;\n  }\n  .header {\n    text-align: center;\n    border-bottom: 3px double #000;\n    padding-bottom: 10px;\n    margin-bottom: 5px;\n  }\n  .header h1 {\n    font-size: 14px;\n    letter-spacing: 3px;\n    margin: 0;\n    font-weight: normal;\n  }\n  .header h2 {\n    font-size: 52px;\n    font-weight: 900;\n    letter-spacing: 4px;\n    margin: 5px 0;\n    font-family: 'Georgia', serif;\n  }\n  .header h3 {\n    font-size: 22px;\n    letter-spacing: 2px;\n    margin: 0;\n    font-weight: bold;\n  }\n  .date-line {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    border-top: 2px solid #000;\n    border-bottom: 2px solid #000;\n    padding: 6px 0;\n    margin: 10px 0 15px 0;\n    font-size: 13px;\n    letter-spacing: 1px;\n  }\n  .content {\n    display: flex;\n    gap: 30px;\n  }\n  .left-column {\n    flex: 1;\n    border-right: 1px solid #999;\n    padding-right: 20px;\n  }\n  .right-column {\n    flex: 1;\n    padding-left: 10px;\n  }\n  .section-title {\n    text-align: center;\n    font-size: 28px;\n    font-weight: bold;\n    margin: 10px 0;\n    border-bottom: 2px solid #000;\n    padding-bottom: 5px;\n  }\n  .decree-title {\n    text-align: center;\n    font-size: 13px;\n    letter-spacing: 1px;\n    margin: 20px 0 10px 0;\n    font-weight: bold;\n  }\n  .decree-text {\n    font-style: italic;\n    margin: 10px 0;\n    text-align: justify;\n  }\n  .body-text {\n    text-align: justify;\n    margin: 10px 0;\n    text-indent: 2em;\n  }\n  .body-text-no-indent {\n    text-align: justify;\n    margin: 10px 0;\n  }\n  .signature {\n    text-align: right;\n    margin: 15px 0;\n    font-style: italic;\n  }\n  .signature .name {\n    font-variant: small-caps;\n    font-weight: bold;\n    font-style: normal;\n  }\n  .separator {\n    text-align: center;\n    margin: 15px 0;\n    font-size: 20px;\n    letter-spacing: 5px;\n  }\n  .interior-title {\n    text-align: center;\n    font-size: 24px;\n    font-weight: 900;\n    letter-spacing: 3px;\n    margin: 20px 0 15px 0;\n  }\n  .rubric-line {\n    margin: 3px 0;\n    font-size: 13px;\n  }\n  .rubric-total {\n    border-top: 1px solid #000;\n    margin-top: 5px;\n    padding-top: 3px;\n  }\n  .published-text {\n    font-style: italic;\n    text-align: justify;\n    margin: 15px 0;\n  }\n  .decreta-text {\n    text-align: center;\n    margin: 10px 0;\n    font-style: italic;\n  }\n  .article-text {\n    text-align: justify;\n    margin: 8px 0;\n    text-indent: 2em;\n  }\n  .bullet-item {\n    text-align: justify;\n    margin: 5px 0;\n    padding-left: 1.5em;\n    text-indent: -1.5em;\n  }\n  .bullet-item::before {\n    content: \"• \";\n  }\n  hr.thin {\n    border: none;\n    border-top: 1px solid #000;\n    margin: 15px 0;\n  }\n  .center-line {\n    text-align: center;\n    margin: 10px 0;\n  }\n</style>\n</head>\n<body>\n\n<div class=\"header\">\n  <h1>ESTADOS UNIDOS DO BRAZIL</h1>\n  <h2>DIARIO OFFICIAL</h2>\n  <h3>DO ESTADO DE SÃO PAULO</h3>\n</div>\n\n<div class=\"date-line\">\n  <span>ANNO 30 — 32.º DA REPUBLICA — N. 73</span>\n  <span>SÃO PAULO</span>\n  <span>QUINTA-FEIRA, 1.º DE ABRIL DE 1920</span>\n</div>\n\n<div class=\"content\">\n  <div class=\"left-column\">\n\n    <div class=\"section-title\">Actos do Poder Executivo</div>\n\n    <div class=\"decree-title\">DECRETO N. 3185 — DE 30 DE MARÇO DE 1920</div>\n\n    <p class=\"decree-text\">Abre á Secretaria da Fazenda e do Thesouro do Estado, um credito especial de vinte e cinco contos, novecentos e setenta e quatro mil e oitocentos e vinte réis.......... (25:974$820), para fazer face ás despezas effectuadas com a epidemia de grippe no exercicio de 1919.</p>\n\n    <p class=\"body-text-no-indent\">O Doutor Altino Arantes, Presidente do Estado de São Paulo,</p>\n\n    <p class=\"body-text\">Attendendo ao que lhe representou o sr. Secretario de Estado dos Negocios da Fazenda e do Thesouro e usando da faculdade que lhe confere a Lei n. 1605 de 31 de Outubro de 1918,</p>\n\n    <p class=\"decreta-text\">Decreta:</p>\n\n    <p class=\"article-text\">Artigo 1.º — Fica aberto na Secretaria da Fazenda e do Thesouro do Estado um credito especial de vinte e cinco contos, novecentos e setenta e quatro mil e oitocentos e vinte réis (Rs. 25:974$820) para fazer face ás despezas effectuadas com a epidemia de grippe no exercicio de 1919.</p>\n\n    <p class=\"article-text\">Artigo 2.º — Revogam-se as disposições em contrario.</p>\n\n    <p class=\"body-text-no-indent\">Palacio do Governo do Estado de São Paulo, em 30 de Março de 1920.</p>\n\n    <div class=\"signature\">\n      <span class=\"name\">ALTINO ARANTES.</span><br>\n      <em>U. Herculano de Freitas.</em>\n    </div>\n\n    <p class=\"published-text\">Publicado na Secretaria da Fazenda e do Thesouro do Estado de São Paulo, em 31 de Março de 1920. — <em>Theophilo M. Nobrega</em>, director-geral.</p>\n\n    <hr class=\"thin\">\n\n    <div class=\"decree-title\">DECRETO N. 3186 — DE 30 DE MARÇO DE 1920</div>\n\n    <p class=\"decree-text\">Abre no Thesouro do Estado um credito de 253:739$000 para liquidação da despesa da Secretaria do Interior no exercicio de 1919.</p>\n\n    <p class=\"body-text\">O Presidente do Estado, usando da auctorisação que lhe é conferida pela lei n. 1.673, de 2 de Dezembro de 1919,</p>\n\n    <p class=\"decreta-text\">Decreta:</p>\n\n    <p class=\"article-text\">Artigo unico. — Fica aberto no Thesouro do Estado, á Secretaria de Estado dos Negocios do Interior, um credito supplementar de duzentos e cincoenta e tres contos sêtecentos e trinta e nove mil réis (253:739$000), para saldar o deficit verificado nas seguintes rubricas do orçamento para o exercicio de 1919:</p>\n\n    <div class=\"rubric-line\" style=\"padding-left: 2em;\">§ 2.º Senado .................................... 52:206$000</div>\n    <div class=\"rubric-line\" style=\"padding-left: 2em;\">§ 3.º Camara dos Deputados.......... 201:533$000</div>\n    <div class=\"rubric-line rubric-total\" style=\"padding-left: 2em; text-align: right; padding-right: 2em;\">253:739$000</div>\n\n    <p class=\"body-text-no-indent\">Palacio do Governo do Estado de São Paulo, aos 30 de Março de 1920.</p>\n\n    <div class=\"signature\">\n      <span class=\"name\">ALTINO ARANTES.</span><br>\n      <em>Oscar Rodrigues Alves.</em>\n    </div>\n\n    <hr class=\"thin\">\n\n    <div class=\"decree-title\">DECRETO N. 3187 — DE 3 DE MARÇO DE 1920</div>\n\n    <p class=\"decree-text\">Abre no Thesouro do Estado, á Secretaria de Estado dos Negocios do Interior, um credito especial de rs.......... 3.386:403$468, para as despezas feitas com a epidemia de grippe.</p>\n\n    <p class=\"body-text\">O presidente do Estado, usando da auctorisação que lhe é conferida pela lei n. 1.605, de 31 de Outubro de 1918,</p>\n\n  </div>\n\n  <div class=\"right-column\">\n\n    <p class=\"decreta-text\" style=\"text-align: left; text-indent: 2em;\">Decreta:</p>\n\n    <p class=\"article-text\">Artigo unico. — Fica aberto no Thesouro do Estado, á Secretaria de Estado dos Negocios do Interior, um credito especial de tres mil trezentos e oitenta e seis contos quatrocentos e trez mil quatrocentos e sessenta e oito réis.......... (3.386:403$468), para as despezas feitas com a epidemia de grippe.</p>\n\n    <p class=\"body-text-no-indent\">Palacio do Governo do Estado de São Paulo, aos 30 de Março de 1920.</p>\n\n    <div class=\"signature\">\n      <span class=\"name\">ALTINO ARANTES.</span><br>\n      <em>Oscar Rodrigues Alves.</em>\n    </div>\n\n    <div class=\"center-line\">—</div>\n\n    <div class=\"interior-title\">INTERIOR</div>\n\n    <p class=\"body-text-no-indent\">Por decretos de 31 do corrente:</p>\n\n    <p class=\"bullet-item\">foram aposentados o dr. Augusto Militão Pacheco, inspector sanitario da Capital e o sr. Antonio Egydio Martins, 1.º escripturario da Repartição de Estatistica e Archivo do Estado;</p>\n\n    <p class=\"bullet-item\">foi removido o inspector sanitario da Delegacia de Saúde de Compinas, dr. João Paes Leme de Monlevadé, para igual cargo nesta Capital;</p>\n\n    <p class=\"bullet-item\">foram nomeados inspectores sanitarios os drs. João Thomaz Monteiro da Silva, para S. Carlos; Daniel Martins, para Botucatú; Justiniano Lisbôa e Jorge Dutra Fragoso, para Santos;</p>\n\n    <p class=\"bullet-item\">foi nomeado o sr. Alfredo de Barros Santos, para exercer o cargo de auxiliar do director da Escola Profissional Masculina da Capital;</p>\n\n    <p class=\"bullet-item\">foi promovido a 2.º escripturario da Directoria Geral do Serviço Sanitario, o 3.º escripturario da mesma repartição, sr. Bernardino de Campos Araujo;</p>\n\n    <p class=\"bullet-item\">foi nomeado o dr. Henrique Jorge Guedes para exercer o cargo de lente substituto interino da 2.ª secção da Escola Polytechnica de S. Paulo;</p>\n\n    <p class=\"bullet-item\">foi transferido o dr. Francisco Pereira Ramos, lente cathedratico das cadeiras reunidas de Physica Industrial e Electrotechnica (1.ª parte) da Escola Polytechnica de São Paulo, para lente cathedratico da cadeira isolada de Economia Politica. Elementos de Estatistica. Noções de Direito Administrativo da mesma Escola, de accordó com o art. 20, § 3.º do Decreto n. 2.931, de 12 de Junho de 1918;</p>\n\n    <p class=\"bullet-item\">foi annexada ao grupo escolar de Pirajú a escola mixta urbana, das Paivas, da mesma localidade;</p>\n\n    <p class=\"bullet-item\">foi dada a denominação de «Francisco Simões», ao grupo escolar de Dois Corregos;</p>\n\n    <p class=\"bullet-item\">foi effectivado no cargo de director do grupo escolar de Tambahú, o actual director interino, professor Manoel Nogueira de Carvalho;</p>\n\n    <p class=\"bullet-item\">foram nomeadas adjunctas dos grupos escolares de Ribeirão Bonito e Brotas, as seguintes professoras dd. Maria Paula de Paula Sousa, Maria Silveira Almeida, respectivamente;</p>\n\n    <p class=\"bullet-item\">foram removidos, a pedido, os seguintes adjunctos de grupos escolares:</p>\n\n    <p class=\"body-text\" style=\"text-indent: 3em;\">d. Maria Augusta de Andrade Justo, do de Brotas para o «Antonio Padilha», de Sorocaba;</p>\n\n    <p class=\"body-text\" style=\"text-indent: 3em;\">d. Dulce de Barros Pereira, de Brotas, para o «Visconde de Porto Seguro», de Sorocaba;</p>\n\n    <p class=\"body-text\" style=\"text-indent: 3em;\">Luiz do Amaral Wagner, do «Antonio Padilha», de Sorocaba, para o de Brotas;</p>\n\n    <p class=\"body-text\" style=\"text-indent: 3em;\">d. Marianna Mastroandréa, do «Visconde de Porto Seguro», de Sorocaba, para o de Brotas;</p>\n\n    <p class=\"body-text\" style=\"text-indent: 3em;\">d. Edemea Rudge Ramos Parada, do de Belémzinho, para o de S. João, ambos desta Capital;</p>\n\n    <p class=\"bullet-item\">foram exoneradas, a pedido, do cargo de adjunctas do grupo escolar do Bebedouro, d. Luiza Oliveira Algodôal e d. Tamilde Rossi Magalhães, do 1.º de Araraquara;</p>\n\n  </div>\n</div>\n\n</body>\n</html>\n```",
+              "refusal": null,
+              "reasoning": "The user wants me to convert an image of an old Brazilian official document (Diário Oficial do Estado de São Paulo, from April 1, 1920) into HTML code. I need to respect the layout and original words, using the old Portuguese spelling conventions visible in the document.\n\nLet me carefully read through the document and transcribe it into HTML.\n\nThe document has:\n- Header: ESTADOS UNIDOS DO BRAZIL / DIARIO OFFICIAL / DO ESTADO DE SÃO PAULO\n- Date line: ANNO 30 — 32.º DA REPUBLICA — N. 73 SÃO PAULO QUINTA-FEIRA, 1.º DE ABRIL DE 1920\n- Two columns of content\n- Left column: Actos do Poder Executivo with several decrees\n- Right column: continuation of decrees and INTERIOR section\n\nLet me transcribe carefully.",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "The user wants me to convert an image of an old Brazilian official document (Diário Oficial do Estado de São Paulo, from April 1, 1920) into HTML code. I need to respect the layout and original words, using the old Portuguese spelling conventions visible in the document.\n\nLet me carefully read through the document and transcribe it into HTML.\n\nThe document has:\n- Header: ESTADOS UNIDOS DO BRAZIL / DIARIO OFFICIAL / DO ESTADO DE SÃO PAULO\n- Date line: ANNO 30 — 32.º DA REPUBLICA — N. 73 SÃO PAULO QUINTA-FEIRA, 1.º DE ABRIL DE 1920\n- Two columns of content\n- Left column: Actos do Poder Executivo with several decrees\n- Right column: continuation of decrees and INTERIOR section\n\nLet me transcribe carefully.",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2566,
+          "completion_tokens": 3980,
+          "total_tokens": 6546,
+          "cost": 0.00591552,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00591552,
+            "upstream_inference_prompt_cost": 0.00082112,
+            "upstream_inference_completions_cost": 0.0050944
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 192,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

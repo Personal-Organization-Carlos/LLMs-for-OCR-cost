@@ -1,0 +1,3806 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        31,
+                        41,
+                        824,
+                        116
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                31,
+                                41,
+                                824,
+                                116
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        31,
+                                        41,
+                                        824,
+                                        116
+                                    ],
+                                    "type": "text",
+                                    "content": "DIARIO OFFICIAL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        194,
+                        118,
+                        664,
+                        149
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                194,
+                                118,
+                                664,
+                                149
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        194,
+                                        118,
+                                        664,
+                                        149
+                                    ],
+                                    "type": "text",
+                                    "content": "DO ESTADO DE SÃO PAULO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        29,
+                        171,
+                        320,
+                        190
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                29,
+                                171,
+                                320,
+                                190
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        29,
+                                        171,
+                                        320,
+                                        190
+                                    ],
+                                    "type": "text",
+                                    "content": "ANNO 30 — 32.º DA REPUBLICA — N. 73"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        341,
+                        171,
+                        485,
+                        192
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                341,
+                                171,
+                                485,
+                                192
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        341,
+                                        171,
+                                        485,
+                                        192
+                                    ],
+                                    "type": "text",
+                                    "content": "SÃO PAULO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        528,
+                        172,
+                        808,
+                        191
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                528,
+                                172,
+                                808,
+                                191
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        528,
+                                        172,
+                                        808,
+                                        191
+                                    ],
+                                    "type": "text",
+                                    "content": "QUINTA-FEIRA, 1.º DE ABRIL DE 1920"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        57,
+                        208,
+                        388,
+                        249
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                57,
+                                208,
+                                388,
+                                249
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        208,
+                                        388,
+                                        249
+                                    ],
+                                    "type": "text",
+                                    "content": "Actos do Poder Executivo"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        59,
+                        270,
+                        384,
+                        289
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                270,
+                                384,
+                                289
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        270,
+                                        384,
+                                        289
+                                    ],
+                                    "type": "text",
+                                    "content": "DECRETO N. 3185 — DE 30 DE MARÇO DE 1920"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        26,
+                        300,
+                        416,
+                        377
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                26,
+                                300,
+                                416,
+                                377
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        26,
+                                        300,
+                                        416,
+                                        377
+                                    ],
+                                    "type": "text",
+                                    "content": "Abre á Secretaria da Fazenda e do Thesouro do Estado, um credito especial de vinte e cinco contos, novecentos e setenta e quatro mil e oitocentos e vinte réis..... (25:974§820), para fazer face às despezas effetuadas com a epidemia de grippe no exercício de 1919."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        387,
+                        414,
+                        417
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                387,
+                                414,
+                                417
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        387,
+                                        414,
+                                        417
+                                    ],
+                                    "type": "text",
+                                    "content": "O Doutor Altino Arantes, Presidente do Estado de São Paulo,"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        417,
+                        414,
+                        476
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                417,
+                                414,
+                                476
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        417,
+                                        414,
+                                        476
+                                    ],
+                                    "type": "text",
+                                    "content": "Attendendo ao que lhe representou o sr. Secretario de Estado dos Negocios da Fazenda e do Thesouro e usando da faculdade que lhe confere a Lei nº. 1605 de 31 de Outubro de 1918,"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        65,
+                        476,
+                        121,
+                        489
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                65,
+                                476,
+                                121,
+                                489
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        65,
+                                        476,
+                                        121,
+                                        489
+                                    ],
+                                    "type": "text",
+                                    "content": "Decreta :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        21,
+                        489,
+                        414,
+                        564
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                489,
+                                414,
+                                564
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        489,
+                                        414,
+                                        564
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo 1.º — Fici aberto na Secretaria da Fazenda e do Thesouro do Estado um credito especial de vinte e cinco contos, novecentos e setenta e quatro mil e oitocentos e vinte réis (Rs. 25:974\\$820) para fazer face às despezas effectuadas, com a epidemia de grippe no exercício de 1919."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        21,
+                        564,
+                        414,
+                        607
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                564,
+                                414,
+                                607
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        564,
+                                        414,
+                                        607
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo 2.º — Revogam-se as disposições em contrário.\nPalacio do Governo do Estado de São Paulo, em 30 de Março de 1920."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        212,
+                        606,
+                        325,
+                        620
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                212,
+                                606,
+                                325,
+                                620
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        212,
+                                        606,
+                                        325,
+                                        620
+                                    ],
+                                    "type": "text",
+                                    "content": "ALTINO ARANTES."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        213,
+                        620,
+                        373,
+                        637
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                213,
+                                620,
+                                373,
+                                637
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        213,
+                                        620,
+                                        373,
+                                        637
+                                    ],
+                                    "type": "text",
+                                    "content": "U. Herculano de Freitas."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        21,
+                        647,
+                        414,
+                        696
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                647,
+                                414,
+                                696
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        647,
+                                        414,
+                                        696
+                                    ],
+                                    "type": "text",
+                                    "content": "Publicado na Secretaria da Fazenda e do Thesou o do Estado de São Paulo, em 31 de Março de 1920. -- Theophilo M. Nobrega, director-geral."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        54,
+                        725,
+                        377,
+                        743
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                725,
+                                377,
+                                743
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        725,
+                                        377,
+                                        743
+                                    ],
+                                    "type": "text",
+                                    "content": "DECRETO N. 3186 — DE 30 DE MARÇO DE 1920"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        21,
+                        754,
+                        409,
+                        799
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                754,
+                                409,
+                                799
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        754,
+                                        409,
+                                        799
+                                    ],
+                                    "type": "text",
+                                    "content": "Abre no Thesouro do Estado um credito de 253:739\\$000 para liquidação da despesa da Secretaria do Interior no exercício de 1919."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        21,
+                        811,
+                        412,
+                        855
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                811,
+                                412,
+                                855
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        811,
+                                        412,
+                                        855
+                                    ],
+                                    "type": "text",
+                                    "content": "O Presidente do Estado, usando da auctorização que lhe é conferida pela lei n. 1.673, de 2 de Dezembro de 1919, Decreta:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        20,
+                        856,
+                        412,
+                        943
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                20,
+                                856,
+                                412,
+                                943
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        20,
+                                        856,
+                                        412,
+                                        943
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo único. — Fica aberto no Thesouro do Estado, à Secretaria de Estado dos Negocios do Interior, um credito suplementar de duzentos e cincoenta e tres contos sétecentos e triuta e nove mil réis (253:739\\$000), para saldar o deficit verificado nas seguintes rubricas do orçamento para o exercício de 1919:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        943,
+                        372,
+                        958
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                943,
+                                372,
+                                958
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        943,
+                                        372,
+                                        958
+                                    ],
+                                    "type": "text",
+                                    "content": "§ 2.º Senado .... .... .... 52:206\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        958,
+                        372,
+                        974
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                958,
+                                372,
+                                974
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        958,
+                                        372,
+                                        974
+                                    ],
+                                    "type": "text",
+                                    "content": "§ 3.º Camara dos Deputados...... 201:533\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        292,
+                        986,
+                        372,
+                        1001
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                292,
+                                986,
+                                372,
+                                1001
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        292,
+                                        986,
+                                        372,
+                                        1001
+                                    ],
+                                    "type": "text",
+                                    "content": "253:739$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        20,
+                        1000,
+                        410,
+                        1031
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                20,
+                                1000,
+                                410,
+                                1031
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        20,
+                                        1000,
+                                        410,
+                                        1031
+                                    ],
+                                    "type": "text",
+                                    "content": "Palacio do Governo do Estado de São Paulo, nos 30 de Março de 1920."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        233,
+                        1031,
+                        347,
+                        1045
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                233,
+                                1031,
+                                347,
+                                1045
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        233,
+                                        1031,
+                                        347,
+                                        1045
+                                    ],
+                                    "type": "text",
+                                    "content": "ALTINO ARANTES."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        234,
+                        1045,
+                        388,
+                        1062
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                234,
+                                1045,
+                                388,
+                                1062
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        234,
+                                        1045,
+                                        388,
+                                        1062
+                                    ],
+                                    "type": "text",
+                                    "content": "Oscar Rodrigues Alves."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        56,
+                        1101,
+                        374,
+                        1119
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                1101,
+                                374,
+                                1119
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        1101,
+                                        374,
+                                        1119
+                                    ],
+                                    "type": "text",
+                                    "content": "DECRETO N. 3187 — DE 3 DE MARÇO DE 1920"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        20,
+                        1131,
+                        410,
+                        1193
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                20,
+                                1131,
+                                410,
+                                1193
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        20,
+                                        1131,
+                                        410,
+                                        1193
+                                    ],
+                                    "type": "text",
+                                    "content": "Abre no Thesouro do Estado, à Secretaria de Estado dos Negocios do Interior, um credito especial de rs. ..... 3.386:403§468, para as despesas feitas com a epidemia de grippe."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        16,
+                        1203,
+                        409,
+                        1236
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                16,
+                                1203,
+                                409,
+                                1236
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        16,
+                                        1203,
+                                        409,
+                                        1236
+                                    ],
+                                    "type": "text",
+                                    "content": "O presidente do Estado, usando da auctorisação que lhe é conferida pela lei n. 1.605, de 31 de Outubro de 1918,"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        470,
+                        210,
+                        530,
+                        224
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                470,
+                                210,
+                                530,
+                                224
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        470,
+                                        210,
+                                        530,
+                                        224
+                                    ],
+                                    "type": "text",
+                                    "content": "Decreta :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        429,
+                        224,
+                        822,
+                        313
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                429,
+                                224,
+                                822,
+                                313
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        429,
+                                        224,
+                                        822,
+                                        313
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo unico. — Fica aterto no Thesouro do Estado, à Secretaria de Estado dos Negocios do Interior, um credito especial de tres mil trezentos e oitenta e seis contos quatrocentos e trez mil quatrocentos e sessenta e oito réis..... (3.386:403\\$468), para as despesas feitas com a epidemia de grippe."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        429,
+                        311,
+                        821,
+                        341
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                429,
+                                311,
+                                821,
+                                341
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        429,
+                                        311,
+                                        821,
+                                        341
+                                    ],
+                                    "type": "text",
+                                    "content": "Palacio do Governo; do Estado de São Paulo, aos 30 de Março de 1920."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        645,
+                        340,
+                        758,
+                        355
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                645,
+                                340,
+                                758,
+                                355
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        645,
+                                        340,
+                                        758,
+                                        355
+                                    ],
+                                    "type": "text",
+                                    "content": "ALTINO ARANTES."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        645,
+                        355,
+                        798,
+                        371
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                645,
+                                355,
+                                798,
+                                371
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        645,
+                                        355,
+                                        798,
+                                        371
+                                    ],
+                                    "type": "text",
+                                    "content": "Oscar Rodrigues Alves."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 34,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        550,
+                        411,
+                        697,
+                        437
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                550,
+                                411,
+                                697,
+                                437
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        550,
+                                        411,
+                                        697,
+                                        437
+                                    ],
+                                    "type": "text",
+                                    "content": "INTERIOR"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 35,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        467,
+                        452,
+                        680,
+                        467
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                467,
+                                452,
+                                680,
+                                467
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        467,
+                                        452,
+                                        680,
+                                        467
+                                    ],
+                                    "type": "text",
+                                    "content": "Por decretos de 31 do correnté :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 36,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        427,
+                        467,
+                        819,
+                        527
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                427,
+                                467,
+                                819,
+                                527
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        427,
+                                        467,
+                                        819,
+                                        527
+                                    ],
+                                    "type": "text",
+                                    "content": "foram aposentados o dr. Augusto Militão Pacheco, inspector sanitario da Capital e o sr. Antonio Egydio Martins, 1.º escripturário da Repartição de Estatística e Archivo do Estado;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 37,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        427,
+                        525,
+                        819,
+                        570
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                427,
+                                525,
+                                819,
+                                570
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        427,
+                                        525,
+                                        819,
+                                        570
+                                    ],
+                                    "type": "text",
+                                    "content": "- foi removido o inspector sanitario da Delegacia de Saúde de Compinas, dr. João Paes Leme de Monlevade, para igual cargo-nesta Capital;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 38,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        427,
+                        569,
+                        819,
+                        627
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                427,
+                                569,
+                                819,
+                                627
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        427,
+                                        569,
+                                        819,
+                                        627
+                                    ],
+                                    "type": "text",
+                                    "content": "foram uomeados inspectores sanitarios os drs. João Thomaz Monteiro da Silva, para S. Carlos; Daniel Martins, para Botucatú; Justiniano Lisbôa e Jorge Dutra Fragoso, para Santos;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 39,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        426,
+                        626,
+                        819,
+                        671
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                426,
+                                626,
+                                819,
+                                671
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        426,
+                                        626,
+                                        819,
+                                        671
+                                    ],
+                                    "type": "text",
+                                    "content": "foi nomeado o sr. Alfredo de Barros Santos, para exercer o cargo de auxiliar do director da Escola Profissional Masculino da Capital;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 40,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        427,
+                        669,
+                        819,
+                        714
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                427,
+                                669,
+                                819,
+                                714
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        427,
+                                        669,
+                                        819,
+                                        714
+                                    ],
+                                    "type": "text",
+                                    "content": ". foi promovido a 2.º escripturario da Directoria Geral do Serviço Sanitario, o 3.º escripturario da mesma repartição, sr. Bernardino de Campos Araujo;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 41,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        427,
+                        713,
+                        819,
+                        758
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                427,
+                                713,
+                                819,
+                                758
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        427,
+                                        713,
+                                        819,
+                                        758
+                                    ],
+                                    "type": "text",
+                                    "content": "foi nomeado o dr. Henrique Jorge Guedes para exercer o cargo de lente substituto interino da 2.ª secção da Escola Polytechnica de S. Paulo;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        426,
+                        756,
+                        819,
+                        858
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                426,
+                                756,
+                                819,
+                                858
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        426,
+                                        756,
+                                        819,
+                                        858
+                                    ],
+                                    "type": "text",
+                                    "content": "foi transferido o dr. Francisco Pereira Ramos; lente cathedratico das cadeiras reunidas de Physica Industrial e Electrotechnica (1."
+                                },
+                                {
+                                    "bbox": [
+                                        426,
+                                        756,
+                                        819,
+                                        858
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "^{a}"
+                                },
+                                {
+                                    "bbox": [
+                                        426,
+                                        756,
+                                        819,
+                                        858
+                                    ],
+                                    "type": "text",
+                                    "content": " parte) da Escola Polytechnica de São Panlo, para lente cathedratico da cadeira isolada de Economia Política. Elementos de Estatisca. Noções de Direito Administrativo da mesma Escola, de acordo com art. 20, § 3."
+                                },
+                                {
+                                    "bbox": [
+                                        426,
+                                        756,
+                                        819,
+                                        858
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "^{o}"
+                                },
+                                {
+                                    "bbox": [
+                                        426,
+                                        756,
+                                        819,
+                                        858
+                                    ],
+                                    "type": "text",
+                                    "content": " do Decreto n. 2.931, de 12 de Junho de 1918;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 43,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        426,
+                        858,
+                        817,
+                        888
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                426,
+                                858,
+                                817,
+                                888
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        426,
+                                        858,
+                                        817,
+                                        888
+                                    ],
+                                    "type": "text",
+                                    "content": "foi annexada ao grupo escolar de Pirajú a escola mixta urbaua, das Paivas, da mesma localidade;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 44,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        426,
+                        887,
+                        817,
+                        917
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                426,
+                                887,
+                                817,
+                                917
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        426,
+                                        887,
+                                        817,
+                                        917
+                                    ],
+                                    "type": "text",
+                                    "content": "foi dada a denominação de «Francisco Simões», ao grupo escolar de Dois Corregos;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 45,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        426,
+                        916,
+                        817,
+                        960
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                426,
+                                916,
+                                817,
+                                960
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        426,
+                                        916,
+                                        817,
+                                        960
+                                    ],
+                                    "type": "text",
+                                    "content": "foi effectivado no cargo de director do grupo escolar de Tambahú, o actual director interino, professor Mancel Nogueira de Carvalho;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 46,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        425,
+                        959,
+                        817,
+                        1018
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                425,
+                                959,
+                                817,
+                                1018
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        425,
+                                        959,
+                                        817,
+                                        1018
+                                    ],
+                                    "type": "text",
+                                    "content": "foram nomeadas adjunctas dos grupos escolares de Ribeirão Bonito e Brotas, as seguintes professoras dd. Maria Paula de Paula Sousa, Maria Silveira Almeida, respectivamente;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 47,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        425,
+                        1016,
+                        816,
+                        1046
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                425,
+                                1016,
+                                816,
+                                1046
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        425,
+                                        1016,
+                                        816,
+                                        1046
+                                    ],
+                                    "type": "text",
+                                    "content": "foram removidos, a pedido, os seguintes adjunctos de grupos escolares:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 48,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        425,
+                        1046,
+                        815,
+                        1076
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                425,
+                                1046,
+                                815,
+                                1076
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        425,
+                                        1046,
+                                        815,
+                                        1076
+                                    ],
+                                    "type": "text",
+                                    "content": "d. Maria Augusta de Andrade Justo, do de Brotas para o «Antonio Padilha», de Sorocab;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 49,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        425,
+                        1075,
+                        815,
+                        1105
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                425,
+                                1075,
+                                815,
+                                1105
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        425,
+                                        1075,
+                                        815,
+                                        1105
+                                    ],
+                                    "type": "text",
+                                    "content": "d. Dulce de Barros Pereira, de de Brotas, para o «Visconde de Porto Seguro», de Sorocaba;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 50,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        425,
+                        1103,
+                        815,
+                        1134
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                425,
+                                1103,
+                                815,
+                                1134
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        425,
+                                        1103,
+                                        815,
+                                        1134
+                                    ],
+                                    "type": "text",
+                                    "content": "Luiz do Amaral Waguer, do «Antonio Padilha», de Sorocaba, para o de Brotas;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 51,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        425,
+                        1133,
+                        815,
+                        1162
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                425,
+                                1133,
+                                815,
+                                1162
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        425,
+                                        1133,
+                                        815,
+                                        1162
+                                    ],
+                                    "type": "text",
+                                    "content": "d. Marianna Mastroandréa, do «Visconde de Porto Seguro», de Sorocaba, para o de Brotas;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 52,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        425,
+                        1162,
+                        815,
+                        1192
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                425,
+                                1162,
+                                815,
+                                1192
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        425,
+                                        1162,
+                                        815,
+                                        1192
+                                    ],
+                                    "type": "text",
+                                    "content": "d. Edemea Rudge Ramos Parada, do de Belémzinho, para o de S. João. ambos desta Capital;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 53,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        425,
+                        1192,
+                        815,
+                        1236
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                425,
+                                1192,
+                                815,
+                                1236
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        425,
+                                        1192,
+                                        815,
+                                        1236
+                                    ],
+                                    "type": "text",
+                                    "content": "foram exoneradas, a pedido, do cargo de adjunctas do grupo escolar do Bebedouro, d. Luiza Oliveira Algodoal e d, Tamilde Rossi Magalhães, do 1.º de Araraquara;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 54,
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        231,
+                        9,
+                        619,
+                        39
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                231,
+                                9,
+                                619,
+                                39
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        231,
+                                        9,
+                                        619,
+                                        39
+                                    ],
+                                    "type": "text",
+                                    "content": "ESTADOS UNIDOS DO BRAZIL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                }
+            ],
+            "page_size": [
+                840,
+                1243
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        31,
+                        41,
+                        824,
+                        116
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                31,
+                                41,
+                                824,
+                                116
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        31,
+                                        41,
+                                        824,
+                                        116
+                                    ],
+                                    "type": "text",
+                                    "content": "DIARIO OFFICIAL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        194,
+                        118,
+                        664,
+                        149
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                194,
+                                118,
+                                664,
+                                149
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        194,
+                                        118,
+                                        664,
+                                        149
+                                    ],
+                                    "type": "text",
+                                    "content": "DO ESTADO DE SÃO PAULO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        29,
+                        171,
+                        320,
+                        190
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                29,
+                                171,
+                                320,
+                                190
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        29,
+                                        171,
+                                        320,
+                                        190
+                                    ],
+                                    "type": "text",
+                                    "content": "ANNO 30 — 32.º DA REPUBLICA — N. 73"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        341,
+                        171,
+                        485,
+                        192
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                341,
+                                171,
+                                485,
+                                192
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        341,
+                                        171,
+                                        485,
+                                        192
+                                    ],
+                                    "type": "text",
+                                    "content": "SÃO PAULO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        528,
+                        172,
+                        808,
+                        191
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                528,
+                                172,
+                                808,
+                                191
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        528,
+                                        172,
+                                        808,
+                                        191
+                                    ],
+                                    "type": "text",
+                                    "content": "QUINTA-FEIRA, 1.º DE ABRIL DE 1920"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        57,
+                        208,
+                        388,
+                        249
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                57,
+                                208,
+                                388,
+                                249
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        57,
+                                        208,
+                                        388,
+                                        249
+                                    ],
+                                    "type": "text",
+                                    "content": "Actos do Poder Executivo"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        59,
+                        270,
+                        384,
+                        289
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                270,
+                                384,
+                                289
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        270,
+                                        384,
+                                        289
+                                    ],
+                                    "type": "text",
+                                    "content": "DECRETO N. 3185 — DE 30 DE MARÇO DE 1920"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        26,
+                        300,
+                        416,
+                        377
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                26,
+                                300,
+                                416,
+                                377
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        26,
+                                        300,
+                                        416,
+                                        377
+                                    ],
+                                    "type": "text",
+                                    "content": "Abre á Secretaria da Fazenda e do Thesouro do Estado, um credito especial de vinte e cinco contos, novecentos e setenta e quatro mil e oitocentos e vinte réis..... (25:974§820), para fazer face às despezas effetuadas com a epidemia de grippe no exercício de 1919."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        387,
+                        414,
+                        417
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                387,
+                                414,
+                                417
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        387,
+                                        414,
+                                        417
+                                    ],
+                                    "type": "text",
+                                    "content": "O Doutor Altino Arantes, Presidente do Estado de São Paulo,"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        417,
+                        414,
+                        476
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                417,
+                                414,
+                                476
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        417,
+                                        414,
+                                        476
+                                    ],
+                                    "type": "text",
+                                    "content": "Attendendo ao que lhe representou o sr. Secretario de Estado dos Negocios da Fazenda e do Thesouro e usando da faculdade que lhe confere a Lei nº. 1605 de 31 de Outubro de 1918,"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        65,
+                        476,
+                        121,
+                        489
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                65,
+                                476,
+                                121,
+                                489
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        65,
+                                        476,
+                                        121,
+                                        489
+                                    ],
+                                    "type": "text",
+                                    "content": "Decreta :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        21,
+                        489,
+                        414,
+                        564
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                489,
+                                414,
+                                564
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        489,
+                                        414,
+                                        564
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo 1.º — Fici aberto na Secretaria da Fazenda e do Thesouro do Estado um credito especial de vinte e cinco contos, novecentos e setenta e quatro mil e oitocentos e vinte réis (Rs. 25:974\\$820) para fazer face às despezas effectuadas, com a epidemia de grippe no exercício de 1919."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        21,
+                        564,
+                        414,
+                        607
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                564,
+                                414,
+                                607
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        564,
+                                        414,
+                                        607
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo 2.º — Revogam-se as disposições em contrário.\nPalacio do Governo do Estado de São Paulo, em 30 de Março de 1920."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        212,
+                        606,
+                        325,
+                        620
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                212,
+                                606,
+                                325,
+                                620
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        212,
+                                        606,
+                                        325,
+                                        620
+                                    ],
+                                    "type": "text",
+                                    "content": "ALTINO ARANTES."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        213,
+                        620,
+                        373,
+                        637
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                213,
+                                620,
+                                373,
+                                637
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        213,
+                                        620,
+                                        373,
+                                        637
+                                    ],
+                                    "type": "text",
+                                    "content": "U. Herculano de Freitas."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        21,
+                        647,
+                        414,
+                        696
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                647,
+                                414,
+                                696
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        647,
+                                        414,
+                                        696
+                                    ],
+                                    "type": "text",
+                                    "content": "Publicado na Secretaria da Fazenda e do Thesou o do Estado de São Paulo, em 31 de Março de 1920. -- Theophilo M. Nobrega, director-geral."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        54,
+                        725,
+                        377,
+                        743
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                725,
+                                377,
+                                743
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        725,
+                                        377,
+                                        743
+                                    ],
+                                    "type": "text",
+                                    "content": "DECRETO N. 3186 — DE 30 DE MARÇO DE 1920"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        21,
+                        754,
+                        409,
+                        799
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                754,
+                                409,
+                                799
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        754,
+                                        409,
+                                        799
+                                    ],
+                                    "type": "text",
+                                    "content": "Abre no Thesouro do Estado um credito de 253:739\\$000 para liquidação da despesa da Secretaria do Interior no exercício de 1919."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        21,
+                        811,
+                        412,
+                        855
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                811,
+                                412,
+                                855
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        811,
+                                        412,
+                                        855
+                                    ],
+                                    "type": "text",
+                                    "content": "O Presidente do Estado, usando da auctorização que lhe é conferida pela lei n. 1.673, de 2 de Dezembro de 1919, Decreta:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        20,
+                        856,
+                        412,
+                        943
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                20,
+                                856,
+                                412,
+                                943
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        20,
+                                        856,
+                                        412,
+                                        943
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo único. — Fica aberto no Thesouro do Estado, à Secretaria de Estado dos Negocios do Interior, um credito suplementar de duzentos e cincoenta e tres contos sétecentos e triuta e nove mil réis (253:739\\$000), para saldar o deficit verificado nas seguintes rubricas do orçamento para o exercício de 1919:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        943,
+                        372,
+                        958
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                943,
+                                372,
+                                958
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        943,
+                                        372,
+                                        958
+                                    ],
+                                    "type": "text",
+                                    "content": "§ 2.º Senado .... .... .... 52:206\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        958,
+                        372,
+                        974
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                958,
+                                372,
+                                974
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        958,
+                                        372,
+                                        974
+                                    ],
+                                    "type": "text",
+                                    "content": "§ 3.º Camara dos Deputados...... 201:533\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        292,
+                        986,
+                        372,
+                        1001
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                292,
+                                986,
+                                372,
+                                1001
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        292,
+                                        986,
+                                        372,
+                                        1001
+                                    ],
+                                    "type": "text",
+                                    "content": "253:739$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        20,
+                        1000,
+                        410,
+                        1031
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                20,
+                                1000,
+                                410,
+                                1031
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        20,
+                                        1000,
+                                        410,
+                                        1031
+                                    ],
+                                    "type": "text",
+                                    "content": "Palacio do Governo do Estado de São Paulo, nos 30 de Março de 1920."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        233,
+                        1031,
+                        347,
+                        1045
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                233,
+                                1031,
+                                347,
+                                1045
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        233,
+                                        1031,
+                                        347,
+                                        1045
+                                    ],
+                                    "type": "text",
+                                    "content": "ALTINO ARANTES."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        234,
+                        1045,
+                        388,
+                        1062
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                234,
+                                1045,
+                                388,
+                                1062
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        234,
+                                        1045,
+                                        388,
+                                        1062
+                                    ],
+                                    "type": "text",
+                                    "content": "Oscar Rodrigues Alves."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        56,
+                        1101,
+                        374,
+                        1119
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                1101,
+                                374,
+                                1119
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        1101,
+                                        374,
+                                        1119
+                                    ],
+                                    "type": "text",
+                                    "content": "DECRETO N. 3187 — DE 3 DE MARÇO DE 1920"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        20,
+                        1131,
+                        410,
+                        1193
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                20,
+                                1131,
+                                410,
+                                1193
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        20,
+                                        1131,
+                                        410,
+                                        1193
+                                    ],
+                                    "type": "text",
+                                    "content": "Abre no Thesouro do Estado, à Secretaria de Estado dos Negocios do Interior, um credito especial de rs. ..... 3.386:403§468, para as despesas feitas com a epidemia de grippe."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        16,
+                        1203,
+                        409,
+                        1236
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                16,
+                                1203,
+                                409,
+                                1236
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        16,
+                                        1203,
+                                        409,
+                                        1236
+                                    ],
+                                    "type": "text",
+                                    "content": "O presidente do Estado, usando da auctorisação que lhe é conferida pela lei n. 1.605, de 31 de Outubro de 1918,"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        470,
+                        210,
+                        530,
+                        224
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                470,
+                                210,
+                                530,
+                                224
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        470,
+                                        210,
+                                        530,
+                                        224
+                                    ],
+                                    "type": "text",
+                                    "content": "Decreta :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        429,
+                        224,
+                        822,
+                        313
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                429,
+                                224,
+                                822,
+                                313
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        429,
+                                        224,
+                                        822,
+                                        313
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo unico. — Fica aterto no Thesouro do Estado, à Secretaria de Estado dos Negocios do Interior, um credito especial de tres mil trezentos e oitenta e seis contos quatrocentos e trez mil quatrocentos e sessenta e oito réis..... (3.386:403\\$468), para as despesas feitas com a epidemia de grippe."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        429,
+                        311,
+                        821,
+                        341
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                429,
+                                311,
+                                821,
+                                341
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        429,
+                                        311,
+                                        821,
+                                        341
+                                    ],
+                                    "type": "text",
+                                    "content": "Palacio do Governo; do Estado de São Paulo, aos 30 de Março de 1920."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        645,
+                        340,
+                        758,
+                        355
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                645,
+                                340,
+                                758,
+                                355
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        645,
+                                        340,
+                                        758,
+                                        355
+                                    ],
+                                    "type": "text",
+                                    "content": "ALTINO ARANTES."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        645,
+                        355,
+                        798,
+                        371
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                645,
+                                355,
+                                798,
+                                371
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        645,
+                                        355,
+                                        798,
+                                        371
+                                    ],
+                                    "type": "text",
+                                    "content": "Oscar Rodrigues Alves."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 34,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        550,
+                        411,
+                        697,
+                        437
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                550,
+                                411,
+                                697,
+                                437
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        550,
+                                        411,
+                                        697,
+                                        437
+                                    ],
+                                    "type": "text",
+                                    "content": "INTERIOR"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 35,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        467,
+                        452,
+                        680,
+                        467
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                467,
+                                452,
+                                680,
+                                467
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        467,
+                                        452,
+                                        680,
+                                        467
+                                    ],
+                                    "type": "text",
+                                    "content": "Por decretos de 31 do correnté :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 36,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        427,
+                        467,
+                        819,
+                        527
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                427,
+                                467,
+                                819,
+                                527
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        427,
+                                        467,
+                                        819,
+                                        527
+                                    ],
+                                    "type": "text",
+                                    "content": "foram aposentados o dr. Augusto Militão Pacheco, inspector sanitario da Capital e o sr. Antonio Egydio Martins, 1.º escripturário da Repartição de Estatística e Archivo do Estado;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 37,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        427,
+                        525,
+                        819,
+                        570
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                427,
+                                525,
+                                819,
+                                570
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        427,
+                                        525,
+                                        819,
+                                        570
+                                    ],
+                                    "type": "text",
+                                    "content": "- foi removido o inspector sanitario da Delegacia de Saúde de Compinas, dr. João Paes Leme de Monlevade, para igual cargo-nesta Capital;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 38,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        427,
+                        569,
+                        819,
+                        627
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                427,
+                                569,
+                                819,
+                                627
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        427,
+                                        569,
+                                        819,
+                                        627
+                                    ],
+                                    "type": "text",
+                                    "content": "foram uomeados inspectores sanitarios os drs. João Thomaz Monteiro da Silva, para S. Carlos; Daniel Martins, para Botucatú; Justiniano Lisbôa e Jorge Dutra Fragoso, para Santos;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 39,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        426,
+                        626,
+                        819,
+                        671
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                426,
+                                626,
+                                819,
+                                671
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        426,
+                                        626,
+                                        819,
+                                        671
+                                    ],
+                                    "type": "text",
+                                    "content": "foi nomeado o sr. Alfredo de Barros Santos, para exercer o cargo de auxiliar do director da Escola Profissional Masculino da Capital;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 40,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        427,
+                        669,
+                        819,
+                        714
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                427,
+                                669,
+                                819,
+                                714
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        427,
+                                        669,
+                                        819,
+                                        714
+                                    ],
+                                    "type": "text",
+                                    "content": ". foi promovido a 2.º escripturario da Directoria Geral do Serviço Sanitario, o 3.º escripturario da mesma repartição, sr. Bernardino de Campos Araujo;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 41,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        427,
+                        713,
+                        819,
+                        758
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                427,
+                                713,
+                                819,
+                                758
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        427,
+                                        713,
+                                        819,
+                                        758
+                                    ],
+                                    "type": "text",
+                                    "content": "foi nomeado o dr. Henrique Jorge Guedes para exercer o cargo de lente substituto interino da 2.ª secção da Escola Polytechnica de S. Paulo;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        426,
+                        756,
+                        819,
+                        858
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                426,
+                                756,
+                                819,
+                                858
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        426,
+                                        756,
+                                        819,
+                                        858
+                                    ],
+                                    "type": "text",
+                                    "content": "foi transferido o dr. Francisco Pereira Ramos; lente cathedratico das cadeiras reunidas de Physica Industrial e Electrotechnica (1."
+                                },
+                                {
+                                    "bbox": [
+                                        426,
+                                        756,
+                                        819,
+                                        858
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "^{a}"
+                                },
+                                {
+                                    "bbox": [
+                                        426,
+                                        756,
+                                        819,
+                                        858
+                                    ],
+                                    "type": "text",
+                                    "content": " parte) da Escola Polytechnica de São Panlo, para lente cathedratico da cadeira isolada de Economia Política. Elementos de Estatisca. Noções de Direito Administrativo da mesma Escola, de acordo com art. 20, § 3."
+                                },
+                                {
+                                    "bbox": [
+                                        426,
+                                        756,
+                                        819,
+                                        858
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "^{o}"
+                                },
+                                {
+                                    "bbox": [
+                                        426,
+                                        756,
+                                        819,
+                                        858
+                                    ],
+                                    "type": "text",
+                                    "content": " do Decreto n. 2.931, de 12 de Junho de 1918;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 43,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        426,
+                        858,
+                        817,
+                        888
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                426,
+                                858,
+                                817,
+                                888
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        426,
+                                        858,
+                                        817,
+                                        888
+                                    ],
+                                    "type": "text",
+                                    "content": "foi annexada ao grupo escolar de Pirajú a escola mixta urbaua, das Paivas, da mesma localidade;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 44,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        426,
+                        887,
+                        817,
+                        917
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                426,
+                                887,
+                                817,
+                                917
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        426,
+                                        887,
+                                        817,
+                                        917
+                                    ],
+                                    "type": "text",
+                                    "content": "foi dada a denominação de «Francisco Simões», ao grupo escolar de Dois Corregos;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 45,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        426,
+                        916,
+                        817,
+                        960
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                426,
+                                916,
+                                817,
+                                960
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        426,
+                                        916,
+                                        817,
+                                        960
+                                    ],
+                                    "type": "text",
+                                    "content": "foi effectivado no cargo de director do grupo escolar de Tambahú, o actual director interino, professor Mancel Nogueira de Carvalho;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 46,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        425,
+                        959,
+                        817,
+                        1018
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                425,
+                                959,
+                                817,
+                                1018
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        425,
+                                        959,
+                                        817,
+                                        1018
+                                    ],
+                                    "type": "text",
+                                    "content": "foram nomeadas adjunctas dos grupos escolares de Ribeirão Bonito e Brotas, as seguintes professoras dd. Maria Paula de Paula Sousa, Maria Silveira Almeida, respectivamente;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 47,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        425,
+                        1016,
+                        816,
+                        1046
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                425,
+                                1016,
+                                816,
+                                1046
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        425,
+                                        1016,
+                                        816,
+                                        1046
+                                    ],
+                                    "type": "text",
+                                    "content": "foram removidos, a pedido, os seguintes adjunctos de grupos escolares:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 48,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        425,
+                        1046,
+                        815,
+                        1076
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                425,
+                                1046,
+                                815,
+                                1076
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        425,
+                                        1046,
+                                        815,
+                                        1076
+                                    ],
+                                    "type": "text",
+                                    "content": "d. Maria Augusta de Andrade Justo, do de Brotas para o «Antonio Padilha», de Sorocab;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 49,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        425,
+                        1075,
+                        815,
+                        1105
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                425,
+                                1075,
+                                815,
+                                1105
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        425,
+                                        1075,
+                                        815,
+                                        1105
+                                    ],
+                                    "type": "text",
+                                    "content": "d. Dulce de Barros Pereira, de de Brotas, para o «Visconde de Porto Seguro», de Sorocaba;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 50,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        425,
+                        1103,
+                        815,
+                        1134
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                425,
+                                1103,
+                                815,
+                                1134
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        425,
+                                        1103,
+                                        815,
+                                        1134
+                                    ],
+                                    "type": "text",
+                                    "content": "Luiz do Amaral Waguer, do «Antonio Padilha», de Sorocaba, para o de Brotas;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 51,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        425,
+                        1133,
+                        815,
+                        1162
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                425,
+                                1133,
+                                815,
+                                1162
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        425,
+                                        1133,
+                                        815,
+                                        1162
+                                    ],
+                                    "type": "text",
+                                    "content": "d. Marianna Mastroandréa, do «Visconde de Porto Seguro», de Sorocaba, para o de Brotas;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 52,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        425,
+                        1162,
+                        815,
+                        1192
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                425,
+                                1162,
+                                815,
+                                1192
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        425,
+                                        1162,
+                                        815,
+                                        1192
+                                    ],
+                                    "type": "text",
+                                    "content": "d. Edemea Rudge Ramos Parada, do de Belémzinho, para o de S. João. ambos desta Capital;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 53,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        425,
+                        1192,
+                        815,
+                        1236
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                425,
+                                1192,
+                                815,
+                                1236
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        425,
+                                        1192,
+                                        815,
+                                        1236
+                                    ],
+                                    "type": "text",
+                                    "content": "foram exoneradas, a pedido, do cargo de adjunctas do grupo escolar do Bebedouro, d. Luiza Oliveira Algodoal e d, Tamilde Rossi Magalhães, do 1.º de Araraquara;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 54,
+                    "merge_prev": false
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_effort": "high",
+    "_ocr_enable": true,
+    "_version_name": "3.4.4"
+}

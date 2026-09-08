@@ -1,0 +1,843 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.093,
+                0.061,
+                0.162,
+                0.073
+            ],
+            "angle": 0,
+            "content": "Domingo, 1"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.4,
+                0.059,
+                0.541,
+                0.071
+            ],
+            "angle": 0,
+            "content": "DIARIO OFFICIAL"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.77,
+                0.059,
+                0.888,
+                0.072
+            ],
+            "angle": 0,
+            "content": "Abril : 1900 x 7:33"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.058,
+                0.085,
+                0.338,
+                0.12
+            ],
+            "angle": 0,
+            "content": "António Candido Xavier de Almelda e Souza, normeado curador por decreto de 6 de Março corrente.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.119,
+                0.119,
+                0.277,
+                0.13
+            ],
+            "angle": 0,
+            "content": "Requerimentos despachados"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.058,
+                0.131,
+                0.339,
+                0.266
+            ],
+            "angle": 0,
+            "content": "Do bacharel O-taviano de Aguirra Camargo, ex-promotor publico da comarca de Yú, pedindo providencias no sentido de poder receber no Thesouro do Estado, os vencimentos a que tem direito, durante o tempo em que esteve em gesso da licença que lhe foi concedira por acto de 23 de Janeiro do corrente ano, para tralar da saude de pessoa de sua família, visto ter-se extraviado a respectiva portaria.—Atendido, retirando desta secretaria por certidão, uma copia da portaria da licença que foi extraviada.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.058,
+                0.267,
+                0.339,
+                0.341
+            ],
+            "angle": 0,
+            "content": "Do bacharel Bento Ribelro da Luz, juiz de direito da comarca de Naporanga, pedindo que se le mande certificar si obteve desta secretaria a portaria, devidamente sellada, da licença de sessenta dias, em cujo goso entrou (im 3) de Janeiro do corrente anno.—Certifique-se o que constar.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.131,
+                0.348,
+                0.265,
+                0.36
+            ],
+            "angle": 0,
+            "content": "2. SUB DIRECTORIA"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.168,
+                0.365,
+                0.258,
+                0.378
+            ],
+            "angle": 0,
+            "content": "1. SECQIQ",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.07,
+                0.38,
+                0.178,
+                0.392
+            ],
+            "angle": 0,
+            "content": "Transmittiren se :"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.058,
+                0.393,
+                0.338,
+                0.516
+            ],
+            "angle": 0,
+            "content": "Ao ministro da Justiça e Negócios Interiores os documentos oficiais relativos ao acto humanitário praticado pelo soldado Francisco, da Cu Ia Benevides, do 2.º atalhã, da Brigale Pocial, que em Santo, a 31 de Janeiro do ativo findo, se alirou ao mar no intuito de salvar a praça do Corpo de Bomheiros Municipres, que se lançara do caes para afogar-se, alim de que équelle soldado, seja concedida a medalha de distinção, creada por decreto de 11 de Dezembro de 1889.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.058,
+                0.517,
+                0.338,
+                0.577
+            ],
+            "angle": 0,
+            "content": "Ao dr. secretario dos Negócios do Interior, por, cópia, o ofício do delegado de polícia de Araca-quara, de 25 do corrente mez, communicando te rem apparecido naquella localidade dois casos de febre amarela.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.072,
+                0.579,
+                0.164,
+                0.59
+            ],
+            "angle": 0,
+            "content": "Remetteram-se :"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.058,
+                0.591,
+                0.336,
+                0.676
+            ],
+            "angle": 0,
+            "content": "Ao commandante do Co-po Policial no Interior os ofícios do dr. chife de polícia, ns, 851, 857 e 858, datados de 27 do corriente, referentes ao augmente dos destacamentos de A-a-a-quara e de Santos e sobre uma licença concedida a um soldado pelo delegado de Pedreira, para si a Posse d: Resacc.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.057,
+                0.678,
+                0.336,
+                0.738
+            ],
+            "angle": 0,
+            "content": "Ao dr. chef da polícia, os das camaras municipaes de Remedios da Ponte do Tiete, de Santo Antonio da Cachoeira e do juiz de paz de Santo Antonio da Alegia, datados de 22 e 23 do corrente mez.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.165,
+                0.741,
+                0.229,
+                0.752
+            ],
+            "angle": 0,
+            "content": "2.ª SICÇÃO",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.057,
+                0.755,
+                0.335,
+                0.817
+            ],
+            "angle": 0,
+            "content": "O secretario dos Negocios da Justiça resolve que na distribuição de forragem aos animaes da Força Pública, da Departição da Polícia, sejam observadas, contar de 5 de Abril próximo vin-douro, às seg. Intes tabellas:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.07,
+                0.818,
+                0.189,
+                0.829
+            ],
+            "angle": 0,
+            "content": "De 5 a 10 de Abril:",
+            "merge_prev": false
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.058,
+                0.834,
+                0.334,
+                0.921
+            ],
+            "angle": 0,
+            "content": "<table><tr><td></td><td></td><td colspan=\"2\">Aos cavallos</td><td colspan=\"2\">Aos muares</td></tr><tr><td>Alfafa</td><td>— diariamente</td><td>— 2</td><td>1<eq>\\frac{1}{2}</eq> kilos</td><td>—</td><td>2 kilos</td></tr><tr><td>Capim</td><td>—</td><td>— 8</td><td></td><td>—</td><td>8</td></tr><tr><td>Gamma</td><td>—</td><td>— 3</td><td></td><td>—</td><td>3</td></tr><tr><td>Farcto</td><td>—</td><td>— 1</td><td></td><td>—</td><td></td></tr><tr><td>M dio</td><td>—</td><td>— 3</td><td></td><td>—</td><td>3</td></tr><tr><td>Sal</td><td>—se 3 en 3 dias</td><td colspan=\"2\">— 1 decil.</td><td>—</td><td>1 decil</td></tr></table>"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.069,
+                0.922,
+                0.222,
+                0.932
+            ],
+            "angle": 0,
+            "content": "De II de Abril em deante :",
+            "merge_prev": false
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.346,
+                0.084,
+                0.626,
+                0.16
+            ],
+            "angle": 0,
+            "content": "<table><tr><td colspan=\"6\">Alfafa — diariamente — 1 1<eq>\\frac{1}{2}</eq> kilos — 1 kilo.</td></tr><tr><td>Capim —</td><td>» — 8</td><td>» — 8</td><td>» — 8</td><td>» — 8</td><td>» — 8</td></tr><tr><td>Canna —</td><td>» — 3</td><td>» — 3</td><td>» — 3</td><td>» — 3</td><td>» — 3</td></tr><tr><td>Farello —</td><td>» — 1</td><td>» — 1</td><td>» — 1</td><td>» — 1</td><td>» — 1</td></tr><tr><td>Milho —</td><td>» — 3</td><td>» — 3</td><td>» — 3</td><td>» — 3</td><td>» — 3</td></tr><tr><td colspan=\"6\">Sal — de 3 em 3 dias — 1 decil — 1 decil</td></tr></table>"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.346,
+                0.163,
+                0.626,
+                0.188
+            ],
+            "angle": 0,
+            "content": "Observação.-Os animaes no paslo vencerão a\nração de alfafa, canna, milho e sal.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.346,
+                0.191,
+                0.626,
+                0.217
+            ],
+            "angle": 0,
+            "content": "Secretaria da Justiça do Estado de São Paulo,\n30 de Março de 1900.—José Pereira de Queirot.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.346,
+                0.217,
+                0.626,
+                0.265
+            ],
+            "angle": 0,
+            "content": "Remetten se có: ia da presente labella provisoria ao dr. chefe de polícia, coro nel commandante da Brigada Policial e chefe do Almoxarifado da Força Pública.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.346,
+                0.267,
+                0.626,
+                0.34
+            ],
+            "angle": 0,
+            "content": "Por acto desta data foi elevada d.o 800 réis a 18360 a diiria de alimentação aos presos pobres da cadeia do São Paulo dos Agudos, a contar de 1.o de Abril d. corrente anno.—Deu-se conhecimento aos drs. chefe de polícia e secretario da Fazenda.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.345,
+                0.342,
+                0.625,
+                0.515
+            ],
+            "angle": 0,
+            "content": "Secretaria dos Negócios da Justiça.—2.ª sub-directoria.—2ª secção.—N. 030.—São Paulo, 31 de Março de 1900.—Sº, coronel-commandante da Brigada Policial.—Para os deridos effectos vos communico que entando em vigor, a 2 de Abril próximo viindouro, o o vo regulame no do sello do Estado, que laixou com o decreto n. 750, de 2) do corrente mez, devem, a coi dar daquelta data, as petições e memoriaes dirigidos à auctoridade administrativa estadua' ou municipal, treze a estampilha de 1900) pela jprime a 10ha de papel' escrita e 200 réis pelas restantes, de acordo com o n. 5 da tabella B annexa ao referido regulamento.—Saude e fraternidade.—José L'eviro de Queiroz.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.345,
+                0.516,
+                0.623,
+                0.54
+            ],
+            "angle": 0,
+            "content": "—Identicos a: dr. chefe de policise e ao coronel commandante do Corpo Policial do Interior.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.345,
+                0.54,
+                0.623,
+                0.564
+            ],
+            "angle": 0,
+            "content": "Solicita:am-se do dr. secretario da Fazenda, os seguintes pagamentos :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.345,
+                0.565,
+                0.623,
+                0.626
+            ],
+            "angle": 0,
+            "content": "De 30330, pela collectoria de Campos Novos, durante o actual exercício, mensalmente, a contar de 1.º de Janeiro último, a José Antonio da Costa, pelo aluguel do predio que serve de quartel e cadeia em Platina;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.344,
+                0.627,
+                0.623,
+                0.688
+            ],
+            "angle": 0,
+            "content": "De 35,909, pela collectoria de Pirajit, mensalmente, até 30 de Junb, do corrente anno e a contar de 1.º de Jan i o findo, a Jorge Alreu Jeffery, pelo aluguel do predio que serve de quartel e cadeia em Bello Monte;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.344,
+                0.688,
+                0.623,
+                0.725
+            ],
+            "angle": 0,
+            "content": "De 60§000, a Manuel Joajuim Gonçalves, pelo aluguel da casa onde está installado o posto policial na Modca, relativo a Janeiro último;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.344,
+                0.726,
+                0.623,
+                0.773
+            ],
+            "angle": 0,
+            "content": "De (COSO), a d. Anna Maria Caldeira, pelo aluguel do predio que serve de quartel em Morro Pellado, relativo aos mezes de Janeiro e Fevereiro fludos;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.344,
+                0.775,
+                0.619,
+                0.812
+            ],
+            "angle": 0,
+            "content": "De 1715000, a A. toublo Linza, por diversos con certos realizados no posto policial de Santa Ephi genia;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.344,
+                0.812,
+                0.623,
+                0.86
+            ],
+            "angle": 0,
+            "content": "As ex-praça abaixo mencionadas, proveniente da restituição do desconto de fardamento de voluntário e de vericimentos a que tiveram direito até a data em que foram excluídos:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.358,
+                0.861,
+                0.537,
+                0.874
+            ],
+            "angle": 0,
+            "content": "De US$ 00, a Caelano Pestri v;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.358,
+                0.874,
+                0.578,
+                0.887
+            ],
+            "angle": 0,
+            "content": "De 85§300, a José Joaquim de Lemos;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.358,
+                0.887,
+                0.613,
+                0.899
+            ],
+            "angle": 0,
+            "content": "De 32\\$200, a Francisco Martins de Oliveira;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.358,
+                0.899,
+                0.541,
+                0.911
+            ],
+            "angle": 0,
+            "content": "De 73§.10, a Gregorio Vasques;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.358,
+                0.911,
+                0.526,
+                0.923
+            ],
+            "angle": 0,
+            "content": "De 118§920, a Arti# Pereira;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.358,
+                0.923,
+                0.613,
+                0.937
+            ],
+            "angle": 0,
+            "content": "De 1.5333, a Raymundo Antonio de Souza;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.646,
+                0.088,
+                0.863,
+                0.1
+            ],
+            "angle": 0,
+            "content": "De 158§558, a José Antonio Sampaio;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.647,
+                0.101,
+                0.858,
+                0.113
+            ],
+            "angle": 0,
+            "content": "De 6585XU, a José Pedro de Campos;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.647,
+                0.114,
+                0.915,
+                0.126
+            ],
+            "angle": 0,
+            "content": "De 2303503, a Antonio de Assis Pereira da Silva;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.647,
+                0.127,
+                0.842,
+                0.139
+            ],
+            "angle": 0,
+            "content": "De 285520, a Horácio José-Maria;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.647,
+                0.14,
+                0.8,
+                0.152
+            ],
+            "angle": 0,
+            "content": "De 160,195, a José Leito;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.647,
+                0.153,
+                0.875,
+                0.165
+            ],
+            "angle": 0,
+            "content": "De 135§715 a Francisco da Silva Leitão;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.647,
+                0.166,
+                0.895,
+                0.178
+            ],
+            "angle": 0,
+            "content": "De 1593106, a Raymundo Dona'o Ferreira:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.647,
+                0.178,
+                0.907,
+                0.191
+            ],
+            "angle": 0,
+            "content": "De 193§006, a Francisco Húdrigues Eelovés ;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.647,
+                0.191,
+                0.902,
+                0.204
+            ],
+            "angle": 0,
+            "content": "De 1598426, a Fortunato Antonio das Gregas;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.647,
+                0.204,
+                0.861,
+                0.216
+            ],
+            "angle": 0,
+            "content": "De 151§10G, a José Vieira Brasileirão :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.647,
+                0.216,
+                0.876,
+                0.229
+            ],
+            "angle": 0,
+            "content": "De 117\\$706, a Benedict, Beno da Silva:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.647,
+                0.229,
+                0.854,
+                0.241
+            ],
+            "angle": 0,
+            "content": "De 137§506, a Caclano José da Silva :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.647,
+                0.241,
+                0.81,
+                0.253
+            ],
+            "angle": 0,
+            "content": "Transmittiram-se ao me-mo :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.634,
+                0.254,
+                0.913,
+                0.303
+            ],
+            "angle": 0,
+            "content": "Ofícios dos delegados de polícia do Rio Claro, Atibaia e Nuporanga sobre o pagamento das diárias de alimentação aos presos pobres recolbidos às respectivas cadeias.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.739,
+                0.308,
+                0.822,
+                0.32
+            ],
+            "angle": 0,
+            "content": "Requerimentos"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.632,
+                0.321,
+                0.911,
+                0.371
+            ],
+            "angle": 0,
+            "content": "De Diogo Antonio de Arruda Mendes, pedindo pagamento da quantia de 25300, proviente de medicamentos fornecidos, a presos p bres rec. lidos à cadeia de Dous Corregos;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.632,
+                0.371,
+                0.909,
+                0.407
+            ],
+            "angle": 0,
+            "content": "De J. G. dos Santos Fgueirdo, da de 71\\$900, proveniente da fo nacim- o ide t co aos presos pobres da cadeia de Mocóca:",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.632,
+                0.408,
+                0.909,
+                0.457
+            ],
+            "angle": 0,
+            "content": "De Francisco Ferreira da Silva, soldado do Grupo Policial do Interior, pedido pagamento de 14.983), correspondente a vencimentos que deixou de receber no anno findo.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.632,
+                0.457,
+                0.909,
+                0.496
+            ],
+            "angle": 0,
+            "content": "De Francisco de Salles Gomes, sobre pagamento da quantia de 250\\$000 por serviços medicos presentados a presos pobres da casa de Talulily.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.644,
+                0.496,
+                0.718,
+                0.505
+            ],
+            "angle": 0,
+            "content": "Declarou se :"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.631,
+                0.508,
+                0.91,
+                0.555
+            ],
+            "angle": 0,
+            "content": "Ao mesmo, que foi contactada com Muri Gastro, o fornecimento da alimentação aos prees pobres da cadeia da Anna, é a razão de málreis diários;",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.643,
+                0.557,
+                0.778,
+                0.569
+            ],
+            "angle": 0,
+            "content": "Ao dr. chefe de polícia :"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.631,
+                0.57,
+                0.909,
+                0.617
+            ],
+            "angle": 0,
+            "content": "Que, por falta de verba, não pode ser attendido o pedido do delegado de polícia de Jundishy, sobre o fornecimento de um sino à cadela daquella cidade;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.631,
+                0.619,
+                0.909,
+                0.694
+            ],
+            "angle": 0,
+            "content": "Que para se poder providenciar sobre o pagamento do aluguel do predio que serve de quartel e cadeia em Taquary, relativo ao auto de 1.98, torna-se preciso que o proprietario do mesmo requeira a este secretariado, por intermeio de sa chefia, o pagamento a que se julga com direito.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.631,
+                0.694,
+                0.909,
+                0.755
+            ],
+            "angle": 0,
+            "content": "Ao presidente da camara municipal de São João da Boa Vista, que a Superintendencia de Os as Públicas foi auctorizada a despeender a quinta de 5:350,§123 com os reparos de que necessa o edifício da cadeia daquella cidade.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.631,
+                0.756,
+                0.909,
+                0.791
+            ],
+            "angle": 0,
+            "content": "Autorizou-se o chefe do alanxarifado da Força Pública a fornecer diversos artigos de expediente à Penitenciaria.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.73,
+                0.814,
+                0.818,
+                0.829
+            ],
+            "angle": 0,
+            "content": "Fazenda"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.658,
+                0.836,
+                0.885,
+                0.848
+            ],
+            "angle": 0,
+            "content": "EXPEDIENTE DO DIA 31 DE MARÇ, DE 1990",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.631,
+                0.851,
+                0.91,
+                0.901
+            ],
+            "angle": 0,
+            "content": "Do dr. secretario da Ag- icultura, schelando pagamento das seguintes contas de forrecimentos feitos à Repartição de Aguas e Engo, durante o mez de Fevereiro proximo passado :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.631,
+                0.902,
+                0.91,
+                0.925
+            ],
+            "angle": 0,
+            "content": "De 6:000,000, à Compach à Mechanica e Importadora de S. Paulo;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.646,
+                0.926,
+                0.893,
+                0.94
+            ],
+            "angle": 0,
+            "content": "De 732\\$100, a Espíadola, Siqueira & Comp.;",
+            "merge_prev": false
+        }
+    ]
+]

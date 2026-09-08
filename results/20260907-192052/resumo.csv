@@ -1,0 +1,2 @@
+﻿empresa,tipo,model_id,model_label,prompt_id,n_chamadas,n_sucesso,taxa_sucesso,n_truncadas,taxa_truncamento,n_validas,html_sem_texto_extra_taxa,wer_media,cer_media,num_f1_media,cost_usd_media,completion_tokens_media,prompt_tokens_media,latency_s_media
+Google,fechado,google/gemini-3.5-flash-lite,Gemini 3.5 Flash-Lite,p1,22,16,0.7272727272727273,0,0.0,16,1,0.08579990537568705,0.031810633238499794,0.8801145341636781,0.00985296875,3804.875,1135.9375,27.59318511249876

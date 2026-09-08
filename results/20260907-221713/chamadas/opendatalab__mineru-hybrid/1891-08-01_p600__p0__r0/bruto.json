@@ -1,0 +1,46 @@
+{
+  "chave": "opendatalab/mineru-hybrid|1891-08-01_p600|p0|0",
+  "registro": {
+    "model_id": "opendatalab/mineru-hybrid",
+    "prompt_id": "p0",
+    "doc_id": "1891-08-01_p600",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 404.24864909995813,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "total_tokens": null,
+    "cost_usd": 0.0,
+    "cost_source": "local",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "mineru",
+    "provider_upstream": "local",
+    "generation_id": "mineru-hybrid-engine-1891-08-01_p600__r0",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T03:13:37Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "subprocess",
+      "tentativa": 1,
+      "comando": [
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\.venv-mineru\\Scripts\\mineru.exe",
+        "-p",
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-hybrid\\1891-08-01_p600__r0\\entrada\\1891-08-01_p600.jpg",
+        "-o",
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-hybrid\\1891-08-01_p600__r0\\saida",
+        "-b",
+        "hybrid-engine",
+        "--effort",
+        "medium"
+      ],
+      "returncode": 0,
+      "backend": "hybrid-engine",
+      "artefatos": "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-hybrid\\1891-08-01_p600__r0",
+      "log_final": "Start MinerU FastAPI Service: http://127.0.0.1:61673\nAPI documentation: http://127.0.0.1:61673/docs\n2026-09-07 23:13:43.855 | INFO     | mineru.cli.client:run_orchestrated_cli:953 - Started local mineru-api at http://127.0.0.1:61673\n\u001b[32m2026-09-07 23:13:48.183\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36m__main__\u001b[0m:\u001b[36mcreate_app\u001b[0m:\u001b[36m236\u001b[0m - \u001b[1mRequest concurrency limited to 3\u001b[0m\nINFO:     Started server process [33232]\nINFO:     Waiting for application startup.\nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://127.0.0.1:61673 (Press CTRL+C to quit)\n2026-09-07 23:13:48.437 | INFO     | mineru.cli.client:run_planned_task:832 - Submitting batch 1/1 | 1 document, 1 page in this batch | 1 page total | task#1 [1891-08-01_p600]\n\u001b[32m2026-09-07 23:13:48.966\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.utils.engine_utils\u001b[0m:\u001b[36mget_vlm_engine\u001b[0m:\u001b[36m34\u001b[0m - \u001b[1mUsing transformers as the inference engine for VLM.\u001b[0m\n\u001b[32m2026-09-07 23:14:11.020\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.vlm.utils\u001b[0m:\u001b[36mset_default_batch_size\u001b[0m:\u001b[36m106\u001b[0m - \u001b[1mgpu_memory: 6 GB, batch_size: 1\u001b[0m\n\u001b[32m2026-09-07 23:14:11.042\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.vlm.vlm_analyze\u001b[0m:\u001b[36mget_model\u001b[0m:\u001b[36m251\u001b[0m - \u001b[1mget transformers predictor cost: 12.47s\u001b[0m\n\u001b[32m2026-09-07 23:14:11.070\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.hybrid.hybrid_analyze\u001b[0m:\u001b[36maio_doc_analyze\u001b[0m:\u001b[36m1139\u001b[0m - \u001b[1mHybrid processing-window run. page_count=1, window_size=64, total_windows=1\u001b[0m\n\u001b[32m2026-09-07 23:14:17.597\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.hybrid.hybrid_analyze\u001b[0m:\u001b[36maio_doc_analyze\u001b[0m:\u001b[36m1161\u001b[0m - \u001b[1mHybrid processing window 1/1: pages 1-1/1 (1 pages)\u001b[0m\n\nLayout Predict:   0%|          | 0/1 [00:00<?, ?it/s]\nLayout Predict: 100%|##########| 1/1 [00:03<00:00,  3.28s/it]\nLayout Predict: 100%|##########| 1/1 [00:03<00:00,  3.28s/it]\n\nTable orientation det:   0%|          | 0/1 [00:00<?, ?it/s]\nTable orientation det: 100%|##########| 1/1 [00:01<00:00,  1.40s/it]\nTable orientation score: 100%|##########| 1/1 [00:01<00:00,  1.40s/it]\nTable orientation score: 100%|##########| 1/1 [00:01<00:00,  1.40s/it]\nTable orientation: 100%|##########| 1/1 [00:01<00:00,  1.40s/it]      \nTable orientation: 100%|##########| 1/1 [00:01<00:00,  1.40s/it]\nTable orientation: 100%|##########| 1/1 [00:01<00:00,  1.40s/it]\n\nPredict:   0%|          | 0/1 [00:00<?, ?it/s]\nPredict: 100%|##########| 1/1 [05:40<00:00, 340.67s/it]\nPredict: 100%|##########| 1/1 [05:40<00:00, 340.67s/it]\n\nProcessing pages:   0%|          | 0/1 [00:00<?, ?it/s]\nProcessing pages: 100%|##########| 1/1 [00:00<00:00,  7.29it/s]\nProcessing pages: 100%|##########| 1/1 [00:00<00:00,  6.79it/s]\n2026-09-07 23:20:09.133 | INFO     | mineru.cli.client:run_planned_task:883 - Completed batch 1/1 | Processed 1/1 page | 1 of 1 batch finished | task#1 [1891-08-01_p600]\n"
+    }
+  ]
+}

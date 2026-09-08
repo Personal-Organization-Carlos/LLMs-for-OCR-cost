@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Diario Official do Estado de São Paulo — 1 de Agosto de 1891</title>
+<style>
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    background: #e9e5d9;
+    color: #111;
+  }
+
+  body {
+    padding: 18px 22px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .pagina {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 22px 12px 30px;
+    background: #f7f4e9;
+    border-top: 10px solid #111;
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .pais {
+    margin: 3px 0 0;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    line-height: 1;
+  }
+
+  h1 {
+    margin: 5px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 104px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    line-height: 1;
+  }
+
+  .subtitulo {
+    margin: 4px 0 9px;
+    font-size: 43px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 1.1;
+  }
+
+  .edicao {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin-top: 8px;
+    padding: 8px 14px;
+    border-top: 2px solid #111;
+    border-bottom: 5px double #111;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .edicao div:first-child { text-align: left; }
+  .edicao div:nth-child(2) { text-align: center; }
+  .edicao div:last-child { text-align: right; }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+  }
+
+  .coluna {
+    min-width: 0;
+    padding: 12px 10px 20px;
+    font-size: 22px;
+    line-height: 1.06;
+    text-align: justify;
+  }
+
+  .coluna + .coluna {
+    border-left: 2px solid #111;
+  }
+
+  p {
+    margin: 0 0 7px;
+    text-indent: 1.15em;
+  }
+
+  .sem-recuo,
+  .continuacao,
+  .presidencia,
+  .rubrica,
+  .indicacao,
+  .aparte {
+    text-indent: 0;
+  }
+
+  .continuacao {
+    margin-bottom: 5px;
+  }
+
+  .secao-principal {
+    margin: 7px 0 4px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+
+  .sessao {
+    margin: 0 0 9px;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+  }
+
+  .presidencia {
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 17px;
+    font-variant: small-caps;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .orador {
+    font-weight: 700;
+  }
+
+  .rubrica {
+    text-align: center;
+    font-style: italic;
+  }
+
+  .aparte {
+    margin: 2px 0 7px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .indicacao {
+    margin: 8px 0 5px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .ornamento {
+    margin: 18px auto 12px;
+    width: 82%;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .ornamento::before,
+  .ornamento::after {
+    content: "────────";
+    margin: 0 8px;
+  }
+
+  .actos {
+    margin: 4px 0 13px;
+    text-align: center;
+    font-size: 38px;
+    font-stretch: condensed;
+    letter-spacing: 2px;
+  }
+
+  .expediente {
+    margin: 0 0 12px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.05;
+  }
+
+  .data {
+    margin: 0 0 8px;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+  }
+
+  .subsecao {
+    margin: 5px 0 17px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 400;
+  }
+
+  .titulo-menor {
+    margin: 18px 0 11px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .separador {
+    width: 42%;
+    margin: 17px auto 7px;
+    border-top: 4px solid #111;
+  }
+
+  @media (max-width: 950px) {
+    h1 { font-size: 58px; }
+    .pais { font-size: 27px; }
+    .subtitulo { font-size: 27px; }
+
+    main {
+      display: block;
+    }
+
+    .coluna + .coluna {
+      border-left: 0;
+      border-top: 2px solid #111;
+    }
+
+    .edicao {
+      grid-template-columns: 1fr;
+      gap: 4px;
+    }
+
+    .edicao div {
+      text-align: center !important;
+    }
+  }
+</style>
+</head>
+<body>
+<article class="pagina">
+  <header>
+    <div class="pais">ESTADOS UNIDOS DO BRAZIL</div>
+    <h1>DIARIO OFFICIAL</h1>
+    <div class="subtitulo">DO ESTADO DE SÃO PAULO</div>
+
+    <div class="edicao">
+      <div>ANNO 1º—3º DA REPUBLICA—N. 71</div>
+      <div>SÃO PAULO</div>
+      <div>SABBADO 1 DE AGOSTO DE 1891</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="coluna">
+      <h2 class="secao-principal">SENADO</h2>
+      <div class="sessao">Sessão em 31 de Julho de 1891</div>
+      <div class="presidencia">PRESIDENCIA DO SR. J. MONTEIRO</div>
+
+      <p>Ás 12 e 20 da tarde, o sr. 1º secretario procede a chamada, respondendo a ella os srs. J. Monteiro, Frederico Abranches, Paula Machado, Rodrigo Lobato, Mello Freire, Souza Campos, Lycurgo dos Santos e Martim Francisco.</p>
+
+      <p>Foi concedida a palavra ao sr. Martim Francisco.</p>
+
+      <p><span class="orador">O sr. Martim Francisco</span> (movimento de attenção)—Não havendo ainda regimento votado, e estando esta corporação em sessões preparatorias, creio, sr. presidente, usar de um direito apresentando uma indicação cujo destino dependerá da vontade de v. exc.</p>
+
+      <p>Faço-o impellido por motivos importantes e que affectam a autonomia, os interesses e os brios do povo paulista.</p>
+
+      <p>Sabe v. exc., sabe a opinião publica, representada aqui legitimamente, que o governo central delibera, ha quarenta e oito horas, mais uma vez desrespeitar a zona paulista e desfeitear o povo que nos elegeu. Com surpreza para nós senadores e para o povo, cujo desgosto mal poderá ser contido, o governo geral quiz esquecer que o artigo 13 da Constituição Federal aconselhava o adiamento de qualquer solução ao magno problema de viação ferrea no Estado de S. Paulo e concedeu privilegio a dous desconhecidos para uma estrada que ligará ponto da estrada Bragantina ao porto de Santos.</p>
+
+      <p>Nossa competencia, nossos interesses, nossos direitos, nosso futuro, ahi ficam assim atirados á margem, nullificados, em proveito de entidades em cujas veias, felizmente, não corre uma gotta do generoso e altivo sangue paulista. <em>(muito bem!)</em></p>
+
+      <p>Não cabe nos limites de um simples, embora energico protesto, a discussão ampla do assumpto. Cabe-nos, porém, desde já, a obrigação de fazer sentir ao centro que a paciencia tem limites e que nós não tememos as consequencias naturaes de provocações immerecidas. Os direitos dos nossos committentes não hão de ser objecto de privilegios arranjados clandestinamente pelo empenho lucrativo e pela cubiça descarada <em>(apoiados).</em></p>
+
+      <p>Contra a illegal, illogica e mesquinha aggressão do Governo Central, aggressão que será de amanhã em diante discutida em todos os terrenos, formulo desde agora o meu protesto, apresentando á consciencia e ao voto do Senado a presente:</p>
+
+      <div class="indicacao">INDICAÇÃO</div>
+
+      <p>«Indico que o senado represente ao governo federal no sentido de ser suspensa a execução de todas as concessões de linhas ferreas no Estado de São Paulo até que o poder competente vote a lei a que se refere o art. 13 da Constituição Federal.»</p>
+
+      <p>Sinto, sr. presidente, nada mais poder fazer neste momento contra o despotismo da centralisação. Sinto... Mas ao menos protestemos em phrases expressivas e claras. Perdemos a nossa autonomia; salvemos o nosso pudor!</p>
+
+      <div class="aparte">(Muito bem; muito bem no recinto e nas galerias.)</div>
+
+      <p><span class="orador">O sr. Presidente</span>—Explica não poder aceitar já a indicação por não haver numero para deliberar, maxime tratando-se de assumpto tão importante. Promette mandar em seu nome contra o procedimento do governo e declara estar convencido que o senado e o digno presidente do Estado defenderão com energia e unanimidade a autonomia de S. Paulo.</p>
+
+      <div class="rubrica">(Signaes de adhesão no recinto e nas galerias).</div>
+      <p class="sem-recuo">Suspende-se a sessão.</p>
+    </section>
+
+    <section class="coluna">
+      <div class="ornamento">❦</div>
+
+      <h2 class="actos">ACTOS OFFICIAES</h2>
+
+      <div class="expediente">
+        Expediente da Presidencia do<br>
+        Estado de S. Paulo
+      </div>
+
+      <div class="data">Dia 30 de Julho</div>
+      <div class="subsecao">2ª SECÇÃO</div>
+
+      <p>Foram exonerados, por mudança de domicilio, os cidadãos José Pereira de Mello e Domingos Ferreira da Fonseca do cargo de membros do conselho de intendencia do Rio Bonito, sendo nomeados para substituil-os os cidadãos Jonas Pereira de Mello e Benedicto Honorio de Oliveira.</p>
+
+      <p>Remetteu-se á intendencia da Fartura o parecer da commissão de camaras municipaes da camara dos deputados do Estado acerca de um pedido de rectificação de divisas entre o mesmo municipio e o de Pirajú, feito pela intendencia deste.</p>
+
+      <div class="titulo-menor">OFFICIOS DESPACHADOS</div>
+
+      <p>Da intendencia de Tatuahy, solicitando pagamento de rs. 9:235$260, despendidos com o lazareto de variolosos da «Agua Branca».—Á Thesouraria de Fazenda, para informar sobre a legalidade das contas apresentadas.</p>
+
+      <p>Da intendencia de S. Miguel Archanjo, remettendo cópia de uma resolução adoptada em sessão de 16 de Julho corrente.—Ao dr. procurador fiscal do Thesouro do Estado, para dar parecer.</p>
+
+      <div class="separador"></div>
+      <div class="subsecao">4ª SECÇÃO</div>
+
+      <p>Foi nomeado o cidadão José Idalino Antunes da Porciuncula, para exercer o cargo de juiz commissario <em>ad hoc</em> de medição das terras de que trata o contracto feito pelo Governo Federal com a Companhia Rural do Brazil, para fundação de nucleos agricolas neste Estado.—Deu-se conhecimento á delegacia de terras e colonisação.</p>
+
+      <p>Mandou-se dar as seguintes passagens:</p>
+
+      <p>De 2ª classe desta capital a Mogy das Cruzes, por conta do Estado, na estrada de ferro S. Paulo e Rio de Janeiro, a Donato Pires, restabelecido no hospicio de alienados;</p>
+    </section>
+
+    <section class="coluna">
+      <p class="continuacao">De 1ª classe, nas estradas S. Paulo e Rio de Janeiro, Santos a Jundiahy, Paulista, Sorocabana, Ytuana, Bragantina, Rio Claro e Mogyana, por conta do ministerio da Agricultura, ao fiscal do 3º districto de engenhos centraes, Gervasio Pires Ferreira ou seu substituto, sempre que o mesmo requisitar;</p>
+
+      <p>Por conta do Governo Federal, nas mesmas estradas, á administração do correio, quando por esta requisitadas, em serviço postal ou em caso de remoção de seus empregados.—Deu-se conhecimento ao dr. administrador do correio.</p>
+
+      <div class="titulo-menor">OFFICIOS DESPACHADOS</div>
+
+      <p>Da Companhia Mogyana informando o officio do Governo de Minas Geraes, relativo a cobrança de direitos de exportação daquelle Estado pelas estações daquella linha.—Ao Thesouro do Estado para informar.</p>
+
+      <p>Da intendencia de Batataes, communicando ter concedido privilegio a Eduardo Garcia de Oliveira para uma linha de tramways a vapor entre a estação da linha Mogyana, naquella cidade e a freguezia de Matto Grosso de Batataes.—Á directoria da Companhia Mogyana para informar.</p>
+
+      <div class="titulo-menor">REQUERIMENTOS DESPACHADOS</div>
+
+      <p>Da Companhia Mogyana, reclamando contra concessões de tramways feitas por diversas intendencias, sem attenção aos contractos celebrados entre o Governo e a supplicante.—Á superintendencia de obras publicas, para informar.</p>
+
+      <p>Da mesma, pedindo celebração de contracto para prolongar sua linha ferrea de S. Bom Jesus da Monte Alegre á cidade de Soccorro.—Idem.</p>
+
+      <p>De José Cardoso de Siqueira e outro, pedindo concessão da navegação do rio Parahyba desde a freguezia da Escada até Guararema e Santa Branca.—Remetta-se ao Congresso do Estado.</p>
+
+      <p>De José Marques Nunes e outro, pedindo para estabelecer uma vasta rede telephonica no Estado.—Idem.</p>
+
+      <p>De Manoel Guilherme de Arruda e Eduardo Mesquita, porteiro e continuo da superintendencia de obras publicas, pedindo melhoria de seus vencimentos.—Idem.</p>
+    </section>
+  </main>
+</article>
+</body>
+</html>

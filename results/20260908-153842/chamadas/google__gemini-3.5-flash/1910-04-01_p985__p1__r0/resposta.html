@@ -1,0 +1,273 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Diario Official do Estado de São Paulo - 1 de Abril de 1910</title>
+    <style>
+        body {
+            background-color: #fcfaf2;
+            color: #0f0f0f;
+            font-family: "Times New Roman", Times, Georgia, serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .newspaper-container {
+            max-width: 1000px;
+            width: 100%;
+            border: 1px solid #ccc;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background-color: #fff;
+        }
+        /* Header Styles */
+        .header {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .header .country {
+            font-size: 1.4rem;
+            font-weight: bold;
+            letter-spacing: 4px;
+            margin: 0;
+            text-transform: uppercase;
+        }
+        .header .title {
+            font-size: 5.5rem;
+            font-weight: 900;
+            letter-spacing: 2px;
+            margin: 5px 0;
+            text-transform: uppercase;
+            font-family: "Times New Roman", Times, serif;
+            line-height: 0.9;
+        }
+        .header .subtitle {
+            font-size: 1.8rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin: 0 0 15px 0;
+            text-transform: uppercase;
+        }
+        /* Metadata Line */
+        .metadata-line {
+            border-top: 3px double #000;
+            border-bottom: 3px double #000;
+            padding: 6px 0;
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        .metadata-line div {
+            flex: 1;
+        }
+        .metadata-line .left {
+            text-align: left;
+        }
+        .metadata-line .center {
+            text-align: center;
+        }
+        .metadata-line .right {
+            text-align: right;
+        }
+
+        /* Two Column Layout */
+        .columns-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            position: relative;
+        }
+        /* Vertical Divider */
+        .columns-container::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            width: 1px;
+            background-color: #000;
+        }
+
+        .column {
+            text-align: justify;
+            text-justify: inter-word;
+            padding-right: 10px;
+        }
+        .column.right-col {
+            padding-left: 15px;
+            padding-right: 0;
+        }
+
+        /* Typography & Layout Elements */
+        p {
+            margin: 0 0 12px 0;
+            text-indent: 30px;
+            line-height: 1.35;
+            font-size: 0.95rem;
+        }
+        .section-title {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 2.2rem;
+            font-style: italic;
+            text-align: center;
+            margin: 0 0 20px 0;
+            font-weight: normal;
+        }
+        .decree-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+            margin: 15px 0 5px 0;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .decree-date {
+            font-size: 0.85rem;
+            text-align: center;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .italic-intro {
+            font-style: italic;
+            text-indent: 0;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+        .signatures {
+            margin-top: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+        .signatures p {
+            text-indent: 0;
+            margin-bottom: 4px;
+        }
+        .divider {
+            border-top: 1px dashed #000;
+            margin: 25px auto;
+            width: 60%;
+        }
+        .clause-header {
+            text-align: center;
+            font-weight: bold;
+            margin: 15px 0 10px 0;
+            font-size: 1rem;
+        }
+        .clause-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-align: center;
+            margin: 20px 0 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="newspaper-container">
+    <!-- Header -->
+    <div class="header">
+        <h2 class="country">Estados Unidos do Brazil</h2>
+        <h1 class="title">Diario Official</h1>
+        <h2 class="subtitle">Do Estado de São Paulo</h2>
+    </div>
+
+    <!-- Metadata Line -->
+    <div class="metadata-line">
+        <div class="left">Anno 19.º - 22.º da Republica - N. 68</div>
+        <div class="center">São Paulo</div>
+        <div class="right">Sexta-feira 1 de Abril de 1910</div>
+    </div>
+
+    <!-- Two Column Content -->
+    <div class="columns-container">
+        
+        <!-- Left Column -->
+        <div class="column left-col">
+            <h3 class="section-title">Actos do Poder Executivo</h3>
+            
+            <!-- DECRETO N. 1848 -->
+            <div class="decree-title">Decreto N. 1848</div>
+            <div class="decree-date">De 28 de Março de 1910</div>
+            
+            <p class="italic-intro">Auctoriza a Companhia Estrada de Ferro S. Paulo a Goyas a abrir ao trafego publico a linha de Bebedouro a Monte Azul</p>
+            
+            <p>O Vice-Presidente do Estado de S. Paulo, em exercicio na fórma do § 1 artigo 27, da Constituição,</p>
+            <p>Attendendo ao que solicitou a Companhia Estrada de Ferro S. Paulo a Goyaz, e sob proposta do secretario de Estado dos Negocios da Agricultura, Commercio e Obras Publicas,</p>
+            <p>Decreta:</p>
+            <p>Artigo 1.º Fica a Companhia Estrada de Ferro S. Paulo a Goyaz, auctorizada a abrir ao trafego publico a via ferrea de Bebedouro a Monte Azul, com 31 kilometros de extensão e á qual se referiu o decreto n. 1732, de 4 de Maio de 1909.</p>
+            <p>Artigo 2.º A presente licença é concedida mediante a condicção de, dentro do prazo de 30 dias, contados desta data, serem ultimados os serviços de assentamento da linha telegraphica de retoque do leito e de construcção de cercas lateraes.</p>
+            <p>Palacio do Governo do Estado de S. Paulo, 29 de Março de 1910.</p>
+            
+            <div class="signatures">
+                <p>Fernando Prestes de Albuquerque.</p>
+                <p>Antonio de Padua Salles</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- DECRETO N. 1849 -->
+            <div class="decree-title">Decreto N. 1849</div>
+            <div class="decree-date">De 29 de Março de 1910</div>
+            
+            <p class="italic-intro">Concede á Companhia Mogyana de Estradas de Ferro e Navegação licença para construcção, uso e goso de uma estrada de ferro que, iniciando-se no bairro de Jatahy, termine em Ribeirão Preto.</p>
+            
+            <p>O Vice-Presidente do Estado de S. Paulo, em exercicio na fórma do § 1.º, art. 27 da Constituição.</p>
+            <p>Usando da attribuição que lhe confere o artigo 2.º da lei n. 30, de 13 de Junho de 1892, e attendendo ao requerido pela Companhia Mogyana de Estradas de Ferro e Navegação, nos termos dos paragraphos 2.º e 3.º do artigo e lei citados,</p>
+            <p>Decreta:</p>
+            <p>Artigo unico. Fica concedida á Companhia Mogyana de Estradas de Ferro e Navegação licença para construcção, uso e goso de uma via ferrea que — partindo do ponto terminal da que lhe foi concedida pelo decreto n. 1773, de 1.º de Outubro de 1909 — vá terminar em Ribeirão Preto, de conformidade com as clausulas que com esta baixam, assignadas pelo sr. dr. secretario de Estado dos Negocios da Agricultura, Commercio e Obras Publicas.</p>
+            <p>Palacio do Governo do Estado de S. Paulo, 29 de Março de 1910.</p>
+            
+            <div class="signatures">
+                <p>Fernando Prestes de Albuquerque</p>
+                <p>Antonio de Padua Salles.</p>
+            </div>
+        </div>
+        
+        <!-- Right Column -->
+        <div class="column right-col">
+            <div class="clause-header">
+                Clausulas a que refere o Decreto n. 1849, de 29 de Março de 1910
+            </div>
+            
+            <!-- Section I -->
+            <div class="clause-title">I</div>
+            <p>O Governo do Estado de S. Paulo concede á Companhia Mogyana de Estradas de Ferro e Navegação licença para construcção, uso e goso de uma estrada de ferro que, partindo do ponto terminal da que lhe foi concedida pelo Decreto n. 1773, de 1.º de Outubro de 1909 — vá terminar em Ribeirão Preto.</p>
+            
+            <!-- Section II -->
+            <div class="clause-title">II</div>
+            <p>Esta estrada de ferro gosará de uma zona garantida, de cem metros de cada lado, reduzida a 50 metros nas gargantas e declives de serras, limitadas por duas linhas parallelas ao eixo da via permanente, dentro da qual nenhuma outra estrada de ferro poderá receber generos ou passageiros, salvo: 1.º, o caso de outra ou mais estradas terem o mesmo ponto inicial ou terminal; 2.º, o caso em que o ponto inicial ou terminal de outra estrada esteja dentro da zona desta; 3.º, o caso de entroncamento referido nesta clausula.</p>
+            <p>Comtanto que dentro da zona garantida desta estrada de ferro não receba generos nem passageiros, poderá qualquer outra atravessar a mesma zona, cruzando a linha desta, sujeita, porém, aos onus provenientes do cruzamento.</p>
+            <p>Qualquer outra estrada de ferro poderá ter simultaneamente os mesmos pontos inicial e terminal desta, respeitada a zona garantida por esta clausula, bem como poderá entroncar na linha desta, resolvendo o Governo, definitivamente, em caso de desaccordo, para regular as relações provenientes de entroncamento.</p>
+            <p>Considerar-se-á entroncamento, não só o caso de ligação por meio de via permanente, como por meio de estação commum.</p>
+            
+            <!-- Section III -->
+            <div class="clause-title">III</div>
+            <p>Gosará mais a estrada de ferro do direito de desapropriação, nos termos da legislação do Estado, para os terrenos necessarios á construcção da linha, estações, armazens e mais dependencias.</p>
+            <p>Quando fôr necessario iniciar uma acção de desapropriação, deverá ser apresentada ao Governo a respectiva planta, sómente da parte a desapropriar.</p>
+            <p>O Governo, dentro do prazo de trinta dias, da data da apresentação da planta, deverá conceder ou negar a licença, dando os motivos da recusa, no caso de negativa, e indicando as modificações de traçado, de modo a permittir a continuação da obra.</p>
+            <p>Si, dentro do prazo de trinta dias, o Governo não se manifestar, fica entendido que está concedida a mesma licença.</p>
+            
+            <!-- Section IV -->
+            <div class="clause-title">IV</div>
+            <p>O Governo prestará a esta estrada de ferro toda a protecção compativel com as leis, afim de que possa ella realizar a arrecadação das taxas estabelecidas, para que sejam respeitadas as disposições dos seus regulamentos e mantida a sua policia, devendo todo o empregado na arrecadação das taxas e na policia da linha ser cidadão da Republica.</p>
+            
+            <!-- Section V -->
+            <div class="clause-title">V</div>
+            <p>Antes de iniciarem-se os trabalhos da construcção desta estrada de ferro, deverão ser submettidos á approvação do Governo os projectos de todo esses trabalhos, que compreenderão:</p>
+        </div>
+        
+    </div>
+</div>
+
+</body>
+</html>
+```

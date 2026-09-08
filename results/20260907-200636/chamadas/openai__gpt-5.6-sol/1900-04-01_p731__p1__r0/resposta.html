@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Diario Official do Estado de São Paulo — 1 de Abril de 1900</title>
+<style>
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #f5f2e9;
+    color: #111;
+  }
+
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+  }
+
+  .page {
+    width: 1500px;
+    margin: 0 auto;
+    padding: 24px 58px 50px;
+    background:
+      radial-gradient(circle at 20% 15%, rgba(0,0,0,.035) 0 1px, transparent 1.5px),
+      radial-gradient(circle at 75% 50%, rgba(0,0,0,.025) 0 1px, transparent 1.5px),
+      #faf9f3;
+    background-size: 19px 23px, 31px 29px;
+  }
+
+  .masthead {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .country {
+    margin: 0;
+    font-size: 44px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: 3px;
+  }
+
+  .title {
+    margin: 12px 0 2px;
+    font-family: Impact, "Arial Black", sans-serif;
+    font-size: 108px;
+    line-height: .9;
+    font-weight: 900;
+    letter-spacing: 5px;
+  }
+
+  .subtitle {
+    margin: 10px 0 8px;
+    font-size: 46px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 5px;
+  }
+
+  .issue {
+    display: grid;
+    grid-template-columns: 1fr .75fr 1.25fr;
+    align-items: center;
+    margin-top: 12px;
+    padding: 10px 24px 12px;
+    border-top: 7px double #111;
+    border-bottom: 7px double #111;
+    font-family: "Times New Roman", serif;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .issue div:nth-child(1) { text-align: left; }
+  .issue div:nth-child(2) { text-align: center; }
+  .issue div:nth-child(3) { text-align: right; }
+
+  .columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    margin-top: 10px;
+  }
+
+  .column {
+    padding: 0 14px;
+    font-size: 17.5px;
+    line-height: 1.35;
+    letter-spacing: .25px;
+    text-align: justify;
+  }
+
+  .column + .column {
+    border-left: 2px solid #111;
+  }
+
+  h2, h3, h4, p {
+    margin-top: 0;
+  }
+
+  .display {
+    margin: 0 0 10px;
+    text-align: center;
+    font-family: Impact, "Arial Narrow", sans-serif;
+    font-size: 35px;
+    line-height: 1.05;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .department {
+    margin: 6px 0 10px;
+    text-align: center;
+    font-size: 31px;
+    line-height: 1;
+    font-weight: 400;
+  }
+
+  .rule {
+    width: 90px;
+    height: 12px;
+    margin: 4px auto 11px;
+    border-top: 2px solid #111;
+    border-bottom: 1px solid #111;
+  }
+
+  .large-rule {
+    width: 180px;
+    margin: 19px auto 18px;
+    border-top: 2px solid #111;
+  }
+
+  .section-title {
+    margin: 2px 0 5px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.15;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+  }
+
+  .subheading {
+    margin: 5px 0 8px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.15;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: .7px;
+  }
+
+  .date {
+    margin: 7px 0 5px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  p {
+    margin-bottom: 3px;
+    text-indent: 20px;
+  }
+
+  p.no-indent {
+    text-indent: 0;
+  }
+
+  .office {
+    margin-bottom: 1px;
+    text-indent: 0;
+  }
+
+  .state-secretariats {
+    margin-top: 0;
+    text-align: center;
+    font-family: Impact, "Arial Narrow", sans-serif;
+    font-size: 34px;
+    line-height: 1.1;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  @media print {
+    html, body { background: #fff; }
+    .page {
+      width: 100%;
+      margin: 0;
+      padding: 12mm;
+      background: #fff;
+    }
+  }
+</style>
+</head>
+<body>
+<main class="page">
+  <header class="masthead">
+    <div class="country">Estados Unidos do Brazil</div>
+    <h1 class="title">Diario Official</h1>
+    <div class="subtitle">do Estado de São Paulo</div>
+
+    <div class="issue">
+      <div>Anno 9.º—12.º da Republica—N. 76</div>
+      <div>São Paulo</div>
+      <div>Domingo, 1 de Abril de 1900</div>
+    </div>
+  </header>
+
+  <section class="columns">
+    <article class="column">
+      <h2 class="display">Actos do Poder Executivo</h2>
+      <div class="rule"></div>
+
+      <h3 class="department">Interior</h3>
+
+      <p>Por decreto de 27 do corrente foi exonerado o professor preliminar, cidadão José de Castro, com exercicio na Escola Complementar de Itapetininga, para o cargo de professor do grupo escolar de São Manoel do Paraiso;</p>
+
+      <p>Por decreto da mesma data, foi nomeada a professora preliminar, d. Anna Candida Soares, para o cargo de professora adjunta do grupo escolar da Faxina;</p>
+
+      <p>Por decreto da mesma data, foi nomeada a professora de egual categoria, d. Emygdia Soares, para, interinamente, exercer o cargo de professora do mesmo grupo.</p>
+
+      <p>Por decreto da mesma data, foi exonerado, a pedido, o bacharel José Pinto da Moura, do cargo de lente da 9.ª cadeira do Gymnasio de Campinas;</p>
+
+      <p>Por decreto da mesma data, foram creados quatro logares de adjuntos na secção feminina do 2.º grupo escolar de Campinas;</p>
+
+      <p>Por decreto da mesma data, foram tambem creados dois logares identicos na secção feminina do grupo da Faxina.</p>
+
+      <h3 class="department">Agricultura</h3>
+
+      <p>Por decreto de 27 do mez findo, foi removido a pedido, o cidadão Carlos Martins, 2.º escripturario da Hospedaria de Immigrantes, para o logar de conferente da Inspectoria de Aguas e Esgottos; sendo nomeado para aquella vaga o cidadão Julio Bicudo.</p>
+
+      <div class="large-rule"></div>
+
+      <h2 class="state-secretariats">Secretarias de Estado</h2>
+      <h3 class="department">Interior</h3>
+
+      <h4 class="section-title">Expediente de 30 de Março de 1900</h4>
+      <h4 class="section-title">1.ª Sub-Directoria</h4>
+      <h4 class="section-title">1.ª Secção</h4>
+
+      <p>Communicou-se á Secretaria dos Negocios da Fazenda, para os devidos fins, que o bacharel Jacintho do Nascimento Moura, auxiliar da redacção do <em>Diario Official</em>, reassumiu o exercicio do cargo no dia 21 do corrente, visto ter terminado a licença em cujo gozo se achava.</p>
+
+      <p>Transmittiram-se á Secretaria dos Negocios da Agricultura, Commercio e Obras Publicas dois officios, sendo um da camara municipal de Guaratinguetá e outro do intendente municipal da Franca, visto tratarem de assumptos referentes áquella secretaria.</p>
+    </article>
+
+    <article class="column">
+      <h4 class="section-title">2.ª Secção</h4>
+      <div class="subheading">Officios despachados</div>
+
+      <p>Da Secretaria da Agricultura, communicando que opportunamente será executado o serviço de esgottos nos bairros da Lapa, Agua Branca e outros da capital.—A' Directoria do Serviço Sanitario.</p>
+
+      <h4 class="section-title" style="margin-top:12px;">Expediente de 28 de Março de 1900</h4>
+      <h4 class="section-title">3.ª Secção</h4>
+
+      <p>Foram solicitados da Secretaria da Fazenda os seguintes pagamentos:</p>
+
+      <p>De 3:508$000, pela collectoria de Mogy das Cruzes, ao director do grupo escolar daquella cidade, pelos fornecimentos feitos ao referido estabelecimento;</p>
+
+      <p>De 2:310$100, pela collectoria da Faxina, ao director do grupo escolar daquella cidade, Emilio Mario de Arantes, proveniente de fornecimentos feitos ao dito estabelecimento;</p>
+
+      <p>De 295$900, pela collectoria de Areias, ao director do grupo escolar daquella cidade, José Mario da Silveira, proveniente de reparos feitos no predio onde funciona o referido estabelecimento;</p>
+
+      <p>De 100$000, pela collectoria de Espirito Santo do Pinhal, ao director, em commissão, do grupo escolar daquella cidade, Domingos de Paula da Silva, proveniente de contas de serviços prestados ao referido estabelecimento.</p>
+
+      <p>Auctorizou-se o director do Serviço Sanitario a despender a quantia de 725$000, para acquisição de objectos necessarios áquella repartição.</p>
+
+      <h4 class="section-title" style="margin-top:8px;">1.ª Sub-Directoria</h4>
+      <h4 class="section-title">1.ª Secção</h4>
+
+      <p>Communicou-se ao sr. dr. secretario da Fazenda:</p>
+
+      <p>Que, por motivo de molestia, interrompeu o exercicio de seu cargo, desde o dia 14 do corrente, o professor do grupo escolar do Braz, cidadão Jeronimo Braulio Rodrigues;</p>
+
+      <p>Que foram abonadas seis faltas dadas pelo professor de escripturação mercantil da Escola Normal, cidadão Jeronymo Azevedo, no mez ultimo.</p>
+
+      <p>Recommendou-se ao director do grupo escolar «Dr. Flaminio Lessa», de Guaratinguetá, que informasse a este secretariado de que serviço se acha encarregado o professor Miguel Virginio dos Santos.</p>
+
+      <p>Declarou-se ao director do grupo escolar «Gabriel Prestes», de Lorena, em resposta ao seu officio n. 21, de 6 do corrente, não haver necessidade do augmento de uma sala naquelle estabelecimento, como informou o inspector escolar que alli esteve em commissão.</p>
+
+      <div class="subheading">Requerimento despachado</div>
+
+      <p>De Maria da Piedade Canto, porteira do grupo escolar de Lorena, pedindo equiparação de seus vencimentos aos do porteiro do mesmo grupo.—Sejam equiparados.</p>
+    </article>
+
+    <article class="column">
+      <h4 class="section-title">3.ª Secção</h4>
+      <div class="date">Dia 27</div>
+
+      <p class="office">Officiou-se:</p>
+
+      <p>A' Fazenda, communicando que a professora nomeada para reger a escola mixta da villa Cerqueira Cesar, desta capital, d. Maria Elina Malby Infyre, assumiu o exercicio no dia 20 do corrente;</p>
+
+      <p>A' mesma, communicando que a 10 do corrente foi nomeado inspector municipal de Santa Barbara do Rio Pardo, assumindo o exercicio a 17 do mesmo, o major Casemiro Nunes de Carvalho;</p>
+
+      <p>A' mesma, communicando que entrou em exercicio da escola da villa do Rio das Pedras, no dia 20 do corrente, o professor João Braulio Cesar.</p>
+
+      <div class="date">Dia 28</div>
+
+      <p class="office">Officiou-se:</p>
+
+      <p>A' Fazenda, transmittindo, por cópia, o decreto que aposentou a professora da escola do 22.º districto desta capital, d. Galdina America de Almeida, bem como todos os papeis referentes ao assumpto;</p>
+
+      <p>A' mesma, transmittindo, por cópia, o decreto que aposentou o professor da escola do bairro de Santa Cruz, municipio de Cruzeiro e demais papeis referentes ao assumpto;</p>
+
+      <p>A' mesma, transmittindo, por cópia, o decreto que aposentou o cidadão Augusto Pinto da Silva Sáes, professor da escola da villa de S. Pedro, e demais papeis referentes ao assumpto;</p>
+
+      <p>A' mesma, solicitando pagamento da gratificação de que trata o artigo 135 do regulamento de 27 de Novembro de 1893, ao professor adjuncto da 1.ª escola de Santos, cidadão Olympio Paiva.</p>
+
+      <div class="date">Dia 29</div>
+
+      <p class="office">Officiou-se:</p>
+
+      <p>A' Fazenda, communicando que a professora da escola do 5.º districto, desta capital, d. Marianna da Gloria Rodrigues Bahia, entrou a 21 do corrente no gozo da licença que lhe fôra concedida;</p>
+
+      <p>A' mesma, communicando que o professor Braziliano de Azevedo, removido da escola do bairro dos Mauricios, em São Bento do Sapucahy, para a da freguezia de Santo Antonio do Pinhal, do mesmo municipio, assumiu o exercicio do cargo no dia 17 do corrente.</p>
+
+      <div class="date">Dia 30</div>
+
+      <p class="office">Officiou-se:</p>
+
+      <p>A' camara municipal de Santos, mandando passar os attestados de exercicio ao professor da 1.ª escola daquella cidade, cidadão Eugenio Portugal de Assis, visto não ter sido abandonada a sua escola, conforme se verificou dos papeis relativos ao caso.</p>
+
+      <h4 class="section-title" style="margin-top:10px;">3.ª Secção</h4>
+
+      <p class="office">Officiou-se:</p>
+
+      <p>Ao agente da E. de Ferro Central, pedindo transporte para volumes destinados aos grupos escolares de Areias e Pindamonhangaba;</p>
+    </article>
+  </section>
+</main>
+</body>
+</html>

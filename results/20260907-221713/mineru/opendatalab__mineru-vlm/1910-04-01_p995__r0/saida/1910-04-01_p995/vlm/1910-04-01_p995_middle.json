@@ -1,0 +1,2192 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        21,
+                        56,
+                        199,
+                        82
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                56,
+                                199,
+                                82
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        56,
+                                        199,
+                                        82
+                                    ],
+                                    "type": "text",
+                                    "content": "O sr. Gabriel Gomide ao sr. Scuz: e Castro, as civeis 5605 do Santos, 5609 do Piracicaba e 5772 da Cospital."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        21,
+                        82,
+                        199,
+                        134
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                82,
+                                199,
+                                134
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        82,
+                                        199,
+                                        134
+                                    ],
+                                    "type": "text",
+                                    "content": "O sr. Firmino Whitacker ao sr. Gabriel Gemide, as cíveis 5184 de Piracicaba, 5648 de Rio Claro, 5441 de Santa Izabel, 5003 de Jaboticabal, 5352 de Agudos, 6023 de Campicas, 5180 e 5368 de Santos, 5729, 5862, 5687, 5339, 6415 e 5787 da Capital."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        22,
+                        137,
+                        200,
+                        189
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                22,
+                                137,
+                                200,
+                                189
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        22,
+                                        137,
+                                        200,
+                                        189
+                                    ],
+                                    "type": "text",
+                                    "content": "--O sr. procurador geral do Estado deu parecer nas app llações cíveis ns. 5564, de Espírito Santo do Finhal e 5870 de São Carlos a nos embargos 2270 da Capital, 5804 de Ibitingu, 5502 e 5735 de Jaboticabal."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        84,
+                        197,
+                        139,
+                        205
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                84,
+                                197,
+                                139,
+                                205
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        197,
+                                        139,
+                                        205
+                                    ],
+                                    "type": "text",
+                                    "content": "JULAMENTOS"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        92,
+                        213,
+                        132,
+                        222
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                92,
+                                213,
+                                132,
+                                222
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        92,
+                                        213,
+                                        132,
+                                        222
+                                    ],
+                                    "type": "text",
+                                    "content": "Embargos"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "bbox": [
+                        24,
+                        229,
+                        202,
+                        271
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                229,
+                                202,
+                                271
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        229,
+                                        202,
+                                        271
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 5597—Capital—Embargante, A. Weinberg; c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c.\nG. Lunsille & Comp; relator, o. r. Mcirelles Reis."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        25,
+                        271,
+                        202,
+                        291
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                25,
+                                271,
+                                202,
+                                291
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        271,
+                                        202,
+                                        291
+                                    ],
+                                    "type": "text",
+                                    "content": "Julgaram subsistente a desistencia dos embargos."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        257,
+                        55,
+                        333,
+                        65
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                257,
+                                55,
+                                333,
+                                65
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        257,
+                                        55,
+                                        333,
+                                        65
+                                    ],
+                                    "type": "text",
+                                    "content": "Appellações cíveis"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "bbox": [
+                        205,
+                        71,
+                        384,
+                        106
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                205,
+                                71,
+                                384,
+                                106
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        205,
+                                        71,
+                                        384,
+                                        106
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 5561—Piracicaba—Appelante, Thomiz Alonso Knoso; appellada, d. Laurinda Alves de Oliveira; relator, o sr. Francisco Saldenha."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        215,
+                        106,
+                        384,
+                        115
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                215,
+                                106,
+                                384,
+                                115
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        215,
+                                        106,
+                                        384,
+                                        115
+                                    ],
+                                    "type": "text",
+                                    "content": "Converteram o julgamesto em diligência."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        206,
+                        115,
+                        385,
+                        148
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                206,
+                                115,
+                                385,
+                                148
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        115,
+                                        385,
+                                        148
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 6057—Capital—A. pellante, o juiz do de direito; appellados, Theodoro Bubra- ner e sua mulher; rolater, o sr. Ferreira França."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        216,
+                        148,
+                        306,
+                        157
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                216,
+                                148,
+                                306,
+                                157
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        216,
+                                        148,
+                                        306,
+                                        157
+                                    ],
+                                    "type": "text",
+                                    "content": "Negaram provimento."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        207,
+                        156,
+                        385,
+                        190
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                156,
+                                385,
+                                190
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        156,
+                                        385,
+                                        190
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 6914—Capital—Appellante, Thomé Gomes Ferreira; appellado, Francisco de Souza Franco; relator, o sr. Juvenal Malheircs."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        216,
+                        190,
+                        307,
+                        199
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                216,
+                                190,
+                                307,
+                                199
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        216,
+                                        190,
+                                        307,
+                                        199
+                                    ],
+                                    "type": "text",
+                                    "content": "Negaram provimento."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        207,
+                        198,
+                        385,
+                        224
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                198,
+                                385,
+                                224
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        198,
+                                        385,
+                                        224
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 60 5—Capital—Appellaute, o juiz de de direito; appellados, Laura Hind e outros; relator, o sr. Juvenal Malheiros."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        217,
+                        224,
+                        307,
+                        233
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                217,
+                                224,
+                                307,
+                                233
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        217,
+                                        224,
+                                        307,
+                                        233
+                                    ],
+                                    "type": "text",
+                                    "content": "Negaram provimento."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        411,
+                        57,
+                        547,
+                        73
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                411,
+                                57,
+                                547,
+                                73
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        411,
+                                        57,
+                                        547,
+                                        73
+                                    ],
+                                    "type": "text",
+                                    "content": "ACTOS FEDERAES"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19
+                },
+                {
+                    "bbox": [
+                        401,
+                        89,
+                        558,
+                        108
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                401,
+                                89,
+                                558,
+                                108
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        401,
+                                        89,
+                                        558,
+                                        108
+                                    ],
+                                    "type": "text",
+                                    "content": "DECRETO N. 7917—DE 24 DE MARÇO\nDE 1910"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        392,
+                        115,
+                        569,
+                        134
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                392,
+                                115,
+                                569,
+                                134
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        392,
+                                        115,
+                                        569,
+                                        134
+                                    ],
+                                    "type": "text",
+                                    "content": "Creia o Registro e Archivo Geral de Marcas\npara animaes"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        391,
+                        140,
+                        570,
+                        173
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                391,
+                                140,
+                                570,
+                                173
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        391,
+                                        140,
+                                        570,
+                                        173
+                                    ],
+                                    "type": "text",
+                                    "content": "O Presidente da República dos Estados Unidos do Brazil, em execução da lei número 1606, de 29 de Dezembro de 1906, decretas:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        392,
+                        174,
+                        570,
+                        232
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                392,
+                                174,
+                                570,
+                                232
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        392,
+                                        174,
+                                        570,
+                                        232
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo 1.º E' creado o Registro e Archivo Garal de Marcas para animaes de raça bovina, cavaliar e muar, do acordo com o regulamento que com esta baixa, assignado pelo ministro do Estado dos Negócios da Agricultura, Industria e Commeria."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        392,
+                        232,
+                        571,
+                        249
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                392,
+                                232,
+                                571,
+                                249
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        392,
+                                        232,
+                                        571,
+                                        249
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo 2.º Revogam-se as disposições em contrário."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        393,
+                        249,
+                        572,
+                        267
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                393,
+                                249,
+                                572,
+                                267
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        393,
+                                        249,
+                                        572,
+                                        267
+                                    ],
+                                    "type": "text",
+                                    "content": "Rio de Janeiro, 24 de Março de 1519, 89.º da Independência e 22.º da República."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        409,
+                        270,
+                        470,
+                        279
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                409,
+                                270,
+                                470,
+                                279
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        409,
+                                        270,
+                                        470,
+                                        279
+                                    ],
+                                    "type": "text",
+                                    "content": "Nilo Propanha"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        409,
+                        279,
+                        572,
+                        289
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                409,
+                                279,
+                                572,
+                                289
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        409,
+                                        279,
+                                        572,
+                                        289
+                                    ],
+                                    "type": "text",
+                                    "content": "Rodolpho Nogueira da Rocha Miranda."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        61,
+                        302,
+                        536,
+                        316
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                61,
+                                302,
+                                536,
+                                316
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        61,
+                                        302,
+                                        536,
+                                        316
+                                    ],
+                                    "type": "text",
+                                    "content": "Directoria de Agricultura — O TEMPO E A LAVOURA — Seção Meteorológica"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        27,
+                        334,
+                        576,
+                        588
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                110,
+                                321,
+                                504,
+                                332
+                            ],
+                            "type": "table_caption",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        321,
+                                        504,
+                                        332
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                110,
+                                                321,
+                                                504,
+                                                332
+                                            ],
+                                            "type": "text",
+                                            "content": "OBSERVACÕES RECEHIDAS PELG TELEGRAPHO, NO DIA 31 DE MARÇO DE 1910"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 29
+                        },
+                        {
+                            "bbox": [
+                                27,
+                                334,
+                                576,
+                                588
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        27,
+                                        334,
+                                        576,
+                                        588
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                27,
+                                                334,
+                                                576,
+                                                588
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=\"3\">Observatorios</td><td colspan=\"3\">Observações da Respar</td><td colspan=\"8\">Observação do Dia, tomada e Ola. Csa. Gw.</td></tr><tr><td colspan=\"2\">Temperatura</td><td rowspan=\"2\">Tensão</td><td rowspan=\"2\">Preciso normalizada</td><td colspan=\"2\">Thermometro</td><td rowspan=\"2\">Hauíza de ratsiva</td><td colspan=\"2\">Vento</td><td rowspan=\"2\">Corteira do Cau</td><td rowspan=\"2\">OBSERVACÕES</td></tr><tr><td>Max.</td><td>Min.</td><td>Tempo</td><td>Sexté</td><td>Otras</td><td>Velce</td></tr><tr><td>Sautos</td><td>26,6</td><td>22,7</td><td>Bom</td><td>761,2</td><td>24,0</td><td>22,5</td><td>+7 %</td><td>E</td><td>1 m</td><td>Claro</td><td>Orvalho</td></tr><tr><td>Igucapa</td><td>26,0</td><td>21,0</td><td>»</td><td>761,0</td><td>22,0</td><td>19,0</td><td>74 »</td><td>NW</td><td>4 m.</td><td>Enc.</td><td>Bom</td></tr><tr><td>S. Paulo</td><td>28,0</td><td>18,5</td><td>»</td><td>761,4</td><td>22,0</td><td>19,0</td><td>74 »</td><td>NE</td><td>1 m.</td><td>Claro</td><td>Neblina</td></tr><tr><td>Campinas</td><td>28,5</td><td>17,1</td><td>»</td><td>761,5</td><td>23,6</td><td>19,4</td><td>65 »</td><td>E</td><td>2 m.</td><td>»</td><td>Choveu. Neblina</td></tr><tr><td>Ribeirão Preto</td><td>30,4</td><td>17,8</td><td>»</td><td>762,2</td><td>22,7</td><td>20,1</td><td>77 »</td><td>NE</td><td>2 m.</td><td>»</td><td>Bom</td></tr><tr><td>São Carios</td><td>28,0</td><td>16,0</td><td>»</td><td>761,4</td><td>23,4</td><td>20,0</td><td>72 »</td><td>E</td><td>4 m.</td><td>»</td><td>Bom</td></tr><tr><td>Taubaté</td><td>28,2</td><td>20,0</td><td>»</td><td>761,4</td><td>23,0</td><td>20,8</td><td>81 »</td><td>NE</td><td>2 m.</td><td>M. enc.</td><td></td></tr><tr><td>Pracicaba</td><td>33,0</td><td>18,0</td><td>»</td><td>761,1</td><td>21,0</td><td>21,2</td><td>77 »</td><td>N</td><td>1 m.</td><td>»</td><td>Neblioca</td></tr><tr><td>Agudos</td><td>33,0</td><td>19,0</td><td>Var.</td><td>761,6</td><td>22,2</td><td>20,4</td><td>84 »</td><td>C</td><td>—</td><td>Claro</td><td>Choveu 50 mm. Ovalho</td></tr><tr><td>Brotas</td><td>29,0</td><td>17,0</td><td>Bom</td><td>761,1</td><td>23,8</td><td>19,8</td><td>67 »</td><td>N</td><td>1 m.</td><td>»</td><td></td></tr><tr><td>Franca</td><td>26,6</td><td>18,2</td><td>»</td><td>762,2</td><td>21,4</td><td>16,9</td><td>62 »</td><td>NE</td><td>4 m.</td><td>»</td><td>O.valho</td></tr><tr><td>Avaré</td><td>32,2</td><td>19,1</td><td>»</td><td>761,0</td><td>26,4</td><td>23,2</td><td>75 »</td><td>N</td><td>1 m.</td><td>»</td><td>Bom</td></tr><tr><td>Tatuby</td><td>31,0</td><td>17,5</td><td>»</td><td>761,»</td><td>24,0</td><td>21,8</td><td>82 »</td><td>C</td><td>—</td><td>»</td><td></td></tr><tr><td>Ytú</td><td>29,4</td><td>20,2</td><td>»</td><td>761,9</td><td>24,2</td><td>21,2</td><td>75</td><td>NE</td><td>4 m.</td><td>M. enc.</td><td></td></tr><tr><td>Faxina</td><td>30,7</td><td>18,0</td><td>»</td><td>760,8</td><td>22,6</td><td>20,6</td><td>83 »</td><td>C</td><td>—</td><td>»</td><td>Orvalho. Neblina</td></tr><tr><td>Uberaba</td><td>27,5</td><td>20,2</td><td>—</td><td>761,8</td><td>24,3</td><td>21,3</td><td>75 »</td><td>S</td><td>9 m.</td><td>Claro</td><td></td></tr><tr><td>Paranaguá</td><td>26,2</td><td>20,5</td><td>—</td><td>758,8</td><td>24,5</td><td>23,3</td><td>90 »</td><td>C</td><td>—</td><td>M. enc</td><td></td></tr><tr><td>Flcrianopolia</td><td>23,8</td><td>21,0</td><td>—</td><td>759,3</td><td>23,7</td><td>22,0</td><td>86 »</td><td>C</td><td>—</td><td>»</td><td>Choveu 3,2 mm.</td></tr><tr><td>Rio de Janeiro</td><td>27,3</td><td>23,0</td><td>—</td><td>761,4</td><td>25,3</td><td>22,2</td><td>75 »</td><td>NE</td><td>2 m.</td><td>Claro</td><td>B m</td></tr><tr><td>Monteviléu</td><td>20,0</td><td>16,2</td><td>—</td><td>762,5</td><td>19,2</td><td>18,3</td><td>91 »</td><td>SE</td><td>4 m.</td><td>Enc.</td><td>Máu. Gartá e r lampagos</td></tr></table>",
+                                            "image_path": "846f85a8882c2da4dbc88920dd91a628fe7ff2f8486eb8667f0a6930bc5bedee.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 30
+                        }
+                    ],
+                    "index": 30
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        32,
+                        595,
+                        578,
+                        643
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                32,
+                                595,
+                                578,
+                                643
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        595,
+                                        578,
+                                        643
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                32,
+                                                595,
+                                                578,
+                                                643
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>Cordoba</td><td>22,0</td><td>15,0</td><td>—</td><td>763,5</td><td>17,0</td><td>16,0</td><td>90</td><td>S</td><td>2 m.</td><td>Enc.</td><td></td></tr><tr><td>Mendoza</td><td>27,0</td><td>12,0</td><td>—</td><td>767,2</td><td>14,0</td><td>9,0</td><td>47</td><td>SW</td><td>6 m.</td><td>•</td><td></td></tr></table>",
+                                            "image_path": "35de13faee3468f16edb9f2c19c239519ef5cb9faec963a9566e5be922a910a7.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 31
+                        }
+                    ],
+                    "index": 31
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        39,
+                        35,
+                        98,
+                        45
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                39,
+                                35,
+                                98,
+                                45
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        35,
+                                        98,
+                                        45
+                                    ],
+                                    "type": "text",
+                                    "content": "Seita-feira, 1"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        247,
+                        33,
+                        338,
+                        43
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                247,
+                                33,
+                                338,
+                                43
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        247,
+                                        33,
+                                        338,
+                                        43
+                                    ],
+                                    "type": "text",
+                                    "content": "DIARIO OFFICIAL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        479,
+                        32,
+                        552,
+                        41
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                479,
+                                32,
+                                552,
+                                41
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        479,
+                                        32,
+                                        552,
+                                        41
+                                    ],
+                                    "type": "text",
+                                    "content": "Abril 1910~995"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                },
+                {
+                    "bbox": [
+                        70,
+                        647,
+                        250,
+                        666
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                647,
+                                250,
+                                666
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        647,
+                                        250,
+                                        666
+                                    ],
+                                    "type": "text",
+                                    "content": "Tempo provavel para o dia 1.º de Abril: Instavel. Noblias. Temporatura subindo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32
+                },
+                {
+                    "bbox": [
+                        426,
+                        653,
+                        559,
+                        676
+                    ],
+                    "type": "footer",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                426,
+                                653,
+                                559,
+                                676
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        426,
+                                        653,
+                                        559,
+                                        676
+                                    ],
+                                    "type": "text",
+                                    "content": "J. N. Belfort Matteo,\nChefe da Seccio Meteorologica."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33
+                }
+            ],
+            "page_size": [
+                606,
+                733
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        21,
+                        56,
+                        199,
+                        82
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                56,
+                                199,
+                                82
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        56,
+                                        199,
+                                        82
+                                    ],
+                                    "type": "text",
+                                    "content": "O sr. Gabriel Gomide ao sr. Scuz: e Castro, as civeis 5605 do Santos, 5609 do Piracicaba e 5772 da Cospital."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        21,
+                        82,
+                        199,
+                        134
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                82,
+                                199,
+                                134
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        82,
+                                        199,
+                                        134
+                                    ],
+                                    "type": "text",
+                                    "content": "O sr. Firmino Whitacker ao sr. Gabriel Gemide, as cíveis 5184 de Piracicaba, 5648 de Rio Claro, 5441 de Santa Izabel, 5003 de Jaboticabal, 5352 de Agudos, 6023 de Campicas, 5180 e 5368 de Santos, 5729, 5862, 5687, 5339, 6415 e 5787 da Capital."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        22,
+                        137,
+                        200,
+                        189
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                22,
+                                137,
+                                200,
+                                189
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        22,
+                                        137,
+                                        200,
+                                        189
+                                    ],
+                                    "type": "text",
+                                    "content": "--O sr. procurador geral do Estado deu parecer nas app llações cíveis ns. 5564, de Espírito Santo do Finhal e 5870 de São Carlos a nos embargos 2270 da Capital, 5804 de Ibitingu, 5502 e 5735 de Jaboticabal."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        84,
+                        197,
+                        139,
+                        205
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                84,
+                                197,
+                                139,
+                                205
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        197,
+                                        139,
+                                        205
+                                    ],
+                                    "type": "text",
+                                    "content": "JULAMENTOS"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "bbox": [
+                        92,
+                        213,
+                        132,
+                        222
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                92,
+                                213,
+                                132,
+                                222
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        92,
+                                        213,
+                                        132,
+                                        222
+                                    ],
+                                    "type": "text",
+                                    "content": "Embargos"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "bbox": [
+                        24,
+                        229,
+                        202,
+                        271
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                229,
+                                202,
+                                271
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        229,
+                                        202,
+                                        271
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 5597—Capital—Embargante, A. Weinberg; c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c. c.\nG. Lunsille & Comp; relator, o. r. Mcirelles Reis."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        25,
+                        271,
+                        202,
+                        291
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                25,
+                                271,
+                                202,
+                                291
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        271,
+                                        202,
+                                        291
+                                    ],
+                                    "type": "text",
+                                    "content": "Julgaram subsistente a desistencia dos embargos."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        257,
+                        55,
+                        333,
+                        65
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                257,
+                                55,
+                                333,
+                                65
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        257,
+                                        55,
+                                        333,
+                                        65
+                                    ],
+                                    "type": "text",
+                                    "content": "Appellações cíveis"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10
+                },
+                {
+                    "bbox": [
+                        205,
+                        71,
+                        384,
+                        106
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                205,
+                                71,
+                                384,
+                                106
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        205,
+                                        71,
+                                        384,
+                                        106
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 5561—Piracicaba—Appelante, Thomiz Alonso Knoso; appellada, d. Laurinda Alves de Oliveira; relator, o sr. Francisco Saldenha."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        215,
+                        106,
+                        384,
+                        115
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                215,
+                                106,
+                                384,
+                                115
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        215,
+                                        106,
+                                        384,
+                                        115
+                                    ],
+                                    "type": "text",
+                                    "content": "Converteram o julgamesto em diligência."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        206,
+                        115,
+                        385,
+                        148
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                206,
+                                115,
+                                385,
+                                148
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        115,
+                                        385,
+                                        148
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 6057—Capital—A. pellante, o juiz do de direito; appellados, Theodoro Bubra- ner e sua mulher; rolater, o sr. Ferreira França."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        216,
+                        148,
+                        306,
+                        157
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                216,
+                                148,
+                                306,
+                                157
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        216,
+                                        148,
+                                        306,
+                                        157
+                                    ],
+                                    "type": "text",
+                                    "content": "Negaram provimento."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        207,
+                        156,
+                        385,
+                        190
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                156,
+                                385,
+                                190
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        156,
+                                        385,
+                                        190
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 6914—Capital—Appellante, Thomé Gomes Ferreira; appellado, Francisco de Souza Franco; relator, o sr. Juvenal Malheircs."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        216,
+                        190,
+                        307,
+                        199
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                216,
+                                190,
+                                307,
+                                199
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        216,
+                                        190,
+                                        307,
+                                        199
+                                    ],
+                                    "type": "text",
+                                    "content": "Negaram provimento."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        207,
+                        198,
+                        385,
+                        224
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                207,
+                                198,
+                                385,
+                                224
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        198,
+                                        385,
+                                        224
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 60 5—Capital—Appellaute, o juiz de de direito; appellados, Laura Hind e outros; relator, o sr. Juvenal Malheiros."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        217,
+                        224,
+                        307,
+                        233
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                217,
+                                224,
+                                307,
+                                233
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        217,
+                                        224,
+                                        307,
+                                        233
+                                    ],
+                                    "type": "text",
+                                    "content": "Negaram provimento."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        411,
+                        57,
+                        547,
+                        73
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                411,
+                                57,
+                                547,
+                                73
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        411,
+                                        57,
+                                        547,
+                                        73
+                                    ],
+                                    "type": "text",
+                                    "content": "ACTOS FEDERAES"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19
+                },
+                {
+                    "bbox": [
+                        401,
+                        89,
+                        558,
+                        108
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                401,
+                                89,
+                                558,
+                                108
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        401,
+                                        89,
+                                        558,
+                                        108
+                                    ],
+                                    "type": "text",
+                                    "content": "DECRETO N. 7917—DE 24 DE MARÇO\nDE 1910"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        392,
+                        115,
+                        569,
+                        134
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                392,
+                                115,
+                                569,
+                                134
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        392,
+                                        115,
+                                        569,
+                                        134
+                                    ],
+                                    "type": "text",
+                                    "content": "Creia o Registro e Archivo Geral de Marcas\npara animaes"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        391,
+                        140,
+                        570,
+                        173
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                391,
+                                140,
+                                570,
+                                173
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        391,
+                                        140,
+                                        570,
+                                        173
+                                    ],
+                                    "type": "text",
+                                    "content": "O Presidente da República dos Estados Unidos do Brazil, em execução da lei número 1606, de 29 de Dezembro de 1906, decretas:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        392,
+                        174,
+                        570,
+                        232
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                392,
+                                174,
+                                570,
+                                232
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        392,
+                                        174,
+                                        570,
+                                        232
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo 1.º E' creado o Registro e Archivo Garal de Marcas para animaes de raça bovina, cavaliar e muar, do acordo com o regulamento que com esta baixa, assignado pelo ministro do Estado dos Negócios da Agricultura, Industria e Commeria."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        392,
+                        232,
+                        571,
+                        249
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                392,
+                                232,
+                                571,
+                                249
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        392,
+                                        232,
+                                        571,
+                                        249
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo 2.º Revogam-se as disposições em contrário."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        393,
+                        249,
+                        572,
+                        267
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                393,
+                                249,
+                                572,
+                                267
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        393,
+                                        249,
+                                        572,
+                                        267
+                                    ],
+                                    "type": "text",
+                                    "content": "Rio de Janeiro, 24 de Março de 1519, 89.º da Independência e 22.º da República."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        409,
+                        270,
+                        470,
+                        279
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                409,
+                                270,
+                                470,
+                                279
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        409,
+                                        270,
+                                        470,
+                                        279
+                                    ],
+                                    "type": "text",
+                                    "content": "Nilo Propanha"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        409,
+                        279,
+                        572,
+                        289
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                409,
+                                279,
+                                572,
+                                289
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        409,
+                                        279,
+                                        572,
+                                        289
+                                    ],
+                                    "type": "text",
+                                    "content": "Rodolpho Nogueira da Rocha Miranda."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        61,
+                        302,
+                        536,
+                        316
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                61,
+                                302,
+                                536,
+                                316
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        61,
+                                        302,
+                                        536,
+                                        316
+                                    ],
+                                    "type": "text",
+                                    "content": "Directoria de Agricultura — O TEMPO E A LAVOURA — Seção Meteorológica"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        27,
+                        334,
+                        576,
+                        588
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                110,
+                                321,
+                                504,
+                                332
+                            ],
+                            "type": "table_caption",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        321,
+                                        504,
+                                        332
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                110,
+                                                321,
+                                                504,
+                                                332
+                                            ],
+                                            "type": "text",
+                                            "content": "OBSERVACÕES RECEHIDAS PELG TELEGRAPHO, NO DIA 31 DE MARÇO DE 1910"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 29
+                        },
+                        {
+                            "bbox": [
+                                27,
+                                334,
+                                576,
+                                588
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        27,
+                                        334,
+                                        576,
+                                        588
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                27,
+                                                334,
+                                                576,
+                                                588
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=\"3\">Observatorios</td><td colspan=\"3\">Observações da Respar</td><td colspan=\"8\">Observação do Dia, tomada e Ola. Csa. Gw.</td></tr><tr><td colspan=\"2\">Temperatura</td><td rowspan=\"2\">Tensão</td><td rowspan=\"2\">Preciso normalizada</td><td colspan=\"2\">Thermometro</td><td rowspan=\"2\">Hauíza de ratsiva</td><td colspan=\"2\">Vento</td><td rowspan=\"2\">Corteira do Cau</td><td rowspan=\"2\">OBSERVACÕES</td></tr><tr><td>Max.</td><td>Min.</td><td>Tempo</td><td>Sexté</td><td>Otras</td><td>Velce</td></tr><tr><td>Sautos</td><td>26,6</td><td>22,7</td><td>Bom</td><td>761,2</td><td>24,0</td><td>22,5</td><td>+7 %</td><td>E</td><td>1 m</td><td>Claro</td><td>Orvalho</td></tr><tr><td>Igucapa</td><td>26,0</td><td>21,0</td><td>»</td><td>761,0</td><td>22,0</td><td>19,0</td><td>74 »</td><td>NW</td><td>4 m.</td><td>Enc.</td><td>Bom</td></tr><tr><td>S. Paulo</td><td>28,0</td><td>18,5</td><td>»</td><td>761,4</td><td>22,0</td><td>19,0</td><td>74 »</td><td>NE</td><td>1 m.</td><td>Claro</td><td>Neblina</td></tr><tr><td>Campinas</td><td>28,5</td><td>17,1</td><td>»</td><td>761,5</td><td>23,6</td><td>19,4</td><td>65 »</td><td>E</td><td>2 m.</td><td>»</td><td>Choveu. Neblina</td></tr><tr><td>Ribeirão Preto</td><td>30,4</td><td>17,8</td><td>»</td><td>762,2</td><td>22,7</td><td>20,1</td><td>77 »</td><td>NE</td><td>2 m.</td><td>»</td><td>Bom</td></tr><tr><td>São Carios</td><td>28,0</td><td>16,0</td><td>»</td><td>761,4</td><td>23,4</td><td>20,0</td><td>72 »</td><td>E</td><td>4 m.</td><td>»</td><td>Bom</td></tr><tr><td>Taubaté</td><td>28,2</td><td>20,0</td><td>»</td><td>761,4</td><td>23,0</td><td>20,8</td><td>81 »</td><td>NE</td><td>2 m.</td><td>M. enc.</td><td></td></tr><tr><td>Pracicaba</td><td>33,0</td><td>18,0</td><td>»</td><td>761,1</td><td>21,0</td><td>21,2</td><td>77 »</td><td>N</td><td>1 m.</td><td>»</td><td>Neblioca</td></tr><tr><td>Agudos</td><td>33,0</td><td>19,0</td><td>Var.</td><td>761,6</td><td>22,2</td><td>20,4</td><td>84 »</td><td>C</td><td>—</td><td>Claro</td><td>Choveu 50 mm. Ovalho</td></tr><tr><td>Brotas</td><td>29,0</td><td>17,0</td><td>Bom</td><td>761,1</td><td>23,8</td><td>19,8</td><td>67 »</td><td>N</td><td>1 m.</td><td>»</td><td></td></tr><tr><td>Franca</td><td>26,6</td><td>18,2</td><td>»</td><td>762,2</td><td>21,4</td><td>16,9</td><td>62 »</td><td>NE</td><td>4 m.</td><td>»</td><td>O.valho</td></tr><tr><td>Avaré</td><td>32,2</td><td>19,1</td><td>»</td><td>761,0</td><td>26,4</td><td>23,2</td><td>75 »</td><td>N</td><td>1 m.</td><td>»</td><td>Bom</td></tr><tr><td>Tatuby</td><td>31,0</td><td>17,5</td><td>»</td><td>761,»</td><td>24,0</td><td>21,8</td><td>82 »</td><td>C</td><td>—</td><td>»</td><td></td></tr><tr><td>Ytú</td><td>29,4</td><td>20,2</td><td>»</td><td>761,9</td><td>24,2</td><td>21,2</td><td>75</td><td>NE</td><td>4 m.</td><td>M. enc.</td><td></td></tr><tr><td>Faxina</td><td>30,7</td><td>18,0</td><td>»</td><td>760,8</td><td>22,6</td><td>20,6</td><td>83 »</td><td>C</td><td>—</td><td>»</td><td>Orvalho. Neblina</td></tr><tr><td>Uberaba</td><td>27,5</td><td>20,2</td><td>—</td><td>761,8</td><td>24,3</td><td>21,3</td><td>75 »</td><td>S</td><td>9 m.</td><td>Claro</td><td></td></tr><tr><td>Paranaguá</td><td>26,2</td><td>20,5</td><td>—</td><td>758,8</td><td>24,5</td><td>23,3</td><td>90 »</td><td>C</td><td>—</td><td>M. enc</td><td></td></tr><tr><td>Flcrianopolia</td><td>23,8</td><td>21,0</td><td>—</td><td>759,3</td><td>23,7</td><td>22,0</td><td>86 »</td><td>C</td><td>—</td><td>»</td><td>Choveu 3,2 mm.</td></tr><tr><td>Rio de Janeiro</td><td>27,3</td><td>23,0</td><td>—</td><td>761,4</td><td>25,3</td><td>22,2</td><td>75 »</td><td>NE</td><td>2 m.</td><td>Claro</td><td>B m</td></tr><tr><td>Monteviléu</td><td>20,0</td><td>16,2</td><td>—</td><td>762,5</td><td>19,2</td><td>18,3</td><td>91 »</td><td>SE</td><td>4 m.</td><td>Enc.</td><td>Máu. Gartá e r lampagos</td></tr></table>",
+                                            "image_path": "846f85a8882c2da4dbc88920dd91a628fe7ff2f8486eb8667f0a6930bc5bedee.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 30
+                        }
+                    ],
+                    "index": 30
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        32,
+                        595,
+                        578,
+                        643
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                32,
+                                595,
+                                578,
+                                643
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        595,
+                                        578,
+                                        643
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                32,
+                                                595,
+                                                578,
+                                                643
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>Cordoba</td><td>22,0</td><td>15,0</td><td>—</td><td>763,5</td><td>17,0</td><td>16,0</td><td>90</td><td>S</td><td>2 m.</td><td>Enc.</td><td></td></tr><tr><td>Mendoza</td><td>27,0</td><td>12,0</td><td>—</td><td>767,2</td><td>14,0</td><td>9,0</td><td>47</td><td>SW</td><td>6 m.</td><td>•</td><td></td></tr></table>",
+                                            "image_path": "35de13faee3468f16edb9f2c19c239519ef5cb9faec963a9566e5be922a910a7.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 31
+                        }
+                    ],
+                    "index": 31
+                }
+            ]
+        }
+    ],
+    "_backend": "vlm",
+    "_version_name": "3.4.4"
+}

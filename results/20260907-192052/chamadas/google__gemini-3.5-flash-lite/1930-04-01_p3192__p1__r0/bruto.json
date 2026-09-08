@@ -1,0 +1,79 @@
+{
+  "chave": "google/gemini-3.5-flash-lite|1930-04-01_p3192|p1|0",
+  "registro": {
+    "model_id": "google/gemini-3.5-flash-lite",
+    "prompt_id": "p1",
+    "doc_id": "1930-04-01_p3192",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 30.38584959995933,
+    "prompt_tokens": 1132,
+    "completion_tokens": 3816,
+    "total_tokens": 4948,
+    "cost_usd": 0.0098796,
+    "cost_source": "tabela_precos",
+    "finish_reason": "STOP",
+    "truncated": false,
+    "api_provider": "gemini",
+    "provider_upstream": "google",
+    "generation_id": null,
+    "attempts": 2,
+    "timestamp_utc": "2026-09-08T01:44:04Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "generateContent",
+      "tentativa": 1,
+      "http_status": 503,
+      "corpo": {
+        "error": {
+          "code": 503,
+          "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+          "status": "UNAVAILABLE"
+        }
+      }
+    },
+    {
+      "etapa": "generateContent",
+      "tentativa": 2,
+      "http_status": 200,
+      "corpo": {
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>DIARIO OFFICIAL - 1 de Abril 1930</title>\n<style>\n    body {\n        font-family: \"Times New Roman\", Times, serif;\n        font-size: 11px;\n        line-height: 1.15;\n        color: #000;\n        background-color: #fff;\n        margin: 20px;\n    }\n    .header-table {\n        width: 100%;\n        border-bottom: 1px solid #000;\n        padding-bottom: 4px;\n        margin-bottom: 10px;\n    }\n    .header-table td {\n        font-size: 12px;\n    }\n    .text-center { text-align: center; }\n    .text-right { text-align: right; }\n    .text-left { text-align: left; }\n    \n    .container {\n        width: 100%;\n        display: table;\n    }\n    .column {\n        display: table-cell;\n        vertical-align: top;\n        padding: 0 10px;\n    }\n    .col-1 { width: 35%; }\n    .col-2 { width: 30%; }\n    .col-3 { width: 35%; }\n\n    h3, h4, h5 {\n        text-align: center;\n        font-weight: bold;\n        margin: 8px 0 4px 0;\n        font-size: 11px;\n    }\n    h3 { font-size: 12px; }\n    \n    .sec-title {\n        text-align: center;\n        font-weight: bold;\n        margin-top: 10px;\n        margin-bottom: 5px;\n        text-transform: uppercase;\n        font-size: 11px;\n    }\n    \n    p {\n        margin: 3px 0;\n        text-align: justify;\n        text-indent: 10px;\n    }\n    \n    .indent-none {\n        text-indent: 0;\n    }\n    \n    .bold {\n        font-weight: bold;\n    }\n    \n    .resume-table {\n        width: 100%;\n        margin-top: 5px;\n    }\n    .resume-table td {\n        padding: 1px 0;\n        font-size: 11px;\n    }\n    \n    .sub-section {\n        margin-top: 8px;\n    }\n</style>\n</head>\n<body>\n\n<table class=\"header-table\">\n    <tr>\n        <td class=\"text-left\"><b>3192 Terça-feira, 1</b></td>\n        <td class=\"text-center\"><b>DIARIO OFFICIAL</b></td>\n        <td class=\"text-right\"><b>Abril 1930</b></td>\n    </tr>\n</table>\n\n<div class=\"container\">\n    <!-- COLUNA 1 -->\n    <div class=\"column col-1\">\n        <h4>Para as Inspectorias Districtaes Escolares</h4>\n        <p class=\"indent-none\"><b>Officios ns.:</b> 13, do Grupo Escolar de Novo Horizonte; 5, do Grupo Escolar de Joanopolis; 15, do Grupo Escolar de brotas.</p>\n        \n        <h3>3.ª e 4.ª SECÇÕES</h3>\n        <h4>Escolas Isoladas e Reunidas</h4>\n        \n        <p class=\"bold indent-none\">Papeis entrados</p>\n        <p>Requerimentos de: Ignacio Carvalho Landell, Judith Frota Anna Mello Coelho, Francisca von Atzingen, Davina Brasiliana dos Anjos, Maria dos Santos Carvalho, Anna Vieira, Giacomo Ventrili e outros, Paulo Ponciano Piedade, Eugenia Castro Pereira Leite, Gonzalo D'Amar Ferreira, Maria Apparecida Gurgel Piuto, Genesia Costa, Alda Moreira.</p>\n        <p><b>Officios de:</b> N- 23, do Insp. do 20.º Districto; n. 5, do Insp. do 76.º Districto; n. 70, do Insp. do 12.º Districto; n. 32, do Insp. do 18.º Districto; n. 11, do Insp. do 72.º Districto; n. 7, do Insp. do 33.º Districto; n. 41, do Insp. do 78.º Districto; n. 40, do Insp. do 78.º Districto.</p>\n        \n        <p class=\"bold indent-none\">Papeis sahidos</p>\n        <p class=\"indent-none\"><b>Para a Secretaria do Interior</b></p>\n        <p>Requerimentos de: Jaeyra de Abreu, Gabriel Gonçalves e outros, Claudina Aquino Rodrigues, Maria Oliveira Nogueira, Gabriel Prioli, Euclydes Moraes Rosa, Maria de Lourdes Andrade, Adelaïde Fonseca de Barros, Luiz Conceição Silva.</p>\n        <p class=\"indent-none\"><b>Para as Inspectorias Districtaes</b></p>\n        <p>Ao sr. Insp. de Apiahy, requer. de Dario Almeida Dias.</p>\n        <p>Ao sr. Insp. de Itapetin'unga, requer. de Rosa Rossi.</p>\n        <p>Ao sr. Insp. de Mogy Mirim, requer. de Tild. Magnocavallo.</p>\n\n        <h3>5.ª SECÇÃO</h3>\n        <h4>Escolas Normaes e outras</h4>\n        \n        <p class=\"bold indent-none\">Papeis entrados</p>\n        <p><b>Officios:</b> Da Directoria da Escola Normal Livre de São José dos Campos, sob n. 34; da Inspectoria fiscal da Escola Normal Livre de Mogy das Cruzes, sob ns. 13 e 14; da Inspectoria fiscal da Escola Normal Livre «Dr. Julio Prostes», em Jacarehy, sob n. 7.</p>\n        \n        <p class=\"bold indent-none\">Papeis sahidos</p>\n        <p class=\"indent-none\"><b>Para o Thesouro do Estado</b></p>\n        <p>Portarias de licença de: d. Maria Thereza de Oliveira e do sr. Manoel Arystobulo de Oliveira Freitas.</p>\n        <p>Tituto de nomeação de: d. Olivia Bianco.</p>\n\n        <h3 style=\"text-align: center; margin-top: 15px;\">inspecção medica escolar</h3>\n        <p class=\"text-center indent-none\"><b>Expediente do dia 28 de Março de 1930</b></p>\n\n        <p><b>1.ª ZONA — Dr. Wladimir Kehl</b><br>\n        Inspeccionou 36 alumnos do Grupo Escolar «Marechal Deodoro», vaceinou 13 e expeiu 5 boletins sanitarios.</p>\n        <p><b>2.ª ZONA — Dr.ª Carmela Juliani</b><br>\n        Inspeccionou 18 alumnos da 62.ª escola «7 de Setembro», requisiton 3 análises, revaccinou 14, expediu 7 boletins sanitarios e fez 1 prelecção sobre hygiene individual.</p>\n        <p>Expedia mais 3 boletins sanitario para o Grupo Escolar «Pedro II».</p>\n        <p><b>3.ª ZONA — Dr.ª Margarida de Camargo Barros</b><br>\n        Inspeccionou 52 alumnos da Escola Modelo «Caetano de Campos», vaccinou 1, revaccinou 11, expediu 7 boletins sanitarios e fez 1 prelecção sobre vaccina antivariolica.</p>\n        <p><b>4.ª ZONA — Dr. Nery Gonçalves</b><br>\n        Inspeccionou 31 alumnos do Grupo Escolar «Maria José», revaccinou 31, expediu 10 boletins sanitarios e determinou 1 evieção por parotidite.</p>\n        <p><b>5.ª ZONA — Dr. Araripo Sacupira</b><br>\n        Inspeccionou 43 alumnos do 1.º Grupo Escolar do Cambucy, requisitou 2 analysys, vaccinou 4, revaccinou 11, expediu 5 boletins sanitarios e fez 1 prelecção sobre hygiene individual.</p>\n        <p><b>6.ª ZONA — Dr. Botelho Comenale</b><br>\n        Inspeccionou 47 alumnos do Grupo Escolar «Oswaldo Cruz», requisiton 1 analyse e vaccinou 3, revaccinou 8 e expediu 13 boletins sanitarios.</p>\n        <p><b>7.ª ZONA — Dr. Pedroso Camargo</b><br>\n        Não apresentou parte de ser iço.</p>\n        <p><b>8.ª ZONA — Dr. Durval Marcondes</b><br>\n        Inspeccionou 36 alumnos do 1.º Grupo Escolar do Braz, vaccinou 1, revaccinou 3 e expediu 3 boletins sanitarios e fez 1 prelecção sobre vaccinação antivariolica e suas vautagens.</p>\n        <p><b>9.ª ZONA — Dr. Leoncio de Queiroz</b><br>\n        Inspeccionou nesta Directoria 2 professoras e fez 1 deligencia.</p>\n\n        <h4 class=\"sub-section\">Inspecção de saúde</h4>\n        <p>Foram inspeccionados nesta Directoria: as professora d. d. Maria José Brasiliense Fusco e Maria José Nogueira, sendo encaminhados os respectivos laudos.</p>\n        <p>No n. 27-A, da rua Fernando de Albuquerque, não foi encontrada a professora d. Antonietta Pimentel Muniz. Não compareceu o professor sr. Archimedes Aristeu de Carvalho.</p>\n\n        <h4 class=\"sub-section\">Assistencia Medica</h4>\n        <p><b>I — Clinica de molestias internas e verminoses — Dr. Alcino Braga</b><br>\n        Examinou 1 alumno, deu 1 consulta, 2 prescripções medicas e organizou as respectivas fichas.</p>\n        <p><b>II — Clinica de molestias da pelle e uro-genitaes — Dr. L. V. Catta-Preta</b><br>\n        Examinou 3 alumnos, deu 4 consultas, 5 prescripções medicas, fez 1 curativo e organizou as respectivas fichas.</p>\n        <p><b>III — Clinica de molestias dos olhos e correcção da vista — Dr. Danton Malta</b><br>\n        Examinou 8 alumnos, deu 2 prescripções medicas, 5 prescripções de oculos e organizou as respectivas fichas.</p>\n        <p>Examinou nesta Directoria 1 professora.</p>\n        <p><b>IV — Clinica de molestias de ouvido, nariz e garganta — Dr. Silvestre Passy</b><br>\n        Examinou 5 alumnos, deu 1 prescripção medica e organizou as respectivas fichas.</p>\n        <p>Inspeccionou nesta Directoria 2 professoras e fez 1 deligencia.</p>\n    </div>\n\n    <!-- COLUNA 2 -->\n    <div class=\"column col-2\">\n        <h4>Assistencia Dentaria</h4>\n        <h5 style=\"margin:2px 0;\">Dr. Campos de Oliveira</h5>\n        <p>Acompanhou o sr. dr. director geral da Instrucção P ublica, emvisitas aos gabinetes dentarios dos Grupos Escolares «Marechal Floriano», «Raphael Deodoro», Jardim America, Carmo, Itahim e Escola Normal da Praça.</p>\n\n        <h4 style=\"margin-top:15px;\">Resumo</h4>\n        <table class=\"resume-table\">\n            <tr><td>Visitas a escolas publicas</td><td class=\"text-right\">6</td></tr>\n            <tr><td>Visita a escola particular</td><td class=\"text-right\">1</td></tr>\n            <tr><td>Alumnos inspeccionados</td><td class=\"text-right\">263</td></tr>\n            <tr><td>Analyses requisitadas</td><td class=\"text-right\">6</td></tr>\n            <tr><td>Alumnos vaccinados contra a variola</td><td class=\"text-right\">22</td></tr>\n            <tr><td>Alumnos reva cinados ireen</td><td class=\"text-right\">78</td></tr>\n            <tr><td>Boletins sanitarios expedidos</td><td class=\"text-right\">50</td></tr>\n            <tr><td>Evicção determinada</td><td class=\"text-right\">1</td></tr>\n            <tr><td>Prelecções sobre hygiene individual</td><td class=\"text-right\">4</td></tr>\n            <tr><td>Insp. de saúde uesta Directoria</td><td class=\"text-right\">2</td></tr>\n            <tr><td>Deligencia</td><td class=\"text-right\">1</td></tr>\n            <tr><td>Exames geraes</td><td class=\"text-right\">17</td></tr>\n            <tr><td>Consultas</td><td class=\"text-right\">5</td></tr>\n            <tr><td>Prescripções medicas</td><td class=\"text-right\">10</td></tr>\n            <tr><td>Prescripções de oculos</td><td class=\"text-right\">5</td></tr>\n            <tr><td>Exame especialisado</td><td class=\"text-right\">1</td></tr>\n            <tr><td>Curativo</td><td class=\"text-right\">1</td></tr>\n        </table>\n\n        <div style=\"text-align: center; margin-top: 30px;\">\n            <p class=\"bold text-center\" style=\"font-size: 11px;\">DIRECTORIA GERAL DO<br>SERVIÇO SANITARIO</p>\n            <p class=\"bold text-center\" style=\"margin-top: 15px; font-size: 11px;\">SECÇÃO DE EXPEDIENTE</p>\n            <p class=\"text-center\" style=\"font-size: 10px;\">Expediente do dia 29 de Março de 1930</p>\n        </div>\n\n        <p class=\"indent-none\" style=\"margin-top: 10px;\">Requerimentos despachados pelo Dr. Director Geral e informados, pelas seguintes secções:</p>\n        \n        <p class=\"indent-none\"><b>Inspectoria da Fise. de Medicina e Pharmacia</b></p>\n        <p>João de Lucca. — O predio poderá ser acceito.</p>\n        <p>Oscar Cabral. — Deferido.</p>\n        <p>Gouveia & Oliveira. — Poderá funccionar a titulo precario, uma vez provado o pagamento da taxa e exhibidos os livros á publica.</p>\n        <p>Instituto Biochimico Opotherapico Ltd. — Compareçam á Inspectoria para regularização do contracto de locação.</p>\n        <p>Januario da Cunha Mello. — Junte attestado de sanidade e recolha a taxa devida.</p>\n        <p>João Baptista Perrone. — Prov. Archive-se.</p>\n        <p>Ambrosioa do Canto Barros. — Prov. Archive-se.</p>\n        <p>Francisco Serpe. — Doferido. Officie-se.</p>\n        <p>Oscal Cabral. — Deferido, uma vez paga a taga legal.</p>\n        <p>Cid & Campaz. — Deferido.</p>\n\n        <h4 style=\"margin-top: 15px;\">Engenharia Sanitaria</h4>\n        <p>R. Santa Rosa, 39, apartamento 34. — Prov. Archive-se.</p>\n\n        <h4 style=\"margin-top: 15px;\">Inspectoria de Molestias Infecciosas</h4>\n        <p>R. da Penha, 11 — Prorogo o prazo por 60 dias, afim de cumprir a intimação.</p>\n        <p>Largo do Belem, 21. — Prov. Archive-se.</p>\n    </div>\n</div>\n\n</body>\n</html>\n```",
+                  "thoughtSignature": "El4KXAERTTIPhQPs9WvtpK0G3LEUqdWxcoFuGphRojIhZnbS5fnU/zdklKqnooiWa/xUgi4Xalb9roddmk+s5+M+9zNw9X5M9pRgojnCASUYTQQ9yZFVioPPmadcarQ0"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "index": 0
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 1132,
+          "candidatesTokenCount": 3816,
+          "totalTokenCount": 4948,
+          "promptTokensDetails": [
+            {
+              "modality": "IMAGE",
+              "tokenCount": 1080
+            },
+            {
+              "modality": "TEXT",
+              "tokenCount": 52
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "responseId": "mWifapnfHZWBmtkP0L2o2Qs"
+      }
+    }
+  ]
+}

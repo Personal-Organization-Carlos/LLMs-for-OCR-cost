@@ -1,0 +1,2721 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.4694,
+                "bbox": [
+                    148,
+                    99,
+                    298,
+                    129
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 7,
+                "label": "figure_title",
+                "score": 0.4904,
+                "bbox": [
+                    836,
+                    379,
+                    919,
+                    406
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.6932,
+                "bbox": [
+                    720,
+                    94,
+                    938,
+                    125
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7334,
+                "bbox": [
+                    1373,
+                    89,
+                    1597,
+                    123
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9285,
+                "bbox": [
+                    105,
+                    148,
+                    609,
+                    234
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6511,
+                "bbox": [
+                    229,
+                    235,
+                    471,
+                    261
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9496,
+                "bbox": [
+                    104,
+                    260,
+                    612,
+                    340
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7846,
+                "bbox": [
+                    130,
+                    339,
+                    545,
+                    366
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8919,
+                "bbox": [
+                    110,
+                    364,
+                    613,
+                    419
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6174,
+                "bbox": [
+                    240,
+                    417,
+                    484,
+                    442
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9363,
+                "bbox": [
+                    113,
+                    443,
+                    615,
+                    547
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6589,
+                "bbox": [
+                    136,
+                    547,
+                    356,
+                    573
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6138,
+                "bbox": [
+                    137,
+                    572,
+                    361,
+                    598
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8597,
+                "bbox": [
+                    119,
+                    597,
+                    616,
+                    649
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.579,
+                "bbox": [
+                    137,
+                    650,
+                    491,
+                    700
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9276,
+                "bbox": [
+                    119,
+                    701,
+                    619,
+                    830
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7471,
+                "bbox": [
+                    132,
+                    829,
+                    409,
+                    856
+                ],
+                "index": 17
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5033,
+                "bbox": [
+                    308,
+                    871,
+                    438,
+                    893
+                ],
+                "index": 18
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.704,
+                "bbox": [
+                    269,
+                    908,
+                    460,
+                    956
+                ],
+                "index": 19
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6717,
+                "bbox": [
+                    327,
+                    960,
+                    421,
+                    980
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8864,
+                "bbox": [
+                    128,
+                    982,
+                    623,
+                    1034
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9663,
+                "bbox": [
+                    127,
+                    1034,
+                    628,
+                    1138
+                ],
+                "index": 22
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9718,
+                "bbox": [
+                    130,
+                    1138,
+                    633,
+                    1316
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9625,
+                "bbox": [
+                    133,
+                    1315,
+                    635,
+                    1393
+                ],
+                "index": 24
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9661,
+                "bbox": [
+                    135,
+                    1392,
+                    637,
+                    1496
+                ],
+                "index": 25
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9478,
+                "bbox": [
+                    139,
+                    1494,
+                    637,
+                    1549
+                ],
+                "index": 26
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9163,
+                "bbox": [
+                    139,
+                    1552,
+                    638,
+                    1608
+                ],
+                "index": 27
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.8431,
+                "bbox": [
+                    158,
+                    1618,
+                    630,
+                    1788
+                ],
+                "index": 28,
+                "html": "<table><tr><td></td><td>Sobre Londres.</td><td>8 7132</td><td>73,3:</td></tr><tr><td></td><td>Pariz. .</td><td>1150</td><td>1173</td></tr><tr><td></td><td>Hamburgo.</td><td>1432</td><td>1455</td></tr><tr><td></td><td>Italia.</td><td></td><td>1108</td></tr><tr><td></td><td>Portugal</td><td></td><td>480</td></tr><tr><td></td><td>New-York.</td><td>一</td><td>6110</td></tr></table>"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7179,
+                "bbox": [
+                    146,
+                    1809,
+                    646,
+                    1858
+                ],
+                "index": 29
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6644,
+                "bbox": [
+                    147,
+                    1859,
+                    648,
+                    1925
+                ],
+                "index": 30
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6958,
+                "bbox": [
+                    624,
+                    166,
+                    1125,
+                    253
+                ],
+                "index": 31
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6083,
+                "bbox": [
+                    763,
+                    252,
+                    991,
+                    277
+                ],
+                "index": 32
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5497,
+                "bbox": [
+                    625,
+                    273,
+                    1127,
+                    382
+                ],
+                "index": 33
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.8039,
+                "bbox": [
+                    643,
+                    400,
+                    1124,
+                    606
+                ],
+                "index": 34,
+                "html": "<table><tr><td></td><td></td><td></td><td></td><td>50 d/v 81/8</td><td>A&#x27; vistα 8 d.</td></tr><tr><td></td><td>Sobre Londres</td><td></td><td></td><td>1171</td><td>1192</td></tr><tr><td>日</td><td>Pariz.</td><td></td><td></td><td>1449</td><td>1172</td></tr><tr><td></td><td>Hamburgo</td><td></td><td></td><td></td><td>111)</td></tr><tr><td>1</td><td>Ilalta.</td><td></td><td></td><td></td><td>485</td></tr><tr><td>n</td><td>Portugal.</td><td></td><td></td><td></td><td>61S1</td></tr><tr><td colspan=\"2\">New-York. S.berapos</td><td></td><td></td><td></td><td>1</td></tr></table>"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6083,
+                "bbox": [
+                    630,
+                    619,
+                    1131,
+                    648
+                ],
+                "index": 35
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6428,
+                "bbox": [
+                    841,
+                    654,
+                    921,
+                    678
+                ],
+                "index": 36
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.504,
+                "bbox": [
+                    631,
+                    680,
+                    1133,
+                    707
+                ],
+                "index": 37
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.562,
+                "bbox": [
+                    817,
+                    706,
+                    947,
+                    731
+                ],
+                "index": 38
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7745,
+                "bbox": [
+                    633,
+                    730,
+                    1133,
+                    784
+                ],
+                "index": 39
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6857,
+                "bbox": [
+                    634,
+                    788,
+                    1044,
+                    817
+                ],
+                "index": 40
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7715,
+                "bbox": [
+                    633,
+                    818,
+                    1136,
+                    896
+                ],
+                "index": 41
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.92,
+                "bbox": [
+                    635,
+                    899,
+                    1136,
+                    980
+                ],
+                "index": 42
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9679,
+                "bbox": [
+                    652,
+                    982,
+                    1132,
+                    1764
+                ],
+                "index": 43,
+                "html": "<table><tr><td colspan=\"10\"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>MOVINENTO</td><td>Ralds d12 as</td><td>aUo D12</td><td>Saa 9 85 θ</td><td>2 Nes do</td><td>anOos</td><td>TOTAL</td><td>PASSAGRNB</td><td>concto dicto PO0r</td><td>Por dio</td><td>desino dots atos Co</td><td>Conros Crto</td><td>deaaens</td><td>TOAL</td></tr><tr><td>Exis:iam. Entraram.</td><td>25</td><td>8</td><td>8</td><td></td><td>2</td><td>26 </td><td>Pedidas .... Concedidas. Embarcadas para</td><td>a capital</td><td></td><td>N</td><td></td><td></td><td>000 000</td></tr><tr><td>Bagagem .</td><td></td><td></td><td></td><td></td><td></td><td colspan=\"7\">Sahiram Sahiram por conta propria.</td></tr><tr><td>Sahiram</td><td></td><td></td><td>4</td><td>+</td><td></td><td colspan=\"7\">Falleceram</td></tr><tr><td></td><td>25</td><td>8</td><td>8</td><td></td><td>2</td><td>43</td><td colspan=\"7\">1 fazendoiro fez pedido de 5 familias</td></tr><tr><td>Existem</td><td></td><td></td><td></td><td></td><td></td><td>E</td><td colspan=\"7\"></td></tr></table>"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8209,
+                "bbox": [
+                    660,
+                    1773,
+                    1159,
+                    1855
+                ],
+                "index": 44
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8181,
+                "bbox": [
+                    663,
+                    1858,
+                    1162,
+                    1926
+                ],
+                "index": 45
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7623,
+                "bbox": [
+                    1136,
+                    159,
+                    1646,
+                    219
+                ],
+                "index": 46
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7467,
+                "bbox": [
+                    1139,
+                    216,
+                    1648,
+                    268
+                ],
+                "index": 47
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7867,
+                "bbox": [
+                    1140,
+                    266,
+                    1647,
+                    319
+                ],
+                "index": 48
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7299,
+                "bbox": [
+                    1142,
+                    316,
+                    1644,
+                    369
+                ],
+                "index": 49
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8173,
+                "bbox": [
+                    1142,
+                    368,
+                    1644,
+                    421
+                ],
+                "index": 50
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8419,
+                "bbox": [
+                    1142,
+                    421,
+                    1647,
+                    473
+                ],
+                "index": 51
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.861,
+                "bbox": [
+                    1143,
+                    472,
+                    1648,
+                    522
+                ],
+                "index": 52
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8712,
+                "bbox": [
+                    1145,
+                    521,
+                    1649,
+                    573
+                ],
+                "index": 53
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8797,
+                "bbox": [
+                    1145,
+                    572,
+                    1649,
+                    624
+                ],
+                "index": 54
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8675,
+                "bbox": [
+                    1148,
+                    624,
+                    1651,
+                    676
+                ],
+                "index": 55
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7326,
+                "bbox": [
+                    1148,
+                    676,
+                    1650,
+                    729
+                ],
+                "index": 56
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9028,
+                "bbox": [
+                    1149,
+                    737,
+                    1650,
+                    791
+                ],
+                "index": 57
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9174,
+                "bbox": [
+                    1150,
+                    790,
+                    1651,
+                    840
+                ],
+                "index": 58
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8807,
+                "bbox": [
+                    1151,
+                    839,
+                    1650,
+                    893
+                ],
+                "index": 59
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8697,
+                "bbox": [
+                    1152,
+                    899,
+                    1653,
+                    949
+                ],
+                "index": 60
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8814,
+                "bbox": [
+                    1154,
+                    950,
+                    1654,
+                    1003
+                ],
+                "index": 61
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7677,
+                "bbox": [
+                    1155,
+                    986,
+                    1655,
+                    1054
+                ],
+                "index": 62
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8688,
+                "bbox": [
+                    1157,
+                    1052,
+                    1656,
+                    1105
+                ],
+                "index": 63
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8785,
+                "bbox": [
+                    1157,
+                    1103,
+                    1657,
+                    1155
+                ],
+                "index": 64
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8821,
+                "bbox": [
+                    1158,
+                    1156,
+                    1658,
+                    1208
+                ],
+                "index": 65
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9152,
+                "bbox": [
+                    1159,
+                    1207,
+                    1659,
+                    1258
+                ],
+                "index": 66
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8927,
+                "bbox": [
+                    1160,
+                    1259,
+                    1658,
+                    1311
+                ],
+                "index": 67
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9187,
+                "bbox": [
+                    1158,
+                    1311,
+                    1659,
+                    1361
+                ],
+                "index": 68
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9289,
+                "bbox": [
+                    1159,
+                    1361,
+                    1662,
+                    1413
+                ],
+                "index": 69
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.92,
+                "bbox": [
+                    1159,
+                    1413,
+                    1663,
+                    1466
+                ],
+                "index": 70
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9253,
+                "bbox": [
+                    1163,
+                    1474,
+                    1664,
+                    1526
+                ],
+                "index": 71
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9382,
+                "bbox": [
+                    1165,
+                    1526,
+                    1666,
+                    1576
+                ],
+                "index": 72
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9239,
+                "bbox": [
+                    1167,
+                    1577,
+                    1667,
+                    1629
+                ],
+                "index": 73
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.886,
+                "bbox": [
+                    1167,
+                    1629,
+                    1670,
+                    1706
+                ],
+                "index": 74
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9256,
+                "bbox": [
+                    1166,
+                    1705,
+                    1671,
+                    1757
+                ],
+                "index": 75
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9195,
+                "bbox": [
+                    1171,
+                    1757,
+                    1672,
+                    1809
+                ],
+                "index": 76
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9318,
+                "bbox": [
+                    1173,
+                    1808,
+                    1672,
+                    1861
+                ],
+                "index": 77
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9046,
+                "bbox": [
+                    1176,
+                    1861,
+                    1672,
+                    1915
+                ],
+                "index": 78
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    841,
+                    384,
+                    914,
+                    405
+                ],
+                "score": 0.995,
+                "text": "DIA 31"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    725,
+                    97,
+                    934,
+                    120
+                ],
+                "score": 0.982,
+                "text": "DIARIO OFFICIAL"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1374,
+                    88,
+                    1589,
+                    124
+                ],
+                "score": 0.873,
+                "text": "Abri 1900 J35"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    129,
+                    152,
+                    604,
+                    173
+                ],
+                "score": 0.92,
+                "text": "Omiciou á directoría pelinlo providencias para"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    112,
+                    205,
+                    369,
+                    226
+                ],
+                "score": 0.81,
+                "text": "Bresser os, 42 e 1l. "
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    108,
+                    176,
+                    603,
+                    202
+                ],
+                "score": 0.87,
+                "text": "qe srjs leila umi vistoria nos pradios da rua"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    426,
+                    209,
+                    448,
+                    225
+                ],
+                "score": 0.779,
+                "text": "6"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    235,
+                    234,
+                    465,
+                    263
+                ],
+                "score": 0.831,
+                "text": "Consotação—1. secrão"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    101,
+                    262,
+                    607,
+                    285
+                ],
+                "score": 0.934,
+                "text": " O dr, Synesio Pestana, inspector sanitarlo desta"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    112,
+                    291,
+                    608,
+                    309
+                ],
+                "score": 0.912,
+                "text": "seccao, visitou hują as cusaa da ruu 7 de Abril"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    108,
+                    317,
+                    279,
+                    335
+                ],
+                "score": 0.753,
+                "text": "de ns. 83 a 120."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    135,
+                    343,
+                    538,
+                    363
+                ],
+                "score": 0.945,
+                "text": "Estão em regulares condições hygienlcas."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    135,
+                    367,
+                    608,
+                    388
+                ],
+                "score": 0.935,
+                "text": "A' rua Braulio Gomes visitou a casa a. 10 a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    114,
+                    395,
+                    455,
+                    414
+                ],
+                "score": 0.959,
+                "text": "procura d+ uma fahrict de vinhos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    249,
+                    421,
+                    476,
+                    440
+                ],
+                "score": 0.905,
+                "text": "Consolação-3.secção"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    140,
+                    446,
+                    607,
+                    464
+                ],
+                "score": 0.952,
+                "text": "O dr, Evari-to Bacellar, inspeclor sanituri. des-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    118,
+                    473,
+                    610,
+                    491
+                ],
+                "score": 0.945,
+                "text": "ta sacçā, visitou hoje as casas da rua dr. Abrui-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    119,
+                    498,
+                    609,
+                    516
+                ],
+                "score": 0.913,
+                "text": "ches de n-. 1 a 51, iaclusive 1 armazem de sec:0s"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    119,
+                    524,
+                    529,
+                    543
+                ],
+                "score": 0.901,
+                "text": " cocheira da Comganhla Viação Pauliata."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    140,
+                    550,
+                    349,
+                    572
+                ],
+                "score": 0.897,
+                "text": "Vaccinuu O creanças."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    143,
+                    577,
+                    356,
+                    598
+                ],
+                "score": 0.92,
+                "text": "Expediu 3 1timações."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    143,
+                    601,
+                    612,
+                    619
+                ],
+                "score": 0.972,
+                "text": "Enconlrou lolas as casas em regulares condições"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    122,
+                    628,
+                    222,
+                    648
+                ],
+                "score": 0.868,
+                "text": "de aysio."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    143,
+                    653,
+                    400,
+                    671
+                ],
+                "score": 0.929,
+                "text": "E'bum o esttdo sanlla-io."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    256,
+                    678,
+                    482,
+                    697
+                ],
+                "score": 0.898,
+                "text": "Consolação -d.' secção"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    142,
+                    703,
+                    603,
+                    721
+                ],
+                "score": 0.931,
+                "text": "O dr, Alfredo Guaranà, inspector saaitario des"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    123,
+                    730,
+                    616,
+                    747
+                ],
+                "score": 0.922,
+                "text": "ta seccão, visituu hoje 25 casas. da rua Victorino"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    125,
+                    755,
+                    615,
+                    774
+                ],
+                "score": 0.915,
+                "text": "Carmile, de ns. 1 、 11 e d: 10 a -69, enconiran-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    125,
+                    782,
+                    615,
+                    798
+                ],
+                "score": 0.9,
+                "text": "do-ss, gi sua maiorià, em hoss condiçõss de as-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    124,
+                    807,
+                    174,
+                    830
+                ],
+                "score": 0.944,
+                "text": "seio."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    138,
+                    834,
+                    403,
+                    851
+                ],
+                "score": 0.91,
+                "text": "E'bm o estado sanitacio."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    271,
+                    914,
+                    458,
+                    960
+                ],
+                "score": 0.985,
+                "text": "NOTICIARIO"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    150,
+                    986,
+                    617,
+                    1004
+                ],
+                "score": 0.843,
+                "text": "Gunrdamnclonal-—loram declaradoe scm"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    131,
+                    1014,
+                    208,
+                    1034
+                ],
+                "score": 0.985,
+                "text": "effeito :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    151,
+                    1037,
+                    623,
+                    1056
+                ],
+                "score": 0.987,
+                "text": "O decreto de 17 de Março ulimo que nomeou"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    132,
+                    1115,
+                    625,
+                    1133
+                ],
+                "score": 0.949,
+                "text": "fsnteria da guarda nacional da comarca de Santos;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    132,
+                    1062,
+                    625,
+                    1084
+                ],
+                "score": 0.982,
+                "text": "Augusto Moreira de Carvalho para o posto de ca-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    132,
+                    1087,
+                    624,
+                    1109
+                ],
+                "score": 0.959,
+                "text": "pilão da I. companhia do 12b. hatalhão de in-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    154,
+                    1141,
+                    626,
+                    1158
+                ],
+                "score": 0.952,
+                "text": "O decreto da mesma dsta que annullou a no-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    135,
+                    1167,
+                    626,
+                    1184
+                ],
+                "score": 0.946,
+                "text": "meacão de Anlào Alves de Moura para o posio de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    136,
+                    1218,
+                    626,
+                    1235
+                ],
+                "score": 0.974,
+                "text": "fanteria da gusrda nacional da comarca de Santos,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    136,
+                    1243,
+                    626,
+                    1260
+                ],
+                "score": 0.981,
+                "text": "ficando subsistente o decrelo de 26 de Agosto do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    137,
+                    1295,
+                    212,
+                    1315
+                ],
+                "score": 0.924,
+                "text": "ofcial."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    136,
+                    1190,
+                    627,
+                    1212
+                ],
+                "score": 0.912,
+                "text": "capitão da 1.a companhia do 126.o batalhão de in-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    135,
+                    1268,
+                    628,
+                    1288
+                ],
+                "score": 0.967,
+                "text": "anno passado na parte tm que nomeou o referico"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    139,
+                    1373,
+                    511,
+                    1388
+                ],
+                "score": 0.925,
+                "text": "da Fazenda os seguintes pagamentos :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    155,
+                    1317,
+                    630,
+                    1339
+                ],
+                "score": 0.904,
+                "text": "agannentos.—Pelo Ministerio da Indus-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    137,
+                    1342,
+                    630,
+                    1365
+                ],
+                "score": 0.966,
+                "text": "trio, Viação e Obras Publicas foram solicitados do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    159,
+                    1395,
+                    630,
+                    1414
+                ],
+                "score": 0.943,
+                "text": "De £ 2093-13-4 á Companhia M1cchanica e Im-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    141,
+                    1447,
+                    632,
+                    1465
+                ],
+                "score": 0.965,
+                "text": "Estrada de Ferro Gentral do Brazil, em Dezem-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    141,
+                    1475,
+                    352,
+                    1493
+                ],
+                "score": 0.925,
+                "text": "bro do anno passado."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    139,
+                    1420,
+                    633,
+                    1443
+                ],
+                "score": 0.963,
+                "text": "portadora de S. Paulo, de fornecimento feito à"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    162,
+                    1497,
+                    632,
+                    1518
+                ],
+                "score": 0.973,
+                "text": "De E 552-14-10 idem, idem, idein, em Dezem-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    143,
+                    1525,
+                    353,
+                    1544
+                ],
+                "score": 0.994,
+                "text": "bro do anno passado."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    163,
+                    1556,
+                    634,
+                    1576
+                ],
+                "score": 0.899,
+                "text": "Camnra Syndlcal.—Cotação dos tuncos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    142,
+                    1580,
+                    633,
+                    1604
+                ],
+                "score": 0.944,
+                "text": "publtcos e particulares no dia 30 de Março de 1J00 :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    150,
+                    1815,
+                    644,
+                    1831
+                ],
+                "score": 0.941,
+                "text": "CL RSO OTFICIAL DOS FUNDOS PUBLICOS S PADTICULARES"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    349,
+                    1838,
+                    460,
+                    1856
+                ],
+                "score": 0.949,
+                "text": "Bancos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    152,
+                    1864,
+                    287,
+                    1885
+                ],
+                "score": 0.935,
+                "text": "São Paul)."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    571,
+                    1861,
+                    646,
+                    1884
+                ],
+                "score": 0.902,
+                "text": "14175000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    152,
+                    1890,
+                    358,
+                    1911
+                ],
+                "score": 0.918,
+                "text": "Nereantil de Santus."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    573,
+                    1887,
+                    647,
+                    1910
+                ],
+                "score": 0.909,
+                "text": "138$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    628,
+                    174,
+                    999,
+                    197
+                ],
+                "score": 0.949,
+                "text": "Pauliata de Vias Ferreás e Fluviaes ."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1040,
+                    172,
+                    1122,
+                    196
+                ],
+                "score": 0.873,
+                "text": "258500"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    626,
+                    200,
+                    1031,
+                    223
+                ],
+                "score": 0.891,
+                "text": "Dila de idem, à 30 diza (à vontade do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    649,
+                    230,
+                    753,
+                    250
+                ],
+                "score": 0.924,
+                "text": "reddedor."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1046,
+                    226,
+                    1121,
+                    247
+                ],
+                "score": 0.985,
+                "text": "2583000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    767,
+                    255,
+                    984,
+                    276
+                ],
+                "score": 0.994,
+                "text": "Leltras hypothecarias"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    631,
+                    278,
+                    1031,
+                    300
+                ],
+                "score": 0.951,
+                "text": "Banco de Credito Real de Sao Paulo, S,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    646,
+                    304,
+                    760,
+                    327
+                ],
+                "score": 0.902,
+                "text": "9. e 11.."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1057,
+                    302,
+                    1125,
+                    326
+                ],
+                "score": 0.852,
+                "text": "GS$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    648,
+                    330,
+                    1121,
+                    353
+                ],
+                "score": 0.92,
+                "text": "S. Paulo, 30 de Março de 1900.—O syndlco,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    630,
+                    357,
+                    771,
+                    379
+                ],
+                "score": 0.965,
+                "text": "Henry White."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    633,
+                    626,
+                    1126,
+                    642
+                ],
+                "score": 0.967,
+                "text": "CURSO OFFICIAL DOS FUNDOS PUBLICOS E PARTICULATES"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    847,
+                    656,
+                    916,
+                    680
+                ],
+                "score": 0.906,
+                "text": "Bancos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    635,
+                    681,
+                    1128,
+                    702
+                ],
+                "score": 0.706,
+                "text": "São Paulo........ . . 47s00O"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    823,
+                    708,
+                    942,
+                    731
+                ],
+                "score": 0.997,
+                "text": "Companhias"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    636,
+                    735,
+                    1002,
+                    752
+                ],
+                "score": 0.95,
+                "text": "I'aullsla de Vias Ferreas e Fluviaes."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1055,
+                    732,
+                    1130,
+                    753
+                ],
+                "score": 0.914,
+                "text": "200800)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    773,
+                    760,
+                    996,
+                    779
+                ],
+                "score": 0.969,
+                "text": "Letiras hypothecarias"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    640,
+                    793,
+                    1035,
+                    814
+                ],
+                "score": 0.946,
+                "text": "Banco de Cresito Roal de S. Paulo, á.*"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    650,
+                    820,
+                    892,
+                    839
+                ],
+                "score": 0.871,
+                "text": "a g géries."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1063,
+                    817,
+                    1131,
+                    838
+                ],
+                "score": 0.971,
+                "text": "635000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    641,
+                    842,
+                    1131,
+                    866
+                ],
+                "score": 0.922,
+                "text": " São Paulo, S1 de Março de 1900.-O syndico,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    640,
+                    871,
+                    787,
+                    893
+                ],
+                "score": 0.948,
+                "text": "Henry White."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    662,
+                    904,
+                    1133,
+                    922
+                ],
+                "score": 0.9,
+                "text": "Hospederin de Immigtartes.-Bo-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    640,
+                    929,
+                    1133,
+                    948
+                ],
+                "score": 0.972,
+                "text": "letim do movimento de immigranies no dia 31"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    640,
+                    956,
+                    836,
+                    976
+                ],
+                "score": 0.981,
+                "text": "de Março de 1900 :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    683,
+                    1778,
+                    1154,
+                    1800
+                ],
+                "score": 0.985,
+                "text": "Hospedaria de Immigrantes em São Paulo, 31"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    663,
+                    1804,
+                    1155,
+                    1826
+                ],
+                "score": 0.93,
+                "text": "de Março de 1900. — O ajudaate do cirector,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    665,
+                    1831,
+                    849,
+                    1851
+                ],
+                "score": 0.949,
+                "text": "Jeão M. Pinheiro."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    686,
+                    1862,
+                    1157,
+                    1885
+                ],
+                "score": 0.953,
+                "text": "Obttuario.—Forarn sepultados no Cemiterio"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    669,
+                    1889,
+                    1101,
+                    1910
+                ],
+                "score": 0.978,
+                "text": "Muaicipal do Araçà us seguintes cadaveres :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1137,
+                    193,
+                    1325,
+                    213
+                ],
+                "score": 0.928,
+                "text": "morragià cerebral."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1160,
+                    163,
+                    1642,
+                    187
+                ],
+                "score": 0.923,
+                "text": "Domingos dos Santos, 50, annos, braziletr; he-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1160,
+                    215,
+                    1645,
+                    238
+                ],
+                "score": 0.913,
+                "text": "Maria Luisa, 60 annos, itullana, cxsada; embo-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1143,
+                    244,
+                    1265,
+                    264
+                ],
+                "score": 0.929,
+                "text": "lia cerebrui."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1163,
+                    268,
+                    1641,
+                    290
+                ],
+                "score": 0.934,
+                "text": "Miathias Congo, 70 apnos, solteiro, efrlcaso ar-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1143,
+                    295,
+                    1289,
+                    317
+                ],
+                "score": 0.985,
+                "text": "terio scblerose."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1164,
+                    320,
+                    1636,
+                    340
+                ],
+                "score": 0.972,
+                "text": "Henedicts Maria Conceição, 19 annos, brazileira,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1147,
+                    348,
+                    1460,
+                    367
+                ],
+                "score": 0.894,
+                "text": "solleita; enuocaidite syphililica."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1166,
+                    371,
+                    1639,
+                    393
+                ],
+                "score": 0.947,
+                "text": "Antonio Correia Costa, 8? annos, porluguez, ca-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1145,
+                    399,
+                    1429,
+                    418
+                ],
+                "score": 0.96,
+                "text": "sado ; tuberculose pulmonar."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1164,
+                    422,
+                    1643,
+                    444
+                ],
+                "score": 0.937,
+                "text": "Féto masculino, flho de Ernesto Pertresi ;roas-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1145,
+                    452,
+                    1256,
+                    471
+                ],
+                "score": 0.987,
+                "text": "ceu morto."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1166,
+                    474,
+                    1643,
+                    495
+                ],
+                "score": 0.986,
+                "text": "Féto masculino, filho de Antorelli Giovanni; nas-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1146,
+                    503,
+                    1256,
+                    521
+                ],
+                "score": 0.902,
+                "text": "cet morlo."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1169,
+                    525,
+                    1643,
+                    547
+                ],
+                "score": 0.943,
+                "text": "Fétu masculiao, Mlho de Carmine Natulli; ras-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1148,
+                    554,
+                    1254,
+                    573
+                ],
+                "score": 0.969,
+                "text": "ceu morto."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1168,
+                    576,
+                    1643,
+                    598
+                ],
+                "score": 0.914,
+                "text": "Naria, 13 mezes, hrazileira, flba de João Ron';"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1147,
+                    602,
+                    1248,
+                    623
+                ],
+                "score": 0.967,
+                "text": "broncbite."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1169,
+                    628,
+                    1644,
+                    650
+                ],
+                "score": 0.908,
+                "text": "Jannuario Rocco, 5s annos, llaliauo, solteiro ;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1152,
+                    657,
+                    1352,
+                    673
+                ],
+                "score": 0.954,
+                "text": "insulliciencia mitral."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1170,
+                    679,
+                    1646,
+                    701
+                ],
+                "score": 0.948,
+                "text": "Benedicta Andtelina Jeaus, 23 annos, brazileirs,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1151,
+                    706,
+                    1373,
+                    727
+                ],
+                "score": 0.969,
+                "text": "solteira ; tuberculuse,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1173,
+                    743,
+                    1645,
+                    761
+                ],
+                "score": 0.961,
+                "text": "Aldo Rescoli, 17 annos, italiano, solteiro ; febre"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1152,
+                    770,
+                    1241,
+                    790
+                ],
+                "score": 0.998,
+                "text": "amarella,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1153,
+                    793,
+                    1646,
+                    814
+                ],
+                "score": 0.937,
+                "text": " Jacintho Pinbciro, 9 annos, portuguez; febre"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1152,
+                    820,
+                    1241,
+                    839
+                ],
+                "score": 0.98,
+                "text": "amárella."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1173,
+                    843,
+                    1646,
+                    863
+                ],
+                "score": 0.963,
+                "text": "Garlos, 8 mezes, brazileiro, filho de Josê Perel-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1153,
+                    871,
+                    1427,
+                    889
+                ],
+                "score": 0.995,
+                "text": "ra Simões; gastro enterite."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1176,
+                    903,
+                    1647,
+                    922
+                ],
+                "score": 0.91,
+                "text": "Féto masculino, Gillho de Vicetzu Boceia; nasceu"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1154,
+                    931,
+                    1224,
+                    951
+                ],
+                "score": 0.972,
+                "text": "morto."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1176,
+                    954,
+                    1650,
+                    975
+                ],
+                "score": 0.968,
+                "text": "Francisco, 17 mezes, brazileiro, filho de Miguel"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1158,
+                    982,
+                    1405,
+                    1000
+                ],
+                "score": 0.968,
+                "text": "Depetrangele; eciampsia."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1159,
+                    983,
+                    1404,
+                    1001
+                ],
+                "score": 0.945,
+                "text": "Depelrangele; eclampsia."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1177,
+                    1006,
+                    1652,
+                    1027
+                ],
+                "score": 0.959,
+                "text": "João das Dores Pestaua, 25 annos, portuguez,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1158,
+                    1033,
+                    1397,
+                    1053
+                ],
+                "score": 0.985,
+                "text": "solteiro; febre amarella."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1179,
+                    1056,
+                    1651,
+                    1078
+                ],
+                "score": 0.919,
+                "text": "Julio Cesar Niartins Pestana, 52 annos, portu-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1158,
+                    1085,
+                    1450,
+                    1102
+                ],
+                "score": 0.983,
+                "text": "guez, casado; febre amarella."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1181,
+                    1109,
+                    1653,
+                    1127
+                ],
+                "score": 0.946,
+                "text": "Acgelins, 3 annos, brazilcira, filha de Mitchele"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1161,
+                    1136,
+                    1412,
+                    1155
+                ],
+                "score": 0.983,
+                "text": "Gaira ; bronchite capillar."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1182,
+                    1160,
+                    1655,
+                    1179
+                ],
+                "score": 0.94,
+                "text": "Felicio Ferreira dos Santos, 31 annos, brazilei-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1161,
+                    1188,
+                    1491,
+                    1205
+                ],
+                "score": 0.974,
+                "text": "ro, casado; perilonile traumatica."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1182,
+                    1211,
+                    1653,
+                    1232
+                ],
+                "score": 0.971,
+                "text": "João Evangelista, 33 aonos, Lrazileiro, solteiro;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1163,
+                    1239,
+                    1279,
+                    1258
+                ],
+                "score": 0.97,
+                "text": "tuberculase."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1184,
+                    1264,
+                    1655,
+                    1283
+                ],
+                "score": 0.972,
+                "text": "Francisco, 1 annos, brazileiro, flho de d. Euge:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1166,
+                    1289,
+                    1558,
+                    1308
+                ],
+                "score": 0.99,
+                "text": "nia Maria Conceição; infecção malarica."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1183,
+                    1313,
+                    1654,
+                    1335
+                ],
+                "score": 0.97,
+                "text": "Msfalda Ferraz, 50 annos, brazileira, solteira;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1163,
+                    1341,
+                    1282,
+                    1359
+                ],
+                "score": 0.996,
+                "text": "queimadura."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1185,
+                    1363,
+                    1656,
+                    1385
+                ],
+                "score": 0.95,
+                "text": "Pedro Caifa, 2≥ annos, italiano solteito; insu-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1166,
+                    1391,
+                    1317,
+                    1410
+                ],
+                "score": 0.958,
+                "text": "ficiencia miirai."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1163,
+                    1416,
+                    1658,
+                    1438
+                ],
+                "score": 0.919,
+                "text": " Izabel Slatine, GJ angos, itatiana viuva; coa-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1165,
+                    1443,
+                    1316,
+                    1460
+                ],
+                "score": 0.883,
+                "text": "gestãc cercbral,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1186,
+                    1477,
+                    1659,
+                    1499
+                ],
+                "score": 0.941,
+                "text": "Angelo Baretta, 72 anno, ilaliano, viuvo ; scle-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1169,
+                    1505,
+                    1320,
+                    1521
+                ],
+                "score": 0.99,
+                "text": "rlise cerebral,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1190,
+                    1528,
+                    1663,
+                    1550
+                ],
+                "score": 0.914,
+                "text": "Angelo Tedesco, 3) apnoa, itsliano, casado ;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1168,
+                    1556,
+                    1240,
+                    1575
+                ],
+                "score": 0.993,
+                "text": "urenia."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1189,
+                    1579,
+                    1663,
+                    1600
+                ],
+                "score": 0.941,
+                "text": "Joaquim, 10 dias, brazileiro, [lho de João An"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1173,
+                    1609,
+                    1486,
+                    1625
+                ],
+                "score": 0.888,
+                "text": "tonio de O.iveira: inviali.idade."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1193,
+                    1632,
+                    1664,
+                    1653
+                ],
+                "score": 0.943,
+                "text": "Jozé Rodrigues, 4t annos, portuguez, casado;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1190,
+                    1656,
+                    1664,
+                    1679
+                ],
+                "score": 0.944,
+                "text": "Narcisa Amelia Araujo, 22 annus. brazileira,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1172,
+                    1684,
+                    1260,
+                    1706
+                ],
+                "score": 0.979,
+                "text": "solteira ;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1193,
+                    1708,
+                    1665,
+                    1730
+                ],
+                "score": 0.952,
+                "text": "Malvina Miaria Alexandrina, 35 anncs, solteira,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1163,
+                    1736,
+                    1472,
+                    1754
+                ],
+                "score": 0.978,
+                "text": " brazileira ; cachexia epileptica."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1196,
+                    1759,
+                    1667,
+                    1781
+                ],
+                "score": 0.96,
+                "text": "Paschoal Annunciato, 18 annes, ilaliano, soltei-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1174,
+                    1788,
+                    1335,
+                    1806
+                ],
+                "score": 0.979,
+                "text": "ro : tuberculose."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1196,
+                    1811,
+                    1669,
+                    1833
+                ],
+                "score": 0.892,
+                "text": "Leonardo Lote, 5 annos, italisno, caaado; fe-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1177,
+                    1838,
+                    1310,
+                    1859
+                ],
+                "score": 0.924,
+                "text": "bre iyphuide."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1187,
+                    1863,
+                    1670,
+                    1885
+                ],
+                "score": 0.951,
+                "text": "Antonio Pereira, S6 annos, pItuguez, casado;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1181,
+                    1889,
+                    1573,
+                    1910
+                ],
+                "score": 0.987,
+                "text": "peritonite em consequencia de fractura."
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1802,
+            "height": 2054
+        }
+    }
+]

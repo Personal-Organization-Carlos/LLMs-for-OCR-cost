@@ -1,0 +1,960 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "DIARIO OFFICIAL"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                36,
+                32,
+                980,
+                93
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "DO ESTADO DE SÃO PAULO"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                230,
+                94,
+                790,
+                119
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ANNO 30 — 32.º DA REPUBLICA — N. 73"
+                    }
+                ]
+            },
+            "bbox": [
+                34,
+                137,
+                380,
+                152
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "SÃO PAULO"
+                    }
+                ]
+            },
+            "bbox": [
+                405,
+                137,
+                577,
+                154
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "QUINTA-FEIRA, 1.º DE ABRIL DE 1920"
+                    }
+                ]
+            },
+            "bbox": [
+                628,
+                138,
+                961,
+                153
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Actos do Poder Executivo"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                67,
+                167,
+                461,
+                200
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "DECRETO N. 3185 — DE 30 DE MARÇO DE 1920"
+                    }
+                ]
+            },
+            "bbox": [
+                70,
+                217,
+                457,
+                232
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Abre á Secretaria da Fazenda e do Thesouro do Estado, um credito especial de vinte e cinco contos, novecentos e setenta e quatro mil e oitocentos e vinte réis..... (25:974§820), para fazer face às despezas effetuadas com a epidemia de grippe no exercício de 1919."
+                    }
+                ]
+            },
+            "bbox": [
+                30,
+                241,
+                495,
+                303
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "O Doutor Altino Arantes, Presidente do Estado de São Paulo,"
+                    }
+                ]
+            },
+            "bbox": [
+                28,
+                311,
+                492,
+                335
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Attendendo ao que lhe representou o sr. Secretario de Estado dos Negocios da Fazenda e do Thesouro e usando da faculdade que lhe confere a Lei nº. 1605 de 31 de Outubro de 1918,"
+                    }
+                ]
+            },
+            "bbox": [
+                28,
+                335,
+                492,
+                382
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Decreta :"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                77,
+                382,
+                144,
+                393
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Artigo 1.º — Fici aberto na Secretaria da Fazenda e do Thesouro do Estado um credito especial de vinte e cinco contos, novecentos e setenta e quatro mil e oitocentos e vinte réis (Rs. 25:974\\$820) para fazer face às despezas effectuadas, com a epidemia de grippe no exercício de 1919."
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                393,
+                492,
+                453
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Artigo 2.º — Revogam-se as disposições em contrário.\nPalacio do Governo do Estado de São Paulo, em 30 de Março de 1920."
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                453,
+                492,
+                488
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ALTINO ARANTES."
+                    }
+                ]
+            },
+            "bbox": [
+                252,
+                487,
+                386,
+                498
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "U. Herculano de Freitas."
+                    }
+                ]
+            },
+            "bbox": [
+                253,
+                498,
+                444,
+                512
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Publicado na Secretaria da Fazenda e do Thesou o do Estado de São Paulo, em 31 de Março de 1920. -- Theophilo M. Nobrega, director-geral."
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                520,
+                492,
+                559
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "DECRETO N. 3186 — DE 30 DE MARÇO DE 1920"
+                    }
+                ]
+            },
+            "bbox": [
+                64,
+                583,
+                448,
+                597
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Abre no Thesouro do Estado um credito de 253:739\\$000 para liquidação da despesa da Secretaria do Interior no exercício de 1919."
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                606,
+                486,
+                642
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "O Presidente do Estado, usando da auctorização que lhe é conferida pela lei n. 1.673, de 2 de Dezembro de 1919, Decreta:"
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                652,
+                490,
+                687
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Artigo único. — Fica aberto no Thesouro do Estado, à Secretaria de Estado dos Negocios do Interior, um credito suplementar de duzentos e cincoenta e tres contos sétecentos e triuta e nove mil réis (253:739\\$000), para saldar o deficit verificado nas seguintes rubricas do orçamento para o exercício de 1919:"
+                    }
+                ]
+            },
+            "bbox": [
+                23,
+                688,
+                490,
+                758
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "§ 2.º Senado .... .... .... 52:206\\$000"
+                    }
+                ]
+            },
+            "bbox": [
+                69,
+                758,
+                442,
+                770
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "§ 3.º Camara dos Deputados...... 201:533\\$000"
+                    }
+                ]
+            },
+            "bbox": [
+                69,
+                770,
+                442,
+                783
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "253:739$000"
+                    }
+                ]
+            },
+            "bbox": [
+                347,
+                793,
+                442,
+                805
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Palacio do Governo do Estado de São Paulo, nos 30 de Março de 1920."
+                    }
+                ]
+            },
+            "bbox": [
+                23,
+                804,
+                488,
+                829
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ALTINO ARANTES."
+                    }
+                ]
+            },
+            "bbox": [
+                277,
+                829,
+                413,
+                840
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Oscar Rodrigues Alves."
+                    }
+                ]
+            },
+            "bbox": [
+                278,
+                840,
+                461,
+                854
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "DECRETO N. 3187 — DE 3 DE MARÇO DE 1920"
+                    }
+                ]
+            },
+            "bbox": [
+                66,
+                885,
+                445,
+                900
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Abre no Thesouro do Estado, à Secretaria de Estado dos Negocios do Interior, um credito especial de rs. ..... 3.386:403§468, para as despesas feitas com a epidemia de grippe."
+                    }
+                ]
+            },
+            "bbox": [
+                23,
+                909,
+                488,
+                959
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "O presidente do Estado, usando da auctorisação que lhe é conferida pela lei n. 1.605, de 31 de Outubro de 1918,"
+                    }
+                ]
+            },
+            "bbox": [
+                19,
+                967,
+                486,
+                994
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Decreta :"
+                    }
+                ]
+            },
+            "bbox": [
+                559,
+                168,
+                630,
+                180
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Artigo unico. — Fica aterto no Thesouro do Estado, à Secretaria de Estado dos Negocios do Interior, um credito especial de tres mil trezentos e oitenta e seis contos quatrocentos e trez mil quatrocentos e sessenta e oito réis..... (3.386:403\\$468), para as despesas feitas com a epidemia de grippe."
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                180,
+                978,
+                251
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Palacio do Governo; do Estado de São Paulo, aos 30 de Março de 1920."
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                250,
+                977,
+                274
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ALTINO ARANTES."
+                    }
+                ]
+            },
+            "bbox": [
+                767,
+                273,
+                902,
+                285
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Oscar Rodrigues Alves."
+                    }
+                ]
+            },
+            "bbox": [
+                767,
+                285,
+                950,
+                298
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "INTERIOR"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                654,
+                330,
+                829,
+                351
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Por decretos de 31 do correnté :"
+                    }
+                ]
+            },
+            "bbox": [
+                555,
+                363,
+                809,
+                375
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "foram aposentados o dr. Augusto Militão Pacheco, inspector sanitario da Capital e o sr. Antonio Egydio Martins, 1.º escripturário da Repartição de Estatística e Archivo do Estado;"
+                    }
+                ]
+            },
+            "bbox": [
+                508,
+                375,
+                975,
+                423
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- foi removido o inspector sanitario da Delegacia de Saúde de Compinas, dr. João Paes Leme de Monlevade, para igual cargo-nesta Capital;"
+                    }
+                ]
+            },
+            "bbox": [
+                508,
+                422,
+                975,
+                458
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "foram uomeados inspectores sanitarios os drs. João Thomaz Monteiro da Silva, para S. Carlos; Daniel Martins, para Botucatú; Justiniano Lisbôa e Jorge Dutra Fragoso, para Santos;"
+                    }
+                ]
+            },
+            "bbox": [
+                508,
+                457,
+                975,
+                504
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "foi nomeado o sr. Alfredo de Barros Santos, para exercer o cargo de auxiliar do director da Escola Profissional Masculino da Capital;"
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                503,
+                975,
+                539
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": ". foi promovido a 2.º escripturario da Directoria Geral do Serviço Sanitario, o 3.º escripturario da mesma repartição, sr. Bernardino de Campos Araujo;"
+                    }
+                ]
+            },
+            "bbox": [
+                508,
+                538,
+                975,
+                574
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "foi nomeado o dr. Henrique Jorge Guedes para exercer o cargo de lente substituto interino da 2.ª secção da Escola Polytechnica de S. Paulo;"
+                    }
+                ]
+            },
+            "bbox": [
+                508,
+                573,
+                975,
+                609
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "foi transferido o dr. Francisco Pereira Ramos; lente cathedratico das cadeiras reunidas de Physica Industrial e Electrotechnica (1. "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^{a}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " parte) da Escola Polytechnica de São Panlo, para lente cathedratico da cadeira isolada de Economia Política. Elementos de Estatisca. Noções de Direito Administrativo da mesma Escola, de acordo com art. 20, § 3. "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "^{o}"
+                    },
+                    {
+                        "type": "text",
+                        "content": " do Decreto n. 2.931, de 12 de Junho de 1918;"
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                608,
+                975,
+                690
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "foi annexada ao grupo escolar de Pirajú a escola mixta urbaua, das Paivas, da mesma localidade;"
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                690,
+                972,
+                714
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "foi dada a denominação de «Francisco Simões», ao grupo escolar de Dois Corregos;"
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                713,
+                972,
+                737
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "foi effectivado no cargo de director do grupo escolar de Tambahú, o actual director interino, professor Mancel Nogueira de Carvalho;"
+                    }
+                ]
+            },
+            "bbox": [
+                507,
+                736,
+                972,
+                772
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "foram nomeadas adjunctas dos grupos escolares de Ribeirão Bonito e Brotas, as seguintes professoras dd. Maria Paula de Paula Sousa, Maria Silveira Almeida, respectivamente;"
+                    }
+                ]
+            },
+            "bbox": [
+                505,
+                771,
+                972,
+                818
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "foram removidos, a pedido, os seguintes adjunctos de grupos escolares:"
+                    }
+                ]
+            },
+            "bbox": [
+                505,
+                817,
+                971,
+                841
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "d. Maria Augusta de Andrade Justo, do de Brotas para o «Antonio Padilha», de Sorocab;"
+                    }
+                ]
+            },
+            "bbox": [
+                505,
+                841,
+                970,
+                865
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "d. Dulce de Barros Pereira, de de Brotas, para o «Visconde de Porto Seguro», de Sorocaba;"
+                    }
+                ]
+            },
+            "bbox": [
+                505,
+                864,
+                970,
+                888
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Luiz do Amaral Waguer, do «Antonio Padilha», de Sorocaba, para o de Brotas;"
+                    }
+                ]
+            },
+            "bbox": [
+                505,
+                887,
+                970,
+                912
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "d. Marianna Mastroandréa, do «Visconde de Porto Seguro», de Sorocaba, para o de Brotas;"
+                    }
+                ]
+            },
+            "bbox": [
+                505,
+                911,
+                970,
+                934
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "d. Edemea Rudge Ramos Parada, do de Belémzinho, para o de S. João. ambos desta Capital;"
+                    }
+                ]
+            },
+            "bbox": [
+                505,
+                934,
+                970,
+                958
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "foram exoneradas, a pedido, do cargo de adjunctas do grupo escolar do Bebedouro, d. Luiza Oliveira Algodoal e d, Tamilde Rossi Magalhães, do 1.º de Araraquara;"
+                    }
+                ]
+            },
+            "bbox": [
+                505,
+                958,
+                970,
+                994
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "ESTADOS UNIDOS DO BRAZIL"
+                    }
+                ]
+            },
+            "bbox": [
+                275,
+                7,
+                736,
+                31
+            ]
+        }
+    ]
+]

@@ -1,0 +1,936 @@
+[
+    {
+        "type": "text",
+        "text": "Para as Inspectorias Distrietaes Èscolares",
+        "text_level": 2,
+        "bbox": [
+            109,
+            61,
+            318,
+            86
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Officios ns:: 13, do Grupo Eseolar deNovo Horizonte; 5, do Grupo Escolar de Joanopolis; 15, do Grupo Escolar de Brotas.",
+        "bbox": [
+            82,
+            94,
+            345,
+            142
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3.• e 4.\\* SECÇÕES",
+        "text_level": 2,
+        "bbox": [
+            150,
+            150,
+            285,
+            164
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Escolas Isoladas e Reunidas",
+        "text_level": 2,
+        "bbox": [
+            120,
+            172,
+            307,
+            187
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Papeis entrados",
+        "text_level": 2,
+        "bbox": [
+            163,
+            195,
+            270,
+            207
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Requerimcutos de: Ignacio Carvalho Landel, Judith Frota Anua Mello Coclho, Fraucisca von Atzinzen, Davina Brasiliana dos Anjos, Maria dos Santos Carvaiho, Anna Vieira, Giacomo Ventrili e outros, Paulo Ponciano Piedade, Eugenia Castro Poreira Leite, Gon;alo D'Amar Ferreira, Maria Apparecida Gur gel Pinto, Genesia Costa, Alda Moreiia.",
+        "bbox": [
+            82,
+            207,
+            345,
+            308
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Oficios de: N. 23, do Iusp. do 20.. Districto; n. 5, do Insp. do 76.• Distrieto ; n. 7O, do Insp. do 12.• Distrieto; n. 32, do Insp. do 18.° Districto; u. 11, do Insp do 72.° Districto; n. 7, do Insp. do 33.° Districto; n. 41, do Insp. do 78.° Distrieto; n. 40, do Iusp. do 78.° Distrieto.",
+        "bbox": [
+            82,
+            307,
+            345,
+            396
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Papeis sahidos",
+        "bbox": [
+            167,
+            396,
+            263,
+            406
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Para a Secretaria do Interior",
+        "bbox": [
+            115,
+            405,
+            315,
+            418
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Requerimentts de: Jacyrs de Abreu, Gabriel Gonçalves e outros, Claudiua Aquino Rodrigues, Maria Oliveira Nogucira, Gabriel Prioli, Euclydes Moraes Rosa, Maria de Lourdes Andrade, Adelaide Fonseca de Barros, Luiz Conceição Silva.",
+        "bbox": [
+            82,
+            418,
+            345,
+            496
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Para as Inspectorias Districtaes",
+        "bbox": [
+            104,
+            494,
+            318,
+            506
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ao sr, Insp. 'de Apiahy, requer. de Dario Almeida Dias.",
+        "bbox": [
+            82,
+            506,
+            343,
+            529
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ao sr. Insp. de Itapetininga, requer. de Rosa Rossi.",
+        "bbox": [
+            82,
+            529,
+            343,
+            551
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ao sr. Insp. de Mogy Mirim, requer. de Tild, Magnocavallo.",
+        "bbox": [
+            82,
+            550,
+            342,
+            574
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "5. SECÇÃO",
+        "text_level": 2,
+        "bbox": [
+            171,
+            581,
+            256,
+            595
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Escolas Normaes e outras",
+        "text_level": 2,
+        "bbox": [
+            126,
+            605,
+            299,
+            618
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Papeis entrados",
+        "text_level": 2,
+        "bbox": [
+            161,
+            626,
+            264,
+            638
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ofieios: Dà Directoria da Eseola Norinal Livre de São José dos Campos, sob n. 34; da Inspectoria fiscal da Eseola Normal Livre do Mogy das Cruzes, sob ns. 13 e 14; da Iuspectoria fiscal da Esecla Normal Livre «Dr. Jolio Prostes», em Jacarehy, sob n. 7.",
+        "bbox": [
+            79,
+            638,
+            343,
+            716
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Papeis sahídos",
+        "bbox": [
+            160,
+            715,
+            263,
+            727
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Para o Thesouro do Estado",
+        "bbox": [
+            118,
+            726,
+            302,
+            738
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Portarias de licença de: d. Maria Thereza de Oliveira e do sr. Mauoel Arystobulo de Oliveira Freitas.",
+        "bbox": [
+            79,
+            738,
+            340,
+            771
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Titalo de nomeação de: d. Olivia Bianeo.",
+        "bbox": [
+            79,
+            771,
+            342,
+            795
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "INSPECÇÃO MEDICA .ESCOLAR",
+        "text_level": 2,
+        "bbox": [
+            109,
+            817,
+            316,
+            849
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Expediente do dia 28 de Março de 1930",
+        "text_level": 2,
+        "bbox": [
+            87,
+            857,
+            316,
+            882
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. ZONA — Dr. Wladimir Kehl Inspeecionou 36 alumnos do Grupo EseolarMarechalDoodoro,,vaceinou 13e expéaiu 5boletins sanitarios. 2. ZonA -Dr.a Carmela Julani Inspeccionou 18 alumnos da 62..es cola«7 de Setembro, requisiton 3 ana lyses, revaccinou 14, expediu 7 boletins sanitarios e fez 1 pielecção sobre hygiene individual.",
+        "bbox": [
+            72,
+            890,
+            340,
+            973
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            358,
+            63,
+            621,
+            99
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Expedia mais 3 boletius sanitario para o Grupo Eseolar «Pedro Il».",
+        "bbox": [
+            358,
+            98,
+            621,
+            121
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3.• ZONA - Dr.a Margarida do Camargo Barros",
+        "bbox": [
+            372,
+            121,
+            619,
+            143
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Inspeccionon 52alumnos da Escole Modelo &Caetano do Campos', vaccinou 1, rovaccinou 11, expediu 7 boletins sanitarios e fez 1 prelecção sobre vacccina antivariolica.",
+        "bbox": [
+            358,
+            140,
+            621,
+            199
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "4.ª ZONA — Dr Nery Gonçalves",
+        "bbox": [
+            366,
+            198,
+            603,
+            210
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Inspeccionou 31 alumnos do Grupo Escolar «Maria José», revaccinou 31, expediu 10 bolotins sauitarios e determinou 1 evieção por parotidite.",
+        "bbox": [
+            358,
+            210,
+            621,
+            253
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "5.ª ZONA — Dr. Araripo Sacupira",
+        "bbox": [
+            374,
+            253,
+            606,
+            265
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Inspeccionou 43 alumnos do 1.º Grapo Escolar do Cambucy, requisitou 2 analyses, vaceineu 4, revaccinou 11, expediu 5 boletins sanitarios e fez 1 preleeção sobre bygiene iudividual.",
+        "bbox": [
+            358,
+            264,
+            621,
+            320
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "6.ª ZONA Dr. Botelho Comenale Inspeccionou 47 alumnos do Grupo Escolar aOswaldo Craz», requisiton 1 analyse o vaccinou 3, revaccinou 8 e expediu 13 boletins sanitarios.",
+        "bbox": [
+            358,
+            320,
+            621,
+            376
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "7. ZONA — Dr, Pedroso Camargo",
+        "bbox": [
+            374,
+            375,
+            606,
+            388
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Não apresentou parte de ser iço.",
+        "bbox": [
+            372,
+            386,
+            600,
+            398
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "8. ZONA -- Dr Durval Marcondes",
+        "bbox": [
+            374,
+            397,
+            606,
+            409
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Inspeeçiouou 36 alumnos do 1.° Grnpo Escolar do Braz, vaecinon 1, revaccinou 3 e expediu 3 boletins sanitarios e foz 1 prelecção sebre vaceinação antivariolica e suas vautagens.",
+        "bbox": [
+            358,
+            408,
+            619,
+            465
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "9.“ ZONA — Dr. Leoncio de Queiroz Inspeccionou nesta Directoria 2 professoras e fez 1 deligencia.",
+        "bbox": [
+            358,
+            464,
+            619,
+            500
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Inspecção de saúde",
+        "text_level": 2,
+        "bbox": [
+            423,
+            506,
+            553,
+            521
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Foram inspecciouados nesta Directoria: as professora d.d Maria José Brasiliense Fusco e Maria José Nogueira, scndo encaminbados os respeetivos laudos.",
+        "bbox": [
+            356,
+            529,
+            619,
+            586
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "No n. 27-A, da rua Fernando de Albuquerque, não foi encontrada a professora d. Antonietta Pimeutel Muniz.",
+        "bbox": [
+            356,
+            585,
+            618,
+            619
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Não compareceu o professor sr. Archimedes Aristeu de Carvalho.",
+        "bbox": [
+            356,
+            618,
+            618,
+            642
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Assistencia Medica",
+        "text_level": 2,
+        "bbox": [
+            424,
+            650,
+            551,
+            664
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "I-- Clinica de molestias internas e verminoses — Dr. Aleiuo Braga",
+        "bbox": [
+            370,
+            672,
+            618,
+            696
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Examinou 1 alumno, deu 1 consulta, 2 praseripções medicas e organizou as respectivas ñchas.",
+        "bbox": [
+            356,
+            695,
+            618,
+            730
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "II -Clinica de molestias da pelle e uro-genitaos-Dr. L. V.Catta-Preta",
+        "bbox": [
+            364,
+            730,
+            618,
+            761
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Examinou 3 alumnos, deu 4 consultas, 5 preseripções medicas, fez 1 curativo e organizou as respectivas ficbas.",
+        "bbox": [
+            354,
+            761,
+            616,
+            796
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "III Clinica de molestias do olhos e",
+        "bbox": [
+            362,
+            795,
+            616,
+            808
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "correcção da vista - Dr. Danton Malta",
+        "bbox": [
+            408,
+            805,
+            616,
+            829
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Examinou 8 alumuos, deu 2 preseripções medicas, 5 prescripções de oculos e organizou as respectivas fichas.",
+        "bbox": [
+            353,
+            828,
+            616,
+            863
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Examinou nesta Directoria 1 professora.",
+        "bbox": [
+            353,
+            863,
+            616,
+            885
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "IV  Clinica de molestias de ouvido, nariz e garganta - Dr. Silvestre Passy",
+        "bbox": [
+            354,
+            884,
+            614,
+            917
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Examinou 5 alumnos,: deu 1 preseripçãe medica e orgauizou as respectivas fichas.",
+        "bbox": [
+            351,
+            917,
+            616,
+            950
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Inspeccionoa nesta Directoria 2 profesoras e fez 1 deligeneia.",
+        "bbox": [
+            351,
+            949,
+            614,
+            974
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Asistencia Dentaria",
+        "text_level": 2,
+        "bbox": [
+            698,
+            63,
+            838,
+            78
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dr. Campos de Oliveira",
+        "text_level": 2,
+        "bbox": [
+            687,
+            86,
+            846,
+            101
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Acompanhou o sr. dr. dircctor geral da Instrucção P ublica, emvisitas aos gabinetes dentarios dos Grupos Escolares a Marechal Floriano , «Marechael Deodoroz, Jardim America, Carmo, Itahim e Escola Normnal da Praça.",
+        "bbox": [
+            632,
+            109,
+            896,
+            180
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Resnmo",
+        "text_level": 2,
+        "bbox": [
+            740,
+            187,
+            792,
+            200
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Visitas a escolas publicas 6   \nVisita a escola particular 1   \nAlumnos inspeecionados 263   \nAnalyses requisitadas 6   \nAlumuos vacciuados contra a variola 22   \nAlumuos reia cinados ife n 78   \nBoletins sauitsrics axpedidos 50   \nEvicção determinada 1   \nPrelecçõcs sobre hygiene individual 4   \nIosp. de saúde uesta Ditectoria 2   \nDeligencia 1   \nExames geraes 17   \nCnsultas 5   \nPreseripções medicas 10   \nProscripções de oculos 5   \nExame especialisado 1   \nCurativo 1",
+        "bbox": [
+            633,
+            208,
+            895,
+            401
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "DIRECTORIA GERAL DO SERVIÇO SANITARIO",
+        "text_level": 2,
+        "bbox": [
+            638,
+            420,
+            893,
+            452
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "SECÇÃO DE EXPEDIENTE",
+        "text_level": 2,
+        "bbox": [
+            662,
+            462,
+            865,
+            478
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Eéxpediente do dia 29 de Março do 1930",
+        "text_level": 2,
+        "bbox": [
+            660,
+            486,
+            863,
+            511
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Requerínentos despachados pelo Dr. Director Geral e informados, pelas seguintes seeções :",
+        "bbox": [
+            632,
+            519,
+            893,
+            557
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Inspectoria da Fise. do Mediciua e Pharmacia",
+        "text_level": 2,
+        "bbox": [
+            651,
+            563,
+            870,
+            589
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Joo de Lucea.—O predio poderá ser acceito.",
+        "bbox": [
+            630,
+            597,
+            892,
+            621
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Osear Cabral.—Deferido.",
+        "bbox": [
+            646,
+            619,
+            811,
+            631
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Gouveia & Oliveira. — Poderá funecionar a título precario, uma vez pravado o pagameuto da taxa e exhididos os livros á rublica.",
+        "bbox": [
+            630,
+            631,
+            892,
+            676
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Instituto Biochimico Opotherapico Ltd.-Compareçam à Inspectoria para regularização do contracto de locação.",
+        "bbox": [
+            630,
+            675,
+            892,
+            710
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Januarío da Cnnba Mello.—Junte'attestado de sanidale e recolha a taxa devida.",
+        "bbox": [
+            630,
+            708,
+            890,
+            743
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "João Baptista Pexrone. — Prov. Archive-se.",
+        "bbox": [
+            630,
+            742,
+            892,
+            764
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ambrosiua do Canto Barros, — Prov. Archive-se.",
+        "bbox": [
+            630,
+            764,
+            892,
+            787
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Francisco Serpe.—Loferido. Ullicie-se. Francisco Serpe.—Doferido. Officie-se.",
+        "bbox": [
+            645,
+            785,
+            889,
+            799
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Oscal Cabrai. — Deferido, uma vez paga a taga legal.",
+        "bbox": [
+            630,
+            791,
+            890,
+            820
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Čid & Campãz.—Deferido.",
+        "bbox": [
+            645,
+            819,
+            824,
+            832
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Engenharia Sanitaria",
+        "text_level": 2,
+        "bbox": [
+            690,
+            840,
+            833,
+            855
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "R. Santa Rosa, 39, apartamento 34. —Prov. Archive-se.",
+        "text_level": 2,
+        "bbox": [
+            629,
+            863,
+            889,
+            888
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Inspectoria de Molestias Iufecciosas",
+        "text_level": 2,
+        "bbox": [
+            643,
+            894,
+            874,
+            910
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "R. da Penha,. 11 Prorogo o prazo por 60 dias, afim de cumprir a intimação.",
+        "bbox": [
+            629,
+            917,
+            889,
+            952
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Largo do Belem, 21. — Prov, ArchivO-sa",
+        "bbox": [
+            629,
+            952,
+            889,
+            976
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "3192 Terça-feira, 1",
+        "bbox": [
+            125,
+            41,
+            266,
+            54
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "DIARIO OFFICIAL",
+        "bbox": [
+            410,
+            41,
+            549,
+            55
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Abril 1930",
+        "bbox": [
+            771,
+            43,
+            854,
+            57
+        ],
+        "page_idx": 0
+    }
+]

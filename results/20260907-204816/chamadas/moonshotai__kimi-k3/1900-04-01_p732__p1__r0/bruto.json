@@ -1,0 +1,86 @@
+{
+  "chave": "moonshotai/kimi-k3|1900-04-01_p732|p1|0",
+  "registro": {
+    "model_id": "moonshotai/kimi-k3",
+    "prompt_id": "p1",
+    "doc_id": "1900-04-01_p732",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 99.7112186999293,
+    "prompt_tokens": 5184,
+    "completion_tokens": 3408,
+    "total_tokens": 8592,
+    "cost_usd": 0.066672,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Moonshot AI",
+    "generation_id": "gen-1788830422-9NWx7cAJ87OoQV5wZ6pD",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T01:20:23Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788830422-9NWx7cAJ87OoQV5wZ6pD",
+        "object": "chat.completion",
+        "created": 1788830422,
+        "model": "moonshotai/kimi-k3",
+        "provider": "Moonshot AI",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diário Oficial - Abril 1900</title>\n<style>\n  body { font-family: \"Times New Roman\", serif; margin: 20px; }\n  .header { display: flex; justify-content: space-between; border-bottom: 3px double #000; padding-bottom: 4px; font-weight: bold; }\n  .header .title { font-size: 1.2em; }\n  .columns { display: flex; }\n  .col { width: 33.33%; padding: 8px; border-right: 1px solid #000; text-align: justify; font-size: 0.9em; }\n  .col:last-child { border-right: none; }\n  h2, h3 { text-align: center; }\n  p { text-indent: 1.5em; margin: 0.4em 0; }\n  .center { text-align: center; }\n  .small { font-variant: small-caps; }\n</style>\n</head>\n<body>\n\n<div class=\"header\">\n  <span>738 &nbsp; Domingo, 1</span>\n  <span class=\"title\">DIARIO OFFICIAL</span>\n  <span>Abril &nbsp; 1900</span>\n</div>\n\n<div class=\"columns\">\n\n  <!-- COLUNA 1 -->\n  <div class=\"col\">\n    <p>Ao director do grupo escolar de Botucatú, pedindo orçamento das despesas a que se refere o seu officio de 12 do corrente;</p>\n    <p>Ao director do grupo escolar de Bella Vista, auctorizando as despesas constantes do orçamento que acompanhou o seu officio n. 7 do corrente mez;</p>\n    <p>Ao director da eschola-modelo de Itapetininga, auctorizando a entrega de varios objectos á professora da eschola mista do bairro do Porto;</p>\n    <p>Ao director do <i>Diario Official</i>, recommendando a remessa dos cartões pedidos para o grupo escolar de Ribeirão Preto;</p>\n    <p>Ao secretario da Agricultura, pedindo que ordene as providencias solicitadas por officio de 7 do corrente, em relação ao grupo escolar de Bella Vista.</p>\n\n    <h2>Agricultura</h2>\n\n    <p class=\"center small\">EXPEDIENTE DO DIA 30 DE MARÇO DE 1900</p>\n\n    <h3>1.ª SECÇÃO</h3>\n\n    <p>Solicitaram-se do dr. secretario da Fazenda:</p>\n    <p>Pagamentos:</p>\n    <p>De 7:500$000, á «City of Santos Improvements Company, Limited», pela agua fornecida, em Outubro, Novembro e Dezembro de 1899, para os serviços de extincção de incendios e irrigação das ruas da cidade de Santos;</p>\n    <p>De 1:568$210, a Lebre, Castilho &amp; Comp., pelo fornecimento de artigos diversos á Repartição de Aguas e Esgottos, em Fevereiro ultimo;</p>\n    <p>De 792$400, a Espindola, Siqueira &amp; Comp., pelo fornecimento de artigos diversos á Repartição de Aguas e Esgottos, em Fevereiro ultimo;</p>\n    <p>De 138$100, a C. Hildebrand &amp; Comp., pelo fornecimento de artigos á mesma repartição, em Fevereiro ultimo;</p>\n    <p>De 2:499$400, a Bastiano Buona Vita, por materiaes fornecidos á mesma repartição, em Fevereiro ultimo;</p>\n    <p>De 1:255$290, a Eduardo B. Kneesse, por materiaes fornecidos, em Fevereiro ultimo, á mesma repartição;</p>\n    <p>De 1:023$260, a Kiegan &amp; Schiefferdecker, por identico fornecimento á mesma repartição, em Fevereiro ultimo;</p>\n    <p>De 6:000$000, á Companhia Mechanica e Importadora de São Paulo, por identico fornecimento á mesma repartição, em Fevereiro ultimo;</p>\n    <p>De 250$000, a d. Vicencia das Neves, pelo fornecimento, no corrente mez, de 1000 saccos de algodãosinho, para o serviço de distribuição de sementes aos lavradores do Estado.</p>\n    <p>De 1:181$160, a Francisco Duarte &amp; Irmão, pelo fornecimento de forragem á Repartição de Aguas e Esgottos, em Fevereiro ultimo;</p>\n    <p>De 60$000, a Luiz Shina &amp; Comp., pelo fornecimento de artigos á mesma repartição, em Fevereiro ultimo;</p>\n    <p>De 81$30, a Del Piccino &amp; Comp., pelo fornecimento de artigos á mesma repartição, em Fevereiro ultimo;</p>\n    <p>De 83$165, á Companhia de Gaz de São Paulo, pelo fornecimento de gaz á Repartição de Aguas e Esgottos, em Janeiro ultimo;</p>\n    <p>De 300$00, a Brovise Giovani, por materiaes</p>\n  </div>\n\n  <!-- COLUNA 2 -->\n  <div class=\"col\">\n    <p>fornecidos, em Fevereiro ultimo, á Repartição de Aguas e Esgottos;</p>\n    <p>De 356$380, a Francisco Gonçalves, pelo fornecimento de forragem á mesma repartição, em Fevereiro ultimo.</p>\n    <p>Credito da quantia de 3:311$200 ao amanuense da Superintendencia de Obras Publicas, João Alfredo Baptista Borba, por despesas, em Fevereiro ultimo, com o pagamento de diarias e transportes de engenheiros, e outras de expediente; recolhendo o mesmo funcionario aos cofres do Thesouro o saldo, em seu poder, da quantia de 8$500.</p>\n    <p>Adeantamento da quantia de 680$750, ao engenheiro da Superintendencia de Obras Publicas, Victor Andrigo, para occorrer ás despesas com os reparos do telhado do Hospicio de Alienados da capital.—Deu-se conhecimento ao dr. director da Superintendencia;</p>\n    <p>Permissão para o engenheiro Antonio By depositar, no Thesouro do Estado, a quantia de 900$00, como garantia da proposta que pretende apresentar para a construcção de uma cadeia em S. Bento do Sapucahy.</p>\n    <p>Auctorizou-se a Commissão Geographica e Geologica a desenbolsar 3:200$000, com acquisição de oito animaes para os trabalhos das turmas de campo.</p>\n    <p>Declarou-se á Superintendencia de Obras Publicas que fica approvado o contracto celebrado com Francisco José do Prado, para o serviço de passagens em balsa sobre o rio Parahyba, na estrada de Santa Branca a Jacarehy.</p>\n    <p>Devolveram-se á Repartição de Aguas e Esgottos, para a necessaria rectificação, as contas apresentadas pela casa Erico Milia &amp; Comp.</p>\n    <p>Realizou-se, hoje, 31 de Março de 1900, nesta secretaria, a abertura das propostas apresentadas para a construcção de uma cadeia em S. Bento do Sapucahy, as quaes, assignadas pelos cidadãos Antonio By, Nicola Grigola, Santiago Stormini, José Mollica e Santo Bertollazzi, foram pela respectiva junta, julgadas conforme para decisão ulterior.</p>\n\n    <p class=\"center small\">REQUERIMENTO DESPACHADO</p>\n\n    <p>Da City of Santos Improvements Company, Limited, pedindo reconsideração do despacho de 22 de Fevereiro ultimo, e apresentando conta de 7:500$000 de agua fornecida para a extincção de incendios e irrigação das ruas da cidade de Santos, em Outubro, Novembro e Dezembro de 1899.—Mantenho o despacho de 22 de Fevereiro ultimo. Requisite-se o pagamento de 7:500$000.</p>\n\n    <h2>Justiça</h2>\n\n    <p class=\"center small\">EXPEDIENTE DO DIA 31 DE MARÇO DE 1900</p>\n\n    <h3>1.ª SUB-DIRECTORIA</h3>\n\n    <p class=\"center small\">1.ª SECÇÃO</p>\n\n    <p>Transmittiu-se:</p>\n    <p>Ao sr. ministro da Justiça e Negocios Interiores afim de que se digne examinar a competente certidão, a carta de guia enviada pelo juiz de direito da comarca de Santa Cruz do Rio Pardo, ás justiças de Negação, provincia do Minho, no Reino de Portugal, para a entrega de d. Antonia Maria Rodrigues, como herdeira dos bens deixados pelo finado José Joaquim Rodrigues de Castro, a cujo inventario se procede por aquelle juizo.</p>\n  </div>\n\n  <!-- COLUNA 3 -->\n  <div class=\"col\">\n    <p>Ao secretario do Interior, afim de que se digne tomar em consideração, o officio do juiz da paz do districto de Caçapava, em que faz uma consulta sobre o proximo alistamento eleitoral.</p>\n    <p>Communicou-se ao chefe de policia, de conformidade com o que participou a Directoria do Serviço Sanitario, em data de 23 do corrente mez, que o cidadão Adolpho Schumann está exercendo illegalmente a profissão de pharmaceutico na cidade de Jacarehy, com pharmacia aberta, que foi adquirida do pharmaceutico José Carlos de Oliveira Garcez Sobrinho, cumprindo que, contra o mesmo, mande proceder de accordo com o codigo penal.</p>\n\n    <p class=\"center\"><i>Officio despachado</i></p>\n\n    <p>Do juiz de direito da comarca de Pindade, remettendo a cópia do edital que põe em concurso os officios de 1.º e 2.º tabelliães de notas, official do registro geral de hypothecas e o de distribuidor, todos com os respectivos annexos.—Requisite-se pela directoria geral a publicação do edital.</p>\n\n    <p class=\"center small\">2.ª SECÇÃO</p>\n\n    <p>Solicitaram-se as seguintes informações:</p>\n    <p>Do dr. juiz de direito de Mogy-mirim, conjuntamente com o seu parecer, a respeito da petição de graça que em tempo apresentou ao governo do Estado o sentenciado Heitor des Rutours, recolhido á cadeia publica daquella cidade em cumprimento de pena imposta pelo jury local;</p>\n    <p>Do dr. juiz de direito de Itatiba, idem, idem, quanto ao sentenciado Paulo Luiz;</p>\n    <p>Do dr. juiz de direito de Botucatú, idem, idem, quanto ao sentenciado João Martin;</p>\n    <p>Do dr. juiz de direito de Santo Antonio da Cachoeira, idem, idem, quanto ao sentenciado Luiz Beraldi;</p>\n    <p>Do dr. juiz de direito de Pirassununga, idem, idem, quanto ao sentenciado Virgilio Gatto Sussuna;</p>\n    <p>Do dr. juiz de direito de Lençoes, idem, idem, quanto ao sentenciado Roberto José da Silva;</p>\n    <p>Do dr. juiz de direito de S. Carlos do Pinhal, conjuntamente com as providencias necessarias, sobre o requerimento em que o sentenciado Joaquim Rodrigues Pinto, recolhido á cadeia publica da capital, em cumprimento de pena imposta pelo jury daquella comarca, pede a cópia de seu processo para instruir petição de graça que deseja apresentar.</p>\n    <p>Transmittiram-se:</p>\n    <p>Ao dr. presidente do Tribunal de Justiça, para que se digne aquelle tribunal informar a respeito, a petição de graça, devidamente documentada, que ao governo do Estado apresentou o sentenciado Antonio Augusto Alves, recolhido á cadeia publica de Bebedouro, desde 4 de Setembro de 1899, em cumprimento da pena de um anno e dois mezes de prisão simples que lhe foi imposta pelo jury daquella comarca, em 16 de Outubro do mesmo anno;</p>\n    <p>Ao dr. juiz de direito de Bananal, para ser entregue ao interessado, o titulo de nomeação do promotor publico daquella comarca, bacharel Alvaro Augusto de Carvalho Aranha, para o cargo de curador geral de orphãos e ausentes, por decreto de 23 do mez findo de Fevereiro;</p>\n    <p>Ao dr. juiz de direito de Xiririca, igual titulo do promotor publico daquella comarca, bacharel</p>\n  </div>\n\n</div>\n\n</body>\n</html>\n```",
+              "refusal": null,
+              "reasoning": "The user wants HTML transcription of a historical newspaper page (Diário Oficial, April 1900). I should reproduce layout with three columns, preserving text as best as possible. This is a public domain government document (1900), fine to transcribe.",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "The user wants HTML transcription of a historical newspaper page (Diário Oficial, April 1900). I should reproduce layout with three columns, preserving text as best as possible. This is a public domain government document (1900), fine to transcribe.",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 5184,
+          "completion_tokens": 3408,
+          "total_tokens": 8592,
+          "cost": 0.066672,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.066672,
+            "upstream_inference_prompt_cost": 0.015552,
+            "upstream_inference_completions_cost": 0.05112
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 52,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

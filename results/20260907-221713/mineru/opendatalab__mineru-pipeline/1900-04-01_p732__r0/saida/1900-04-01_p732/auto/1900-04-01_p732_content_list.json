@@ -1,0 +1,609 @@
+[
+    {
+        "type": "text",
+        "text": "Ao director do grupo escholar de Botucató, pedindo orçainento das despesas a que se réfere o seu officio de 12 do correnie ; Ao director do grupo escholar de Belia Visla, auctorizando as deapegas constantes do orçamento que acompanhou o seu officio n. 7 do corrente mez:",
+        "bbox": [
+            61,
+            70,
+            336,
+            158
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ao director da erchola-modelode Itipetininga, auctorizando a entrega.de varios objectos a proprofegsora da eschola mixta do bairro do Porto; Aò director do Diario Offcial, recommendando a remessa doi caríões pedidos para o grupo escholar de Riteirão Preto ;",
+        "bbox": [
+            63,
+            157,
+            337,
+            233
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ao secretari da Agrioulturs,pedindo que or dene as providencias sollcitadas por olmcio de 7 do corrente, em grelação ao grupo escholar deBella Vista",
+        "bbox": [
+            58,
+            232,
+            339,
+            284
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Agricultura",
+        "text_level": 1,
+        "bbox": [
+            142,
+            296,
+            262,
+            313
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "EXPEDIENTE DO DIA 8) DE MARÇO DE 1900",
+        "text_level": 2,
+        "bbox": [
+            85,
+            320,
+            315,
+            334
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1.4 SECÇÃO",
+        "text_level": 2,
+        "bbox": [
+            168,
+            337,
+            244,
+            349
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Solicitaram-se do dr. secretario da Fazenda : Pagamentos :",
+        "bbox": [
+            79,
+            352,
+            325,
+            377
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "De 7:500s000, á <City of Santos Improvements Company, Llmited», pela agua fornecida, em Outubro, Novembro e Dezembro dc 1893, para os serviços de extincção de incendios e irrigação das ruas.da cidade de Santos ;",
+        "bbox": [
+            70,
+            377,
+            342,
+            440
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "De 1:56SS210, a Lebre, Castilho & Gomp., pelo fornecimento de artigos diversos á Repartição de Aguas e Exgottos, em Fevereiro ultimo;",
+        "bbox": [
+            70,
+            440,
+            342,
+            477
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "De 732§400, a Espindola, Siqueirs & Comp., peto fornecimento de artígos diversos á Repartição de Aguas e Exgotlos, em Fevereiro ultimo;",
+        "bbox": [
+            70,
+            477,
+            342,
+            513
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "De 133S+0O, a C. Hildebrand & Comp., pelo fornecimento de artigos á meçma repsrtição, emn Fevereiro ultimo ;",
+        "bbox": [
+            72,
+            513,
+            343,
+            549
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "De 2:19Js400, a Bastiano Buona Vita, por materiaes fornecidos á mesımna repartição, em Feve. reiro ullimo ;",
+        "bbox": [
+            72,
+            549,
+            343,
+            586
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "De 1:235\\$200, a EduarJu B. Kneesse, por materiaes fornecidos, em Fevereiro ultime, á mesma repaitição ;",
+        "bbox": [
+            73,
+            585,
+            343,
+            624
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "De 1:023\\$260, a Kisgen & Schiefferdecker, por identico fornecimento á mesma reparlição, em Fe. vereiro ultimo;",
+        "bbox": [
+            72,
+            622,
+            343,
+            660
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "De G 000s990, á Companhia Mechanica e Importadora de São Paulo, por identico furnecimenlo á mésma repartição, em Fevereiro ultímo ;",
+        "bbox": [
+            73,
+            660,
+            345,
+            697
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "De 250\\$000, a d. Vicencia das Neves, pelo tornecimento, no corrente mez, de 10co saccos de algodãosinho, para o servlo de distribulção de sementes aos lavradores do Estado.",
+        "bbox": [
+            75,
+            696,
+            345,
+            745
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "De 1:181Sá6), a Franciseo Duarte & Irmão, pélo foraecimento de forragem á Repartição de Agoas e Exgottos, em Fevereirò ullimo;",
+        "bbox": [
+            75,
+            745,
+            345,
+            782
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "De GuSu00, a Luiz Striaa & Comp., pelo fornemento de arligos á mesmt re,arli ão, em Fevereirò ultim);",
+        "bbox": [
+            72,
+            782,
+            343,
+            818
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "De 81350), a Del Fio er tino & Comp., pelo fornecimcnto de a-tigos à m esma .ejartição, em .- vereiro ultim); De 335165, à Companhia de Gaz de São Paulo, pelo furnecimento ue gaz á Repaitição de Agias e Ergoltos, em Janetto tltimo; De 3 0so0n, a Brosine Giuvani. por materiaes",
+        "bbox": [
+            69,
+            817,
+            343,
+            902
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "toraecidos, em Fevereiro ultimo, à Repartição de   \nAguas e Eegottos ; De 856g880, a, Pranciaço Gonçalves, pelo forne   \ncimenta de torragem á mesina repartição, em Fe  \nvereiroullimo.",
+        "bbox": [
+            340,
+            69,
+            612,
+            132
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Gredito da quántia de 3:311g200 so amanuense da Superintendencia de Obras Publicas, João Alfredo Báptista Borba, por despesas, em Feverelro ultimo, com o pagamento de diarias e transportes de engeaheiros, c outros de expediente: recolbendo .o mesmo funccionario aos cofres do Thesoüro o saldo, em seu poder, da quantia de 8sS00.",
+        "bbox": [
+            342,
+            132,
+            614,
+            220
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Adeantemenio da quantia de 680\\$750, ao engenheiro da Superintendencia de Obras Publicss, Victor Andrigo, para occorrer ás despesas com os reparos do telhado do Hosptcio de Alienados da capital.Deu-ae conbecimenlo ao dr. direclor da Superintendencia;",
+        "bbox": [
+            345,
+            220,
+            615,
+            293
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Permissão para o engenheiro Antonio By depositar, no Thesouro do Estado, B quantia de..... 30)sO\", como garantia da. proposts que pretende aprese-tic para a constrro ão de umì cadeia em S. Bento d, Sapuc hy,",
+        "bbox": [
+            346,
+            292,
+            617,
+            356
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Auctoiz usie a Commissão Geographica e Geolo;ica a des enlr 3:2OoCO0, com acqultição de oito auimaes para os trabltios das turmay de campo.",
+        "bbox": [
+            346,
+            356,
+            617,
+            405
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Declarou-su á Superintendencia de Obras Pu. blicas que fica approvado o coniracto celebrado com Francísco José do Prado, para o serviço de passagens em balsa sobre o rio Parahyba, na estrada de Santa Branca a Jacarehy.",
+        "bbox": [
+            346,
+            404,
+            618,
+            466
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Devolveram-se á Repartição de Aguas e Esgot tos, para a necessaria rrctiñeação, as contas apresentadas pela casa Erico Milía & Comp.",
+        "bbox": [
+            348,
+            466,
+            617,
+            504
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Healizou-se, hoje, 31 de Março de 190o, nesta seccetaria,a abertura das propostas apresentadas para a coustrucção de uma cadeia em S. Bento do Sapucahy, as quacs, assignadas pelos cidadaos Aotonio By, Nicola Grigola, Santiago Stornini, José Mollica e Sanlo Berlollazzi, foram pela respecliva junta, julgadas conforme para decisão ulterior.",
+        "bbox": [
+            348,
+            502,
+            618,
+            589
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "REQUERIMENTO DESPACMADO",
+        "text_level": 2,
+        "bbox": [
+            411,
+            589,
+            558,
+            601
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Da City of Sants Improvements Company, Limited, pedindo reconsideraçã) do despacho de 22 de Fevereiro altimo, c apresentando conta de.... 7:500\\$000 de agua fornecida para a extincção de íacendios e irrigação das ruas da cidade de Sintoa, ern Outubro, Novembro e Dezembro de 1890. —Mantenho o despaclio de 22 de Fevereiro ultimo. Requisite-se o pagamento de 7:c03S0(K).",
+        "bbox": [
+            349,
+            600,
+            621,
+            700
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Justiça",
+        "text_level": 1,
+        "bbox": [
+            450,
+            717,
+            518,
+            733
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ESPEDIENTE DO DIA 31 DE MAR7O DZ 1VO0",
+        "text_level": 1,
+        "bbox": [
+            379,
+            734,
+            596,
+            746
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1.SUB-DIRECTORIA",
+        "text_level": 2,
+        "bbox": [
+            420,
+            750,
+            552,
+            762
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1.\\* SECÇÃO",
+        "text_level": 2,
+        "bbox": [
+            456,
+            764,
+            516,
+            774
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Transmittiu-s?:",
+        "text_level": 2,
+        "bbox": [
+            361,
+            774,
+            453,
+            786
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ao sr. ministo da Justiça e. Nrgoci) Interic rcs afm d gue ligne ttcamin'a: a ctmpc tente destin,  cartogstia di i;dı jelo juiz d direjt da coma ct d San z to l o Pardo, ás justiças de Me'ga;o, p'ovincla do Minho, no lieino de Portogal, lara etação de d, Antonia Maria Rodrigues, como berdeira doi beus deixidos pelo Hnad) José Juaquim Gedrig es: de Ga tru, a cujı inventario sc procele por aqueile juizo.",
+        "bbox": [
+            349,
+            786,
+            621,
+            910
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ao secretarlo do Interior, aflm de que sa dignet Mar em consideráção, o oficio do 1. julz do pz do districto de Csçapava, em que fàz umí consulta scb:e o proxino alistmmento eleitoral. Communicou-se ao chefe de policia, de confoa midade com o que pszticipou a Dimectoria do Sepviço Sagitario,.em daia da 23 do corrente mex, que v cidadão Adolpho Schumann erta exerceado illegalmente a profləsão de pharraaceutico na ci+ dade de Jacarehy, com pharmasla aberta, que foi adguirida do pharmaceutico Josó Garlaə de Olivelra Garcez Sobrinho, cumprindo que, contra o mesmo, mande proceder de accôrdo cora o codigo penal.",
+        "bbox": [
+            618,
+            73,
+            896,
+            248
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Officio despachado",
+        "text_level": 2,
+        "bbox": [
+            702,
+            248,
+            809,
+            260
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Do juiz de direito da comarca de Pladade, remettendo a cópia do edital quo põe em concurao os officlos de 1.ª e 2.° tabelliães de notas, official do regislro geral de hypothecas o o de distribuidor, todos com os respectívos annexos,—Requialt: se peta directoria geral a publicação do edilal.",
+        "bbox": [
+            621,
+            258,
+            893,
+            336
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2. ÃO",
+        "text_level": 2,
+        "bbox": [
+            725,
+            334,
+            786,
+            345
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Solic'laram-se as seguintes informações:",
+        "text_level": 2,
+        "bbox": [
+            635,
+            346,
+            860,
+            358
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Do dr. jolz de direito de Mogy-mirim, conjuntam:ite com o s-u pi ecer, a respeito da petição de graça çu 'm t:npo apresentou ao governo do Estado o gentencisdo lisilor des Rutours, recolhido á cadeia publica daquella cidade en cume primento de pena Iraposta pelo jury local;",
+        "bbox": [
+            623,
+            360,
+            894,
+            433
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Do dr, juiz de direito de Itatiba, ¿dem, idem, quanto ao senteociado Paulo Luiz:",
+        "bbox": [
+            624,
+            433,
+            894,
+            458
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Do dr. juiz de direito de Botucatú, idem, liem, quauto ao gentenciado João Martin;",
+        "bbox": [
+            624,
+            458,
+            894,
+            482
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Do dr. juiz de direito de Sauto Antonio da Gachoeira, idem, idem, quanto so eenteuciado Luiz Beraldi ;",
+        "bbox": [
+            624,
+            482,
+            894,
+            518
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Do dr. juiz de direito de Pirassuounga, idem, dem, quanto Bo realenciado Virgilio Gatto Suas suna ;",
+        "bbox": [
+            624,
+            518,
+            894,
+            556
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Do dr. juiz de direiio de Lençóes, Idem, idem, quanto so sentenciado Roberto Josd da Silva ;",
+        "bbox": [
+            624,
+            556,
+            894,
+            580
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Do dr. juiz de direito de S. Carlos do Piohal, conjuntamente com as providencias necessarias, sobre o requerimento em que o seplenciado Joaquim Rodrlgues Pinto, recolbido & cadeia publi. ca da capital, cm cumprimento de pena imposla pelo jury daquelia comarca, pede a cópia te seu procesio para instruir petição de graça que descja aprescntar.",
+        "bbox": [
+            626,
+            580,
+            896,
+            678
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Transmiltiram-3e :",
+        "text_level": 2,
+        "bbox": [
+            636,
+            678,
+            740,
+            689
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ao dr. presidente do Tribunal de Justiça, para que Se digne aqueile tribunal informar a respeito, a pelição de graça, devidamente dccumentada, que ao governo do Estado aprcsentou o sentenciado Antonio Augusto Alves, recolhido á esdeia publin ca de Bebedouro, desde 4 de Setembro de 1S99, em cempriment) da pena de um anao e dois mezes de prísão sim, les que lhe fo: Imposta pelo jury daquella coma ca. em iù de Outuhro do mesmo aunn) :",
+        "bbox": [
+            626,
+            690,
+            896,
+            813
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ao ár. juiz de diei.) c Banani, para ser en tregu> , itteressado, o titul de nomeação do promotor publico daquella c. marca, lacharel A'- varo Augusto de Garvalbo Aranha, pars o cargo de curador geral de orphsms e ausenies, for dec elo de 2} do mez lindo de Feverelro ;",
+        "bbox": [
+            626,
+            813,
+            897,
+            888
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Ao dr. juiz de direito de Xwirica, eguał filuls du roiloi publico dequella comarca, bacharel",
+        "bbox": [
+            627,
+            886,
+            897,
+            921
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "73% Domingo, 1",
+        "bbox": [
+            78,
+            48,
+            198,
+            62
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "BIARIO OFFICIAL",
+        "bbox": [
+            384,
+            44,
+            500,
+            58
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Abrlll 1900",
+        "bbox": [
+            786,
+            45,
+            860,
+            60
+        ],
+        "page_idx": 0
+    }
+]

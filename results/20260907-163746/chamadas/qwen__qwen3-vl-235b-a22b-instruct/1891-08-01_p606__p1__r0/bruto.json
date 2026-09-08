@@ -1,0 +1,78 @@
+{
+  "chave": "qwen/qwen3-vl-235b-a22b-instruct|1891-08-01_p606|p1|0",
+  "registro": {
+    "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "prompt_id": "p1",
+    "doc_id": "1891-08-01_p606",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 38.85622489999514,
+    "prompt_tokens": 2577,
+    "completion_tokens": 1489,
+    "total_tokens": 4066,
+    "cost_usd": 0.00221858,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Alibaba",
+    "generation_id": "gen-1788813607-eyTQXStr6Xd2IYcSHl5g",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-07T20:40:07Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788813607-eyTQXStr6Xd2IYcSHl5g",
+        "object": "chat.completion",
+        "created": 1788813607,
+        "model": "qwen/qwen3-vl-235b-a22b-instruct",
+        "provider": "Alibaba",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Diário Oficial - Agosto (1891)</title>\n    <style>\n        body { font-family: serif; line-height: 1.4; }\n        .header { text-align: center; font-weight: bold; margin-bottom: 1em; }\n        .column { width: 33%; float: left; padding: 0 10px; box-sizing: border-box; }\n        .clearfix::after { content: \"\"; display: table; clear: both; }\n        .section { margin-bottom: 1.5em; }\n        .ad-image { text-align: center; margin: 1em 0; }\n        .signature { text-align: right; margin-top: 1em; }\n    </style>\n</head>\n<body>\n    <div class=\"header\">DIÁRIO OFICIAL — Agosto (1891)</div>\n\n    <div class=\"clearfix\">\n        <div class=\"column\">\n            <p>ceitava de bom grado, por isso que já era esta a intenção com que tinha vindo para a Assembleia e pedio que fosse consignado na acta tudo que al- legara em sua defesa, que consistiu em demonstrar a boa fé e boa vontade com que procedeu em todos os negócios da Companhia.</p>\n            <p>Assumindo de novo a presidência tomou a palavra o secretario e propoz que fosse supprimido o cargo de vice-presidente da Companhia, o que posto a votos foi unanimemente acceito. Convidou então o presidente os accionistas a eleger por escrutinio secreto a nova directoria. Apurados os votos foram por maioria eleitos: presidente Joaquim dos Santos Azevedo; secretario dr. Antonio Veriano Pereira; gerente Henrique Proost de Camargo.</p>\n            <p>Depois pediu a palavra o sr. dr. Vertuno Pereira e disse que a sua nomeação para o cargo de director deixava vago o cargo que occupava de supplente do Conselho Fiscal e pedio que fosse acclamado um accionista para preencher esta vaga. Indicado pelo sr. Henrique Proost de Camargo o accionista José Ulpiano Pinto de Souza, foi este unanimemente acceito.</p>\n            <p>Pediu então a palavra o sr. Joaquim dos Santos Azevedo e propoz que fossem egualados os honorarios da Directoria, isto é, 4 contos annuaes; o que posto a votos foi unanimemente approvado. Não havendo mais nada a tratar o sr. Joaquim Azevedo propoz que se encerrasse a sessão e se desse poderes á mesa para assignar a acta por todos os accionistas, o que foi unanimemente acceito.</p>\n            <p>Levantou-se então a sessão e lavrou-se a presente que vai pela mesa assignada.</p>\n            <p>São Paulo, 29 de Julho de 1891.—O Presidente, Antonio Antenor de Azevedo.—O Secretario, José Ulpiano Pinto de Souza.</p>\n\n            <div class=\"section\">\n                <p>A Companhia de Fumos «S. Paulo», estabelecida na capital deste Estado com commercio de fumos, representada pelo seu presidente, vem apresentar a esta Meritissima Junta Commercial a marca acima collada, consistente num homem sentado fumando em um cachimbo, tendo em cima a palavra «Fumo» e em baixo «Negro. Forte e sem composição», a qual querem registrar-a com o titulo «Fumo Negro». A referida marca é usada pelo supplicante em papel de toda e qualquer cor e applicada como distinctivo nos fumos em pacotes e em latas, contendo o mesmo producto de seu commercio e fabrico.</p>\n                <p>S. Paulo, 27 de Junho de 1891.</p>\n                <p>Irineo Villela,<br>Presidente.</p>\n            </div>\n\n            <div class=\"ad-image\">\n                <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHESURBVHhe7Z1pcFRVGofPzIyTmDlMkKQzJiEJkLAgWtG2rW1b+6Xa2rY/2u3a2trdVrXbttuutbW1W9u2bdvWttva2ra127bt/znnfOecO+fOzDz/3/c77+6999zzPOee7/f+3/e/5/vvP3+e+39//+e9+X/4/4N/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+AfwD/AH+Af4B/gH+Afw",
+              "refusal": null,
+              "reasoning": null
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2577,
+          "completion_tokens": 1489,
+          "total_tokens": 4066,
+          "cost": 0.00221858,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00221858,
+            "upstream_inference_prompt_cost": 0.00067002,
+            "upstream_inference_completions_cost": 0.00154856
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

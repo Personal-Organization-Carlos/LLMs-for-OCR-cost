@@ -1,0 +1,67 @@
+{
+  "chave": "google/gemini-3.5-flash-lite|1930-04-01_p3190|p1|0",
+  "registro": {
+    "model_id": "google/gemini-3.5-flash-lite",
+    "prompt_id": "p1",
+    "doc_id": "1930-04-01_p3190",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 23.518270900007337,
+    "prompt_tokens": 1132,
+    "completion_tokens": 3398,
+    "total_tokens": 4530,
+    "cost_usd": 0.0044173,
+    "cost_source": "tabela_precos",
+    "finish_reason": "STOP",
+    "truncated": false,
+    "api_provider": "gemini",
+    "provider_upstream": "google",
+    "generation_id": null,
+    "attempts": 1,
+    "timestamp_utc": "2026-09-07T23:28:37Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "generateContent",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Diário Oficial - Abril 1930</title>\n    <style>\n        body {\n            font-family: \"Times New Roman\", Times, serif;\n            font-size: 11pt;\n            line-height: 1.15;\n            color: #000;\n            background-color: #fff;\n            margin: 20px;\n        }\n        .header-table {\n            width: 100%;\n            border-bottom: 2px solid #000;\n            padding-bottom: 5px;\n            margin-bottom: 15px;\n        }\n        .header-table td {\n            text-align: center;\n            vertical-align: middle;\n        }\n        .header-table .number {\n            font-size: 12pt;\n            text-align: left;\n        }\n        .header-table .title {\n            font-size: 14pt;\n            font-weight: bold;\n            letter-spacing: 1px;\n        }\n        .header-table .date {\n            font-size: 12pt;\n            text-align: right;\n        }\n        \n        .columns {\n            column-count: 3;\n            column-gap: 20px;\n            text-align: justify;\n        }\n\n        h2, h3, h4 {\n            text-align: center;\n            font-weight: bold;\n            margin-top: 10px;\n            margin-bottom: 8px;\n        }\n\n        h2 { font-size: 11pt; }\n        h3 { font-size: 10pt; }\n        h4 { font-size: 10pt; text-transform: uppercase; }\n\n        p {\n            margin: 0 0 8px 0;\n            text-indent: 15px;\n        }\n\n        .indent {\n            text-indent: 15px;\n        }\n\n        .no-indent {\n            text-indent: 0;\n        }\n    </style>\n</head>\n<body>\n\n    <table class=\"header-table\">\n        <tr>\n            <td class=\"number\">3190 Terça-feira. 1</td>\n            <td class=\"title\">DIÁRIO OFFICIÆL</td>\n            <td class=\"date\">Abril 1930</td>\n        </tr>\n    </table>\n\n    <div class=\"columns\">\n\n        <p class=\"no-indent\"><b>Expediente do dia 29 de Março de 1930</b></p>\n\n        <p class=\"no-indent\"><b>Solicitaram-se da Secretaria da Fazenda os seguintes pagamentos</b></p>\n        \n        <p class=\"indent\">270$000, a John Roger, av. 890.<br>\n        1:275$000, a Zerrenner, Bulow &amp; Comp Ltd., av. 891.<br>\n        438$900, aos mesmos, av. 892.<br>\n        579$600, a Abel Gomes, av. 893.<br>\n        101$000, a Claudio Ribeiro da Silva av. 894.<br>\n        499$300, à Casa Vanorden, av. 895.<br>\n        458$500, à A. J. de Souza Alves Brandão, av. 896.<br>\n        17$500, á Ltght and Power, av. 897.<br>\n        1:578$000, a diversos fornecedores da Inspectoría de Prophylaxia da Lepra, av. 898,<br>\n        30$000, a Carlos Ferreira de Almeida, av. 899.<br>\n        915$000, ao pessoal da Inspectoría de Hygiene dos Municipios, av. 900.<br>\n        Solicitou-se da Secretaria da Justiça o seguinte pagamento<br>\n        6:631$560, ao «Diario Official», av. 144.</p>\n\n        <h2>2.ª DIRECTORIA</h2>\n\n        <h3>1.ª SECÇÃO</h3>\n\n        <p class=\"indent\">Foram nomeados para substituir adjunctos de Grupos Escolares</p>\n\n        <p class=\"indent\"><b>D. Alice Cesar Rosa</b>, substituido : João Doretto, do de Santa Rosalia, em Sorocaba.<br>\n        <b>D. Nair de Oliveira</b>, substituida : d. Brasilia Gonçalves Pereira, do de Sacoman, na Capital.<br>\n        <b>D. Zilda Moraes Carvalho</b>, substitui-da : d. Olga Dagmar de Araujo Quirino dos Santos, do «Antonio J. de Carvalho», em Araraquara.<br>\n        <b>D. Addy Silveira</b>, substituida, d. Lydia Motta Minelli, de Santo Amaro e<br>\n        <b>D. Lusilla Martins de Camargo</b>, substituida, d. Oscarliua do Alvarenga Mazzola, do «Conde do Parnahyba» em Jundiahy.</p>\n\n        <p class=\"indent\">Foi removida, a pedido, d. Catharina Lefcadito, substituta effectiva do Grupo Escolar «Coronel Tobias», em Descalvado, para igual cargo no ¡Grupo Escolar «Rodrigues Alves», na Capital.</p>\n\n        <p class=\"indent\"><b>Licenças concedidas a adjunctos de Grupos Escolares</b></p>\n\n        <p class=\"indent\">Oito dias, ao sr. João Quedinbu Wolff, do de Ribeirão Pires, em S. Bernardo.<br>\n        Vinte dias, a d. Aida Maragliano, do 2 o de Ribeirão Preto.<br>\n        Um mez, a d.á. Laura de Camargo, do do Belemzinho; Maria da Gloria G. da Costa e Silva, do «Pedro II»; Clara de Rezende Puech, do do Arouche, todos na Capital; Adelina Ferraz de Ar. rada, do «Antonio J. de Carvalho», em Araraquara, Lydia Motta Minelli, do de Santo Amaro; Oscarlina de Alvarenga, Mazzol, do «Conde de Parnahyba», em Jundiahy e Elisa Agueda dos Santos, do 3.o de Campinas.<br>\n        <b>Dois mezes</b>, a d.d. Helena Caiuby Cresenti, do «Marcello Schmidt», em Rio Claro e <b>Oscarlina Leme Franco</b>, do «Flaminio Ferreira», em Limeira.<br>\n        <b>Tres' mezes</b>, a d.d. Umbelina Freire da Silveira, do 3.o do Braz e Judith Martins, de «Oswaldo Cruz», todos na Capital.</p>\n\n        <p class=\"indent\">Um anno, a d. Maria Candida Ferreira Martíns, do 6 o de Campinas.</p>\n\n        <h3>2.ª SECÇÃO</h3>\n\n        <p class=\"indent\">Foram nomeadas as seguintes professoras para o cargo de substitutas effectivas de Grupos Escolares :</p>\n\n        <p class=\"indent\">D. Carolina Dias de Aguiar, para o de Pennapolis.<br>\n        D. Georgina Sessbra, para o «João Florencios», de Tatuhy.<br>\n        D. Maria Julia Roxo, para o de Avahy.<br>\n        D. Celia Teixeira, para o «João Florencios», de Tatuhy.<br>\n        O sr. Heurique Unger, adjuncto do Grupo Escolar de Lins, para substituir o sr. Ernesto de Lima, director do mesmo estabelecimento, durante o seu impedimento.<br>\n        D. Maria Galaute, adjuncta de 2.o Grupo Escolar de Rio Preto, para substituir o sr. Alberto Silverio Gomes dos Reis, director em commissão, do mesmo estabelecimento, durante o seu impedimento por licença.</p>\n\n        <p class=\"indent\">As seguintes sras. para substituir adjunctas de Grupos Escolares</p>\n\n        <p class=\"indent\">D. Alda do Amaral Silva Martius, substituido: sr. Henrique Unger, do de Lins.<br>\n        D. Joanna Possognoli, substituido : sr. Benedicto de Campos, do de Socorro.<br>\n        D. Elvira Mani, substituído: sr. Manoel Faro, do de Pennapolis, durante o impedimento por licença do sr. Aureo Mendes Corrêa, que o vem substituindo.<br>\n        D. Nair de Campos, substituida : d. Amelia Paes de Almeida, do de Cerquilho, em Tietê.<br>\n        D. Leonides Carvalho Almeida, substituida: d. Clementina Rocha Catalano, do de Bebedouro.<br>\n        D. Maria Antonietta de Menez-s, substituida : d. Leonor Gonçalves da Silva, do de Bebedouro.<br>\n        D Maria Sandoval, substituida: d. Josephina Silva, do de Ituverava<br>\n        D. Agar de Sá, substituida: d. Lola Pinto Tavares, do de Barretos.<br>\n        D. Iracema de Toledo, substituida: d. Franciema da Silva, do de Socorro.<br>\n        D. Dib Asmar Ventura, substituida : d. Ottilia Pereira, do de Pirajú.<br>\n        D. Celia Teixeira, substituida: d. Palmyra Castanho Flores, do «João Florencios», de Tatuhy.<br>\n        D. Maria da Gloria Prado Altro, substituida: d. Luiza Nery de Souza, de de Capivary.</p>\n\n        <p class=\"indent\">Foi devidamente apostillado o decreto de 27 do corrente que revalidou a remoção da professora d. Adelaide Paes Landahl para o cargo de adjuncta do Grupo Escolar de Ituverava.</p>\n\n        <p class=\"indent\">Foram conccedidas as seguintes licenças a adjunctos de Grupos Escolares</p>\n\n        <p class=\"indent\"><b>2 mezes</b>, a d. Maria Eugedia Homem, do «Cel. Vaza, de Jaboticabal.<br>\n        D. Herminia Villas Boas, do de Villa dos Lavradores, em Botucatú, em commissão do «Dr. Cardoso de Almeida», da mesma cidade; d. Clementina Rocha Catalano, do de Bebedouro; d. Leonor Gonçalves da Silva, do de Bebedouro;</p>\n\n        <p class=\"indent\">d. Amelia Paes de Almeida, do de Cerquilho, em Tietê; d. Josephina Silva, do de Ituverava; d. Francisca da Silva, do de Socorro; d. Lola Pinto Tavares, do de Barretos; d. Isabel de Paula e Silva, do de Queluz.<br>\n        <b>45 dias</b>, a d. Maria Ferrara, do «Dr. Jorge Tibiriçá», de Bragança.<br>\n        <b>1 mez</b>, em prorrogação, a d. Maria Lourdes Nogueira, do 1.º de Rio Preto, e d. Alice de Carvalho, do de São Manoel.<br>\n        <b>20 dias</b>, a d. Hilda Passos, do de Villa dos Lavradores, em Botucatú.<br>\n        <b>15 dias</b>, em prorogação, a d. Maria Stael da Rocha Silveira, do de Ribeirão Bonito.</p>\n\n        <p class=\"indent\">Foram dadas providencias junto á Secretaria da Fazenda sobre o assumpto constante do officio, sob n. 43, da inspectoria do 58.º districto escolar.</p>\n\n        <p class=\"no-indent\" style=\"text-align: center;\"><b>Requerimentos despachados</b></p>\n\n        <p class=\"indent\"><b>D. Maria Julia Roxo.</b> — Providen-cie-se. (Prov.)<br>\n        Dario Monteiro de Brito, d. Manoela Pousa Fernandes e d. Noemia Fernandes. — De acordo com a Secção. Providencie-se. (Prov.)</p>\n\n        <h3>3.ª SECÇÃO</h3>\n\n        <p class=\"indent\">Foram concedidas licenças aos seguintes professores</p>\n\n        <p class=\"indent\"><b>3 mezes</b>, a d. Dallila Antunes Filgueiras, da escola mixta, rural, de São Roque, em Areias.<br>\n        <b>2 mezes</b>, a d. Carmen Carofalo, da 3.a escola mixta urbana, do bairro da Republica, em Ribeirão Preto.<br>\n        <b>2 mezes</b>, a d. Dulce Pohrer, da escola feminina, urbana, de Villa Novacs, em Jaboticabal.<br>\n        <b>2 mezes</b>, a d. Leopoldina Ponce, das escolas reunidas de Igarassú, em São Manoel.<br>\n        <b>2 mezes</b>, a d. Luiza Dias de Carvalho, das escolas reunidas de Boituva, em Porto Feliz.<br>\n        <b>2 mezes</b>, a d. Maria Corrêa Dias, das escolas reunidas de Campo Largo, de Sorocaba.<br>\n        <b>2 mezes</b>, a d. Miquelina Laudisio, da escola mixta, rural, de Ribeirão Grande, em Lins.<br>\n        <b>2 mezes</b>, a d. Mafalda Barone, da escola mixta, rural, do Bairro da Ponte, em Itatiba.<br>\n        <b>2 mezes</b>, a d. Maria Julieta Sydow, das escolas reunidas de Bury.<br>\n        <b>2 mezes</b>, a d. Salvina Teixeira de Mendonça da 3.a escola mixta, de Presidente Wenceslau.<br>\n        <b>45 dias</b> ao sr. Aquilino Pacheco Filho, da 3.a escola das reunidas noctur-uas que funcionam no Grupo Escolar «Moraes Barros», em Piracicaba.<br>\n        <b>1 mez ao</b> sr. Aureo Mendes Corrêa, da escola masculina, rural, de Lageado, em Pennapolis.<br>\n        <b>1 mez</b>, a d. Candida Amaral Campos, da escola mixta, rural, de Morumby, em Santo Amaro.<br>\n        <b>1 mez</b>, a d. Tareilia Ladeira de Oliveira, da 4.ª escola mixta, das reunidas de Jaguary, em Mogy-Mirim.<br>\n        <b>15 dias</b>, ao sr. Joaquim Monteiro da Silva, da escola masculina, das reuni-das de Areias.</p>\n\n    </div>\n\n</body>\n</html>\n```",
+                  "thoughtSignature": "El4KXAERTTIPir2Gcvp5/zXYnX+dxzWbI4MuNhO2iohIQdLpYZG4WGbwS4RJKSM3FlceJnDpJ5O5Ptb933V8/HAtm6Y2Tgrd3fMa1+hO1ZW46qPs6MMTUXP3jgMLEIoe"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "index": 0
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 1132,
+          "candidatesTokenCount": 3398,
+          "totalTokenCount": 4530,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 52
+            },
+            {
+              "modality": "IMAGE",
+              "tokenCount": 1080
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "responseId": "pUifasLbGI6ymtkPl6CtsA4"
+      }
+    }
+  ]
+}

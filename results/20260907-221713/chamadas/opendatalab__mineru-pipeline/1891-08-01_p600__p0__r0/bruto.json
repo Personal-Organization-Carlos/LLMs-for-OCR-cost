@@ -1,0 +1,44 @@
+{
+  "chave": "opendatalab/mineru-pipeline|1891-08-01_p600|p0|0",
+  "registro": {
+    "model_id": "opendatalab/mineru-pipeline",
+    "prompt_id": "p0",
+    "doc_id": "1891-08-01_p600",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 63.36873789993115,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "total_tokens": null,
+    "cost_usd": 0.0,
+    "cost_source": "local",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "mineru",
+    "provider_upstream": "local",
+    "generation_id": "mineru-pipeline-1891-08-01_p600__r0",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T02:57:30Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "subprocess",
+      "tentativa": 1,
+      "comando": [
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\.venv-mineru\\Scripts\\mineru.exe",
+        "-p",
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-pipeline\\1891-08-01_p600__r0\\entrada\\1891-08-01_p600.jpg",
+        "-o",
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-pipeline\\1891-08-01_p600__r0\\saida",
+        "-b",
+        "pipeline"
+      ],
+      "returncode": 0,
+      "backend": "pipeline",
+      "artefatos": "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-pipeline\\1891-08-01_p600__r0",
+      "log_final": "indow_size=64, total_batches=1\u001b[0m\n\u001b[32m2026-09-07 22:58:02.688\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.pipeline.pipeline_analyze\u001b[0m:\u001b[36mdoc_analyze_streaming\u001b[0m:\u001b[36m264\u001b[0m - \u001b[1mPipeline processing window batch 1/1: 1/1 pages, batch_pages=1, doc_slices=doc0:1-1\u001b[0m\n\u001b[32m2026-09-07 22:58:02.723\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.pipeline.pipeline_analyze\u001b[0m:\u001b[36mbatch_image_analyze\u001b[0m:\u001b[36m364\u001b[0m - \u001b[1mGPU Memory: 6 GB, Batch Ratio: 2. \u001b[0m\n\u001b[32m2026-09-07 22:58:02.723\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.pipeline.model_init\u001b[0m:\u001b[36m__init__\u001b[0m:\u001b[36m239\u001b[0m - \u001b[1mDocAnalysis init, this may take some times......\u001b[0m\n\u001b[32m2026-09-07 22:58:07.745\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.pipeline.model_init\u001b[0m:\u001b[36m__init__\u001b[0m:\u001b[36m291\u001b[0m - \u001b[1mDocAnalysis init done!\u001b[0m\n\u001b[32m2026-09-07 22:58:07.745\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.pipeline.pipeline_analyze\u001b[0m:\u001b[36mcustom_model_init\u001b[0m:\u001b[36m83\u001b[0m - \u001b[1mmodel init cost: 5.0219645500183105\u001b[0m\n\nLayout Predict:   0%|          | 0/1 [00:00<?, ?it/s]\nLayout Predict: 100%|##########| 1/1 [00:02<00:00,  2.06s/it]\nLayout Predict: 100%|##########| 1/1 [00:02<00:00,  2.06s/it]\n\nTable orientation det:   0%|          | 0/1 [00:00<?, ?it/s]\nTable orientation det: 100%|##########| 1/1 [00:01<00:00,  1.28s/it]\nTable orientation score: 100%|##########| 1/1 [00:01<00:00,  1.28s/it]\nTable orientation score: 100%|##########| 1/1 [00:01<00:00,  1.28s/it]\nTable orientation: 100%|##########| 1/1 [00:01<00:00,  1.28s/it]      \nTable orientation: 100%|##########| 1/1 [00:01<00:00,  1.28s/it]\nTable orientation: 100%|##########| 1/1 [00:01<00:00,  1.29s/it]\n\nTable-ocr det:   0%|          | 0/1 [00:00<?, ?it/s]\nTable-ocr det: 100%|##########| 1/1 [00:00<00:00,  3.10it/s]\nTable-ocr det: 100%|##########| 1/1 [00:00<00:00,  3.04it/s]\n\nTable-ocr rec ch:   0%|          | 0/192 [00:00<?, ?it/s]\nTable-ocr rec ch:   3%|3         | 6/192 [00:00<00:12, 15.27it/s]\nTable-ocr rec ch:  12%|#2        | 24/192 [00:00<00:03, 47.12it/s]\nTable-ocr rec ch:  19%|#8        | 36/192 [00:00<00:03, 49.73it/s]\nTable-ocr rec ch:  25%|##5       | 48/192 [00:00<00:02, 56.63it/s]\nTable-ocr rec ch:  31%|###1      | 60/192 [00:01<00:02, 55.46it/s]\nTable-ocr rec ch:  34%|###4      | 66/192 [00:01<00:02, 56.11it/s]\nTable-ocr rec ch:  38%|###7      | 72/192 [00:01<00:02, 52.62it/s]\nTable-ocr rec ch:  44%|####3     | 84/192 [00:01<00:01, 56.41it/s]\nTable-ocr rec ch:  50%|#####     | 96/192 [00:01<00:01, 56.66it/s]\nTable-ocr rec ch:  53%|#####3    | 102/192 [00:01<00:01, 56.85it/s]\nTable-ocr rec ch:  59%|#####9    | 114/192 [00:02<00:01, 66.13it/s]\nTable-ocr rec ch:  66%|######5   | 126/192 [00:02<00:00, 67.11it/s]\nTable-ocr rec ch:  72%|#######1  | 138/192 [00:02<00:00, 57.60it/s]\nTable-ocr rec ch:  78%|#######8  | 150/192 [00:02<00:00, 55.03it/s]\nTable-ocr rec ch:  81%|########1 | 156/192 [00:02<00:00, 53.80it/s]\nTable-ocr rec ch:  84%|########4 | 162/192 [00:02<00:00, 54.82it/s]\nTable-ocr rec ch:  91%|######### | 174/192 [00:03<00:00, 60.42it/s]\nTable-ocr rec ch:  97%|#########6| 186/192 [00:03<00:00, 57.91it/s]\nTable-ocr rec ch: 100%|##########| 192/192 [00:03<00:00, 52.26it/s]\nTable-ocr rec ch: 100%|##########| 192/192 [00:03<00:00, 54.40it/s]\n\nTable-wireless Predict:   0%|          | 0/1 [00:00<?, ?it/s]\nTable-wireless Predict: 100%|##########| 1/1 [00:01<00:00,  1.04s/it]\nTable-wireless Predict: 100%|##########| 1/1 [00:01<00:00,  1.04s/it]\n\nTable-wired Predict:   0%|          | 0/1 [00:00<?, ?it/s]\nTable-wired Predict: 100%|##########| 1/1 [00:02<00:00,  2.81s/it]\nTable-wired Predict: 100%|##########| 1/1 [00:02<00:00,  2.81s/it]\n\nSeal Predict: 0it [00:00, ?it/s]\nSeal Predict: 0it [00:00, ?it/s]\n\nProcessing pages:   0%|          | 0/1 [00:00<?, ?it/s]\nProcessing pages: 100%|##########| 1/1 [00:00<00:00, 16.79it/s]\n2026-09-07 22:58:21.116 | INFO     | mineru.cli.client:run_planned_task:883 - Completed batch 1/1 | Processed 1/1 page | 1 of 1 batch finished | task#1 [1891-08-01_p600]\n"
+    }
+  ]
+}

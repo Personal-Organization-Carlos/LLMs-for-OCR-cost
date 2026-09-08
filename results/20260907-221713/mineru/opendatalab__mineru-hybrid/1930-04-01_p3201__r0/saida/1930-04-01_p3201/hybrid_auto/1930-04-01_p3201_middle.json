@@ -1,0 +1,4044 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        102,
+                        45,
+                        255,
+                        58
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                102,
+                                45,
+                                255,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        102,
+                                        45,
+                                        255,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "F. Henecía de Jorge Mussi"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        78,
+                        62,
+                        306,
+                        91
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                78,
+                                62,
+                                306,
+                                91
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        62,
+                                        306,
+                                        91
+                                    ],
+                                    "type": "text",
+                                    "content": "Quadro geral dos credores admittidos à fallencia, de acc rdo com o artigo 85 do dec. 5746, de 9 de Dezembro de 1929."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        78,
+                        95,
+                        260,
+                        107
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                78,
+                                95,
+                                260,
+                                107
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        95,
+                                        260,
+                                        107
+                                    ],
+                                    "type": "text",
+                                    "content": "Credores com privilegio sobre todo o activo"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        54,
+                        110,
+                        306,
+                        407
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                54,
+                                110,
+                                306,
+                                407
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        110,
+                                        306,
+                                        407
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                54,
+                                                110,
+                                                306,
+                                                407
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>Camara Municipal de Jahú</td><td>1:770$300</td><td></td></tr><tr><td>Tufick Nicolau</td><td>2:000$000</td><td></td></tr><tr><td>Nassri Abbud</td><td>3:000$000</td><td></td></tr><tr><td>Dr. Fausto Gwyer de Azevedo</td><td>1:359$065</td><td></td></tr><tr><td>Paulo Vissotto</td><td>1:359$065</td><td></td></tr><tr><td>Heitor Gouvêa</td><td>1:359$065</td><td>10:847$495</td></tr><tr><td colspan=\"3\">Credor com privilegio sobre innovel</td></tr><tr><td>Bonfiglio Montosani</td><td></td><td>50:000$000</td></tr><tr><td>Credores chirographarios</td><td></td><td></td></tr><tr><td>Guilberne Herzog</td><td>660$000</td><td></td></tr><tr><td>Banco Commercial do Estado de S. Paulo</td><td>30:500$000</td><td></td></tr><tr><td>José Antonio</td><td>7:500$000</td><td></td></tr><tr><td>Bento de Souza &amp; Comp.</td><td>244$500</td><td></td></tr><tr><td>Miguel Zattar &amp; Filhos</td><td>3:33:$500</td><td></td></tr><tr><td>João A. Machado &amp; Comp.</td><td>1:35 $000</td><td></td></tr><tr><td>Nicolau Nassif</td><td>52:224$940</td><td></td></tr><tr><td>Sarkis João &amp; Filho</td><td>2:171$000</td><td></td></tr><tr><td>A. Sampaio &amp; Comp.</td><td>2:299$800</td><td></td></tr><tr><td>Janowitzer, Wahle &amp; Comp.</td><td>878$900</td><td></td></tr><tr><td>Januario Canale</td><td>582$500</td><td></td></tr><tr><td>Herm Stottz &amp; Comp.</td><td>3:568$200</td><td></td></tr><tr><td>J. Baptista Aloe</td><td>1:112$000</td><td></td></tr><tr><td>Nassri Abbud</td><td>8:000$000</td><td></td></tr><tr><td>M. Yazigi &amp; Irmão</td><td>3:730$000</td><td></td></tr><tr><td>José Milani &amp; Comp.</td><td>22-$000</td><td></td></tr><tr><td>Ind. Reunidas F. Matarazzo</td><td>5:163$650</td><td></td></tr><tr><td>Motta Filho &amp; Comp.</td><td>192$000</td><td></td></tr><tr><td>The Rio de Janeiro F. Mill &amp; Gran. Ltda.</td><td>2:738$000</td><td></td></tr><tr><td>Pignatari &amp; Matarazz</td><td>1:412$700</td><td></td></tr><tr><td>Theodor Block &amp; Comp.</td><td>1:060$500</td><td></td></tr><tr><td>Barros Loureiro &amp; Monteiro</td><td>418$000</td><td></td></tr></table>",
+                                            "image_path": "2eaf2a071ea36d52ffc63c244800e090a0c0bd8e645bb3ff819c193332c50cd4.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 6
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        312,
+                        43,
+                        564,
+                        367
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                312,
+                                43,
+                                564,
+                                367
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        312,
+                                        43,
+                                        564,
+                                        367
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                312,
+                                                43,
+                                                564,
+                                                367
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>Assab Abdalla &amp; Nagib Salem</td><td>6:475$000</td><td></td></tr><tr><td>Dr. Antonio Neves de AlmeidaPrado</td><td>12:300$000</td><td></td></tr><tr><td>Armando Terso</td><td>2:000$000</td><td></td></tr><tr><td>Barros &amp; Comp.</td><td>6:513$100</td><td></td></tr><tr><td>Lazaro Alves dos Santos</td><td>700$000</td><td></td></tr><tr><td>Nassim Zattar</td><td>45:000$000</td><td></td></tr><tr><td>José Roméro</td><td>1:265$000</td><td></td></tr><tr><td>Antonio Bianco</td><td>2:100$000</td><td></td></tr><tr><td>José Fernandes</td><td>6:850$000</td><td></td></tr><tr><td>Nasser Antonio</td><td>40:00$000</td><td></td></tr><tr><td>Aristides Cury</td><td>39:500$000</td><td></td></tr><tr><td>Aristiles R Nunes</td><td>40:000$000</td><td></td></tr><tr><td>Sad Antonio</td><td>39.500$000</td><td></td></tr><tr><td>Semi Zattar &amp; Irmãos</td><td>15:01$500</td><td></td></tr><tr><td>Banco do Brasil</td><td>49:552$000</td><td></td></tr><tr><td>Banco Melhoramentos do Jahú</td><td>4:000$000</td><td></td></tr><tr><td>Gonçalves, Salles &amp; Comp.</td><td>1:345$000</td><td></td></tr><tr><td>João Matheus</td><td>5:600$000</td><td></td></tr><tr><td>Florido Fabri</td><td>13:440$000</td><td></td></tr><tr><td>Banco Paulista</td><td>51:540$000</td><td></td></tr><tr><td>Victor Cesarino</td><td>15:000$000</td><td></td></tr><tr><td>Mansur Yasbeek &amp; Irmão</td><td>285$000</td><td></td></tr><tr><td>Felicio Bolini</td><td>21:200$000</td><td></td></tr><tr><td>Bonfiglio Montovani</td><td>48 525$000</td><td></td></tr><tr><td>Albino Tesser</td><td>17:920$000</td><td></td></tr><tr><td>De Marco &amp; Comp.</td><td>6:00$000</td><td></td></tr><tr><td>Nelsen Bechara &amp; Comp.</td><td>26:159$800</td><td></td></tr><tr><td>Farah Antonio</td><td>3:511$700</td><td></td></tr><tr><td>Domingos Saro</td><td>7:840$000</td><td></td></tr><tr><td>Bazilio Trevizan</td><td>589$200</td><td></td></tr><tr><td>Leureiro Costa &amp; Comp.</td><td>2:455$500</td><td></td></tr><tr><td>Abib José Tarcha</td><td>3:000$000</td><td></td></tr><tr><td>Adriano Blanch</td><td>3:920$000</td><td></td></tr><tr><td>Tufick Nicolán</td><td>6:000$000</td><td></td></tr><tr><td>Francisco Simões</td><td>21:300$000</td><td>696:185$990</td></tr><tr><td></td><td>Somma Rs.</td><td>757.033$485</td></tr></table>",
+                                            "image_path": "139689c8acd0229b51549edb126b25e40a303a5aed5342a26b3415d18a80525b.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 7
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "bbox": [
+                        314,
+                        370,
+                        562,
+                        392
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                314,
+                                370,
+                                562,
+                                392
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        314,
+                                        370,
+                                        562,
+                                        392
+                                    ],
+                                    "type": "text",
+                                    "content": "Jahú, 21 de Março de 1930. -- O juiz de direito\nManuel Gomes de Oliveira. O syndico: Heitor Gouvêa."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        411,
+                        193,
+                        422
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                411,
+                                193,
+                                422
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        411,
+                                        193,
+                                        422
+                                    ],
+                                    "type": "text",
+                                    "content": "Comarca de Jahá"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        56,
+                        428,
+                        220,
+                        447
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                428,
+                                220,
+                                447
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        428,
+                                        220,
+                                        447
+                                    ],
+                                    "type": "text",
+                                    "content": "Cartorio do 2.º ofício — Fallencia de L. R. Schreiner & Comp."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        56,
+                        453,
+                        221,
+                        487
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                453,
+                                221,
+                                487
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        453,
+                                        221,
+                                        487
+                                    ],
+                                    "type": "text",
+                                    "content": "Quadro geral dos credores admitidos á fallencia, de acordo com o art. 85 do Dec. 5746, de 9 de Dezembro de 1929."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        487,
+                        221,
+                        504
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                487,
+                                221,
+                                504
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        487,
+                                        221,
+                                        504
+                                    ],
+                                    "type": "text",
+                                    "content": "Credores com privilegio sobre todo o activo"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        503,
+                        221,
+                        515
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                503,
+                                221,
+                                515
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        503,
+                                        221,
+                                        515
+                                    ],
+                                    "type": "text",
+                                    "content": "Josó Melge, Jahí 216\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        59,
+                        512,
+                        221,
+                        522
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                512,
+                                221,
+                                522
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        512,
+                                        221,
+                                        522
+                                    ],
+                                    "type": "text",
+                                    "content": "Mario Martins, Jahü 2:1438100"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        520,
+                        221,
+                        530
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                520,
+                                221,
+                                530
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        520,
+                                        221,
+                                        530
+                                    ],
+                                    "type": "text",
+                                    "content": "Pedro Beltran Junior, Jahú 782§500"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        59,
+                        536,
+                        221,
+                        546
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                536,
+                                221,
+                                546
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        536,
+                                        221,
+                                        546
+                                    ],
+                                    "type": "text",
+                                    "content": "Luiz Segolin, Jahú 1603000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        545,
+                        221,
+                        562
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                545,
+                                221,
+                                562
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        545,
+                                        221,
+                                        562
+                                    ],
+                                    "type": "text",
+                                    "content": "João Manoel do Nascimento,\nJahú 160\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        59,
+                        561,
+                        221,
+                        578
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                561,
+                                221,
+                                578
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        561,
+                                        221,
+                                        578
+                                    ],
+                                    "type": "text",
+                                    "content": "Prudente Authero Bueno,\nJahá 179\\$900"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        59,
+                        577,
+                        221,
+                        588
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                577,
+                                221,
+                                588
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        577,
+                                        221,
+                                        588
+                                    ],
+                                    "type": "text",
+                                    "content": "Aristen Chaves, Jahü 1:200\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        587,
+                        222,
+                        604
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                587,
+                                222,
+                                604
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        587,
+                                        222,
+                                        604
+                                    ],
+                                    "type": "text",
+                                    "content": "Camara Municipal de Jahú,\nJahú 2:197\\$700"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        59,
+                        628,
+                        222,
+                        645
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                628,
+                                222,
+                                645
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        628,
+                                        222,
+                                        645
+                                    ],
+                                    "type": "text",
+                                    "content": "Hermi Stoltz & Comp., São Paulo 1:125\\$800"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        645,
+                        222,
+                        665
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                645,
+                                222,
+                                665
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        645,
+                                        222,
+                                        665
+                                    ],
+                                    "type": "text",
+                                    "content": "D. Almerinda do Canto Al-\nmeida Prado, Jahú 675900"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        59,
+                        671,
+                        221,
+                        686
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                671,
+                                221,
+                                686
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        671,
+                                        221,
+                                        686
+                                    ],
+                                    "type": "text",
+                                    "content": "Augusto Vieira da Silva,\nCarapinas 48:627\\$224"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        686,
+                        222,
+                        704
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                686,
+                                222,
+                                704
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        686,
+                                        222,
+                                        704
+                                    ],
+                                    "type": "text",
+                                    "content": "Eduardo Baptista Leite,\nCampinas 74:478\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        703,
+                        222,
+                        722
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                703,
+                                222,
+                                722
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        703,
+                                        222,
+                                        722
+                                    ],
+                                    "type": "text",
+                                    "content": "Sampaio Costa & Comp.,\nSão Paulo 3:602$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        412,
+                        392,
+                        430
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                412,
+                                392,
+                                430
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        412,
+                                        392,
+                                        430
+                                    ],
+                                    "type": "text",
+                                    "content": "Loureiro Costa, & Comp.,\nSão Paulo 4:320$500"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        429,
+                        392,
+                        439
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                429,
+                                392,
+                                439
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        429,
+                                        392,
+                                        439
+                                    ],
+                                    "type": "text",
+                                    "content": "Fratelli Attanasio, Jahu 1:6173400"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        439,
+                        392,
+                        455
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                439,
+                                392,
+                                455
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        439,
+                                        392,
+                                        455
+                                    ],
+                                    "type": "text",
+                                    "content": "Dr. Rubens G Rocha e\noutro, São Paulo 6:674\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        455,
+                        393,
+                        471
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                455,
+                                393,
+                                471
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        455,
+                                        393,
+                                        471
+                                    ],
+                                    "type": "text",
+                                    "content": "Gonçalves Salles & Comp.\nSão Paulo 4:549\\$800"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        471,
+                        393,
+                        488
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                471,
+                                393,
+                                488
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        471,
+                                        393,
+                                        488
+                                    ],
+                                    "type": "text",
+                                    "content": "Bromberg & Comp., São Paulo 2:024\\$200"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        488,
+                        392,
+                        504
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                488,
+                                392,
+                                504
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        488,
+                                        392,
+                                        504
+                                    ],
+                                    "type": "text",
+                                    "content": "Alves Azevedo & Comp,\nSão Paulo 11:305$300"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        504,
+                        392,
+                        521
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                504,
+                                392,
+                                521
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        504,
+                                        392,
+                                        521
+                                    ],
+                                    "type": "text",
+                                    "content": "C. Costa Fontes & Comp.,\nSantos 3:108\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        530,
+                        392,
+                        545
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                530,
+                                392,
+                                545
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        530,
+                                        392,
+                                        545
+                                    ],
+                                    "type": "text",
+                                    "content": "Juvenal, Franco & Comp.,\nS. Paulo 906\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        545,
+                        392,
+                        555
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                545,
+                                392,
+                                555
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        545,
+                                        392,
+                                        555
+                                    ],
+                                    "type": "text",
+                                    "content": "Giovanni Pavan, Jahú 585\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 34,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        555,
+                        392,
+                        565
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                555,
+                                392,
+                                565
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        555,
+                                        392,
+                                        565
+                                    ],
+                                    "type": "text",
+                                    "content": "José Balho, Campinas 467\\$800"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 35,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        571,
+                        393,
+                        588
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                571,
+                                393,
+                                588
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        571,
+                                        393,
+                                        588
+                                    ],
+                                    "type": "text",
+                                    "content": "Fidelis Maselli Di Lascio,\nCampinas 35:000\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 36,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        589,
+                        394,
+                        607
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                589,
+                                394,
+                                607
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        589,
+                                        394,
+                                        607
+                                    ],
+                                    "type": "text",
+                                    "content": "José de Seixas Junior,\nCampinas 10:000\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 37,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        606,
+                        394,
+                        617
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                606,
+                                394,
+                                617
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        606,
+                                        394,
+                                        617
+                                    ],
+                                    "type": "text",
+                                    "content": "Lion & Comp., S. Paulo 6:557\\$6:0"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 38,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        616,
+                        395,
+                        633
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                616,
+                                395,
+                                633
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        616,
+                                        395,
+                                        633
+                                    ],
+                                    "type": "text",
+                                    "content": "Luciano Vieintim & Filhos\nS. Paulo\n834$500"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 39,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        634,
+                        394,
+                        652
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                634,
+                                394,
+                                652
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        634,
+                                        394,
+                                        652
+                                    ],
+                                    "type": "text",
+                                    "content": "Soc. Casa Moreira Ltda.,\nJahú 168\\$500"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 40,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        652,
+                        394,
+                        665
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                652,
+                                394,
+                                665
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        652,
+                                        394,
+                                        665
+                                    ],
+                                    "type": "text",
+                                    "content": "Adalberto Maia, Campinas 940$000\nFabrica Aurora Limitada"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 41,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        660,
+                        394,
+                        677
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                660,
+                                394,
+                                677
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        660,
+                                        394,
+                                        677
+                                    ],
+                                    "type": "text",
+                                    "content": "Fabrica Aurora Limitada,\nPiracicaba 437\\$200"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        678,
+                        394,
+                        695
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                678,
+                                394,
+                                695
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        678,
+                                        394,
+                                        695
+                                    ],
+                                    "type": "text",
+                                    "content": "Comp. Paulista de Ali nentação, S. Paulo 298\\$400"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 43,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        695,
+                        394,
+                        707
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                695,
+                                394,
+                                707
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        695,
+                                        394,
+                                        707
+                                    ],
+                                    "type": "text",
+                                    "content": "Moinho Inglez, S. Paulo 1:185\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 44,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        401,
+                        412,
+                        565,
+                        430
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                401,
+                                412,
+                                565,
+                                430
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        401,
+                                        412,
+                                        565,
+                                        430
+                                    ],
+                                    "type": "text",
+                                    "content": "Rieckmuan & Comp., S.\nPaulo 6:113\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 45,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        401,
+                        429,
+                        564,
+                        447
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                401,
+                                429,
+                                564,
+                                447
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        401,
+                                        429,
+                                        564,
+                                        447
+                                    ],
+                                    "type": "text",
+                                    "content": "Costa Nogueira & Comp.,\nS. Paulo 2:296\\$900"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 46,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        401,
+                        447,
+                        563,
+                        463
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                401,
+                                447,
+                                563,
+                                463
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        401,
+                                        447,
+                                        563,
+                                        463
+                                    ],
+                                    "type": "text",
+                                    "content": "Zerrenner, Bulow & Comp.\nS. Paulo 4:022\\$800"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 47,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        401,
+                        463,
+                        565,
+                        487
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                401,
+                                463,
+                                565,
+                                487
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        401,
+                                        463,
+                                        565,
+                                        487
+                                    ],
+                                    "type": "text",
+                                    "content": "Comp. Mechanica e Importado de São Paulo, S. Paulo 1:9538570"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 48,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        487,
+                        565,
+                        504
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                487,
+                                565,
+                                504
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        487,
+                                        565,
+                                        504
+                                    ],
+                                    "type": "text",
+                                    "content": "Wilson Sons & Comp.,\nS. Paulo 9203000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 49,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        505,
+                        565,
+                        521
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                505,
+                                565,
+                                521
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        505,
+                                        565,
+                                        521
+                                    ],
+                                    "type": "text",
+                                    "content": "Tripaldi & Catena Ltda,\nS. Paulo 2:256\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 50,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        521,
+                        565,
+                        538
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                521,
+                                565,
+                                538
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        521,
+                                        565,
+                                        538
+                                    ],
+                                    "type": "text",
+                                    "content": "Theodor Wille & Comp., S. Paulo 19:354\\$080"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 51,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        538,
+                        565,
+                        554
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                538,
+                                565,
+                                554
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        538,
+                                        565,
+                                        554
+                                    ],
+                                    "type": "text",
+                                    "content": "João Jorge, Figueiredo & Comp., S. Paulo 19:937\\$300"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 52,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        555,
+                        565,
+                        580
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                555,
+                                565,
+                                580
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        555,
+                                        565,
+                                        580
+                                    ],
+                                    "type": "text",
+                                    "content": "Brazilian Warrant Agency & Finance Comp.\nLtda.. S. Paulo 8:253\\$200"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 53,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        580,
+                        565,
+                        596
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                580,
+                                565,
+                                596
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        580,
+                                        565,
+                                        596
+                                    ],
+                                    "type": "text",
+                                    "content": "José Milani & Comp, Campinas 1:540$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 54,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        596,
+                        565,
+                        613
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                596,
+                                565,
+                                613
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        596,
+                                        565,
+                                        613
+                                    ],
+                                    "type": "text",
+                                    "content": "S/A Moinho Santista, São Paulo 2:572\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 55,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        613,
+                        566,
+                        629
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                613,
+                                566,
+                                629
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        613,
+                                        566,
+                                        629
+                                    ],
+                                    "type": "text",
+                                    "content": "A. Sampai) & Comp., S.\nPaulo 4:357\\$400"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 56,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        629,
+                        567,
+                        646
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                629,
+                                567,
+                                646
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        629,
+                                        567,
+                                        646
+                                    ],
+                                    "type": "text",
+                                    "content": "Motta Filho & Comp., S.\nPaulo 3:083$200"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 57,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        403,
+                        646,
+                        565,
+                        656
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                403,
+                                646,
+                                565,
+                                656
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        403,
+                                        646,
+                                        565,
+                                        656
+                                    ],
+                                    "type": "text",
+                                    "content": "Irmãos Durante, Jahú 231\\$800"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 58,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        403,
+                        655,
+                        565,
+                        671
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                403,
+                                655,
+                                565,
+                                671
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        403,
+                                        655,
+                                        565,
+                                        671
+                                    ],
+                                    "type": "text",
+                                    "content": "The Dunlop Pneumatic Tyre\nComp. Ltda., S. Paulo 633\\$700"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 59,
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        80,
+                        29,
+                        139,
+                        41
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                80,
+                                29,
+                                139,
+                                41
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        80,
+                                        29,
+                                        139,
+                                        41
+                                    ],
+                                    "type": "text",
+                                    "content": "Terça-feira, 1"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        259,
+                        28,
+                        347,
+                        40
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                259,
+                                28,
+                                347,
+                                40
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        259,
+                                        28,
+                                        347,
+                                        40
+                                    ],
+                                    "type": "text",
+                                    "content": "DIARIO OFFICIAL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        457,
+                        28,
+                        538,
+                        39
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                457,
+                                28,
+                                538,
+                                39
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        457,
+                                        28,
+                                        538,
+                                        39
+                                    ],
+                                    "type": "text",
+                                    "content": "Abril 1930 3201"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5
+                }
+            ],
+            "page_size": [
+                611,
+                754
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        102,
+                        45,
+                        255,
+                        58
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                102,
+                                45,
+                                255,
+                                58
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        102,
+                                        45,
+                                        255,
+                                        58
+                                    ],
+                                    "type": "text",
+                                    "content": "F. Henecía de Jorge Mussi"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        78,
+                        62,
+                        306,
+                        91
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                78,
+                                62,
+                                306,
+                                91
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        62,
+                                        306,
+                                        91
+                                    ],
+                                    "type": "text",
+                                    "content": "Quadro geral dos credores admittidos à fallencia, de acc rdo com o artigo 85 do dec. 5746, de 9 de Dezembro de 1929."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        78,
+                        95,
+                        260,
+                        107
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                78,
+                                95,
+                                260,
+                                107
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        78,
+                                        95,
+                                        260,
+                                        107
+                                    ],
+                                    "type": "text",
+                                    "content": "Credores com privilegio sobre todo o activo"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        54,
+                        110,
+                        306,
+                        407
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                54,
+                                110,
+                                306,
+                                407
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        110,
+                                        306,
+                                        407
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                54,
+                                                110,
+                                                306,
+                                                407
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>Camara Municipal de Jahú</td><td>1:770$300</td><td></td></tr><tr><td>Tufick Nicolau</td><td>2:000$000</td><td></td></tr><tr><td>Nassri Abbud</td><td>3:000$000</td><td></td></tr><tr><td>Dr. Fausto Gwyer de Azevedo</td><td>1:359$065</td><td></td></tr><tr><td>Paulo Vissotto</td><td>1:359$065</td><td></td></tr><tr><td>Heitor Gouvêa</td><td>1:359$065</td><td>10:847$495</td></tr><tr><td colspan=\"3\">Credor com privilegio sobre innovel</td></tr><tr><td>Bonfiglio Montosani</td><td></td><td>50:000$000</td></tr><tr><td>Credores chirographarios</td><td></td><td></td></tr><tr><td>Guilberne Herzog</td><td>660$000</td><td></td></tr><tr><td>Banco Commercial do Estado de S. Paulo</td><td>30:500$000</td><td></td></tr><tr><td>José Antonio</td><td>7:500$000</td><td></td></tr><tr><td>Bento de Souza &amp; Comp.</td><td>244$500</td><td></td></tr><tr><td>Miguel Zattar &amp; Filhos</td><td>3:33:$500</td><td></td></tr><tr><td>João A. Machado &amp; Comp.</td><td>1:35 $000</td><td></td></tr><tr><td>Nicolau Nassif</td><td>52:224$940</td><td></td></tr><tr><td>Sarkis João &amp; Filho</td><td>2:171$000</td><td></td></tr><tr><td>A. Sampaio &amp; Comp.</td><td>2:299$800</td><td></td></tr><tr><td>Janowitzer, Wahle &amp; Comp.</td><td>878$900</td><td></td></tr><tr><td>Januario Canale</td><td>582$500</td><td></td></tr><tr><td>Herm Stottz &amp; Comp.</td><td>3:568$200</td><td></td></tr><tr><td>J. Baptista Aloe</td><td>1:112$000</td><td></td></tr><tr><td>Nassri Abbud</td><td>8:000$000</td><td></td></tr><tr><td>M. Yazigi &amp; Irmão</td><td>3:730$000</td><td></td></tr><tr><td>José Milani &amp; Comp.</td><td>22-$000</td><td></td></tr><tr><td>Ind. Reunidas F. Matarazzo</td><td>5:163$650</td><td></td></tr><tr><td>Motta Filho &amp; Comp.</td><td>192$000</td><td></td></tr><tr><td>The Rio de Janeiro F. Mill &amp; Gran. Ltda.</td><td>2:738$000</td><td></td></tr><tr><td>Pignatari &amp; Matarazz</td><td>1:412$700</td><td></td></tr><tr><td>Theodor Block &amp; Comp.</td><td>1:060$500</td><td></td></tr><tr><td>Barros Loureiro &amp; Monteiro</td><td>418$000</td><td></td></tr></table>",
+                                            "image_path": "2eaf2a071ea36d52ffc63c244800e090a0c0bd8e645bb3ff819c193332c50cd4.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 6
+                        }
+                    ],
+                    "index": 6
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        312,
+                        43,
+                        564,
+                        367
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                312,
+                                43,
+                                564,
+                                367
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        312,
+                                        43,
+                                        564,
+                                        367
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                312,
+                                                43,
+                                                564,
+                                                367
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td>Assab Abdalla &amp; Nagib Salem</td><td>6:475$000</td><td></td></tr><tr><td>Dr. Antonio Neves de AlmeidaPrado</td><td>12:300$000</td><td></td></tr><tr><td>Armando Terso</td><td>2:000$000</td><td></td></tr><tr><td>Barros &amp; Comp.</td><td>6:513$100</td><td></td></tr><tr><td>Lazaro Alves dos Santos</td><td>700$000</td><td></td></tr><tr><td>Nassim Zattar</td><td>45:000$000</td><td></td></tr><tr><td>José Roméro</td><td>1:265$000</td><td></td></tr><tr><td>Antonio Bianco</td><td>2:100$000</td><td></td></tr><tr><td>José Fernandes</td><td>6:850$000</td><td></td></tr><tr><td>Nasser Antonio</td><td>40:00$000</td><td></td></tr><tr><td>Aristides Cury</td><td>39:500$000</td><td></td></tr><tr><td>Aristiles R Nunes</td><td>40:000$000</td><td></td></tr><tr><td>Sad Antonio</td><td>39.500$000</td><td></td></tr><tr><td>Semi Zattar &amp; Irmãos</td><td>15:01$500</td><td></td></tr><tr><td>Banco do Brasil</td><td>49:552$000</td><td></td></tr><tr><td>Banco Melhoramentos do Jahú</td><td>4:000$000</td><td></td></tr><tr><td>Gonçalves, Salles &amp; Comp.</td><td>1:345$000</td><td></td></tr><tr><td>João Matheus</td><td>5:600$000</td><td></td></tr><tr><td>Florido Fabri</td><td>13:440$000</td><td></td></tr><tr><td>Banco Paulista</td><td>51:540$000</td><td></td></tr><tr><td>Victor Cesarino</td><td>15:000$000</td><td></td></tr><tr><td>Mansur Yasbeek &amp; Irmão</td><td>285$000</td><td></td></tr><tr><td>Felicio Bolini</td><td>21:200$000</td><td></td></tr><tr><td>Bonfiglio Montovani</td><td>48 525$000</td><td></td></tr><tr><td>Albino Tesser</td><td>17:920$000</td><td></td></tr><tr><td>De Marco &amp; Comp.</td><td>6:00$000</td><td></td></tr><tr><td>Nelsen Bechara &amp; Comp.</td><td>26:159$800</td><td></td></tr><tr><td>Farah Antonio</td><td>3:511$700</td><td></td></tr><tr><td>Domingos Saro</td><td>7:840$000</td><td></td></tr><tr><td>Bazilio Trevizan</td><td>589$200</td><td></td></tr><tr><td>Leureiro Costa &amp; Comp.</td><td>2:455$500</td><td></td></tr><tr><td>Abib José Tarcha</td><td>3:000$000</td><td></td></tr><tr><td>Adriano Blanch</td><td>3:920$000</td><td></td></tr><tr><td>Tufick Nicolán</td><td>6:000$000</td><td></td></tr><tr><td>Francisco Simões</td><td>21:300$000</td><td>696:185$990</td></tr><tr><td></td><td>Somma Rs.</td><td>757.033$485</td></tr></table>",
+                                            "image_path": "139689c8acd0229b51549edb126b25e40a303a5aed5342a26b3415d18a80525b.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 7
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "bbox": [
+                        314,
+                        370,
+                        562,
+                        392
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                314,
+                                370,
+                                562,
+                                392
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        314,
+                                        370,
+                                        562,
+                                        392
+                                    ],
+                                    "type": "text",
+                                    "content": "Jahú, 21 de Março de 1930. -- O juiz de direito\nManuel Gomes de Oliveira. O syndico: Heitor Gouvêa."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        86,
+                        411,
+                        193,
+                        422
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                411,
+                                193,
+                                422
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        411,
+                                        193,
+                                        422
+                                    ],
+                                    "type": "text",
+                                    "content": "Comarca de Jahá"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        56,
+                        428,
+                        220,
+                        447
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                428,
+                                220,
+                                447
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        428,
+                                        220,
+                                        447
+                                    ],
+                                    "type": "text",
+                                    "content": "Cartorio do 2.º ofício — Fallencia de L. R. Schreiner & Comp."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        56,
+                        453,
+                        221,
+                        487
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                56,
+                                453,
+                                221,
+                                487
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        56,
+                                        453,
+                                        221,
+                                        487
+                                    ],
+                                    "type": "text",
+                                    "content": "Quadro geral dos credores admitidos á fallencia, de acordo com o art. 85 do Dec. 5746, de 9 de Dezembro de 1929."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        487,
+                        221,
+                        504
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                487,
+                                221,
+                                504
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        487,
+                                        221,
+                                        504
+                                    ],
+                                    "type": "text",
+                                    "content": "Credores com privilegio sobre todo o activo"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        503,
+                        221,
+                        515
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                503,
+                                221,
+                                515
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        503,
+                                        221,
+                                        515
+                                    ],
+                                    "type": "text",
+                                    "content": "Josó Melge, Jahí 216\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        59,
+                        512,
+                        221,
+                        522
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                512,
+                                221,
+                                522
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        512,
+                                        221,
+                                        522
+                                    ],
+                                    "type": "text",
+                                    "content": "Mario Martins, Jahü 2:1438100"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        520,
+                        221,
+                        530
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                520,
+                                221,
+                                530
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        520,
+                                        221,
+                                        530
+                                    ],
+                                    "type": "text",
+                                    "content": "Pedro Beltran Junior, Jahú 782§500"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        59,
+                        536,
+                        221,
+                        546
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                536,
+                                221,
+                                546
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        536,
+                                        221,
+                                        546
+                                    ],
+                                    "type": "text",
+                                    "content": "Luiz Segolin, Jahú 1603000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        545,
+                        221,
+                        562
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                545,
+                                221,
+                                562
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        545,
+                                        221,
+                                        562
+                                    ],
+                                    "type": "text",
+                                    "content": "João Manoel do Nascimento,\nJahú 160\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        59,
+                        561,
+                        221,
+                        578
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                561,
+                                221,
+                                578
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        561,
+                                        221,
+                                        578
+                                    ],
+                                    "type": "text",
+                                    "content": "Prudente Authero Bueno,\nJahá 179\\$900"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        59,
+                        577,
+                        221,
+                        588
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                577,
+                                221,
+                                588
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        577,
+                                        221,
+                                        588
+                                    ],
+                                    "type": "text",
+                                    "content": "Aristen Chaves, Jahü 1:200\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        587,
+                        222,
+                        604
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                587,
+                                222,
+                                604
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        587,
+                                        222,
+                                        604
+                                    ],
+                                    "type": "text",
+                                    "content": "Camara Municipal de Jahú,\nJahú 2:197\\$700"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        59,
+                        628,
+                        222,
+                        645
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                628,
+                                222,
+                                645
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        628,
+                                        222,
+                                        645
+                                    ],
+                                    "type": "text",
+                                    "content": "Hermi Stoltz & Comp., São Paulo 1:125\\$800"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        645,
+                        222,
+                        665
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                645,
+                                222,
+                                665
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        645,
+                                        222,
+                                        665
+                                    ],
+                                    "type": "text",
+                                    "content": "D. Almerinda do Canto Al-\nmeida Prado, Jahú 675900"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        59,
+                        671,
+                        221,
+                        686
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                671,
+                                221,
+                                686
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        671,
+                                        221,
+                                        686
+                                    ],
+                                    "type": "text",
+                                    "content": "Augusto Vieira da Silva,\nCarapinas 48:627\\$224"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        686,
+                        222,
+                        704
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                686,
+                                222,
+                                704
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        686,
+                                        222,
+                                        704
+                                    ],
+                                    "type": "text",
+                                    "content": "Eduardo Baptista Leite,\nCampinas 74:478\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        58,
+                        703,
+                        222,
+                        722
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                58,
+                                703,
+                                222,
+                                722
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        58,
+                                        703,
+                                        222,
+                                        722
+                                    ],
+                                    "type": "text",
+                                    "content": "Sampaio Costa & Comp.,\nSão Paulo 3:602$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        412,
+                        392,
+                        430
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                412,
+                                392,
+                                430
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        412,
+                                        392,
+                                        430
+                                    ],
+                                    "type": "text",
+                                    "content": "Loureiro Costa, & Comp.,\nSão Paulo 4:320$500"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        429,
+                        392,
+                        439
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                429,
+                                392,
+                                439
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        429,
+                                        392,
+                                        439
+                                    ],
+                                    "type": "text",
+                                    "content": "Fratelli Attanasio, Jahu 1:6173400"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        439,
+                        392,
+                        455
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                439,
+                                392,
+                                455
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        439,
+                                        392,
+                                        455
+                                    ],
+                                    "type": "text",
+                                    "content": "Dr. Rubens G Rocha e\noutro, São Paulo 6:674\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        455,
+                        393,
+                        471
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                455,
+                                393,
+                                471
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        455,
+                                        393,
+                                        471
+                                    ],
+                                    "type": "text",
+                                    "content": "Gonçalves Salles & Comp.\nSão Paulo 4:549\\$800"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        471,
+                        393,
+                        488
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                471,
+                                393,
+                                488
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        471,
+                                        393,
+                                        488
+                                    ],
+                                    "type": "text",
+                                    "content": "Bromberg & Comp., São Paulo 2:024\\$200"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        488,
+                        392,
+                        504
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                488,
+                                392,
+                                504
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        488,
+                                        392,
+                                        504
+                                    ],
+                                    "type": "text",
+                                    "content": "Alves Azevedo & Comp,\nSão Paulo 11:305$300"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        504,
+                        392,
+                        521
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                504,
+                                392,
+                                521
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        504,
+                                        392,
+                                        521
+                                    ],
+                                    "type": "text",
+                                    "content": "C. Costa Fontes & Comp.,\nSantos 3:108\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        530,
+                        392,
+                        545
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                530,
+                                392,
+                                545
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        530,
+                                        392,
+                                        545
+                                    ],
+                                    "type": "text",
+                                    "content": "Juvenal, Franco & Comp.,\nS. Paulo 906\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        545,
+                        392,
+                        555
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                545,
+                                392,
+                                555
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        545,
+                                        392,
+                                        555
+                                    ],
+                                    "type": "text",
+                                    "content": "Giovanni Pavan, Jahú 585\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 34,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        555,
+                        392,
+                        565
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                555,
+                                392,
+                                565
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        555,
+                                        392,
+                                        565
+                                    ],
+                                    "type": "text",
+                                    "content": "José Balho, Campinas 467\\$800"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 35,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        571,
+                        393,
+                        588
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                571,
+                                393,
+                                588
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        571,
+                                        393,
+                                        588
+                                    ],
+                                    "type": "text",
+                                    "content": "Fidelis Maselli Di Lascio,\nCampinas 35:000\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 36,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        589,
+                        394,
+                        607
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                589,
+                                394,
+                                607
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        589,
+                                        394,
+                                        607
+                                    ],
+                                    "type": "text",
+                                    "content": "José de Seixas Junior,\nCampinas 10:000\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 37,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        606,
+                        394,
+                        617
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                606,
+                                394,
+                                617
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        606,
+                                        394,
+                                        617
+                                    ],
+                                    "type": "text",
+                                    "content": "Lion & Comp., S. Paulo 6:557\\$6:0"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 38,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        616,
+                        395,
+                        633
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                616,
+                                395,
+                                633
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        616,
+                                        395,
+                                        633
+                                    ],
+                                    "type": "text",
+                                    "content": "Luciano Vieintim & Filhos\nS. Paulo\n834$500"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 39,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        634,
+                        394,
+                        652
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                634,
+                                394,
+                                652
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        634,
+                                        394,
+                                        652
+                                    ],
+                                    "type": "text",
+                                    "content": "Soc. Casa Moreira Ltda.,\nJahú 168\\$500"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 40,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        652,
+                        394,
+                        665
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                652,
+                                394,
+                                665
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        652,
+                                        394,
+                                        665
+                                    ],
+                                    "type": "text",
+                                    "content": "Adalberto Maia, Campinas 940$000\nFabrica Aurora Limitada"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 41,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        660,
+                        394,
+                        677
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                660,
+                                394,
+                                677
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        660,
+                                        394,
+                                        677
+                                    ],
+                                    "type": "text",
+                                    "content": "Fabrica Aurora Limitada,\nPiracicaba 437\\$200"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        678,
+                        394,
+                        695
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                678,
+                                394,
+                                695
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        678,
+                                        394,
+                                        695
+                                    ],
+                                    "type": "text",
+                                    "content": "Comp. Paulista de Ali nentação, S. Paulo 298\\$400"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 43,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        695,
+                        394,
+                        707
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                695,
+                                394,
+                                707
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        695,
+                                        394,
+                                        707
+                                    ],
+                                    "type": "text",
+                                    "content": "Moinho Inglez, S. Paulo 1:185\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 44,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        401,
+                        412,
+                        565,
+                        430
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                401,
+                                412,
+                                565,
+                                430
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        401,
+                                        412,
+                                        565,
+                                        430
+                                    ],
+                                    "type": "text",
+                                    "content": "Rieckmuan & Comp., S.\nPaulo 6:113\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 45,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        401,
+                        429,
+                        564,
+                        447
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                401,
+                                429,
+                                564,
+                                447
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        401,
+                                        429,
+                                        564,
+                                        447
+                                    ],
+                                    "type": "text",
+                                    "content": "Costa Nogueira & Comp.,\nS. Paulo 2:296\\$900"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 46,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        401,
+                        447,
+                        563,
+                        463
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                401,
+                                447,
+                                563,
+                                463
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        401,
+                                        447,
+                                        563,
+                                        463
+                                    ],
+                                    "type": "text",
+                                    "content": "Zerrenner, Bulow & Comp.\nS. Paulo 4:022\\$800"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 47,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        401,
+                        463,
+                        565,
+                        487
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                401,
+                                463,
+                                565,
+                                487
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        401,
+                                        463,
+                                        565,
+                                        487
+                                    ],
+                                    "type": "text",
+                                    "content": "Comp. Mechanica e Importado de São Paulo, S. Paulo 1:9538570"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 48,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        487,
+                        565,
+                        504
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                487,
+                                565,
+                                504
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        487,
+                                        565,
+                                        504
+                                    ],
+                                    "type": "text",
+                                    "content": "Wilson Sons & Comp.,\nS. Paulo 9203000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 49,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        505,
+                        565,
+                        521
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                505,
+                                565,
+                                521
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        505,
+                                        565,
+                                        521
+                                    ],
+                                    "type": "text",
+                                    "content": "Tripaldi & Catena Ltda,\nS. Paulo 2:256\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 50,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        521,
+                        565,
+                        538
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                521,
+                                565,
+                                538
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        521,
+                                        565,
+                                        538
+                                    ],
+                                    "type": "text",
+                                    "content": "Theodor Wille & Comp., S. Paulo 19:354\\$080"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 51,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        538,
+                        565,
+                        554
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                538,
+                                565,
+                                554
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        538,
+                                        565,
+                                        554
+                                    ],
+                                    "type": "text",
+                                    "content": "João Jorge, Figueiredo & Comp., S. Paulo 19:937\\$300"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 52,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        555,
+                        565,
+                        580
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                555,
+                                565,
+                                580
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        555,
+                                        565,
+                                        580
+                                    ],
+                                    "type": "text",
+                                    "content": "Brazilian Warrant Agency & Finance Comp.\nLtda.. S. Paulo 8:253\\$200"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 53,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        580,
+                        565,
+                        596
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                580,
+                                565,
+                                596
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        580,
+                                        565,
+                                        596
+                                    ],
+                                    "type": "text",
+                                    "content": "José Milani & Comp, Campinas 1:540$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 54,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        596,
+                        565,
+                        613
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                596,
+                                565,
+                                613
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        596,
+                                        565,
+                                        613
+                                    ],
+                                    "type": "text",
+                                    "content": "S/A Moinho Santista, São Paulo 2:572\\$000"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 55,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        613,
+                        566,
+                        629
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                613,
+                                566,
+                                629
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        613,
+                                        566,
+                                        629
+                                    ],
+                                    "type": "text",
+                                    "content": "A. Sampai) & Comp., S.\nPaulo 4:357\\$400"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 56,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        629,
+                        567,
+                        646
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                629,
+                                567,
+                                646
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        629,
+                                        567,
+                                        646
+                                    ],
+                                    "type": "text",
+                                    "content": "Motta Filho & Comp., S.\nPaulo 3:083$200"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 57,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        403,
+                        646,
+                        565,
+                        656
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                403,
+                                646,
+                                565,
+                                656
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        403,
+                                        646,
+                                        565,
+                                        656
+                                    ],
+                                    "type": "text",
+                                    "content": "Irmãos Durante, Jahú 231\\$800"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 58,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        403,
+                        655,
+                        565,
+                        671
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                403,
+                                655,
+                                565,
+                                671
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        403,
+                                        655,
+                                        565,
+                                        671
+                                    ],
+                                    "type": "text",
+                                    "content": "The Dunlop Pneumatic Tyre\nComp. Ltda., S. Paulo 633\\$700"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 59,
+                    "merge_prev": false
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_effort": "medium",
+    "_ocr_enable": true,
+    "_version_name": "3.4.4"
+}

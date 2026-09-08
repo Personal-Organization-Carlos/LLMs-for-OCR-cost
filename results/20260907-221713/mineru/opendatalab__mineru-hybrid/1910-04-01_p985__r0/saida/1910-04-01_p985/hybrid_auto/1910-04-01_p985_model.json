@@ -1,0 +1,1707 @@
+[
+    [
+        {
+            "type": "doc_title",
+            "bbox": [
+                0.183,
+                0.04,
+                0.814,
+                0.069
+            ],
+            "angle": 0,
+            "content": "ESTADOS UNIDOS DO BRAZIL"
+        },
+        {
+            "type": "doc_title",
+            "bbox": [
+                0.043,
+                0.071,
+                0.967,
+                0.138
+            ],
+            "angle": 0,
+            "content": "DIARIO OFFICIAL"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.204,
+                0.141,
+                0.797,
+                0.17
+            ],
+            "angle": 0,
+            "content": "DO ESTADO DE SÃO PAULO"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.072,
+                0.179,
+                0.364,
+                0.203
+            ],
+            "angle": 0,
+            "content": "ANNO 19,°--22,° DA REPUBLICA--N.(68)",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.469,
+                0.181,
+                0.574,
+                0.197
+            ],
+            "angle": 0,
+            "content": "SÃO PAULO",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.683,
+                0.184,
+                0.94,
+                0.2
+            ],
+            "angle": 0,
+            "content": "SEXTA-FEIRA 1 DE ABRIL DE 1910",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.087,
+                0.214,
+                0.453,
+                0.249
+            ],
+            "angle": 0,
+            "content": "Actos do Poder Executivo"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.156,
+                0.267,
+                0.382,
+                0.284
+            ],
+            "angle": 0,
+            "content": "DECRETO N. 1818"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.175,
+                0.292,
+                0.367,
+                0.308
+            ],
+            "angle": 0,
+            "content": "DE 29 DE MARÇO DE 1910"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.04,
+                0.315,
+                0.502,
+                0.343
+            ],
+            "angle": 0,
+            "content": "Anctorize a Companhia Estrada de Ferro S. Paulo a Guyas a abrir co trifogo publico a linha de Bebedouro a Monte Azul",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.039,
+                0.349,
+                0.502,
+                0.375
+            ],
+            "angle": 0,
+            "content": "O Vice-presidente do Estado de S. Paule, em exercício na\nfórmia do § 1 artigo 27, da Constituição,",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.038,
+                0.374,
+                0.503,
+                0.41
+            ],
+            "angle": 0,
+            "content": "Attendendo ao que soliciton a Gompanhia Estrada do Ferro S. Paulo a Goyaz, e sob propo ta do secretario de Estado dos Negocios da Agricultura, Comexo e Obras Publicas,",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.074,
+                0.407,
+                0.145,
+                0.419
+            ],
+            "angle": 0,
+            "content": "Decreta :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.04,
+                0.417,
+                0.503,
+                0.465
+            ],
+            "angle": 0,
+            "content": "Artigo 1.º Fica a Companhia Estrada do Ferro S. Paulo a Goyaz, auctorizada a abrir ao trafego publico a via ferrea do Bebedouro a Moste Azul, com 31 kilometros de extensão e à qual se referiu o decreto n. 1732, de 4 de Maio de 1909.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.04,
+                0.464,
+                0.503,
+                0.51
+            ],
+            "angle": 0,
+            "content": "Artigo 2.º A presente licença é concedida mediante a condição de, dentro do prazo de 30 dias, contados destaldata, serem ultimados os serviços de assentamento da linha telegraphica de retoque do leito, e de construção de xercas internaes.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.042,
+                0.509,
+                0.503,
+                0.532
+            ],
+            "angle": 0,
+            "content": "Palacio do Governo do Estado de S. Paulo, 29 de Março de 1910.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.12,
+                0.53,
+                0.473,
+                0.545
+            ],
+            "angle": 0,
+            "content": "FERNANDO PRESTES DE ALBUQUERQUE.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.12,
+                0.545,
+                0.324,
+                0.56
+            ],
+            "angle": 0,
+            "content": "ANTONIO EE PADUA SALLIES",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.164,
+                0.598,
+                0.389,
+                0.614
+            ],
+            "angle": 0,
+            "content": "DECECTED No. 1849"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.18,
+                0.624,
+                0.372,
+                0.638
+            ],
+            "angle": 0,
+            "content": "DE 29 DE MARÇO DE 1910"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.045,
+                0.646,
+                0.506,
+                0.694
+            ],
+            "angle": 0,
+            "content": "Concede à Companhia Mogyana de Estradas de Ferro e Navegação licença para construção, uso e goso de uma estrada de ferro que, iniciando-se no bairro de Jatahy, termine em Ribeirão Preto.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.043,
+                0.702,
+                0.505,
+                0.727
+            ],
+            "angle": 0,
+            "content": "O Vice-presidente do Estado do S. Paulo, em exercício na fórmao do § 1.º, art. 27 da Constituição.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.042,
+                0.726,
+                0.506,
+                0.774
+            ],
+            "angle": 0,
+            "content": "Usando da atribuição que lhe confere o artigo 2.º da lei n. 30, de 13 de Junho de 1892, e attendendo ao requerido pela Companhia Mogyana de Estradas de Ferro e Navegação, nos termos dos paragraphos 2.º e 3.º do artigo e lei citados,",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.078,
+                0.77,
+                0.15,
+                0.782
+            ],
+            "angle": 0,
+            "content": "Decrata :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.042,
+                0.78,
+                0.508,
+                0.872
+            ],
+            "angle": 0,
+            "content": "Artigo único. Fica concedida à Companhia Mogyana de Estradas de Ferro e Navegação licença para construção, uso e goso de uma via ferrea que — partindo do ponto terminal da que lhe foi concedida pelo decreto n. 1773, de 1.º de Outubro de 1909 — vá terminar em Ribeirão Preto, de conformidade com as clausulas que com estê baixam, assignadas pelo sr. dr. secretario de Estado dos Negócios da Agricultura, Commercio e Obras Publicas.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.042,
+                0.87,
+                0.508,
+                0.894
+            ],
+            "angle": 0,
+            "content": "Palacio do Governo do Estado de S. Paulo, 29 do Março de 1910.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.123,
+                0.892,
+                0.482,
+                0.923
+            ],
+            "angle": 0,
+            "content": "FERNANDO PRESTES DE ALBUQUERQUE\nANTONIO DE PADUA SALLIS.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.508,
+                0.215,
+                0.971,
+                0.251
+            ],
+            "angle": 0,
+            "content": "Clausulas a que refere o Decreto n. 1849, de 29 de Março de 1910",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.732,
+                0.258,
+                0.752,
+                0.272
+            ],
+            "angle": 0,
+            "content": "I"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.507,
+                0.272,
+                0.973,
+                0.335
+            ],
+            "angle": 0,
+            "content": "O Governo do Estado de S. Paulo concede à Companhia Mgyana de Estradas de Ferro e Navegação licença para construção, uso o goso de uma estrada de ferro que, partindo do ponto termiais da que lhe foi concedida pelo Decreto n. 1773, de 1.º do Outubro de 1908 — vá terminar em Ribeirão Preto.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.738,
+                0.341,
+                0.76,
+                0.354
+            ],
+            "angle": 0,
+            "content": "II"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.508,
+                0.355,
+                0.975,
+                0.46
+            ],
+            "angle": 0,
+            "content": "Esta estuada de ferro gosará de uma zona garantida, de cem metros de cada lado, reduzida a 50 metros nas gargantas e declives de serras, limitadas por duas linhas parallelas ao eixo da via permanente, dentro da qual nenhuma outra estrada de ferro poderá receber gancros ou passageiros, salvo: 1.º, o caso de outra ou mais estradas tiram o mesmo ponto inicial ou terminal; 2.º, o caso em que o ponto inicial ou terminal de outra estrada, esteja dentro da zona desta; 3.º, o caso de entroncamento referido nesta clausula.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.508,
+                0.458,
+                0.977,
+                0.505
+            ],
+            "angle": 0,
+            "content": "Comtanto que dentro da zona garantida desta estrada de ferro não receba generos nem passageiros, poderá qualquer outra atravessar a mesma zona, cruzando a linha desta, sujeita, porém, aos onus provenientes do cruzamento.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.509,
+                0.504,
+                0.976,
+                0.572
+            ],
+            "angle": 0,
+            "content": "Qualquer outra estrada de ferro poderá ter simultane-menta os memos pontos inicial e terminal desta, respeitada a zona garantida por esta clausula, bem como poderá entroncar na linha desta, resolvendo o Governo, definitivamente, em caso de desacórdo, para regular as relações provenientes de entroncamento.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.512,
+                0.57,
+                0.975,
+                0.597
+            ],
+            "angle": 0,
+            "content": "Considerar-se-á entroncamento, não só o caso de ligação por meio de via permanente, como por meio de estação commun.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.732,
+                0.604,
+                0.759,
+                0.616
+            ],
+            "angle": 0,
+            "content": "III"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.512,
+                0.618,
+                0.974,
+                0.666
+            ],
+            "angle": 0,
+            "content": "Gosará mais a estrada do ferro do direito de desappropriação, nos termos da legislação do Estado, para os terranos necessários à construção da linha, estações, armazenos e mais dependências.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.513,
+                0.664,
+                0.975,
+                0.7
+            ],
+            "angle": 0,
+            "content": "Quando for necessario iniciar uma acção de desappropriação, deverá ser apresentada ao Governo a respectiva planta, sómente da parte a desapropriar.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.513,
+                0.698,
+                0.976,
+                0.744
+            ],
+            "angle": 0,
+            "content": "O Governo, dentro do prazo de trinta dias, da data da apresentação da planta, deverá conceder ou negar a licença, dando os motivos da recusa, no caso de negativa, e indicando as modificações de traçado, de modo a permitir a continuação da obra.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.513,
+                0.742,
+                0.974,
+                0.769
+            ],
+            "angle": 0,
+            "content": "Si, dentro do prazo de trinta dias, o Governo não se manifestar, foi entendido que está concedida a mesma licença.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.731,
+                0.772,
+                0.76,
+                0.785
+            ],
+            "angle": 0,
+            "content": "I V"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.514,
+                0.793,
+                0.981,
+                0.867
+            ],
+            "angle": 0,
+            "content": "O Governo prestará a esta estrada de ferro toda a protecção compatível com as leis, afim de que possa ella realizar a arrecadação das taxas estabelecidas, para que sejam respeitadas as disposições dos seus regulamentos e mantida a sua polícia, devend, todo o empregado na arrecadação das taxas e na policia da linha ser cidadão da República.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.514,
+                0.893,
+                0.977,
+                0.933
+            ],
+            "angle": 0,
+            "content": "Antes de iniciarem-se os trabalhos da construção desta estrada de ferro, deverão ser submettidos à approvação de Governe os projectos de todo anos trabalhos, que comprehendente!",
+            "merge_prev": false
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.185,
+                0.041,
+                0.808,
+                0.065
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.039,
+                0.074,
+                0.966,
+                0.138
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.205,
+                0.142,
+                0.791,
+                0.168
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.075,
+                0.183,
+                0.356,
+                0.198
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.472,
+                0.182,
+                0.572,
+                0.197
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.686,
+                0.185,
+                0.937,
+                0.198
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.089,
+                0.213,
+                0.45,
+                0.248
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.16,
+                0.27,
+                0.379,
+                0.283
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.179,
+                0.294,
+                0.363,
+                0.307
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.045,
+                0.317,
+                0.5,
+                0.33
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.058,
+                0.329,
+                0.484,
+                0.341
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.073,
+                0.35,
+                0.498,
+                0.365
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.043,
+                0.362,
+                0.337,
+                0.376
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.076,
+                0.373,
+                0.5,
+                0.387
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.043,
+                0.384,
+                0.5,
+                0.398
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.043,
+                0.396,
+                0.436,
+                0.409
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.078,
+                0.407,
+                0.141,
+                0.42
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.078,
+                0.418,
+                0.5,
+                0.431
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.045,
+                0.43,
+                0.5,
+                0.443
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.045,
+                0.44,
+                0.501,
+                0.455
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.045,
+                0.453,
+                0.46,
+                0.464
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.076,
+                0.463,
+                0.499,
+                0.477
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.045,
+                0.475,
+                0.5,
+                0.488
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.045,
+                0.486,
+                0.5,
+                0.5
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.045,
+                0.498,
+                0.422,
+                0.51
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.075,
+                0.507,
+                0.502,
+                0.522
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.045,
+                0.519,
+                0.112,
+                0.532
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.123,
+                0.53,
+                0.469,
+                0.545
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.123,
+                0.546,
+                0.319,
+                0.558
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.167,
+                0.6,
+                0.385,
+                0.613
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.184,
+                0.625,
+                0.369,
+                0.637
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.049,
+                0.646,
+                0.503,
+                0.661
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.08,
+                0.659,
+                0.505,
+                0.672
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.082,
+                0.682,
+                0.189,
+                0.692
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.08,
+                0.67,
+                0.502,
+                0.683
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.081,
+                0.702,
+                0.504,
+                0.717
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.047,
+                0.714,
+                0.334,
+                0.728
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.079,
+                0.723,
+                0.505,
+                0.739
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.046,
+                0.736,
+                0.504,
+                0.75
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.048,
+                0.747,
+                0.503,
+                0.762
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.047,
+                0.759,
+                0.448,
+                0.773
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.081,
+                0.769,
+                0.147,
+                0.783
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.08,
+                0.78,
+                0.505,
+                0.795
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.048,
+                0.804,
+                0.503,
+                0.816
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.047,
+                0.815,
+                0.503,
+                0.828
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.047,
+                0.837,
+                0.503,
+                0.851
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.046,
+                0.859,
+                0.159,
+                0.872
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.294,
+                0.863,
+                0.299,
+                0.868
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.046,
+                0.793,
+                0.503,
+                0.805
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.047,
+                0.827,
+                0.503,
+                0.839
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.046,
+                0.849,
+                0.506,
+                0.862
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.048,
+                0.883,
+                0.127,
+                0.893
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.078,
+                0.87,
+                0.505,
+                0.885
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.125,
+                0.891,
+                0.476,
+                0.908
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.132,
+                0.908,
+                0.33,
+                0.922
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.508,
+                0.214,
+                0.968,
+                0.237
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.654,
+                0.232,
+                0.826,
+                0.251
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.732,
+                0.259,
+                0.754,
+                0.275
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.539,
+                0.272,
+                0.969,
+                0.288
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.511,
+                0.286,
+                0.969,
+                0.299
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.511,
+                0.298,
+                0.968,
+                0.31
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.511,
+                0.309,
+                0.968,
+                0.321
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.505,
+                0.32,
+                0.951,
+                0.333
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.739,
+                0.342,
+                0.757,
+                0.355
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.541,
+                0.355,
+                0.97,
+                0.37
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.513,
+                0.369,
+                0.968,
+                0.381
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.513,
+                0.379,
+                0.968,
+                0.392
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.513,
+                0.391,
+                0.968,
+                0.404
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.513,
+                0.403,
+                0.969,
+                0.414
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.51,
+                0.413,
+                0.971,
+                0.426
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.507,
+                0.425,
+                0.973,
+                0.437
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.508,
+                0.437,
+                0.97,
+                0.449
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.509,
+                0.449,
+                0.65,
+                0.459
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.544,
+                0.458,
+                0.972,
+                0.471
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.513,
+                0.47,
+                0.971,
+                0.483
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.51,
+                0.493,
+                0.835,
+                0.505
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.512,
+                0.481,
+                0.976,
+                0.494
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.546,
+                0.502,
+                0.972,
+                0.516
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.513,
+                0.514,
+                0.972,
+                0.527
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.513,
+                0.526,
+                0.971,
+                0.539
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.514,
+                0.537,
+                0.971,
+                0.55
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.514,
+                0.549,
+                0.972,
+                0.562
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.515,
+                0.561,
+                0.578,
+                0.572
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.546,
+                0.57,
+                0.971,
+                0.584
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.515,
+                0.582,
+                0.971,
+                0.595
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.734,
+                0.605,
+                0.757,
+                0.619
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.547,
+                0.619,
+                0.969,
+                0.632
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.516,
+                0.63,
+                0.971,
+                0.643
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.516,
+                0.642,
+                0.971,
+                0.655
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.517,
+                0.654,
+                0.575,
+                0.664
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.549,
+                0.663,
+                0.971,
+                0.677
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.517,
+                0.675,
+                0.972,
+                0.689
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.517,
+                0.686,
+                0.747,
+                0.7
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.547,
+                0.696,
+                0.972,
+                0.711
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.517,
+                0.709,
+                0.973,
+                0.722
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.517,
+                0.72,
+                0.971,
+                0.733
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.518,
+                0.732,
+                0.972,
+                0.744
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.547,
+                0.74,
+                0.973,
+                0.757
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.516,
+                0.753,
+                0.928,
+                0.768
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.731,
+                0.772,
+                0.761,
+                0.791
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.549,
+                0.793,
+                0.976,
+                0.808
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.518,
+                0.806,
+                0.977,
+                0.819
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.517,
+                0.816,
+                0.974,
+                0.831
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.517,
+                0.828,
+                0.973,
+                0.842
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.517,
+                0.839,
+                0.974,
+                0.853
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.517,
+                0.85,
+                0.768,
+                0.864
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.551,
+                0.895,
+                0.972,
+                0.909
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.519,
+                0.906,
+                0.971,
+                0.922
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.517,
+                0.919,
+                0.846,
+                0.933
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

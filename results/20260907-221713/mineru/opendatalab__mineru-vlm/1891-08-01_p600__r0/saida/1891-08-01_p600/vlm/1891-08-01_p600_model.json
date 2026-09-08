@@ -1,0 +1,522 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.133,
+                0.042,
+                0.268,
+                0.054
+            ],
+            "angle": 0,
+            "content": "600 Saboado 1"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.474,
+                0.04,
+                0.621,
+                0.053
+            ],
+            "angle": 0,
+            "content": "DIARIO OFFICIAL"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.853,
+                0.04,
+                0.964,
+                0.054
+            ],
+            "angle": 0,
+            "content": "Agosto (1891)"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.099,
+                0.072,
+                0.396,
+                0.122
+            ],
+            "angle": 0,
+            "content": "Dos empregados da recebedoria da capital, do collector e escrivão da collectoria de Jundiahy, fazendo egual pedido.—Idem.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.099,
+                0.122,
+                0.396,
+                0.182
+            ],
+            "angle": 0,
+            "content": "Do directorio do partido republicano de Cananéa, fazendo egual pedido em favor do administrador e escrivão da Mesa de Rendas daquella localidade. —Idem.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.1,
+                0.182,
+                0.396,
+                0.219
+            ],
+            "angle": 0,
+            "content": "De José Scutari e outro, pedindo para ligar Campinas a Caraguatatuba por uma linha ferrea.—Idem.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.102,
+                0.219,
+                0.396,
+                0.268
+            ],
+            "angle": 0,
+            "content": "Do dr. Augusto Daniel de Araujo Lima e outro, propondo-se a promover o saneamento e embellezamento da cidade de Santos.—Idem.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.102,
+                0.268,
+                0.396,
+                0.305
+            ],
+            "angle": 0,
+            "content": "Da Companhia Carris de Ferro de S. Paulo, pedindo certidão.—Dã-se em termos.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.204,
+                0.324,
+                0.305,
+                0.342
+            ],
+            "angle": 0,
+            "content": "5.ª SECCÃO"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.098,
+                0.345,
+                0.395,
+                0.383
+            ],
+            "angle": 0,
+            "content": ". Foi nomeado o cidadão Augusto Schmidt para o cargo de subdelegado de polícia de Bragança.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.098,
+                0.383,
+                0.395,
+                0.491
+            ],
+            "angle": 0,
+            "content": "Communicou-se ao supremo tribunal de justiça, ao ministerio da justiça e a thesouraria de fazonda que, em 23 do corrente, o bacharel Joaquim Cordeiro Coelho Cintra entrou no exercício do cargo de juiz de direito da comarca de Santos, para que fôra nomeado por decreto de 7 de Março último.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.098,
+                0.491,
+                0.395,
+                0.685
+            ],
+            "angle": 0,
+            "content": "Palacio do Governo de Estado de S. Paulo, 30 de Julho de 1891. N. 749. Ao cidadão 4º juiz de paz de Santa Cruz do Rio Pardo.—Declaro-vos em referencia ao ofício de 1º de Junho findo que estaes impedido de presidir ao casamento de vosso cunhado, com o qual tendes parentesco em 2º gráu civil por affinidade, e que no impedimento legítimo dos 4 juizes de paz serão estes substituídos pelo do distrito mais visinho, segundo o aviso n. 200 de 3 de Agosto de 1835.—Saúde e fraternidade.—Americo Brasiliense de Almeida Mello.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.098,
+                0.684,
+                0.395,
+                0.781
+            ],
+            "angle": 0,
+            "content": "51. Declarou-se ao dr. chefe de polícia que, para o governo resolver sobre o pedido de reforma apresentado pelo capitão do corpo de urbanos, José Antonio Corrêa, é mistér primeiroamente seja aquele oficial submettido a nigórosa inspecção de saúde.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.098,
+                0.781,
+                0.395,
+                0.927
+            ],
+            "angle": 0,
+            "content": "Remetteu-se ao coronel commandante do corpo policial permanente os processos julgados pela juuta de justica a que responderam os soldados daquelle corpo: Angelo Gabriel Joaquim da Silva: Antonio Guilherme Sambier, Bento: Antonio de Moraes, Felippe Antonio Pereira: Graciliano de Paula: Figuálredo Muniz, João Antonio dos Santos: João Baptista da Rocha, João Florentino de Carvalho, Joaquim: Antonio dos",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.397,
+                0.07,
+                0.693,
+                0.158
+            ],
+            "angle": 0,
+            "content": "Santos, Joaquim Dias de Siqueira, José dos Santos, José Matheus Calderaro, José Alves Teixeira, José Rufino de Oliveira, Mancel Xavier de Souza, Pedro Antonio de Oliveira e Sebastião Domingos de Oliveira.",
+            "merge_prev": true
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.46,
+                0.165,
+                0.629,
+                0.176
+            ],
+            "angle": 0,
+            "content": "OFFICIOS DESPACHADOS"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.397,
+                0.179,
+                0.692,
+                0.24
+            ],
+            "angle": 0,
+            "content": "Da intendencia municipal da villa do Tijuco Preto, pedindo para ser aquele termo elevado a comarca. —Remeta-se ao Congresso do Estado.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.397,
+                0.24,
+                0.692,
+                0.302
+            ],
+            "angle": 0,
+            "content": "Da intendencia municipal e directorio republicano de Belém do Descalvado, representando sobre o decreto que creou a comarca de Pirassununga. -Idem.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.397,
+                0.302,
+                0.692,
+                0.423
+            ],
+            "angle": 0,
+            "content": "Do dr. juiz de direito da 2º vara, enviando a reclamação apresentada pelo procurador fiscal do Thesouro do Estado contra o facto de não se lhe abonarem custas forenses nos autos de inventarios a que asiste e sobre o facto de ser excluído da porcentagem que para o juizo se costuma deduzir da taxa de heranças e legados. —Idem.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.397,
+                0.423,
+                0.692,
+                0.472
+            ],
+            "angle": 0,
+            "content": "Do dr. juiz de direito da 1ª vara, representaudo sobre a necessidade de ser creado o logar de auditor do corpo policial permanente.—Idem.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.433,
+                0.476,
+                0.66,
+                0.487
+            ],
+            "angle": 0,
+            "content": "REQUERIMENTOS DESPACHADOS"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.397,
+                0.488,
+                0.692,
+                0.549
+            ],
+            "angle": 0,
+            "content": "Do bacharel Gabriel Dias da Silva, solicitando certidão relativamente ao tempo em que exerceu o ofício de tabellião em Campinas.—Sim, em termos.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.397,
+                0.549,
+                0.692,
+                0.624
+            ],
+            "angle": 0,
+            "content": "Do preso Fortunato Augusto dos Santos, pedindo por certidão a data da sua entrada para a cadeia de São José do Barreiro.—Ao dr. juiz de direito da comarca de S. José do Barreiro para attender.",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.431,
+                0.634,
+                0.662,
+                0.643
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.398,
+                0.649,
+                0.689,
+                0.659
+            ],
+            "angle": 0,
+            "content": "Expodiente do Thesouro do Estado"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.499,
+                0.663,
+                0.604,
+                0.673
+            ],
+            "angle": 0,
+            "content": "Dia 31 de Julho"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.397,
+                0.673,
+                0.692,
+                0.732
+            ],
+            "angle": 0,
+            "content": "Ofício da directoria do Seminario da Gloria, remettendo a relação nominal das educandas desse estabelecimento, etc.—Informe a contadoria.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.397,
+                0.733,
+                0.692,
+                0.805
+            ],
+            "angle": 0,
+            "content": "Dito da intendencia municipal de São Sebastião, solicitando ao Governo um auxílio para concertos na caixa d'agua dessa cidade.(2.º despacho).—Entregue-se a quantia de 1.000\\$000.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.397,
+                0.805,
+                0.692,
+                0.889
+            ],
+            "angle": 0,
+            "content": "Requerimento do cidadão Candido Henrique da Silva, alferes do corpo policial permanente, solicitando o pagamento da quantia de 48\\$000.\n—Remetta-se ao commandante do corpo policial, solicitando a necessaria informação.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.397,
+                0.889,
+                0.692,
+                0.927
+            ],
+            "angle": 0,
+            "content": "- Officios de professores do Estado, pedindo expedição de ordem aos exactores para lhes pagarem os ven-",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.696,
+                0.071,
+                0.986,
+                0.098
+            ],
+            "angle": 0,
+            "content": "cimentos devidos durante o exercício corrente.—Informe a Contadoria",
+            "merge_prev": true
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.696,
+                0.098,
+                0.988,
+                0.183
+            ],
+            "angle": 0,
+            "content": "Requerimento de Francisco Teixeira da Silva, pedindo que seja autorisado o collector de Casa Branca a receber o imposto predial que deve o supplicante do exercício de 1890-1891.—Providenciado com circular n. 37 de 27 de Julho corrente.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.696,
+                0.183,
+                0.988,
+                0.291
+            ],
+            "angle": 0,
+            "content": "Dito de Moysés Bernardo de Camargo, marido e curador de d. Guilhermina Maria da Silva, solicitando que se mande certificar qual o tempo em que a referida sonhora exerceu effectivamente o cargo de professora, depois de estar em vigor a lei de 22 de Agosto de 1887.—Sim, em termos.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.696,
+                0.291,
+                0.988,
+                0.365
+            ],
+            "angle": 0,
+            "content": "Dito do cidadão Justo Nogueira de Azambuja, solicitando o pagamento da quantia de 72:833\\$76, proveniente de fardamento fornecido aos corpos de urbanos e permanentes.—Pague-se.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.696,
+                0.365,
+                0.988,
+                0.413
+            ],
+            "angle": 0,
+            "content": "Dito de João Jacyntho Gonçalves de Andrade, solicitando que se man-de certificar si deve imposto predial.—Sim, em termos.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.696,
+                0.413,
+                0.988,
+                0.473
+            ],
+            "angle": 0,
+            "content": "Mandou-se pagar a quantia de 1.000\\$000 a Fortunato Betoldi, proveniente do fornecimento de cem japonas aos presos da cadeia desta capital.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.696,
+                0.473,
+                0.988,
+                0.521
+            ],
+            "angle": 0,
+            "content": "Idem idem o dito de 450\\$000 a Pompeu Scuvero, proveniente de caixilhos envidraçados fornecidos á mesma.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.696,
+                0.522,
+                0.988,
+                0.607
+            ],
+            "angle": 0,
+            "content": "Declarou-se ao cidadão dr. Norberto Cruz, engenheiro ajudante da commissão do Alto Paraná, que deve recolherá superintendencia de Obras Publicas os objectos perten- centes a essa extincta commissão, constantes da relação n. 2, etc.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.696,
+                0.607,
+                0.988,
+                0.642
+            ],
+            "angle": 0,
+            "content": "Communicou-se ao cidadão superintendente de Obras Publicas, essa resolução.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.696,
+                0.643,
+                0.988,
+                0.739
+            ],
+            "angle": 0,
+            "content": "Autorisou-se o cidadão collector do Jahú a pagar ao cidadão José Vaz Pinto Ribeiro, em cujo poder se acham os animaes e outros objectos pertencentes á extineta commissão do Alto Paraná, a pastagem dos mesmos, na razão de dous mil réis (2\\$000) por cabeça, etc.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.696,
+                0.739,
+                0.988,
+                0.798
+            ],
+            "angle": 0,
+            "content": "Remetteu-se ao cidadão administrador da Meza de Rendas de Santos a factura relativa a volumes vindos do estrangeiro para a Pharmacia do Estado.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.696,
+                0.799,
+                0.988,
+                0.884
+            ],
+            "angle": 0,
+            "content": "Determinou-se ao cidadão collector da Franca que entregue ao dito do Carmo da Franca os livros de lançamentos do imposto de capitação pertencentes a essa villa, uma relação dos contribuintes dos impostos diversos, etc.",
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.836,
+                0.886,
+                0.857,
+                0.895
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.698,
+                0.902,
+                0.99,
+                0.931
+            ],
+            "angle": 0,
+            "content": "Foram expedidas as seguintes\nquitações, que se acham em poder",
+            "merge_prev": false
+        }
+    ]
+]

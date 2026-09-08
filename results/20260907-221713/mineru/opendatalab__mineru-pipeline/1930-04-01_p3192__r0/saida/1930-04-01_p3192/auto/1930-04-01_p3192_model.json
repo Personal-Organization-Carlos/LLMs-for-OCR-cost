@@ -1,0 +1,3581 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8352,
+                "bbox": [
+                    222,
+                    87,
+                    467,
+                    116
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8621,
+                "bbox": [
+                    721,
+                    88,
+                    966,
+                    117
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.77,
+                "bbox": [
+                    1355,
+                    92,
+                    1498,
+                    120
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9526,
+                "bbox": [
+                    192,
+                    130,
+                    561,
+                    183
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9739,
+                "bbox": [
+                    147,
+                    199,
+                    607,
+                    299
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9429,
+                "bbox": [
+                    265,
+                    314,
+                    502,
+                    346
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9388,
+                "bbox": [
+                    213,
+                    363,
+                    539,
+                    392
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9138,
+                "bbox": [
+                    288,
+                    410,
+                    475,
+                    436
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9852,
+                "bbox": [
+                    147,
+                    434,
+                    608,
+                    646
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.984,
+                "bbox": [
+                    147,
+                    644,
+                    608,
+                    830
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5233,
+                "bbox": [
+                    296,
+                    828,
+                    463,
+                    852
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7123,
+                "bbox": [
+                    203,
+                    849,
+                    555,
+                    876
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.975,
+                "bbox": [
+                    145,
+                    875,
+                    606,
+                    1037
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7634,
+                "bbox": [
+                    184,
+                    1035,
+                    561,
+                    1061
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8755,
+                "bbox": [
+                    146,
+                    1059,
+                    604,
+                    1108
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9584,
+                "bbox": [
+                    145,
+                    1106,
+                    603,
+                    1153
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9595,
+                "bbox": [
+                    145,
+                    1152,
+                    602,
+                    1202
+                ],
+                "index": 17
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9336,
+                "bbox": [
+                    301,
+                    1216,
+                    452,
+                    1247
+                ],
+                "index": 18
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.933,
+                "bbox": [
+                    224,
+                    1265,
+                    525,
+                    1293
+                ],
+                "index": 19
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8971,
+                "bbox": [
+                    284,
+                    1311,
+                    466,
+                    1336
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9781,
+                "bbox": [
+                    141,
+                    1334,
+                    603,
+                    1499
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6535,
+                "bbox": [
+                    283,
+                    1497,
+                    462,
+                    1521
+                ],
+                "index": 22
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7971,
+                "bbox": [
+                    211,
+                    1519,
+                    532,
+                    1544
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9618,
+                "bbox": [
+                    140,
+                    1543,
+                    599,
+                    1613
+                ],
+                "index": 24
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9635,
+                "bbox": [
+                    141,
+                    1612,
+                    600,
+                    1662
+                ],
+                "index": 25
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9405,
+                "bbox": [
+                    193,
+                    1711,
+                    557,
+                    1777
+                ],
+                "index": 26
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.658,
+                "bbox": [
+                    155,
+                    1792,
+                    558,
+                    1845
+                ],
+                "index": 27
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5667,
+                "bbox": [
+                    129,
+                    1863,
+                    599,
+                    2036
+                ],
+                "index": 28
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9724,
+                "bbox": [
+                    629,
+                    134,
+                    1090,
+                    209
+                ],
+                "index": 29
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9572,
+                "bbox": [
+                    630,
+                    207,
+                    1089,
+                    254
+                ],
+                "index": 30
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.942,
+                "bbox": [
+                    654,
+                    253,
+                    1087,
+                    300
+                ],
+                "index": 31
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9755,
+                "bbox": [
+                    629,
+                    297,
+                    1090,
+                    417
+                ],
+                "index": 32
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6226,
+                "bbox": [
+                    644,
+                    415,
+                    1059,
+                    441
+                ],
+                "index": 33
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9551,
+                "bbox": [
+                    629,
+                    440,
+                    1089,
+                    533
+                ],
+                "index": 34
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5426,
+                "bbox": [
+                    656,
+                    531,
+                    1064,
+                    557
+                ],
+                "index": 35
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9521,
+                "bbox": [
+                    629,
+                    555,
+                    1089,
+                    672
+                ],
+                "index": 36
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9602,
+                "bbox": [
+                    630,
+                    671,
+                    1089,
+                    787
+                ],
+                "index": 37
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6981,
+                "bbox": [
+                    657,
+                    786,
+                    1064,
+                    813
+                ],
+                "index": 38
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7024,
+                "bbox": [
+                    655,
+                    810,
+                    1054,
+                    835
+                ],
+                "index": 39
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6903,
+                "bbox": [
+                    656,
+                    832,
+                    1064,
+                    857
+                ],
+                "index": 40
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9689,
+                "bbox": [
+                    628,
+                    855,
+                    1088,
+                    973
+                ],
+                "index": 41
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9286,
+                "bbox": [
+                    629,
+                    972,
+                    1088,
+                    1045
+                ],
+                "index": 42
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9323,
+                "bbox": [
+                    742,
+                    1061,
+                    971,
+                    1091
+                ],
+                "index": 43
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9787,
+                "bbox": [
+                    626,
+                    1107,
+                    1088,
+                    1225
+                ],
+                "index": 44
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9589,
+                "bbox": [
+                    626,
+                    1224,
+                    1086,
+                    1296
+                ],
+                "index": 45
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9081,
+                "bbox": [
+                    627,
+                    1294,
+                    1086,
+                    1343
+                ],
+                "index": 46
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9335,
+                "bbox": [
+                    745,
+                    1361,
+                    969,
+                    1389
+                ],
+                "index": 47
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5668,
+                "bbox": [
+                    651,
+                    1407,
+                    1085,
+                    1456
+                ],
+                "index": 48
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7516,
+                "bbox": [
+                    625,
+                    1455,
+                    1084,
+                    1527
+                ],
+                "index": 49
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9554,
+                "bbox": [
+                    639,
+                    1525,
+                    1084,
+                    1594
+                ],
+                "index": 50
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9453,
+                "bbox": [
+                    623,
+                    1593,
+                    1083,
+                    1664
+                ],
+                "index": 51
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4513,
+                "bbox": [
+                    637,
+                    1662,
+                    1083,
+                    1689
+                ],
+                "index": 52
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5522,
+                "bbox": [
+                    717,
+                    1685,
+                    1081,
+                    1734
+                ],
+                "index": 53
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9596,
+                "bbox": [
+                    622,
+                    1732,
+                    1082,
+                    1804
+                ],
+                "index": 54
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9465,
+                "bbox": [
+                    622,
+                    1803,
+                    1082,
+                    1850
+                ],
+                "index": 55
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9169,
+                "bbox": [
+                    624,
+                    1848,
+                    1080,
+                    1918
+                ],
+                "index": 56
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.968,
+                "bbox": [
+                    618,
+                    1917,
+                    1082,
+                    1987
+                ],
+                "index": 57
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9548,
+                "bbox": [
+                    619,
+                    1986,
+                    1078,
+                    2037
+                ],
+                "index": 58
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9307,
+                "bbox": [
+                    1226,
+                    135,
+                    1471,
+                    165
+                ],
+                "index": 59
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9271,
+                "bbox": [
+                    1206,
+                    182,
+                    1485,
+                    213
+                ],
+                "index": 60
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9772,
+                "bbox": [
+                    1110,
+                    230,
+                    1573,
+                    378
+                ],
+                "index": 61
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9202,
+                "bbox": [
+                    1298,
+                    394,
+                    1391,
+                    422
+                ],
+                "index": 62
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6799,
+                "bbox": [
+                    1112,
+                    438,
+                    1572,
+                    839
+                ],
+                "index": 63
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9517,
+                "bbox": [
+                    1121,
+                    880,
+                    1568,
+                    947
+                ],
+                "index": 64
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9179,
+                "bbox": [
+                    1162,
+                    969,
+                    1517,
+                    1002
+                ],
+                "index": 65
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8127,
+                "bbox": [
+                    1160,
+                    1018,
+                    1515,
+                    1070
+                ],
+                "index": 66
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9724,
+                "bbox": [
+                    1109,
+                    1087,
+                    1569,
+                    1166
+                ],
+                "index": 67
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9551,
+                "bbox": [
+                    1142,
+                    1180,
+                    1526,
+                    1232
+                ],
+                "index": 68
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9563,
+                "bbox": [
+                    1108,
+                    1249,
+                    1564,
+                    1298
+                ],
+                "index": 69
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8948,
+                "bbox": [
+                    1135,
+                    1296,
+                    1423,
+                    1322
+                ],
+                "index": 70
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9725,
+                "bbox": [
+                    1107,
+                    1320,
+                    1565,
+                    1415
+                ],
+                "index": 71
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9653,
+                "bbox": [
+                    1106,
+                    1413,
+                    1565,
+                    1485
+                ],
+                "index": 72
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9688,
+                "bbox": [
+                    1106,
+                    1483,
+                    1563,
+                    1553
+                ],
+                "index": 73
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9588,
+                "bbox": [
+                    1107,
+                    1551,
+                    1564,
+                    1599
+                ],
+                "index": 74
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9543,
+                "bbox": [
+                    1108,
+                    1598,
+                    1564,
+                    1645
+                ],
+                "index": 75
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5603,
+                "bbox": [
+                    1133,
+                    1644,
+                    1561,
+                    1670
+                ],
+                "index": 76
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7464,
+                "bbox": [
+                    1106,
+                    1653,
+                    1562,
+                    1716
+                ],
+                "index": 77
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8803,
+                "bbox": [
+                    1131,
+                    1713,
+                    1447,
+                    1741
+                ],
+                "index": 78
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9405,
+                "bbox": [
+                    1213,
+                    1757,
+                    1463,
+                    1787
+                ],
+                "index": 79
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6293,
+                "bbox": [
+                    1105,
+                    1803,
+                    1559,
+                    1856
+                ],
+                "index": 80
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.91,
+                "bbox": [
+                    1130,
+                    1872,
+                    1535,
+                    1903
+                ],
+                "index": 81
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9557,
+                "bbox": [
+                    1103,
+                    1919,
+                    1561,
+                    1990
+                ],
+                "index": 82
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9363,
+                "bbox": [
+                    1105,
+                    1989,
+                    1559,
+                    2041
+                ],
+                "index": 83
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    221,
+                    85,
+                    465,
+                    120
+                ],
+                "score": 0.979,
+                "text": "3192 Terça-feira, 1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    723,
+                    88,
+                    962,
+                    118
+                ],
+                "score": 1.0,
+                "text": "DIARIO OFFICIAL"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1357,
+                    92,
+                    1497,
+                    122
+                ],
+                "score": 0.987,
+                "text": "Abril 1930"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    194,
+                    132,
+                    557,
+                    158
+                ],
+                "score": 0.982,
+                "text": "Para as Inspectorias Distrietaes"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    321,
+                    155,
+                    429,
+                    182
+                ],
+                "score": 0.882,
+                "text": "Èscolares"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    177,
+                    200,
+                    604,
+                    229
+                ],
+                "score": 0.971,
+                "text": "Officios ns:: 13, do Grupo Eseolar"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    151,
+                    248,
+                    604,
+                    277
+                ],
+                "score": 0.991,
+                "text": "lar de Joanopolis; 15, do Grupo Esco-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    152,
+                    272,
+                    316,
+                    296
+                ],
+                "score": 0.995,
+                "text": "lar de Brotas."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    152,
+                    226,
+                    603,
+                    251
+                ],
+                "score": 0.97,
+                "text": "deNovo Horizonte; 5, do Grupo Esco-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    269,
+                    313,
+                    499,
+                    348
+                ],
+                "score": 0.896,
+                "text": "3.• e 4.* SECÇÕES"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    216,
+                    364,
+                    537,
+                    391
+                ],
+                "score": 0.969,
+                "text": "Escolas Isoladas e Reunidas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    291,
+                    411,
+                    471,
+                    438
+                ],
+                "score": 0.993,
+                "text": "Papeis entrados"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    177,
+                    433,
+                    604,
+                    462
+                ],
+                "score": 0.981,
+                "text": "Requerimcutos de: Ignacio Carvalho"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    152,
+                    457,
+                    604,
+                    484
+                ],
+                "score": 0.94,
+                "text": "Landel, Judith Frota Anua Mello Coc-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    153,
+                    480,
+                    605,
+                    508
+                ],
+                "score": 0.969,
+                "text": "lho, Fraucisca von Atzinzen, Davina"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    152,
+                    504,
+                    604,
+                    531
+                ],
+                "score": 0.991,
+                "text": "Brasiliana dos Anjos, Maria dos Santos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    153,
+                    526,
+                    604,
+                    554
+                ],
+                "score": 0.975,
+                "text": "Carvaiho, Anna Vieira, Giacomo Ven-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    153,
+                    573,
+                    603,
+                    601
+                ],
+                "score": 0.962,
+                "text": "Eugenia Castro Poreira Leite, Gon;alo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    152,
+                    596,
+                    599,
+                    624
+                ],
+                "score": 0.983,
+                "text": "D'Amar Ferreira, Maria Apparecida Gur"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    153,
+                    621,
+                    604,
+                    647
+                ],
+                "score": 0.977,
+                "text": "gel Pinto, Genesia Costa, Alda Moreiia."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    152,
+                    552,
+                    603,
+                    576
+                ],
+                "score": 0.983,
+                "text": "trili e outros, Paulo Ponciano Piedade,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    180,
+                    640,
+                    605,
+                    671
+                ],
+                "score": 0.937,
+                "text": "Oficios de: N. 23, do Iusp. do 20.."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    153,
+                    664,
+                    603,
+                    692
+                ],
+                "score": 0.94,
+                "text": "Districto; n. 5, do Insp. do 76.• Distri-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    152,
+                    688,
+                    604,
+                    716
+                ],
+                "score": 0.953,
+                "text": "eto ; n. 7O, do Insp. do 12.• Distrieto;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    151,
+                    710,
+                    604,
+                    741
+                ],
+                "score": 0.923,
+                "text": "n. 32, do Insp. do 18.° Districto; u. 11,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    152,
+                    802,
+                    312,
+                    830
+                ],
+                "score": 0.919,
+                "text": "78.° Distrieto."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    152,
+                    736,
+                    603,
+                    761
+                ],
+                "score": 0.939,
+                "text": "do Insp do 72.° Districto; n. 7, do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    151,
+                    759,
+                    603,
+                    785
+                ],
+                "score": 0.97,
+                "text": "Insp. do 33.° Districto; n. 41, do Insp."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    151,
+                    783,
+                    602,
+                    808
+                ],
+                "score": 0.954,
+                "text": "do 78.° Distrieto; n. 40, do Iusp. do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    298,
+                    830,
+                    459,
+                    854
+                ],
+                "score": 0.999,
+                "text": "Papeis sahidos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    209,
+                    849,
+                    551,
+                    876
+                ],
+                "score": 0.997,
+                "text": "Para a Secretaria do Interior"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    175,
+                    871,
+                    603,
+                    903
+                ],
+                "score": 0.966,
+                "text": "Requerimentts de: Jacyrs de Abreu,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    151,
+                    896,
+                    603,
+                    924
+                ],
+                "score": 0.974,
+                "text": "Gabriel Gonçalves e outros, Claudiua"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    152,
+                    919,
+                    603,
+                    947
+                ],
+                "score": 0.984,
+                "text": "Aquino Rodrigues, Maria Oliveira No-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    150,
+                    943,
+                    603,
+                    970
+                ],
+                "score": 0.995,
+                "text": "gucira, Gabriel Prioli, Euclydes Moraes"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    150,
+                    965,
+                    602,
+                    994
+                ],
+                "score": 0.979,
+                "text": "Rosa, Maria de Lourdes Andrade, Ade-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    151,
+                    1012,
+                    267,
+                    1037
+                ],
+                "score": 0.978,
+                "text": "ção Silva."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    149,
+                    990,
+                    600,
+                    1015
+                ],
+                "score": 0.973,
+                "text": "laide Fonseca de Barros, Luiz Concei-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    196,
+                    1035,
+                    556,
+                    1063
+                ],
+                "score": 0.984,
+                "text": "Para as Inspectorias Districtaes"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    150,
+                    1081,
+                    387,
+                    1106
+                ],
+                "score": 0.975,
+                "text": "Dario Almeida Dias."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    174,
+                    1057,
+                    603,
+                    1085
+                ],
+                "score": 0.937,
+                "text": "Ao sr, Insp. 'de Apiahy, requer. de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    149,
+                    1127,
+                    319,
+                    1152
+                ],
+                "score": 0.984,
+                "text": "de Rosa Rossi."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    176,
+                    1106,
+                    601,
+                    1131
+                ],
+                "score": 0.99,
+                "text": "Ao sr. Insp. de Itapetininga, requer."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    149,
+                    1171,
+                    418,
+                    1202
+                ],
+                "score": 0.954,
+                "text": "de Tild, Magnocavallo."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    175,
+                    1152,
+                    601,
+                    1178
+                ],
+                "score": 0.991,
+                "text": "Ao sr. Insp. de Mogy Mirim, requer."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    304,
+                    1217,
+                    451,
+                    1249
+                ],
+                "score": 0.978,
+                "text": "5. SECÇÃO"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    227,
+                    1267,
+                    520,
+                    1292
+                ],
+                "score": 0.971,
+                "text": "Escolas Normaes e outras"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    287,
+                    1313,
+                    462,
+                    1338
+                ],
+                "score": 0.999,
+                "text": "Papeis entrados"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    146,
+                    1379,
+                    599,
+                    1408
+                ],
+                "score": 0.976,
+                "text": "sob n. 34; da Inspectoria fiscal da Es-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    146,
+                    1402,
+                    599,
+                    1432
+                ],
+                "score": 0.976,
+                "text": "eola Normal Livre do Mogy das Cruzes,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    146,
+                    1426,
+                    599,
+                    1455
+                ],
+                "score": 0.961,
+                "text": "sob ns. 13 e 14; da Iuspectoria fiscal"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    146,
+                    1472,
+                    523,
+                    1500
+                ],
+                "score": 0.979,
+                "text": "Prostes», em Jacarehy, sob n. 7."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    174,
+                    1333,
+                    600,
+                    1360
+                ],
+                "score": 0.965,
+                "text": "Ofieios: Dà Directoria da Eseola"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    146,
+                    1358,
+                    599,
+                    1384
+                ],
+                "score": 0.969,
+                "text": "Norinal Livre de São José dos Campos,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    146,
+                    1451,
+                    599,
+                    1475
+                ],
+                "score": 0.94,
+                "text": "da Esecla Normal Livre «Dr. Jolio"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    285,
+                    1492,
+                    459,
+                    1525
+                ],
+                "score": 0.948,
+                "text": "Papeis sahídos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    216,
+                    1515,
+                    529,
+                    1547
+                ],
+                "score": 0.988,
+                "text": "Para o Thesouro do Estado"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    172,
+                    1541,
+                    598,
+                    1570
+                ],
+                "score": 0.997,
+                "text": "Portarias de licença de: d. Maria"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    145,
+                    1587,
+                    504,
+                    1615
+                ],
+                "score": 0.999,
+                "text": "Arystobulo de Oliveira Freitas."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    145,
+                    1566,
+                    595,
+                    1590
+                ],
+                "score": 0.979,
+                "text": "Thereza de Oliveira e do sr. Mauoel"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    142,
+                    1632,
+                    234,
+                    1661
+                ],
+                "score": 0.973,
+                "text": "Bianeo."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    168,
+                    1611,
+                    598,
+                    1638
+                ],
+                "score": 0.967,
+                "text": "Titalo de nomeação de: d. Olivia"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    198,
+                    1712,
+                    554,
+                    1748
+                ],
+                "score": 0.99,
+                "text": "INSPECÇÃO MEDICA"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    279,
+                    1746,
+                    460,
+                    1777
+                ],
+                "score": 0.943,
+                "text": ".ESCOLAR"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    320,
+                    1819,
+                    418,
+                    1845
+                ],
+                "score": 0.996,
+                "text": "de 1930"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    158,
+                    1795,
+                    555,
+                    1823
+                ],
+                "score": 0.979,
+                "text": " Expediente do dia 28 de Março"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    170,
+                    1861,
+                    561,
+                    1891
+                ],
+                "score": 0.934,
+                "text": "1. ZONA — Dr. Wladimir Kehl"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    165,
+                    1886,
+                    597,
+                    1916
+                ],
+                "score": 0.961,
+                "text": "Inspeecionou 36 alumnos do Grupo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    136,
+                    1954,
+                    575,
+                    1985
+                ],
+                "score": 0.818,
+                "text": "2. ZonA -Dr.a Carmela Julani"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    136,
+                    1912,
+                    594,
+                    1936
+                ],
+                "score": 0.923,
+                "text": "EseolarMarechalDoodoro,,vaceinou"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    138,
+                    1935,
+                    557,
+                    1959
+                ],
+                "score": 0.935,
+                "text": "13e expéaiu 5boletins sanitarios."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    160,
+                    1981,
+                    581,
+                    2006
+                ],
+                "score": 0.932,
+                "text": "Inspeccionou 18 alumnos da 62..es"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    139,
+                    2004,
+                    592,
+                    2030
+                ],
+                "score": 0.818,
+                "text": "cola«7 de Setembro, requisiton 3 ana"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    634,
+                    135,
+                    1087,
+                    163
+                ],
+                "score": 0.957,
+                "text": "lyses, revaccinou 14, expediu 7 boletins"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    633,
+                    158,
+                    1086,
+                    188
+                ],
+                "score": 0.94,
+                "text": "sanitarios e fez 1 pielecção sobre hy-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    635,
+                    183,
+                    828,
+                    208
+                ],
+                "score": 0.985,
+                "text": "giene individual."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    660,
+                    206,
+                    1087,
+                    234
+                ],
+                "score": 0.959,
+                "text": "Expedia mais 3 boletius sanitario para"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    637,
+                    230,
+                    966,
+                    255
+                ],
+                "score": 0.947,
+                "text": "o Grupo Eseolar «Pedro Il»."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    660,
+                    249,
+                    1086,
+                    281
+                ],
+                "score": 0.899,
+                "text": "3.• ZONA - Dr.a Margarida do Ca-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    701,
+                    275,
+                    858,
+                    302
+                ],
+                "score": 0.995,
+                "text": "margo Barros"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    660,
+                    296,
+                    1087,
+                    327
+                ],
+                "score": 0.973,
+                "text": "Inspeccionon 52alumnos da Escole"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    633,
+                    345,
+                    1086,
+                    373
+                ],
+                "score": 0.938,
+                "text": "nou 1, rovaccinou 11, expediu 7 bole-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    635,
+                    392,
+                    889,
+                    417
+                ],
+                "score": 0.997,
+                "text": "vacccina antivariolica."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    635,
+                    323,
+                    1086,
+                    347
+                ],
+                "score": 0.934,
+                "text": "Modelo &Caetano do Campos', vacci-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    634,
+                    371,
+                    1086,
+                    394
+                ],
+                "score": 0.986,
+                "text": "tins sanitarios e fez 1 prelecção sobre"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    667,
+                    414,
+                    1053,
+                    441
+                ],
+                "score": 0.922,
+                "text": "4.ª ZONA — Dr Nery Gonçalves"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    659,
+                    436,
+                    1085,
+                    466
+                ],
+                "score": 0.959,
+                "text": "Inspeccionou 31 alumnos do Grupo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    635,
+                    461,
+                    1085,
+                    490
+                ],
+                "score": 0.975,
+                "text": "Escolar «Maria José», revaccinou 31,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    636,
+                    484,
+                    1085,
+                    513
+                ],
+                "score": 0.981,
+                "text": "expediu 10 bolotins sauitarios e deter-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    635,
+                    509,
+                    991,
+                    535
+                ],
+                "score": 0.987,
+                "text": "minou 1 evieção por parotidite."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    660,
+                    527,
+                    1061,
+                    559
+                ],
+                "score": 0.892,
+                "text": "5.ª ZONA — Dr. Araripo Sacupira"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    657,
+                    551,
+                    1087,
+                    583
+                ],
+                "score": 0.962,
+                "text": "Inspeccionou 43 alumnos do 1.º Grapo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    634,
+                    601,
+                    1086,
+                    628
+                ],
+                "score": 0.951,
+                "text": "lyses, vaceineu 4, revaccinou 11, expe-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    634,
+                    647,
+                    1005,
+                    674
+                ],
+                "score": 0.983,
+                "text": "leeção sobre bygiene iudividual."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    635,
+                    579,
+                    1085,
+                    603
+                ],
+                "score": 0.964,
+                "text": "Escolar do Cambucy, requisitou 2 ana-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    634,
+                    626,
+                    1085,
+                    649
+                ],
+                "score": 0.968,
+                "text": "diu 5 boletins sanitarios e fez 1 pre-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    658,
+                    667,
+                    1087,
+                    698
+                ],
+                "score": 0.923,
+                "text": "6.ª ZONA Dr. Botelho Comenale"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    658,
+                    692,
+                    1088,
+                    721
+                ],
+                "score": 0.977,
+                "text": "Inspeccionou 47 alumnos do Grupo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    635,
+                    740,
+                    1086,
+                    767
+                ],
+                "score": 0.895,
+                "text": "analyse o vaccinou 3, revaccinou 8 e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    635,
+                    764,
+                    990,
+                    790
+                ],
+                "score": 0.989,
+                "text": "expediu 13 boletins sanitarios."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    634,
+                    718,
+                    1085,
+                    742
+                ],
+                "score": 0.941,
+                "text": "Escolar aOswaldo Craz», requisiton 1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    660,
+                    784,
+                    1061,
+                    815
+                ],
+                "score": 0.907,
+                "text": "7. ZONA — Dr, Pedroso Camargo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    658,
+                    808,
+                    1045,
+                    837
+                ],
+                "score": 0.987,
+                "text": "Não apresentou parte de ser iço."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    662,
+                    828,
+                    1060,
+                    859
+                ],
+                "score": 0.907,
+                "text": "8. ZONA -- Dr Durval Marcondes"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    661,
+                    854,
+                    1084,
+                    882
+                ],
+                "score": 0.953,
+                "text": "Inspeeçiouou 36 alumnos do 1.° Grnpo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    633,
+                    901,
+                    1086,
+                    929
+                ],
+                "score": 0.974,
+                "text": "nou 3 e expediu 3 boletins sanitarios"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    633,
+                    925,
+                    1084,
+                    952
+                ],
+                "score": 0.941,
+                "text": "e foz 1 prelecção sebre vaceinação an-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    634,
+                    948,
+                    963,
+                    974
+                ],
+                "score": 0.982,
+                "text": "tivariolica e suas vautagens."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    634,
+                    880,
+                    1084,
+                    903
+                ],
+                "score": 0.96,
+                "text": "Escolar do Braz, vaecinon 1, revacci-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    633,
+                    1015,
+                    941,
+                    1044
+                ],
+                "score": 0.992,
+                "text": "fessoras e fez 1 deligencia."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    657,
+                    971,
+                    1086,
+                    996
+                ],
+                "score": 0.939,
+                "text": "9.“ ZONA — Dr. Leoncio de Queiroz"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    657,
+                    996,
+                    1082,
+                    1020
+                ],
+                "score": 0.952,
+                "text": "Inspeccionou nesta Directoria 2 pro-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    746,
+                    1064,
+                    968,
+                    1090
+                ],
+                "score": 0.98,
+                "text": "Inspecção de saúde"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    658,
+                    1108,
+                    1082,
+                    1135
+                ],
+                "score": 0.977,
+                "text": "Foram inspecciouados nesta Directo-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    632,
+                    1131,
+                    1083,
+                    1158
+                ],
+                "score": 0.969,
+                "text": "ria: as professora d.d Maria José Bra-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    631,
+                    1199,
+                    683,
+                    1225
+                ],
+                "score": 1.0,
+                "text": "dos."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    632,
+                    1156,
+                    1083,
+                    1180
+                ],
+                "score": 0.984,
+                "text": "siliense Fusco e Maria José Nogueira,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    631,
+                    1180,
+                    1083,
+                    1204
+                ],
+                "score": 0.938,
+                "text": "scndo encaminbados os respeetivos lau-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    655,
+                    1221,
+                    1084,
+                    1250
+                ],
+                "score": 0.972,
+                "text": "No n. 27-A, da rua Fernando de Al-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    632,
+                    1246,
+                    1084,
+                    1275
+                ],
+                "score": 0.951,
+                "text": "buquerque, não foi encontrada a pro-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    631,
+                    1269,
+                    1083,
+                    1298
+                ],
+                "score": 0.974,
+                "text": "fessora d. Antonietta Pimeutel Muniz."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    655,
+                    1291,
+                    1083,
+                    1321
+                ],
+                "score": 0.959,
+                "text": "Não compareceu o professor sr. Ar-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    632,
+                    1316,
+                    981,
+                    1341
+                ],
+                "score": 0.959,
+                "text": "chimedes Aristeu de Carvalho."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    748,
+                    1363,
+                    966,
+                    1388
+                ],
+                "score": 0.96,
+                "text": "Assistencia Medica"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    731,
+                    1432,
+                    1082,
+                    1459
+                ],
+                "score": 0.946,
+                "text": "verminoses — Dr. Aleiuo Braga"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    656,
+                    1410,
+                    1083,
+                    1433
+                ],
+                "score": 0.949,
+                "text": "I-- Clinica de molestias internas e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    655,
+                    1452,
+                    1081,
+                    1481
+                ],
+                "score": 0.965,
+                "text": "Examinou 1 alumno, deu 1 consul-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    629,
+                    1477,
+                    1080,
+                    1506
+                ],
+                "score": 0.953,
+                "text": "ta, 2 praseripções medicas e organizou"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    630,
+                    1504,
+                    867,
+                    1525
+                ],
+                "score": 0.985,
+                "text": "as respectivas ñchas."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    731,
+                    1547,
+                    1080,
+                    1574
+                ],
+                "score": 0.961,
+                "text": "uro-genitaos-Dr. L. V.Catta-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    732,
+                    1567,
+                    798,
+                    1596
+                ],
+                "score": 0.979,
+                "text": "Preta"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    642,
+                    1524,
+                    1082,
+                    1550
+                ],
+                "score": 0.941,
+                "text": "II -Clinica de molestias da pelle e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    655,
+                    1590,
+                    1080,
+                    1620
+                ],
+                "score": 0.972,
+                "text": "Examinou 3 alumnos, deu 4 consul-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    629,
+                    1616,
+                    1080,
+                    1644
+                ],
+                "score": 0.967,
+                "text": "tas, 5 preseripções medicas, fez 1 cu-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    628,
+                    1642,
+                    1077,
+                    1664
+                ],
+                "score": 0.961,
+                "text": "rativo e organizou as respectivas ficbas."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    641,
+                    1659,
+                    1082,
+                    1690
+                ],
+                "score": 0.919,
+                "text": "III Clinica de molestias do olhos e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    729,
+                    1687,
+                    1079,
+                    1710
+                ],
+                "score": 0.968,
+                "text": "correcção da vista - Dr. Dan-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    732,
+                    1710,
+                    846,
+                    1733
+                ],
+                "score": 1.0,
+                "text": "ton Malta"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    652,
+                    1730,
+                    1079,
+                    1759
+                ],
+                "score": 0.959,
+                "text": "Examinou 8 alumuos, deu 2 preseri-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    626,
+                    1754,
+                    1080,
+                    1783
+                ],
+                "score": 0.991,
+                "text": "pções medicas, 5 prescripções de oculos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    626,
+                    1779,
+                    1019,
+                    1805
+                ],
+                "score": 0.986,
+                "text": "e organizou as respectivas fichas."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    626,
+                    1823,
+                    711,
+                    1849
+                ],
+                "score": 0.978,
+                "text": "fessora."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    652,
+                    1800,
+                    1079,
+                    1828
+                ],
+                "score": 0.971,
+                "text": "Examinou nesta Directoria 1 pro-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    726,
+                    1871,
+                    1076,
+                    1896
+                ],
+                "score": 0.92,
+                "text": "nariz e garganta - Dr. Sil-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    725,
+                    1895,
+                    872,
+                    1919
+                ],
+                "score": 0.96,
+                "text": "vestre Passy"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    624,
+                    1846,
+                    1079,
+                    1872
+                ],
+                "score": 0.962,
+                "text": "IV  Clinica de molestias de ouvido,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    621,
+                    1938,
+                    1078,
+                    1969
+                ],
+                "score": 0.952,
+                "text": "pçãe medica e orgauizou as respectivas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    625,
+                    1960,
+                    710,
+                    1987
+                ],
+                "score": 0.913,
+                "text": "fichas."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    649,
+                    1916,
+                    1077,
+                    1942
+                ],
+                "score": 0.939,
+                "text": "Examinou 5 alumnos,: deu 1 preseri-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    623,
+                    2007,
+                    934,
+                    2037
+                ],
+                "score": 0.927,
+                "text": "fesoras e fez 1 deligeneia."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    646,
+                    1984,
+                    1075,
+                    2013
+                ],
+                "score": 0.948,
+                "text": "Inspeccionoa nesta Directoria 2 pro-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1233,
+                    140,
+                    1465,
+                    161
+                ],
+                "score": 0.954,
+                "text": "Asistencia Dentaria"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1209,
+                    185,
+                    1481,
+                    212
+                ],
+                "score": 0.996,
+                "text": "Dr. Campos de Oliveira"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1142,
+                    230,
+                    1569,
+                    259
+                ],
+                "score": 0.98,
+                "text": "Acompanhou o sr. dr. dircctor geral"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1116,
+                    255,
+                    1570,
+                    283
+                ],
+                "score": 0.988,
+                "text": "da Instrucção P ublica, emvisitas aos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1116,
+                    280,
+                    1568,
+                    304
+                ],
+                "score": 0.981,
+                "text": "gabinetes dentarios dos Grupos Es-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1115,
+                    301,
+                    1568,
+                    329
+                ],
+                "score": 0.957,
+                "text": "colares a Marechal Floriano , «Ma-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1115,
+                    325,
+                    1568,
+                    353
+                ],
+                "score": 0.983,
+                "text": "rechael Deodoroz, Jardim America,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1116,
+                    348,
+                    1567,
+                    376
+                ],
+                "score": 0.978,
+                "text": "Carmo, Itahim e Escola Normnal da Praça."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1299,
+                    396,
+                    1388,
+                    423
+                ],
+                "score": 0.944,
+                "text": "Resnmo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1116,
+                    438,
+                    1409,
+                    468
+                ],
+                "score": 0.973,
+                "text": "Visitas a escolas publicas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1549,
+                    445,
+                    1570,
+                    469
+                ],
+                "score": 1.0,
+                "text": "6"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1117,
+                    463,
+                    1406,
+                    490
+                ],
+                "score": 0.97,
+                "text": "Visita a escola particular"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1549,
+                    467,
+                    1570,
+                    491
+                ],
+                "score": 1.0,
+                "text": "1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1118,
+                    487,
+                    1393,
+                    513
+                ],
+                "score": 0.95,
+                "text": "Alumnos inspeecionados"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1523,
+                    490,
+                    1570,
+                    516
+                ],
+                "score": 1.0,
+                "text": "263"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1117,
+                    510,
+                    1363,
+                    537
+                ],
+                "score": 0.993,
+                "text": "Analyses requisitadas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1549,
+                    514,
+                    1570,
+                    539
+                ],
+                "score": 1.0,
+                "text": "6"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1118,
+                    533,
+                    1570,
+                    562
+                ],
+                "score": 0.946,
+                "text": "Alumuos vacciuados contra a variola 22"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1119,
+                    556,
+                    1437,
+                    584
+                ],
+                "score": 0.838,
+                "text": "Alumuos reia cinados ife n"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1535,
+                    561,
+                    1570,
+                    585
+                ],
+                "score": 1.0,
+                "text": "78"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1116,
+                    580,
+                    1442,
+                    606
+                ],
+                "score": 0.95,
+                "text": "Boletins sauitsrics axpedidos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1534,
+                    584,
+                    1570,
+                    608
+                ],
+                "score": 1.0,
+                "text": "50"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1116,
+                    603,
+                    1352,
+                    629
+                ],
+                "score": 0.972,
+                "text": "Evicção determinada"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1546,
+                    607,
+                    1569,
+                    632
+                ],
+                "score": 1.0,
+                "text": "1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1116,
+                    627,
+                    1523,
+                    653
+                ],
+                "score": 0.986,
+                "text": "Prelecçõcs sobre hygiene individual"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1547,
+                    631,
+                    1569,
+                    654
+                ],
+                "score": 1.0,
+                "text": "4"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1115,
+                    649,
+                    1477,
+                    677
+                ],
+                "score": 0.874,
+                "text": "Iosp. de saúde uesta Ditectoria"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1548,
+                    652,
+                    1569,
+                    679
+                ],
+                "score": 1.0,
+                "text": "2"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1115,
+                    672,
+                    1241,
+                    699
+                ],
+                "score": 1.0,
+                "text": "Deligencia"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1547,
+                    671,
+                    1570,
+                    701
+                ],
+                "score": 1.0,
+                "text": "1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1117,
+                    695,
+                    1289,
+                    724
+                ],
+                "score": 0.983,
+                "text": "Exames geraes"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1535,
+                    699,
+                    1569,
+                    725
+                ],
+                "score": 1.0,
+                "text": "17"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1115,
+                    719,
+                    1227,
+                    744
+                ],
+                "score": 0.946,
+                "text": "Cnsultas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1544,
+                    722,
+                    1570,
+                    748
+                ],
+                "score": 1.0,
+                "text": "5"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1116,
+                    741,
+                    1350,
+                    769
+                ],
+                "score": 0.978,
+                "text": "Preseripções medicas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1534,
+                    746,
+                    1569,
+                    771
+                ],
+                "score": 1.0,
+                "text": "10"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1115,
+                    765,
+                    1374,
+                    792
+                ],
+                "score": 0.957,
+                "text": "Proscripções de oculos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1547,
+                    769,
+                    1569,
+                    793
+                ],
+                "score": 1.0,
+                "text": "5"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1116,
+                    788,
+                    1345,
+                    816
+                ],
+                "score": 0.98,
+                "text": "Exame especialisado"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1547,
+                    793,
+                    1568,
+                    817
+                ],
+                "score": 1.0,
+                "text": "1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1114,
+                    811,
+                    1215,
+                    836
+                ],
+                "score": 1.0,
+                "text": "Curativo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1549,
+                    817,
+                    1568,
+                    840
+                ],
+                "score": 1.0,
+                "text": "1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1124,
+                    882,
+                    1565,
+                    915
+                ],
+                "score": 0.942,
+                "text": "DIRECTORIA GERAL DO"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1157,
+                    914,
+                    1530,
+                    946
+                ],
+                "score": 0.995,
+                "text": "SERVIÇO SANITARIO"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1167,
+                    972,
+                    1514,
+                    1003
+                ],
+                "score": 0.992,
+                "text": "SECÇÃO DE EXPEDIENTE"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1164,
+                    1019,
+                    1511,
+                    1049
+                ],
+                "score": 0.928,
+                "text": "Eéxpediente do dia 29 de Março"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1287,
+                    1044,
+                    1388,
+                    1070
+                ],
+                "score": 0.953,
+                "text": "do 1930"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1140,
+                    1089,
+                    1563,
+                    1117
+                ],
+                "score": 0.972,
+                "text": "Requerínentos despachados pelo Dr."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1114,
+                    1137,
+                    1302,
+                    1162
+                ],
+                "score": 0.961,
+                "text": "guintes seeções :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1114,
+                    1114,
+                    1564,
+                    1140
+                ],
+                "score": 0.971,
+                "text": "Director Geral e informados, pelas se-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1148,
+                    1182,
+                    1521,
+                    1208
+                ],
+                "score": 0.977,
+                "text": "Inspectoria da Fise. do Mediciua"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1265,
+                    1206,
+                    1411,
+                    1231
+                ],
+                "score": 0.996,
+                "text": "e Pharmacia"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1138,
+                    1249,
+                    1560,
+                    1279
+                ],
+                "score": 0.988,
+                "text": "Joo de Lucea.—O predio poderá ser"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1112,
+                    1275,
+                    1199,
+                    1299
+                ],
+                "score": 0.998,
+                "text": "acceito."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1140,
+                    1297,
+                    1417,
+                    1323
+                ],
+                "score": 0.994,
+                "text": "Osear Cabral.—Deferido."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1138,
+                    1319,
+                    1562,
+                    1347
+                ],
+                "score": 0.973,
+                "text": "Gouveia & Oliveira. — Poderá fune-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1112,
+                    1367,
+                    1560,
+                    1394
+                ],
+                "score": 0.976,
+                "text": "vado o pagameuto da taxa e exhididos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1112,
+                    1389,
+                    1332,
+                    1415
+                ],
+                "score": 0.979,
+                "text": "os livros á rublica."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1112,
+                    1346,
+                    1560,
+                    1370
+                ],
+                "score": 0.95,
+                "text": "cionar a título precario, uma vez pra-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1110,
+                    1435,
+                    1563,
+                    1465
+                ],
+                "score": 0.959,
+                "text": "Ltd.-Compareçam à Inspectoria para"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1112,
+                    1460,
+                    1561,
+                    1487
+                ],
+                "score": 0.997,
+                "text": "regularização do contracto de locação."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1136,
+                    1413,
+                    1562,
+                    1439
+                ],
+                "score": 0.98,
+                "text": "Instituto Biochimico Opotherapico"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1480,
+                    1559,
+                    1510
+                ],
+                "score": 0.96,
+                "text": "Januarío da Cnnba Mello.—Junte'at-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1110,
+                    1528,
+                    1193,
+                    1553
+                ],
+                "score": 0.998,
+                "text": "devida."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1109,
+                    1506,
+                    1560,
+                    1530
+                ],
+                "score": 0.959,
+                "text": "testado de sanidale e recolha a taxa"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1550,
+                    1561,
+                    1580
+                ],
+                "score": 0.932,
+                "text": "João Baptista Pexrone. — Prov. Ar-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1110,
+                    1574,
+                    1216,
+                    1599
+                ],
+                "score": 0.949,
+                "text": "chive-se."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1137,
+                    1596,
+                    1561,
+                    1625
+                ],
+                "score": 0.959,
+                "text": "Ambrosiua do Canto Barros, — Prov."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1111,
+                    1621,
+                    1241,
+                    1646
+                ],
+                "score": 0.999,
+                "text": "Archive-se."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1137,
+                    1644,
+                    1558,
+                    1672
+                ],
+                "score": 0.971,
+                "text": "Francisco Serpe.—Doferido. Officie-se."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1136,
+                    1647,
+                    1559,
+                    1671
+                ],
+                "score": 0.919,
+                "text": "Francisco Serpe.—Loferido. Ullicie-se."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1666,
+                    1558,
+                    1696
+                ],
+                "score": 0.936,
+                "text": "Oscal Cabrai. — Deferido, uma vez"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1111,
+                    1694,
+                    1322,
+                    1715
+                ],
+                "score": 1.0,
+                "text": "paga a taga legal."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1709,
+                    1443,
+                    1742
+                ],
+                "score": 0.955,
+                "text": "Čid & Campãz.—Deferido."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1216,
+                    1760,
+                    1459,
+                    1787
+                ],
+                "score": 1.0,
+                "text": "Engenharia Sanitaria"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1132,
+                    1804,
+                    1556,
+                    1834
+                ],
+                "score": 0.994,
+                "text": "R. Santa Rosa, 39, apartamento 34."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1112,
+                    1828,
+                    1344,
+                    1854
+                ],
+                "score": 0.917,
+                "text": "—Prov. Archive-se."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1875,
+                    1530,
+                    1902
+                ],
+                "score": 0.961,
+                "text": "Inspectoria de Molestias Iufecciosas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1106,
+                    1943,
+                    1559,
+                    1973
+                ],
+                "score": 0.96,
+                "text": "por 60 dias, afim de cumprir a intima-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1105,
+                    1966,
+                    1157,
+                    1994
+                ],
+                "score": 0.974,
+                "text": "ção."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1135,
+                    1921,
+                    1558,
+                    1947
+                ],
+                "score": 0.948,
+                "text": "R. da Penha,. 11 Prorogo o prazo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1127,
+                    1984,
+                    1556,
+                    2022
+                ],
+                "score": 0.935,
+                "text": "Largo do Belem, 21. — Prov, Archi-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1110,
+                    2016,
+                    1185,
+                    2037
+                ],
+                "score": 0.678,
+                "text": "vO-sa"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1755,
+            "height": 2091
+        }
+    }
+]

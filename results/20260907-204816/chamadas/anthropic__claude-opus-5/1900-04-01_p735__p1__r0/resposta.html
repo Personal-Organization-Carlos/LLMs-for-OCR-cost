@@ -1,0 +1,335 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Diario Official — 1 de Abril de 1900</title>
+<style>
+    body{
+        background:#fdfdf7;
+        color:#111;
+        font-family:"Times New Roman", Times, serif;
+        margin:20px auto;
+        max-width:1150px;
+        font-size:13px;
+        line-height:1.25;
+    }
+    .cabecalho{
+        display:flex;
+        justify-content:space-between;
+        align-items:flex-end;
+        font-weight:bold;
+        letter-spacing:1px;
+        padding:0 10px;
+    }
+    .cabecalho .centro{font-size:17px;letter-spacing:2px;}
+    .cabecalho .dir{font-size:15px;}
+    .cabecalho .dir .pag{font-size:19px;}
+    .regua{
+        border-top:3px solid #000;
+        border-bottom:1px solid #000;
+        height:3px;
+        margin:2px 0 10px 0;
+    }
+    .corpo{
+        display:flex;
+        justify-content:space-between;
+    }
+    .col{
+        width:32%;
+        text-align:justify;
+        padding:0 6px;
+    }
+    .col + .col{border-left:1px solid #000;}
+    p{margin:0 0 2px 0;text-indent:1.6em;}
+    .sub{
+        text-align:center;
+        font-style:italic;
+        margin:4px 0 2px 0;
+        text-indent:0;
+    }
+    .centro{text-align:center;text-indent:0;}
+    .titulo-noticiario{
+        text-align:center;
+        font-weight:bold;
+        font-size:30px;
+        letter-spacing:2px;
+        margin:14px 0 2px 0;
+        font-family:"Times New Roman",serif;
+    }
+    .filete{
+        width:90px;
+        border-top:1px solid #000;
+        margin:8px auto;
+    }
+    .filete-curto{
+        width:55px;
+        border-top:1px solid #000;
+        margin:4px auto 8px auto;
+    }
+    .verbete{font-weight:bold;}
+    .cotacao{
+        width:100%;
+        border-collapse:collapse;
+        font-size:12.5px;
+        margin:2px 0;
+    }
+    .cotacao td{padding:0 2px;}
+    .cotacao .val{text-align:right;}
+    .cotacao .cab{text-align:center;font-style:italic;}
+    .pequeno{font-size:11.5px;letter-spacing:0.4px;text-align:center;text-indent:0;}
+    .dia{text-align:center;font-style:italic;text-indent:0;margin:3px 0 1px 0;}
+    .assinatura{font-style:italic;text-indent:0;}
+    .pontilhado{letter-spacing:1px;}
+
+    /* tabela girada da Hospedaria */
+    .caixa-girada{
+        border:2px solid #000;
+        padding:4px;
+        margin:8px 0;
+        height:730px;
+        position:relative;
+        overflow:hidden;
+    }
+    .girada{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%) rotate(-90deg);
+        transform-origin:center center;
+    }
+    table.mov{
+        border-collapse:collapse;
+        font-size:11px;
+        width:700px;
+    }
+    table.mov th, table.mov td{
+        border:1px solid #000;
+        padding:2px 3px;
+        text-align:center;
+        vertical-align:middle;
+    }
+    table.mov th{font-weight:bold;}
+</style>
+</head>
+<body>
+
+<div class="cabecalho">
+    <div class="esq">Domingo, 1</div>
+    <div class="centro">DIARIO OFFICIAL</div>
+    <div class="dir">Abril&nbsp; 1900 &nbsp;<span class="pag">735</span></div>
+</div>
+<div class="regua"></div>
+
+<div class="corpo">
+
+<!-- ================= COLUNA 1 ================= -->
+<div class="col">
+    <p>Officiou á directoria pedindo providencias para que seja feita uma vistoria nos predios da rua Bresser ns. 42 e 44.</p>
+
+    <p class="sub">Consolação—1.ª secção</p>
+    <p>O dr. Synesio Pestana, inspector sanitario desta secção, visitou hoje as casas da rua 7 de Abril de ns. 83 a 126.</p>
+    <p>Estão em regulares condições hygienicas.</p>
+    <p>A' rua Braulio Gomes visitou a casa n. 10 á procura de uma fabrica de vinhos</p>
+
+    <p class="sub">Consolação—3.ª secção</p>
+    <p>O dr. Evaristo Bacellar, inspector sanitario desta secção, visitou hoje as casas da rua dr. Abranches de ns. 1 a 51, inclusive 1 armazem de seccos e a cocheira da Companhia Viação Paulista.</p>
+    <p>Vaccinou 9 creanças.</p>
+    <p>Expediu 3 intimações.</p>
+    <p>Encontrou todas as casas em regulares condições de asseio.</p>
+    <p>E' bom o estado sanitario.</p>
+
+    <p class="sub">Consolação—4.ª secção</p>
+    <p>O dr. Alfredo Guaraná, inspector sanitario desta secção, visitou hoje 25 casas da rua Victorino Carmilo, de ns. 1 a 11 e de 19 a 69, encontrando-as, na sua maioria, em boas condições de asseio.</p>
+    <p>E' bom o estado sanitario.</p>
+
+    <div class="filete"></div>
+
+    <div class="titulo-noticiario">NOTICIARIO</div>
+    <div class="filete-curto"></div>
+
+    <p><span class="verbete">Guarda nacional.</span>—Foram declarados sem effeito :</p>
+    <p>O decreto de 17 de Março ultimo que nomeou Augusto Moreira de Carvalho para o posto de capitão da 1.ª companhia do 126.º batalhão de infanteria da guarda nacional da comarca de Santos ;</p>
+    <p>O decreto da mesma data que annullou a nomeação de Antão Alves de Moura para o posto de capitão da 1.ª companhia do 126.º batalhão de infanteria da guarda nacional da comarca de Santos, ficando subsistente o decreto de 26 de Agosto do anno passado na parte em que nomeou o referido official.</p>
+
+    <p><span class="verbete">Pagamentos.</span>—Pelo Ministerio da Industria, Viação e Obras Publicas foram solicitados do da Fazenda os seguintes pagamentos :</p>
+    <p>De £ 2093-13-4 á Companhia Mechanica e Importadora de S. Paulo, de fornecimento feito á Estrada de Ferro Central do Brazil, em Dezembro do anno passado.</p>
+    <p>De £ 552-14-10 idem, idem, idem, em Dezembro do anno passado.</p>
+
+    <p><span class="verbete">Camara Syndical.</span>—Cotação dos fundos publicos e particulares no dia 30 de Março de 1900 :</p>
+
+    <table class="cotacao">
+        <tr><td></td><td class="cab">90 d/v</td><td class="cab">A' vista</td></tr>
+        <tr><td>Sobre Londres . &nbsp;. &nbsp;. &nbsp;.</td><td class="val">8 7/32</td><td class="val">7 3,32</td></tr>
+        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;» &nbsp;&nbsp;Pariz. &nbsp;. &nbsp;. &nbsp;. &nbsp;.</td><td class="val">1160</td><td class="val">1173</td></tr>
+        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;» &nbsp;&nbsp;Hamburgo . &nbsp;. &nbsp;.</td><td class="val">1432</td><td class="val">1455</td></tr>
+        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;» &nbsp;&nbsp;Italia. &nbsp;. &nbsp;. &nbsp;.</td><td class="val">—</td><td class="val">1108</td></tr>
+        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;» &nbsp;&nbsp;Portugal &nbsp;. &nbsp;. &nbsp;.</td><td class="val">—</td><td class="val">480</td></tr>
+        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;» &nbsp;&nbsp;New-York . &nbsp;. &nbsp;.</td><td class="val">—</td><td class="val">6110</td></tr>
+        <tr><td>Soberanos . &nbsp;. &nbsp;. &nbsp;. &nbsp;.</td><td class="val">—</td><td class="val">—</td></tr>
+    </table>
+
+    <p class="pequeno">CURSO OFFICIAL DOS FUNDOS PUBLICOS E PARTICULARES</p>
+    <p class="sub">Bancos</p>
+
+    <table class="cotacao">
+        <tr><td>São Paulo . &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;.</td><td class="val">147$000</td></tr>
+        <tr><td>Mercantil de Santos . &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;.</td><td class="val">138$000</td></tr>
+    </table>
+</div>
+
+<!-- ================= COLUNA 2 ================= -->
+<div class="col">
+    <p class="sub">Companhias</p>
+    <table class="cotacao">
+        <tr><td>Paulista de Vias Ferreas e Fluviaes . &nbsp;.</td><td class="val">258$000</td></tr>
+        <tr><td>Dita de idem, a 30 dias (á vontade do vendedor . &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;.</td><td class="val">258$000</td></tr>
+    </table>
+
+    <p class="sub">Lettras hypothecarias</p>
+    <table class="cotacao">
+        <tr><td>Banco de Credito Real de São Paulo, 8.ª, 9.ª e 11.ª. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;.</td><td class="val">68$000</td></tr>
+    </table>
+
+    <p>S. Paulo, 30 de Março de 1900.—O syndico, <span class="assinatura">Henry White.</span></p>
+
+    <p class="centro" style="margin-top:6px;">DIA 31</p>
+
+    <table class="cotacao">
+        <tr><td></td><td class="cab">90 d/v</td><td class="cab">A' vista</td></tr>
+        <tr><td>Sobre Londres</td><td class="val">8 1/8</td><td class="val">8 d.</td></tr>
+        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;» &nbsp;&nbsp;Pariz &nbsp;.</td><td class="val">1174</td><td class="val">1192</td></tr>
+        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;» &nbsp;&nbsp;Hamburgo &nbsp;. &nbsp;. &nbsp;.</td><td class="val">1449</td><td class="val">1172</td></tr>
+        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;» &nbsp;&nbsp;Italia &nbsp;.</td><td class="val"></td><td class="val">1110</td></tr>
+        <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;» &nbsp;&nbsp;Portugal &nbsp;. &nbsp;. &nbsp;. &nbsp;.</td><td class="val"></td><td class="val">485</td></tr>
+        <tr><td>New-York . &nbsp;. &nbsp;. &nbsp;. &nbsp;.</td><td class="val"></td><td class="val">6181</td></tr>
+        <tr><td>Soberanos . &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;.</td><td class="val"></td><td class="val">—</td></tr>
+    </table>
+
+    <p class="pequeno">CURSO OFFICIAL DOS FUNDOS PUBLICOS E PARTICULARES</p>
+
+    <p class="sub">Bancos</p>
+    <table class="cotacao">
+        <tr><td>São Paulo . &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;.</td><td class="val">147$000</td></tr>
+    </table>
+
+    <p class="sub">Companhias</p>
+    <table class="cotacao">
+        <tr><td>Paulista de Vias Ferreas e Fluviaes .</td><td class="val">260$000</td></tr>
+    </table>
+
+    <p class="sub">Lettras hypothecarias</p>
+    <table class="cotacao">
+        <tr><td>Banco de Credito Real de S. Paulo, 4.ª a 9.ª séries &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;. &nbsp;.</td><td class="val">68$000</td></tr>
+    </table>
+
+    <p>São Paulo, 31 de Março de 1900.—O syndico, <span class="assinatura">Henry White.</span></p>
+
+    <p style="margin-top:6px;"><span class="verbete">Hospedaria de Immigrantes.</span>—Boletim do movimento de immigrantes no dia 31 de Março de 1900 :</p>
+
+    <div class="caixa-girada">
+        <div class="girada">
+            <table class="mov">
+                <tr>
+                    <th rowspan="2">MOVIMENTO</th>
+                    <th>Maiores<br>de 12<br>annos</th>
+                    <th>De 7 a 12<br>annos</th>
+                    <th>De 2 a 6<br>annos</th>
+                    <th>Menores<br>de 2<br>annos</th>
+                    <th>TOTAL</th>
+                    <th colspan="4">PASSAGENS</th>
+                    <th rowspan="2">TOTAL</th>
+                </tr>
+                <tr>
+                    <th></th><th></th><th></th><th></th><th></th>
+                    <th>Por<br>contracto</th>
+                    <th>Por inter-<br>medio<br>dos agentes</th>
+                    <th>Com destino<br>certo</th>
+                    <th>Conductores<br>de bagagens</th>
+                </tr>
+                <tr>
+                    <td>Existiam . . . .</td>
+                    <td>25</td><td>8</td><td>8</td><td>2</td><td>26</td>
+                    <td>.</td><td>.</td><td>.</td><td>.</td><td>0</td>
+                </tr>
+                <tr>
+                    <td>Entraram . . . .</td>
+                    <td>.</td><td>.</td><td>.</td><td>.</td><td>.</td>
+                    <td>.</td><td>.</td><td>.</td><td>.</td><td>0</td>
+                </tr>
+                <tr>
+                    <td>Bagagem . . . .</td>
+                    <td>.</td><td>.</td><td>.</td><td>.</td><td>.</td>
+                    <td>.</td><td>.</td><td>.</td><td>.</td><td>0</td>
+                </tr>
+                <tr>
+                    <td>Sahiram . . . .</td>
+                    <td>.</td><td>.</td><td>.</td><td>.</td><td>.</td>
+                    <td>.</td><td>.</td><td>.</td><td>.</td><td>0</td>
+                </tr>
+                <tr>
+                    <td>Existem . . . .</td>
+                    <td>25</td><td>8</td><td>8</td><td>2</td><td>43</td>
+                    <td>.</td><td>.</td><td>.</td><td>.</td><td>0</td>
+                </tr>
+                <tr>
+                    <td colspan="6" style="text-align:left">Pedidas . . . . &nbsp;&nbsp; Concedidas . . . . &nbsp;&nbsp; Embarcadas . . . .</td>
+                    <td colspan="5" style="text-align:left">Sahiram para a capital — Sahiram por conta propria — Falleceram — 1 fazendeiro fez pedido de 5 familias</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <p>Hospedaria de Immigrantes em São Paulo, 31 de Março de 1900. — O ajudante do director, <span class="assinatura">João M. Pinheiro.</span></p>
+
+    <p style="margin-top:4px;"><span class="verbete">Obituario.</span>—Foram sepultados no Cemiterio Municipal do Araçá os seguintes cadaveres:</p>
+</div>
+
+<!-- ================= COLUNA 3 ================= -->
+<div class="col">
+    <p class="dia">Dia 25</p>
+    <p>Domingos dos Santos, 50 annos, brazileiro; hemorragia cerebral.</p>
+    <p>Maria Luiza, 60 annos, italiana, casada ; embolia cerebral.</p>
+    <p>Mathias Congo, 70 annos, solteiro, africano; arterio schlerose.</p>
+    <p>Benedicta Maria Conceição, 19 annos, brazileira, solteira ; endocardite syphilitica.</p>
+    <p>Antonio Correia Costa, 82 annos, portuguez, casado ; tuberculose pulmonar.</p>
+    <p>Féto masculino, filho de Ernesto Pertresi ; nasceu morto.</p>
+    <p>Féto masculino, filho de Antorelli Giovanni; nasceu morto.</p>
+    <p>Féto masculino, filho de Carmine Natulli ; nasceu morto.</p>
+    <p>Maria, 13 mezes, brazileira, filha de João Ron ; bronchite.</p>
+    <p>Januario Rocco, 55 annos, italiano, solteiro ; insufficiencia mitral.</p>
+    <p>Benedicta Andrelina Jesus, 23 annos, brazileira, solteira ; tuberculose.</p>
+
+    <p class="dia">Dia 26</p>
+    <p>Aldo Rescoli, 17 annos, italiano, solteiro ; febre amarella.</p>
+    <p>Jacintho Pinheiro, 9 annos, portuguez ; febre amarella.</p>
+    <p>Carlos, 8 mezes, brazileiro, filho de José Pereira Simões ; gastro enterite.</p>
+    <p>Féto masculino, filho de Vicenzo Boceia; nasceu morto.</p>
+    <p>Francisco, 17 mezes, brazileiro, filho de Miguel Depetrangele ; eclampsia.</p>
+    <p>João das Dores Pestana, 25 annos, portuguez, solteiro ; febre amarella.</p>
+    <p>Julio Cesar Martins Pestana, 52 annos, portuguez, casado ; febre amarella.</p>
+    <p>Angelina, 3 annos, brazileira, filha de Michele Gaira ; bronchite capillar.</p>
+    <p>Felicio Ferreira dos Santos, 31 annos, brazileiro, casado ; peritonite traumatica.</p>
+    <p>João Evangelista, 33 annos, brazileiro, solteiro ; tuberculose.</p>
+    <p>Francisco, 4 annos, brazileiro, filho de d. Eugenia Maria Conceição; infecção malarica.</p>
+    <p>Mafalda Ferraz, 50 annos, brazileira, solteira ; queimadura.</p>
+    <p>Pedro Caifa, 22 annos, italiano solteiro ; insufficiencia mitral.</p>
+    <p>Izabel Slatine, 60 annos, italiana viuva ; congestão cerebral.</p>
+
+    <p class="dia">Dia 27</p>
+    <p>Angelo Baretta, 72 annos, italiano, viuvo ; sclerlise cerebral.</p>
+    <p>Angelo Tedesco, 30 annos, italiano, casado ; uremia.</p>
+    <p>Joaquim, 16 dias, brazileiro, filho de João Antonio de Oliveira ; inviabilidade.</p>
+    <p>José Rodrigues, 44 annos, portuguez, casado;</p>
+    <p>Narcisa Amelia Araujo, 22 annos, brazileira, solteira ;</p>
+    <p>Malvina Maria Alexandrina, 35 annos, solteira, brazileira ; cachexia epileptica.</p>
+    <p>Paschoal Annunciato, 18 annos, italiano, solteiro ; tuberculose.</p>
+    <p>Leonardo Lole, 45 annos, italiano, casado ; febre typhoide.</p>
+    <p>Antonio Pereira, 56 annos, portuguez, casado ; peritonite em consequencia de fractura.</p>
+</div>
+
+</div>
+
+</body>
+</html>
+```

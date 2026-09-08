@@ -1,0 +1,78 @@
+{
+  "chave": "qwen/qwen3-vl-235b-a22b-instruct|1900-04-01_p733|p1|0",
+  "registro": {
+    "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "prompt_id": "p1",
+    "doc_id": "1900-04-01_p733",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 82.97434920002706,
+    "prompt_tokens": 2607,
+    "completion_tokens": 3596,
+    "total_tokens": 6203,
+    "cost_usd": 0.00441766,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Alibaba",
+    "generation_id": "gen-1788813833-vJayyT1EEUMANt0xxMLU",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-07T20:43:53Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788813833-vJayyT1EEUMANt0xxMLU",
+        "object": "chat.completion",
+        "created": 1788813833,
+        "model": "qwen/qwen3-vl-235b-a22b-instruct",
+        "provider": "Alibaba",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Diário Oficial - Abril 1900</title>\n    <style>\n        body { font-family: serif; line-height: 1.4; margin: 2cm; }\n        .header { text-align: center; font-weight: bold; border-bottom: 2px solid black; padding-bottom: 5px; }\n        .date { float: left; }\n        .issue { float: right; }\n        .section { margin-top: 1em; }\n        .subsection { margin-left: 1em; }\n        table { width: 100%; border-collapse: collapse; }\n        td { vertical-align: top; padding: 0.2em; }\n        .right-col { width: 33%; }\n        .center-col { width: 34%; }\n        .left-col { width: 33%; }\n    </style>\n</head>\n<body>\n    <div class=\"header\">\n        <span class=\"date\">Domingo, 1</span>\n        <span>DIÁRIO OFICIAL</span>\n        <span class=\"issue\">Abril 1900 — 733</span>\n    </div>\n\n    <div class=\"section\">\n        <p>Antônio Candido Xavier de Almeida e Souza, nomeado curador por decreto de 6 de Março corrente.</p>\n        <p><em>Requerimentos despachados</em></p>\n        <p>Do bacharel Octaviano de Aguiar Camargo, ex-promotor público da comarca de Ytú, pedindo providências no sentido de poder receber, no Tesouro do Estado, os vencimentos a que tem direito, durante o tempo em que esteve em gozo da licença que lhe foi concedida por acto de 23 de Janeiro do corrente anno, para tratar da saúde de pessoa de sua família, visto ter-se extraviado a respectiva portaria.—Atendido, retirando desta secretaria por certidão, uma cópia da portaria da licença que foi extraviada.</p>\n        <p>Do bacharel Bento Ribeiro da Luz, juiz de direito da comarca de Nuporanga, pedindo que se lhe mande certificar si obteve desta secretaria a portaria, devidamente sellada, da licença de sessenta dias, em cujo gozo entrou em 3 de Janeiro do corrente anno.—Certifique-se o que constar.</p>\n    </div>\n\n    <div class=\"section\">\n        <h3>2.ª SUB DIRECTORIA</h3>\n        <h4>1.ª SECÇÃO</h4>\n        <p>Transmittiram-se :</p>\n        <p>Ao ministro da Justiça e Negócios Interiores os documentos officiaes relativos ao acto humanitário praticado pelo soldado Francisco da Cunha Benevides, do 2.º atalhão da Brigada Policial, que em Santos, a 31 de Janeiro do anno findo, se atirou ao mar no intuito de salvar a praça do Corpo de Bombeiros Municipaes, que se lançara do caes para afogar-se, além do que aquelle soldado, seja concedida a medalha de distincção, creada por decreto de 11 de Dezembro de 1889.</p>\n        <p>Ao dr. secretario dos Negócios do Interior, por cópia, o officio do delegado de policia de Araraquara, de 25 do corrente mez, communicando terem apparecido naquella localidade dois casos de febre amarella.</p>\n        <p>Remetteram-se :</p>\n        <p>Ao commandante do Corpo Policial no Interior os officios do dr. chefe de policia, ns. 851, 857 e 858, datados de 27 do corrente, referentes ao augmento dos deslocamentos de Araraquara e de Santos e sobre uma licença concedida a um soldado pelo delegado de Pedreira, para si a Posse de Resacas.</p>\n        <p>Ao dr. chefe de policia, os das camaras municipaes de Remedios da Ponte do Tietê, de Santo Antonio da Cabeceira e do juiz de paz de Santo Antonio da Alegria, datados de 22 e 23 do corrente mez.</p>\n    </div>\n\n    <div class=\"section\">\n        <h4>2.ª SECÇÃO</h4>\n        <p>O secretario dos Negócios da Justiça resolve que na distribuição de forragem aos animaes da Força Publica e da Repartição da Polícia, sejam observadas a contar de 5 de Abril proximo vindouro, as seguintes tabellas :</p>\n        <p>De 5 a 10 de Abril:</p>\n        <table>\n            <tr><td>Aos cavallos</td><td>Aos muares</td></tr>\n            <tr><td>Alfafa — diariamente — 2 1/2 kilos</td><td>— 2 kilos</td></tr>\n            <tr><td>Capim — » — 8 »</td><td>— 8 »</td></tr>\n            <tr><td>Canna — » — 3 »</td><td>— 3 »</td></tr>\n            <tr><td>Farelo — » — 1 »</td><td>— 1 »</td></tr>\n            <tr><td>Milho — » — 3 »</td><td>— 3 »</td></tr>\n            <tr><td>Sal — de 3 em 3 dias — 1 decil.</td><td>— 1 decil</td></tr>\n        </table>\n        <p>De 11 de Abril em deante :</p>\n        <table>\n            <tr><td>Alfafa — diariamente — 1 1/2 kilos</td><td>— 1 kilo.</td></tr>\n            <tr><td>Capim — » — 8 »</td><td>— 8 »</td></tr>\n            <tr><td>Canna — » — 3 »</td><td>— 3 »</td></tr>\n            <tr><td>Farelo — » — 1 »</td><td>— 1 »</td></tr>\n            <tr><td>Milho — » — 3 »</td><td>— 3 »</td></tr>\n            <tr><td>Sal — de 3 em 3 dias — 1 decil</td><td>— 1 decil</td></tr>\n        </table>\n        <p><em>Observação</em>.—Os animaes no pasto vencerão a ração de alfafa, canna, milho e sal.</p>\n        <p>Secretaria da Justiça do Estado de São Paulo, 30 de Março de 1900.—José Pereira de Queiroz.</p>\n        <p>Remetteu-se cópia da presente tabella provisoria ao dr. chefe de policia, coronel commandante da Brigada Policial e chefe do Almoxarifado da Força Publica.</p>\n        <p>Por acto desta data foi elevada de 800 réis a 1$800 a diária de alimentação aos presos pobres da cadeia de São Paulo, dos Agudos, a contar de 1.º de Abril do corrente anno.—Deu-se conhecimento aos drs. chefe de policia e secretario da Fazenda.</p>\n        <p>Secretaria dos Negócios da Justiça.—2.ª sub-directoria.—2.ª secção.—N. 330.—São Paulo, 31 de Março de 1900.—Sr. coronel-commandante da Brigada Policial.—Para os devidos effeitos vos communico que entrando em vigor, a 2 de Abril proximo vindouro, o novo regulamento do sello do Estado, que lavrou com o decreto n. 759, de 21 do corrente mez, devem, a contar daquella data, as petições e memoriaes dirigidos á autoridade administrativa estadual ou municipal, trazer a estampilha de 1$000 pela primeira folha de papel escrito e 200 réis pelas restantes, de accordo com o n. 5 da tabella B annexa ao referido regulamento.—Saude e fraternidade.—José Pereira de Queiroz.</p>\n        <p>Identicos ao dr. chefe de policia e ao coronel commandante do Corpo Policial do Interior.</p>\n        <p>Solicitaram-se do dr. secretario da Fazenda, os seguintes pagamentos :</p>\n        <p>De 108$000, pela colectoría de Campos Novos, durante o actual exercício, mensalmente, a contar de 1.º de Janeiro ultimo, a José Antonio da Costa, pelo aluguel do predio que serve de quartel e cadeia em Platina;</p>\n        <p>De 35$000, pela colectoría de Pirajú, mensalmente, até 30 de Junho do corrente anno e a contar de 1.º de Janeiro findo, a Jorge Allen Jefferý, pelo aluguel do predio que serve de quartel e cadeia em Bello Monte;</p>\n        <p>De 60$000, a Manoel Joaquim Gonçalves, pelo aluguel da casa onde está installado o posto policial em Mooca, relativo a Janeiro ultimo;</p>\n        <p>De 60$000, a d. Anna Maria Caldeira, pelo aluguel do predio que serve de quartel em Morro Pelado, relativo aos mezes de Janeiro e Fevereiro findos;</p>\n        <p>De 171$000, a Antonio Lunzi, por diversos contractos realizados no posto policial de Santa Ephigenia;</p>\n        <p>As expirações abaixo mencionadas, proveniente da restituição do desconto de fardamento de voluntarios e de vencimentos a que tiveram direito até a data em que foram excluídos :</p>\n        <p>De 68$000, a Caetano Pestana;</p>\n        <p>De 88$000, a José Joaquim de Lemos;</p>\n        <p>De 32$300, a Francisco Martins de Oliveira;</p>\n        <p>De 73$100, a Gregorio Vasques;</p>\n        <p>De 118$020, a Artur Pereira;</p>\n        <p>De 1.58$333, a Raymundo Antonio de Souza;</p>\n        <p>De 158$559, a José Antonio Sampaio;</p>\n        <p>De 65$900, a José Pedro de Campos;</p>\n        <p>De 230$503, a Antonio de Assis Pereira da Silva;</p>\n        <p>De 2$320, a Horacio José Maria;</p>\n        <p>De 160$135, a José Leite;</p>\n        <p>De 138$715 a Francisco da Silva Leitão;</p>\n        <p>De 150$106, a Raymundo Duarte Ferreira;</p>\n        <p>De 19$006, a Francisco Rodrigues Esteves;</p>\n        <p>De 150$196, a Fortunato Antonio das Gárgaras;</p>\n        <p>De 151$106, a José Vieira Brazileiro;</p>\n        <p>De 117$706, a Benedicto Bueno da Silva;</p>\n        <p>De 137$306, a Caetano José da Silva;</p>\n        <p>Transmittiram-se ao mesmo :</p>\n        <p>Officios dos delegados de policia do Rio Claro, Atibaia e Nuporanga sobre o pagamento das diárias de alimentação aos presos pobres recolhidos às respectivas cadeias.</p>\n    </div>\n\n    <div class=\"section\">\n        <h4>Requerimentos</h4>\n        <p>De Diogo Antonio de Arruda Mendes, pedindo pagamento da quantia de 25$000, proveniente de medicamentos fornecidos a presos pobres recolhidos à cadeia de Dois Corregos;</p>\n        <p>De J. G. dos Santos Figueiredo, de 71$000, proveniente do fornecimento idêntico aos presos pobres da cadeia de Mococa;</p>\n        <p>De Francisco Pereira da Silva, soldado do Corpo Policial do Interior, pedindo pagamento de 11$999, correspondente a vencimentos que deixou de receber no anno findo.</p>\n        <p>De Francisco de Sales Gomes, sobre pagamento da quantia de 230$000 por serviços medicos prestados a presos pobres da cadeia de Taubaté.</p>\n        <p>Declinou-se :</p>\n        <p>Ao mesmo, que foi contestado com Muri Carneiro, o fornecimento da alimentação aos presos pobres da cadeia de Ananindeua, à razão de mil réis diarios;</p>\n        <p>Ao dr. chefe de policia :</p>\n        <p>Que, por falta de verba, não pode ser atendido o pedido do delegado de policia de Jundiahy, sobre o fornecimento de um sino à cadeia daquella cidade;</p>\n        <p>Que para se poder providenciar sobre o pagamento do aluguel do predio que serve de quartel e cadeia em Taquary, relativo ao anno de 1898, torna-se preciso que o proprietario do mesmo requeira a este secretariado, por intermedio de sua chefia, o pagamento a que se julga com direito.</p>\n        <p>Ao presidente da camara municipal de São João da Boa Vista, que a Superintendencia de Obras Publicas foi autorizada a despender a quantia de 5:350$123 com os reparos de que necessita o edificio da cadeia daquella cidade.</p>\n        <p>Autorizou-se o chefe do almoxarifado da Força Publica a fornecer diversos artigos de expediente à Penitenciaria.</p>\n    </div>\n\n    <div class=\"section\">\n        <h3>Fazenda</h3>\n        <p>EXPEDIENTE DO DIA 31 DE MARÇO DE 1900</p>\n        <p>Do dr. secretario da Agricultura, solicitando pagamento das seguintes contas de fornecimentos feitos á Repartição de Aguas e Esgotos, durante o mez de Fevereiro proximo passado :</p>\n        <p>De 6:000$000, á Companhia Mechanica e Importadora de S. Paulo;</p>\n        <p>De 732$100, a Espindola, Siqueira & Comp.;</p>\n    </div>\n</body>\n</html>",
+              "refusal": null,
+              "reasoning": null
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2607,
+          "completion_tokens": 3596,
+          "total_tokens": 6203,
+          "cost": 0.00441766,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00441766,
+            "upstream_inference_prompt_cost": 0.00067782,
+            "upstream_inference_completions_cost": 0.00373984
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

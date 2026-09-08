@@ -1,0 +1,67 @@
+{
+  "chave": "google/gemini-3.5-flash-lite|1900-04-01_p731|p1|0",
+  "registro": {
+    "model_id": "google/gemini-3.5-flash-lite",
+    "prompt_id": "p1",
+    "doc_id": "1900-04-01_p731",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 52.45992850000039,
+    "prompt_tokens": 1137,
+    "completion_tokens": 3167,
+    "total_tokens": 4304,
+    "cost_usd": 0.0082586,
+    "cost_source": "tabela_precos",
+    "finish_reason": "STOP",
+    "truncated": false,
+    "api_provider": "gemini",
+    "provider_upstream": "google",
+    "generation_id": null,
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T01:43:11Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "generateContent",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Diário Oficial do Estado de São Paulo - 1 de Abril de 1900</title>\n    <style>\n        body {\n            font-family: \"Times New Roman\", Times, serif;\n            font-size: 11pt;\n            line-height: 1.15;\n            margin: 20px;\n            color: #000;\n            background-color: #fff;\n        }\n        .header {\n            text-align: center;\n            border-bottom: 2px solid black;\n            padding-bottom: 5px;\n            margin-bottom: 10px;\n        }\n        .header h1 {\n            font-size: 14pt;\n            letter-spacing: 1px;\n            margin: 0 0 5px 0;\n        }\n        .header h2 {\n            font-size: 28pt;\n            font-weight: bold;\n            letter-spacing: 2px;\n            margin: 5px 0;\n        }\n        .header h3 {\n            font-size: 16pt;\n            letter-spacing: 1px;\n            margin: 5px 0 10px 0;\n        }\n        .sub-header {\n            display: flex;\n            justify-content: space-between;\n            font-size: 10pt;\n            font-weight: bold;\n            border-bottom: 1px solid black;\n            padding-bottom: 5px;\n            margin-bottom: 15px;\n        }\n        .newspaper-grid {\n            display: grid;\n            grid-template-columns: 1fr 1fr 1fr;\n            gap: 15px;\n            text-align: justify;\n        }\n        .column {\n            font-size: 9.5pt;\n        }\n        h4.section-title {\n            text-align: center;\n            font-size: 11pt;\n            margin: 10px 0;\n            text-transform: uppercase;\n            border-bottom: 1px solid black;\n            padding-bottom: 2px;\n        }\n        h5.sub-section-title {\n            text-align: center;\n            font-size: 10pt;\n            margin: 8px 0;\n            font-style: italic;\n        }\n        h6.sub-sub-section {\n            text-align: center;\n            font-size: 9pt;\n            margin: 6px 0;\n            text-transform: uppercase;\n            letter-spacing: 0.5px;\n        }\n        p {\n            margin: 0 0 8px 0;\n            text-indent: 15px;\n        }\n        .center {\n            text-align: center;\n            text-indent: 0;\n        }\n        .bold {\n            font-weight: bold;\n        }\n    </style>\n</head>\n<body>\n\n    <div class=\"header\">\n        <h1>ESTADOS UNIDOS DO BRAZIL</h1>\n        <h2>DIARIO OFFICIAL</h2>\n        <h3>DO ESTADO DE SÃO PAULO</h3>\n    </div>\n\n    <div class=\"sub-header\">\n        <div>ANNO 9 — 12.ª DA REPUBLICA — N. 75</div>\n        <div>SÃO PAULO</div>\n        <div>DOMINGO, 1 DE ABRIL DE 1900</div>\n    </div>\n\n    <div class=\"newspaper-grid\">\n        <!-- COLUNA 1 -->\n        <div class=\"column\">\n            <h4 class=\"section-title\">ACTOS DO PODER EXECUTIVO</h4>\n            \n            <h5.sub-section-title>Interior</h5>\n            <p>Por decreto de 27 do corrente foi exonerado o professor preliminar, cidadão José de Castro, com exercicio na Eschola Complementar de Itapetininga, para o cargo de professor do grupo escholar de São Manoel do Paraiso;</p>\n            <p>Por decreto da mesma data, foi nomeada a profa sora preliminar, d. Anna Candida Soares, para o cargo de professora adjuncta do grupo escholar da Faxina;</p>\n            <p>Por decreto da mesma data, foi nomeada a professora de egual categoria, d. Emygdia Soares, para, interiminamente, exercer o cargo de professora do mesmo grupo.</p>\n            <p>Por decreto da mesma data, foi exonerado, a pedido, o bacharel José Pinto de Moura, do cargo de lente da 9.ª cadeira do Gymnasio de Campinas;</p>\n            <p>Por decreto da mesma data, foram criados quatros logares de adjunctos na secção feminina do 2.º grupo escholar de Campinas;</p>\n            <p>Por decreto da mesma data, foram tambem creados dois logares identicos na secção feminina do grupo da Faxina.</p>\n\n            <h5.sub-section-title>Agricultura</h5>\n            <p>Por decreto de 27 do mez findo, foi removido a pedido, o cidadão Carlos Martins, 2.º escripturario da Hospedaria de Immigrantes, para o logar de conferente da Repartição de Aguas e Esgottos; sen-lo nomeado para aquella vaga o cidadão Julio Bicudo.</p>\n\n            <h4 class=\"section-title\">SECRETARIAS DE ESTADO</h4>\n            \n            <h5.sub-section-title>Interior</h5>\n            \n            <h6.sub-sub-section>EXPEDIENTE DE 30 DE MARÇO DE 1900</h6>\n            \n            <h6.sub-sub-section>1.ª SUB-DIRECTORIA<br>1.ª SECÇÃO</h6>\n            \n            <p>Communicou se á Secretaria dos Negocios da Fazenda, para os devidos fins, que o bacharel Jacintho do Nascimento Moura, auxiliar da redacção do Diario Official, reassumiu o exercicio do cargo no dia 21 do corrente, visto ter terminado a licença em cujo goso se achava.</p>\n            <p>Transmittiram-se á Secretaria dos Negocios da Agricultura, Commercio e Obras Publicas dois officios, sendo um da camara municipal de Guarehy e outro do intendente municipal da Franca, visto tratarem de assumptos referentes àquella secretaria.</p>\n        </div>\n\n        <!-- COLUNA 2 -->\n        <div class=\"column\">\n            <h6.sub-sub-section>2.ª SECÇÃO<br>Officios despachados</h6>\n            <p>Da Secretaria da Agricultura, communicando que opportunamente será executado o serviço de esgottos nos bairros da Lupa, Agua Branca e outros da capital. — A' Directoria do Serviço Sanitario.</p>\n\n            <h6.sub-sub-section>EXPEDIENTE DE 28 DE MARÇO DE 1900</h6>\n            \n            <h6.sub-sub-section>3.ª SECÇÃO</h6>\n            <p>Foram solicitados da Secretaria da Fazenda os seguintes pagamentos:</p>\n            <p>De 35$000, pela collectoria de Mogy das Cruzes, so director do grupo escholar daquella cidade, pelo fornecimentos feitos ao referido estabelecimento;</p>\n            <p>De 2:810$100, pela collectoria da Faxina, ao director do grupo escholar daquella cidade, Emílio Mario de Arantes, proveniente de fornecimentos feitos ao dito estabelecimento;</p>\n            <p>De 295$000, pela collectoria de Areias, ao director do grupo escholar daquella cidade, José Mario da Silveira, proveniente de reparos feitos no predio onde funcciona o referido estabelecimento;</p>\n            <p>De 100$000, pela collectoria de Espirito Santo do Pinhal, ao director, em commissão, do grupo escholar daquella cidade, Domingos de Paula da Silva, proveniente de contas de serviços prestados ao referido estabelecimento.</p>\n            <p>Authorizon-se o director do Serviço Sanitario a despender a quantia de 725$000, para acquisição de objectos necessarios áquella repartição.</p>\n\n            <h6.sub-sub-section>1.ª SUB-DIRECTORIA<br>1.ª SECÇÃO</h6>\n            \n            <p>Communicou-se ao sr. dr. secretario da Fazenda :</p>\n            <p>Que, por motivo de molestia, interrompeu o exercicio de seu cargo, desde o dia 14 do corrente, o professor do grupo escholar do Braz, cidadão Athanasio Braulio Rodrigues;</p>\n            <p>Que foram abunadas seis faltas dadas pelo professor de escripturação mercantil da Eschola Normal, cidadão Jeronymo Azevedo, no mez ultimo.</p>\n            <p>Recommendou-se ao director do grupo escholar «Dr. Flaminio Lessa», de Guaratinguetá, que informasse a este secretariado de que serviço se acha encarregado o professor Miguel Virginio dos Santos.</p>\n            <p>Declarou-se ao director do grupo escholar «Gabriel Prestes», de Lorena, em resposta ao seu officio n. 21, de 6 do corrente, não haver necessidade do augmento de uma sala naquelle estabelecimento, como informou o inspector escholar que alli esteve em commissão.</p>\n\n            <h6.sub-sub-section>Requerimento despachado</h6>\n            <p>De Marta da Piedade Canio, porteira do grupo escholar de Lorena, pedindo equiparação de seus vencimentos aos do porteiro do mesmo grupo.—Sejam equiparados.</p>\n        </div>\n\n        <!-- COLUNA 3 -->\n        <div class=\"column\">\n            <h6.sub-sub-section>3.ª SECÇÃO<br>Dia 27</h6>\n            <p><span class=\"bold\">Officiou-se :</span></p>\n            <p>A' Fazenda, communicando que a professora nomeada para reger a eschola mixta da v lla Cercuel-a Cesar, desta capital, d. Maria Ellia Mac Intyre, assumiu o exercicio no dia 20 do corrente;</p>\n            <p>A' mesma, communicando que a 10 do corrente foi nomeado inspector municipal de Santa Barbara do Rio Pardo, assumindo o exercicio a 17 do mesmo, o major Casemiro Nunes de Carvalho;</p>\n            <p>A' mesma, communicando que entrou em exercicio da eschola da villa do Rio das Padras, no dia 20 do corrente, o professor João Braulio Cesar.</p>\n\n            <h6.sub-sub-section>Dia 28</h6>\n            <p><span class=\"bold\">Officiou-se :</span></p>\n            <p>A' Fazenda, trasmittindo, por cópia, o decreto que aposentou a professora da eschola do 22.º districto desta capital, d. Galdina America de Almeida, bem como todos os papeis refereates ao assumpto;</p>\n            <p>A' mesma, transmittindo, por cópia, o decreto que aposentou o professor da eschola do bairro de Santa Cruz, municipio de Cruz.iro e demais papeis referentes ao assumpto;</p>\n            <p>A' mesma, transmittindo, por cópia, o decreto que aposentou o cidadão Augusto Pinto da Silva Saes, professor da eschola da villa de S. Pedro, e demais papeis referentes ao assumpto;</p>\n            <p>A' mesma, solicitando pagamento da gratificação de que trata o artigo 135 do regulamento de 27 de Novembro de 1893, ao professor adjuncto da 1.ª eschola de Santos, cidadão Olyntho Paiva.</p>\n\n            <h6.sub-sub-section>Dia 29</h6>\n            <p><span class=\"bold\">Officiou-se :</span></p>\n            <p>A' Fazenda, communicando que a professora da eschola do 5.º districto, desta capital, d. Marianna da Gloria Rodrigues Bahia, entrou a 21 do corrente no goso da licença que lhe fôra concedida;</p>\n            <p>A' mesma, communicando que o professor Braziliano de Azevedo, removido da eschola do bairro dos Mauricios, em São Bento do Sapucahy, para a da freguezia de Santo Antonio do Pinhal, do mesmo municipio, assumiu o exercicio do cargo no dia 17 do corrente.</p>\n\n            <h6.sub-sub-section>Dia 30</h6>\n            <p><span class=\"bold\">Officiou-se :</span></p>\n            <p>A' camara municipal de Santos, mandando passar os attestados de exercicio ao professor da 1.ª eschola daquella cidade, cidadão Eugenio Porchat de Assis, visto não ter sido abandonada a sua eschola, conforme se verificou dos papeis relativos ao caso.</p>\n\n            <h6.sub-sub-section>3.ª SECÇÃO</h6>\n            <p><span class=\"bold\">Officiou-se :</span></p>\n            <p>Ao agente da E. de Ferro Central, pedindo transporte para volumes destinados aos grupos escholares de Areias e Pindamonhangaba;</p>\n        </div>\n    </div>\n\n</body>\n</html>\n```",
+                  "thoughtSignature": "El4KXAERTTIPRgtnZGEPAIoNYnKN+mcDDzNCK0cbgaF+Kq1GiY95OQxwLtsMCKN/mDdnlrAiANTvEjqD2iZJAZa5W45md/3JxVcqReif1tpZjLREYRA5gAjcybSG+t0C"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "index": 0
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 1137,
+          "candidatesTokenCount": 3167,
+          "totalTokenCount": 4304,
+          "promptTokensDetails": [
+            {
+              "modality": "IMAGE",
+              "tokenCount": 1085
+            },
+            {
+              "modality": "TEXT",
+              "tokenCount": 52
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "responseId": "MGifaumqApquqtsPho_oqA4"
+      }
+    }
+  ]
+}

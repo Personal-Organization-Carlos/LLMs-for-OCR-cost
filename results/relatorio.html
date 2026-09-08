@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Transcrição de documentos históricos com LLMs</title>
+<style>
+  :root {
+    --tinta: #1a1a19;
+    --tinta-fraca: #52514e;
+    --fundo: #fcfcfb;
+    --superficie: #f5f4f1;
+    --linha: #e0dfdb;
+    --destaque: #2a78d6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fundo);
+    color: var(--tinta);
+    font: 16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 64rem; margin: 0 auto; padding: 3rem 1.5rem 6rem; }
+  header { border-bottom: 2px solid var(--tinta); padding-bottom: 1.5rem; margin-bottom: 2.5rem; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .5rem; }
+  h2 {
+    font-size: 1.4rem; margin: 3.5rem 0 1rem;
+    padding-bottom: .4rem; border-bottom: 1px solid var(--linha);
+  }
+  h3 { font-size: 1.12rem; margin: 2.25rem 0 .75rem; }
+  h4 { font-size: .95rem; margin: 1.75rem 0 .5rem; color: var(--tinta-fraca);
+       text-transform: uppercase; letter-spacing: .04em; }
+  p, li { color: #26251f; }
+  .resumo { color: var(--tinta-fraca); font-size: 1.05rem; margin: 0; }
+  .meta {
+    display: flex; flex-wrap: wrap; gap: 1.5rem;
+    margin-top: 1.25rem; font-size: .85rem; color: var(--tinta-fraca);
+  }
+  .meta b { color: var(--tinta); font-variant-numeric: tabular-nums; }
+  table { border-collapse: collapse; width: 100%; margin: 1.25rem 0; font-size: .88rem; }
+  th, td { text-align: left; padding: .45rem .6rem; border-bottom: 1px solid var(--linha); }
+  th { font-weight: 600; color: var(--tinta-fraca); font-size: .78rem;
+       text-transform: uppercase; letter-spacing: .03em; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  tbody tr:hover { background: var(--superficie); }
+  .rolagem { overflow-x: auto; }
+  table.resultados { font-size: .86rem; }
+  table.resultados thead th {
+    position: sticky; top: 0; background: var(--fundo);
+    border-bottom: 2px solid var(--tinta); z-index: 1;
+  }
+  table.resultados tbody tr:nth-child(even) { background: #fafaf8; }
+  table.resultados tbody tr:hover { background: #f0efec; }
+  table.resultados th[scope="row"] { font-weight: 600; line-height: 1.25; }
+  table.resultados .sub {
+    display: block; font-weight: 400; font-size: .76rem; color: var(--tinta-fraca);
+  }
+  .selo {
+    display: inline-block; padding: .1rem .45rem; border-radius: 999px;
+    font-size: .72rem; letter-spacing: .02em; color: #fff; white-space: nowrap;
+  }
+  .selo.aberto { background: #2a78d6; }
+  .selo.fechado { background: #eb6834; }
+  .via { color: var(--tinta-fraca); font-size: .8rem; white-space: nowrap; }
+  .n .de { color: var(--tinta-fraca); font-weight: 400; }
+  .barra-celula { position: relative; min-width: 5rem; }
+  .barra-celula .barra {
+    position: absolute; left: .3rem; top: 50%; transform: translateY(-50%);
+    height: 1.05rem; background: #dce8f8; border-radius: 2px; z-index: 0;
+  }
+  .barra-celula .valor { position: relative; z-index: 1; }
+  td.melhor, .valor.melhor { font-weight: 700; color: var(--tinta); }
+
+  table.resultados { font-size: .86rem; }
+  table.resultados thead th {
+    position: sticky; top: 0; background: var(--fundo);
+    border-bottom: 2px solid var(--tinta); z-index: 1;
+  }
+  table.resultados tbody tr:nth-child(even) { background: #fafaf8; }
+  table.resultados tbody tr:hover { background: #f0efec; }
+  table.resultados th[scope="row"] { font-weight: 600; line-height: 1.25; }
+  table.resultados .sub {
+    display: block; font-weight: 400; font-size: .76rem; color: var(--tinta-fraca);
+  }
+  .selo {
+    display: inline-block; padding: .1rem .45rem; border-radius: 999px;
+    font-size: .72rem; letter-spacing: .02em; color: #fff; white-space: nowrap;
+  }
+  .selo.aberto { background: #2a78d6; }
+  .selo.fechado { background: #eb6834; }
+  .via { color: var(--tinta-fraca); font-size: .8rem; white-space: nowrap; }
+  .n .de { color: var(--tinta-fraca); font-weight: 400; }
+  .barra-celula { position: relative; min-width: 5rem; }
+  .barra-celula .barra {
+    position: absolute; left: .3rem; top: 50%; transform: translateY(-50%);
+    height: 1.05rem; background: #dce8f8; border-radius: 2px; z-index: 0;
+  }
+  .barra-celula .valor { position: relative; z-index: 1; }
+  td.melhor, .valor.melhor { font-weight: 700; color: var(--tinta); }
+
+  table.resultados { font-size: .86rem; }
+  table.resultados thead th {
+    position: sticky; top: 0; background: var(--fundo);
+    border-bottom: 2px solid var(--tinta); z-index: 1;
+  }
+  table.resultados tbody tr:nth-child(even) { background: #fafaf8; }
+  table.resultados tbody tr:hover { background: #f0efec; }
+  table.resultados th[scope="row"] { font-weight: 600; line-height: 1.25; }
+  table.resultados .sub {
+    display: block; font-weight: 400; font-size: .76rem; color: var(--tinta-fraca);
+  }
+  .selo {
+    display: inline-block; padding: .1rem .45rem; border-radius: 999px;
+    font-size: .72rem; letter-spacing: .02em; color: #fff; white-space: nowrap;
+  }
+  .selo.aberto { background: #2a78d6; }
+  .selo.fechado { background: #eb6834; }
+  .via { color: var(--tinta-fraca); font-size: .8rem; white-space: nowrap; }
+  .n .de { color: var(--tinta-fraca); font-weight: 400; }
+  .barra-celula { position: relative; min-width: 5rem; }
+  .barra-celula .barra {
+    position: absolute; left: .3rem; top: 50%; transform: translateY(-50%);
+    height: 1.05rem; background: #dce8f8; border-radius: 2px; z-index: 0;
+  }
+  .barra-celula .valor { position: relative; z-index: 1; }
+  td.melhor, .valor.melhor { font-weight: 700; color: var(--tinta); }
+
+  table.resultados { font-size: .86rem; }
+  table.resultados thead th {
+    position: sticky; top: 0; background: var(--fundo);
+    border-bottom: 2px solid var(--tinta); z-index: 1;
+  }
+  table.resultados tbody tr:nth-child(even) { background: #fafaf8; }
+  table.resultados tbody tr:hover { background: #f0efec; }
+  table.resultados th[scope="row"] { font-weight: 600; line-height: 1.25; }
+  table.resultados .sub {
+    display: block; font-weight: 400; font-size: .76rem; color: var(--tinta-fraca);
+  }
+  .selo {
+    display: inline-block; padding: .1rem .45rem; border-radius: 999px;
+    font-size: .72rem; letter-spacing: .02em; color: #fff; white-space: nowrap;
+  }
+  .selo.aberto { background: #2a78d6; }
+  .selo.fechado { background: #eb6834; }
+  .via { color: var(--tinta-fraca); font-size: .8rem; white-space: nowrap; }
+  .n .de { color: var(--tinta-fraca); font-weight: 400; }
+  .barra-celula { position: relative; min-width: 5rem; }
+  .barra-celula .barra {
+    position: absolute; left: .3rem; top: 50%; transform: translateY(-50%);
+    height: 1.05rem; background: #dce8f8; border-radius: 2px; z-index: 0;
+  }
+  .barra-celula .valor { position: relative; z-index: 1; }
+  td.melhor, .valor.melhor { font-weight: 700; color: var(--tinta); }
+
+  table.resultados { font-size: .86rem; }
+  table.resultados thead th {
+    position: sticky; top: 0; background: var(--fundo);
+    border-bottom: 2px solid var(--tinta); z-index: 1;
+  }
+  table.resultados tbody tr:nth-child(even) { background: #fafaf8; }
+  table.resultados tbody tr:hover { background: #f0efec; }
+  table.resultados th[scope="row"] { font-weight: 600; line-height: 1.25; }
+  table.resultados .sub {
+    display: block; font-weight: 400; font-size: .76rem; color: var(--tinta-fraca);
+  }
+  .selo {
+    display: inline-block; padding: .1rem .45rem; border-radius: 999px;
+    font-size: .72rem; letter-spacing: .02em; color: #fff; white-space: nowrap;
+  }
+  .selo.aberto { background: #2a78d6; }
+  .selo.fechado { background: #eb6834; }
+  .via { color: var(--tinta-fraca); font-size: .8rem; white-space: nowrap; }
+  .n .de { color: var(--tinta-fraca); font-weight: 400; }
+  .barra-celula { position: relative; min-width: 5rem; }
+  .barra-celula .barra {
+    position: absolute; left: .3rem; top: 50%; transform: translateY(-50%);
+    height: 1.05rem; background: #dce8f8; border-radius: 2px; z-index: 0;
+  }
+  .barra-celula .valor { position: relative; z-index: 1; }
+  td.melhor, .valor.melhor { font-weight: 700; color: var(--tinta); }
+
+  figure { margin: 2rem 0 2.5rem; }
+  figure img {
+    width: 100%; height: auto; display: block;
+    border: 1px solid var(--linha); border-radius: 4px; background: #fff;
+  }
+  figcaption { font-size: .85rem; color: var(--tinta-fraca); margin-top: .6rem; }
+  figcaption b { color: var(--tinta); }
+  .formula {
+    background: var(--superficie); border-left: 3px solid var(--destaque);
+    padding: .7rem 1rem; margin: .8rem 0; font-family: ui-monospace, Consolas, monospace;
+    font-size: .9rem; overflow-x: auto;
+  }
+  .nota {
+    background: var(--superficie); border-left: 3px solid #eb6834;
+    padding: .8rem 1rem; margin: 1.25rem 0; font-size: .92rem;
+  }
+  .nota b { color: #b8480f; }
+  code { background: var(--superficie); padding: .1rem .35rem; border-radius: 3px;
+         font-family: ui-monospace, Consolas, monospace; font-size: .88em; }
+  pre { background: var(--superficie); padding: 1rem; border-radius: 4px;
+        overflow-x: auto; font-size: .85rem; line-height: 1.5; }
+  .fluxo { list-style: none; padding: 0; counter-reset: passo; }
+  .fluxo li {
+    counter-increment: passo; position: relative;
+    padding: .5rem 0 .9rem 2.5rem; border-bottom: 1px solid var(--linha);
+  }
+  .fluxo li::before {
+    content: counter(passo); position: absolute; left: 0; top: .55rem;
+    width: 1.6rem; height: 1.6rem; border-radius: 50%;
+    background: var(--destaque); color: #fff;
+    font-size: .8rem; font-weight: 600; display: grid; place-items: center;
+  }
+  .marca { display: inline-block; width: .8rem; height: .8rem; border-radius: 2px;
+           margin-right: .35rem; vertical-align: -1px; border: 1px solid rgba(0,0,0,.15); }
+  .rosa { background: #f7a8c4; }
+  .vermelho { background: #e34948; }
+  .amarelo { background: #f2d024; }
+  ol.refs { padding-left: 1.4rem; font-size: .9rem; }
+  ol.refs li { margin-bottom: .8rem; }
+  ol.refs a { color: var(--destaque); word-break: break-word; }
+  footer { margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid var(--linha);
+           font-size: .85rem; color: var(--tinta-fraca); }
+  @media print {
+    body { font-size: 11pt; }
+    h2 { page-break-after: avoid; }
+    figure, table { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1>Transcrição de documentos históricos com modelos de linguagem</h1>
+  <p class="resumo">Viabilidade e qualidade da transcrição automática de páginas
+  do Diário Oficial (1891 a 1930), comparando modelos multimodais acessados pelo
+  OpenRouter, pela API do Google e um analisador de documentos executado em
+  máquina local.</p>
+  <div class="meta">
+    <span>Documentos <b>16</b></span>
+    <span>Sistemas avaliados <b>12</b></span>
+    <span>Chamadas <b>194</b></span>
+    <span>Custo total <b>US$ 6,60</b></span>
+    <span>Coleta em <b>07 e 08/09/2026</b></span>
+  </div>
+</header>
+
+<h2>1. Introdução</h2>
+
+<p>Acervos históricos brasileiros existem hoje sobretudo como imagens. São
+milhões de páginas digitalizadas que não podem ser pesquisadas por texto, e
+convertê-las é o que separa um arquivo de um corpus utilizável. O custo dessa
+conversão, em dinheiro e em tempo, decide se ela acontece ou não.</p>
+
+<p>Esta avaliação mede <b>se modelos de linguagem multimodais são viáveis para
+essa tarefa</b>, e a que preço. A pergunta tem duas metades inseparáveis. A
+primeira é de qualidade, ou seja, quanto de uma página sobrevive à transcrição
+automática, e o que se perde no caminho, se palavras inteiras, se caracteres
+isolados, se os números. A segunda é de custo, isto é, quanto se paga por página
+e o que esse pagamento compra em precisão.</p>
+
+<p>O acesso aos modelos comerciais é feito pelo <b>OpenRouter</b>, que expõe
+fornecedores diferentes sob uma interface única e informa o valor efetivamente
+cobrado por chamada, o que torna a comparação de custo possível sem depender de
+tabelas de preço publicadas. Como contraponto, entram na mesma tabela sistemas
+que não são modelos de linguagem instruídos, os backends do MinerU
+[<a href="#ref4">4</a>], um analisador de documentos que roda em hardware
+próprio e sem custo por token.</p>
+
+<p>O trabalho de Sharma e colaboradores [<a href="#ref1">1</a>] propõe um
+arcabouço metodológico para avaliar modelos de linguagem em OCR de documentos
+históricos e sustenta duas escolhas adotadas aqui, a de medir erro por palavra e
+por caractere em conjunto, e a de tratar transcrição de acervo antigo como
+problema distinto do OCR moderno, por causa da grafia de época e do layout em
+colunas.</p>
+
+<h2>2. Metodologia</h2>
+
+<h3>2.1 O conjunto de dados</h3>
+
+<p>Dezesseis páginas do Diário Oficial, distribuídas por cinco décadas, sendo
+elas 1891, 1900, 1910, 1920 e 1930. A escolha cobre graus de dificuldade
+distintos, com página corrida em três colunas, tabela grande, tabela
+rotacionada, página com imagem e seção de notas.</p>
+
+<p>Cada documento é uma pasta com dois arquivos que importam.</p>
+
+<pre>Dataset/1891-08-01_p606/
+    1891_0606_Imagem.jpg          a entrada, que é a página digitalizada
+    1891-08-01_p606.html          a referência, que é a transcrição conferida</pre>
+
+<div class="rolagem">
+<table>
+  <thead><tr><th>Característica</th><th class="num">Faixa</th><th class="num">Média</th></tr></thead>
+  <tbody>
+    <tr><td>Tamanho da imagem</td><td class="num">0,9 a 1,9 MB</td><td class="num">1,3 MB</td></tr>
+    <tr><td>Resolução</td><td class="num">1558×1994 a 2335×3454 px</td><td class="num">n/a</td></tr>
+    <tr><td>Caracteres na referência</td><td class="num">4.058 a 9.119</td><td class="num">6.564</td></tr>
+    <tr><td>Palavras na referência</td><td class="num">673 a 1.571</td><td class="num">1.066</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h4>Como a referência foi produzida</h4>
+
+<p>A referência é uma transcrição em HTML que preserva o layout original, com
+colunas, tabelas e quebras de linha, e preserva também a <b>grafia de época</b>,
+com formas como sabbado, diario e pedio.</p>
+
+<p>Ela foi produzida em duas etapas. Na primeira, o modelo <b>Claude Opus
+5.1</b> gerou a transcrição da página digitalizada e detectou as palavras cuja
+grafia difere do padrão atual. Na segunda, essa saída foi <b>avaliada e
+corrigida manualmente</b>, página por página.</p>
+
+<p>A prova dessa conferência está registrada nos casos validados, na forma de um
+PDF com marcações coloridas sobre a página, conforme a convenção abaixo.</p>
+
+<div class="rolagem">
+<table>
+  <thead><tr><th>Marcação</th><th>Significado</th></tr></thead>
+  <tbody>
+    <tr><td><span class="marca rosa"></span> rosa</td>
+        <td>palavra fora do padrão ortográfico atual, que deve ser preservada como está</td></tr>
+    <tr><td><span class="marca vermelho"></span> vermelho</td>
+        <td>transcrição errada, corrigida na referência</td></tr>
+    <tr><td><span class="marca amarelo"></span> amarelo</td>
+        <td>incerteza de transcrição, quando a imagem não permite decidir com segurança</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>Os arquivos de validação acompanham o conjunto de dados, como em
+<code>Dataset/1891-08-01_p606/diario oficial__pag_0606_avaliacao_manual.pdf</code>.</p>
+
+<p>A referência é a verdade contra a qual tudo é medido, por definição e não por
+perfeição. Um erro remanescente nela penaliza o sistema que acertou a página, o
+que faz da qualidade do conjunto o limite superior de todo o estudo. É também o
+motivo de a conferência manual existir, já que uma referência gerada apenas por
+modelo mediria concordância entre modelos, e não fidelidade à página.</p>
+
+<h3>2.2 O que é um provedor</h3>
+
+<p>Um <b>provedor</b> é a empresa que hospeda o modelo e responde à chamada.
+Essa distinção não é burocrática. Um modelo de pesos abertos como o Kimi K3 pode
+ser servido por dezoito casas diferentes, e elas não entregam a mesma coisa. A
+quantização varia entre elas, aparecendo como fp4, mxfp4, fp8 ou bf16 conforme
+quem atende, e com ela variam a qualidade da saída e o tempo de resposta. O
+preço também difere, e o mesmo modelo aberto chega a custar o dobro na saída
+conforme a casa escolhida.</p>
+
+<p>Além da casa, cada fornecedor vende o mesmo modelo em <b>faixas de
+serviço</b>. O GPT-5.6 Sol, por exemplo, é oferecido em três faixas com a mesma
+janela de contexto, custando 1 e 5 dólares por milhão de tokens na faixa
+flexível, 2 e 10 na padrão, e 4 e 20 na prioritária. A faixa muda a posição na
+fila do provedor, e portanto muda o tempo de resposta.</p>
+
+<h4>Por que fixar a hospedagem</h4>
+
+<p>Sem fixação, o roteador escolhe a casa e a faixa a cada chamada, segundo
+disponibilidade e carga. Duas consequências ruins decorrem disso. A primeira é
+que a qualidade medida passa a depender de quem atendeu, e a variação entra na
+média como se fosse propriedade do modelo. A segunda, e mais grave para este
+estudo, é que <b>o tempo deixa de ser comparável</b>, porque uma chamada servida
+por uma casa congestionada, ou numa faixa de menor prioridade, demora mais sem
+que isso diga nada sobre o modelo.</p>
+
+<p>Neste trabalho cada sistema declara uma hospedagem única, sempre a casa de
+origem, isto é, a empresa que treinou o modelo, na faixa padrão. Um desvio para
+outra casa é tratado como <b>falha</b>, e não como alternativa, porque a resposta
+que viesse de outro lugar seria outro sistema com o mesmo nome. O resultado é que
+latência e custo medidos pertencem a uma configuração estável e reproduzível, e
+não à sorte do roteamento no momento da chamada.</p>
+
+<h3>2.3 As três vias de consulta</h3>
+
+<p>Os sistemas avaliados chegam por três caminhos distintos, e cada um tem
+implicações diferentes sobre o que se pode afirmar a respeito de custo.</p>
+
+<h4>Via 1, OpenRouter</h4>
+<p>O OpenRouter [<a href="#ref2">2</a>] é um intermediário entre a aplicação e os
+fornecedores. Em vez de integrar separadamente a API de cada empresa, com
+autenticação, formato de requisição e contabilidade próprios, envia-se uma única
+requisição no formato de conversa, indicando o identificador do modelo desejado.
+Por essa via passam os modelos da OpenAI, da Anthropic, da Alibaba e da
+Moonshot.</p>
+<p>A vantagem decisiva é que a resposta traz o <b>valor efetivamente cobrado</b>
+pela chamada, incluindo os tokens da imagem, que têm precificação própria e
+variam por fornecedor. O custo, nesta via, é medição e não estimativa.</p>
+
+<h4>Via 2, API do Google</h4>
+<p>Os modelos Gemini são chamados diretamente na API do Google
+[<a href="#ref3">3</a>], sem intermediário. A diferença que importa é que essa
+API devolve a contagem de tokens mas <b>não devolve o valor cobrado</b>. O custo
+desses modelos é portanto calculado como preço de tabela multiplicado por
+tokens, ficando marcado como estimativa na coluna de procedência. Ao comparar
+custo entre vias, essa diferença precisa ser dita.</p>
+<p>Esta via tem ainda uma restrição operacional relevante, que é a cota do plano
+gratuito. Ela é contada por projeto e por modelo, e um modelo utilizado neste
+estudo revelou teto de vinte requisições por dia. Requisições que falham por
+indisponibilidade do servidor também consomem essa cota.</p>
+
+<h4>Via 3, execução local</h4>
+<p>O MinerU [<a href="#ref4">4</a>] é um executável que roda na própria máquina.
+Não há chave de API, não há custo por token e não há tokenizador comparável ao
+de um modelo de linguagem, de modo que os campos de token ficam vazios de
+propósito. O recurso consumido é tempo de GPU, e é a latência que carrega essa
+informação.</p>
+<p>Foram avaliados os backends do MinerU 3.4, que não são tamanhos de um mesmo
+modelo e sim arquiteturas diferentes. O backend de pipeline usa detecção de
+layout seguida de OCR clássico, sem modelo de linguagem no caminho. O backend
+vlm usa um modelo de visão e linguagem, descrito em [<a href="#ref5">5</a>] e
+[<a href="#ref6">6</a>]. O backend híbrido combina o layout do primeiro com o
+texto do segundo.</p>
+
+<h4>Configurações comuns</h4>
+<div class="rolagem">
+<table>
+  <thead><tr><th>Parâmetro</th><th>Valor</th><th>Motivo</th></tr></thead>
+  <tbody>
+    <tr><td><code>temperature</code></td><td class="num">0,0</td>
+        <td>Transcrição não é tarefa criativa, e a variação entre execuções deve vir do modelo e não da amostragem</td></tr>
+    <tr><td><code>max_tokens</code></td><td class="num">32.000</td>
+        <td>As páginas são longas, e um teto baixo corta a resposta no meio, produzindo erro catastrófico que parece incompetência do modelo mas é configuração</td></tr>
+    <tr><td>contabilidade de uso</td><td>ativada</td>
+        <td>Faz o custo real vir junto da resposta na via do OpenRouter</td></tr>
+    <tr><td>hospedagem</td><td>fixa</td>
+        <td>Casa de origem e faixa padrão, conforme explicado acima</td></tr>
+    <tr><td>desvio de hospedagem</td><td>proibido</td>
+        <td>Uma resposta de outra casa seria outro sistema com o mesmo nome</td></tr>
+    <tr><td>streaming</td><td>desligado</td>
+        <td>Sem streaming o motivo de encerramento sempre chega, e é ele que denuncia resposta truncada</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>2.4 As métricas</h3>
+
+<p>Antes de qualquer comparação, os dois lados passam pela <b>mesma
+normalização</b>. A marcação, seja HTML ou Markdown, vira texto. A tipografia é
+canonizada, tudo vai para minúsculas, a pontuação sai das bordas das palavras e
+as palavras quebradas por hífen no fim da linha são reunidas. Sem isso, o erro
+mediria coincidência de estilo em vez de fidelidade de transcrição.</p>
+
+<h4>WER, taxa de erro por palavra</h4>
+<div class="formula">WER = (S + D + I) / N_ref</div>
+<p>São as substituições, remoções e inserções necessárias para transformar a
+transcrição na referência, divididas pelo número de palavras da referência. O
+objetivo é responder quantas palavras da página o sistema errou. A métrica é
+padrão na avaliação de OCR histórico [<a href="#ref1">1</a>].</p>
+<p><b>Limitações.</b> O valor pode passar de 1,0, porque inserções entram no
+numerador sem existir na referência. Erra por excesso quando o sistema acerta as
+palavras mas troca a ordem, e ler as três colunas do jornal fora de ordem custa
+WER de 0,67 mesmo com transcrição perfeita. Além disso não distingue o tipo de
+erro, de modo que omitir uma coluna, alucinar um parágrafo e ler mal uma palavra
+entram na mesma soma.</p>
+
+<h4>CER, taxa de erro por caractere</h4>
+<div class="formula">CER = (S + D + I) / N_caracteres_ref</div>
+<p>A mesma conta, em caracteres. O objetivo é medir o erro numa unidade mais
+fina, em que um acento trocado custa um caractere e não a palavra inteira.</p>
+<p><b>Limitações.</b> Herda a insensibilidade à ordem que o WER tem e, por ser
+mais tolerante, esconde erros que tornam uma palavra irreconhecível. É a mais
+estável das duas e por isso ordena melhor os sistemas.</p>
+
+<h4>num_f1, fidelidade dos números</h4>
+<div class="formula">precisão = acertos / n_hipótese
+revocação = acertos / n_referência
+F1 = 2 · precisão · revocação / (precisão + revocação)</div>
+<p>Comparação por multiconjunto dos valores numéricos, como réis no formato
+1:770$300, leituras meteorológicas, números de processo e datas. O objetivo vem
+de uma constatação prática, a de que um modelo pode ter WER baixo e ser inútil
+para pesquisa histórica se errar sistematicamente os números.</p>
+<p><b>Limitações.</b> Ignora posição, de modo que um valor certo no lugar errado
+conta como acerto. Também não pondera gravidade, e errar o ano de um decreto
+pesa o mesmo que errar o número de uma página.</p>
+
+<h4>Obediência ao formato pedido</h4>
+<div class="formula">verdadeiro quando a resposta, sem cerca de código, começa em "&lt;" e termina em "&gt;"</div>
+<p>O prompt termina pedindo que o modelo retorne apenas o código HTML, sem texto
+extra. Alguns modelos abrem com uma saudação ou fecham com um comentário sobre
+as escolhas feitas. O objetivo é medir essa desobediência à parte, porque ela
+quase não move o WER mas gera trabalho manual para quem for usar a saída.</p>
+<p><b>Limitações.</b> É binária e sintática, portanto não distingue uma frase de
+cortesia de um comentário técnico relevante. Uma cerca de código envolvendo toda
+a resposta é tolerada por ser formatação. A métrica não se aplica aos sistemas
+que não recebem instrução, e nesses casos a coluna fica vazia.</p>
+
+<h4>Custo de token</h4>
+<div class="formula">custo = tokens_entrada × preço_entrada + tokens_saída × preço_saída</div>
+<p>Pela via do OpenRouter o valor vem medido. Pela via da API do Google é
+calculado a partir da tabela declarada. Na execução local é zero.</p>
+<p><b>Limitações.</b> A imagem é convertida em tokens de entrada e cada família
+tokeniza de um jeito, tanto que a mesma página custou cerca de 2.600 tokens em
+uma família e 4.600 em outra. Preços mudam, e os de um dos modelos avaliados
+variaram pela metade entre duas consultas separadas por três semanas. Por fim, o
+custo de API é apenas parte do custo real, já que o tempo de revisão humana
+cresce com o erro e é ordens de grandeza maior.</p>
+
+<div class="nota">
+<p><b>O que estas métricas não medem.</b> Modernização ortográfica, ou seja,
+quando um modelo escreve sábado onde a página traz sabbado, entra no WER como um
+erro qualquer, misturado às leituras erradas. Estrutura de tabela, porque a
+árvore do HTML não é comparada. Ordem de leitura, que não é isolada do erro de
+transcrição.</p>
+</div>
+
+<h3>2.5 Do documento digitalizado ao gráfico</h3>
+
+<ol class="fluxo">
+  <li><b>Coleta.</b> Cada chamada envia a imagem codificada e o prompt. A
+  resposta é gravada em uma pasta própria com quatro arquivos, sendo eles o
+  texto devolvido, o corpo bruto do provedor com uma entrada por tentativa, e os
+  dois lados já normalizados, escritos na etapa seguinte. Uma linha por chamada
+  vai para um índice tabular com tokens, custo, tempo e erro.</li>
+
+  <li><b>Normalização.</b> Referência e transcrição passam pela mesma pipeline,
+  com detecção de formato, extração do texto visível, canonização e tokenização.
+  O resultado é um bloco de texto por página, sem segmentação em regiões.</li>
+
+  <li><b>Pontuação.</b> As métricas são calculadas sobre esse par e escritas em
+  duas tabelas, uma com uma linha por chamada e outra com o resumo por sistema.
+  Este passo é offline e repetível, de modo que mudar a definição de uma métrica
+  ou corrigir um preço custa apenas rodá-lo de novo, sem gastar API.</li>
+
+  <li><b>Agregação e figuras.</b> Todas as execuções são reunidas e agregadas
+  por sistema, sempre por chamada e nunca por média de médias. Confiabilidade e
+  qualidade permanecem separadas, porque a taxa de sucesso conta todas as
+  chamadas enquanto WER, CER e custo contam apenas as válidas, isto é, as que
+  responderam e não foram truncadas.</li>
+</ol>
+
+<h2>3. Resultados</h2>
+
+<p>A tabela abaixo reúne todos os sistemas avaliados, ordenados pela taxa de
+erro por caractere. A coluna de chamadas mostra quantas foram bem-sucedidas
+sobre quantas foram tentadas, e a leitura de qualquer linha precisa levar esse
+número em conta, já que uma média sobre uma página não é comparável a uma média
+sobre dezesseis.</p>
+
+<div class="rolagem">
+<table class="resultados">
+  <thead><tr>
+    <th scope="col">Sistema</th><th scope="col">Tipo</th><th scope="col">Via</th>
+    <th scope="col" class="num">Válidas</th><th scope="col" class="num">CER</th>
+    <th scope="col" class="num">WER</th><th scope="col" class="num">num_f1</th>
+    <th scope="col" class="num">HTML limpo</th>
+    <th scope="col" class="num">US$ por página</th>
+    <th scope="col" class="num">Segundos</th>
+  </tr></thead>
+  <tbody>
+    <tr>
+      <th scope="row">Gemini 3.7 Flash<span class="sub">Google</span></th>
+      <td><span class="selo fechado">fechado</span></td>
+      <td class="via">API do Google</td>
+      <td class="num n">5<span class="de">/37</span></td>
+      <td class="num barra-celula"><span class="barra" style="width:6%"></span><span class="valor melhor">0,012</span></td>
+      <td class="num melhor">0,023</td>
+      <td class="num melhor">0,976</td>
+      <td class="num">100%</td>
+      <td class="num">0,0241</td>
+      <td class="num">29</td>
+    </tr>
+    <tr>
+      <th scope="row">Claude Opus 5<span class="sub">Anthropic</span></th>
+      <td><span class="selo fechado">fechado</span></td>
+      <td class="via">OpenRouter</td>
+      <td class="num n">16<span class="de">/16</span></td>
+      <td class="num barra-celula"><span class="barra" style="width:6%"></span><span class="valor">0,013</span></td>
+      <td class="num">0,036</td>
+      <td class="num">0,933</td>
+      <td class="num">100%</td>
+      <td class="num">0,1939</td>
+      <td class="num">78</td>
+    </tr>
+    <tr>
+      <th scope="row">Claude Sonnet 5<span class="sub">Anthropic</span></th>
+      <td><span class="selo fechado">fechado</span></td>
+      <td class="via">OpenRouter</td>
+      <td class="num n">16<span class="de">/16</span></td>
+      <td class="num barra-celula"><span class="barra" style="width:8%"></span><span class="valor">0,016</span></td>
+      <td class="num">0,040</td>
+      <td class="num">0,938</td>
+      <td class="num">100%</td>
+      <td class="num">0,0607</td>
+      <td class="num">49</td>
+    </tr>
+    <tr>
+      <th scope="row">Kimi K3<span class="sub">Moonshot</span></th>
+      <td><span class="selo aberto">aberto</span></td>
+      <td class="via">OpenRouter</td>
+      <td class="num n">16<span class="de">/16</span></td>
+      <td class="num barra-celula"><span class="barra" style="width:11%"></span><span class="valor">0,021</span></td>
+      <td class="num">0,055</td>
+      <td class="num">0,896</td>
+      <td class="num">100%</td>
+      <td class="num">0,0721</td>
+      <td class="num">108</td>
+    </tr>
+    <tr>
+      <th scope="row">Gemini 3.6 Flash<span class="sub">Google</span></th>
+      <td><span class="selo fechado">fechado</span></td>
+      <td class="via">API do Google</td>
+      <td class="num n">16<span class="de">/23</span></td>
+      <td class="num barra-celula"><span class="barra" style="width:12%"></span><span class="valor">0,024</span></td>
+      <td class="num">0,061</td>
+      <td class="num">0,906</td>
+      <td class="num">100%</td>
+      <td class="num">0,0287</td>
+      <td class="num">38</td>
+    </tr>
+    <tr>
+      <th scope="row">GPT-5.6 Sol<span class="sub">OpenAI</span></th>
+      <td><span class="selo fechado">fechado</span></td>
+      <td class="via">OpenRouter</td>
+      <td class="num n">16<span class="de">/16</span></td>
+      <td class="num barra-celula"><span class="barra" style="width:15%"></span><span class="valor">0,029</span></td>
+      <td class="num">0,062</td>
+      <td class="num">0,871</td>
+      <td class="num">100%</td>
+      <td class="num">0,0622</td>
+      <td class="num">75</td>
+    </tr>
+    <tr>
+      <th scope="row">Gemini 3.5 Flash-Lite<span class="sub">Google</span></th>
+      <td><span class="selo fechado">fechado</span></td>
+      <td class="via">API do Google</td>
+      <td class="num n">16<span class="de">/22</span></td>
+      <td class="num barra-celula"><span class="barra" style="width:16%"></span><span class="valor">0,032</span></td>
+      <td class="num">0,086</td>
+      <td class="num">0,880</td>
+      <td class="num">100%</td>
+      <td class="num">0,0099</td>
+      <td class="num melhor">28</td>
+    </tr>
+    <tr>
+      <th scope="row">Qwen3.7 Plus<span class="sub">Alibaba</span></th>
+      <td><span class="selo fechado">fechado</span></td>
+      <td class="via">OpenRouter</td>
+      <td class="num n">17<span class="de">/17</span></td>
+      <td class="num barra-celula"><span class="barra" style="width:33%"></span><span class="valor">0,066</span></td>
+      <td class="num">0,102</td>
+      <td class="num">0,903</td>
+      <td class="num">94%</td>
+      <td class="num">0,0078</td>
+      <td class="num">96</td>
+    </tr>
+    <tr>
+      <th scope="row">MinerU vlm-engine<span class="sub">OpenDataLab</span></th>
+      <td><span class="selo aberto">aberto</span></td>
+      <td class="via">local</td>
+      <td class="num n">16<span class="de">/16</span></td>
+      <td class="num barra-celula"><span class="barra" style="width:48%"></span><span class="valor">0,096</span></td>
+      <td class="num">0,171</td>
+      <td class="num">0,769</td>
+      <td class="num">n/a</td>
+      <td class="num">0</td>
+      <td class="num">339</td>
+    </tr>
+    <tr>
+      <th scope="row">MinerU hybrid (high)<span class="sub">OpenDataLab</span></th>
+      <td><span class="selo aberto">aberto</span></td>
+      <td class="via">local</td>
+      <td class="num n">16<span class="de">/16</span></td>
+      <td class="num barra-celula"><span class="barra" style="width:48%"></span><span class="valor">0,096</span></td>
+      <td class="num">0,171</td>
+      <td class="num">0,769</td>
+      <td class="num">n/a</td>
+      <td class="num">0</td>
+      <td class="num">328</td>
+    </tr>
+    <tr>
+      <th scope="row">MinerU hybrid (medium)<span class="sub">OpenDataLab</span></th>
+      <td><span class="selo aberto">aberto</span></td>
+      <td class="via">local</td>
+      <td class="num n">16<span class="de">/17</span></td>
+      <td class="num barra-celula"><span class="barra" style="width:53%"></span><span class="valor">0,105</span></td>
+      <td class="num">0,201</td>
+      <td class="num">0,758</td>
+      <td class="num">n/a</td>
+      <td class="num">0</td>
+      <td class="num">293</td>
+    </tr>
+    <tr>
+      <th scope="row">MinerU pipeline<span class="sub">OpenDataLab</span></th>
+      <td><span class="selo aberto">aberto</span></td>
+      <td class="via">local</td>
+      <td class="num n">16<span class="de">/16</span></td>
+      <td class="num barra-celula"><span class="barra" style="width:78%"></span><span class="valor">0,156</span></td>
+      <td class="num">0,339</td>
+      <td class="num">0,666</td>
+      <td class="num">n/a</td>
+      <td class="num">0</td>
+      <td class="num">71</td>
+    </tr>
+    <tr>
+      <th scope="row">Qwen3-VL 235B<span class="sub">Alibaba</span></th>
+      <td><span class="selo aberto">aberto</span></td>
+      <td class="via">OpenRouter</td>
+      <td class="num n">16<span class="de">/16</span></td>
+      <td class="num barra-celula"><span class="barra" style="width:87%"></span><span class="valor">0,174</span></td>
+      <td class="num">0,224</td>
+      <td class="num">0,821</td>
+      <td class="num">81%</td>
+      <td class="num">0,0038</td>
+      <td class="num">63</td>
+    </tr>
+    <tr>
+      <th scope="row">Gemini 3.5 Flash<span class="sub">Google</span></th>
+      <td><span class="selo fechado">fechado</span></td>
+      <td class="via">API do Google</td>
+      <td class="num n">16<span class="de">/31</span></td>
+      <td class="num barra-celula"><span class="barra" style="width:91%"></span><span class="valor">0,182</span></td>
+      <td class="num">0,205</td>
+      <td class="num">0,807</td>
+      <td class="num">69%</td>
+      <td class="num">0,1657</td>
+      <td class="num">78</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<figure>
+  <img src="graficos/cer_wer_por_modelo.png" alt="Erro de transcrição por modelo, ordenado pela taxa de erro por caractere">
+  <figcaption><b>Erro de transcrição.</b> CER e WER lado a lado, ordenados pelo
+  CER. O número entre parênteses em cada rótulo é a quantidade de chamadas
+  válidas por trás da média.</figcaption>
+</figure>
+
+<figure>
+  <img src="graficos/num_f1_por_modelo.png" alt="Fidelidade dos números por modelo">
+  <figcaption><b>Fidelidade dos números.</b> A ordem aqui não repete a do erro
+  textual, o que revela sistemas que transcrevem bem e erram números, e o
+  contrário.</figcaption>
+</figure>
+
+<figure>
+  <img src="graficos/custo_beneficio.png" alt="Dispersão de erro por caractere contra custo por página">
+  <figcaption><b>Custo e benefício.</b> Erro contra preço por página. O canto
+  inferior esquerdo é o melhor negócio, e os sistemas locais ficam sobre o eixo
+  de custo zero.</figcaption>
+</figure>
+
+<figure>
+  <img src="graficos/custo_100mil_paginas.png" alt="Custo projetado para o acervo">
+  <figcaption><b>A conta do acervo em dinheiro.</b> Projeção linear do custo
+  medido por página. Cada barra traz junto o erro que aquele preço compra,
+  porque o valor sozinho não decide nada.</figcaption>
+</figure>
+
+<figure>
+  <img src="graficos/tempo_do_acervo.png" alt="Tempo projetado para o acervo">
+  <figcaption><b>A conta do acervo em tempo.</b> O eixo mostra o prazo em série,
+  uma página de cada vez, que é como a latência foi medida. O rótulo traduz o
+  valor em dias de calendário supondo chamadas simultâneas.</figcaption>
+</figure>
+
+<figure>
+  <img src="graficos/html_sem_texto_extra.png" alt="Obediência ao formato pedido">
+  <figcaption><b>Obediência ao formato.</b> Percentual de respostas que vieram
+  apenas com o documento HTML. Sistemas que não recebem instrução ficam de
+  fora.</figcaption>
+</figure>
+
+<h2>4. Uso de inteligência artificial no desenvolvimento</h2>
+
+<p>Todo o desenvolvimento deste trabalho foi acompanhado por assistentes de
+inteligência artificial, em três frentes. A primeira foi o <b>debate das
+decisões metodológicas</b>, com discussão de alternativas, questionamento de
+premissas e revisão de conclusões. A segunda foi a <b>geração de código</b>, do
+cliente de API às rotinas de métrica e às figuras. A terceira foi a
+<b>otimização e revisão do código</b> já existente, incluindo simplificação,
+remoção de trechos sem uso e correção de defeitos encontrados durante o
+trabalho.</p>
+
+<p>O uso alcançou também a construção do conjunto de dados, conforme descrito na
+seção 2.1, em que a transcrição de referência foi gerada por modelo e depois
+conferida à mão.</p>
+
+<p><b>Todas as ações foram supervisionadas.</b> Cada alteração de código foi
+revisada antes de entrar, cada execução paga foi autorizada caso a caso, e os
+resultados apresentados vêm de medições registradas em arquivo, e não de
+afirmações do assistente. Onde uma decisão dependeu de julgamento, como o
+critério de custo e benefício ou a faixa de preço adotada como base de
+comparação, ela foi tomada de forma explícita e está documentada no
+repositório.</p>
+
+<h2>5. Referências</h2>
+
+<ol class="refs">
+  <li id="ref1">SHARMA, A. et al. <b>Evaluating LLMs for Historical Document OCR,
+  A Methodological Framework for Digital Humanities</b>. Arquivo local em
+  <a href="file:///C:/Users/carlo/Documents/mestrado/Pesquisa/Artigos/FonteDesconhecida/Evaluating%20LLMs%20for%20Historical%20Document%20OCR%20A.pdf">Artigos/FonteDesconhecida/Evaluating LLMs for Historical Document OCR A.pdf</a></li>
+
+  <li id="ref2">OPENROUTER. <b>Documentação da API</b>. Disponível em
+  <a href="https://openrouter.ai/docs">https://openrouter.ai/docs</a>. Consulta
+  em setembro de 2026</li>
+
+  <li id="ref3">GOOGLE. <b>Gemini API, documentação para desenvolvedores</b>.
+  Disponível em
+  <a href="https://ai.google.dev/gemini-api/docs">https://ai.google.dev/gemini-api/docs</a>.
+  Consulta em setembro de 2026</li>
+
+  <li id="ref4">OPENDATALAB. <b>MinerU, repositório do projeto</b>. Disponível em
+  <a href="https://github.com/opendatalab/MinerU">https://github.com/opendatalab/MinerU</a>.
+  Artigo de apresentação da ferramenta em arquivo local,
+  <a href="file:///C:/Users/carlo/Documents/mestrado/Pesquisa/Artigos/FonteDesconhecida/MinerU.pdf">Artigos/FonteDesconhecida/MinerU.pdf</a></li>
+
+  <li id="ref5"><b>MinerU2.5, A Decoupled Vision-Language Model for Efficient
+  High-Resolution Document Parsing</b>. Arquivo local em
+  <a href="file:///C:/Users/carlo/Documents/mestrado/Pesquisa/Artigos/FonteDesconhecida/MinerU2-5.pdf">Artigos/FonteDesconhecida/MinerU2-5.pdf</a></li>
+
+  <li id="ref6"><b>MinerU2.5-Pro, Pushing the Limits of Data-Centric Document
+  Parsing at Scale</b>. Arquivo local em
+  <a href="file:///C:/Users/carlo/Documents/mestrado/Pesquisa/Artigos/FonteDesconhecida/MinerU2-5Pro.pdf">Artigos/FonteDesconhecida/MinerU2-5Pro.pdf</a></li>
+</ol>
+
+<footer>
+  <p>Relatório gerado a partir de 194 chamadas em 8 execuções, sobre 16 páginas
+  do Diário Oficial. As figuras são regeneradas pelo comando
+  <code>python -m bench graficos</code> e refletem todas as execuções
+  disponíveis. Os números por chamada estão em
+  <code>results/&lt;execução&gt;/metricas.csv</code>.</p>
+</footer>
+
+</main>
+</body>
+</html>

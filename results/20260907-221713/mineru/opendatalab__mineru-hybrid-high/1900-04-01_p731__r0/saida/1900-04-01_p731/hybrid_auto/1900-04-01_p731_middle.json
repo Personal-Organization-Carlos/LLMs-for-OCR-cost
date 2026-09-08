@@ -1,0 +1,4376 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        62,
+                        116,
+                        231,
+                        128
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                62,
+                                116,
+                                231,
+                                128
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        62,
+                                        116,
+                                        231,
+                                        128
+                                    ],
+                                    "type": "text",
+                                    "content": "ANNO 9*—12.* DA REPUBLICA—M. 75"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        291,
+                        118,
+                        344,
+                        129
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                291,
+                                118,
+                                344,
+                                129
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        291,
+                                        118,
+                                        344,
+                                        129
+                                    ],
+                                    "type": "text",
+                                    "content": "SÃO PAULO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        434,
+                        120,
+                        570,
+                        132
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                434,
+                                120,
+                                570,
+                                132
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        434,
+                                        120,
+                                        570,
+                                        132
+                                    ],
+                                    "type": "text",
+                                    "content": "DOMINGO, 1 DE ABRIL DE 1900"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        41,
+                        141,
+                        218,
+                        157
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                141,
+                                218,
+                                157
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        141,
+                                        218,
+                                        157
+                                    ],
+                                    "type": "text",
+                                    "content": "ACTOS DO PODER EXECUTIVO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        105,
+                        169,
+                        156,
+                        180
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                105,
+                                169,
+                                156,
+                                180
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        169,
+                                        156,
+                                        180
+                                    ],
+                                    "type": "text",
+                                    "content": "Interior"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        40,
+                        185,
+                        219,
+                        231
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                185,
+                                219,
+                                231
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        185,
+                                        219,
+                                        231
+                                    ],
+                                    "type": "text",
+                                    "content": "Por decreto de 27 do corrente foi exonerado o professor preliminar, cidadão José de Castro, com exéciclo na Eschola Complementar de Itapetiniugri, para o cargo de professor do grupo escolar de São Manoel do Paraiso;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        40,
+                        232,
+                        218,
+                        268
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                232,
+                                218,
+                                268
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        232,
+                                        218,
+                                        268
+                                    ],
+                                    "type": "text",
+                                    "content": "Por decreto da mesma data, foi nomeada a professora preliminar, d. Anna Candida Soares, para o cargo de professora adjunta do grupo escholar da Faxina;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        40,
+                        269,
+                        218,
+                        305
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                269,
+                                218,
+                                305
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        269,
+                                        218,
+                                        305
+                                    ],
+                                    "type": "text",
+                                    "content": "Por decreto da mesma data, foi nomeada a professora de igual categoria, d. Emygdia Soares, para, interinamente, exercer o cargo de professora do mesmo grupo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        40,
+                        306,
+                        218,
+                        342
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                306,
+                                218,
+                                342
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        306,
+                                        218,
+                                        342
+                                    ],
+                                    "type": "text",
+                                    "content": "Por decreto da mesma data, foi exonerado, a pedido, o lucharel José Pinto de Mours, do cargo de lente da 9.ª cadeira do Gymnasio de Campinas;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        40,
+                        343,
+                        218,
+                        370
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                343,
+                                218,
+                                370
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        343,
+                                        218,
+                                        370
+                                    ],
+                                    "type": "text",
+                                    "content": "Por decreto da mesma data, foram creates quatro logares de adjunotos na seção feminina do 2.º grupo escholar de Campinas;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        40,
+                        371,
+                        218,
+                        397
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                371,
+                                218,
+                                397
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        371,
+                                        218,
+                                        397
+                                    ],
+                                    "type": "text",
+                                    "content": "Por decreto da mesma data, foram também creados dois logaras identicos na seção feminina do grupo da Foxina."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        90,
+                        402,
+                        166,
+                        414
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                90,
+                                402,
+                                166,
+                                414
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        90,
+                                        402,
+                                        166,
+                                        414
+                                    ],
+                                    "type": "text",
+                                    "content": "Agricultura"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        40,
+                        414,
+                        218,
+                        468
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                414,
+                                218,
+                                468
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        414,
+                                        218,
+                                        468
+                                    ],
+                                    "type": "text",
+                                    "content": "Por decreto de 27 do mez findo, foi removido a pedido, o cidadão Carlos Martins, 2.º escripturário da Hospedaria de Immigentes, para o logar de conferente da Repartição de Aguas e Exgaltos; sendo nomeado para aquella vaga o cidadão Julio Bicudo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        50,
+                        483,
+                        202,
+                        499
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                50,
+                                483,
+                                202,
+                                499
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        50,
+                                        483,
+                                        202,
+                                        499
+                                    ],
+                                    "type": "text",
+                                    "content": "SECRETARIAS DE ESTADO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        104,
+                        508,
+                        154,
+                        518
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                104,
+                                508,
+                                154,
+                                518
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        104,
+                                        508,
+                                        154,
+                                        518
+                                    ],
+                                    "type": "text",
+                                    "content": "Interior"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        64,
+                        523,
+                        192,
+                        532
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                64,
+                                523,
+                                192,
+                                532
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        64,
+                                        523,
+                                        192,
+                                        532
+                                    ],
+                                    "type": "text",
+                                    "content": "EXPEDIENTE DE 30 DE MARÇO DE 1999"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        87,
+                        535,
+                        170,
+                        543
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                535,
+                                170,
+                                543
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        535,
+                                        170,
+                                        543
+                                    ],
+                                    "type": "text",
+                                    "content": "1.* SUB-DIRECTORIA"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        110,
+                        545,
+                        147,
+                        553
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                545,
+                                147,
+                                553
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        545,
+                                        147,
+                                        553
+                                    ],
+                                    "type": "text",
+                                    "content": "1.ª exgiao"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        40,
+                        556,
+                        218,
+                        610
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                556,
+                                218,
+                                610
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        556,
+                                        218,
+                                        610
+                                    ],
+                                    "type": "text",
+                                    "content": "Communicou se á Secretaria dos Negócios da Fazenda, para os devidos lias, que o bacharel Jscinho do Nascimento Moura, auxiliar da redacção do Diario Oficial, reasumiu o exercício do cargo no dia 21 do corrente, visto ter terminado a licença em cujo goso se achava."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        40,
+                        610,
+                        218,
+                        664
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                610,
+                                218,
+                                664
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        610,
+                                        218,
+                                        664
+                                    ],
+                                    "type": "text",
+                                    "content": "Transmittiram-se à Secretaria dos Negócios da Agricultura, Commercio e Obras Publicas dois of- ticios, sendo um da camara municipal de Guarely e outro do intendente municipal da Franca, visto tratarem de assumptos referentes àquella secretraria."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        294,
+                        142,
+                        334,
+                        151
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                294,
+                                142,
+                                334,
+                                151
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        294,
+                                        142,
+                                        334,
+                                        151
+                                    ],
+                                    "type": "text",
+                                    "content": "2.ª ESCÇÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        277,
+                        152,
+                        350,
+                        160
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                277,
+                                152,
+                                350,
+                                160
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        277,
+                                        152,
+                                        350,
+                                        160
+                                    ],
+                                    "type": "text",
+                                    "content": "Officios despachados"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        161,
+                        403,
+                        205
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                161,
+                                403,
+                                205
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        161,
+                                        403,
+                                        205
+                                    ],
+                                    "type": "text",
+                                    "content": "Da Secretaria da Agricultura, communicando que opportunamente será executado o serviço de exgoltos nos hairros da Lapa, Agua Branca e outros da capital.—A' Directoria do Serviço Sanitário."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        249,
+                        207,
+                        379,
+                        216
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                249,
+                                207,
+                                379,
+                                216
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        249,
+                                        207,
+                                        379,
+                                        216
+                                    ],
+                                    "type": "text",
+                                    "content": "EXPEDIENTE DE 28 DE MARÇO DE 1900"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        293,
+                        219,
+                        334,
+                        228
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                293,
+                                219,
+                                334,
+                                228
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        293,
+                                        219,
+                                        334,
+                                        228
+                                    ],
+                                    "type": "text",
+                                    "content": "3.ª escção"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        228,
+                        403,
+                        245
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                228,
+                                403,
+                                245
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        228,
+                                        403,
+                                        245
+                                    ],
+                                    "type": "text",
+                                    "content": "Foram solicitados da Secretaria da Fazenda os seguintes pagamentos :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        247,
+                        402,
+                        282
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                247,
+                                402,
+                                282
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        247,
+                                        402,
+                                        282
+                                    ],
+                                    "type": "text",
+                                    "content": "De 315000, pela collectoria de Mogy das Cruzes, ao director do grupo escolar daquella cidade, pelo fornecimentos feitos ao referido estabelecimento;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        283,
+                        403,
+                        320
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                283,
+                                403,
+                                320
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        283,
+                                        403,
+                                        320
+                                    ],
+                                    "type": "text",
+                                    "content": "De 2:810\\$100, pela collectoria da Faxins, ao director do grupo escholar daquella cidade, Emilio Mario de Arantes, proveniente de fornecimentos feitos ao dito estabelecimento;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        320,
+                        402,
+                        357
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                320,
+                                402,
+                                357
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        320,
+                                        402,
+                                        357
+                                    ],
+                                    "type": "text",
+                                    "content": "De 2959000, pela collectorla de Areias, ao dire-\nctor do grupo escholar daquella cidade, José Ma-\nrio da Silveira, proveniente de reparos feitos no\npredio onde funções o referido estabelecimento;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        357,
+                        403,
+                        402
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                357,
+                                403,
+                                402
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        357,
+                                        403,
+                                        402
+                                    ],
+                                    "type": "text",
+                                    "content": "De 100\\$000, pela collectoria de Espírito Santo do Pinhal, ao director, em commissão, do grupo escholar daquella cidade, Domingos de Paula da Silva, proveniente de contas de serviços prestados ao referido estabelecimento."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        403,
+                        403,
+                        430
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                403,
+                                403,
+                                430
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        403,
+                                        403,
+                                        430
+                                    ],
+                                    "type": "text",
+                                    "content": "Autorizon-se o director do Serviço Sanitario a\ndespender a quantia de 725\\$000, para acquisição\nde objectos necessários àquella repartição."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        271,
+                        430,
+                        355,
+                        439
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                271,
+                                430,
+                                355,
+                                439
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        271,
+                                        430,
+                                        355,
+                                        439
+                                    ],
+                                    "type": "text",
+                                    "content": "I. SUB-DIRECTORIA"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 34,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        293,
+                        440,
+                        334,
+                        448
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                293,
+                                440,
+                                334,
+                                448
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        293,
+                                        440,
+                                        334,
+                                        448
+                                    ],
+                                    "type": "text",
+                                    "content": "1.a seccão"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 35,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        232,
+                        449,
+                        402,
+                        457
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                232,
+                                449,
+                                402,
+                                457
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        232,
+                                        449,
+                                        402,
+                                        457
+                                    ],
+                                    "type": "text",
+                                    "content": "Communicou-se 20 sr. dr. secretario da Fazenda :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 36,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        458,
+                        403,
+                        494
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                458,
+                                403,
+                                494
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        458,
+                                        403,
+                                        494
+                                    ],
+                                    "type": "text",
+                                    "content": "Que, por motivo de molestis, interrompeu o exercício de seu cargo, desde o dia 14 do corrente, o professor do grupo escolar do Braz, cidadão Jenaíso Braulio Rodrigues;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 37,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        494,
+                        402,
+                        522
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                494,
+                                402,
+                                522
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        494,
+                                        402,
+                                        522
+                                    ],
+                                    "type": "text",
+                                    "content": "Que foram abonadas seja faltas dadas pelo professor de escripturação mercantil da Eschola Normal, cidadão Jeronymo Azevelo, no mex último."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 38,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        522,
+                        403,
+                        566
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                522,
+                                403,
+                                566
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        522,
+                                        403,
+                                        566
+                                    ],
+                                    "type": "text",
+                                    "content": "Recommendou-se ao director do grupo escolar «Dr. Flamieio Lessa», de Guaralinguetá, que informase a este secretariado de que serviço se acha encarregado o professor Miguel Virgínio dos Santos."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 39,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        567,
+                        403,
+                        621
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                567,
+                                403,
+                                621
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        567,
+                                        403,
+                                        621
+                                    ],
+                                    "type": "text",
+                                    "content": "Declarou-se ao director do grupo escholar «Gibrial Prestes», de Lorena, em resposta ao seu ofício n. 21, de 6 do corrente, não haver necessidade do augimento de uma sala naquelle estabelecimento, como informou o inspector escholar que alli estava em commissão."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 40,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        267,
+                        624,
+                        359,
+                        632
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                267,
+                                624,
+                                359,
+                                632
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        267,
+                                        624,
+                                        359,
+                                        632
+                                    ],
+                                    "type": "text",
+                                    "content": "Requerimento despachado"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 41,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        225,
+                        632,
+                        403,
+                        668
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                632,
+                                403,
+                                668
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        632,
+                                        403,
+                                        668
+                                    ],
+                                    "type": "text",
+                                    "content": "De Maria da Piedade Canto, porteira do grupo escholar de Lorena, pedido equiparação de seus vencimentos aos do porteiro do mesmo grupo.—Sejam equiparados."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        477,
+                        145,
+                        517,
+                        153
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                477,
+                                145,
+                                517,
+                                153
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        477,
+                                        145,
+                                        517,
+                                        153
+                                    ],
+                                    "type": "text",
+                                    "content": "3.ª SECCÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 43,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        485,
+                        154,
+                        510,
+                        162
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                485,
+                                154,
+                                510,
+                                162
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        485,
+                                        154,
+                                        510,
+                                        162
+                                    ],
+                                    "type": "text",
+                                    "content": "Dia 27"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 44,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        159,
+                        460,
+                        168
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                159,
+                                460,
+                                168
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        159,
+                                        460,
+                                        168
+                                    ],
+                                    "type": "text",
+                                    "content": "Offciou-se :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 45,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        169,
+                        587,
+                        207
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                169,
+                                587,
+                                207
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        169,
+                                        587,
+                                        207
+                                    ],
+                                    "type": "text",
+                                    "content": "A' Fazenda, communicando que a professora nomeada para reger a eschola mixta da vlla Cerquel-a Gosar, desta capital, d. Maria Ellis Mac Infyre, assumiu o exercício no dia 20 do corrente;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 46,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        207,
+                        586,
+                        243
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                207,
+                                586,
+                                243
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        207,
+                                        586,
+                                        243
+                                    ],
+                                    "type": "text",
+                                    "content": "A' mesma, communicando que a 10 do corrente foi nomeado inspector mu leipal de Santa Barbara do Rio Pardo, assumindo o exercício a 17 do mesmo, o maior Casamiro Nunes de Carvalho;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 47,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        244,
+                        586,
+                        271
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                244,
+                                586,
+                                271
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        244,
+                                        586,
+                                        271
+                                    ],
+                                    "type": "text",
+                                    "content": "A' mesma, communicando que eatrou em exercício da eschola da villa do Rio das Padras, no dia 20 do corrente, o professor João Braulio Cesar."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 48,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        483,
+                        271,
+                        512,
+                        279
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                483,
+                                271,
+                                512,
+                                279
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        483,
+                                        271,
+                                        512,
+                                        279
+                                    ],
+                                    "type": "text",
+                                    "content": "Dia 28"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 49,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        279,
+                        460,
+                        287
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                279,
+                                460,
+                                287
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        279,
+                                        460,
+                                        287
+                                    ],
+                                    "type": "text",
+                                    "content": "Officiou-se :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 50,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        289,
+                        586,
+                        334
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                289,
+                                586,
+                                334
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        289,
+                                        586,
+                                        334
+                                    ],
+                                    "type": "text",
+                                    "content": "A' Fazenda, trasmittindo, por cópie, o decreto que aposentou a professora da eschola do 22.º distrito desta capital, d. Galdina America de Almeida, hem como todos os papeis refereates ao assumpto;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 51,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        336,
+                        587,
+                        371
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                336,
+                                587,
+                                371
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        336,
+                                        587,
+                                        371
+                                    ],
+                                    "type": "text",
+                                    "content": "A' mesma, transmitindo, por cópia, o decreto que sposentou o professor da eschola do lairro de Santa Cruz, município de Cruziro e demais papeis referentes an assumpto;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 52,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        373,
+                        587,
+                        409
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                373,
+                                587,
+                                409
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        373,
+                                        587,
+                                        409
+                                    ],
+                                    "type": "text",
+                                    "content": "A' mesma, transmitindo, por cópia, o decreto que aposentiou o cidadão Augusto Pinto da Silva Saes, professor da eschola da villa de S. Pedro, e demais papeis referentes ao assumpio;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 53,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        410,
+                        587,
+                        446
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                410,
+                                587,
+                                446
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        410,
+                                        587,
+                                        446
+                                    ],
+                                    "type": "text",
+                                    "content": "A' mesma, solicitando pagamento da gratificação de que trata o artigo 135 do regulamento de 27 de Novembro de 1893, ao professor adjuncto da 1.ª eschola de Santos, cidação Olynho Paiva."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 54,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        485,
+                        449,
+                        510,
+                        457
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                485,
+                                449,
+                                510,
+                                457
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        485,
+                                        449,
+                                        510,
+                                        457
+                                    ],
+                                    "type": "text",
+                                    "content": "Dia 19"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 55,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        454,
+                        460,
+                        462
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                454,
+                                460,
+                                462
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        454,
+                                        460,
+                                        462
+                                    ],
+                                    "type": "text",
+                                    "content": "Officiou-se :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 56,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        464,
+                        588,
+                        501
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                464,
+                                588,
+                                501
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        464,
+                                        588,
+                                        501
+                                    ],
+                                    "type": "text",
+                                    "content": "A' Fazenda, communicando que a professora da eschola do 5.º distrito, desta capital, d. Marianna da Gloria Rodrigues Bahia, entrou a 21 do corrente no goso da licença que lha fora concedida;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 57,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        501,
+                        587,
+                        554
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                501,
+                                587,
+                                554
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        501,
+                                        587,
+                                        554
+                                    ],
+                                    "type": "text",
+                                    "content": "A' mesma, communicando que o professor Braziliano de Azevedo, removido da eschola do bairro dos Maurícios, em São Beote do Sapuehy, para a da freguezia de Santo Antonio do Pinhal, do mesmo município, assumiu o exercício do cargo no dia 17 do corrente."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 58,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        485,
+                        556,
+                        509,
+                        564
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                485,
+                                556,
+                                509,
+                                564
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        485,
+                                        556,
+                                        509,
+                                        564
+                                    ],
+                                    "type": "text",
+                                    "content": "Dia 30"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 59,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        562,
+                        460,
+                        570
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                562,
+                                460,
+                                570
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        562,
+                                        460,
+                                        570
+                                    ],
+                                    "type": "text",
+                                    "content": "Officiourse :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 60,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        571,
+                        587,
+                        624
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                571,
+                                587,
+                                624
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        571,
+                                        587,
+                                        624
+                                    ],
+                                    "type": "text",
+                                    "content": "A' camara municipal de Santos, mandando passar os atelstados de exercício ao professor da 4."
+                                },
+                                {
+                                    "bbox": [
+                                        408,
+                                        571,
+                                        587,
+                                        624
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "^{a}"
+                                },
+                                {
+                                    "bbox": [
+                                        408,
+                                        571,
+                                        587,
+                                        624
+                                    ],
+                                    "type": "text",
+                                    "content": " eschola daquella cidade, cida não Eugenio Porchat de Assis, visto não ter sido abandonada a sua eschola, conforme se varilicou dos papeis relativos ao caso."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 61,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        479,
+                        626,
+                        518,
+                        635
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                479,
+                                626,
+                                518,
+                                635
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        479,
+                                        626,
+                                        518,
+                                        635
+                                    ],
+                                    "type": "text",
+                                    "content": "3.ª SECCÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 62,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        635,
+                        460,
+                        643
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                635,
+                                460,
+                                643
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        635,
+                                        460,
+                                        643
+                                    ],
+                                    "type": "text",
+                                    "content": "Officiou-se ;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 63,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        410,
+                        645,
+                        588,
+                        672
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                410,
+                                645,
+                                588,
+                                672
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        410,
+                                        645,
+                                        588,
+                                        672
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao agente da E. de Ferro Central, pedindo transporte para volumes destinados aos grupos escholares de Arcias e Pindamonhangabs;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 64,
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        139,
+                        13,
+                        499,
+                        32
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                139,
+                                13,
+                                499,
+                                32
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        139,
+                                        13,
+                                        499,
+                                        32
+                                    ],
+                                    "type": "text",
+                                    "content": "ESTADOS UNIDOS DO BRAZIL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        53,
+                        32,
+                        586,
+                        86
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                53,
+                                32,
+                                586,
+                                86
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        53,
+                                        32,
+                                        586,
+                                        86
+                                    ],
+                                    "type": "text",
+                                    "content": "DIARIO OFFICIAL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        147,
+                        87,
+                        488,
+                        108
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                147,
+                                87,
+                                488,
+                                108
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        147,
+                                        87,
+                                        488,
+                                        108
+                                    ],
+                                    "type": "text",
+                                    "content": "DO ESTADO DE SÃO PAULO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                }
+            ],
+            "page_size": [
+                640,
+                729
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        62,
+                        116,
+                        231,
+                        128
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                62,
+                                116,
+                                231,
+                                128
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        62,
+                                        116,
+                                        231,
+                                        128
+                                    ],
+                                    "type": "text",
+                                    "content": "ANNO 9*—12.* DA REPUBLICA—M. 75"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        291,
+                        118,
+                        344,
+                        129
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                291,
+                                118,
+                                344,
+                                129
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        291,
+                                        118,
+                                        344,
+                                        129
+                                    ],
+                                    "type": "text",
+                                    "content": "SÃO PAULO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        434,
+                        120,
+                        570,
+                        132
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                434,
+                                120,
+                                570,
+                                132
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        434,
+                                        120,
+                                        570,
+                                        132
+                                    ],
+                                    "type": "text",
+                                    "content": "DOMINGO, 1 DE ABRIL DE 1900"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        41,
+                        141,
+                        218,
+                        157
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                41,
+                                141,
+                                218,
+                                157
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        41,
+                                        141,
+                                        218,
+                                        157
+                                    ],
+                                    "type": "text",
+                                    "content": "ACTOS DO PODER EXECUTIVO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        105,
+                        169,
+                        156,
+                        180
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                105,
+                                169,
+                                156,
+                                180
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        105,
+                                        169,
+                                        156,
+                                        180
+                                    ],
+                                    "type": "text",
+                                    "content": "Interior"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        40,
+                        185,
+                        219,
+                        231
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                185,
+                                219,
+                                231
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        185,
+                                        219,
+                                        231
+                                    ],
+                                    "type": "text",
+                                    "content": "Por decreto de 27 do corrente foi exonerado o professor preliminar, cidadão José de Castro, com exéciclo na Eschola Complementar de Itapetiniugri, para o cargo de professor do grupo escolar de São Manoel do Paraiso;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        40,
+                        232,
+                        218,
+                        268
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                232,
+                                218,
+                                268
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        232,
+                                        218,
+                                        268
+                                    ],
+                                    "type": "text",
+                                    "content": "Por decreto da mesma data, foi nomeada a professora preliminar, d. Anna Candida Soares, para o cargo de professora adjunta do grupo escholar da Faxina;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        40,
+                        269,
+                        218,
+                        305
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                269,
+                                218,
+                                305
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        269,
+                                        218,
+                                        305
+                                    ],
+                                    "type": "text",
+                                    "content": "Por decreto da mesma data, foi nomeada a professora de igual categoria, d. Emygdia Soares, para, interinamente, exercer o cargo de professora do mesmo grupo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        40,
+                        306,
+                        218,
+                        342
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                306,
+                                218,
+                                342
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        306,
+                                        218,
+                                        342
+                                    ],
+                                    "type": "text",
+                                    "content": "Por decreto da mesma data, foi exonerado, a pedido, o lucharel José Pinto de Mours, do cargo de lente da 9.ª cadeira do Gymnasio de Campinas;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        40,
+                        343,
+                        218,
+                        370
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                343,
+                                218,
+                                370
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        343,
+                                        218,
+                                        370
+                                    ],
+                                    "type": "text",
+                                    "content": "Por decreto da mesma data, foram creates quatro logares de adjunotos na seção feminina do 2.º grupo escholar de Campinas;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        40,
+                        371,
+                        218,
+                        397
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                371,
+                                218,
+                                397
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        371,
+                                        218,
+                                        397
+                                    ],
+                                    "type": "text",
+                                    "content": "Por decreto da mesma data, foram também creados dois logaras identicos na seção feminina do grupo da Foxina."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        90,
+                        402,
+                        166,
+                        414
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                90,
+                                402,
+                                166,
+                                414
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        90,
+                                        402,
+                                        166,
+                                        414
+                                    ],
+                                    "type": "text",
+                                    "content": "Agricultura"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        40,
+                        414,
+                        218,
+                        468
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                414,
+                                218,
+                                468
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        414,
+                                        218,
+                                        468
+                                    ],
+                                    "type": "text",
+                                    "content": "Por decreto de 27 do mez findo, foi removido a pedido, o cidadão Carlos Martins, 2.º escripturário da Hospedaria de Immigentes, para o logar de conferente da Repartição de Aguas e Exgaltos; sendo nomeado para aquella vaga o cidadão Julio Bicudo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        50,
+                        483,
+                        202,
+                        499
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                50,
+                                483,
+                                202,
+                                499
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        50,
+                                        483,
+                                        202,
+                                        499
+                                    ],
+                                    "type": "text",
+                                    "content": "SECRETARIAS DE ESTADO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        104,
+                        508,
+                        154,
+                        518
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                104,
+                                508,
+                                154,
+                                518
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        104,
+                                        508,
+                                        154,
+                                        518
+                                    ],
+                                    "type": "text",
+                                    "content": "Interior"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        64,
+                        523,
+                        192,
+                        532
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                64,
+                                523,
+                                192,
+                                532
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        64,
+                                        523,
+                                        192,
+                                        532
+                                    ],
+                                    "type": "text",
+                                    "content": "EXPEDIENTE DE 30 DE MARÇO DE 1999"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        87,
+                        535,
+                        170,
+                        543
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                87,
+                                535,
+                                170,
+                                543
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        87,
+                                        535,
+                                        170,
+                                        543
+                                    ],
+                                    "type": "text",
+                                    "content": "1.* SUB-DIRECTORIA"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        110,
+                        545,
+                        147,
+                        553
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                545,
+                                147,
+                                553
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        545,
+                                        147,
+                                        553
+                                    ],
+                                    "type": "text",
+                                    "content": "1.ª exgiao"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        40,
+                        556,
+                        218,
+                        610
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                556,
+                                218,
+                                610
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        556,
+                                        218,
+                                        610
+                                    ],
+                                    "type": "text",
+                                    "content": "Communicou se á Secretaria dos Negócios da Fazenda, para os devidos lias, que o bacharel Jscinho do Nascimento Moura, auxiliar da redacção do Diario Oficial, reasumiu o exercício do cargo no dia 21 do corrente, visto ter terminado a licença em cujo goso se achava."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        40,
+                        610,
+                        218,
+                        664
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                40,
+                                610,
+                                218,
+                                664
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        40,
+                                        610,
+                                        218,
+                                        664
+                                    ],
+                                    "type": "text",
+                                    "content": "Transmittiram-se à Secretaria dos Negócios da Agricultura, Commercio e Obras Publicas dois of- ticios, sendo um da camara municipal de Guarely e outro do intendente municipal da Franca, visto tratarem de assumptos referentes àquella secretraria."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        294,
+                        142,
+                        334,
+                        151
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                294,
+                                142,
+                                334,
+                                151
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        294,
+                                        142,
+                                        334,
+                                        151
+                                    ],
+                                    "type": "text",
+                                    "content": "2.ª ESCÇÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        277,
+                        152,
+                        350,
+                        160
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                277,
+                                152,
+                                350,
+                                160
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        277,
+                                        152,
+                                        350,
+                                        160
+                                    ],
+                                    "type": "text",
+                                    "content": "Officios despachados"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        161,
+                        403,
+                        205
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                161,
+                                403,
+                                205
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        161,
+                                        403,
+                                        205
+                                    ],
+                                    "type": "text",
+                                    "content": "Da Secretaria da Agricultura, communicando que opportunamente será executado o serviço de exgoltos nos hairros da Lapa, Agua Branca e outros da capital.—A' Directoria do Serviço Sanitário."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        249,
+                        207,
+                        379,
+                        216
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                249,
+                                207,
+                                379,
+                                216
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        249,
+                                        207,
+                                        379,
+                                        216
+                                    ],
+                                    "type": "text",
+                                    "content": "EXPEDIENTE DE 28 DE MARÇO DE 1900"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        293,
+                        219,
+                        334,
+                        228
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                293,
+                                219,
+                                334,
+                                228
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        293,
+                                        219,
+                                        334,
+                                        228
+                                    ],
+                                    "type": "text",
+                                    "content": "3.ª escção"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        228,
+                        403,
+                        245
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                228,
+                                403,
+                                245
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        228,
+                                        403,
+                                        245
+                                    ],
+                                    "type": "text",
+                                    "content": "Foram solicitados da Secretaria da Fazenda os seguintes pagamentos :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        247,
+                        402,
+                        282
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                247,
+                                402,
+                                282
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        247,
+                                        402,
+                                        282
+                                    ],
+                                    "type": "text",
+                                    "content": "De 315000, pela collectoria de Mogy das Cruzes, ao director do grupo escolar daquella cidade, pelo fornecimentos feitos ao referido estabelecimento;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        283,
+                        403,
+                        320
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                283,
+                                403,
+                                320
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        283,
+                                        403,
+                                        320
+                                    ],
+                                    "type": "text",
+                                    "content": "De 2:810\\$100, pela collectoria da Faxins, ao director do grupo escholar daquella cidade, Emilio Mario de Arantes, proveniente de fornecimentos feitos ao dito estabelecimento;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        320,
+                        402,
+                        357
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                320,
+                                402,
+                                357
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        320,
+                                        402,
+                                        357
+                                    ],
+                                    "type": "text",
+                                    "content": "De 2959000, pela collectorla de Areias, ao dire-\nctor do grupo escholar daquella cidade, José Ma-\nrio da Silveira, proveniente de reparos feitos no\npredio onde funções o referido estabelecimento;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        357,
+                        403,
+                        402
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                357,
+                                403,
+                                402
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        357,
+                                        403,
+                                        402
+                                    ],
+                                    "type": "text",
+                                    "content": "De 100\\$000, pela collectoria de Espírito Santo do Pinhal, ao director, em commissão, do grupo escholar daquella cidade, Domingos de Paula da Silva, proveniente de contas de serviços prestados ao referido estabelecimento."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        403,
+                        403,
+                        430
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                403,
+                                403,
+                                430
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        403,
+                                        403,
+                                        430
+                                    ],
+                                    "type": "text",
+                                    "content": "Autorizon-se o director do Serviço Sanitario a\ndespender a quantia de 725\\$000, para acquisição\nde objectos necessários àquella repartição."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        271,
+                        430,
+                        355,
+                        439
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                271,
+                                430,
+                                355,
+                                439
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        271,
+                                        430,
+                                        355,
+                                        439
+                                    ],
+                                    "type": "text",
+                                    "content": "I. SUB-DIRECTORIA"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 34,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        293,
+                        440,
+                        334,
+                        448
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                293,
+                                440,
+                                334,
+                                448
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        293,
+                                        440,
+                                        334,
+                                        448
+                                    ],
+                                    "type": "text",
+                                    "content": "1.a seccão"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 35,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        232,
+                        449,
+                        402,
+                        457
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                232,
+                                449,
+                                402,
+                                457
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        232,
+                                        449,
+                                        402,
+                                        457
+                                    ],
+                                    "type": "text",
+                                    "content": "Communicou-se 20 sr. dr. secretario da Fazenda :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 36,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        458,
+                        403,
+                        494
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                458,
+                                403,
+                                494
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        458,
+                                        403,
+                                        494
+                                    ],
+                                    "type": "text",
+                                    "content": "Que, por motivo de molestis, interrompeu o exercício de seu cargo, desde o dia 14 do corrente, o professor do grupo escolar do Braz, cidadão Jenaíso Braulio Rodrigues;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 37,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        494,
+                        402,
+                        522
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                494,
+                                402,
+                                522
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        494,
+                                        402,
+                                        522
+                                    ],
+                                    "type": "text",
+                                    "content": "Que foram abonadas seja faltas dadas pelo professor de escripturação mercantil da Eschola Normal, cidadão Jeronymo Azevelo, no mex último."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 38,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        522,
+                        403,
+                        566
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                522,
+                                403,
+                                566
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        522,
+                                        403,
+                                        566
+                                    ],
+                                    "type": "text",
+                                    "content": "Recommendou-se ao director do grupo escolar «Dr. Flamieio Lessa», de Guaralinguetá, que informase a este secretariado de que serviço se acha encarregado o professor Miguel Virgínio dos Santos."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 39,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        225,
+                        567,
+                        403,
+                        621
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                567,
+                                403,
+                                621
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        567,
+                                        403,
+                                        621
+                                    ],
+                                    "type": "text",
+                                    "content": "Declarou-se ao director do grupo escholar «Gibrial Prestes», de Lorena, em resposta ao seu ofício n. 21, de 6 do corrente, não haver necessidade do augimento de uma sala naquelle estabelecimento, como informou o inspector escholar que alli estava em commissão."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 40,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        267,
+                        624,
+                        359,
+                        632
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                267,
+                                624,
+                                359,
+                                632
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        267,
+                                        624,
+                                        359,
+                                        632
+                                    ],
+                                    "type": "text",
+                                    "content": "Requerimento despachado"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 41,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        225,
+                        632,
+                        403,
+                        668
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                225,
+                                632,
+                                403,
+                                668
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        225,
+                                        632,
+                                        403,
+                                        668
+                                    ],
+                                    "type": "text",
+                                    "content": "De Maria da Piedade Canto, porteira do grupo escholar de Lorena, pedido equiparação de seus vencimentos aos do porteiro do mesmo grupo.—Sejam equiparados."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        477,
+                        145,
+                        517,
+                        153
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                477,
+                                145,
+                                517,
+                                153
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        477,
+                                        145,
+                                        517,
+                                        153
+                                    ],
+                                    "type": "text",
+                                    "content": "3.ª SECCÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 43,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        485,
+                        154,
+                        510,
+                        162
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                485,
+                                154,
+                                510,
+                                162
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        485,
+                                        154,
+                                        510,
+                                        162
+                                    ],
+                                    "type": "text",
+                                    "content": "Dia 27"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 44,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        159,
+                        460,
+                        168
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                159,
+                                460,
+                                168
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        159,
+                                        460,
+                                        168
+                                    ],
+                                    "type": "text",
+                                    "content": "Offciou-se :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 45,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        169,
+                        587,
+                        207
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                169,
+                                587,
+                                207
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        169,
+                                        587,
+                                        207
+                                    ],
+                                    "type": "text",
+                                    "content": "A' Fazenda, communicando que a professora nomeada para reger a eschola mixta da vlla Cerquel-a Gosar, desta capital, d. Maria Ellis Mac Infyre, assumiu o exercício no dia 20 do corrente;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 46,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        207,
+                        586,
+                        243
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                207,
+                                586,
+                                243
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        207,
+                                        586,
+                                        243
+                                    ],
+                                    "type": "text",
+                                    "content": "A' mesma, communicando que a 10 do corrente foi nomeado inspector mu leipal de Santa Barbara do Rio Pardo, assumindo o exercício a 17 do mesmo, o maior Casamiro Nunes de Carvalho;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 47,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        244,
+                        586,
+                        271
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                244,
+                                586,
+                                271
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        244,
+                                        586,
+                                        271
+                                    ],
+                                    "type": "text",
+                                    "content": "A' mesma, communicando que eatrou em exercício da eschola da villa do Rio das Padras, no dia 20 do corrente, o professor João Braulio Cesar."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 48,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        483,
+                        271,
+                        512,
+                        279
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                483,
+                                271,
+                                512,
+                                279
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        483,
+                                        271,
+                                        512,
+                                        279
+                                    ],
+                                    "type": "text",
+                                    "content": "Dia 28"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 49,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        279,
+                        460,
+                        287
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                279,
+                                460,
+                                287
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        279,
+                                        460,
+                                        287
+                                    ],
+                                    "type": "text",
+                                    "content": "Officiou-se :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 50,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        289,
+                        586,
+                        334
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                289,
+                                586,
+                                334
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        289,
+                                        586,
+                                        334
+                                    ],
+                                    "type": "text",
+                                    "content": "A' Fazenda, trasmittindo, por cópie, o decreto que aposentou a professora da eschola do 22.º distrito desta capital, d. Galdina America de Almeida, hem como todos os papeis refereates ao assumpto;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 51,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        336,
+                        587,
+                        371
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                336,
+                                587,
+                                371
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        336,
+                                        587,
+                                        371
+                                    ],
+                                    "type": "text",
+                                    "content": "A' mesma, transmitindo, por cópia, o decreto que sposentou o professor da eschola do lairro de Santa Cruz, município de Cruziro e demais papeis referentes an assumpto;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 52,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        373,
+                        587,
+                        409
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                373,
+                                587,
+                                409
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        373,
+                                        587,
+                                        409
+                                    ],
+                                    "type": "text",
+                                    "content": "A' mesma, transmitindo, por cópia, o decreto que aposentiou o cidadão Augusto Pinto da Silva Saes, professor da eschola da villa de S. Pedro, e demais papeis referentes ao assumpio;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 53,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        410,
+                        587,
+                        446
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                410,
+                                587,
+                                446
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        410,
+                                        587,
+                                        446
+                                    ],
+                                    "type": "text",
+                                    "content": "A' mesma, solicitando pagamento da gratificação de que trata o artigo 135 do regulamento de 27 de Novembro de 1893, ao professor adjuncto da 1.ª eschola de Santos, cidação Olynho Paiva."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 54,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        485,
+                        449,
+                        510,
+                        457
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                485,
+                                449,
+                                510,
+                                457
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        485,
+                                        449,
+                                        510,
+                                        457
+                                    ],
+                                    "type": "text",
+                                    "content": "Dia 19"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 55,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        454,
+                        460,
+                        462
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                454,
+                                460,
+                                462
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        454,
+                                        460,
+                                        462
+                                    ],
+                                    "type": "text",
+                                    "content": "Officiou-se :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 56,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        464,
+                        588,
+                        501
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                464,
+                                588,
+                                501
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        464,
+                                        588,
+                                        501
+                                    ],
+                                    "type": "text",
+                                    "content": "A' Fazenda, communicando que a professora da eschola do 5.º distrito, desta capital, d. Marianna da Gloria Rodrigues Bahia, entrou a 21 do corrente no goso da licença que lha fora concedida;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 57,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        501,
+                        587,
+                        554
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                501,
+                                587,
+                                554
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        501,
+                                        587,
+                                        554
+                                    ],
+                                    "type": "text",
+                                    "content": "A' mesma, communicando que o professor Braziliano de Azevedo, removido da eschola do bairro dos Maurícios, em São Beote do Sapuehy, para a da freguezia de Santo Antonio do Pinhal, do mesmo município, assumiu o exercício do cargo no dia 17 do corrente."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 58,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        485,
+                        556,
+                        509,
+                        564
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                485,
+                                556,
+                                509,
+                                564
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        485,
+                                        556,
+                                        509,
+                                        564
+                                    ],
+                                    "type": "text",
+                                    "content": "Dia 30"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 59,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        562,
+                        460,
+                        570
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                562,
+                                460,
+                                570
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        562,
+                                        460,
+                                        570
+                                    ],
+                                    "type": "text",
+                                    "content": "Officiourse :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 60,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        571,
+                        587,
+                        624
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                571,
+                                587,
+                                624
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        571,
+                                        587,
+                                        624
+                                    ],
+                                    "type": "text",
+                                    "content": "A' camara municipal de Santos, mandando passar os atelstados de exercício ao professor da 4."
+                                },
+                                {
+                                    "bbox": [
+                                        408,
+                                        571,
+                                        587,
+                                        624
+                                    ],
+                                    "type": "inline_equation",
+                                    "content": "^{a}"
+                                },
+                                {
+                                    "bbox": [
+                                        408,
+                                        571,
+                                        587,
+                                        624
+                                    ],
+                                    "type": "text",
+                                    "content": " eschola daquella cidade, cida não Eugenio Porchat de Assis, visto não ter sido abandonada a sua eschola, conforme se varilicou dos papeis relativos ao caso."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 61,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        479,
+                        626,
+                        518,
+                        635
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                479,
+                                626,
+                                518,
+                                635
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        479,
+                                        626,
+                                        518,
+                                        635
+                                    ],
+                                    "type": "text",
+                                    "content": "3.ª SECCÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 62,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        635,
+                        460,
+                        643
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                635,
+                                460,
+                                643
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        635,
+                                        460,
+                                        643
+                                    ],
+                                    "type": "text",
+                                    "content": "Officiou-se ;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 63,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        410,
+                        645,
+                        588,
+                        672
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                410,
+                                645,
+                                588,
+                                672
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        410,
+                                        645,
+                                        588,
+                                        672
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao agente da E. de Ferro Central, pedindo transporte para volumes destinados aos grupos escholares de Arcias e Pindamonhangabs;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 64,
+                    "merge_prev": false
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_effort": "high",
+    "_ocr_enable": true,
+    "_version_name": "3.4.4"
+}

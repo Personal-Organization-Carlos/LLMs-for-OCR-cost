@@ -1,0 +1,730 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.082,
+                0.049,
+                0.199,
+                0.062
+            ],
+            "angle": 0,
+            "content": "732 Domingo, 1"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.386,
+                0.045,
+                0.501,
+                0.058
+            ],
+            "angle": 0,
+            "content": "DIARIO OFFICIAL"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.788,
+                0.047,
+                0.859,
+                0.059
+            ],
+            "angle": 0,
+            "content": "Abril 1990"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.065,
+                0.073,
+                0.334,
+                0.109
+            ],
+            "angle": 0,
+            "content": "Ao director do grupo escholar de Botucatu, pedindo orçamento das despesas a que se refere o seu ofício de 12 do corrente;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.067,
+                0.11,
+                0.336,
+                0.16
+            ],
+            "angle": 0,
+            "content": "Ao director do grupo escolar de Belia Vista, auctorizando as despesas constantes do orçamento que acompanhou o seu officio n. 7 do corrente mez;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.067,
+                0.16,
+                0.337,
+                0.196
+            ],
+            "angle": 0,
+            "content": "Ao director da eschola-modelo de Itapelininga, auctorizando a entrega de varios objectos à pro-professora da eschola mixta do bairro do Porto;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.067,
+                0.196,
+                0.337,
+                0.233
+            ],
+            "angle": 0,
+            "content": ". Ao director do Diário Oficial, recomendando a remessa dos cartões pedidos para o grupo escolar de Riteirão Preto;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.067,
+                0.234,
+                0.338,
+                0.282
+            ],
+            "angle": 0,
+            "content": "Ao secretari da Agricultura, pedindo que ordene as providencias solicitadas por ofício de 7 do corrente, em relação ao grupo escolar de Bella Vista.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.145,
+                0.296,
+                0.262,
+                0.314
+            ],
+            "angle": 0,
+            "content": "Agricultura"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.093,
+                0.322,
+                0.313,
+                0.334
+            ],
+            "angle": 0,
+            "content": "EXPEDIENTE DO DIA 31 DE MARÇO DE 1900",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.171,
+                0.338,
+                0.243,
+                0.35
+            ],
+            "angle": 0,
+            "content": "1.a SEÇÃO",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.082,
+                0.354,
+                0.324,
+                0.365
+            ],
+            "angle": 0,
+            "content": "Solicitaram-se do dr. secretario da Fazenda :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.084,
+                0.366,
+                0.159,
+                0.378
+            ],
+            "angle": 0,
+            "content": "Pagamentos :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.074,
+                0.379,
+                0.341,
+                0.439
+            ],
+            "angle": 0,
+            "content": "De 7:500\\$000, á «City of Santos Improvements Company, Limited», pela agua fornecida, em Outubro, Novembro e Dezembro de 1893, para os serviços de extinção de incendios e irrigação das ruas da cidade de Santos;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.073,
+                0.44,
+                0.341,
+                0.476
+            ],
+            "angle": 0,
+            "content": "De 1:56S\\$210, a Lebre, Castilho & Comp., pelo fornecimento de artigos diversos à Repartição de Aguas e Exgottos, em Fevereiro último;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.073,
+                0.477,
+                0.341,
+                0.513
+            ],
+            "angle": 0,
+            "content": "De 7325400, a Espindola, Siqueira & Comp., pelo fornecimento de artigos diversos à Repartição de Aguas e Exgotlos, em Fevereiro último;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.074,
+                0.514,
+                0.343,
+                0.55
+            ],
+            "angle": 0,
+            "content": "De 138\\$400, a C. Hildebrand & Comp., pelo fornecimento de artigos à mesma repartição, em Fevereiro último;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.551,
+                0.343,
+                0.586
+            ],
+            "angle": 0,
+            "content": "De 2:1995400, a Bastiano Buona Vita, por materiaes fornecidos à mesma repartição, em Fevereiro último;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.587,
+                0.343,
+                0.623
+            ],
+            "angle": 0,
+            "content": "De 1:285\\$290, a EduarJu B. Kneesse, por materiaes fornecidos, em Fevereiro último, à mesma repartição;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.624,
+                0.343,
+                0.659
+            ],
+            "angle": 0,
+            "content": "De 1:023\\$900, a Kisgen & Schiefferdecker, por identico fornecimento à mesma repartição, em Fevereiro último;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.66,
+                0.343,
+                0.696
+            ],
+            "angle": 0,
+            "content": "De 6 000\\$990, à Companhia Mechanica e Importadora de São Paulo, por identico fornecimento à mesma repartição, em Fevereiro último;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.697,
+                0.344,
+                0.745
+            ],
+            "angle": 0,
+            "content": "De 250\\$000, a d. Vicencia das Neves, pelo fornecimento, no corrente mez, de 1000 saccos de algodãosinho, para o serviço de distribuição de sementes aos lavradores do Estado.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.746,
+                0.344,
+                0.782
+            ],
+            "angle": 0,
+            "content": "De 1:181\\$16), a Francisco Duarte & Irmão, pelo fornecimento de forragem à Repartição de Aguas e Exgottos, em Fevereiro último;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.783,
+                0.343,
+                0.818
+            ],
+            "angle": 0,
+            "content": "De 605000, a Luiz Strias & Comp., pelo fornemento de artigos à mesmo re-partição, em Fevereiro último;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.819,
+                0.343,
+                0.856
+            ],
+            "angle": 0,
+            "content": "De S1350, a Del Fio e rino & Como., pelo fornecimento de artigos à mesma e; artição, em F. -vereiro último;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.075,
+                0.856,
+                0.343,
+                0.892
+            ],
+            "angle": 0,
+            "content": "De 33§165, à Companhia de Gaz de São Paulo, pelo fornecimento de gaz à Repartição de Agias e Ergottos, em Janeiro último;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.084,
+                0.893,
+                0.343,
+                0.905
+            ],
+            "angle": 0,
+            "content": "De J.09007, a Brovine Giovanni, por materias",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.344,
+                0.071,
+                0.611,
+                0.095
+            ],
+            "angle": 0,
+            "content": "fornecidos, em Fevereiro último, à Repartição de Águas e Esgottos;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.344,
+                0.096,
+                0.611,
+                0.132
+            ],
+            "angle": 0,
+            "content": "De 356/880, a Francisco Gonçalves, pelo fornecimenta de forragem à mesma repartição, em Fevereiro último.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.344,
+                0.133,
+                0.614,
+                0.219
+            ],
+            "angle": 0,
+            "content": "Credito da quântia de 3:311§200 ao amanuense da Superintendencia de Obras Publicas, João Alfredo Baptista Borba, por despesas, em Fevereiro último, com o pagamento de diarias e transportes de angecheiros, e outros de expediente; recolhendo o mesmo funcionário aos cofres do Thesouro o saldo, em seu poder, da quantia de 8§800.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.346,
+                0.22,
+                0.615,
+                0.293
+            ],
+            "angle": 0,
+            "content": "Adeantamento da quantia de 680\\$750, ao engenheiro da Superintendencia de Obras Publicas, Victor Andrigo, para occorrer às despesas com os reparos do telhado do Hospicio de Alienados da capital.—Deu-se conhecimento ao dr. director da Superintendencia;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.348,
+                0.294,
+                0.616,
+                0.356
+            ],
+            "angle": 0,
+            "content": "Permissão para o engenheiro Antonio By depo-\nsitar, no Thesouro do Estado, a quantia de.....\n300507, como garantia da proposta que pretende\naprese tis para a construção de uma cadeia em\nS. Bento do Sapuc by.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.349,
+                0.357,
+                0.617,
+                0.404
+            ],
+            "angle": 0,
+            "content": "Auctoriz uses a Commissão Geographica e Geologia a desenter 3:2008000, com aquisição de oito animaes para os trabalhos das turmas de campo.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.35,
+                0.405,
+                0.617,
+                0.466
+            ],
+            "angle": 0,
+            "content": "Declarou-se à Superintendencia de Obras Públicas que fica approvado o contracto celebrado com Francisco José do Prado, para o serviço de passagens em balsa sobre o rio Parahyba, na estrada de Santa Branca a Jacarchy.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.35,
+                0.467,
+                0.617,
+                0.503
+            ],
+            "angle": 0,
+            "content": "Devolveram-se à Repartição de Aguas e Exgotlos, para a necessaria reelificação, as contas apresentadas pela casa Érico Milha & Comp.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.351,
+                0.504,
+                0.618,
+                0.589
+            ],
+            "angle": 0,
+            "content": "Realizou-se, hoje, 31 de Março de 1900, nesta secretaria, a abertura das propostas apresentadas para a construção de uma cadeia em S. Bento do Sapucahy, as quaes, assignadas pelos cidadãos Antonio By, Nicola Grigola, Santiago Stornini, José Mollica e Santo Bertollazzi, foram pela respectiva junta, julgadas conforme para decisão ulterior.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.413,
+                0.59,
+                0.558,
+                0.6
+            ],
+            "angle": 0,
+            "content": "REQUERIMENTO DESPACHADO",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.352,
+                0.602,
+                0.62,
+                0.699
+            ],
+            "angle": 0,
+            "content": "Da City of Santos Improvements Company, Limited, pedindo reconsideração do despacho de 22 de Fevereiro último, e apresentando conta de.... 7:500\\$000 de agua fornecida para a extinção de incendios e irrigação das ruas da cidade de Santos, em Outubro, Novembro e Dezembro de 1899. —Mantenho o despacho de 22 de Fevereiro último. Requisite-se o pagamento de 7:500\\$000.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.45,
+                0.717,
+                0.518,
+                0.733
+            ],
+            "angle": 0,
+            "content": "Justiça"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.381,
+                0.735,
+                0.594,
+                0.746
+            ],
+            "angle": 0,
+            "content": "EXPEDIENTE DO DIA 31 DE MARCHO DE 1900",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.425,
+                0.751,
+                0.551,
+                0.762
+            ],
+            "angle": 0,
+            "content": "1.ª SUB-DIRECTORIA",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.458,
+                0.764,
+                0.514,
+                0.775
+            ],
+            "angle": 0,
+            "content": "1.a SECCÃO",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.363,
+                0.776,
+                0.453,
+                0.787
+            ],
+            "angle": 0,
+            "content": "Transmittu-se :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.352,
+                0.788,
+                0.622,
+                0.91
+            ],
+            "angle": 0,
+            "content": "Ao ser, ministão da Justiça e Norgeços. Interiores afm d que e lignes examin' a: a competente destin, a cast. roçatia é lij da pelo juiz d direito da comac de Sen e Ciz do Il o Pardo, às justiças de M'gaço, provincia do Minho, no Reto de Portugal, para e esção de d, Antonia Maria Rodrigues, como berdeira dos haus deixidos pelo final José Joaquim (Rodriges) de Ca tro, a cuj inventario se procede por aquelle juizo.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.621,
+                0.075,
+                0.89,
+                0.124
+            ],
+            "angle": 0,
+            "content": "Ao secretario do Interior, afim de que se digneu kamar em consideração, o ofício do 1.º julz do pia do distrito de Czapava, em que faz uma consulta sob e o próximo alistamento eleitoral.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.621,
+                0.125,
+                0.89,
+                0.247
+            ],
+            "angle": 0,
+            "content": "Comunicou-se ao chefe de polícia, de confoc-midade com o que participou a Direcrtoria do Serviço Sanitário, em data de 23 do corrente mea, que o cidadão Adolpho Schumann está exercendo ilegalmente a profissão de pharmaceutico na cidade de Jacarehy, com pharmacia aberta, que foi adquirida do pharmaceutico José Carlos de Oliveira Garcez Sobrinho, cumprindo que, outra o mesmo, mande proceder de acordo com o codigo penal.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.705,
+                0.248,
+                0.808,
+                0.26
+            ],
+            "angle": 0,
+            "content": "Officio despachado"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.623,
+                0.261,
+                0.891,
+                0.334
+            ],
+            "angle": 0,
+            "content": "Do juiz de direito da comarca de Pladade, remettendo a cópia do edital que põe em concurso os ofícios de 1.a e 2.o tabelliães de notas, oficial do registro geral de hypothecas e o de distribuidor, todos com os respectivos annexos.—Requalite se pela directoria geral a publicação do edital.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.728,
+                0.336,
+                0.784,
+                0.346
+            ],
+            "angle": 0,
+            "content": "2.1 SEOQAO",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.636,
+                0.348,
+                0.858,
+                0.359
+            ],
+            "angle": 0,
+            "content": "Solicitaram-se as seguintes informações :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.625,
+                0.36,
+                0.893,
+                0.434
+            ],
+            "angle": 0,
+            "content": "Do dr. julz de direito de Mogy-mirim, conjuntamente com o su pracer, a respeito da petição de graça (u em tempo apresentou ao governo do Estado o sentenciado liesitor des Retours, recolhido à cadeia publica daquella cidade em cumeprimento de pena Imposta pelo jury local;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.626,
+                0.435,
+                0.893,
+                0.457
+            ],
+            "angle": 0,
+            "content": "Do dr. juiz de direito de Itatiba, idem, idem, quanto ao sentenciado Paulo Luiz;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.626,
+                0.459,
+                0.893,
+                0.482
+            ],
+            "angle": 0,
+            "content": "Do dr. juiz de Direito de Botucatú, idem, idem, quanto ao sentenciado João Martin;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.626,
+                0.483,
+                0.894,
+                0.518
+            ],
+            "angle": 0,
+            "content": "Do dr. juiz de direito de Santo Antonio da Ca-\nchoeira, idem, idem, quanto su sentenciado Luiz\nBeraldi;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.626,
+                0.52,
+                0.894,
+                0.554
+            ],
+            "angle": 0,
+            "content": "Do dr. juiz de direito de Pirassununga, idem, dem, quanto ao sentenciado Virgilio Gatto Suasuna;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.627,
+                0.556,
+                0.893,
+                0.58
+            ],
+            "angle": 0,
+            "content": "Do dr. juiz de direito de Lenções, idem, idem, quanto ao sentenciado Roberto José da Silva;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.627,
+                0.581,
+                0.894,
+                0.677
+            ],
+            "angle": 0,
+            "content": "Do dr. juiz de direito de S. Carlos do Pichal, conjuntamente com as providencias necessarias, sobre o requerimento em que o sentenciado Joaquim Rodrigues Pinto, recolhido é cadeia publica da capital, em cumprimento de pena imposta pelo jury daquella comarca, pede a cópia de seu processo para instruir petição de graça que descaja apresentar.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.64,
+                0.679,
+                0.737,
+                0.689
+            ],
+            "angle": 0,
+            "content": "Transmilliram-se :",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.628,
+                0.691,
+                0.895,
+                0.812
+            ],
+            "angle": 0,
+            "content": "Ao dr. presidente do Tribunal de Justiça, para que se digne aquele tribunal informar a respeito, a pelição de graça, devidamente documentada, que ao governo do Estado apresentou o sentenciado Antonio Augusto Alves, recolhido à cadeia publica de Bebedouro, desde 4 de Setembro de 1899, em cumprimento da pena de um ano e dois mezes de prisão sim, les que lhe foi: Imposta pelo jury daquella comarca, em 16 de Outubro do mesmo ano;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.628,
+                0.814,
+                0.896,
+                0.886
+            ],
+            "angle": 0,
+            "content": "Ao ór. juiz de direi o de Bananil, para ser entregues ao interessado, o título de nomeação do promotor público daquella c. marca, l'acharel A'varo Augusto de Carvalho Aranha, para o cargo de curador geral de orphams e ausentes, por decelo de 23 do mez findo de Feverelco;",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.628,
+                0.888,
+                0.896,
+                0.912
+            ],
+            "angle": 0,
+            "content": "Ao dr. juiz de direito de Xúrinica, equal título do pmenclor público dequella comarca, bacharel",
+            "merge_prev": false
+        }
+    ]
+]

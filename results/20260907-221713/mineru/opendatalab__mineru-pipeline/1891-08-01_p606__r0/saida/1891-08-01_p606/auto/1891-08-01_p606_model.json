@@ -1,0 +1,4516 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8571,
+                "bbox": [
+                    57,
+                    156,
+                    562,
+                    266
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9535,
+                "bbox": [
+                    57,
+                    264,
+                    562,
+                    432
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9803,
+                "bbox": [
+                    58,
+                    429,
+                    558,
+                    575
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9829,
+                "bbox": [
+                    57,
+                    572,
+                    557,
+                    720
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9514,
+                "bbox": [
+                    58,
+                    718,
+                    553,
+                    756
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9547,
+                "bbox": [
+                    57,
+                    754,
+                    557,
+                    812
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9736,
+                "bbox": [
+                    61,
+                    854,
+                    564,
+                    1075
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7084,
+                "bbox": [
+                    83,
+                    1071,
+                    393,
+                    1093
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6934,
+                "bbox": [
+                    400,
+                    1089,
+                    541,
+                    1113
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5884,
+                "bbox": [
+                    413,
+                    1114,
+                    527,
+                    1136
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 20,
+                "label": "seal",
+                "score": 0.7179,
+                "bbox": [
+                    148,
+                    1141,
+                    476,
+                    1553
+                ],
+                "index": 11,
+                "text": ""
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8678,
+                "bbox": [
+                    58,
+                    1580,
+                    558,
+                    1630
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8597,
+                "bbox": [
+                    58,
+                    1634,
+                    557,
+                    1709
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4767,
+                "bbox": [
+                    78,
+                    1705,
+                    540,
+                    1747
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5065,
+                "bbox": [
+                    79,
+                    1746,
+                    432,
+                    1771
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5682,
+                "bbox": [
+                    231,
+                    1773,
+                    531,
+                    1798
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.5049,
+                "bbox": [
+                    227,
+                    1831,
+                    390,
+                    1869
+                ],
+                "index": 17
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4858,
+                "bbox": [
+                    110,
+                    1889,
+                    492,
+                    1927
+                ],
+                "index": 18
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4836,
+                "bbox": [
+                    78,
+                    1930,
+                    550,
+                    1973
+                ],
+                "index": 19
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9758,
+                "bbox": [
+                    563,
+                    156,
+                    1057,
+                    286
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9719,
+                "bbox": [
+                    563,
+                    283,
+                    1056,
+                    358
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9635,
+                "bbox": [
+                    562,
+                    356,
+                    1056,
+                    412
+                ],
+                "index": 22
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9216,
+                "bbox": [
+                    562,
+                    409,
+                    1054,
+                    450
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7784,
+                "bbox": [
+                    580,
+                    451,
+                    866,
+                    476
+                ],
+                "index": 24
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8519,
+                "bbox": [
+                    696,
+                    477,
+                    976,
+                    520
+                ],
+                "index": 25
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9469,
+                "bbox": [
+                    671,
+                    535,
+                    939,
+                    569
+                ],
+                "index": 26
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9727,
+                "bbox": [
+                    558,
+                    579,
+                    1053,
+                    677
+                ],
+                "index": 27
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9087,
+                "bbox": [
+                    572,
+                    677,
+                    1041,
+                    976
+                ],
+                "index": 28
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6596,
+                "bbox": [
+                    802,
+                    987,
+                    969,
+                    1011
+                ],
+                "index": 29
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4673,
+                "bbox": [
+                    582,
+                    1014,
+                    632,
+                    1038
+                ],
+                "index": 30
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8114,
+                "bbox": [
+                    760,
+                    1013,
+                    1036,
+                    1039
+                ],
+                "index": 31
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9439,
+                "bbox": [
+                    645,
+                    1056,
+                    976,
+                    1093
+                ],
+                "index": 32
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9764,
+                "bbox": [
+                    564,
+                    1100,
+                    1057,
+                    1193
+                ],
+                "index": 33
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9585,
+                "bbox": [
+                    566,
+                    1190,
+                    1057,
+                    1229
+                ],
+                "index": 34
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9497,
+                "bbox": [
+                    565,
+                    1227,
+                    1057,
+                    1266
+                ],
+                "index": 35
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9298,
+                "bbox": [
+                    583,
+                    1263,
+                    1036,
+                    1302
+                ],
+                "index": 36
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5352,
+                "bbox": [
+                    582,
+                    1322,
+                    633,
+                    1346
+                ],
+                "index": 37
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9095,
+                "bbox": [
+                    753,
+                    1304,
+                    1036,
+                    1346
+                ],
+                "index": 38
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9432,
+                "bbox": [
+                    710,
+                    1367,
+                    911,
+                    1402
+                ],
+                "index": 39
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9825,
+                "bbox": [
+                    560,
+                    1409,
+                    1056,
+                    1666
+                ],
+                "index": 40
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8794,
+                "bbox": [
+                    576,
+                    1667,
+                    885,
+                    1691
+                ],
+                "index": 41
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7527,
+                "bbox": [
+                    768,
+                    1693,
+                    1030,
+                    1734
+                ],
+                "index": 42
+            },
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.95,
+                "bbox": [
+                    597,
+                    1754,
+                    1015,
+                    1791
+                ],
+                "index": 43
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9555,
+                "bbox": [
+                    553,
+                    1797,
+                    1048,
+                    1896
+                ],
+                "index": 44
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4652,
+                "bbox": [
+                    573,
+                    1889,
+                    750,
+                    1909
+                ],
+                "index": 45
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6065,
+                "bbox": [
+                    571,
+                    1903,
+                    884,
+                    1926
+                ],
+                "index": 46
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6185,
+                "bbox": [
+                    800,
+                    1922,
+                    1027,
+                    1968
+                ],
+                "index": 47
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7648,
+                "bbox": [
+                    1061,
+                    153,
+                    1546,
+                    221
+                ],
+                "index": 48
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.954,
+                "bbox": [
+                    1057,
+                    225,
+                    1553,
+                    387
+                ],
+                "index": 49
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8732,
+                "bbox": [
+                    1058,
+                    392,
+                    1527,
+                    433
+                ],
+                "index": 50
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8752,
+                "bbox": [
+                    1055,
+                    478,
+                    1545,
+                    517
+                ],
+                "index": 51
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9761,
+                "bbox": [
+                    1055,
+                    516,
+                    1550,
+                    627
+                ],
+                "index": 52
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9667,
+                "bbox": [
+                    1056,
+                    624,
+                    1548,
+                    681
+                ],
+                "index": 53
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8578,
+                "bbox": [
+                    1073,
+                    677,
+                    1369,
+                    698
+                ],
+                "index": 54
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5007,
+                "bbox": [
+                    1058,
+                    711,
+                    1115,
+                    736
+                ],
+                "index": 55
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9059,
+                "bbox": [
+                    1270,
+                    695,
+                    1527,
+                    737
+                ],
+                "index": 56
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7247,
+                "bbox": [
+                    1104,
+                    770,
+                    1497,
+                    809
+                ],
+                "index": 57
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7996,
+                "bbox": [
+                    1133,
+                    820,
+                    1462,
+                    843
+                ],
+                "index": 58
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7456,
+                "bbox": [
+                    1185,
+                    850,
+                    1424,
+                    875
+                ],
+                "index": 59
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9797,
+                "bbox": [
+                    1057,
+                    881,
+                    1553,
+                    1031
+                ],
+                "index": 60
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8413,
+                "bbox": [
+                    1076,
+                    1030,
+                    1384,
+                    1053
+                ],
+                "index": 61
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4563,
+                "bbox": [
+                    1060,
+                    1072,
+                    1107,
+                    1096
+                ],
+                "index": 62
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8433,
+                "bbox": [
+                    1280,
+                    1053,
+                    1534,
+                    1095
+                ],
+                "index": 63
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.951,
+                "bbox": [
+                    1110,
+                    1114,
+                    1498,
+                    1149
+                ],
+                "index": 64
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9628,
+                "bbox": [
+                    1058,
+                    1157,
+                    1561,
+                    1366
+                ],
+                "index": 65
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7586,
+                "bbox": [
+                    1086,
+                    1364,
+                    1472,
+                    1394
+                ],
+                "index": 66
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5168,
+                "bbox": [
+                    1142,
+                    1405,
+                    1519,
+                    1502
+                ],
+                "index": 67
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9343,
+                "bbox": [
+                    1114,
+                    1529,
+                    1485,
+                    1568
+                ],
+                "index": 68
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6636,
+                "bbox": [
+                    1219,
+                    1573,
+                    1381,
+                    1599
+                ],
+                "index": 69
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9836,
+                "bbox": [
+                    1051,
+                    1605,
+                    1559,
+                    1890
+                ],
+                "index": 70
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8349,
+                "bbox": [
+                    1076,
+                    1888,
+                    1516,
+                    1972
+                ],
+                "index": 71
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    58,
+                    159,
+                    560,
+                    175
+                ],
+                "score": 0.839,
+                "text": "ceitava de hom grailo, por isso que jáera esta a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    59,
+                    177,
+                    558,
+                    194
+                ],
+                "score": 0.875,
+                "text": "intencão com (ue tiha vindo para a Assembléa e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    196,
+                    557,
+                    212
+                ],
+                "score": 0.799,
+                "text": "pedioqüc fosseeónsiguado.naacta tudoque al"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    60,
+                    214,
+                    559,
+                    231
+                ],
+                "score": 0.876,
+                "text": "legara em sua defezaque consisliu emidemonstrar"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    61,
+                    231,
+                    558,
+                    249
+                ],
+                "score": 0.861,
+                "text": "a bòa ré e ba vontáde com que procedeu cm todos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    250,
+                    353,
+                    266
+                ],
+                "score": 0.953,
+                "text": "osnegociós daCompanhia."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    81,
+                    265,
+                    562,
+                    285
+                ],
+                "score": 0.945,
+                "text": "Assumindo de nevo a presidencia tomou a. pala-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    286,
+                    560,
+                    304
+                ],
+                "score": 0.922,
+                "text": "vra o secrctario e propoz que fosse supprimído o"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    63,
+                    303,
+                    560,
+                    324
+                ],
+                "score": 0.949,
+                "text": "cargo de vice-presidente da Compauhia,o que posto"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    322,
+                    561,
+                    341
+                ],
+                "score": 0.942,
+                "text": "a votos foi unanimemente acceito. Convidou então o"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    340,
+                    560,
+                    358
+                ],
+                "score": 0.953,
+                "text": "presidente os accionistas a, eleger por eserutinio se-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    357,
+                    560,
+                    377
+                ],
+                "score": 0.932,
+                "text": "creto. a nova directoria. Apurados os votos foram"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    57,
+                    376,
+                    560,
+                    394
+                ],
+                "score": 0.912,
+                "text": "por maioria cteitos;—presidenteJoaguim dos Santos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    59,
+                    394,
+                    561,
+                    413
+                ],
+                "score": 0.983,
+                "text": "Azevedo; secretario dr. Antonio Veriano Pereira;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    65,
+                    414,
+                    434,
+                    432
+                ],
+                "score": 0.939,
+                "text": "gerenfe Hcnrique Proost de Camargo."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    63,
+                    426,
+                    558,
+                    448
+                ],
+                "score": 0.942,
+                "text": " Depois pediù a palavra o sr. dr, Veriano Pereira"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    447,
+                    558,
+                    465
+                ],
+                "score": 0.964,
+                "text": "e disse que a súa uomeação para o cargo de dire-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    466,
+                    558,
+                    484
+                ],
+                "score": 0.964,
+                "text": "ctor deixava vago o cargo que occupara de sup-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    61,
+                    484,
+                    560,
+                    502
+                ],
+                "score": 0.959,
+                "text": "plente do Conselho Fiscal e pedio que fosse accla-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    61,
+                    502,
+                    555,
+                    520
+                ],
+                "score": 0.947,
+                "text": "mado uin accionisla para preencher esta vaga. In-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    61,
+                    521,
+                    557,
+                    538
+                ],
+                "score": 0.93,
+                "text": "dicado pelo sr. Jlenriquc Proost de Gamargo o. ac-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    61,
+                    539,
+                    555,
+                    556
+                ],
+                "score": 0.968,
+                "text": "cionista José Ulpiano Pinto de Souza, foi este una-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    63,
+                    559,
+                    245,
+                    575
+                ],
+                "score": 0.963,
+                "text": "nimemente acceito."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    67,
+                    572,
+                    557,
+                    593
+                ],
+                "score": 0.953,
+                "text": " Pediu entáo a palivra o sr. Joaquim dos Santos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    592,
+                    558,
+                    610
+                ],
+                "score": 0.943,
+                "text": "Azevedo e propoz que fossein egualados us hono-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    610,
+                    555,
+                    630
+                ],
+                "score": 0.928,
+                "text": "rarios da Directoria, isto è, 4 conlos annuaes ; o"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    61,
+                    628,
+                    555,
+                    647
+                ],
+                "score": 0.975,
+                "text": "que posto a vutos foi unanimemente approvado. Não"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    59,
+                    646,
+                    555,
+                    664
+                ],
+                "score": 0.947,
+                "text": "haveudo mais nada a tratar o se. Joaquim Azevedo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    60,
+                    665,
+                    554,
+                    683
+                ],
+                "score": 0.946,
+                "text": "propoz que su encorrasse a sessão e se désse pode-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    61,
+                    682,
+                    553,
+                    701
+                ],
+                "score": 0.933,
+                "text": "Tes á mesa paãa assiguar a acta por todos os accio-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    64,
+                    701,
+                    447,
+                    718
+                ],
+                "score": 0.914,
+                "text": "pistas, o que loi unanimemente aeceito."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    80,
+                    718,
+                    553,
+                    738
+                ],
+                "score": 0.938,
+                "text": "Levantou-se então a sessão e lavrou-se a pre-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    63,
+                    739,
+                    401,
+                    754
+                ],
+                "score": 0.893,
+                "text": "sente gue vai pela mesa assignada."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    81,
+                    751,
+                    554,
+                    774
+                ],
+                "score": 0.909,
+                "text": "Sāo Paulo, 9 de Julho de 1891,—0 Presidente,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    771,
+                    556,
+                    793
+                ],
+                "score": 0.899,
+                "text": "Antonio Anteaur de Azevedo.-O. Secretario, José"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    789,
+                    324,
+                    811
+                ],
+                "score": 0.965,
+                "text": "Ulpiano Pinta de Souza."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    852,
+                    561,
+                    879
+                ],
+                "score": 0.894,
+                "text": "A Compantia dle Fumos «S. Paulo», estabelecida na"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    65,
+                    891,
+                    560,
+                    914
+                ],
+                "score": 0.942,
+                "text": "sentada pelo seu presidente, vem apresentar a esta"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    66,
+                    908,
+                    561,
+                    932
+                ],
+                "score": 0.917,
+                "text": "Meritissimna Jonia Conmercial a marea acima colla-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    64,
+                    999,
+                    562,
+                    1024
+                ],
+                "score": 0.932,
+                "text": "ferida rarca é usata pelo supplicante en papel de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    66,
+                    1017,
+                    562,
+                    1041
+                ],
+                "score": 0.863,
+                "text": "toda e quaiquer ror è applicada como dístinclivo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    65,
+                    1054,
+                    428,
+                    1076
+                ],
+                "score": 0.927,
+                "text": "producto de set commercio e fabrico."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    65,
+                    874,
+                    560,
+                    895
+                ],
+                "score": 0.953,
+                "text": "capital deste Fstiado comn commercio de fumos, repre-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    65,
+                    928,
+                    559,
+                    950
+                ],
+                "score": 0.933,
+                "text": "da, consistente anun homen sentado fumando em um"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    65,
+                    946,
+                    560,
+                    968
+                ],
+                "score": 0.871,
+                "text": "cachimbo, lendo eo cima a palavra «Funo» e em"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    65,
+                    965,
+                    559,
+                    985
+                ],
+                "score": 0.891,
+                "text": "baixo «Negro, forte e sena composição», a qual que-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    64,
+                    982,
+                    561,
+                    1003
+                ],
+                "score": 0.933,
+                "text": "rem regisiral-a com o titulo «Fumo Negro». A re-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    63,
+                    1037,
+                    562,
+                    1058
+                ],
+                "score": 0.918,
+                "text": "nos funos cin acotes e ei latas, conlendo o mesmo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    1069,
+                    391,
+                    1093
+                ],
+                "score": 0.954,
+                "text": "S. Paulo, 27 de Junbo de 189i."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    401,
+                    1089,
+                    540,
+                    1115
+                ],
+                "score": 0.975,
+                "text": "Irineo Villelu,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    414,
+                    1112,
+                    525,
+                    1139
+                ],
+                "score": 0.999,
+                "text": "Presidente."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    70,
+                    1582,
+                    557,
+                    1602
+                ],
+                "score": 0.951,
+                "text": "Apresentada ua sccretaria da Junta Gommercial"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    57,
+                    1599,
+                    556,
+                    1621
+                ],
+                "score": 0.952,
+                "text": "de S. Paulo á  hora da tarde de 10 de Julhode 1891."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    238,
+                    1634,
+                    533,
+                    1653
+                ],
+                "score": 0.98,
+                "text": "O secretario, J. A. de Andrade."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    81,
+                    1650,
+                    557,
+                    1673
+                ],
+                "score": 0.949,
+                "text": "Registrado sob n. 1 en virtude do despacho da"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    63,
+                    1667,
+                    557,
+                    1691
+                ],
+                "score": 0.969,
+                "text": "Junta Commercial de S. Paulo, em sessão de 10 de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    58,
+                    1688,
+                    202,
+                    1706
+                ],
+                "score": 0.876,
+                "text": "Jnlho de 1891."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    79,
+                    1704,
+                    381,
+                    1726
+                ],
+                "score": 0.938,
+                "text": "S. Pauão, 13 de Julho de 1891."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    235,
+                    1723,
+                    536,
+                    1744
+                ],
+                "score": 0.945,
+                "text": "O secrctario, J. A. de Andrade."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    83,
+                    1748,
+                    428,
+                    1771
+                ],
+                "score": 0.927,
+                "text": "Pagou o.10. excmplar 6g000 de sello."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    232,
+                    1774,
+                    529,
+                    1795
+                ],
+                "score": 0.965,
+                "text": "O secretario, J. A. de Andrade."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    115,
+                    1891,
+                    487,
+                    1924
+                ],
+                "score": 0.949,
+                "text": "Companhia Indestrial de Santes"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    77,
+                    1931,
+                    549,
+                    1955
+                ],
+                "score": 0.942,
+                "text": "Tendo de reuuir-se no dia 8 do proximo mez"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    78,
+                    1952,
+                    547,
+                    1972
+                ],
+                "score": 0.91,
+                "text": "Agosto a assemblea geralordinaria desta Com-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    562,
+                    154,
+                    1059,
+                    176
+                ],
+                "score": 0.932,
+                "text": "panhia, para os, fins do artigo 9o de seus Estatutos,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    564,
+                    173,
+                    1057,
+                    196
+                ],
+                "score": 0.929,
+                "text": "pelo presente e. de conformidade. com o disposto"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    564,
+                    192,
+                    1057,
+                    213
+                ],
+                "score": 0.945,
+                "text": "no arligo 147 do Deereto n. 434 de 4 de Julho"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    565,
+                    212,
+                    1055,
+                    230
+                ],
+                "score": 0.885,
+                "text": "correnic, se avisa aos srs. accionistas que desta"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    566,
+                    229,
+                    1054,
+                    250
+                ],
+                "score": 0.94,
+                "text": "dáta em díante ficam á sua disposição, na séde da"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    566,
+                    247,
+                    1053,
+                    267
+                ],
+                "score": 0.942,
+                "text": "Companhia; á rua 15 de Novembro n. 23, os se-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    566,
+                    268,
+                    771,
+                    286
+                ],
+                "score": 0.995,
+                "text": "guintes documentos:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    582,
+                    282,
+                    1055,
+                    304
+                ],
+                "score": 0.959,
+                "text": "1.o Cópia do balanço contendo a indicação dos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    566,
+                    302,
+                    1054,
+                    324
+                ],
+                "score": 0.958,
+                "text": "valores moveis, immoveis, e em synopse, das di"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    566,
+                    322,
+                    1053,
+                    340
+                ],
+                "score": 0.896,
+                "text": "vidás activas c pássívas, por clásses,. segundo a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    565,
+                    339,
+                    764,
+                    358
+                ],
+                "score": 0.934,
+                "text": "naturcza dos titulos;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    568,
+                    355,
+                    1057,
+                    377
+                ],
+                "score": 0.949,
+                "text": "2.º Cópia da relação nominal dos aecionistas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    561,
+                    374,
+                    1055,
+                    395
+                ],
+                "score": 0.941,
+                "text": "com o nuinero de aeções respectivas e esfado to"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    561,
+                    395,
+                    744,
+                    411
+                ],
+                "score": 0.989,
+                "text": "pagamento destas;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    559,
+                    405,
+                    1054,
+                    434
+                ],
+                "score": 0.949,
+                "text": " 3.o Cópia da lista da transferencia das acções"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    561,
+                    429,
+                    922,
+                    448
+                ],
+                "score": 0.96,
+                "text": "realisadas no decurso do anno social."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    584,
+                    454,
+                    863,
+                    476
+                ],
+                "score": 0.98,
+                "text": "Santos, 28 de Julho de 1891."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    698,
+                    480,
+                    972,
+                    502
+                ],
+                "score": 0.967,
+                "text": "O presidente da Companhia,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    731,
+                    500,
+                    921,
+                    519
+                ],
+                "score": 0.949,
+                "text": "Luiz José de Muttos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    675,
+                    539,
+                    934,
+                    568
+                ],
+                "score": 0.995,
+                "text": "COMPANHIA ITUANA"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    582,
+                    582,
+                    1050,
+                    602
+                ],
+                "score": 0.968,
+                "text": "Na estação Sorocabana da capital, como no es-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    560,
+                    600,
+                    1053,
+                    620
+                ],
+                "score": 0.92,
+                "text": "eriptovio ecntral da Compauhia, em Há, pagam-se"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    561,
+                    619,
+                    1051,
+                    637
+                ],
+                "score": 0.955,
+                "text": "os juros de Dehentures vencitlos e bem assim os"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    561,
+                    636,
+                    1049,
+                    657
+                ],
+                "score": 0.939,
+                "text": "Debentures de 7 o/o sorteados dos seguintes nu-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    557,
+                    657,
+                    632,
+                    674
+                ],
+                "score": 0.899,
+                "text": "nieros :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    588,
+                    679,
+                    631,
+                    705
+                ],
+                "score": 0.777,
+                "text": "35 1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    647,
+                    682,
+                    688,
+                    702
+                ],
+                "score": 1.0,
+                "text": "60"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    709,
+                    680,
+                    751,
+                    704
+                ],
+                "score": 0.99,
+                "text": "751"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    761,
+                    676,
+                    815,
+                    704
+                ],
+                "score": 0.882,
+                "text": "107 "
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    819,
+                    681,
+                    859,
+                    701
+                ],
+                "score": 0.956,
+                "text": "118"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    882,
+                    681,
+                    919,
+                    700
+                ],
+                "score": 1.0,
+                "text": "149"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    942,
+                    677,
+                    995,
+                    702
+                ],
+                "score": 0.969,
+                "text": "185|"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1000,
+                    680,
+                    1036,
+                    700
+                ],
+                "score": 1.0,
+                "text": "187"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    579,
+                    700,
+                    616,
+                    721
+                ],
+                "score": 1.0,
+                "text": "218"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    639,
+                    699,
+                    678,
+                    722
+                ],
+                "score": 1.0,
+                "text": "228"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    700,
+                    699,
+                    736,
+                    719
+                ],
+                "score": 1.0,
+                "text": "249"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    761,
+                    699,
+                    798,
+                    719
+                ],
+                "score": 1.0,
+                "text": "253"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    820,
+                    699,
+                    857,
+                    719
+                ],
+                "score": 1.0,
+                "text": "257"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    881,
+                    699,
+                    917,
+                    718
+                ],
+                "score": 1.0,
+                "text": "322"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    940,
+                    697,
+                    979,
+                    719
+                ],
+                "score": 1.0,
+                "text": "341"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1000,
+                    696,
+                    1038,
+                    719
+                ],
+                "score": 0.995,
+                "text": "354"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    579,
+                    718,
+                    616,
+                    738
+                ],
+                "score": 1.0,
+                "text": "361"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    640,
+                    715,
+                    678,
+                    739
+                ],
+                "score": 0.97,
+                "text": "360"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    700,
+                    716,
+                    736,
+                    737
+                ],
+                "score": 1.0,
+                "text": "372"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    761,
+                    717,
+                    797,
+                    737
+                ],
+                "score": 0.995,
+                "text": "391"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    821,
+                    717,
+                    857,
+                    737
+                ],
+                "score": 1.0,
+                "text": "466"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    878,
+                    717,
+                    916,
+                    735
+                ],
+                "score": 1.0,
+                "text": "474"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    942,
+                    716,
+                    978,
+                    736
+                ],
+                "score": 1.0,
+                "text": "487"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1000,
+                    715,
+                    1036,
+                    736
+                ],
+                "score": 1.0,
+                "text": "501"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    579,
+                    734,
+                    619,
+                    758
+                ],
+                "score": 1.0,
+                "text": "540"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    637,
+                    736,
+                    677,
+                    756
+                ],
+                "score": 1.0,
+                "text": "572"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    701,
+                    735,
+                    736,
+                    756
+                ],
+                "score": 0.97,
+                "text": "599"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    761,
+                    735,
+                    797,
+                    755
+                ],
+                "score": 1.0,
+                "text": "605"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    821,
+                    735,
+                    857,
+                    756
+                ],
+                "score": 1.0,
+                "text": "607"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    881,
+                    735,
+                    918,
+                    755
+                ],
+                "score": 1.0,
+                "text": "619"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    942,
+                    734,
+                    978,
+                    754
+                ],
+                "score": 1.0,
+                "text": "629"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1001,
+                    733,
+                    1037,
+                    754
+                ],
+                "score": 1.0,
+                "text": "632"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    580,
+                    753,
+                    618,
+                    777
+                ],
+                "score": 0.851,
+                "text": "654"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    640,
+                    753,
+                    679,
+                    776
+                ],
+                "score": 1.0,
+                "text": "663"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    701,
+                    753,
+                    737,
+                    774
+                ],
+                "score": 0.995,
+                "text": "682"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    761,
+                    753,
+                    797,
+                    774
+                ],
+                "score": 1.0,
+                "text": "721"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    820,
+                    751,
+                    859,
+                    775
+                ],
+                "score": 1.0,
+                "text": "735"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    880,
+                    752,
+                    919,
+                    775
+                ],
+                "score": 1.0,
+                "text": "778"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    942,
+                    753,
+                    977,
+                    774
+                ],
+                "score": 0.995,
+                "text": "784"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1000,
+                    750,
+                    1038,
+                    774
+                ],
+                "score": 1.0,
+                "text": "825"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    580,
+                    771,
+                    618,
+                    795
+                ],
+                "score": 0.99,
+                "text": "838"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    638,
+                    771,
+                    678,
+                    792
+                ],
+                "score": 0.85,
+                "text": "845"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    701,
+                    771,
+                    738,
+                    791
+                ],
+                "score": 0.972,
+                "text": "860"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    760,
+                    769,
+                    799,
+                    793
+                ],
+                "score": 1.0,
+                "text": "872"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    820,
+                    771,
+                    859,
+                    791
+                ],
+                "score": 0.726,
+                "text": "S80"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    880,
+                    769,
+                    920,
+                    792
+                ],
+                "score": 1.0,
+                "text": "913"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    942,
+                    769,
+                    978,
+                    790
+                ],
+                "score": 0.995,
+                "text": "938"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1000,
+                    766,
+                    1038,
+                    791
+                ],
+                "score": 0.963,
+                "text": "963"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    579,
+                    789,
+                    619,
+                    813
+                ],
+                "score": 1.0,
+                "text": "976"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    639,
+                    789,
+                    679,
+                    812
+                ],
+                "score": 1.0,
+                "text": "992"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    693,
+                    790,
+                    736,
+                    810
+                ],
+                "score": 1.0,
+                "text": "1021"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    751,
+                    788,
+                    799,
+                    811
+                ],
+                "score": 1.0,
+                "text": "1022"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    811,
+                    788,
+                    858,
+                    808
+                ],
+                "score": 1.0,
+                "text": "1040"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    871,
+                    788,
+                    918,
+                    811
+                ],
+                "score": 0.992,
+                "text": "1138"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    932,
+                    789,
+                    978,
+                    809
+                ],
+                "score": 1.0,
+                "text": "1191"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    991,
+                    787,
+                    1037,
+                    810
+                ],
+                "score": 1.0,
+                "text": "1194"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    572,
+                    809,
+                    619,
+                    832
+                ],
+                "score": 1.0,
+                "text": "1202"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    632,
+                    805,
+                    680,
+                    831
+                ],
+                "score": 1.0,
+                "text": "1205"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    692,
+                    807,
+                    739,
+                    830
+                ],
+                "score": 1.0,
+                "text": "1209"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    751,
+                    807,
+                    800,
+                    830
+                ],
+                "score": 1.0,
+                "text": "1223"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    812,
+                    806,
+                    859,
+                    829
+                ],
+                "score": 1.0,
+                "text": "1254"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    872,
+                    806,
+                    918,
+                    830
+                ],
+                "score": 1.0,
+                "text": "1261"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    932,
+                    806,
+                    980,
+                    829
+                ],
+                "score": 1.0,
+                "text": "1271"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    992,
+                    807,
+                    1035,
+                    827
+                ],
+                "score": 1.0,
+                "text": "1281"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    573,
+                    828,
+                    620,
+                    851
+                ],
+                "score": 0.996,
+                "text": "1306"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    635,
+                    828,
+                    679,
+                    847
+                ],
+                "score": 1.0,
+                "text": "1311"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    694,
+                    827,
+                    738,
+                    846
+                ],
+                "score": 1.0,
+                "text": "1320"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    752,
+                    824,
+                    800,
+                    847
+                ],
+                "score": 1.0,
+                "text": "1322"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    812,
+                    824,
+                    859,
+                    847
+                ],
+                "score": 1.0,
+                "text": "1337"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    871,
+                    822,
+                    920,
+                    849
+                ],
+                "score": 1.0,
+                "text": "1377"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    933,
+                    825,
+                    989,
+                    845
+                ],
+                "score": 0.996,
+                "text": "1444"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    992,
+                    825,
+                    1036,
+                    845
+                ],
+                "score": 0.996,
+                "text": "1454"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    573,
+                    845,
+                    621,
+                    868
+                ],
+                "score": 0.996,
+                "text": "1466"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    634,
+                    843,
+                    681,
+                    867
+                ],
+                "score": 1.0,
+                "text": "1473"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    694,
+                    845,
+                    740,
+                    865
+                ],
+                "score": 1.0,
+                "text": "1492"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    753,
+                    844,
+                    799,
+                    864
+                ],
+                "score": 1.0,
+                "text": "1507"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    812,
+                    842,
+                    860,
+                    865
+                ],
+                "score": 1.0,
+                "text": "1518"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    873,
+                    842,
+                    919,
+                    865
+                ],
+                "score": 1.0,
+                "text": "1545"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    934,
+                    844,
+                    981,
+                    864
+                ],
+                "score": 1.0,
+                "text": "1567"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    992,
+                    842,
+                    1039,
+                    865
+                ],
+                "score": 1.0,
+                "text": "1533"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    574,
+                    865,
+                    620,
+                    885
+                ],
+                "score": 1.0,
+                "text": "1623"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    633,
+                    864,
+                    678,
+                    881
+                ],
+                "score": 1.0,
+                "text": "1626"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    695,
+                    863,
+                    740,
+                    883
+                ],
+                "score": 1.0,
+                "text": "1627"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    743,
+                    866,
+                    750,
+                    881
+                ],
+                "score": 0.869,
+                "text": "1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    752,
+                    860,
+                    801,
+                    881
+                ],
+                "score": 0.876,
+                "text": "1032"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    814,
+                    861,
+                    860,
+                    884
+                ],
+                "score": 1.0,
+                "text": "1638"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    875,
+                    862,
+                    919,
+                    882
+                ],
+                "score": 0.996,
+                "text": "1648"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    934,
+                    862,
+                    980,
+                    882
+                ],
+                "score": 0.967,
+                "text": "1683"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    993,
+                    862,
+                    1039,
+                    882
+                ],
+                "score": 1.0,
+                "text": "1690"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    573,
+                    882,
+                    620,
+                    902
+                ],
+                "score": 1.0,
+                "text": "1704"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    634,
+                    882,
+                    679,
+                    899
+                ],
+                "score": 1.0,
+                "text": "1726"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    696,
+                    882,
+                    740,
+                    900
+                ],
+                "score": 1.0,
+                "text": "1755"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    755,
+                    881,
+                    801,
+                    900
+                ],
+                "score": 1.0,
+                "text": "1793"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    815,
+                    881,
+                    860,
+                    899
+                ],
+                "score": 1.0,
+                "text": "1805"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    875,
+                    879,
+                    919,
+                    899
+                ],
+                "score": 0.911,
+                "text": "1828"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    935,
+                    881,
+                    992,
+                    900
+                ],
+                "score": 1.0,
+                "text": "1894"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    993,
+                    879,
+                    1040,
+                    899
+                ],
+                "score": 1.0,
+                "text": "1920"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    574,
+                    898,
+                    621,
+                    921
+                ],
+                "score": 1.0,
+                "text": "1921"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    633,
+                    899,
+                    680,
+                    919
+                ],
+                "score": 1.0,
+                "text": "1931"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    696,
+                    899,
+                    740,
+                    919
+                ],
+                "score": 1.0,
+                "text": "1961"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    754,
+                    896,
+                    802,
+                    917
+                ],
+                "score": 0.996,
+                "text": "1963"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    814,
+                    898,
+                    862,
+                    918
+                ],
+                "score": 1.0,
+                "text": "1992"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    876,
+                    898,
+                    919,
+                    918
+                ],
+                "score": 1.0,
+                "text": "2031"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    936,
+                    898,
+                    982,
+                    917
+                ],
+                "score": 1.0,
+                "text": "2049"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    994,
+                    897,
+                    1040,
+                    916
+                ],
+                "score": 1.0,
+                "text": "2052"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    575,
+                    919,
+                    620,
+                    939
+                ],
+                "score": 1.0,
+                "text": "2061"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    634,
+                    918,
+                    681,
+                    935
+                ],
+                "score": 0.996,
+                "text": "2062"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    697,
+                    917,
+                    743,
+                    937
+                ],
+                "score": 0.996,
+                "text": "2080"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    756,
+                    916,
+                    802,
+                    936
+                ],
+                "score": 1.0,
+                "text": "2098"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    816,
+                    916,
+                    861,
+                    936
+                ],
+                "score": 1.0,
+                "text": "2180"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    876,
+                    916,
+                    921,
+                    936
+                ],
+                "score": 1.0,
+                "text": "2185"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    936,
+                    916,
+                    982,
+                    936
+                ],
+                "score": 1.0,
+                "text": "2216"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    996,
+                    916,
+                    1041,
+                    936
+                ],
+                "score": 1.0,
+                "text": "2256"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    574,
+                    935,
+                    623,
+                    958
+                ],
+                "score": 0.985,
+                "text": "2262"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    636,
+                    936,
+                    682,
+                    955
+                ],
+                "score": 1.0,
+                "text": "2278"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    696,
+                    935,
+                    742,
+                    954
+                ],
+                "score": 0.978,
+                "text": "2282"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    754,
+                    933,
+                    803,
+                    953
+                ],
+                "score": 0.989,
+                "text": "2298"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    816,
+                    934,
+                    862,
+                    953
+                ],
+                "score": 1.0,
+                "text": "2305"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    876,
+                    935,
+                    923,
+                    954
+                ],
+                "score": 1.0,
+                "text": "2309"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    935,
+                    934,
+                    1041,
+                    955
+                ],
+                "score": 0.886,
+                "text": "2338 | 2365"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    575,
+                    952,
+                    624,
+                    976
+                ],
+                "score": 1.0,
+                "text": "2371"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    635,
+                    951,
+                    686,
+                    974
+                ],
+                "score": 1.0,
+                "text": "2389"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    695,
+                    951,
+                    746,
+                    973
+                ],
+                "score": 1.0,
+                "text": "2395"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    755,
+                    951,
+                    814,
+                    973
+                ],
+                "score": 1.0,
+                "text": "2461"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    816,
+                    950,
+                    861,
+                    973
+                ],
+                "score": 0.978,
+                "text": "2494"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    804,
+                    990,
+                    966,
+                    1011
+                ],
+                "score": 0.993,
+                "text": "George Oetterer,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    583,
+                    1013,
+                    633,
+                    1047
+                ],
+                "score": 0.891,
+                "text": "3-1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    763,
+                    1016,
+                    1033,
+                    1036
+                ],
+                "score": 0.975,
+                "text": "Representante da Directoria."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    648,
+                    1061,
+                    972,
+                    1093
+                ],
+                "score": 0.999,
+                "text": "COMPANHIA MOGY-LIMEIRA"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    587,
+                    1101,
+                    1058,
+                    1121
+                ],
+                "score": 0.956,
+                "text": "Dle accòrdo com a lei das sociedades anonymas,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    565,
+                    1120,
+                    1055,
+                    1138
+                ],
+                "score": 0.954,
+                "text": "ficam á disposição dos srs. aecionistas, no esrrì-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    566,
+                    1138,
+                    1054,
+                    1157
+                ],
+                "score": 0.963,
+                "text": "ptorio da Companhia, á rta do Commercio n. 50,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    565,
+                    1156,
+                    1055,
+                    1176
+                ],
+                "score": 0.937,
+                "text": "sobrado, desde o dia 1º de Agosto proximno enì"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    563,
+                    1174,
+                    888,
+                    1193
+                ],
+                "score": 0.953,
+                "text": "dianie, os segúintes documentos:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    589,
+                    1190,
+                    1057,
+                    1212
+                ],
+                "score": 0.941,
+                "text": "1.0'Cópia do balanço da Companhia, relativo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    565,
+                    1211,
+                    724,
+                    1229
+                ],
+                "score": 0.907,
+                "text": "ao1º senicstre;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    584,
+                    1226,
+                    1057,
+                    1248
+                ],
+                "score": 0.945,
+                "text": "2.o Cópia dá relação Bominal dos accionistas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    563,
+                    1245,
+                    939,
+                    1266
+                ],
+                "score": 0.952,
+                "text": "comn o numero de acções respectivas ;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    585,
+                    1262,
+                    1033,
+                    1284
+                ],
+                "score": 0.97,
+                "text": "3.° Cópia da lisla de transferencia de acções."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    587,
+                    1280,
+                    889,
+                    1302
+                ],
+                "score": 0.971,
+                "text": "S. Paufo, 30 de Julho de 1891,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    583,
+                    1323,
+                    632,
+                    1350
+                ],
+                "score": 0.961,
+                "text": "5-2"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    754,
+                    1304,
+                    1033,
+                    1327
+                ],
+                "score": 0.986,
+                "text": "Assignado—Barão de Cintra,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    766,
+                    1324,
+                    1013,
+                    1345
+                ],
+                "score": 0.996,
+                "text": "Presidente da Companhia."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    711,
+                    1367,
+                    908,
+                    1403
+                ],
+                "score": 0.984,
+                "text": "Banco do Estado"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    584,
+                    1410,
+                    1055,
+                    1430
+                ],
+                "score": 0.987,
+                "text": "Tendo se relirado da directoria deste Banco o"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    564,
+                    1430,
+                    1055,
+                    1449
+                ],
+                "score": 0.977,
+                "text": "sr. dr. Angelo Pires Ramos e não tendo compa-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    563,
+                    1448,
+                    1057,
+                    1465
+                ],
+                "score": 0.97,
+                "text": "recído numero legal de accionistas nem na pri-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    563,
+                    1466,
+                    1056,
+                    1486
+                ],
+                "score": 0.95,
+                "text": "mneira nem na segunda reuníão, convocada para"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    563,
+                    1484,
+                    1054,
+                    1503
+                ],
+                "score": 0.948,
+                "text": "hoje, de novo e pela 3s vez convoco-os para uma"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    562,
+                    1502,
+                    1053,
+                    1519
+                ],
+                "score": 0.976,
+                "text": "reuníão extraordinaria que terá logar no dia á do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    561,
+                    1519,
+                    1053,
+                    1538
+                ],
+                "score": 0.953,
+                "text": "mez vindouro, á rua do Commercio n. 5, a 1 hora"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    562,
+                    1538,
+                    1052,
+                    1556
+                ],
+                "score": 0.959,
+                "text": "da tarde, para o fim de se reforimnar o ultino ar-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    562,
+                    1555,
+                    1050,
+                    1574
+                ],
+                "score": 0.971,
+                "text": "tigo dos Estatutos, referente á composição da di-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    561,
+                    1574,
+                    1051,
+                    1591
+                ],
+                "score": 0.941,
+                "text": "rectoria e outros, e para a elcição de direçtores,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    561,
+                    1591,
+                    1051,
+                    1609
+                ],
+                "score": 0.92,
+                "text": "devendo-se observar a seguada. parte do § 4º, art."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    561,
+                    1610,
+                    1053,
+                    1627
+                ],
+                "score": 0.95,
+                "text": "15 da lei em vigor, isto é, á. asserbléa deliberará"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    559,
+                    1627,
+                    1053,
+                    1648
+                ],
+                "score": 0.947,
+                "text": "seja qual fór à somma do capifal represéntado pelos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    562,
+                    1648,
+                    656,
+                    1666
+                ],
+                "score": 0.979,
+                "text": "prescntes."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    581,
+                    1668,
+                    883,
+                    1690
+                ],
+                "score": 0.985,
+                "text": "S. Paalo, 30 de Julho de 1891."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    772,
+                    1691,
+                    1010,
+                    1717
+                ],
+                "score": 0.947,
+                "text": "O Director-Secretario,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    770,
+                    1710,
+                    1028,
+                    1734
+                ],
+                "score": 0.987,
+                "text": "Manoel Netto de Araujo."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    601,
+                    1754,
+                    1009,
+                    1790
+                ],
+                "score": 0.971,
+                "text": "Banco de Credito Real de São Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    576,
+                    1798,
+                    1048,
+                    1819
+                ],
+                "score": 0.918,
+                "text": "Sexía-feira, 31 do corrente, ás 11 boras, eñe-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    558,
+                    1816,
+                    1049,
+                    1837
+                ],
+                "score": 0.973,
+                "text": "ctuar-se-á neste Banco o oitavo sorteio de lctras"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    558,
+                    1835,
+                    1048,
+                    1854
+                ],
+                "score": 0.977,
+                "text": "hypolbecarias, devendo ser sorteadas: 2.315 letras"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    555,
+                    1852,
+                    1048,
+                    1872
+                ],
+                "score": 0.907,
+                "text": "dé 1ªsérie, 1.106 da segunda, 493 da terceira, 295"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    554,
+                    1871,
+                    854,
+                    1892
+                ],
+                "score": 0.925,
+                "text": "da quaita e 1.387 da quinta."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    573,
+                    1887,
+                    748,
+                    1912
+                ],
+                "score": 0.91,
+                "text": "Oacto é pnblico."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    572,
+                    1900,
+                    881,
+                    1928
+                ],
+                "score": 0.944,
+                "text": "S. Paulo, 30 de Julbo de 1891."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    803,
+                    1922,
+                    1024,
+                    1944
+                ],
+                "score": 0.986,
+                "text": "José Duarte Rodrigues,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    805,
+                    1948,
+                    999,
+                    1967
+                ],
+                "score": 0.995,
+                "text": "Director-Gerente."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1064,
+                    157,
+                    1541,
+                    189
+                ],
+                "score": 0.979,
+                "text": "Companhia Mercantil e de Obras Pu-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1208,
+                    186,
+                    1397,
+                    221
+                ],
+                "score": 1.0,
+                "text": "blicas Paulista"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1059,
+                    224,
+                    1547,
+                    248
+                ],
+                "score": 0.989,
+                "text": "Tendo de proceder-se á integralisação das acções"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1058,
+                    244,
+                    1552,
+                    266
+                ],
+                "score": 0.949,
+                "text": "desta Companhiae fazer-se distribuição de novos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1057,
+                    262,
+                    1549,
+                    285
+                ],
+                "score": 0.961,
+                "text": "titulos integralisados, conforme a resolução da as-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1058,
+                    299,
+                    1545,
+                    321
+                ],
+                "score": 0.963,
+                "text": "cenvida-se aos srs. accionistas en atrazo a virem"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1058,
+                    317,
+                    1547,
+                    339
+                ],
+                "score": 0.88,
+                "text": "fazer a aitima entroda de capital, á razão de 10/o"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1059,
+                    335,
+                    1545,
+                    358
+                ],
+                "score": 0.931,
+                "text": "ou 10s000 réis por acção, até a dia 10 de Agosto,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1060,
+                    354,
+                    1397,
+                    374
+                ],
+                "score": 0.945,
+                "text": "sob penas do arí. 5.º dos estatutos."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1079,
+                    373,
+                    1382,
+                    390
+                ],
+                "score": 0.882,
+                "text": "S.. Panlo. 22 de Smmho te 1891."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1058,
+                    281,
+                    1545,
+                    302
+                ],
+                "score": 0.941,
+                "text": "sembléa geral de 25.de Junho proximo: passado,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1355,
+                    388,
+                    1486,
+                    413
+                ],
+                "score": 0.99,
+                "text": "O. presidente,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1060,
+                    407,
+                    1523,
+                    429
+                ],
+                "score": 0.944,
+                "text": "(23, 28, 31, 1, 10) João Carlos Lcite Penteado."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1053,
+                    478,
+                    1543,
+                    518
+                ],
+                "score": 0.982,
+                "text": "Comp. Commercial e de Panificação Panlista"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1077,
+                    515,
+                    1544,
+                    536
+                ],
+                "score": 0.962,
+                "text": "Convido aos srs. accionistas para uma assembléa"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1058,
+                    536,
+                    1546,
+                    555
+                ],
+                "score": 0.984,
+                "text": "geral extraordinarin que terá logar no dia 4 de Agos-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1059,
+                    554,
+                    1547,
+                    572
+                ],
+                "score": 0.958,
+                "text": "to, ao meio dia, para tratar-se de refor na de esta-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1059,
+                    572,
+                    1544,
+                    590
+                ],
+                "score": 0.955,
+                "text": "tuios e de formalidades que interessamn a vida le-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1056,
+                    589,
+                    1545,
+                    608
+                ],
+                "score": 0.972,
+                "text": "gal da sociedade, tendo logar a assenbléa á rua"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1055,
+                    607,
+                    1263,
+                    626
+                ],
+                "score": 0.982,
+                "text": "Libero Badaró n. 111."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1078,
+                    625,
+                    1544,
+                    645
+                ],
+                "score": 0.957,
+                "text": "Pata esta assembléa se torna necessario o com-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1056,
+                    645,
+                    1543,
+                    662
+                ],
+                "score": 0.992,
+                "text": "parecimento de accionístas que representem dous"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1058,
+                    663,
+                    1278,
+                    680
+                ],
+                "score": 0.981,
+                "text": "terços do capital social."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1074,
+                    674,
+                    1365,
+                    699
+                ],
+                "score": 0.961,
+                "text": "S. Paulo, 25 de Julho de 1891."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1056,
+                    712,
+                    1114,
+                    741
+                ],
+                "score": 0.976,
+                "text": "10-4"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1320,
+                    695,
+                    1522,
+                    716
+                ],
+                "score": 0.998,
+                "text": "Silvestre Paes Leme."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1273,
+                    714,
+                    1522,
+                    735
+                ],
+                "score": 0.929,
+                "text": "Presiúente da Companbia."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1107,
+                    772,
+                    1492,
+                    809
+                ],
+                "score": 0.981,
+                "text": "COMPANHIA SÃO PAULO FABRIL"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1139,
+                    826,
+                    1456,
+                    839
+                ],
+                "score": 0.943,
+                "text": "ASSRMBLRA GEUAL EXTRAORDINARIA"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1188,
+                    854,
+                    1419,
+                    874
+                ],
+                "score": 0.901,
+                "text": "(2° Convocnção)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1079,
+                    884,
+                    1546,
+                    902
+                ],
+                "score": 0.958,
+                "text": "Não tendo se reuoido accionisías representando"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1058,
+                    903,
+                    1546,
+                    920
+                ],
+                "score": 0.976,
+                "text": "dous lerços de acções, cono preceituam os estatu-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1059,
+                    921,
+                    1548,
+                    938
+                ],
+                "score": 0.937,
+                "text": "tos. pavá haver a assembléa geral eunvocada para"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1058,
+                    939,
+                    1547,
+                    957
+                ],
+                "score": 0.958,
+                "text": "hoje, de novo convido os sis. accionistas a se reu-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1058,
+                    958,
+                    1547,
+                    974
+                ],
+                "score": 0.95,
+                "text": "nirem no proximo sabbado, 1º de Agosto, a 1 hora"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1060,
+                    976,
+                    1548,
+                    992
+                ],
+                "score": 0.925,
+                "text": "da iarde, no 2° pavimnenlo to edificio do Banco de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1060,
+                    993,
+                    1546,
+                    1011
+                ],
+                "score": 0.959,
+                "text": "S. Paulo, afim de deliberarem sobre uma proposia"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1061,
+                    1013,
+                    1190,
+                    1029
+                ],
+                "score": 0.975,
+                "text": "da direcloria."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1082,
+                    1032,
+                    1381,
+                    1051
+                ],
+                "score": 0.98,
+                "text": "S. Paulo, 25 de Julho de 1891."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1057,
+                    1070,
+                    1106,
+                    1104
+                ],
+                "score": 0.845,
+                "text": "6-4"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1284,
+                    1057,
+                    1527,
+                    1073
+                ],
+                "score": 0.979,
+                "text": "Dr. Antonio Dias Novaes"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1388,
+                    1074,
+                    1508,
+                    1093
+                ],
+                "score": 1.0,
+                "text": "Presidente"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1113,
+                    1117,
+                    1493,
+                    1147
+                ],
+                "score": 0.977,
+                "text": "COMPANIIA NORTE PAULISTA"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1087,
+                    1159,
+                    1556,
+                    1185
+                ],
+                "score": 0.986,
+                "text": "Os accionistas que tem capital ante--"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1059,
+                    1186,
+                    1556,
+                    1210
+                ],
+                "score": 0.973,
+                "text": "cipado nesta Companhia, são convida--"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1060,
+                    1212,
+                    1556,
+                    1237
+                ],
+                "score": 0.937,
+                "text": "dos a virem, do dià ro de. Agosto pro"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1059,
+                    1237,
+                    1557,
+                    1262
+                ],
+                "score": 0.972,
+                "text": "ximo futuro em diante, receber, no"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1061,
+                    1263,
+                    1546,
+                    1290
+                ],
+                "score": 0.989,
+                "text": "escriptorio da Companhia em Taubaté,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1060,
+                    1289,
+                    1555,
+                    1315
+                ],
+                "score": 0.953,
+                "text": "o juro de 5 °/ ao anno sobre o capital"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1060,
+                    1317,
+                    1547,
+                    1340
+                ],
+                "score": 0.99,
+                "text": "antecipado, correspondente aosemestre"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1060,
+                    1342,
+                    1551,
+                    1365
+                ],
+                "score": 0.967,
+                "text": "findo êm 3o de Junho proximo passado."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1089,
+                    1361,
+                    1468,
+                    1395
+                ],
+                "score": 0.969,
+                "text": "Taubaté, 18 de Julho de 18g1."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1147,
+                    1407,
+                    1512,
+                    1432
+                ],
+                "score": 0.982,
+                "text": "Antonio Marcondes de Moura."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1242,
+                    1439,
+                    1488,
+                    1467
+                ],
+                "score": 0.981,
+                "text": "Diréctor-secretario."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1301,
+                    1470,
+                    1516,
+                    1500
+                ],
+                "score": 0.996,
+                "text": "(até 5 de agosto)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1112,
+                    1529,
+                    1483,
+                    1570
+                ],
+                "score": 1.0,
+                "text": "COMPANHIA NORTE PAULISTA"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1222,
+                    1572,
+                    1378,
+                    1602
+                ],
+                "score": 0.972,
+                "text": "5.ª CHAMADA"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1082,
+                    1604,
+                    1554,
+                    1639
+                ],
+                "score": 0.977,
+                "text": "Os accionistas desta Companhia são"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1055,
+                    1658,
+                    1543,
+                    1689
+                ],
+                "score": 0.981,
+                "text": "Agosto proximo futuro, a 5.a chamada"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1053,
+                    1684,
+                    1551,
+                    1715
+                ],
+                "score": 0.912,
+                "text": "de capital, á razãode 10°/ ou ro$ooo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1051,
+                    1710,
+                    1549,
+                    1741
+                ],
+                "score": 0.989,
+                "text": "rs. por acção, devendo as entradas se-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1051,
+                    1760,
+                    1553,
+                    1792
+                ],
+                "score": 0.993,
+                "text": "em Taubaté, ou no Banco de Credito"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1052,
+                    1786,
+                    1552,
+                    1817
+                ],
+                "score": 0.965,
+                "text": "Real de São Paulo, onde o dr. Brasilio"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1052,
+                    1812,
+                    1542,
+                    1844
+                ],
+                "score": 0.988,
+                "text": "Machado, representante da Companhia,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1050,
+                    1839,
+                    1551,
+                    1869
+                ],
+                "score": 0.98,
+                "text": "assignará os respectivos recibos nascau-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1050,
+                    1862,
+                    1127,
+                    1893
+                ],
+                "score": 1.0,
+                "text": "telas."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1054,
+                    1634,
+                    1550,
+                    1661
+                ],
+                "score": 0.958,
+                "text": "convidados a realisärem, de 5 a ro de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1051,
+                    1737,
+                    1549,
+                    1764
+                ],
+                "score": 0.995,
+                "text": "rem feitas no escriptorio da Companhia."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1080,
+                    1886,
+                    1464,
+                    1920
+                ],
+                "score": 0.96,
+                "text": "Taubaté, 18 de Julho de 1891."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1139,
+                    1915,
+                    1512,
+                    1943
+                ],
+                "score": 0.989,
+                "text": "Antonio Marcondes de Moura."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1072,
+                    1938,
+                    1114,
+                    1975
+                ],
+                "score": 0.955,
+                "text": "7)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1246,
+                    1943,
+                    1484,
+                    1969
+                ],
+                "score": 0.999,
+                "text": "Director-secretario"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1592,
+            "height": 2075
+        }
+    }
+]

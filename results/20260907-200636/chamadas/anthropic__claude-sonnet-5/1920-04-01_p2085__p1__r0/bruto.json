@@ -1,0 +1,87 @@
+{
+  "chave": "anthropic/claude-sonnet-5|1920-04-01_p2085|p1|0",
+  "registro": {
+    "model_id": "anthropic/claude-sonnet-5",
+    "prompt_id": "p1",
+    "doc_id": "1920-04-01_p2085",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 42.306943099945784,
+    "prompt_tokens": 4826,
+    "completion_tokens": 4400,
+    "total_tokens": 9226,
+    "cost_usd": 0.053652,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Anthropic",
+    "generation_id": "gen-1788826541-fxIzAtNuVhjjKYktuMkC",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T00:15:41Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788826541-fxIzAtNuVhjjKYktuMkC",
+        "object": "chat.completion",
+        "created": 1788826541,
+        "model": "anthropic/claude-sonnet-5",
+        "provider": "Anthropic",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "end_turn",
+            "message": {
+              "role": "assistant",
+              "content": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diario Official do Estado de São Paulo</title>\n<style>\n    body {\n        font-family: 'Times New Roman', Times, serif;\n        background-color: #f0e9dc;\n        color: #1a1a1a;\n        max-width: 1000px;\n        margin: 0 auto;\n        padding: 20px;\n    }\n    .header-title {\n        text-align: center;\n        font-family: Arial, sans-serif;\n        font-weight: bold;\n        font-size: 22px;\n        letter-spacing: 2px;\n        margin-bottom: 0;\n    }\n    .header-main {\n        text-align: center;\n        font-family: 'Arial Black', Gadget, sans-serif;\n        font-weight: 900;\n        font-size: 72px;\n        letter-spacing: 5px;\n        margin: 0;\n        line-height: 1;\n    }\n    .header-sub {\n        text-align: center;\n        font-family: Arial, sans-serif;\n        font-weight: bold;\n        font-size: 26px;\n        letter-spacing: 3px;\n        border-bottom: 4px solid #1a1a1a;\n        padding-bottom: 10px;\n        margin-bottom: 5px;\n    }\n    .info-line {\n        display: flex;\n        justify-content: space-between;\n        border-bottom: 2px solid #1a1a1a;\n        padding-bottom: 5px;\n        margin-bottom: 20px;\n        font-size: 15px;\n        font-weight: bold;\n    }\n    .columns {\n        column-count: 2;\n        column-gap: 30px;\n        column-rule: 1px solid #999;\n        text-align: justify;\n        font-size: 14px;\n        line-height: 1.4;\n    }\n    h2.section-title {\n        font-size: 26px;\n        font-weight: normal;\n        font-family: 'Times New Roman', serif;\n        text-align: left;\n        margin-top: 10px;\n        margin-bottom: 15px;\n    }\n    h3.decree-title {\n        font-size: 15px;\n        font-weight: bold;\n        text-align: center;\n        margin-top: 20px;\n        margin-bottom: 5px;\n    }\n    p.italic-summary {\n        font-style: italic;\n        margin-top: 0;\n        margin-bottom: 10px;\n    }\n    p {\n        margin: 8px 0;\n    }\n    .signature {\n        text-align: right;\n        font-style: italic;\n        margin-top: 5px;\n    }\n    .signature-caps {\n        text-align: right;\n        font-variant: small-caps;\n        font-weight: bold;\n    }\n    hr.section-divider {\n        border: none;\n        border-top: 1px solid #333;\n        width: 40%;\n        margin: 20px auto;\n    }\n    .indent {\n        text-indent: 20px;\n        display: inline-block;\n    }\n</style>\n</head>\n<body>\n\n    <div class=\"header-title\">ESTADOS UNIDOS DO BRAZIL</div>\n    <div class=\"header-main\">DIARIO OFFICIAL</div>\n    <div class=\"header-sub\">DO ESTADO DE SÃO PAULO</div>\n\n    <div class=\"info-line\">\n        <span>ANNO 30 — 32.º DA REPUBLICA — N. 73</span>\n        <span>SÃO PAULO</span>\n        <span>QUINTA-FEIRA, 1.º DE ABRIL DE 1920</span>\n    </div>\n\n    <div class=\"columns\">\n\n        <h2 class=\"section-title\">Actos do Poder Executivo</h2>\n\n        <h3 class=\"decree-title\">DECRETO N. 3185 — DE 30 DE MARÇO DE 1920</h3>\n        <p class=\"italic-summary\">Abre á Secretaria da Fazenda e do Thesouro do Estado, um credito especial de vinte e cinco contos, novecentos e setenta e quatro mil e oitocentos e vinte réis...... (25:974$820), para fazer face ás despezas effectuadas com a epidemia de grippe no exercicio de 1919.</p>\n\n        <p>O Doutor Altino Arantes, Presidente do Estado de São Paulo,</p>\n        <p>Attendendo ao que lhe representou o sr. Secretario de Estado dos Negocios da Fazenda e do Thesouro e usando da faculdade que lhe confere a Lei n. 1605 de 31 de Outubro de 1918,</p>\n        <p>Decreta:</p>\n        <p>Artigo 1.º — Fica aberto na Secretaria da Fazenda e do Thesouro do Estado um credito especial de vinte e cinco contos, novecentos e setenta e quatro mil e oitocentos e vinte réis (Rs. 25:974$820) para fazer face ás despezas effectuadas com a epidemia de grippe no exercicio de 1919.</p>\n        <p>Artigo 2.º — Revogam-se as disposições em contrario.</p>\n        <p>Palacio do Governo do Estado de São Paulo, em 30 de Março de 1920.</p>\n        <p class=\"signature-caps\">ALTINO ARANTES.<br><i>U. Herculano de Freitas.</i></p>\n\n        <p>Publicado na Secretaria da Fazenda e do Thesouro do Estado de São Paulo, em 31 de Março de 1920. — <i>Theophilo M. Nobrega</i>, director-geral.</p>\n\n        <hr class=\"section-divider\">\n\n        <h3 class=\"decree-title\">DECRETO N. 3186 — DE 30 DE MARÇO DE 1920</h3>\n        <p class=\"italic-summary\">Abre no Thesouro do Estado um credito de 253:739$000 para liquidação da despesa da Secretaria do Interior no exercicio de 1919.</p>\n\n        <p>O Presidente do Estado, usando da auctorisação que lhe é conferida pela lei n. 1.673, de 2 de Dezembro de 1919,</p>\n        <p>Decreta:</p>\n        <p>Artigo unico. — Fica aberto no Thesouro do Estado, á Secretaria de Estado dos Negocios do Interior, um credito supplementar de duzentos e cincoenta e tres contos setecentos e trinta e nove mil réis (253:739$000), para saldar o deficit verificado nas seguintes rubricas do orçamento para o exercicio de 1919:</p>\n        <p>\n            § 2.º Senado ............. ... ......&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;52:206$000<br>\n            § 3.º Camara dos Deputados........&nbsp;&nbsp;201:533$000<br>\n            ______________________________________<br>\n            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;253:739$000\n        </p>\n        <p>Palacio do Governo do Estado de São Paulo, aos 30 de Março de 1920.</p>\n        <p class=\"signature-caps\">ALTINO ARANTES.<br><i>Oscar Rodrigues Alves.</i></p>\n\n        <hr class=\"section-divider\">\n\n        <h3 class=\"decree-title\">DECRETO N. 3187 — DE 3 DE MARÇO DE 1920</h3>\n        <p class=\"italic-summary\">Abre no Thesouro do Estado, á Secretaria de Estado dos Negocios do Interior, um credito especial de rs...... 3.386:403$468, para as despesas feitas com a epidemia de grippe.</p>\n\n        <p>O presidente do Estado, usando da auctorisação que lhe é conferida pela lei n. 1.605, de 31 de Outubro de 1918,</p>\n        <p>Decreta:</p>\n        <p>Artigo unico. — Fica aberto no Thesouro do Estado, á Secretaria de Estado dos Negocios do Interior, um credito especial de tres mil trezentos e oitenta e seis contos quatrocentos e trez mil quatrocentos e sessenta e oito réis...... (3.386:403$468), para as despesas feitas com a epidemia de grippe.</p>\n        <p>Palacio do Governo do Estado de São Paulo, aos 30 de Março de 1920.</p>\n        <p class=\"signature-caps\">ALTINO ARANTES.<br><i>Oscar Rodrigues Alves.</i></p>\n\n        <hr class=\"section-divider\">\n\n        <h2 class=\"section-title\" style=\"text-align:center; font-weight:bold;\">INTERIOR</h2>\n\n        <p>Por decretos de 31 do corrente:</p>\n        <p>foram aposentados o dr. Augusto Militão Pacheco, inspector sanitario da Capital e o sr. Antonio Egydio Martins, 1.º escripturario da Repartição de Estatistica e Archivo do Estado;</p>\n        <p>foi removido o inspector sanitario da Delegacia de Saúde de Compinas, dr. João Paes Leme de Monlevade, para igual cargo nesta Capital;</p>\n        <p>foram nomeados inspectores sanitarios os drs. João Thomaz Monteiro da Silva, para S. Carlos; Daniel Martins, para Botucatú; Justiniano Lisbôa e Jorge Dutra Fragoso, para Santos;</p>\n        <p>foi nomeado o sr. Alfredo de Barros Santos, para exercer o cargo de auxiliar do director da Escola Profissional Masculina da Capital;</p>\n        <p>foi promovido a 2.º escripturario da Directoria Geral do Serviço Sanitario, o 3.º escripturario da mesma repartição, sr. Bernardino de Campos Araujo;</p>\n        <p>foi nomeado o dr. Henrique Jorge Guedes para exercer o cargo de lente substituto interino da 2.ª secção da Escola Polytechnica de S. Paulo;</p>\n        <p>foi transferido o dr. Francisco Pereira Ramos, lente cathedratico das cadeiras reunidas de Physica Industrial e Electrotechnica (1.ª parte) da Escola Polytechnica de São Paulo, para lente cathedratico da cadeira isolada de Economia Politica. Elementos de Estatistica. Noções de Direito Administrativo da mesma Escola, de accôrdo com o art. 20, § 3.º do Decreto n. 2.931, de 12 de Junho de 1918;</p>\n        <p>foi annexada ao grupo escolar de Pirajú a escola mixta urbana, das Paivas, da mesma localidade;</p>\n        <p>foi dada a denominação de «Francisco Simões», ao grupo escolar de Dois Corregos;</p>\n        <p>foi effectivado no cargo de director do grupo escolar de Tambahú, o actual director interino, professor Manoel Nogueira de Carvalho;</p>\n        <p>foram nomeadas adjunctas dos grupos escolares de Ribeirão Bonito e Brotas, as seguintes professoras dd. Maria Paula de Paula Sousa, Maria Silveira Almeida, respectivamente;</p>\n        <p>foram removidos, a pedido, os seguintes adjunctos de grupos escolares:</p>\n        <p>d. Maria Augusta de Andrade Justo, do de Brotas para o «Antonio Padilha», de Sorocaba;</p>\n        <p>d. Dulce de Barros Pereira, do de Brotas, para o «Visconde de Porto Seguro», de Sorocaba;</p>\n        <p>Luiz do Amaral Waguer, do «Antonio Padilha», de Sorocaba, para o de Brotas;</p>\n        <p>d. Marianna Mastroandréa, do «Visconde de Porto Seguro», de Sorocaba, para o de Brotas;</p>\n        <p>d. Edemea Rudge Ramos Parada, do de Belémzinho, para o de S. João, ambos desta Capital;</p>\n        <p>foram exoneradas, a pedido, do cargo de adjunctas do grupo escolar do Bebedouro, d. Luiza Oliveira Algodoal e d. Tamilde Rossi Magalhães, do 1.º de Araraquara;</p>\n\n    </div>\n\n</body>\n</html>\n```",
+              "refusal": null,
+              "reasoning": "I'm transcribing this old Brazilian document into HTML, keeping the original layout with its header, columns, and text content intact.\n\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "I'm transcribing this old Brazilian document into HTML, keeping the original layout with its header, columns, and text content intact.\n\n",
+                  "format": "anthropic-claude-v1",
+                  "index": 0,
+                  "signature": "EosDCrABCBEYAipARYFLjcy/hQa15HI+8mmDzxa1v+i9Q+qp44T7OTwuc9WqA0HOEOdFMXKYF4OL0zRZhiQZkEle4OIEJBrACbf4+jIPY2xhdWRlLXNvbm5ldC01OABCCHRoaW5raW5nWiQwZDk4M2YzZi00OWZhLTRhNDYtODI1NC1iMWJiMjQ5MWEyYTl6HnVwcm9mXzAxMUNlcHpua2tWbVNIcDRQWXl3NFpCVagBsqf91AYSDOWbTezd156rLQvSqhoM4ZUWFd9DiGAqsGI+IjAq/7Fap7Fz6K79KKH1AdvOsRBvik5Ydg47mdeoDMKGEXwVVfrSEtfp9TnQvjbxIxUqhwEUSnGyCs2Ct0hf4+L11e8T6oGWlw7xXfnfLvv/44TW8LC00IzJnIuqZrk2YbHlVEFNobqdPAWOPFLHC+hOEreIzCH326J0/NgaRlmbO9FuwF3oK+SGZQRXbWzJOBo83tlbERL6wixdL5/hFQ7LtM8J8IxweUNGU/EQ5vGWlmK1jU5ouc0e/9oYAQ=="
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 4826,
+          "completion_tokens": 4400,
+          "total_tokens": 9226,
+          "cost": 0.053652,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.053652,
+            "upstream_inference_prompt_cost": 0.009652,
+            "upstream_inference_completions_cost": 0.044
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 39,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

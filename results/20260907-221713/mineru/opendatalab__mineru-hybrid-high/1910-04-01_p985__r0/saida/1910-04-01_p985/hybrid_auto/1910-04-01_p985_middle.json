@@ -1,0 +1,3012 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        111,
+                        31,
+                        477,
+                        48
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                31,
+                                477,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        31,
+                                        477,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "ESTADOS UNIDOS DO BRAZIL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        26,
+                        53,
+                        568,
+                        100
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                26,
+                                53,
+                                568,
+                                100
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        26,
+                                        53,
+                                        568,
+                                        100
+                                    ],
+                                    "type": "text",
+                                    "content": "DIARIO OFFICIAL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        123,
+                        104,
+                        466,
+                        124
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                123,
+                                104,
+                                466,
+                                124
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        123,
+                                        104,
+                                        466,
+                                        124
+                                    ],
+                                    "type": "text",
+                                    "content": "DO ESTADO DE SÃO PAULO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        42,
+                        133,
+                        213,
+                        150
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                42,
+                                133,
+                                213,
+                                150
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        42,
+                                        133,
+                                        213,
+                                        150
+                                    ],
+                                    "type": "text",
+                                    "content": "ANNO 19,°--22,° DA REPUBLICA--N.(68)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        276,
+                        133,
+                        336,
+                        144
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                276,
+                                133,
+                                336,
+                                144
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        276,
+                                        133,
+                                        336,
+                                        144
+                                    ],
+                                    "type": "text",
+                                    "content": "SÃO PAULO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        135,
+                        550,
+                        146
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                135,
+                                550,
+                                146
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        135,
+                                        550,
+                                        146
+                                    ],
+                                    "type": "text",
+                                    "content": "SEXTA-FEIRA 1 DE ABRIL DE 1910"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        51,
+                        158,
+                        265,
+                        183
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                51,
+                                158,
+                                265,
+                                183
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        51,
+                                        158,
+                                        265,
+                                        183
+                                    ],
+                                    "type": "text",
+                                    "content": "Actos do Poder Executivo"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        92,
+                        198,
+                        222,
+                        209
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                92,
+                                198,
+                                222,
+                                209
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        92,
+                                        198,
+                                        222,
+                                        209
+                                    ],
+                                    "type": "text",
+                                    "content": "DECEHED N. 1818"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        104,
+                        217,
+                        214,
+                        226
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                104,
+                                217,
+                                214,
+                                226
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        104,
+                                        217,
+                                        214,
+                                        226
+                                    ],
+                                    "type": "text",
+                                    "content": "DE 29 DE MARÇO DE 1910"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        233,
+                        294,
+                        252
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                233,
+                                294,
+                                252
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        233,
+                                        294,
+                                        252
+                                    ],
+                                    "type": "text",
+                                    "content": "Anctorize a Companhia Estrada de Ferro S. Paulo a Guyas a abrir co trefogo publico a linha de Bebedouro a Monte Azul"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        258,
+                        294,
+                        277
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                258,
+                                294,
+                                277
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        258,
+                                        294,
+                                        277
+                                    ],
+                                    "type": "text",
+                                    "content": "O Vice-presidente do Estado de S. Paule, em exercício na forma do § 1 artigo 27, da Constituição,"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        276,
+                        294,
+                        301
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                276,
+                                294,
+                                301
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        276,
+                                        294,
+                                        301
+                                    ],
+                                    "type": "text",
+                                    "content": "Attendendo ao que soliciton a Gompanhia Estrada do Ferro S. Paulo a Gayas, e sob propo ta do secretario de Estado dos Negocios da Agricultura, Conexo e Obras Publicas,"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        44,
+                        301,
+                        82,
+                        309
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                44,
+                                301,
+                                82,
+                                309
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        44,
+                                        301,
+                                        82,
+                                        309
+                                    ],
+                                    "type": "text",
+                                    "content": "Decreta :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        309,
+                        294,
+                        343
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                309,
+                                294,
+                                343
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        309,
+                                        294,
+                                        343
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo 1.º Fica a Companhia Estrada do Ferro S. Paulo a Goyaz, acutorizada a abrir ao trafego publico a via ferrea do Bebedouro a Monte Azul, com 31 kilometros de extensão e à qual se referiu o decreto n. 1732, de 4 de Maio de 1909."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        342,
+                        294,
+                        376
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                342,
+                                294,
+                                376
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        342,
+                                        294,
+                                        376
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo 2.º A presente licença é concedida mediante a condição de, dentro do prazo de 30 dias, contados destaldata; serem ultimados os serviços de assentamento da linha telegraphica de retoque do leito, e de construção de xercas interaes."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        376,
+                        294,
+                        393
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                376,
+                                294,
+                                393
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        376,
+                                        294,
+                                        393
+                                    ],
+                                    "type": "text",
+                                    "content": "Palacio do Governo do Estado de S. Paulo, 29 do Março de 1910."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        71,
+                        392,
+                        276,
+                        402
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                71,
+                                392,
+                                276,
+                                402
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        392,
+                                        276,
+                                        402
+                                    ],
+                                    "type": "text",
+                                    "content": "FERNANDO PRESTES DE ALBUQUERQUE."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        71,
+                        403,
+                        188,
+                        412
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                71,
+                                403,
+                                188,
+                                412
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        403,
+                                        188,
+                                        412
+                                    ],
+                                    "type": "text",
+                                    "content": "ANTONIO EE PADUA SALLIES"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        97,
+                        442,
+                        227,
+                        453
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                97,
+                                442,
+                                227,
+                                453
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        97,
+                                        442,
+                                        227,
+                                        453
+                                    ],
+                                    "type": "text",
+                                    "content": "DECRETO N. 1849"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        106,
+                        461,
+                        218,
+                        471
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                106,
+                                461,
+                                218,
+                                471
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        106,
+                                        461,
+                                        218,
+                                        471
+                                    ],
+                                    "type": "text",
+                                    "content": "DE 29 DE MARÇO DE 1910"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        27,
+                        477,
+                        296,
+                        512
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                27,
+                                477,
+                                296,
+                                512
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        27,
+                                        477,
+                                        296,
+                                        512
+                                    ],
+                                    "type": "text",
+                                    "content": "Concede à Companhia Mogyana de Estradas de Ferro e Navegação licença para construção, uso e goso de uma estrada de ferro que, iniciando-se no bairro de Jatahy, termine em Ribeirão Preto."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        25,
+                        518,
+                        296,
+                        537
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                25,
+                                518,
+                                296,
+                                537
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        518,
+                                        296,
+                                        537
+                                    ],
+                                    "type": "text",
+                                    "content": "O Vice-presidente do Estado do S. Paulo, em exercício na fóma do § 1º, art. 27 da Constituição."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        25,
+                        537,
+                        296,
+                        570
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                25,
+                                537,
+                                296,
+                                570
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        537,
+                                        296,
+                                        570
+                                    ],
+                                    "type": "text",
+                                    "content": "Usando da atribuição que lhe confere o artigo 2.º da lei n. 30, de 13 de Junho de 1892, e attendendo ao requerido pela Campanhia Megyana de Estradas de Ferro e Navegação, nos termos dos paragraphos 2.º e 3.º do artigo e lei citados,"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        47,
+                        569,
+                        85,
+                        577
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                47,
+                                569,
+                                85,
+                                577
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        47,
+                                        569,
+                                        85,
+                                        577
+                                    ],
+                                    "type": "text",
+                                    "content": "Decrata :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        25,
+                        577,
+                        296,
+                        643
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                25,
+                                577,
+                                296,
+                                643
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        577,
+                                        296,
+                                        643
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo unico. Fica concedida à Companhia Mogyana de Estradas de Ferro e Navegação licança para construção, uso e goso de uma via ferrea que — partindo do ponto terminal da que lhe foi concedida pelo decreto n. 1773, de 1.º de Outubro de 1909 — vá terminar em Ribeirão 'Preto, de conformidade com as clausulas que com este baixem, assignadas pelo sr. dr. secretario de Estado dos Negócios da Agricultura, Commercio e Obras Públicas."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        25,
+                        643,
+                        296,
+                        660
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                25,
+                                643,
+                                296,
+                                660
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        643,
+                                        296,
+                                        660
+                                    ],
+                                    "type": "text",
+                                    "content": "Palacio do Governo do Estado de S. Paulo, 29 do Março de 1910."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        74,
+                        660,
+                        279,
+                        681
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                74,
+                                660,
+                                279,
+                                681
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        660,
+                                        279,
+                                        681
+                                    ],
+                                    "type": "text",
+                                    "content": "FERNANDO PRESTES DE ALBUQUERQUE\nANTONIO DE PADUA SALLIS."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        299,
+                        159,
+                        569,
+                        185
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                299,
+                                159,
+                                569,
+                                185
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        299,
+                                        159,
+                                        569,
+                                        185
+                                    ],
+                                    "type": "text",
+                                    "content": "Clausulas a que refere o Decreto n. 1849, de 29 de Março de 1910"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        431,
+                        191,
+                        438,
+                        200
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                431,
+                                191,
+                                438,
+                                200
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        431,
+                                        191,
+                                        438,
+                                        200
+                                    ],
+                                    "type": "text",
+                                    "content": "I"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        298,
+                        201,
+                        570,
+                        246
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                298,
+                                201,
+                                570,
+                                246
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        298,
+                                        201,
+                                        570,
+                                        246
+                                    ],
+                                    "type": "text",
+                                    "content": "O Governo do Estado de S. Paulo concede à Companhia Mogyana de Estradas de Ferro e Navegação licença para construção, uso o goso de uma estrada de ferro que, partindo do ponto terminal da que lhe foi concedida pelo Decreto n. 1773, de 1.º do Outubro de 1908 — vá terminar em Ribeirão Preto."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        434,
+                        252,
+                        445,
+                        260
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                434,
+                                252,
+                                445,
+                                260
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        434,
+                                        252,
+                                        445,
+                                        260
+                                    ],
+                                    "type": "text",
+                                    "content": "II"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        299,
+                        263,
+                        570,
+                        339
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                299,
+                                263,
+                                570,
+                                339
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        299,
+                                        263,
+                                        570,
+                                        339
+                                    ],
+                                    "type": "text",
+                                    "content": "Esta estrada de ferro gosta de uma zona garantida, de cem metros de cada lado, reduzida a 50 metros nas gargantas e declives de serras, limitadas por dura linhas parallelas ao eixo da via permanente, dentro da qual nenhuma outra estrada de ferro poderá receber gencros ou passageiros, salvo: 1.º, o caso de outra ou mais estradas tiram o mesmo ponto inicial ou terminal; 2.º, o caso em que o ponto inicial ou terminal de outra estrada esteja dentro da zona desta; 3.º, o caso de entronecamento referido nesta clausula."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        299,
+                        339,
+                        571,
+                        373
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                299,
+                                339,
+                                571,
+                                373
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        299,
+                                        339,
+                                        571,
+                                        373
+                                    ],
+                                    "type": "text",
+                                    "content": "Comtanto que dentro da zona garantida desta estrada de ferro não receba generos nãm passageiros, poderá qualquer outra atravessar a mesma zona, cruzando a linha desta, sujeita, porém, aos onus provenientes do cruzamento."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        299,
+                        373,
+                        571,
+                        421
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                299,
+                                373,
+                                571,
+                                421
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        299,
+                                        373,
+                                        571,
+                                        421
+                                    ],
+                                    "type": "text",
+                                    "content": "Qualquer outra estuada de ferro poderá ter simultaneamente os meamos pontos inicial e terminal desta, respeitada a zona garantida por esta clausula, bem como poderá entroncar na linha desta, resolvendo o Governo, definitivamente, em caso de desacórdo, para regular as relações provenientes de entroncamento."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        300,
+                        421,
+                        571,
+                        440
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                421,
+                                571,
+                                440
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        421,
+                                        571,
+                                        440
+                                    ],
+                                    "type": "text",
+                                    "content": "Considerar-se-á entroncamento, não só o caso de ligação por meio de via permanente, como por meio de estação comum."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 34,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        431,
+                        446,
+                        444,
+                        455
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                431,
+                                446,
+                                444,
+                                455
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        431,
+                                        446,
+                                        444,
+                                        455
+                                    ],
+                                    "type": "text",
+                                    "content": "III"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 35,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        300,
+                        457,
+                        571,
+                        490
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                457,
+                                571,
+                                490
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        457,
+                                        571,
+                                        490
+                                    ],
+                                    "type": "text",
+                                    "content": "Gosará mais a estrada do ferro do direito de desappropriação, nos termos da legislação do Estado, para os terranos necessários à construção da linha, estações, armazens e mais dependências."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 36,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        300,
+                        490,
+                        571,
+                        516
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                490,
+                                571,
+                                516
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        490,
+                                        571,
+                                        516
+                                    ],
+                                    "type": "text",
+                                    "content": "Quando for necessário iniciar uma acção de desappropriação, deverá ser apresentada ao Governo a respectiva planta, sómente da parte a desapropriar."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 37,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        300,
+                        516,
+                        571,
+                        549
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                516,
+                                571,
+                                549
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        516,
+                                        571,
+                                        549
+                                    ],
+                                    "type": "text",
+                                    "content": "O Governo, dentro do prazo de trinta dias, da data da apresentação da planta, deverá conceder ou negar a licença, dando os motivos da recusa, no caso de negativa, e indicando as modificações de traçado, de modo a permitir a continuação da obra."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 38,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        300,
+                        549,
+                        571,
+                        566
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                549,
+                                571,
+                                566
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        549,
+                                        571,
+                                        566
+                                    ],
+                                    "type": "text",
+                                    "content": "Si, dentro do prazo de trinta dias, o Governo não se manifestar, fea entendido que está concedida a mesma licença."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 39,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        429,
+                        570,
+                        445,
+                        580
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                429,
+                                570,
+                                445,
+                                580
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        429,
+                                        570,
+                                        445,
+                                        580
+                                    ],
+                                    "type": "text",
+                                    "content": "I V"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 40,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        300,
+                        586,
+                        573,
+                        639
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                586,
+                                573,
+                                639
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        586,
+                                        573,
+                                        639
+                                    ],
+                                    "type": "text",
+                                    "content": "O Governo prestará a esta estrada de ferro toda a protecção compatível com as leis, afim de que possa ella realizar a arrecadação das taxas estabelecidas, para que sejam respeitadas as disposições dos seus regulamentos e mantida a sua polícia, devend, todo o empregado na arrecadação das taxas e na polícia da linha ser cidadão da República."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 41,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        434,
+                        645,
+                        443,
+                        654
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                434,
+                                645,
+                                443,
+                                654
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        434,
+                                        645,
+                                        443,
+                                        654
+                                    ],
+                                    "type": "text",
+                                    "content": "V"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        300,
+                        661,
+                        573,
+                        689
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                661,
+                                573,
+                                689
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        661,
+                                        573,
+                                        689
+                                    ],
+                                    "type": "text",
+                                    "content": "Antes de iniciarem-se os trabalhos da construção desta estrada de ferro, deverão ser submetidas à approvação de Governe os projectos de todo anos trabalhos, que comprehendente!"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 43,
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [],
+            "page_size": [
+                588,
+                739
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        111,
+                        31,
+                        477,
+                        48
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                31,
+                                477,
+                                48
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        31,
+                                        477,
+                                        48
+                                    ],
+                                    "type": "text",
+                                    "content": "ESTADOS UNIDOS DO BRAZIL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        26,
+                        53,
+                        568,
+                        100
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                26,
+                                53,
+                                568,
+                                100
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        26,
+                                        53,
+                                        568,
+                                        100
+                                    ],
+                                    "type": "text",
+                                    "content": "DIARIO OFFICIAL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        123,
+                        104,
+                        466,
+                        124
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                123,
+                                104,
+                                466,
+                                124
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        123,
+                                        104,
+                                        466,
+                                        124
+                                    ],
+                                    "type": "text",
+                                    "content": "DO ESTADO DE SÃO PAULO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        42,
+                        133,
+                        213,
+                        150
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                42,
+                                133,
+                                213,
+                                150
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        42,
+                                        133,
+                                        213,
+                                        150
+                                    ],
+                                    "type": "text",
+                                    "content": "ANNO 19,°--22,° DA REPUBLICA--N.(68)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        276,
+                        133,
+                        336,
+                        144
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                276,
+                                133,
+                                336,
+                                144
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        276,
+                                        133,
+                                        336,
+                                        144
+                                    ],
+                                    "type": "text",
+                                    "content": "SÃO PAULO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        135,
+                        550,
+                        146
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                135,
+                                550,
+                                146
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        135,
+                                        550,
+                                        146
+                                    ],
+                                    "type": "text",
+                                    "content": "SEXTA-FEIRA 1 DE ABRIL DE 1910"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        51,
+                        158,
+                        265,
+                        183
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                51,
+                                158,
+                                265,
+                                183
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        51,
+                                        158,
+                                        265,
+                                        183
+                                    ],
+                                    "type": "text",
+                                    "content": "Actos do Poder Executivo"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        92,
+                        198,
+                        222,
+                        209
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                92,
+                                198,
+                                222,
+                                209
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        92,
+                                        198,
+                                        222,
+                                        209
+                                    ],
+                                    "type": "text",
+                                    "content": "DECEHED N. 1818"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        104,
+                        217,
+                        214,
+                        226
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                104,
+                                217,
+                                214,
+                                226
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        104,
+                                        217,
+                                        214,
+                                        226
+                                    ],
+                                    "type": "text",
+                                    "content": "DE 29 DE MARÇO DE 1910"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        233,
+                        294,
+                        252
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                233,
+                                294,
+                                252
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        233,
+                                        294,
+                                        252
+                                    ],
+                                    "type": "text",
+                                    "content": "Anctorize a Companhia Estrada de Ferro S. Paulo a Guyas a abrir co trefogo publico a linha de Bebedouro a Monte Azul"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        258,
+                        294,
+                        277
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                258,
+                                294,
+                                277
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        258,
+                                        294,
+                                        277
+                                    ],
+                                    "type": "text",
+                                    "content": "O Vice-presidente do Estado de S. Paule, em exercício na forma do § 1 artigo 27, da Constituição,"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        276,
+                        294,
+                        301
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                276,
+                                294,
+                                301
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        276,
+                                        294,
+                                        301
+                                    ],
+                                    "type": "text",
+                                    "content": "Attendendo ao que soliciton a Gompanhia Estrada do Ferro S. Paulo a Gayas, e sob propo ta do secretario de Estado dos Negocios da Agricultura, Conexo e Obras Publicas,"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        44,
+                        301,
+                        82,
+                        309
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                44,
+                                301,
+                                82,
+                                309
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        44,
+                                        301,
+                                        82,
+                                        309
+                                    ],
+                                    "type": "text",
+                                    "content": "Decreta :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        309,
+                        294,
+                        343
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                309,
+                                294,
+                                343
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        309,
+                                        294,
+                                        343
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo 1.º Fica a Companhia Estrada do Ferro S. Paulo a Goyaz, acutorizada a abrir ao trafego publico a via ferrea do Bebedouro a Monte Azul, com 31 kilometros de extensão e à qual se referiu o decreto n. 1732, de 4 de Maio de 1909."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        342,
+                        294,
+                        376
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                342,
+                                294,
+                                376
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        342,
+                                        294,
+                                        376
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo 2.º A presente licença é concedida mediante a condição de, dentro do prazo de 30 dias, contados destaldata; serem ultimados os serviços de assentamento da linha telegraphica de retoque do leito, e de construção de xercas interaes."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        376,
+                        294,
+                        393
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                376,
+                                294,
+                                393
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        376,
+                                        294,
+                                        393
+                                    ],
+                                    "type": "text",
+                                    "content": "Palacio do Governo do Estado de S. Paulo, 29 do Março de 1910."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        71,
+                        392,
+                        276,
+                        402
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                71,
+                                392,
+                                276,
+                                402
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        392,
+                                        276,
+                                        402
+                                    ],
+                                    "type": "text",
+                                    "content": "FERNANDO PRESTES DE ALBUQUERQUE."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        71,
+                        403,
+                        188,
+                        412
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                71,
+                                403,
+                                188,
+                                412
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        71,
+                                        403,
+                                        188,
+                                        412
+                                    ],
+                                    "type": "text",
+                                    "content": "ANTONIO EE PADUA SALLIES"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        97,
+                        442,
+                        227,
+                        453
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                97,
+                                442,
+                                227,
+                                453
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        97,
+                                        442,
+                                        227,
+                                        453
+                                    ],
+                                    "type": "text",
+                                    "content": "DECRETO N. 1849"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        106,
+                        461,
+                        218,
+                        471
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                106,
+                                461,
+                                218,
+                                471
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        106,
+                                        461,
+                                        218,
+                                        471
+                                    ],
+                                    "type": "text",
+                                    "content": "DE 29 DE MARÇO DE 1910"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        27,
+                        477,
+                        296,
+                        512
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                27,
+                                477,
+                                296,
+                                512
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        27,
+                                        477,
+                                        296,
+                                        512
+                                    ],
+                                    "type": "text",
+                                    "content": "Concede à Companhia Mogyana de Estradas de Ferro e Navegação licença para construção, uso e goso de uma estrada de ferro que, iniciando-se no bairro de Jatahy, termine em Ribeirão Preto."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        25,
+                        518,
+                        296,
+                        537
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                25,
+                                518,
+                                296,
+                                537
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        518,
+                                        296,
+                                        537
+                                    ],
+                                    "type": "text",
+                                    "content": "O Vice-presidente do Estado do S. Paulo, em exercício na fóma do § 1º, art. 27 da Constituição."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        25,
+                        537,
+                        296,
+                        570
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                25,
+                                537,
+                                296,
+                                570
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        537,
+                                        296,
+                                        570
+                                    ],
+                                    "type": "text",
+                                    "content": "Usando da atribuição que lhe confere o artigo 2.º da lei n. 30, de 13 de Junho de 1892, e attendendo ao requerido pela Campanhia Megyana de Estradas de Ferro e Navegação, nos termos dos paragraphos 2.º e 3.º do artigo e lei citados,"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        47,
+                        569,
+                        85,
+                        577
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                47,
+                                569,
+                                85,
+                                577
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        47,
+                                        569,
+                                        85,
+                                        577
+                                    ],
+                                    "type": "text",
+                                    "content": "Decrata :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        25,
+                        577,
+                        296,
+                        643
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                25,
+                                577,
+                                296,
+                                643
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        577,
+                                        296,
+                                        643
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo unico. Fica concedida à Companhia Mogyana de Estradas de Ferro e Navegação licança para construção, uso e goso de uma via ferrea que — partindo do ponto terminal da que lhe foi concedida pelo decreto n. 1773, de 1.º de Outubro de 1909 — vá terminar em Ribeirão 'Preto, de conformidade com as clausulas que com este baixem, assignadas pelo sr. dr. secretario de Estado dos Negócios da Agricultura, Commercio e Obras Públicas."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        25,
+                        643,
+                        296,
+                        660
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                25,
+                                643,
+                                296,
+                                660
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        643,
+                                        296,
+                                        660
+                                    ],
+                                    "type": "text",
+                                    "content": "Palacio do Governo do Estado de S. Paulo, 29 do Março de 1910."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        74,
+                        660,
+                        279,
+                        681
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                74,
+                                660,
+                                279,
+                                681
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        74,
+                                        660,
+                                        279,
+                                        681
+                                    ],
+                                    "type": "text",
+                                    "content": "FERNANDO PRESTES DE ALBUQUERQUE\nANTONIO DE PADUA SALLIS."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        299,
+                        159,
+                        569,
+                        185
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                299,
+                                159,
+                                569,
+                                185
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        299,
+                                        159,
+                                        569,
+                                        185
+                                    ],
+                                    "type": "text",
+                                    "content": "Clausulas a que refere o Decreto n. 1849, de 29 de Março de 1910"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        431,
+                        191,
+                        438,
+                        200
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                431,
+                                191,
+                                438,
+                                200
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        431,
+                                        191,
+                                        438,
+                                        200
+                                    ],
+                                    "type": "text",
+                                    "content": "I"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        298,
+                        201,
+                        570,
+                        246
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                298,
+                                201,
+                                570,
+                                246
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        298,
+                                        201,
+                                        570,
+                                        246
+                                    ],
+                                    "type": "text",
+                                    "content": "O Governo do Estado de S. Paulo concede à Companhia Mogyana de Estradas de Ferro e Navegação licença para construção, uso o goso de uma estrada de ferro que, partindo do ponto terminal da que lhe foi concedida pelo Decreto n. 1773, de 1.º do Outubro de 1908 — vá terminar em Ribeirão Preto."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        434,
+                        252,
+                        445,
+                        260
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                434,
+                                252,
+                                445,
+                                260
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        434,
+                                        252,
+                                        445,
+                                        260
+                                    ],
+                                    "type": "text",
+                                    "content": "II"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        299,
+                        263,
+                        570,
+                        339
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                299,
+                                263,
+                                570,
+                                339
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        299,
+                                        263,
+                                        570,
+                                        339
+                                    ],
+                                    "type": "text",
+                                    "content": "Esta estrada de ferro gosta de uma zona garantida, de cem metros de cada lado, reduzida a 50 metros nas gargantas e declives de serras, limitadas por dura linhas parallelas ao eixo da via permanente, dentro da qual nenhuma outra estrada de ferro poderá receber gencros ou passageiros, salvo: 1.º, o caso de outra ou mais estradas tiram o mesmo ponto inicial ou terminal; 2.º, o caso em que o ponto inicial ou terminal de outra estrada esteja dentro da zona desta; 3.º, o caso de entronecamento referido nesta clausula."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        299,
+                        339,
+                        571,
+                        373
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                299,
+                                339,
+                                571,
+                                373
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        299,
+                                        339,
+                                        571,
+                                        373
+                                    ],
+                                    "type": "text",
+                                    "content": "Comtanto que dentro da zona garantida desta estrada de ferro não receba generos nãm passageiros, poderá qualquer outra atravessar a mesma zona, cruzando a linha desta, sujeita, porém, aos onus provenientes do cruzamento."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        299,
+                        373,
+                        571,
+                        421
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                299,
+                                373,
+                                571,
+                                421
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        299,
+                                        373,
+                                        571,
+                                        421
+                                    ],
+                                    "type": "text",
+                                    "content": "Qualquer outra estuada de ferro poderá ter simultaneamente os meamos pontos inicial e terminal desta, respeitada a zona garantida por esta clausula, bem como poderá entroncar na linha desta, resolvendo o Governo, definitivamente, em caso de desacórdo, para regular as relações provenientes de entroncamento."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        300,
+                        421,
+                        571,
+                        440
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                421,
+                                571,
+                                440
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        421,
+                                        571,
+                                        440
+                                    ],
+                                    "type": "text",
+                                    "content": "Considerar-se-á entroncamento, não só o caso de ligação por meio de via permanente, como por meio de estação comum."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 34,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        431,
+                        446,
+                        444,
+                        455
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                431,
+                                446,
+                                444,
+                                455
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        431,
+                                        446,
+                                        444,
+                                        455
+                                    ],
+                                    "type": "text",
+                                    "content": "III"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 35,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        300,
+                        457,
+                        571,
+                        490
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                457,
+                                571,
+                                490
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        457,
+                                        571,
+                                        490
+                                    ],
+                                    "type": "text",
+                                    "content": "Gosará mais a estrada do ferro do direito de desappropriação, nos termos da legislação do Estado, para os terranos necessários à construção da linha, estações, armazens e mais dependências."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 36,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        300,
+                        490,
+                        571,
+                        516
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                490,
+                                571,
+                                516
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        490,
+                                        571,
+                                        516
+                                    ],
+                                    "type": "text",
+                                    "content": "Quando for necessário iniciar uma acção de desappropriação, deverá ser apresentada ao Governo a respectiva planta, sómente da parte a desapropriar."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 37,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        300,
+                        516,
+                        571,
+                        549
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                516,
+                                571,
+                                549
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        516,
+                                        571,
+                                        549
+                                    ],
+                                    "type": "text",
+                                    "content": "O Governo, dentro do prazo de trinta dias, da data da apresentação da planta, deverá conceder ou negar a licença, dando os motivos da recusa, no caso de negativa, e indicando as modificações de traçado, de modo a permitir a continuação da obra."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 38,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        300,
+                        549,
+                        571,
+                        566
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                549,
+                                571,
+                                566
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        549,
+                                        571,
+                                        566
+                                    ],
+                                    "type": "text",
+                                    "content": "Si, dentro do prazo de trinta dias, o Governo não se manifestar, fea entendido que está concedida a mesma licença."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 39,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        429,
+                        570,
+                        445,
+                        580
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                429,
+                                570,
+                                445,
+                                580
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        429,
+                                        570,
+                                        445,
+                                        580
+                                    ],
+                                    "type": "text",
+                                    "content": "I V"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 40,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        300,
+                        586,
+                        573,
+                        639
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                586,
+                                573,
+                                639
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        586,
+                                        573,
+                                        639
+                                    ],
+                                    "type": "text",
+                                    "content": "O Governo prestará a esta estrada de ferro toda a protecção compatível com as leis, afim de que possa ella realizar a arrecadação das taxas estabelecidas, para que sejam respeitadas as disposições dos seus regulamentos e mantida a sua polícia, devend, todo o empregado na arrecadação das taxas e na polícia da linha ser cidadão da República."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 41,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        434,
+                        645,
+                        443,
+                        654
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                434,
+                                645,
+                                443,
+                                654
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        434,
+                                        645,
+                                        443,
+                                        654
+                                    ],
+                                    "type": "text",
+                                    "content": "V"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        300,
+                        661,
+                        573,
+                        689
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                661,
+                                573,
+                                689
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        661,
+                                        573,
+                                        689
+                                    ],
+                                    "type": "text",
+                                    "content": "Antes de iniciarem-se os trabalhos da construção desta estrada de ferro, deverão ser submetidas à approvação de Governe os projectos de todo anos trabalhos, que comprehendente!"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 43,
+                    "merge_prev": false
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_effort": "high",
+    "_ocr_enable": true,
+    "_version_name": "3.4.4"
+}

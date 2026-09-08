@@ -1,0 +1,2908 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        35,
+                        46,
+                        305,
+                        109
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                35,
+                                46,
+                                305,
+                                109
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        35,
+                                        46,
+                                        305,
+                                        109
+                                    ],
+                                    "type": "text",
+                                    "content": "a) Planta geral da linha concedida com a indicação dos pontos de passagem obrigatorios, configuração do terreno, representada por meio de curvas de nível equidistantes de cinco metros no máximo, o, bem assim, em uma zona de cincoenta metros pelo menos, para cada lado, os campos, mattas, terrenes podregosos e brejos, o, sempre que for possível, a divisa das propriedades particulares, minas e terras devolutas."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        34,
+                        106,
+                        304,
+                        145
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                34,
+                                106,
+                                304,
+                                145
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        34,
+                                        106,
+                                        304,
+                                        145
+                                    ],
+                                    "type": "text",
+                                    "content": "Nossa planta, em escala de um para quatro mil, serão indicadas todas as distancias kilemétricas, contadas a partir do ponto inicial de estrada; a extensão dos alinhamentos rectos e curvos; os gráus e ratos das curvas empregadas."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        33,
+                        143,
+                        302,
+                        176
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                33,
+                                143,
+                                302,
+                                176
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        33,
+                                        143,
+                                        302,
+                                        176
+                                    ],
+                                    "type": "text",
+                                    "content": "(340) FEM longitudinal, na escala de um para quatrocentos, para as alteras, e de um para quatro mil, para as distancias horizontais, mostrando, por meio de convenção, o terreno natural, as plataformas dos cortes e aterros e as obras de arte."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        33,
+                        173,
+                        301,
+                        193
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                33,
+                                173,
+                                301,
+                                193
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        33,
+                                        173,
+                                        301,
+                                        193
+                                    ],
+                                    "type": "text",
+                                    "content": "c) O perfil longitudinal deverá ser acompanhado de perfis transversaes intervallados de cincoenta metros, no maximo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        31,
+                        190,
+                        300,
+                        233
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                31,
+                                190,
+                                300,
+                                233
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        31,
+                                        190,
+                                        300,
+                                        233
+                                    ],
+                                    "type": "text",
+                                    "content": "d) Projectos completos e especificadas de todas as obras de arte necessarias para o estabelecimento da estrada, pontes, tungs, viaductos, practições, boeiros, estações e dependencias, bem como plantas de todas as propriedades, na parte cuja desapropriação fêe indispensável."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        31,
+                        231,
+                        299,
+                        249
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                31,
+                                231,
+                                299,
+                                249
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        31,
+                                        231,
+                                        299,
+                                        249
+                                    ],
+                                    "type": "text",
+                                    "content": "c) O desenho dos trilhos e acessórios, em grandeza de execução."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        31,
+                        247,
+                        299,
+                        276
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                31,
+                                247,
+                                299,
+                                276
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        31,
+                                        247,
+                                        299,
+                                        276
+                                    ],
+                                    "type": "text",
+                                    "content": "f) Relação do material rodante, contendo e tipo das locomotivas, vegetas, gondolas a carre de passageiros, na escala de us para direções, ou em catalogos das fabricos,"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        28,
+                        273,
+                        298,
+                        293
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                28,
+                                273,
+                                298,
+                                293
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        28,
+                                        273,
+                                        298,
+                                        293
+                                    ],
+                                    "type": "text",
+                                    "content": "Es, e, das poderão ser apresentados por seções, contanto que as as às 19 de dezembro de cinco kilómetros."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        29,
+                        290,
+                        297,
+                        316
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                29,
+                                290,
+                                297,
+                                316
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        29,
+                                        290,
+                                        297,
+                                        316
+                                    ],
+                                    "type": "text",
+                                    "content": "Os projectos das pontes, estações e outros obras importantes poderão ser apresentados à medida que vivarem de ser executados."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        26,
+                        315,
+                        298,
+                        341
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                26,
+                                315,
+                                298,
+                                341
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        26,
+                                        315,
+                                        298,
+                                        341
+                                    ],
+                                    "type": "text",
+                                    "content": "O Goverse poderá rejeitar os projectos, quando não ofereceram gerendia de salidez; mas terá então de apresentar as modificações que julgar convenientes."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        28,
+                        340,
+                        297,
+                        359
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                28,
+                                340,
+                                297,
+                                359
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        28,
+                                        340,
+                                        297,
+                                        359
+                                    ],
+                                    "type": "text",
+                                    "content": "No se rejeitando a concernuária a ellas, pederá, recoirar é a coimagem, como vzo determinado na clausula XIX."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        157,
+                        367,
+                        170,
+                        377
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                157,
+                                367,
+                                170,
+                                377
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        157,
+                                        367,
+                                        170,
+                                        377
+                                    ],
+                                    "type": "text",
+                                    "content": "VI"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        27,
+                        383,
+                        296,
+                        427
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                27,
+                                383,
+                                296,
+                                427
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        27,
+                                        383,
+                                        296,
+                                        427
+                                    ],
+                                    "type": "text",
+                                    "content": "Dentre de seis mezos, a contar da data da publicação de decreto de concessão de licença, deverão ser iniciados os trabalhos de construção desta estrada de forro, os quais deverão estar concluídos dentro do dois anos, a contar da data da approvação dos projectos a que se relere a clausula antecedente."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        26,
+                        426,
+                        296,
+                        469
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                26,
+                                426,
+                                296,
+                                469
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        26,
+                                        426,
+                                        296,
+                                        469
+                                    ],
+                                    "type": "text",
+                                    "content": "Si, exogitado o prazo marcado para início, não houver começado as óreas da linha, a concersionaria perderá a importância da canção, em proveite do Estado, salvo caso de força maior, a janzo ao Governo, que concederá mais uma só prorogação, do estado daquelle prazo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        152,
+                        472,
+                        171,
+                        482
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                152,
+                                472,
+                                171,
+                                482
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        152,
+                                        472,
+                                        171,
+                                        482
+                                    ],
+                                    "type": "text",
+                                    "content": "VII"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        25,
+                        488,
+                        295,
+                        515
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                25,
+                                488,
+                                295,
+                                515
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        488,
+                                        295,
+                                        515
+                                    ],
+                                    "type": "text",
+                                    "content": "A esução feita pela concessionaria poderá ser levasada desde que tenham sido dispendidos em construção tres por cento da importância total de 5.032:634\\$284, do orçamento approximativo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        25,
+                        514,
+                        294,
+                        539
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                25,
+                                514,
+                                294,
+                                539
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        514,
+                                        294,
+                                        539
+                                    ],
+                                    "type": "text",
+                                    "content": "A requerimento da Companhia, o Governo mandará um engtaiheiro da repartição competente examinar si a quantidade de obra feitas corresponde a tres por cento da importância referida"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        538,
+                        293,
+                        573
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                538,
+                                293,
+                                573
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        538,
+                                        293,
+                                        573
+                                    ],
+                                    "type": "text",
+                                    "content": "Esse exame não poderá duar mais de dois mezes. Os vencimentos do engenheiro, durante o tempo do exame das obras, coiterão por conta da concessionaria e serão deduzidos da importância pela mesma caucionada."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        23,
+                        572,
+                        294,
+                        615
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                23,
+                                572,
+                                294,
+                                615
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        23,
+                                        572,
+                                        294,
+                                        615
+                                    ],
+                                    "type": "text",
+                                    "content": "Si, no fim do um mez, a contar da data do pedido de exame das abras, não tiver o Governo encarragado engenheiro algum desse serviço, será considerado o exame feito e o total da quantia acucionada poderá ser retirado, independentemente da verificação da obra feita."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        148,
+                        615,
+                        170,
+                        626
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                148,
+                                615,
+                                170,
+                                626
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        148,
+                                        615,
+                                        170,
+                                        626
+                                    ],
+                                    "type": "text",
+                                    "content": "VIII"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        21,
+                        630,
+                        292,
+                        661
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                630,
+                                292,
+                                661
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        630,
+                                        292,
+                                        661
+                                    ],
+                                    "type": "text",
+                                    "content": "O Governo, por seus agentes, poderá intervir, em qualquer tempo, em tudo o que se referir à solidas das obras, resistencia do material e segurança do publico nesta estrada de ferro."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        439,
+                        55,
+                        455,
+                        65
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                439,
+                                55,
+                                455,
+                                65
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        439,
+                                        55,
+                                        455,
+                                        65
+                                    ],
+                                    "type": "text",
+                                    "content": "XI"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        307,
+                        70,
+                        581,
+                        181
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                307,
+                                70,
+                                581,
+                                181
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        307,
+                                        70,
+                                        581,
+                                        181
+                                    ],
+                                    "type": "text",
+                                    "content": "As obras de construção desta estrada de ferro não poderão impedir: o escôamento das aguas das propriedades particulares, a passagem das galerias de exgottes urbanos, de aguas utilizadas para abastecimento ou para finas industriais e agrícolas, a navo-gabilidade dos rios e canaes e o livre transito das vias publicas. Ficam a cargo desta estrada de ferro as despesas com as obras necessárias para o cruzamento das rios, estradas publicas e caminhos particulares existentes ao tempo da construção da linha, ficando também a seu cargo as despesas com aignaes e guardas, quando se tornarem precisos nesses cruzamentos. Os onus previonientes dos cruzamentos das vias publicas que se abrirem depois da construção desta estrada de ferro não correção por conta della."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        436,
+                        189,
+                        448,
+                        198
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                436,
+                                189,
+                                448,
+                                198
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        436,
+                                        189,
+                                        448,
+                                        198
+                                    ],
+                                    "type": "text",
+                                    "content": "X"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        304,
+                        203,
+                        577,
+                        223
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                304,
+                                203,
+                                577,
+                                223
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        304,
+                                        203,
+                                        577,
+                                        223
+                                    ],
+                                    "type": "text",
+                                    "content": "Os preços de transporte neste estrada de ferro során fixados em tarifas previamente approvasas pela administração, publica."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        304,
+                        220,
+                        576,
+                        249
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                304,
+                                220,
+                                576,
+                                249
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        304,
+                                        220,
+                                        576,
+                                        249
+                                    ],
+                                    "type": "text",
+                                    "content": "Desias tarifas deverá constar a indicação do logar do partida e de chegada, a determinação dos frêtes pelas distancias a percorrer e a classificação dos generos."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        304,
+                        246,
+                        575,
+                        265
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                304,
+                                246,
+                                575,
+                                265
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        304,
+                                        246,
+                                        575,
+                                        265
+                                    ],
+                                    "type": "text",
+                                    "content": "Não poderão esses preços exceder os mínimos adoptados para as linhas fereas de egual bitola."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        303,
+                        262,
+                        575,
+                        305
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                303,
+                                262,
+                                575,
+                                305
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        303,
+                                        262,
+                                        575,
+                                        305
+                                    ],
+                                    "type": "text",
+                                    "content": "Eº vedado à estrada adoptar tarifas de favor para prejudicar ou favorecer pesões ou empresas determinadas, assim como cobrar preços diferentes pelo transporte de passageiros e generos, feito em condições idanticas, desde que percorram distancias eguias, salvo o caso de tarifas diferenças."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        302,
+                        304,
+                        575,
+                        330
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                302,
+                                304,
+                                575,
+                                330
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        302,
+                                        304,
+                                        575,
+                                        330
+                                    ],
+                                    "type": "text",
+                                    "content": "Depois de approvadas pelo Governo, serão as tarifas impressas em caractéres legíveis e collocadas em todas as estações, para conhecimento do publico."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        433,
+                        329,
+                        447,
+                        339
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                433,
+                                329,
+                                447,
+                                339
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        433,
+                                        329,
+                                        447,
+                                        339
+                                    ],
+                                    "type": "text",
+                                    "content": "XI"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        301,
+                        344,
+                        575,
+                        413
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                301,
+                                344,
+                                575,
+                                413
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        301,
+                                        344,
+                                        575,
+                                        413
+                                    ],
+                                    "type": "text",
+                                    "content": "Quando houver necessidade do se elevarem os preços das tarifas, solicitará esta estrada licença do Governo, apresentando as razões de acerescimo. No prazo máximo de um moz reselverá o Governo sobre a questão. Si não o fizer, fica entendido que o acerescimo de preço está approvado. Neuluma elevação de preços das tarifas poderá tor força obrigatoria, mesmo approvada pelo Governo, são depois da publicação na imprese, durante dez dias, anunciando a reodificação foita."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        300,
+                        411,
+                        572,
+                        438
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                411,
+                                572,
+                                438
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        411,
+                                        572,
+                                        438
+                                    ],
+                                    "type": "text",
+                                    "content": "Essa publicação será feite noz jornaes de maior circuntação da Capital do Estado, e, quando for possível, era um de cada localidade servida por esta estrada."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 34,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        300,
+                        436,
+                        570,
+                        454
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                436,
+                                570,
+                                454
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        436,
+                                        570,
+                                        454
+                                    ],
+                                    "type": "text",
+                                    "content": "A redução dos preços das terifas poderá ter logar, independentemente de publicação prévia."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 35,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        318,
+                        453,
+                        571,
+                        465
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                318,
+                                453,
+                                571,
+                                465
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        318,
+                                        453,
+                                        571,
+                                        465
+                                    ],
+                                    "type": "text",
+                                    "content": "Uma vez, porém, adoptada, a publicação será obrigatoria."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 36,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        426,
+                        469,
+                        445,
+                        479
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                426,
+                                469,
+                                445,
+                                479
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        426,
+                                        469,
+                                        445,
+                                        479
+                                    ],
+                                    "type": "text",
+                                    "content": "XII"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 37,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        298,
+                        484,
+                        570,
+                        513
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                298,
+                                484,
+                                570,
+                                513
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        298,
+                                        484,
+                                        570,
+                                        513
+                                    ],
+                                    "type": "text",
+                                    "content": "As combinações que fizer esta estrada do forro com outras, a respeito de tarifas, ao terão força obrigatoria depois de approvadas pelo Governo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 38,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        423,
+                        511,
+                        446,
+                        521
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                423,
+                                511,
+                                446,
+                                521
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        423,
+                                        511,
+                                        446,
+                                        521
+                                    ],
+                                    "type": "text",
+                                    "content": "XIII"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 39,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        298,
+                        525,
+                        572,
+                        569
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                298,
+                                525,
+                                572,
+                                569
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        298,
+                                        525,
+                                        572,
+                                        569
+                                    ],
+                                    "type": "text",
+                                    "content": ": Searão observadas nesta estrada de ferro, enquanto o Governo não expedir o regulamento de lei n. 30, de 13 de Junho de 1892, as bases gerais para o transporte de bagagons, oncomendes e mercadorias, estabelecidas pelo decreto n. 1237, de 2 de Maio de 1889."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 40,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        424,
+                        568,
+                        446,
+                        578
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                424,
+                                568,
+                                446,
+                                578
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        424,
+                                        568,
+                                        446,
+                                        578
+                                    ],
+                                    "type": "text",
+                                    "content": "XIV"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 41,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        297,
+                        584,
+                        571,
+                        628
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                297,
+                                584,
+                                571,
+                                628
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        297,
+                                        584,
+                                        571,
+                                        628
+                                    ],
+                                    "type": "text",
+                                    "content": "Para todos os efeitos legreas ou resultantes de contractos de lucros distribuidos entre os accionistas desta estrada de ferro, quer a título de bonus, quer sob formula de acções beneficiarias, ou por qualquer outro mero, serão computados conjuntamente com os pagos sob a denominação de dividendo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        296,
+                        625,
+                        570,
+                        661
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                296,
+                                625,
+                                570,
+                                661
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        296,
+                                        625,
+                                        570,
+                                        661
+                                    ],
+                                    "type": "text",
+                                    "content": "Para todos os efeite s resultantes de contractos, esta estrada deverá apresentar no Governo a conta do seu capital empregado na construção primitiva, nos melhoramentos da linha e suas dependências."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 43,
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        55,
+                        24,
+                        140,
+                        35
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                24,
+                                140,
+                                35
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        24,
+                                        140,
+                                        35
+                                    ],
+                                    "type": "text",
+                                    "content": "986 Sexta-feira 1"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        266,
+                        27,
+                        356,
+                        40
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                266,
+                                27,
+                                356,
+                                40
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        266,
+                                        27,
+                                        356,
+                                        40
+                                    ],
+                                    "type": "text",
+                                    "content": "DIARIO OFFICIAL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        504,
+                        34,
+                        567,
+                        46
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                504,
+                                34,
+                                567,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        504,
+                                        34,
+                                        567,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Abril 1910"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                }
+            ],
+            "page_size": [
+                601,
+                708
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        35,
+                        46,
+                        305,
+                        109
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                35,
+                                46,
+                                305,
+                                109
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        35,
+                                        46,
+                                        305,
+                                        109
+                                    ],
+                                    "type": "text",
+                                    "content": "a) Planta geral da linha concedida com a indicação dos pontos de passagem obrigatorios, configuração do terreno, representada por meio de curvas de nível equidistantes de cinco metros no máximo, o, bem assim, em uma zona de cincoenta metros pelo menos, para cada lado, os campos, mattas, terrenes podregosos e brejos, o, sempre que for possível, a divisa das propriedades particulares, minas e terras devolutas."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        34,
+                        106,
+                        304,
+                        145
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                34,
+                                106,
+                                304,
+                                145
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        34,
+                                        106,
+                                        304,
+                                        145
+                                    ],
+                                    "type": "text",
+                                    "content": "Nossa planta, em escala de um para quatro mil, serão indicadas todas as distancias kilemétricas, contadas a partir do ponto inicial de estrada; a extensão dos alinhamentos rectos e curvos; os gráus e ratos das curvas empregadas."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        33,
+                        143,
+                        302,
+                        176
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                33,
+                                143,
+                                302,
+                                176
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        33,
+                                        143,
+                                        302,
+                                        176
+                                    ],
+                                    "type": "text",
+                                    "content": "(340) FEM longitudinal, na escala de um para quatrocentos, para as alteras, e de um para quatro mil, para as distancias horizontais, mostrando, por meio de convenção, o terreno natural, as plataformas dos cortes e aterros e as obras de arte."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        33,
+                        173,
+                        301,
+                        193
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                33,
+                                173,
+                                301,
+                                193
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        33,
+                                        173,
+                                        301,
+                                        193
+                                    ],
+                                    "type": "text",
+                                    "content": "c) O perfil longitudinal deverá ser acompanhado de perfis transversaes intervallados de cincoenta metros, no maximo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        31,
+                        190,
+                        300,
+                        233
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                31,
+                                190,
+                                300,
+                                233
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        31,
+                                        190,
+                                        300,
+                                        233
+                                    ],
+                                    "type": "text",
+                                    "content": "d) Projectos completos e especificadas de todas as obras de arte necessarias para o estabelecimento da estrada, pontes, tungs, viaductos, practições, boeiros, estações e dependencias, bem como plantas de todas as propriedades, na parte cuja desapropriação fêe indispensável."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        31,
+                        231,
+                        299,
+                        249
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                31,
+                                231,
+                                299,
+                                249
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        31,
+                                        231,
+                                        299,
+                                        249
+                                    ],
+                                    "type": "text",
+                                    "content": "c) O desenho dos trilhos e acessórios, em grandeza de execução."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        31,
+                        247,
+                        299,
+                        276
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                31,
+                                247,
+                                299,
+                                276
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        31,
+                                        247,
+                                        299,
+                                        276
+                                    ],
+                                    "type": "text",
+                                    "content": "f) Relação do material rodante, contendo e tipo das locomotivas, vegetas, gondolas a carre de passageiros, na escala de us para direções, ou em catalogos das fabricos,"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        28,
+                        273,
+                        298,
+                        293
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                28,
+                                273,
+                                298,
+                                293
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        28,
+                                        273,
+                                        298,
+                                        293
+                                    ],
+                                    "type": "text",
+                                    "content": "Es, e, das poderão ser apresentados por seções, contanto que as as às 19 de dezembro de cinco kilómetros."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        29,
+                        290,
+                        297,
+                        316
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                29,
+                                290,
+                                297,
+                                316
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        29,
+                                        290,
+                                        297,
+                                        316
+                                    ],
+                                    "type": "text",
+                                    "content": "Os projectos das pontes, estações e outros obras importantes poderão ser apresentados à medida que vivarem de ser executados."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        26,
+                        315,
+                        298,
+                        341
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                26,
+                                315,
+                                298,
+                                341
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        26,
+                                        315,
+                                        298,
+                                        341
+                                    ],
+                                    "type": "text",
+                                    "content": "O Goverse poderá rejeitar os projectos, quando não ofereceram gerendia de salidez; mas terá então de apresentar as modificações que julgar convenientes."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        28,
+                        340,
+                        297,
+                        359
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                28,
+                                340,
+                                297,
+                                359
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        28,
+                                        340,
+                                        297,
+                                        359
+                                    ],
+                                    "type": "text",
+                                    "content": "No se rejeitando a concernuária a ellas, pederá, recoirar é a coimagem, como vzo determinado na clausula XIX."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        157,
+                        367,
+                        170,
+                        377
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                157,
+                                367,
+                                170,
+                                377
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        157,
+                                        367,
+                                        170,
+                                        377
+                                    ],
+                                    "type": "text",
+                                    "content": "VI"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        27,
+                        383,
+                        296,
+                        427
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                27,
+                                383,
+                                296,
+                                427
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        27,
+                                        383,
+                                        296,
+                                        427
+                                    ],
+                                    "type": "text",
+                                    "content": "Dentre de seis mezos, a contar da data da publicação de decreto de concessão de licença, deverão ser iniciados os trabalhos de construção desta estrada de forro, os quais deverão estar concluídos dentro do dois anos, a contar da data da approvação dos projectos a que se relere a clausula antecedente."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        26,
+                        426,
+                        296,
+                        469
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                26,
+                                426,
+                                296,
+                                469
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        26,
+                                        426,
+                                        296,
+                                        469
+                                    ],
+                                    "type": "text",
+                                    "content": "Si, exogitado o prazo marcado para início, não houver começado as óreas da linha, a concersionaria perderá a importância da canção, em proveite do Estado, salvo caso de força maior, a janzo ao Governo, que concederá mais uma só prorogação, do estado daquelle prazo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        152,
+                        472,
+                        171,
+                        482
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                152,
+                                472,
+                                171,
+                                482
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        152,
+                                        472,
+                                        171,
+                                        482
+                                    ],
+                                    "type": "text",
+                                    "content": "VII"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        25,
+                        488,
+                        295,
+                        515
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                25,
+                                488,
+                                295,
+                                515
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        488,
+                                        295,
+                                        515
+                                    ],
+                                    "type": "text",
+                                    "content": "A esução feita pela concessionaria poderá ser levasada desde que tenham sido dispendidos em construção tres por cento da importância total de 5.032:634\\$284, do orçamento approximativo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        25,
+                        514,
+                        294,
+                        539
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                25,
+                                514,
+                                294,
+                                539
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        514,
+                                        294,
+                                        539
+                                    ],
+                                    "type": "text",
+                                    "content": "A requerimento da Companhia, o Governo mandará um engtaiheiro da repartição competente examinar si a quantidade de obra feitas corresponde a tres por cento da importância referida"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        24,
+                        538,
+                        293,
+                        573
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                24,
+                                538,
+                                293,
+                                573
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        24,
+                                        538,
+                                        293,
+                                        573
+                                    ],
+                                    "type": "text",
+                                    "content": "Esse exame não poderá duar mais de dois mezes. Os vencimentos do engenheiro, durante o tempo do exame das obras, coiterão por conta da concessionaria e serão deduzidos da importância pela mesma caucionada."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        23,
+                        572,
+                        294,
+                        615
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                23,
+                                572,
+                                294,
+                                615
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        23,
+                                        572,
+                                        294,
+                                        615
+                                    ],
+                                    "type": "text",
+                                    "content": "Si, no fim do um mez, a contar da data do pedido de exame das abras, não tiver o Governo encarragado engenheiro algum desse serviço, será considerado o exame feito e o total da quantia acucionada poderá ser retirado, independentemente da verificação da obra feita."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        148,
+                        615,
+                        170,
+                        626
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                148,
+                                615,
+                                170,
+                                626
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        148,
+                                        615,
+                                        170,
+                                        626
+                                    ],
+                                    "type": "text",
+                                    "content": "VIII"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        21,
+                        630,
+                        292,
+                        661
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                630,
+                                292,
+                                661
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        630,
+                                        292,
+                                        661
+                                    ],
+                                    "type": "text",
+                                    "content": "O Governo, por seus agentes, poderá intervir, em qualquer tempo, em tudo o que se referir à solidas das obras, resistencia do material e segurança do publico nesta estrada de ferro."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        439,
+                        55,
+                        455,
+                        65
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                439,
+                                55,
+                                455,
+                                65
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        439,
+                                        55,
+                                        455,
+                                        65
+                                    ],
+                                    "type": "text",
+                                    "content": "XI"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        307,
+                        70,
+                        581,
+                        181
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                307,
+                                70,
+                                581,
+                                181
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        307,
+                                        70,
+                                        581,
+                                        181
+                                    ],
+                                    "type": "text",
+                                    "content": "As obras de construção desta estrada de ferro não poderão impedir: o escôamento das aguas das propriedades particulares, a passagem das galerias de exgottes urbanos, de aguas utilizadas para abastecimento ou para finas industriais e agrícolas, a navo-gabilidade dos rios e canaes e o livre transito das vias publicas. Ficam a cargo desta estrada de ferro as despesas com as obras necessárias para o cruzamento das rios, estradas publicas e caminhos particulares existentes ao tempo da construção da linha, ficando também a seu cargo as despesas com aignaes e guardas, quando se tornarem precisos nesses cruzamentos. Os onus previonientes dos cruzamentos das vias publicas que se abrirem depois da construção desta estrada de ferro não correção por conta della."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        436,
+                        189,
+                        448,
+                        198
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                436,
+                                189,
+                                448,
+                                198
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        436,
+                                        189,
+                                        448,
+                                        198
+                                    ],
+                                    "type": "text",
+                                    "content": "X"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        304,
+                        203,
+                        577,
+                        223
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                304,
+                                203,
+                                577,
+                                223
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        304,
+                                        203,
+                                        577,
+                                        223
+                                    ],
+                                    "type": "text",
+                                    "content": "Os preços de transporte neste estrada de ferro során fixados em tarifas previamente approvasas pela administração, publica."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        304,
+                        220,
+                        576,
+                        249
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                304,
+                                220,
+                                576,
+                                249
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        304,
+                                        220,
+                                        576,
+                                        249
+                                    ],
+                                    "type": "text",
+                                    "content": "Desias tarifas deverá constar a indicação do logar do partida e de chegada, a determinação dos frêtes pelas distancias a percorrer e a classificação dos generos."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        304,
+                        246,
+                        575,
+                        265
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                304,
+                                246,
+                                575,
+                                265
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        304,
+                                        246,
+                                        575,
+                                        265
+                                    ],
+                                    "type": "text",
+                                    "content": "Não poderão esses preços exceder os mínimos adoptados para as linhas fereas de egual bitola."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        303,
+                        262,
+                        575,
+                        305
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                303,
+                                262,
+                                575,
+                                305
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        303,
+                                        262,
+                                        575,
+                                        305
+                                    ],
+                                    "type": "text",
+                                    "content": "Eº vedado à estrada adoptar tarifas de favor para prejudicar ou favorecer pesões ou empresas determinadas, assim como cobrar preços diferentes pelo transporte de passageiros e generos, feito em condições idanticas, desde que percorram distancias eguias, salvo o caso de tarifas diferenças."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        302,
+                        304,
+                        575,
+                        330
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                302,
+                                304,
+                                575,
+                                330
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        302,
+                                        304,
+                                        575,
+                                        330
+                                    ],
+                                    "type": "text",
+                                    "content": "Depois de approvadas pelo Governo, serão as tarifas impressas em caractéres legíveis e collocadas em todas as estações, para conhecimento do publico."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        433,
+                        329,
+                        447,
+                        339
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                433,
+                                329,
+                                447,
+                                339
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        433,
+                                        329,
+                                        447,
+                                        339
+                                    ],
+                                    "type": "text",
+                                    "content": "XI"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        301,
+                        344,
+                        575,
+                        413
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                301,
+                                344,
+                                575,
+                                413
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        301,
+                                        344,
+                                        575,
+                                        413
+                                    ],
+                                    "type": "text",
+                                    "content": "Quando houver necessidade do se elevarem os preços das tarifas, solicitará esta estrada licença do Governo, apresentando as razões de acerescimo. No prazo máximo de um moz reselverá o Governo sobre a questão. Si não o fizer, fica entendido que o acerescimo de preço está approvado. Neuluma elevação de preços das tarifas poderá tor força obrigatoria, mesmo approvada pelo Governo, são depois da publicação na imprese, durante dez dias, anunciando a reodificação foita."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        300,
+                        411,
+                        572,
+                        438
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                411,
+                                572,
+                                438
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        411,
+                                        572,
+                                        438
+                                    ],
+                                    "type": "text",
+                                    "content": "Essa publicação será feite noz jornaes de maior circuntação da Capital do Estado, e, quando for possível, era um de cada localidade servida por esta estrada."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 34,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        300,
+                        436,
+                        570,
+                        454
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                300,
+                                436,
+                                570,
+                                454
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        300,
+                                        436,
+                                        570,
+                                        454
+                                    ],
+                                    "type": "text",
+                                    "content": "A redução dos preços das terifas poderá ter logar, independentemente de publicação prévia."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 35,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        318,
+                        453,
+                        571,
+                        465
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                318,
+                                453,
+                                571,
+                                465
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        318,
+                                        453,
+                                        571,
+                                        465
+                                    ],
+                                    "type": "text",
+                                    "content": "Uma vez, porém, adoptada, a publicação será obrigatoria."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 36,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        426,
+                        469,
+                        445,
+                        479
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                426,
+                                469,
+                                445,
+                                479
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        426,
+                                        469,
+                                        445,
+                                        479
+                                    ],
+                                    "type": "text",
+                                    "content": "XII"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 37,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        298,
+                        484,
+                        570,
+                        513
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                298,
+                                484,
+                                570,
+                                513
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        298,
+                                        484,
+                                        570,
+                                        513
+                                    ],
+                                    "type": "text",
+                                    "content": "As combinações que fizer esta estrada do forro com outras, a respeito de tarifas, ao terão força obrigatoria depois de approvadas pelo Governo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 38,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        423,
+                        511,
+                        446,
+                        521
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                423,
+                                511,
+                                446,
+                                521
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        423,
+                                        511,
+                                        446,
+                                        521
+                                    ],
+                                    "type": "text",
+                                    "content": "XIII"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 39,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        298,
+                        525,
+                        572,
+                        569
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                298,
+                                525,
+                                572,
+                                569
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        298,
+                                        525,
+                                        572,
+                                        569
+                                    ],
+                                    "type": "text",
+                                    "content": ": Searão observadas nesta estrada de ferro, enquanto o Governo não expedir o regulamento de lei n. 30, de 13 de Junho de 1892, as bases gerais para o transporte de bagagons, oncomendes e mercadorias, estabelecidas pelo decreto n. 1237, de 2 de Maio de 1889."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 40,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        424,
+                        568,
+                        446,
+                        578
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                424,
+                                568,
+                                446,
+                                578
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        424,
+                                        568,
+                                        446,
+                                        578
+                                    ],
+                                    "type": "text",
+                                    "content": "XIV"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 41,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        297,
+                        584,
+                        571,
+                        628
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                297,
+                                584,
+                                571,
+                                628
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        297,
+                                        584,
+                                        571,
+                                        628
+                                    ],
+                                    "type": "text",
+                                    "content": "Para todos os efeitos legreas ou resultantes de contractos de lucros distribuidos entre os accionistas desta estrada de ferro, quer a título de bonus, quer sob formula de acções beneficiarias, ou por qualquer outro mero, serão computados conjuntamente com os pagos sob a denominação de dividendo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        296,
+                        625,
+                        570,
+                        661
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                296,
+                                625,
+                                570,
+                                661
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        296,
+                                        625,
+                                        570,
+                                        661
+                                    ],
+                                    "type": "text",
+                                    "content": "Para todos os efeite s resultantes de contractos, esta estrada deverá apresentar no Governo a conta do seu capital empregado na construção primitiva, nos melhoramentos da linha e suas dependências."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 43,
+                    "merge_prev": false
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_effort": "medium",
+    "_ocr_enable": true,
+    "_version_name": "3.4.4"
+}

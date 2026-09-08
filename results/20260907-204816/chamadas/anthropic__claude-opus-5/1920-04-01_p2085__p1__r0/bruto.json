@@ -1,0 +1,87 @@
+{
+  "chave": "anthropic/claude-opus-5|1920-04-01_p2085|p1|0",
+  "registro": {
+    "model_id": "anthropic/claude-opus-5",
+    "prompt_id": "p1",
+    "doc_id": "1920-04-01_p2085",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 59.04927740001585,
+    "prompt_tokens": 4826,
+    "completion_tokens": 5122,
+    "total_tokens": 9948,
+    "cost_usd": 0.15218,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Anthropic",
+    "generation_id": "gen-1788829510-iLx6WJvYXwfUoOz7ZAYl",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T01:05:10Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788829510-iLx6WJvYXwfUoOz7ZAYl",
+        "object": "chat.completion",
+        "created": 1788829510,
+        "model": "anthropic/claude-opus-5",
+        "provider": "Anthropic",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "end_turn",
+            "message": {
+              "role": "assistant",
+              "content": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diario Official do Estado de São Paulo — 1.º de Abril de 1920</title>\n<style>\n    body {\n        background: #ffffff;\n        margin: 0;\n        padding: 20px 30px;\n        font-family: \"Times New Roman\", Times, serif;\n        color: #000;\n    }\n    .jornal {\n        max-width: 1000px;\n        margin: 0 auto;\n    }\n    .cabecalho {\n        text-align: center;\n    }\n    .estados {\n        font-family: Arial, Helvetica, sans-serif;\n        font-weight: bold;\n        font-size: 40px;\n        letter-spacing: 2px;\n        margin: 0;\n        transform: scaleY(1.1);\n    }\n    .titulo-principal {\n        font-family: Arial Black, Arial, Helvetica, sans-serif;\n        font-weight: bold;\n        font-size: 110px;\n        line-height: 1;\n        letter-spacing: 4px;\n        margin: 4px 0 2px 0;\n    }\n    .subtitulo {\n        font-family: Arial, Helvetica, sans-serif;\n        font-weight: bold;\n        font-size: 38px;\n        letter-spacing: 3px;\n        margin: 6px 0 10px 0;\n    }\n    .regua-dupla {\n        border-top: 4px solid #000;\n        border-bottom: 1px solid #000;\n        height: 3px;\n        margin: 6px 0;\n    }\n    .linha-dados {\n        display: flex;\n        justify-content: space-between;\n        align-items: baseline;\n        font-size: 19px;\n        font-variant: small-caps;\n        padding: 4px 6px;\n    }\n    .linha-dados .cidade {\n        font-size: 24px;\n        letter-spacing: 3px;\n        font-variant: normal;\n    }\n    .regua-dupla2 {\n        border-top: 3px solid #000;\n        border-bottom: 3px solid #000;\n        height: 2px;\n        margin: 4px 0 14px 0;\n    }\n    .colunas {\n        display: flex;\n        column-gap: 28px;\n    }\n    .coluna {\n        width: 50%;\n        text-align: justify;\n        font-size: 15.5px;\n        line-height: 1.28;\n    }\n    .coluna.esquerda {\n        border-right: 1px solid #000;\n        padding-right: 28px;\n    }\n    .secao-titulo {\n        font-family: Arial Black, Arial, sans-serif;\n        font-weight: bold;\n        font-size: 34px;\n        text-align: center;\n        letter-spacing: 1px;\n        border-top: 3px solid #000;\n        border-bottom: 3px solid #000;\n        padding: 6px 0;\n        margin: 0 0 18px 0;\n    }\n    .secao-interior {\n        font-family: Arial Black, Arial, sans-serif;\n        font-weight: bold;\n        font-size: 30px;\n        text-align: center;\n        letter-spacing: 2px;\n        margin: 26px 0 16px 0;\n    }\n    .decreto {\n        text-align: center;\n        font-variant: small-caps;\n        font-size: 18px;\n        margin: 22px 0 16px 0;\n    }\n    .ementa {\n        font-style: italic;\n        margin: 0 0 16px 26px;\n        text-align: justify;\n        font-size: 15px;\n    }\n    p {\n        margin: 0;\n        text-indent: 26px;\n    }\n    .assinatura {\n        text-align: center;\n        font-variant: small-caps;\n        margin-top: 8px;\n        text-indent: 0;\n    }\n    .assinatura2 {\n        text-align: center;\n        font-style: italic;\n        text-indent: 0;\n        margin-bottom: 10px;\n    }\n    .separador {\n        width: 130px;\n        border: none;\n        border-top: 3px solid #000;\n        margin: 20px auto;\n    }\n    table.verbas {\n        margin: 6px 0 6px 20px;\n        font-size: 15.5px;\n        border-collapse: collapse;\n    }\n    table.verbas td {\n        padding: 1px 6px;\n    }\n    td.valor { text-align: right; }\n    .total {\n        text-align: right;\n        margin-right: 60px;\n        border-top: 1px solid #000;\n        width: 300px;\n        margin-left: auto;\n        text-indent: 0;\n    }\n</style>\n</head>\n<body>\n<div class=\"jornal\">\n\n    <div class=\"cabecalho\">\n        <p class=\"estados\">ESTADOS UNIDOS DO BRAZIL</p>\n        <p class=\"titulo-principal\">DIARIO OFFICIAL</p>\n        <p class=\"subtitulo\">DO ESTADO DE SÃO PAULO</p>\n    </div>\n\n    <div class=\"regua-dupla\"></div>\n\n    <div class=\"linha-dados\">\n        <span>ANNO 30 &mdash; 32.º da REPUBLICA &mdash; N. 73</span>\n        <span class=\"cidade\">SÃO PAULO</span>\n        <span>QUINTA-FEIRA, 1.º de ABRIL de 1920</span>\n    </div>\n\n    <div class=\"regua-dupla2\"></div>\n\n    <div class=\"colunas\">\n\n        <div class=\"coluna esquerda\">\n\n            <div class=\"secao-titulo\">Actos do Poder Executivo</div>\n\n            <div class=\"decreto\">DECRETO N. 3185 &mdash; de 30 de março de 1920</div>\n\n            <div class=\"ementa\">\n                Abre á Secretaria da Fazenda e do Thesouro do Estado,\n                um credito especial de vinte e cinco contos, novecentos\n                e setenta e quatro mil e oitocentos e vinte réis......\n                (25:974$820), para fazer face ás despezas effetuadas\n                com a epidemia de grippe no exercicio de 1919.\n            </div>\n\n            <p>O Doutor Altino Arantes, Presidente do Estado de São\n            Paulo,</p>\n            <p>Attendendo ao que lhe representou o sr. Secretario de\n            Estado dos Negocios da Fazenda e do Thesouro e usando\n            da faculdade que lhe confere a Lei n. 1605 de 31 de Ou-\n            tubro de 1918,</p>\n            <p>Decreta :</p>\n            <p>Artigo 1.º &mdash; Fica aberto na Secretaria da Fazenda e\n            do Thesouro do Estado um credito especial de vinte e cinco\n            contos, novecentos e setenta e quatro mil e oitocentos e\n            vinte réis (Rs. 25:974$820) para fazer face ás despezas effe-\n            ctuadas com a epidemia de grippe no exercicio de 1919.</p>\n            <p>Artigo 2.º &mdash; Revogam-se as disposições em contrario.</p>\n            <p>Palacio do Governo do Estado de São Paulo, em 30\n            de Março de 1920.</p>\n\n            <p class=\"assinatura\">Altino Arantes.</p>\n            <p class=\"assinatura2\">C. Herculano de Freitas.</p>\n\n            <p>Publicado na Secretaria da Fazenda e do Thesouo do\n            Estado de São Paulo, em 31 de Março de 1920. &mdash; <i>Theophilo\n            M. Nobrega</i>, director-geral.</p>\n\n            <hr class=\"separador\">\n\n            <div class=\"decreto\">DECRETO N. 3186 &mdash; de 30 de março de 1920</div>\n\n            <div class=\"ementa\">\n                Abre no Thesouro do Estado um credito de 253:739$000\n                para liquidação da despesa da Secretaria do Interior\n                no exercicio de 1919.\n            </div>\n\n            <p>O Presidente do Estado, usando da auctorisação que\n            lhe é conferida pela lei n. 1.673, de 2 de Dezembro de 1919,</p>\n            <p>Decreta :</p>\n            <p>Artigo unico. &mdash; Fica aberto no Thesouro do Estado,\n            á Secretaria de Estado dos Negocios do Interior, um credito\n            supplementar de duzentos e cincoenta e tres contos setecen-\n            tos e trinta e nove mil réis (253:739$000), para saldar o\n            deficit verificado nas seguintes rubricas do orçamento para\n            o exercicio de 1919 :</p>\n\n            <table class=\"verbas\">\n                <tr>\n                    <td>§ 2.º Senado ............. ... ......</td>\n                    <td class=\"valor\">52:206$000</td>\n                </tr>\n                <tr>\n                    <td>§ 3.º Camara dos Deputados........</td>\n                    <td class=\"valor\">201:533$000</td>\n                </tr>\n            </table>\n            <p class=\"total\">253:739$000</p>\n\n            <p>Palacio do Governo do Estado de São Paulo, aos 30\n            de Março de 1920.</p>\n\n            <p class=\"assinatura\">Altino Arantes.</p>\n            <p class=\"assinatura2\">Oscar Rodrigues Alves.</p>\n\n            <hr class=\"separador\">\n\n            <div class=\"decreto\">DECRETO N. 3187 &mdash; de 3 de março de 1920</div>\n\n            <div class=\"ementa\">\n                Abre no Thesouro do Estado, á Secretaria de Estado dos\n                Negocios do Interior, um credito especial de rs.........\n                3.386:403$468, para as despesas feitas com a epide-\n                mia de grippe.\n            </div>\n\n            <p>O presidente do Estado, usando da auctorisação que\n            lhe é conferida pela lei n. 1.605, de 31 de Outubro de 1918,</p>\n\n        </div>\n\n        <div class=\"coluna direita\">\n\n            <p>Decreta :</p>\n            <p>Artigo unico. &mdash; Fica aberto no Thesouro do Estado,\n            á Secretaria de Estado dos Negocios do Interior, um credito\n            especial de tres mil trezentos e oitenta e seis contos qua-\n            trocentos e trez mil quatrocentos e sessenta e oito réis......\n            (3.386:403$468), para as despesas feitas com a epidemia de\n            grippe.</p>\n            <p>Palacio do Governo do Estado de São Paulo, aos 30\n            de Março de 1920.</p>\n\n            <p class=\"assinatura\">Altino Arantes.</p>\n            <p class=\"assinatura2\">Oscar Rodrigues Alves.</p>\n\n            <hr class=\"separador\">\n\n            <div class=\"secao-interior\">INTERIOR</div>\n\n            <p>Por decretos de 31 do corrente :</p>\n            <p>foram aposentados o dr. Augusto Militão Pacheco, in-\n            spector sanitario da Capital e o sr. Antonio Egydio Martins,\n            1.º escripturario da Repartição de Estatistica e Archivo do\n            Estado ;</p>\n            <p>foi removido o inspector sanitario da Delegacia de\n            Saúde de Campinas, dr. João Paes Leme de Monlevade,\n            para igual cargo nesta Capital ;</p>\n            <p>foram nomeados inspectores sanitarios os drs. João\n            Thomaz Monteiro da Silva, para S. Carlos ; Daniel Martins,\n            para Botucatú ; Justiniano Lisbôa e Jorge Dutra Fragoso,\n            para Santos ;</p>\n            <p>foi nomeado o sr. Alfredo de Barros Santos, para exer-\n            cer o cargo de auxiliar do director da Escola Profissional\n            Masculina da Capital ;</p>\n            <p>foi promovido a 2.º escripturario da Directoria Geral\n            do Serviço Sanitario, o 3.º escripturario da mesma reparti-\n            ção, sr. Bernardino de Campos Araujo ;</p>\n            <p>foi nomeado o dr. Henrique Jorge Guedes para exercer\n            o cargo de lente substituto interino da 2.ª secção da Escola\n            Polytechnica de S. Paulo ;</p>\n            <p>foi transferido o dr. Francisco Pereira Ramos, lente\n            cathedratico das cadeiras reunidas de Physica Industrial e\n            Electrotechnica (1.ª parte) da Escola Polytechnica de São\n            Paulo, para lente cathedratico da cadeira isolada de Econo-\n            mia Politica. Elementos de Estatisca. Noções de Direito\n            Administrativo da mesma Escola, de accôrdo com art. 20,\n            § 3.º do Decreto n. 2.931, de 12 de Junho de 1918 ;</p>\n            <p>foi annexada ao grupo escolar de Pirajú a escola mixta\n            urbana, das Paivas, da mesma localidade ;</p>\n            <p>foi dada a denominação de «Francisco Simões», ao\n            grupo escolar de Dois Corregos ;</p>\n            <p>foi effectivado no cargo de director do grupo escolar\n            de Tambahú, o actual director interino, professor Manoel\n            Nogueira de Carvalho ;</p>\n            <p>foram nomeadas adjunctas dos grupos escolares de Ri-\n            beirão Bonito e Brotas, as seguintes professoras dd. Maria\n            Paula de Paula Sousa, Maria Silveira Almeida, respectiva-\n            mente ;</p>\n            <p>foram removidos, a pedido, os seguintes adjunctos de\n            grupos escolares :</p>\n            <p>d. Maria Augusta de Andrade Justo, do de Brotas\n            para o «Antonio Padilha», de Sorocaba ;</p>\n            <p>d. Dulce de Barros Pereira, do de Brotas, para o\n            «Visconde de Porto Seguro», de Sorocaba ;</p>\n            <p>Luiz do Amaral Wagner, do «Antonio Padilha», de\n            Sorocaba, para o de Brotas ;</p>\n            <p>d. Marianna Mastroandréa, do «Visconde de Porto Se-\n            guro», de Sorocaba, para o de Brotas ;</p>\n            <p>d. Edemea Rudge Ramos Parada, do de Belémzinho,\n            para o de S. João. ambos desta Capital ;</p>\n            <p>foram exoneradas, a pedido, do cargo de adjunctas do\n            grupo escolar do Bebedouro, d. Luiza Oliveira Algodoal e\n            d. Tamilde Rossi Magalhães, do 1.º de Araraquara ;</p>\n\n        </div>\n\n    </div>\n\n</div>\n</body>\n</html>\n```",
+              "refusal": null,
+              "reasoning": "I'm building an HTML document that replicates the old Brazilian gazette's layout, with a masthead, header line, and two-column text structure, then transcribing the content into a complete styled page.\n\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "I'm building an HTML document that replicates the old Brazilian gazette's layout, with a masthead, header line, and two-column text structure, then transcribing the content into a complete styled page.\n\n",
+                  "format": "anthropic-claude-v1",
+                  "index": 0,
+                  "signature": "CAIS/QMKrgEIERgCKkBF8Y5CUKEWguQG+EmC2tgUV3pHWXe/rFTklzAC0GjcAuvNd+y++FLoCJhljWOzt44TRkacvVE6D/3CjIzkBOhwMg1jbGF1ZGUtb3B1cy01OAFCCHRoaW5raW5nWiQwZDk4M2YzZi00OWZhLTRhNDYtODI1NC1iMWJiMjQ5MWEyYTl6HnVwcm9mXzAxMUNlcHpua2tWbVNIcDRQWXl3NFpCVagBzL791AYSDKM56EsMTWkeRbPwBhoMQXrlnI54NAfZdJ6JIjDzyEAN68+DxjNcpFFvFBPq4Y41fnYRLLEY5z8ete8MRzzi7EgSS7LqLLtsvdRDaCwq+wFYIvr9bIegLDGlxTIrY0XKXxVWKOtKEFBNx0sVyhhOSkHytgagsJSNJfw2RpWnfJuCU+2YWKgfu8Um8cquJW6rexPCAEiiJr6B9Og8CDJ0nQVKimpf9fFfLE0zEBU031AGATwOkEHNSeTxrGrg6QbxO5wPdcFa4tFEHJqgmVwhkimu6gm2F+OZYIDz7OMx+5gz6TNnSdaOh3N4xzi0JTa/TlgDJD7Kiuffr3hZ2TuOTnXdaZxidKzGsUmfTWLfOBIGWTawzoSsAQQC6rJflbWT+Mvc+Gpu/HVuba2pfX9K6PavO/5frarHz4VBlAwWqCZj9EnwSuDxEQXXEhgB"
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 4826,
+          "completion_tokens": 5122,
+          "total_tokens": 9948,
+          "cost": 0.15218,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.15218,
+            "upstream_inference_prompt_cost": 0.02413,
+            "upstream_inference_completions_cost": 0.12805
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 80,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

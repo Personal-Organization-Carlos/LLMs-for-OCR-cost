@@ -1,0 +1,1011 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "ESTADOS UNIDOS DO BRAZIL"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                210,
+                13,
+                789,
+                42
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "DIARIO OFFICIAL DO ESTADO DE SÃO PAULO"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                84,
+                41,
+                915,
+                148
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ANNO 9*—12.* DA REPUBLICA—M. 75"
+                    }
+                ]
+            },
+            "bbox": [
+                96,
+                157,
+                364,
+                176
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "SÃO PAULO"
+                    }
+                ]
+            },
+            "bbox": [
+                453,
+                160,
+                540,
+                178
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "DOMINGO, 1 DI ABRIL DE 1900"
+                    }
+                ]
+            },
+            "bbox": [
+                676,
+                163,
+                893,
+                183
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "ACTOS DO PODER EXECUTIVO"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                64,
+                190,
+                342,
+                216
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Interior"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                162,
+                231,
+                246,
+                248
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Por decreto de 27 do corrente foi exonerado o professor preliminar, cidadão José de Castro, com exercício na Eschola Complementar de Itapelini-ga, para o cargo de professor do grupo escolar de São Manosl do Paraízo;"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                253,
+                343,
+                318
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Por decreto da mesma data, foi nomeada a profesora preliminar, d. Anna Candida Soares, para o cargo de professora adjunta do grupo escholar da Faxina;"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                318,
+                343,
+                368
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Por decreto da mesma data, foi nomeada a professora de equal categoria, d. Emygália Soares, para, interinamente, exercer o cargo de professora do mesmo grupo."
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                368,
+                342,
+                419
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Por decreto da mesma data, foi exonerado, a pedido, o Ischarel José Pinto do Moura, do cargo de lente da 9.ª cadeira do Gymnasio de Campinas;"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                419,
+                343,
+                470
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Por decreto da mesma data, foram creados quatro logares de adjunotos na seção feminina do 2.º grupo escholar de Campinas;"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                470,
+                343,
+                508
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Por decreto da mesma data, foram também credos dois logaras identicos na seção feminina do grupo da Faxina."
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                508,
+                343,
+                545
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Agricultura"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                139,
+                550,
+                262,
+                566
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Por decreto de 27 do mez findo, foi removido a pedido, o cidadão Carlos Martins, 2.º escripturário da Hospedaria de Immigrentes, para o logar de conferente da Repartição de Aguas e Exgaltos; sendo nomeado para aquella vaga o cidadão Julio Bicudo."
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                567,
+                343,
+                644
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "SECRETARIAS DE ESTADO"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                78,
+                661,
+                315,
+                685
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Interior"
+                    }
+                ]
+            },
+            "bbox": [
+                162,
+                695,
+                243,
+                711
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "EXPEDIENTE DE 30 DE MARÇO DE 1999\n1.ª SUB-DIRECTORIA\n1.ª SEGÃO"
+                    }
+                ]
+            },
+            "bbox": [
+                98,
+                716,
+                303,
+                758
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Communicou se à Secretaria dos Negócios da Fazenda, para os devidos dias, que o bacharel Jscinho do Nascimento Moura, auxiliar da redacção do Diario Official, reasumiu o exercício do cargo no dia 21 do corrente, visto ter terminado a licença em cujo goso se achava."
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                761,
+                343,
+                836
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Transmittiram-se à Secretaria dos Negócios da Agricultura, Commercio e Obras Publicas dois of- ticios, sendo um da camara municipal de Guarehy e outro do intendente municipal da Franca, visto tratarem de assumptos referentes àquella secretraria."
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                836,
+                343,
+                912
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2.ª EXECUÇÃO Ofícios despachados"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                429,
+                194,
+                550,
+                220
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Da Secretaria da Agricultura, communicando que opportunamente será executado o serviço de exgoltos nos hairros da Lapa, Agua Branca e outros da capital.—A' Directoria do Serviço Sanitário."
+                    }
+                ]
+            },
+            "bbox": [
+                350,
+                220,
+                629,
+                281
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "EXPEDIENTE DE 28 DE MARÇO DE 1900"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                385,
+                283,
+                593,
+                297
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.ª escção"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                457,
+                300,
+                523,
+                312
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Foram solicitados da Secretaria da Fazenda os seguintes pagamentos :"
+                    }
+                ]
+            },
+            "bbox": [
+                350,
+                312,
+                629,
+                337
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "De 31:000, pela collectorla de Mogy das Cruzes, no director do grupo escolar daquella cidade, pelo fornecimentos feitos ao referido estabelecimento;"
+                    }
+                ]
+            },
+            "bbox": [
+                348,
+                338,
+                629,
+                386
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "De 2:810\\$100, pela collectoria da Faxins, ao director do grupo escholar daquella cidade, Emilio Mario de Arantes, proveniente de fornecimentos feitos ao dito estabelecimento;"
+                    }
+                ]
+            },
+            "bbox": [
+                350,
+                388,
+                629,
+                438
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "De 2958000, pela collectorla de Areias, ao dire-\ntor do grupo escholar daquella cidade, José Ma-\nrio da Silveira, proveniente de reparos feitos no\npredio onde funcciona o referido estabelecimento;"
+                    }
+                ]
+            },
+            "bbox": [
+                350,
+                438,
+                629,
+                489
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "De 100\\$000, pela collectoria de Espírito Santo do Pinhal, ao director, em commissão, do grupo escholar duquella cidade, Domingos de Paula da Silva, proveniente de contas de serviços prestados ao referido estabelecimento."
+                    }
+                ]
+            },
+            "bbox": [
+                348,
+                489,
+                629,
+                552
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Auctorizon-se o director do Serviço Sanitario a despender a quantia de 725\\$000, para acquisição de objectos necessários àquella reparição."
+                    }
+                ]
+            },
+            "bbox": [
+                348,
+                552,
+                629,
+                589
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "I. SUB-DIRECTORIA"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                421,
+                589,
+                556,
+                602
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1.a seccão"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                457,
+                603,
+                523,
+                614
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Communicou-se 20 sr. dr. secretario da Fazenda:\nQue, por motivo de molestis, interrompeu o exercício de seu cargo, desde o dia 14 do corrente, o professor do grupo escolar do Braz, cidadão Jenesio Braulio Rodrigues;"
+                    }
+                ]
+            },
+            "bbox": [
+                350,
+                615,
+                629,
+                677
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Que foram abonadas seis faltas dadas pelo professor de escripturação mercantil da Eschola Normal, cidadão Jeronymo Azevedo, no mex último."
+                    }
+                ]
+            },
+            "bbox": [
+                348,
+                677,
+                628,
+                716
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Recommendou-se ao director do grupo escolar «Dr. Flamiaio Leisa», de Guaralluguetá, que informase a este secretariado de que serviço se acha encarregado o professor Miguel Virginio dos Santos."
+                    }
+                ]
+            },
+            "bbox": [
+                348,
+                716,
+                629,
+                777
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Declarou-se ao director do grupo escholar « Gabriel Prestea», de Lorena, em resposta ao seu ofício n. 21, de 6 do corrente, não haver necessidade do augmente de uma sala naquelle estabelecimento, como informou o inspector escholar que alli estève em commissão."
+                    }
+                ]
+            },
+            "bbox": [
+                348,
+                777,
+                629,
+                854
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Requerimento despachado\nDe Maria da Piedade Canto, porteira do grupo\nescholar de Lorena, pedido equiparação de seus\nvencimentos aos do porteiro do mesmo grupo.—So-\njam equiparados."
+                    }
+                ]
+            },
+            "bbox": [
+                350,
+                854,
+                632,
+                917
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3.ª SECCÃO Dia 27"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                745,
+                197,
+                810,
+                223
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Offiou-se :"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                648,
+                216,
+                720,
+                230
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A' Fazenda, communicando que a professora nomeada para reger a eachola mixta da vlla Cerquel-a Gosar, desta capital, d. Maria Ellis Mac Infyre, assumiu o exercício no dia 30 do corrente:"
+                    }
+                ]
+            },
+            "bbox": [
+                637,
+                231,
+                918,
+                282
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A' mesma, communicando que a 10 do corrente foi nomeado inspector mu leipal de Santa Barbara do Rio Pardo, assumindo o exercício a 17 do mesmo, o maior Casemlro Nunes de Carvalho;"
+                    }
+                ]
+            },
+            "bbox": [
+                635,
+                282,
+                918,
+                334
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A' mesma, communicando que eatrou em exercício da eschola da villa do Rio das Padras, no dia 20) do corrente, o professor João Braulio Cesar."
+                    }
+                ]
+            },
+            "bbox": [
+                635,
+                333,
+                918,
+                371
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Dia 28"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                754,
+                371,
+                801,
+                384
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Officiou-se :"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                646,
+                382,
+                721,
+                395
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A' Fazenda, trasmittindo, por cópie, o decreto que aposentou a professora da eschola do 22.º distrito desta capital, d. Galdina America de Almeida, bem como todos os papeis referentes ao assumpto;"
+                    }
+                ]
+            },
+            "bbox": [
+                635,
+                396,
+                918,
+                460
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A' mesma, tranemittindo, por cópia, o decreto que sposentou o professor da eschola do lairro de Santa Cruz, município de Cruziro e demais papeis referentes an assumpto;"
+                    }
+                ]
+            },
+            "bbox": [
+                635,
+                460,
+                918,
+                510
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A' mesma, transmitindo, por cópia, o decreto que aposentou o cidadão Augusto Pinto da Silva Saes, professor da eschola da villa de S. Pedro, e demais papeis referentes ao assumpio;"
+                    }
+                ]
+            },
+            "bbox": [
+                635,
+                510,
+                918,
+                561
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A' mezma, solicitando pagamento da gratificação de que trata o artigo 135 do regulamento de 27 de Novembro de 1893, ao professor adjuncto da 1.ª escola de Santos, cidação Glynho Paiva."
+                    }
+                ]
+            },
+            "bbox": [
+                635,
+                561,
+                920,
+                611
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Dia 29"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                756,
+                614,
+                798,
+                626
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Officiou-se :"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                648,
+                622,
+                721,
+                635
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A' Fazenda, communicando que a professora da eschola do 5.º distrito, desta capital, d. Mariaona da Gloria Rodrigues Bahia, entrau a 21 do corrente no goso da licença que lha fora concedida no"
+                    }
+                ]
+            },
+            "bbox": [
+                635,
+                636,
+                921,
+                687
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A' mesma, communicando que o professor Braziliano de Azevedo, removido da eschela do bairro dos Mauricios, em São Beito do Sapucaby, para a da freguezia de Santo Antonio do Pinhal, do mesmo município, assumiu o exercício do cargo no dia 17 do corrente."
+                    }
+                ]
+            },
+            "bbox": [
+                635,
+                685,
+                918,
+                762
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Dia 30"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                756,
+                762,
+                796,
+                773
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Officiou-se :"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                650,
+                769,
+                721,
+                781
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A' camara municipal de Santos, mandando passar os atlestados de exercício ao professor da 4.a eschola daquella cidade, cida tão Eugenio Porchat de Assis, visto não ter sido abanduada a sua eschola, conforme se varilicou dos papeis relativos ao caso."
+                    }
+                ]
+            },
+            "bbox": [
+                637,
+                783,
+                918,
+                858
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3. ■ SECCÃO"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                745,
+                858,
+                823,
+                871
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Officiou-se ;"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                650,
+                869,
+                720,
+                883
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ao agente da E. de Ferro Central, pedindo transporte para volumes destinados aos grupos escholares de Arcias e Pindamenhangabs;"
+                    }
+                ]
+            },
+            "bbox": [
+                640,
+                884,
+                918,
+                921
+            ]
+        }
+    ]
+]

@@ -1,0 +1,78 @@
+{
+  "chave": "anthropic/claude-sonnet-5|1900-04-01_p731|p1|0",
+  "registro": {
+    "model_id": "anthropic/claude-sonnet-5",
+    "prompt_id": "p1",
+    "doc_id": "1900-04-01_p731",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 43.01824909995776,
+    "prompt_tokens": 4767,
+    "completion_tokens": 4392,
+    "total_tokens": 9159,
+    "cost_usd": 0.053454,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Anthropic",
+    "generation_id": "gen-1788826206-sOEj0yFfokVaNYiUclCv",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T00:10:06Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788826206-sOEj0yFfokVaNYiUclCv",
+        "object": "chat.completion",
+        "created": 1788826206,
+        "model": "anthropic/claude-sonnet-5",
+        "provider": "Anthropic",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "end_turn",
+            "message": {
+              "role": "assistant",
+              "content": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diario Official do Estado de São Paulo</title>\n<style>\n    body {\n        font-family: 'Times New Roman', Times, serif;\n        max-width: 1200px;\n        margin: 0 auto;\n        padding: 20px;\n        background-color: #f4f1e9;\n        color: #1a1a1a;\n    }\n    .header {\n        text-align: center;\n        border-bottom: 3px solid black;\n        padding-bottom: 10px;\n        margin-bottom: 10px;\n    }\n    .header h1 {\n        font-size: 24px;\n        letter-spacing: 2px;\n        margin: 5px 0;\n        font-weight: bold;\n    }\n    .header h2 {\n        font-size: 60px;\n        margin: 0;\n        letter-spacing: 3px;\n        font-family: Georgia, serif;\n        font-weight: 900;\n    }\n    .header h3 {\n        font-size: 28px;\n        margin: 5px 0;\n        letter-spacing: 1px;\n    }\n    .info-bar {\n        display: flex;\n        justify-content: space-between;\n        border-bottom: 2px solid black;\n        padding: 5px 0;\n        margin-bottom: 20px;\n        font-size: 14px;\n        font-weight: bold;\n    }\n    .columns {\n        display: flex;\n        justify-content: space-between;\n        gap: 20px;\n    }\n    .column {\n        flex: 1;\n        text-align: justify;\n        font-size: 13px;\n        line-height: 1.3;\n        border-right: 1px solid #ccc;\n        padding-right: 15px;\n    }\n    .column:last-child {\n        border-right: none;\n    }\n    .section-title {\n        text-align: center;\n        font-weight: bold;\n        font-size: 15px;\n        margin: 10px 0 5px 0;\n    }\n    .subsection-title {\n        text-align: center;\n        font-style: italic;\n        margin: 5px 0;\n    }\n    h4 {\n        text-align: center;\n        margin: 8px 0 4px 0;\n        font-size: 13px;\n    }\n    p {\n        margin: 4px 0;\n    }\n    .day-title {\n        text-align: center;\n        font-style: italic;\n        margin: 8px 0 4px 0;\n    }\n</style>\n</head>\n<body>\n\n<div class=\"header\">\n    <h1>ESTADOS UNIDOS DO BRAZIL</h1>\n    <h2>DIARIO OFFICIAL</h2>\n    <h3>DO ESTADO DE SÃO PAULO</h3>\n</div>\n\n<div class=\"info-bar\">\n    <span>ANNO 9° — 12.° DA REPUBLICA — N. 75</span>\n    <span>SÃO PAULO</span>\n    <span>DOMINGO, 1 DE ABRIL DE 1900</span>\n</div>\n\n<div class=\"columns\">\n\n    <div class=\"column\">\n        <div class=\"section-title\">ACTOS DO PODER EXECUTIVO</div>\n        <h4>Interior</h4>\n        <p>Por decreto de 27 do corrente foi exonerado o professor preliminar, cidadão José de Castro, com exercicio na Eschola Complementar de Itapetininga, para o cargo de professor do grupo escholar de São Manoel do Paraiso;</p>\n        <p>Por decreto da mesma data, foi nomeada a professora preliminar, d. Anna Candida Soares, para o cargo de professora adjunta do grupo escholar da Faxina;</p>\n        <p>Por decreto da mesma data, foi nomeada a professora de egual categoria, d. Emygdia Soares, para, interinamente, exercer o cargo de professora do mesmo grupo.</p>\n        <p>Por decreto da mesma data, foi exonerado, a pedido, o bacharel José Pinto de Moura, do cargo de lente da 9.ª cadeira do Gymnasio de Campinas;</p>\n        <p>Por decreto da mesma data, foram creados quatro logares de adjunctos na secção feminina do 2.° grupo escholar de Campinas;</p>\n        <p>Por decreto da mesma data, foram também creados dois logares identicos na secção feminina do grupo da Faxina.</p>\n\n        <h4>Agricultura</h4>\n        <p>Por decreto de 27 do mez findo, foi removido a pedido, o cidadão Carlos Martins, 2.° escripturario da Hospedaria de Immigrantes, para o logar de conferente da Repartição de Aguas e Exgottos; sendo nomeado para aquella vaga o cidadão Julio Bicudo.</p>\n\n        <div class=\"section-title\">SECRETARIAS DE ESTADO</div>\n        <h4>Interior</h4>\n        <p style=\"text-align:center;\">EXPEDIENTE DE 30 DE MARÇO DE 1900</p>\n        <p style=\"text-align:center;\">1.ª SUB-DIRECTORIA</p>\n        <p style=\"text-align:center;\">1.ª SECÇÃO</p>\n        <p>Communicou-se á Secretaria dos Negocios da Fazenda, para os devidos fins, que o bacharel Jacintho do Nascimento Moura, auxiliar da redacção do <i>Diario Official</i>, reassumiu o exercicio do cargo no dia 24 do corrente, visto ter terminado a licença em cujo goso se achava.</p>\n        <p>Transmittiram-se á Secretaria dos Negocios da Agricultura, Commercio e Obras Publicas dois officios, sendo um da camara municipal de Guarehy e outro do intendente municipal da Franca, visto tratarem de assumptos referentes áquella secretaria.</p>\n    </div>\n\n    <div class=\"column\">\n        <p style=\"text-align:center;\">2.ª SECÇÃO</p>\n        <div class=\"subsection-title\">Officios despachados</div>\n        <p>Da Secretaria da Agricultura, communicando que opportunamente será executado o serviço de exgottos nos bairros da Lapa, Agua Branca e outros da capital.—A' Directoria do Serviço Sanitario.</p>\n\n        <p style=\"text-align:center;\">EXPEDIENTE DE 28 DE MARÇO DE 1900</p>\n        <p style=\"text-align:center;\">3.ª SECÇÃO</p>\n        <p>Foram solicitados da Secretaria da Fazenda os seguintes pagamentos:</p>\n        <p>De 35$000, pela collectoria de Mogy das Cruzes, ao director do grupo escholar daquella cidade, pelos fornecimentos feitos ao referido estabelecimento;</p>\n        <p>De 2:810$100, pela collectoria da Faxina, ao director do grupo escholar daquella cidade, Emilio Mario de Arantes, proveniente de fornecimentos feitos ao dito estabelecimento;</p>\n        <p>De 295$000, pela collectoria de Areias, ao director do grupo escholar daquella cidade, José Mario da Silveira, proveniente de reparos feitos no predio onde funcciona o referido estabelecimento;</p>\n        <p>De 100$000, pela collectoria de Espirito Santo do Pinhal, ao director, em commissão, do grupo escholar daquella cidade, Domingos de Paula da Silva, proveniente de contas de serviços prestados ao referido estabelecimento.</p>\n        <p>Auctorizon-se o director do Serviço Sanitario a despender a quantia de 725$000, para acquisição de objectos necessarios áquella repartição.</p>\n\n        <p style=\"text-align:center;\">1.ª SUB-DIRECTORIA</p>\n        <p style=\"text-align:center;\">1.ª SECÇÃO</p>\n        <p>Communicou-se ao sr. dr. secretario da Fazenda:</p>\n        <p>Que, por motivo de molestia, interrompeu o exercicio de seu cargo, desde o dia 14 do corrente, o professor do grupo escholar do Braz, cidadão Genasio Braulio Rodrigues;</p>\n        <p>Que foram abonadas seis faltas dadas pelo professor de escripturação mercantil da Eschola Normal, cidadão Jeronymo Azevedo, no mez ultimo.</p>\n        <p>Recommendou-se ao director do grupo escholar «Dr. Flaminio Lessa», de Guaratinguetá, que informasse a este secretariado de que serviço se acha encarregado o professor Miguel Virginio dos Santos.</p>\n        <p>Declarou-se ao director do grupo escholar «Gabriel Presteo», de Lorena, em resposta ao seu officio n. 21, de 6 do corrente, não haver necessidade do augmento de uma sala naquelle estabelecimento, como informou o inspector escholar que alli esteve em commissão.</p>\n\n        <div class=\"subsection-title\">Requerimento despachado</div>\n        <p>De Maria da Piedade Canto, porteira do grupo escholar de Lorena, pedindo equiparação de seus vencimentos aos do porteiro do mesmo grupo.—Sejam equiparados.</p>\n    </div>\n\n    <div class=\"column\">\n        <p style=\"text-align:center;\">3.ª SECÇÃO</p>\n        <div class=\"day-title\">Dia 27</div>\n        <p>Officiou-se:</p>\n        <p>A' Fazenda, communicando que a professora nomeada para reger a eschola mixta da villa Cerqueira Cesar, desta capital, d. Maria Ellis Mac Intyre, assumiu o exercicio no dia 20 do corrente;</p>\n        <p>A' mesma, communicando que a 10 do corrente foi nomeado inspector municipal de Santa Barbara do Rio Pardo, assumindo o exercicio a 17 do mesmo, o major Casemiro Nunes de Carvalho;</p>\n        <p>A' mesma, communicando que entrou em exercicio da eschola da villa do Rio das Pedras, no dia 20 do corrente, o professor João Braulio Cesar.</p>\n\n        <div class=\"day-title\">Dia 28</div>\n        <p>Officiou-se:</p>\n        <p>A' Fazenda, trasmittindo, por cópia, o decreto que aposentou a professora da eschola do 22.° districto desta capital, d. Galdina America de Almeida, bem como todos os papeis referentes ao assumpto;</p>\n        <p>A' mesma, transmittindo, por cópia, o decreto que aposentou o professor da eschola do bairro de Santa Cruz, municipio de Cruzeiro e demais papeis referentes ao assumpto;</p>\n        <p>A' mesma, transmittindo, por cópia, o decreto que aposentou o cidadão Augusto Pinto da Silva Saes, professor da eschola da villa de S. Pedro, e demais papeis referentes ao assumpto;</p>\n        <p>A' mesma, solicitando pagamento da gratificação de que trata o artigo 125 do regulamento de 27 de Novembro de 1893, ao professor adjuncto da 1.ª eschola de Santos, cidadão Olyntho Paiva.</p>\n\n        <div class=\"day-title\">Dia 29</div>\n        <p>Officiou-se:</p>\n        <p>A' Fazenda, communicando que a professora da eschola do 5.° districto, desta capital, d. Marianna da Gloria Rodrigues Bahia, entrou a 21 do corrente no goso da licença que lhe fôra concedida;</p>\n        <p>A' mesma, communicando que o professor Braziliano de Azevedo, removido da eschola do bairro dos Mauricios, em São Bento do Sapucahy, para a da freguezia de Santo Antonio do Pinhal, do mesmo municipio, assumiu o exercicio do cargo no dia 17 do corrente.</p>\n\n        <div class=\"day-title\">Dia 30</div>\n        <p>Officiou-se:</p>\n        <p>A' camara municipal de Santos, mandando passar os attestados de exercicio ao professor da 4.ª eschola daquella cidade, cidadão Eugenio Porchat de Assis, visto não ter sido abandonada a sua eschola, conforme se verificou dos papeis relativos ao caso.</p>\n\n        <p style=\"text-align:center;\">3.ª SECÇÃO</p>\n        <p>Officiou-se:</p>\n        <p>Ao agente da E. de Ferro Central, pedindo transporte para volumes destinados aos grupos escholares de Areias e Pindamonhangaba;</p>\n    </div>\n\n</div>\n\n</body>\n</html>\n```",
+              "refusal": null,
+              "reasoning": null
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 4767,
+          "completion_tokens": 4392,
+          "total_tokens": 9159,
+          "cost": 0.053454,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.053454,
+            "upstream_inference_prompt_cost": 0.009534,
+            "upstream_inference_completions_cost": 0.04392
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

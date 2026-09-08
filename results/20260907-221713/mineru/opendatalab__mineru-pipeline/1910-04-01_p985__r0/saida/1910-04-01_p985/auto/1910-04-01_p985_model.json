@@ -1,0 +1,1715 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.7665,
+                "bbox": [
+                    299,
+                    82,
+                    1333,
+                    141
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.9459,
+                "bbox": [
+                    71,
+                    146,
+                    1583,
+                    284
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.688,
+                "bbox": [
+                    334,
+                    290,
+                    1304,
+                    349
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8887,
+                "bbox": [
+                    118,
+                    367,
+                    596,
+                    417
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8095,
+                "bbox": [
+                    768,
+                    372,
+                    940,
+                    405
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8402,
+                "bbox": [
+                    1118,
+                    378,
+                    1539,
+                    410
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9543,
+                "bbox": [
+                    143,
+                    439,
+                    742,
+                    512
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9381,
+                "bbox": [
+                    255,
+                    548,
+                    626,
+                    584
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.862,
+                "bbox": [
+                    287,
+                    600,
+                    600,
+                    633
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.951,
+                "bbox": [
+                    66,
+                    648,
+                    822,
+                    704
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9642,
+                "bbox": [
+                    64,
+                    717,
+                    821,
+                    771
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9614,
+                "bbox": [
+                    63,
+                    768,
+                    823,
+                    842
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7878,
+                "bbox": [
+                    121,
+                    836,
+                    238,
+                    861
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9736,
+                "bbox": [
+                    66,
+                    857,
+                    823,
+                    956
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9766,
+                "bbox": [
+                    66,
+                    953,
+                    823,
+                    1048
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9515,
+                "bbox": [
+                    68,
+                    1045,
+                    823,
+                    1093
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8719,
+                "bbox": [
+                    196,
+                    1088,
+                    775,
+                    1119
+                ],
+                "index": 17
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8648,
+                "bbox": [
+                    196,
+                    1119,
+                    530,
+                    1151
+                ],
+                "index": 18
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9257,
+                "bbox": [
+                    268,
+                    1228,
+                    636,
+                    1261
+                ],
+                "index": 19
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9111,
+                "bbox": [
+                    295,
+                    1282,
+                    609,
+                    1310
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9747,
+                "bbox": [
+                    74,
+                    1326,
+                    828,
+                    1425
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9664,
+                "bbox": [
+                    70,
+                    1441,
+                    827,
+                    1494
+                ],
+                "index": 22
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9733,
+                "bbox": [
+                    69,
+                    1491,
+                    828,
+                    1589
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7508,
+                "bbox": [
+                    128,
+                    1582,
+                    246,
+                    1607
+                ],
+                "index": 24
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9833,
+                "bbox": [
+                    69,
+                    1603,
+                    831,
+                    1791
+                ],
+                "index": 25
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9368,
+                "bbox": [
+                    68,
+                    1787,
+                    831,
+                    1836
+                ],
+                "index": 26
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5174,
+                "bbox": [
+                    202,
+                    1832,
+                    789,
+                    1896
+                ],
+                "index": 27
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7618,
+                "bbox": [
+                    831,
+                    442,
+                    1590,
+                    516
+                ],
+                "index": 28
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6569,
+                "bbox": [
+                    1198,
+                    530,
+                    1231,
+                    558
+                ],
+                "index": 29
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9699,
+                "bbox": [
+                    830,
+                    559,
+                    1593,
+                    688
+                ],
+                "index": 30
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8027,
+                "bbox": [
+                    1208,
+                    700,
+                    1244,
+                    727
+                ],
+                "index": 31
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9832,
+                "bbox": [
+                    831,
+                    730,
+                    1596,
+                    944
+                ],
+                "index": 32
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9747,
+                "bbox": [
+                    832,
+                    941,
+                    1600,
+                    1038
+                ],
+                "index": 33
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9794,
+                "bbox": [
+                    834,
+                    1035,
+                    1597,
+                    1175
+                ],
+                "index": 34
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9512,
+                "bbox": [
+                    838,
+                    1171,
+                    1596,
+                    1227
+                ],
+                "index": 35
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8719,
+                "bbox": [
+                    1199,
+                    1240,
+                    1242,
+                    1266
+                ],
+                "index": 36
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9747,
+                "bbox": [
+                    838,
+                    1269,
+                    1594,
+                    1367
+                ],
+                "index": 37
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9708,
+                "bbox": [
+                    839,
+                    1363,
+                    1596,
+                    1437
+                ],
+                "index": 38
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9716,
+                "bbox": [
+                    839,
+                    1434,
+                    1597,
+                    1529
+                ],
+                "index": 39
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9444,
+                "bbox": [
+                    839,
+                    1525,
+                    1594,
+                    1579
+                ],
+                "index": 40
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8459,
+                "bbox": [
+                    1197,
+                    1585,
+                    1244,
+                    1613
+                ],
+                "index": 41
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9737,
+                "bbox": [
+                    841,
+                    1629,
+                    1606,
+                    1781
+                ],
+                "index": 42
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8764,
+                "bbox": [
+                    842,
+                    1835,
+                    1599,
+                    1917
+                ],
+                "index": 43
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    306,
+                    84,
+                    1324,
+                    134
+                ],
+                "score": 0.982,
+                "text": "ESTADOS UNIDOS DO BRAZIL"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    63,
+                    150,
+                    1579,
+                    282
+                ],
+                "score": 0.997,
+                "text": "DIARIO OFFICIAL"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    336,
+                    292,
+                    1295,
+                    347
+                ],
+                "score": 0.96,
+                "text": "DO ESTADO DE SÃO PAULO"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    120,
+                    368,
+                    590,
+                    415
+                ],
+                "score": 0.616,
+                "text": "ANNO 19.°22.° DA RUELIUA-N.(6)"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    772,
+                    374,
+                    936,
+                    404
+                ],
+                "score": 0.959,
+                "text": "BÃO PAULO"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1123,
+                    381,
+                    1534,
+                    407
+                ],
+                "score": 0.867,
+                "text": "SEXTA-FBIRA 1 DD ABRIt DA 1910"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    144,
+                    436,
+                    737,
+                    509
+                ],
+                "score": 0.998,
+                "text": "Actos do Poder Executivo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    263,
+                    556,
+                    619,
+                    581
+                ],
+                "score": 0.768,
+                "text": "ECEEON.ASES"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    293,
+                    604,
+                    594,
+                    631
+                ],
+                "score": 0.891,
+                "text": " 29  Ç  1910"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    72,
+                    650,
+                    820,
+                    679
+                ],
+                "score": 0.939,
+                "text": "àuetoriza a Companhia Estrada de Ferro S. Paulo a Goyas a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    95,
+                    676,
+                    793,
+                    700
+                ],
+                "score": 0.892,
+                "text": "abrir co trefeg? publico a linha de Bebedouro a Alonte Azul"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    120,
+                    719,
+                    815,
+                    749
+                ],
+                "score": 0.97,
+                "text": "O Vics-presidante do Estado de S. Paule, em oxorcicio na"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    71,
+                    744,
+                    553,
+                    772
+                ],
+                "score": 0.924,
+                "text": "fórma doS1 artigo 27, da Constituição,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    125,
+                    766,
+                    818,
+                    794
+                ],
+                "score": 0.933,
+                "text": "Attendendo ao que colicitn a Gompanhia Estrada do Ferro"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    70,
+                    789,
+                    818,
+                    818
+                ],
+                "score": 0.902,
+                "text": "S. Paulo a Gayaz, e ob propo ta do secrstsrio de Estado dos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    71,
+                    814,
+                    714,
+                    841
+                ],
+                "score": 0.92,
+                "text": "Negccios da Agticultuta, Cotoxe cio e Obras Publicas,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    128,
+                    837,
+                    231,
+                    864
+                ],
+                "score": 0.929,
+                "text": "Decreta :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    126,
+                    859,
+                    819,
+                    886
+                ],
+                "score": 0.945,
+                "text": "Artigo 1.° Fica a Coiopanhin Estrada do Ferro E. Paulo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    73,
+                    883,
+                    819,
+                    911
+                ],
+                "score": 0.933,
+                "text": "a Goysz, avetorizads a ałrir ao trafego publieo a via ferrea do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    73,
+                    905,
+                    820,
+                    933
+                ],
+                "score": 0.88,
+                "text": "Bebedouro a Moste Azul, con 31 kilometros de extensão e à"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    75,
+                    930,
+                    753,
+                    955
+                ],
+                "score": 0.971,
+                "text": "qual se referin o deereto n. 1732, de 4 de Maio do 1909."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    125,
+                    952,
+                    817,
+                    978
+                ],
+                "score": 0.972,
+                "text": "Artigo 2.° A presente liconça é coneedida mediante a con-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    74,
+                    974,
+                    818,
+                    1003
+                ],
+                "score": 0.955,
+                "text": "dição de, dentro do prazo de 30 diss, contados destagdáta; sorem"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    74,
+                    997,
+                    819,
+                    1026
+                ],
+                "score": 0.952,
+                "text": "ultimados os serviçes de arsentamento da linha telegraphica de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    74,
+                    1023,
+                    690,
+                    1048
+                ],
+                "score": 0.919,
+                "text": "retoque do leito, a de const:ucçã) de cerças lateraes."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    74,
+                    1067,
+                    181,
+                    1090
+                ],
+                "score": 0.976,
+                "text": "de 1910."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    122,
+                    1043,
+                    822,
+                    1071
+                ],
+                "score": 0.968,
+                "text": "Palaçio də Governo do Estado de S. Paulo, 29 do Março"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    201,
+                    1089,
+                    767,
+                    1119
+                ],
+                "score": 0.977,
+                "text": "FERNANDO PRESTES DE ALBUQUERQUE."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    202,
+                    1122,
+                    523,
+                    1147
+                ],
+                "score": 0.966,
+                "text": "ANTONIO EE PADUA SALLES"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    273,
+                    1232,
+                    630,
+                    1259
+                ],
+                "score": 0.59,
+                "text": "EDHCEEO N.1SA"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    301,
+                    1285,
+                    604,
+                    1309
+                ],
+                "score": 0.922,
+                "text": "D 29  Ç  1910"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    80,
+                    1327,
+                    823,
+                    1357
+                ],
+                "score": 0.987,
+                "text": "Coneede á Companhia Mogyana de Estradas de Ferro e Nave-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    131,
+                    1354,
+                    826,
+                    1380
+                ],
+                "score": 0.956,
+                "text": "gação licença para coħstrueção, uso e goso de. uma estrada"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    133,
+                    1400,
+                    309,
+                    1421
+                ],
+                "score": 0.927,
+                "text": "Ribeirão I'reto."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    131,
+                    1377,
+                    822,
+                    1402
+                ],
+                "score": 0.943,
+                "text": "de ferro que.¿niciando-se no bairro de Jatahy, termine em"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    132,
+                    1442,
+                    824,
+                    1472
+                ],
+                "score": 0.955,
+                "text": "O Vice-presidente do Estaão do S. Paulo, em exercicio na"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    77,
+                    1466,
+                    546,
+                    1495
+                ],
+                "score": 0.923,
+                "text": "fórma do S 1.°, art. 27 da Constituição."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    129,
+                    1487,
+                    825,
+                    1518
+                ],
+                "score": 0.948,
+                "text": "Usando da ailribaição que lbe confere o artigo 2.• da lei"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    75,
+                    1512,
+                    825,
+                    1541
+                ],
+                "score": 0.945,
+                "text": "n. 30, de 13 de Juaho de 1892, e atiendendo ao requerido psla"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    78,
+                    1535,
+                    823,
+                    1565
+                ],
+                "score": 0.921,
+                "text": "Companhia Mogyaaa de Estradas de Ferra e Navegação, nos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    77,
+                    1560,
+                    734,
+                    1586
+                ],
+                "score": 0.955,
+                "text": "fermos dos parsgraphos 2.° e S.° do artigo e lei citados,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    134,
+                    1579,
+                    239,
+                    1608
+                ],
+                "score": 0.889,
+                "text": "Decrata :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    131,
+                    1601,
+                    826,
+                    1632
+                ],
+                "score": 0.951,
+                "text": "Artigo unico. Fica concodids á Companhia Mogyana de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    78,
+                    1651,
+                    824,
+                    1677
+                ],
+                "score": 0.947,
+                "text": "goso de uma via ferrea que  partindodo ponto terminal da"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    77,
+                    1674,
+                    824,
+                    1700
+                ],
+                "score": 0.93,
+                "text": "que lhe foi concedida pelo decreto n. 1773, de 1.º de Outubro"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    77,
+                    1696,
+                    824,
+                    1724
+                ],
+                "score": 0.945,
+                "text": "de l909 - vá terminar em Ribeirão'Preto, de conformidade com"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    77,
+                    1720,
+                    824,
+                    1747
+                ],
+                "score": 0.904,
+                "text": "as clanaulas que com esté baixam, asngnadas pelo sr. dr. se-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    76,
+                    1765,
+                    260,
+                    1791
+                ],
+                "score": 0.845,
+                "text": "Ohxras Pablica."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    77,
+                    1628,
+                    824,
+                    1653
+                ],
+                "score": 0.979,
+                "text": "Estradas da Ferro e Navegação licança para construcção, uso e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    76,
+                    1743,
+                    828,
+                    1770
+                ],
+                "score": 0.968,
+                "text": "eretario de Estado dos Negocios da Agricultura, Commercio e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    79,
+                    1812,
+                    209,
+                    1835
+                ],
+                "score": 0.92,
+                "text": "de1910."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    127,
+                    1786,
+                    828,
+                    1818
+                ],
+                "score": 0.933,
+                "text": "Palacio do Governo do Estado de.B. Paulo, 29 de Março"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    205,
+                    1831,
+                    780,
+                    1864
+                ],
+                "score": 0.982,
+                "text": "FERNANDO PRESTES DE ALBUQUEBQUE"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    215,
+                    1867,
+                    540,
+                    1894
+                ],
+                "score": 0.699,
+                "text": "ATOIO DB PADUA SALLes,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    833,
+                    441,
+                    1584,
+                    485
+                ],
+                "score": 0.977,
+                "text": "Clausulas a que refere o Decrcto n. 1849, de 29"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1071,
+                    477,
+                    1353,
+                    515
+                ],
+                "score": 0.98,
+                "text": "de Março de 1910"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1199,
+                    533,
+                    1235,
+                    563
+                ],
+                "score": 0.797,
+                "text": "I"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    885,
+                    560,
+                    1586,
+                    591
+                ],
+                "score": 0.968,
+                "text": "OGovorao do Estado de S. Paulo concede á Companhia"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    836,
+                    587,
+                    1587,
+                    613
+                ],
+                "score": 0.975,
+                "text": "Mgyana de Estradas de Ferro e Navegação licença para con-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    836,
+                    610,
+                    1585,
+                    637
+                ],
+                "score": 0.977,
+                "text": "strucção, uso o goso de uma estrada de ferro que, partindo do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    837,
+                    634,
+                    1585,
+                    660
+                ],
+                "score": 0.973,
+                "text": "p-nto tormiaal da que lbe foi concedida palo Decreto n. 1773,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    828,
+                    656,
+                    1556,
+                    684
+                ],
+                "score": 0.949,
+                "text": "do 1.º do Outubro de 1908  vá terminar em Ribsirão Preto."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1210,
+                    703,
+                    1240,
+                    730
+                ],
+                "score": 0.981,
+                "text": "II"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    888,
+                    732,
+                    1587,
+                    759
+                ],
+                "score": 0.979,
+                "text": "Esta estrada de ferro gosará de uma zous garantida, de eem"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    839,
+                    756,
+                    1585,
+                    782
+                ],
+                "score": 0.958,
+                "text": "motros do cada lado, reiuzida a 50 metros nps gargantas e do-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    839,
+                    780,
+                    1585,
+                    806
+                ],
+                "score": 0.953,
+                "text": "clives de serras. limitadas por duns linhas parsltelas ao eixo da"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    839,
+                    804,
+                    1585,
+                    828
+                ],
+                "score": 0.948,
+                "text": "via yermanents, dentro da qual nenhuma outra estrade de forro"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    839,
+                    827,
+                    1587,
+                    852
+                ],
+                "score": 0.953,
+                "text": "poderá receber goneros ou passageiros, salvo: 1.°, o caso de cu-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    835,
+                    850,
+                    1590,
+                    875
+                ],
+                "score": 0.941,
+                "text": "tra ou mais satradas t ram o mesmo ponto inicial ou terminal;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    831,
+                    873,
+                    1592,
+                    898
+                ],
+                "score": 0.942,
+                "text": "2.°, o caso em que a ponta inicial ou terminsl de outrs estrada"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    831,
+                    896,
+                    1588,
+                    922
+                ],
+                "score": 0.956,
+                "text": "esteja dentro da zona desta; 3.°, o caso de entroncamontc refe-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    832,
+                    921,
+                    1064,
+                    942
+                ],
+                "score": 0.976,
+                "text": "rido nesta clausula."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    891,
+                    939,
+                    1591,
+                    967
+                ],
+                "score": 0.98,
+                "text": "Comtanto que dentro da zona garantida desta estrada de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    838,
+                    965,
+                    1589,
+                    992
+                ],
+                "score": 0.975,
+                "text": "ferro não receba generos nem passageiros, poderá qualquer ou-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    834,
+                    1013,
+                    1367,
+                    1037
+                ],
+                "score": 0.968,
+                "text": "porêm, aos anus provenientes do cruzamento."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    835,
+                    987,
+                    1597,
+                    1015
+                ],
+                "score": 0.914,
+                "text": "tra atravessar a mesuna zona, cruzando a liuha desta, sujeita,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    894,
+                    1033,
+                    1591,
+                    1060
+                ],
+                "score": 0.995,
+                "text": "Qualquer outra estrada de ferro poderá ter simultsnea-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    842,
+                    1060,
+                    1589,
+                    1083
+                ],
+                "score": 0.955,
+                "text": "ments os mesmos pontos inicial e terminal desta, respeitada"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    840,
+                    1082,
+                    1589,
+                    1106
+                ],
+                "score": 0.98,
+                "text": "a zona garantida por ests clausula, bem como poderá entroncar"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    842,
+                    1105,
+                    1590,
+                    1129
+                ],
+                "score": 0.972,
+                "text": "na linba dests, resolvendo o Governo, deinitivamente, em caso"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    842,
+                    1127,
+                    1591,
+                    1155
+                ],
+                "score": 0.96,
+                "text": "de desaccôrdo, para rogular as relações provenientes de entron-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    838,
+                    1150,
+                    947,
+                    1175
+                ],
+                "score": 0.989,
+                "text": "camento."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    894,
+                    1171,
+                    1589,
+                    1200
+                ],
+                "score": 0.976,
+                "text": "Considerar-se-á entroncamento, não só o caso do ligação"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    842,
+                    1197,
+                    1589,
+                    1222
+                ],
+                "score": 0.943,
+                "text": "por moio de via permanente, como por meio de ostáção commum."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1200,
+                    1241,
+                    1241,
+                    1272
+                ],
+                "score": 0.825,
+                "text": "III"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    896,
+                    1271,
+                    1587,
+                    1298
+                ],
+                "score": 0.977,
+                "text": "Gosará mais a estrada do ferro do diroito de desappropría-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    845,
+                    1295,
+                    1589,
+                    1321
+                ],
+                "score": 0.968,
+                "text": "ção, nos termos da legislação do Estado, para os terrenos neces-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    845,
+                    1319,
+                    1589,
+                    1346
+                ],
+                "score": 0.95,
+                "text": "sarios á construeção da linba, estaçõee, armazens e mais dapen-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    846,
+                    1343,
+                    941,
+                    1364
+                ],
+                "score": 0.992,
+                "text": "dencias."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    898,
+                    1362,
+                    1589,
+                    1391
+                ],
+                "score": 0.976,
+                "text": "Qaando fòr necesserio iniciar uma acção de desappropria-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    847,
+                    1387,
+                    1591,
+                    1415
+                ],
+                "score": 0.963,
+                "text": "ção, doverá ser apresentida ao Governo a respectiva planta, só-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    846,
+                    1410,
+                    1223,
+                    1437
+                ],
+                "score": 0.939,
+                "text": "mente da parte a desapropriar."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    896,
+                    1430,
+                    1592,
+                    1460
+                ],
+                "score": 0.981,
+                "text": "O Govorno, dentro do prazo de trinta dias, da data da apre-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    846,
+                    1457,
+                    1592,
+                    1483
+                ],
+                "score": 0.972,
+                "text": "sentação da planta, deverá conceder ou negar a licença, dando"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    846,
+                    1479,
+                    1590,
+                    1506
+                ],
+                "score": 0.934,
+                "text": "os motizos da racusa, no caso de negativa, e indicando as mo-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    848,
+                    1503,
+                    1590,
+                    1529
+                ],
+                "score": 0.921,
+                "text": "difieaçõss de traçado, de modo a psrzittír a continuação da obrra."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    897,
+                    1521,
+                    1592,
+                    1553
+                ],
+                "score": 0.958,
+                "text": "Si, dentro do prazo do trinta dias, o Govorno não se mani-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    845,
+                    1547,
+                    1521,
+                    1577
+                ],
+                "score": 0.956,
+                "text": "festar, fea entendido que está concedida a mesma licença."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1198,
+                    1585,
+                    1244,
+                    1622
+                ],
+                "score": 0.856,
+                "text": "IV"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    898,
+                    1628,
+                    1597,
+                    1660
+                ],
+                "score": 0.978,
+                "text": "O Governo prestará a esta estrada de ferro toda a proto-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    846,
+                    1653,
+                    1600,
+                    1683
+                ],
+                "score": 0.959,
+                "text": "cção compativel com as leis, afim de quo possa ella realizar a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    847,
+                    1701,
+                    1592,
+                    1729
+                ],
+                "score": 0.928,
+                "text": "as disposições dos seus regulamentos e mantida a sua policia,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    847,
+                    1723,
+                    1593,
+                    1752
+                ],
+                "score": 0.933,
+                "text": "devend, todo o emprugado na arrecsdação das taxas e na policim"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    847,
+                    1746,
+                    1258,
+                    1775
+                ],
+                "score": 0.94,
+                "text": "da linha ser cidadão da Repablica."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    847,
+                    1679,
+                    1596,
+                    1704
+                ],
+                "score": 0.951,
+                "text": "arrecadação das taxas estabelecidas, para que sejam respeitadas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    901,
+                    1838,
+                    1592,
+                    1868
+                ],
+                "score": 0.901,
+                "text": "Antas do iniciarem-se as trabalhos da construcção desta es-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    849,
+                    1862,
+                    1590,
+                    1893
+                ],
+                "score": 0.902,
+                "text": "trada do ferro, deverão ser submcttidos á apprevação da Goverae"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    847,
+                    1886,
+                    1381,
+                    1917
+                ],
+                "score": 0.852,
+                "text": "ou prejectos de todo eses trabalhos, que coms"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1637,
+            "height": 2054
+        }
+    }
+]

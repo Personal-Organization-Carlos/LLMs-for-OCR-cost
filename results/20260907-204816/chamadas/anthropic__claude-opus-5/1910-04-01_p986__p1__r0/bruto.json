@@ -1,0 +1,87 @@
+{
+  "chave": "anthropic/claude-opus-5|1910-04-01_p986|p1|0",
+  "registro": {
+    "model_id": "anthropic/claude-opus-5",
+    "prompt_id": "p1",
+    "doc_id": "1910-04-01_p986",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 60.15309839998372,
+    "prompt_tokens": 4355,
+    "completion_tokens": 4383,
+    "total_tokens": 8738,
+    "cost_usd": 0.13135,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Anthropic",
+    "generation_id": "gen-1788829368-TnDpX1h1YScELFGzT9Ki",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T01:02:48Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788829368-TnDpX1h1YScELFGzT9Ki",
+        "object": "chat.completion",
+        "created": 1788829368,
+        "model": "anthropic/claude-opus-5",
+        "provider": "Anthropic",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "end_turn",
+            "message": {
+              "role": "assistant",
+              "content": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diario Official - Abril 1910</title>\n<style>\n    body {\n        background: #d8d4c8;\n        margin: 0;\n        padding: 20px;\n        font-family: \"Times New Roman\", Times, serif;\n    }\n    .pagina {\n        background: #efece1;\n        width: 900px;\n        margin: 0 auto;\n        padding: 30px 40px 60px 40px;\n        box-shadow: 0 0 12px rgba(0,0,0,.4);\n    }\n    .cabecalho {\n        display: flex;\n        justify-content: space-between;\n        align-items: flex-end;\n        font-weight: bold;\n        font-size: 15px;\n        padding-bottom: 4px;\n    }\n    .cabecalho .esquerda { width: 30%; text-align: left; }\n    .cabecalho .centro  { width: 40%; text-align: center; font-size: 19px; letter-spacing: 1px; }\n    .cabecalho .direita { width: 30%; text-align: right; }\n    .cabecalho .esquerda i { font-style: italic; }\n    .regua {\n        border: none;\n        border-top: 2px solid #000;\n        margin: 0 0 14px 0;\n    }\n    .colunas {\n        display: flex;\n        column-gap: 26px;\n    }\n    .coluna {\n        width: 50%;\n        text-align: justify;\n        font-size: 13.5px;\n        line-height: 1.28;\n        hyphens: auto;\n    }\n    .coluna.esq {\n        border-right: 1px solid #000;\n        padding-right: 24px;\n    }\n    p {\n        margin: 0;\n        text-indent: 2.2em;\n    }\n    .romano {\n        text-align: center;\n        text-indent: 0;\n        margin: 16px 0 10px 0;\n        font-size: 15px;\n        letter-spacing: 2px;\n    }\n    .negrito { font-weight: bold; }\n    .rodape-linha {\n        border-top: 1px solid #000;\n        margin-top: 18px;\n    }\n</style>\n</head>\n<body>\n<div class=\"pagina\">\n\n    <div class=\"cabecalho\">\n        <div class=\"esquerda\"><i>986</i>&nbsp;&nbsp;&nbsp;Sexta-feira&nbsp;&nbsp;1</div>\n        <div class=\"centro\">DIARIO OFFICIAL</div>\n        <div class=\"direita\">Abril&nbsp;&nbsp;&nbsp;&nbsp;1910</div>\n    </div>\n    <hr class=\"regua\">\n\n    <div class=\"colunas\">\n\n        <!-- ============ COLUNA ESQUERDA ============ -->\n        <div class=\"coluna esq\">\n\n            <p><i>a)</i> Planta geral da linha concedida com a indicação dos\n            pontos de passagem obrigatorios, configuração do terreno, representada\n            por meio de curvas de nivel equidistantes de cinco metros\n            no maximo, e, bem assim, em uma zona de cincoenta metros\n            pelo menos, para cada lado, os campos, mattas, terrenos pedregosos\n            e brejos, e, sempre que fôr possivel, a divisa das propriedades\n            particulares, minas e terras devolutas.</p>\n\n            <p>Nessa planta, em escala de um para quatro mil, serão indicadas\n            todas as distancias kilometricas, contadas a partir do\n            ponto inicial da estrada; a extensão dos alinhamentos rectos e\n            curvos; os gráus e raios das curvas empregadas.</p>\n\n            <p><i>b)</i> Perfil longitudinal, na escala de um para quatrocentos,\n            para as alturas, e de um para quatro mil, para as distancias horizontaes,\n            mostrando, por meio de convenção, o terreno natural,\n            as plataformas dos córtes e aterros e as obras de arte.</p>\n\n            <p><i>c)</i> O perfil longitudinal deverá ser acompanhado de perfis\n            transversaes intervallados de cincoenta metros, no maximo.</p>\n\n            <p><i>d)</i> Projectos completos e especificados de todas as obras de\n            arte necessarias para o estabelecimento da estrada, pontes, tunneis,\n            viaductos, pontilhões, boeiros, estações e dependencias, bem\n            como plantas de todas as propriedades, na parte cuja desapropriação\n            fôr indispensavel.</p>\n\n            <p><i>e)</i> O desenho dos trilhos e accessorios, em grandeza de\n            execução.</p>\n\n            <p><i>f)</i> Relação do material rodante, contendo o typo das locomotivas,\n            vagões, gondolas e carros de passageiros, na escala de\n            um para cincoenta, ou em catalogos das fabricas.</p>\n\n            <p>Esses dados poderão ser apresentados por secções, comtanto\n            que estas não sejam menores de cinco kilometros.</p>\n\n            <p>Os projectos das pontes, estações e outras obras importantes\n            poderão ser apresentados á medida que tiverem de ser executados.</p>\n\n            <p>O Governo poderá rejeitar os projectos, quando não offerecerem\n            garantia de solidez; mas terá então de apresentar as modificações\n            que julgar convenientes.</p>\n\n            <p>Não se sujeitando a concessionaria a ellas, poderá recorrer\n            á arbitragem, como vae determinado na clausula XIX.</p>\n\n            <p class=\"romano\">VI</p>\n\n            <p>Dentro de seis mezes, a contar da data da publicação do\n            decreto de concessão de licença, deverão ser iniciados os trabalhos\n            de construcção desta estrada de ferro, os quaes deverão estar\n            concluidos dentro de dois annos, a contar da data da approvação\n            dos projectos a que se refere a clausula antecedente.</p>\n\n            <p>Si, esgotado o prazo marcado para inicio, não houver começado\n            as obras da linha, a concessionaria perderá a importancia\n            da caução, em proveito do Estado, salvo caso de força maior, a\n            juizo do Governo, que concederá mais uma só prorogação, de\n            metade daquelle prazo.</p>\n\n            <p class=\"romano\">VII</p>\n\n            <p>A caução feita pela concessionaria poderá ser levantada desde\n            que tenham sido dispendidos em construcção tres por cento da\n            importancia total de 5.032:634$284, do orçamento approximativo.</p>\n\n            <p>A requerimento da Companhia, o Governo mandará um engenheiro\n            da repartição competente examinar si a quantidade de\n            obras feitas corresponde a tres por cento da importancia referida.</p>\n\n            <p>Esse exame não poderá durar mais de dois mezes. Os vencimentos\n            do engenheiro, durante o tempo do exame das obras,\n            correrão por conta da concessionaria e serão deduzidos da importancia\n            pela mesma caucionada.</p>\n\n            <p>Si, no fim de um mez, a contar da data do pedido de exame\n            das obras, não tiver o Governo encarregado engenheiro algum\n            desse serviço, será considerado o exame feito e o total da quantia\n            caucionada poderá ser retirado, independentemente da verificação\n            da obra feita.</p>\n\n            <p class=\"romano\">VIII</p>\n\n            <p class=\"negrito\">O Governo, por seus agentes, poderá intervir, em qualquer\n            tempo, em tudo o que se referir á solidez das obras, resistencia\n            do material e segurança do publico nesta estrada de ferro.</p>\n\n        </div>\n\n        <!-- ============ COLUNA DIREITA ============ -->\n        <div class=\"coluna dir\">\n\n            <p class=\"romano\">XI</p>\n\n            <p>As obras de construcção desta estrada de ferro não poderão\n            impedir: o escoamento das aguas das propriedades particulares,\n            a passagem das galerias de exgottos urbanos, de aguas utilizadas\n            para abastecimento ou para fins industriaes e agricolas, a navegabilidade\n            dos rios e canaes e o livre transito das vias publicas.\n            Ficam a cargo desta estrada de ferro as despezas com as obras\n            necessarias para o cruzamento das ruas, estradas publicas e caminhos\n            particulares existentes ao tempo da construcção da linha,\n            ficando tambem a seu cargo as despezas com signaes e guardas,\n            quando se tornarem precisos nesses cruzamentos. Os onus provenientes\n            dos cruzamentos das vias publicas que se abrirem depois\n            da construcção desta estrada de ferro não correrão por conta\n            della.</p>\n\n            <p class=\"romano\">X</p>\n\n            <p>Os preços de transporte nesta estrada de ferro serão fixados\n            em tarifas previamente approvadas pela administração publica.</p>\n\n            <p>Dessas tarifas deverá constar a indicação de logar de partida\n            e de chegada, a determinação dos frétes pelas distancias a\n            percorrer e a classificação dos generos.</p>\n\n            <p>Não poderão esses preços exceder os minimos adoptados para\n            as linhas ferreas de egual bitola.</p>\n\n            <p>E' vedado á estrada adoptar tarifas de favor para prejudicar\n            ou favorecer pessôas ou emprezas determinadas, assim como cobrar\n            preços differentes pelo transporte de passageiros e generos, feito\n            em condições identicas, desde que percorram distancias eguaes,\n            salvo o caso de tarifas differenciaes.</p>\n\n            <p>Depois de approvadas pelo Governo, serão as tarifas impressas\n            em caractéres legiveis e collocadas em todas as estações, para\n            conhecimento do publico.</p>\n\n            <p class=\"romano\">XI</p>\n\n            <p>Quando houver necessidade de se elevarem os preços das\n            tarifas, solicitará esta estrada licença do Governo, apresentando\n            as razões do accrescimo. No prazo maximo de um mez resolverá\n            o Governo sobre a questão. Si não o fizer, fica entendido\n            que o accrescimo de preço está approvado. Nenhuma elevação\n            de preços das tarifas poderá ter força obrigatoria, mesmo approvada\n            pelo Governo, sinão depois da publicação na imprensa,\n            durante dez dias, annunciando a modificação feita.</p>\n\n            <p>Essa publicação será feita nos jornaes de maior circulação\n            da Capital do Estado, e, quando fôr possivel, em um de cada\n            localidade servida por esta estrada.</p>\n\n            <p>A reducção dos preços das tarifas poderá ter logar, independentemente\n            de publicação prévia.</p>\n\n            <p>Uma vez, porém, adoptada, a publicação será obrigatoria.</p>\n\n            <p class=\"romano\">XII</p>\n\n            <p>As combinações que fizer esta estrada de ferro com outras,\n            a respeito de tarifas, só terão força obrigatoria depois de approvadas\n            pelo Governo.</p>\n\n            <p class=\"romano\">XIII</p>\n\n            <p>Serão observadas nesta estrada de ferro, emquanto o Governo\n            não expedir o regulamento da lei n. 30, de 13 de Junho\n            de 1892, as bases geraes para o transporte de bagagens, encommendas\n            e mercadorias, estabelecidas pelo decreto n. 1237, de 2\n            de Maio de 1889.</p>\n\n            <p class=\"romano\">XIV</p>\n\n            <p>Para todos os effeitos legaes ou resultantes de contractos\n            de lucros distribuidos entre os accionistas desta estrada de ferro,\n            quer a titulo de bonus, quer sob fórma de acções beneficiarias,\n            ou por qualquer outro meio, serão computados conjunctamente\n            com os pagos sob a denominação de dividendo.</p>\n\n            <p class=\"negrito\">Para todos os effeitos resultantes de contractos, esta estrada\n            deverá apresentar ao Governo a conta do seu capital empregado\n            na construcção primitiva, nos melhoramentos da linha e suas\n            dependencias.</p>\n\n        </div>\n    </div>\n\n    <div class=\"rodape-linha\"></div>\n</div>\n</body>\n</html>\n```",
+              "refusal": null,
+              "reasoning": "I'm reconstructing the two-column layout of this 1910 Brazilian gazette page, including the header with page number, title, and date, then transcribing the column text to build out the full HTML structure.\n\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "I'm reconstructing the two-column layout of this 1910 Brazilian gazette page, including the header with page number, title, and date, then transcribing the column text to build out the full HTML structure.\n\n",
+                  "format": "anthropic-claude-v1",
+                  "index": 0,
+                  "signature": "CAIS+QQKrgEIERgCKkB0W6SH6SgVbxCgWspedfVW558d9Zmxfkm/lfshO0VHOYJj7BOjbQdBPqmE7HGzBsxXuvm1eOQQNiSlQ2LQcnclMg1jbGF1ZGUtb3B1cy01OAFCCHRoaW5raW5nWiQwZDk4M2YzZi00OWZhLTRhNDYtODI1NC1iMWJiMjQ5MWEyYTl6HnVwcm9mXzAxMUNlcHpua2tWbVNIcDRQWXl3NFpCVagBwb391AYSDMliBT7Z/46iStcg6xoMvvobJhyWe5aJWOm8IjCUcoQ61b0y32y2GaLrutKlTg+i6Q9XTJTQKkr9NmvV8VRnE1veHHoG2Z6PC6WUFBMq9wIgNFjOMnNy4hss2ulcS6YfVD5+quN3bLTUzM5e7ATYv2U5veqIiP/svnIU0tJm/7pCBH9n65YqdfOv+pugy5A4C/e4KhIlkqUq4w6ADu+zhvzQ95wCTopnaJFcHFeF39aSVye02x+OgYGxvgjiyfHG5gysPgOyRxYJ39g0Hfna+Bh3ZA4J15EQG9nYgaXjENQpy+5YCkIaTb3B6Rau7EdXQKF/yUEBCFJ1i4X4gTeQs+2XoDwP2E/Mwr0Un5slTRBZVz2T9jZ3Djbin0JDTUYBtcLdGFT2LRgugw7qWf6Cx2SvFE7ikUtmB8GnZSplPQYqMr+G25LWJc5EbfDMk228kdE/XrxoLRw74QYH5TWAollGICTJ69NafYlOtu2hJy/mjKOvZW+Dz20dJtuIBqANMo7qGORxQqyA/4eqMARgPaD6ntou8jtKwHgJ308xzxgAF7St7WmuMZImCyB9ZjPjoTYtcu879AMsBdxm+UynM9p4mx+fyMwYAQ=="
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 4355,
+          "completion_tokens": 4383,
+          "total_tokens": 8738,
+          "cost": 0.13135,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.13135,
+            "upstream_inference_prompt_cost": 0.021775,
+            "upstream_inference_completions_cost": 0.109575
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 140,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "chave": "qwen/qwen3-vl-235b-a22b-instruct|1930-04-01_p3190|p1|0",
+  "registro": {
+    "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "prompt_id": "p1",
+    "doc_id": "1930-04-01_p3190",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 67.23572039999999,
+    "prompt_tokens": 2544,
+    "completion_tokens": 3643,
+    "total_tokens": 6187,
+    "cost_usd": 0.00445016,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Alibaba",
+    "generation_id": "gen-1788814260-MwZF4qc5AS48oG4lZLfP",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-07T20:51:00Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788814260-MwZF4qc5AS48oG4lZLfP",
+        "object": "chat.completion",
+        "created": 1788814260,
+        "model": "qwen/qwen3-vl-235b-a22b-instruct",
+        "provider": "Alibaba",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Diário Oficial - Abril 1930</title>\n    <style>\n        body {\n            font-family: \"Times New Roman\", serif;\n            line-height: 1.6;\n            margin: 2cm;\n            text-align: justify;\n        }\n        .header {\n            display: flex;\n            justify-content: space-between;\n            border-bottom: 2px solid black;\n            padding-bottom: 5px;\n            margin-bottom: 10px;\n        }\n        .page-number {\n            font-weight: bold;\n        }\n        .date {\n            font-weight: bold;\n        }\n        .title {\n            text-align: center;\n            font-weight: bold;\n            font-size: 1.2em;\n            margin: 10px 0;\n        }\n        .section {\n            margin-top: 20px;\n            margin-bottom: 10px;\n        }\n        .subsection {\n            margin-left: 20px;\n            margin-bottom: 10px;\n        }\n        .item {\n            margin-left: 40px;\n            text-indent: -20px;\n            margin-bottom: 5px;\n        }\n        .indent {\n            margin-left: 40px;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"header\">\n        <span class=\"page-number\">3190</span>\n        <span>Terça-feira, 1</span>\n        <span class=\"title\">DIÁRIO OFICIAL</span>\n        <span class=\"date\">Abril 1930</span>\n    </div>\n\n    <div class=\"section\">\n        Expediente do dia 29 de Março de 1930\n    </div>\n\n    <div class=\"section\">\n        Solicitaram-se da Secretaria da Fazenda os seguintes pagamentos\n    </div>\n\n    <div class=\"item\">270$000, a John Roger, av. 890.</div>\n    <div class=\"item\">1:275$000, a Zerronner, Bulow & Comp Ltd., av. 891.</div>\n    <div class=\"item\">438$900, aos mesmos, av. 892.</div>\n    <div class=\"item\">579$600, a Abel G.mes, av. 893.</div>\n    <div class=\"item\">101$000, a Claudio Ribeiro da Silva av. 894.</div>\n    <div class=\"item\">499$500, à Casa Vanorden, av. 895.</div>\n    <div class=\"item\">458$500, a A. J. de Souza Alves Brandão, av. 896.</div>\n    <div class=\"item\">17$500, à Light and Power, av. 897.</div>\n    <div class=\"item\">1:578$000, a diversos fornecedores da Inspectoría de Prophylaxia da Lepra, av. 898.</div>\n    <div class=\"item\">30$000, a Carlos Ferreira de Almeida, av. 899.</div>\n    <div class=\"item\">915$000, ao pessoal da Inspectoría de Hygiene dos Municípios, av. 900.</div>\n\n    <div class=\"section\">\n        Solicitou-se da Secretaria da Justiça o seguinte pagamento\n    </div>\n\n    <div class=\"item\">6:631$560, ao «Diario Official», av. 144.</div>\n\n    <div class=\"section\">\n        2.ª DIRECTORIA\n    </div>\n\n    <div class=\"section\">\n        1.ª SECÇÃO\n    </div>\n\n    <div class=\"section\">\n        Foram nomeados para substituir adjunctos de Grupos Escolares\n    </div>\n\n    <div class=\"item\">D. Alice Cesar Rosa, substituido: João Doretto, do de Santa Rosalia, em Sorocaba.</div>\n    <div class=\"item\">D. Nair de Oliveira, substituida: d. Brasilia Gonçalves Pereira, do de Samoman, na Capital.</div>\n    <div class=\"item\">D. Zilda Moraes Carvalho, substituida: d. Olga Dagmar de Araujo Quirino dos Santos, do «Antonio J. do Carvalho», em Araraquara.</div>\n    <div class=\"item\">D. Addy Silveira, substituida, d. Lydia Motta Minelli, de Santo Amaro e</div>\n    <div class=\"item\">D. Lucilla Martins de Camargo, substituida, d. Oscarlina do Alvarenga Mazola, do «Conde do Parnahyba» em Jundiahy.</div>\n\n    <div class=\"section\">\n        Foi removida, a pedido, d. Catharina Lefcadito, substituta effectiva do Grupo Escolar «Coronel Tobias», em Descalvado, para igual cargo no jGrupo Escolar «Rodrigues Alves», na Capital.\n    </div>\n\n    <div class=\"section\">\n        Licenças concedidas a adjunctos de Grupos Escolares\n    </div>\n\n    <div class=\"item\">Oito dias, ao sr. João Quedinho Wolff, do de Ribeirão Pires, em S. Bernardo.</div>\n    <div class=\"item\">Vinte dias, a d. Aida Maragliano, do 2.º de Ribeirão Preto.</div>\n    <div class=\"item\">Um mez, a d.d. Laura de Camargo, do do Belenzinho; Maria da Gloria G. da Costa e Silva, do «Pedro II»; Clara de Rezende Puech, do do Arouche, todos na Capital; Adelina Ferraz de Arruda, do «Antonio J. de Carvalho», em Araraquara, Lydia Motta Minelli, do de Santo Amaro; Oscarlina de Alvarenga, Mazol, do «Conde de Parnahyba», em Jundiahy e Elisa Agueda dos Santos, do 3.º de Campinas.</div>\n    <div class=\"item\">Dois mezes, a d.d. Helena Cauby Crescenti, do «Marcello Schmidt», em Rio Claro e Oscarlina Leme Franco, do «Flaminio Ferreira», em Limeira.</div>\n    <div class=\"item\">Tres mezes, a d.d. Umbelina Freire da Silveira, do 3.º do Braz e Judith Martins, de «Oswaldo Cruz», todos na Capital.</div>\n\n    <div class=\"section\">\n        Um anno, a d. Maria Candida Ferreira Martins, do 6.º de Campinas.\n    </div>\n\n    <div class=\"section\">\n        2.ª SECÇÃO\n    </div>\n\n    <div class=\"section\">\n        Foram nomeadas as seguintes professoras para o cargo de substitutas effectivas de Grupos Escolares:\n    </div>\n\n    <div class=\"item\">D. Carolina Dias de Aguiar, para o de Pennapolis.</div>\n    <div class=\"item\">D. Georgina Seabra, para o «João Florencio», de Tatuy.</div>\n    <div class=\"item\">D. Maria Julia Roxo, para o de Avaby.</div>\n    <div class=\"item\">D. Celia Teixeira, para o «João Florencio», de Tatuly.</div>\n\n    <div class=\"section\">\n        O sr. Henrique Unger, adjuncto do Grupo Escolar de Lins, para substituir o sr. Ernesto de Lima, director do mesmo estabelecimento, durante o seu impedimento.\n    </div>\n\n    <div class=\"section\">\n        D. Maria Galaute, adjuncta do 2.º Grupo Escolar de Rio Preto, para substituir o sr. Alberto Silverio Gomes dos Reis, director em commissão, do mesmo estabelecimento, durante o seu impedimento por licença.\n    </div>\n\n    <div class=\"section\">\n        As seguintes sras. para substituir adjunctas de Grupos Escolares\n    </div>\n\n    <div class=\"item\">D. Alda do Amaral Silva Martins, substituido: sr. Henrique Unger, do de Lins.</div>\n    <div class=\"item\">D. Joanna Posognoli, substituido: sr. Benedito de Campos, do de Socorro.</div>\n    <div class=\"item\">D. Elvira Mani, substituido: sr. Manoel Faro, do de Pennapolis, durante o impedimento por licença do sr. Aureo Mendes Corrêa, que o vem substituindo.</div>\n    <div class=\"item\">D. Nair de Campos, substituida: d. Amelia Paes de Almeida, do de Cerquilho, em Tietê.</div>\n    <div class=\"item\">D. Leonides Carvalho Almeida, substituida: d. Clementina Rocha Catalano, do de Bebedouro.</div>\n    <div class=\"item\">D. Maria Antonieta de Menezes, substituida: d. Leonor Gonçalves da Silva, do de Bebedouro.</div>\n    <div class=\"item\">D. Maria Sandoval, substituida: d. Josephina Silva, do de Ituverava</div>\n    <div class=\"item\">D. Agar de Sá, substituida: d. Lola Pinto Tavares, do de Barretos.</div>\n    <div class=\"item\">D. Iracema de Toledo, substituida: d. Francisca da Silva, do de Socorro.</div>\n    <div class=\"item\">D. Dib Asmar Ventura, substituida: d. Ottilia Pereira, do de Piraju.</div>\n    <div class=\"item\">D. Celia Teixeira, substituida: d. Palmyra Castanho Flores, do «João Florencio», de Tatuly.</div>\n    <div class=\"item\">D. Maria da Gloria Prado Alto, substituida: d. Luiza Nery de Souza, do de Capivary.</div>\n\n    <div class=\"section\">\n        Foi devidamente apostillado o decreto de 27 do corrente que revalidou a remoção da professora d. Adelaide Paes Landahl para o cargo de adjuncta do Grupo Escolar de Ituverava.\n    </div>\n\n    <div class=\"section\">\n        Foram concedidas as seguintes licenças a adjunctos de Grupos Escolares\n    </div>\n\n    <div class=\"item\">2 mezes, a d. Maria Eugedia Homem, do «Cel. Vaz», de Jaboticabal.</div>\n    <div class=\"item\">D. Hermínia Villas Boas, do de Villa dos Lavradores, em Botucatu, em commissão do «Dr. Cardoso de Almeida», da mesma cidade; d. Clementina Rocha Catalano, do de Bebedouro; d. Leonor Gonçalves da Silva, do de Bebedouro;</div>\n    <div class=\"item\">d. Amelia Paes de Almeida, do de Cerquilho, em Tietê; d. Josephina Silva, do de Ituverava; d. Francisca da Silva, do de Socorro; d. Lola Pinto Tavares, do de Barretos; d. Isabel de Paula e Silva, do de Queluz</div>\n    <div class=\"item\">45 dias, a d. Maria Ferrara, do «Dr. Jorge Tibiriçá», de Bragança.</div>\n    <div class=\"item\">1 mez, em prorogação, a d. Maria Lourdes Nogueira, do 1.º de Rio Preto, e d. Alice de Carvalho, do de São Manuel.</div>\n    <div class=\"item\">20 dias, a d. Hilda Passos, do de Villa dos Lavradores, em Botucatu.</div>\n    <div class=\"item\">15 dias, em prorogação, a d. Maria Stael da Rocha Silveira, do de Ribeirão Bonito.</div>\n\n    <div class=\"section\">\n        Foram dadas providencias junto á Secretaria da Fazenda sobre o assumpto constante do officio, sob n. 45, da inspectoría do 58.º districto escolar.\n    </div>\n\n    <div class=\"section\">\n        Requerimentos despachados\n    </div>\n\n    <div class=\"item\">D. Maria Julia Roxo. — Providencie-se. (Prov.)</div>\n    <div class=\"item\">Dario Monteiro de Brito, d. Manoela Pousa Fernandes e d. Noemia Fernandes. — De accordo com a Secção. Providencie-se. (Prov.)</div>\n\n    <div class=\"section\">\n        3.ª SECÇÃO\n    </div>\n\n    <div class=\"section\">\n        Foram concedidas licenças aos seguintes professores\n    </div>\n\n    <div class=\"item\">3 mezes, a d. Dalila Antunes Filgueiras, da escola mixta, rural, de São Roque, em Areias.</div>\n    <div class=\"item\">2 mezes, a d. Carmen Carofalo, da 3.a escola mixta urbana, do bairro da Republica, em Ribeirão Preto.</div>\n    <div class=\"item\">2 mezes, a d. Dulce Bohrer, da escola feminina, urbana, de Villa Novacs, em Jaboticabal.</div>\n    <div class=\"item\">2 mezes a d. Leopoldina Ponce, das escolas reunidas do Igarassú, em São Manoel.</div>\n    <div class=\"item\">2 mezes, a d. Luiza Dias de Carvalho, das escolas reunidas de Boituva, em Porto Feliz.</div>\n    <div class=\"item\">2 mezes, a d. Maria Corrêa Dias, das escolas reunidas de Campo Largo, de Sorocaba.</div>\n    <div class=\"item\">2 mezes, a d. Miquelina Laudisio, da escola mixta, rural, de Ribeirão Grandé, em Lins.</div>\n    <div class=\"item\">2 mezes, a d. Mafalda Barone, da escola mixta, rural, do Bairro da Ponte, em Itatiba.</div>\n    <div class=\"item\">2 mezes, a d. Maria Julieta Sydow, das escolas reunidas de Bury.</div>\n    <div class=\"item\">2 mezes, a d. Salvina Teixeira de Mendonça da 3.a escola mixta, de Presidente Wenceslau.</div>\n    <div class=\"item\">45 dias ao sr. Aquilino Pacheco Filho, da 3.a escola das reunidas nocturnas que funcionam no Grupo Escolar «Moraes Barros», em Piracicaba.</div>\n    <div class=\"item\">1 mez ao sr. Aureo Mendes Corrêa, da escola masculina, rural, de Lageado, em Pennapolis.</div>\n    <div class=\"item\">1 mez, a d. Candida Amaral Campos, da escola mixta, rural, de Morumbi, em Santo Amaro.</div>\n    <div class=\"item\">1 mez, a d. Tarcilia Ladeira de Oliveira, da 4.ª escola mixta, das reunidas de Jaguary, em Megy-Mirim.</div>\n    <div class=\"item\">15 dias, ao sr. Joaquim Monteiro da Silva, da escola masculina, das reunidas de Areias.</div>\n</body>\n</html>",
+              "refusal": null,
+              "reasoning": null
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2544,
+          "completion_tokens": 3643,
+          "total_tokens": 6187,
+          "cost": 0.00445016,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00445016,
+            "upstream_inference_prompt_cost": 0.00066144,
+            "upstream_inference_completions_cost": 0.00378872
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

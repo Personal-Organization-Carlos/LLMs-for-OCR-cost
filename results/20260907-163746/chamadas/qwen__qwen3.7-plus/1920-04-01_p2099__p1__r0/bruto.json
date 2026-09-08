@@ -1,0 +1,86 @@
+{
+  "chave": "qwen/qwen3.7-plus|1920-04-01_p2099|p1|0",
+  "registro": {
+    "model_id": "qwen/qwen3.7-plus",
+    "prompt_id": "p1",
+    "doc_id": "1920-04-01_p2099",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 59.254553799983114,
+    "prompt_tokens": 2585,
+    "completion_tokens": 3258,
+    "total_tokens": 5843,
+    "cost_usd": 0.00499744,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Alibaba",
+    "generation_id": "gen-1788814628-H484dAribcNVflnXTaKF",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-07T20:57:08Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788814628-H484dAribcNVflnXTaKF",
+        "object": "chat.completion",
+        "created": 1788814628,
+        "model": "qwen/qwen3.7-plus",
+        "provider": "Alibaba",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diário Official - Abril 1920</title>\n<style>\n  body {\n    font-family: \"Times New Roman\", Times, serif;\n    font-size: 11px;\n    line-height: 1.3;\n    max-width: 900px;\n    margin: 20px auto;\n    padding: 20px;\n    background: #f5f0e8;\n    color: #1a1a1a;\n  }\n  .header {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    border-bottom: 2px solid #000;\n    padding-bottom: 5px;\n    margin-bottom: 10px;\n  }\n  .header-left { font-weight: bold; }\n  .header-center { font-weight: bold; font-size: 14px; letter-spacing: 2px; }\n  .header-right { font-weight: bold; }\n  .title {\n    text-align: center;\n    font-size: 16px;\n    font-weight: bold;\n    font-style: italic;\n    margin: 15px 0 10px 0;\n  }\n  .subtitle {\n    font-weight: bold;\n    font-size: 11px;\n    text-transform: uppercase;\n    margin-bottom: 10px;\n    line-height: 1.4;\n  }\n  .content {\n    column-count: 3;\n    column-gap: 20px;\n    column-rule: 1px solid #999;\n    text-align: justify;\n    hyphens: auto;\n  }\n  .content p {\n    margin-bottom: 8px;\n    text-indent: 20px;\n  }\n  .content p.no-indent {\n    text-indent: 0;\n  }\n  .bold { font-weight: bold; }\n  .italic { font-style: italic; }\n  .small-caps { font-variant: small-caps; }\n  hr {\n    border: none;\n    border-top: 1px solid #000;\n    margin: 5px 0;\n  }\n</style>\n</head>\n<body>\n\n<div class=\"header\">\n  <span class=\"header-left\">Quinta-feira. 1</span>\n  <span class=\"header-center\">DIARIO OFFICIAL</span>\n  <span class=\"header-right\">Abril 1920 2099</span>\n</div>\n\n<div class=\"title\">Citação</div>\n\n<div class=\"subtitle\">\n  DE CONDOMINOS AUSENTES E DESCONHECIDOS DA FAZENDA DA ESPERANÇA NOS LOGARES — «BEBEDOURO DA P. DRA», — ESPERANÇA» E «BRILHANTES», — DESTA COMARCA, COM O PRAZO DE 90 DIAS\n</div>\n\n<div class=\"content\">\n\n<p class=\"no-indent\">O doutor Antonio Furtado da Rocha Frota, juiz de direito da comarca de Cajurú, Estado de S. Paulo, etc.</p>\n\n<p>Faço saber aos que o presente edital, com o prazo de noventa dias virem, ou delle noticia tiverem que, por parte de Jeronymo Carmo do Nascimento, Manoel Pedro de Carvalho e Balduino Antonio de Oliveira, me foram dirigidas as petições dos teores seguintes: Exmo. sr. dr. juiz de direito. Por seu procurador infra constituído nos inclusos instrumentos de procuração bastante, dizem Jeronymo Carmo do Nascimento, Manoel Pedro de Carvalho, Balduino Antonio de Oliveira, lavradores domiciliados e residentes nesta comarca, que, sendo legítimos senhores e possuidores de terras na fazenda Esperança, nos logares «Bebedouro da Pedra», «Esperança» e «Brilhantes», sita nesta comarca, município e districto, em communhão com os demais condominos da lista annexa, acontece que, não lhes convindo o estado de communhão, querem proceder á divisão judicial desse immóvel que, compondo-se de terras de cultura, cerrado e campo, em matas, capoeiras, cultivadas e pastos, com benfeitorias próprias das quinhões e provindo a communhão da morte de Manoel Carmo do Nascimento, de João Bernardo da Silva e acquisição de parte no quinhão do «Brilhante» se acha dentro das divisas e confrontações seguintes: quinhões — do «Bebedouro da Pedra» começam num antigo forno de olaria á margem esquerda do corregro do Bosque e seguem pelo dito corregro abaixo com percurso de quinhentos e oitenta e quatro metros e cincoenta centímetros, onde se colloca um marco de pedra, deste ponto largando o percurso do corregro seguem com o rumo sudoeste com quinze gráus de variação até outro marco de pedra collocado na distancia de quatrocentos e dois metros; dahi seguem á direita, com o angulo de cento e quarenta gráus e quarenta e cinco minutos até outro marco de pedra collocado a distancia de cento e oitenta e dois metros; e seguem dahi á esquerda com o angulo de quarenta e tres gráus e trinta minutos, até outro marco de pedra collocado perto de uma arvore de oleo de capiba com a distancia de setecentos e quarenta metros, dividindo até aqui com o quinhão do pagamento que nesta divisão vai ser dado ao sócio João Sabino Pereira e seguindo dahi á esquerda com o angulo de cento e quatro gráus e com o percurso de quinhentos e treze, vão ao referido forno de olaria onde tiveram principio estas divisas, confrontando com terras da fazenda da Esperança. Começam á margem direita do corregro do Bosque defronte a um antigo forno de olaria que fica ao lado esquerdo do mesmo corregro, onde se colloca um marco de pedra e seguem por este corregro abaixo com o percurso de duzentos e cinco metros e quarenta centímetros, onde se encontra uma peroba com folhas;</p>\n\n<p>dahi, largando o percurso do dito corregro do Bosque, seguem com o rumo nordeste com vinte e cinco gráus de variação, até a passagem denominada do Cunhã, no corregro tambem denominado Cunhã e continuam por este corregro abaixo até quatrocentos e quarenta e dois metros e trinta centímetros, ponto onde se encontra a barra do corregosinho denominado Brejo; seguem por este acima até sua cabeceira, e desta, em direcção nordeste com nove gráus de variação, vai até um coqueiro e deste ponto seguem á esquerda com percurso de oitocentos e quarenta e cinco metros e o cento centímetros, com o rumo sudoeste, com cincoenta e sete gráus de variação, até um páu terra conhecido geralmente por «arvore grande», confrontando até este ponto com terras da fazenda do Cunhã; desse ponto, seguindo á esquerda com o rumo sudoeste, com onze gráus de variação vão ao caminho velho da Damaría e acompanhando este vão ter á passagem do corregro do Bosque, com percurso de novecentos e trinta e cinco metros e dez centímetros; deste ponto continuam por este corregro acima até o logar denominado aquelle — com a distancia de duzentos e dezeseis metros e vinte centímetros dividindo até aqui, com terras da fazenda Macaúba; e seguem deste ponto com a distancia de duzentos e noventa metros e cincoenta centímetros, pelo dito corregro do Bosque acima até um marco de pedra ubicada á margem direita do dito corregro tendo em vista o rumo que levam as divisas e são curso das aguas; desse ponto, largando o percurso do corregro seguem á direita em rumo a outro marco de pedra collocado a distancia de duzentos e vinte metros; desse ponto seguem á direita com um percurso de duzentos e quarenta e cinco metros, onde se colloca outro marco de pedra, divisando até aqui com as terras do quinhão que nesta divisão têm de ser dado aos orphãos José, Angelo e Joaquina; desse marco, seguem em direcção sudoeste com vinte gráus de variação e com um percurso de duzentos e vinte e tres metros e quarenta centímetros, até a beira do cerrado e seguem dahi, á esquerda, beirando o mato e deixando este á esquerda e o cerrado alto á direita, sempre pelas divisas do mato e do cerrado até encontrar o espigão e continuando por este, que vire para o corregro do Bosque, até uma cova feita no mesmo espigão e dessa cova seguem á esquerda, com vinte e seis gráus de variação nordeste com a distancia de duzentos e setenta e cinco metros, até um pau de oleo de copahyba, onde se colloca um marco de pedra; dahi, seguem á esquerda, com o angulo de setenta e seis gráus e seguem em rumo até a distancia de setecentos e quarenta metros, onde se encontra outro marco de pedra; deste seguem á direita, com um angulo de quarenta e tres gráus e trinta minutos, vão até outro marco de pedra, e deste seguem á esquerda, com angulo de cento e quarenta gráus e quarenta e cinco minutos, vão até o corregro do — Bosque, em um marco de pedra collocado á margem esquerda do dito corregro do Bosque; e seguem margeando o dito corregro acima até completar a medida de quinhentos e oitenta e quatro metros e cincoen-</p>\n\n<p>ta centímetros, onde se encontra o dito forno de olaria e deste ao marco de pedra onde tiveram principio, confrontando com terras dos quinhões dados aos socios Manoel Carmo do Nascimento e José Tiburcio; — Quinhão do Brilhante: — tem principio na barra do corregro do Brilhante e por este acima até as cabeceiras e dellas em rumo ao alto até Manoel José dos Santos e deste até encontrar a divisa da fazenda Bom Sucesso; dahi, torcendo á esquerda, em rumo á cova que se acha perto do caminho que vem do Bom Sucesso a Campo Limpo; deste, torcendo á esquerda, em rumo a um páu de jatobá, que está para cima de um rego d'agua de Anna Gonçalves e em rumo a uma moita de aroeira, balizada no corregro da Esperança, e atravessando em rumo a um páu peito de pomba, torcendo á esquerda pelo espigão até a baixada do caminho que vai para uma Santa Cruz e pela estrada até encontrar uma cova, que está na encruzilhada da fazenda Macambas e torcendo á esquerda em rumo á ponta de um valinho que está entre as moradas de Quintonio e Frausino Sátiro Braz e pelo valinho abaixo até o corregro do Brilhante. — Assim, os supplicantes requerem a citação dos condominos da lista annexa, pessoalmente os que forem conhecidos e residirem nesta comarca e por edital de noventa dias os que forem desconhecidos ou ausentes que residam em logar incerto e ignorado, para o fim de virem á primeira audiencia do juízo, após a terminação de prazo edital, louvar-se com os supplicantes em agrimensores e arbitradores que procedam á divisão e abonar as despesas ficando desde logo citados para todos os demais termos e actos do processo até final sentença e sua execução, sob penas da lei. Nestes termos, servindo-se V. E. deferir as citações pedidas, bem como a do curador geral de orphãos e ausentes por todo o teor desta e para acompanhar a divisão até final, protestando por todo o genero de provas, especialmente testemunhas, juntada de documentos, depoimentos pessoaes, vistorias e os demais constantes do art. 136 do Cod. Civ. e 138 do Reg. 737, por fructos communs e por indemnização de danos sobre vindos á contestação da fide, servindo o curador geral <em>ad litem</em>, os supplicantes, avaliada esta em cem contos de réis (100:000$000) e distribuída ao cartorio do Segundo Officio' antiunada com os inclusos documentos, justificada a ausencia dos condominos ausentes e desconhecidos em dia, legar e hora que forem designados com as testemunhas do rol infra, julgada por sentença e expedidos os necessarios editaes. Recebam mercê. Cajurú, 9 de Agosto de 1918. P.p. Manoel de Sousa Gomes, advogado. Lista de condominos promoventes: 1, Jeronimo Carmo do Nascimento; 2, Manoel Pedro de Carvalho; 3, Balduino Antonio de Oliveira; promovidos: 4, Elviro Mendes Oliva; 5, João José Prates; 6, Albertino José Prates; 7, Pedro Lino de Sousa; 8, Estevam Eduardo de Carvalho; 9, Antonio Bento de Siqueira; 10, Olympio Pereira Conceição; 11, José Porcino de Sousa; 12 Vicente Alves de Lima; 13, Nicolau Granado; 14, Antonio João de Sousa; 15, João Antonio Conceição; 16, Arthur Pinto de Castilhos; 17, Fortunato José Prates; 18, Vito Pavolari; 19; Fabricia da Ma-</p>\n\n</div>\n\n</body>\n</html>\n```",
+              "refusal": null,
+              "reasoning": "The user wants me to transcribe an old Brazilian document (from April 1920, Diário Official) into HTML format, respecting the original layout and words. I need to return only the HTML code without extra text.\n\nLet me carefully read the document and transcribe it. The document appears to be from \"Diário Official\" dated April 1920, page 2099, Quinta-feira 1. It's a \"Citação\" (Citation) document about condominium owners absent and unknown from \"Fazenda da Esperança\" in locations \"Bebedouro da P. Dra.\", \"Esperança\" and \"Brilhantes\".\n\nLet me transcribe carefully column by column.",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "The user wants me to transcribe an old Brazilian document (from April 1920, Diário Official) into HTML format, respecting the original layout and words. I need to return only the HTML code without extra text.\n\nLet me carefully read the document and transcribe it. The document appears to be from \"Diário Official\" dated April 1920, page 2099, Quinta-feira 1. It's a \"Citação\" (Citation) document about condominium owners absent and unknown from \"Fazenda da Esperança\" in locations \"Bebedouro da P. Dra.\", \"Esperança\" and \"Brilhantes\".\n\nLet me transcribe carefully column by column.",
+                  "format": "unknown",
+                  "index": 0
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2585,
+          "completion_tokens": 3258,
+          "total_tokens": 5843,
+          "cost": 0.00499744,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00499744,
+            "upstream_inference_prompt_cost": 0.0008272,
+            "upstream_inference_completions_cost": 0.00417024
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 148,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2334 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.131,
+                0.039,
+                0.229,
+                0.055
+            ],
+            "angle": 0,
+            "content": "Terça-feira, 1"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.424,
+                0.038,
+                0.569,
+                0.054
+            ],
+            "angle": 0,
+            "content": "DIARIO OFFICIAL"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.167,
+                0.061,
+                0.418,
+                0.078
+            ],
+            "angle": 0,
+            "content": "F. Henecía de Jorge Mussi"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.128,
+                0.083,
+                0.501,
+                0.121
+            ],
+            "angle": 0,
+            "content": "Quadro geral dos credores admittidos à fallencia, de acc rdo com o artigo 85 do dec. 5746, de 9 de Dezembro de 1929.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.129,
+                0.127,
+                0.426,
+                0.143
+            ],
+            "angle": 0,
+            "content": "Credores com privilegio sobre todo o activo",
+            "merge_prev": false
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.748,
+                0.038,
+                0.881,
+                0.053
+            ],
+            "angle": 0,
+            "content": "Abril 1930 3201"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.089,
+                0.147,
+                0.501,
+                0.541
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Camara Municipal de Jahú</td><td>1:770$300</td><td></td></tr><tr><td>Tufick Nicolau</td><td>2:000$000</td><td></td></tr><tr><td>Nassri Abbud</td><td>3:000$000</td><td></td></tr><tr><td>Dr. Fausto Gwyer de Azevedo</td><td>1:359$065</td><td></td></tr><tr><td>Paulo Vissotto</td><td>1:359$065</td><td></td></tr><tr><td>Heitor Gouvêa</td><td>1:359$065</td><td>10:847$495</td></tr><tr><td colspan=\"3\">Credor com privilegio sobre innovel</td></tr><tr><td>Bonfiglio Montosani</td><td></td><td>50:000$000</td></tr><tr><td>Credores chirographarios</td><td></td><td></td></tr><tr><td>Guilberne Herzog</td><td>660$000</td><td></td></tr><tr><td>Banco Commercial do Estado de S. Paulo</td><td>30:500$000</td><td></td></tr><tr><td>José Antonio</td><td>7:500$000</td><td></td></tr><tr><td>Bento de Souza &amp; Comp.</td><td>244$500</td><td></td></tr><tr><td>Miguel Zattar &amp; Filhos</td><td>3:33:$500</td><td></td></tr><tr><td>João A. Machado &amp; Comp.</td><td>1:35 $000</td><td></td></tr><tr><td>Nicolau Nassif</td><td>52:224$940</td><td></td></tr><tr><td>Sarkis João &amp; Filho</td><td>2:171$000</td><td></td></tr><tr><td>A. Sampaio &amp; Comp.</td><td>2:299$800</td><td></td></tr><tr><td>Janowitzer, Wahle &amp; Comp.</td><td>878$900</td><td></td></tr><tr><td>Januario Canale</td><td>582$500</td><td></td></tr><tr><td>Herm Stottz &amp; Comp.</td><td>3:568$200</td><td></td></tr><tr><td>J. Baptista Aloe</td><td>1:112$000</td><td></td></tr><tr><td>Nassri Abbud</td><td>8:000$000</td><td></td></tr><tr><td>M. Yazigi &amp; Irmão</td><td>3:730$000</td><td></td></tr><tr><td>José Milani &amp; Comp.</td><td>22-$000</td><td></td></tr><tr><td>Ind. Reunidas F. Matarazzo</td><td>5:163$650</td><td></td></tr><tr><td>Motta Filho &amp; Comp.</td><td>192$000</td><td></td></tr><tr><td>The Rio de Janeiro F. Mill &amp; Gran. Ltda.</td><td>2:738$000</td><td></td></tr><tr><td>Pignatari &amp; Matarazz</td><td>1:412$700</td><td></td></tr><tr><td>Theodor Block &amp; Comp.</td><td>1:060$500</td><td></td></tr><tr><td>Barros Loureiro &amp; Monteiro</td><td>418$000</td><td></td></tr></table>"
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.512,
+                0.058,
+                0.924,
+                0.488
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Assab Abdalla &amp; Nagib Salem</td><td>6:475$000</td><td></td></tr><tr><td>Dr. Antonio Neves de AlmeidaPrado</td><td>12:300$000</td><td></td></tr><tr><td>Armando Terso</td><td>2:000$000</td><td></td></tr><tr><td>Barros &amp; Comp.</td><td>6:513$100</td><td></td></tr><tr><td>Lazaro Alves dos Santos</td><td>700$000</td><td></td></tr><tr><td>Nassim Zattar</td><td>45:000$000</td><td></td></tr><tr><td>José Roméro</td><td>1:265$000</td><td></td></tr><tr><td>Antonio Bianco</td><td>2:100$000</td><td></td></tr><tr><td>José Fernandes</td><td>6:850$000</td><td></td></tr><tr><td>Nasser Antonio</td><td>40:00$000</td><td></td></tr><tr><td>Aristides Cury</td><td>39:500$000</td><td></td></tr><tr><td>Aristiles R Nunes</td><td>40:000$000</td><td></td></tr><tr><td>Sad Antonio</td><td>39.500$000</td><td></td></tr><tr><td>Semi Zattar &amp; Irmãos</td><td>15:01$500</td><td></td></tr><tr><td>Banco do Brasil</td><td>49:552$000</td><td></td></tr><tr><td>Banco Melhoramentos do Jahú</td><td>4:000$000</td><td></td></tr><tr><td>Gonçalves, Salles &amp; Comp.</td><td>1:345$000</td><td></td></tr><tr><td>João Matheus</td><td>5:600$000</td><td></td></tr><tr><td>Florido Fabri</td><td>13:440$000</td><td></td></tr><tr><td>Banco Paulista</td><td>51:540$000</td><td></td></tr><tr><td>Victor Cesarino</td><td>15:000$000</td><td></td></tr><tr><td>Mansur Yasbeek &amp; Irmão</td><td>285$000</td><td></td></tr><tr><td>Felicio Bolini</td><td>21:200$000</td><td></td></tr><tr><td>Bonfiglio Montovani</td><td>48 525$000</td><td></td></tr><tr><td>Albino Tesser</td><td>17:920$000</td><td></td></tr><tr><td>De Marco &amp; Comp.</td><td>6:00$000</td><td></td></tr><tr><td>Nelsen Bechara &amp; Comp.</td><td>26:159$800</td><td></td></tr><tr><td>Farah Antonio</td><td>3:511$700</td><td></td></tr><tr><td>Domingos Saro</td><td>7:840$000</td><td></td></tr><tr><td>Bazilio Trevizan</td><td>589$200</td><td></td></tr><tr><td>Leureiro Costa &amp; Comp.</td><td>2:455$500</td><td></td></tr><tr><td>Abib José Tarcha</td><td>3:000$000</td><td></td></tr><tr><td>Adriano Blanch</td><td>3:920$000</td><td></td></tr><tr><td>Tufick Nicolán</td><td>6:000$000</td><td></td></tr><tr><td>Francisco Simões</td><td>21:300$000</td><td>696:185$990</td></tr><tr><td></td><td>Somma Rs.</td><td>757.033$485</td></tr></table>"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.515,
+                0.492,
+                0.921,
+                0.52
+            ],
+            "angle": 0,
+            "content": "Jahú, 21 de Março de 1930. -- O juiz de direito\nManuel Gomes de Oliveira. O syndico: Heitor Gouvêa.",
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.141,
+                0.546,
+                0.317,
+                0.56
+            ],
+            "angle": 0,
+            "content": "Comarca de Jahá"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.093,
+                0.568,
+                0.361,
+                0.594
+            ],
+            "angle": 0,
+            "content": "Cartorio do 2.º ofício — Fallencia de L. R. Schreiner & Comp.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.093,
+                0.602,
+                0.362,
+                0.647
+            ],
+            "angle": 0,
+            "content": "Quadro geral dos credores admitidos á fallencia, de acordo com o art. 85 do Dec. 5746, de 9 de Dezembro de 1929.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.095,
+                0.646,
+                0.362,
+                0.669
+            ],
+            "angle": 0,
+            "content": "Credores com privilegio sobre todo o activo",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.096,
+                0.668,
+                0.363,
+                0.684
+            ],
+            "angle": 0,
+            "content": "Josó Melge, Jahí 216\\$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.097,
+                0.68,
+                0.362,
+                0.693
+            ],
+            "angle": 0,
+            "content": "Mario Martins, Jahü 2:1438100",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.096,
+                0.69,
+                0.362,
+                0.703
+            ],
+            "angle": 0,
+            "content": "Pedro Beltran Junior, Jahú 782§500",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.097,
+                0.712,
+                0.362,
+                0.725
+            ],
+            "angle": 0,
+            "content": "Luiz Segolin, Jahú 1603000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.096,
+                0.724,
+                0.363,
+                0.746
+            ],
+            "angle": 0,
+            "content": "João Manoel do Nascimento,\nJahú 160\\$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.097,
+                0.745,
+                0.363,
+                0.767
+            ],
+            "angle": 0,
+            "content": "Prudente Authero Bueno,\nJahá 179\\$900",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.097,
+                0.766,
+                0.363,
+                0.781
+            ],
+            "angle": 0,
+            "content": "Aristen Chaves, Jahü 1:200\\$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.096,
+                0.779,
+                0.364,
+                0.802
+            ],
+            "angle": 0,
+            "content": "Camara Municipal de Jahú,\nJahú 2:197\\$700",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.097,
+                0.833,
+                0.364,
+                0.856
+            ],
+            "angle": 0,
+            "content": "Hermi Stoltz & Comp., São Paulo 1:125\\$800",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.096,
+                0.856,
+                0.364,
+                0.882
+            ],
+            "angle": 0,
+            "content": "D. Almerinda do Canto Al-\nmeida Prado, Jahú 675900",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.097,
+                0.89,
+                0.363,
+                0.911
+            ],
+            "angle": 0,
+            "content": "Augusto Vieira da Silva,\nCarapinas 48:627\\$224",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.096,
+                0.911,
+                0.364,
+                0.934
+            ],
+            "angle": 0,
+            "content": "Eduardo Baptista Leite,\nCampinas 74:478\\$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.096,
+                0.933,
+                0.364,
+                0.958
+            ],
+            "angle": 0,
+            "content": "Sampaio Costa & Comp.,\nSão Paulo 3:602$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.375,
+                0.547,
+                0.643,
+                0.571
+            ],
+            "angle": 0,
+            "content": "Loureiro Costa, & Comp.,\nSão Paulo 4:320$500",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.376,
+                0.57,
+                0.643,
+                0.583
+            ],
+            "angle": 0,
+            "content": "Fratelli Attanasio, Jahu 1:6173400",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.376,
+                0.583,
+                0.643,
+                0.604
+            ],
+            "angle": 0,
+            "content": "Dr. Rubens G Rocha e\noutro, São Paulo 6:674\\$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.376,
+                0.604,
+                0.644,
+                0.625
+            ],
+            "angle": 0,
+            "content": "Gonçalves Salles & Comp.\nSão Paulo 4:549\\$800",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.377,
+                0.625,
+                0.644,
+                0.648
+            ],
+            "angle": 0,
+            "content": "Bromberg & Comp., São Paulo 2:024\\$200",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.376,
+                0.648,
+                0.643,
+                0.669
+            ],
+            "angle": 0,
+            "content": "Alves Azevedo & Comp,\nSão Paulo 11:305$300",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.376,
+                0.669,
+                0.643,
+                0.691
+            ],
+            "angle": 0,
+            "content": "C. Costa Fontes & Comp.,\nSantos 3:108\\$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.377,
+                0.703,
+                0.643,
+                0.724
+            ],
+            "angle": 0,
+            "content": "Juvenal, Franco & Comp.,\nS. Paulo 906\\$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.377,
+                0.723,
+                0.643,
+                0.737
+            ],
+            "angle": 0,
+            "content": "Giovanni Pavan, Jahú 585\\$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.377,
+                0.737,
+                0.643,
+                0.75
+            ],
+            "angle": 0,
+            "content": "José Balho, Campinas 467\\$800",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.377,
+                0.758,
+                0.644,
+                0.781
+            ],
+            "angle": 0,
+            "content": "Fidelis Maselli Di Lascio,\nCampinas 35:000\\$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.377,
+                0.782,
+                0.646,
+                0.806
+            ],
+            "angle": 0,
+            "content": "José de Seixas Junior,\nCampinas 10:000\\$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.377,
+                0.805,
+                0.645,
+                0.819
+            ],
+            "angle": 0,
+            "content": "Lion & Comp., S. Paulo 6:557\\$6:0",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.377,
+                0.817,
+                0.647,
+                0.84
+            ],
+            "angle": 0,
+            "content": "Luciano Vieintim & Filhos\nS. Paulo\n834$500",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.378,
+                0.841,
+                0.646,
+                0.865
+            ],
+            "angle": 0,
+            "content": "Soc. Casa Moreira Ltda.,\nJahú 168\\$500",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.376,
+                0.865,
+                0.646,
+                0.883
+            ],
+            "angle": 0,
+            "content": "Adalberto Maia, Campinas 940$000\nFabrica Aurora Limitada",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.376,
+                0.876,
+                0.646,
+                0.899
+            ],
+            "angle": 0,
+            "content": "Fabrica Aurora Limitada,\nPiracicaba 437\\$200",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.377,
+                0.9,
+                0.646,
+                0.923
+            ],
+            "angle": 0,
+            "content": "Comp. Paulista de Ali nentação, S. Paulo 298\\$400",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.377,
+                0.922,
+                0.646,
+                0.938
+            ],
+            "angle": 0,
+            "content": "Moinho Inglez, S. Paulo 1:185\\$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.657,
+                0.547,
+                0.925,
+                0.571
+            ],
+            "angle": 0,
+            "content": "Rieckmuan & Comp., S.\nPaulo 6:113\\$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.657,
+                0.57,
+                0.924,
+                0.594
+            ],
+            "angle": 0,
+            "content": "Costa Nogueira & Comp.,\nS. Paulo 2:296\\$900",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.657,
+                0.593,
+                0.923,
+                0.615
+            ],
+            "angle": 0,
+            "content": "Zerrenner, Bulow & Comp.\nS. Paulo 4:022\\$800",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.657,
+                0.615,
+                0.925,
+                0.647
+            ],
+            "angle": 0,
+            "content": "Comp. Mechanica e Importado de São Paulo, S. Paulo 1:9538570",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.659,
+                0.647,
+                0.925,
+                0.669
+            ],
+            "angle": 0,
+            "content": "Wilson Sons & Comp.,\nS. Paulo 9203000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.658,
+                0.67,
+                0.925,
+                0.692
+            ],
+            "angle": 0,
+            "content": "Tripaldi & Catena Ltda,\nS. Paulo 2:256\\$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.658,
+                0.692,
+                0.925,
+                0.714
+            ],
+            "angle": 0,
+            "content": "Theodor Wille & Comp., S. Paulo 19:354\\$080",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.659,
+                0.714,
+                0.925,
+                0.736
+            ],
+            "angle": 0,
+            "content": "João Jorge, Figueiredo & Comp., S. Paulo 19:937\\$300",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.659,
+                0.737,
+                0.925,
+                0.77
+            ],
+            "angle": 0,
+            "content": "Brazilian Warrant Agency & Finance Comp.\nLtda.. S. Paulo 8:253\\$200",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.659,
+                0.77,
+                0.926,
+                0.791
+            ],
+            "angle": 0,
+            "content": "José Milani & Comp, Campinas 1:540$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.659,
+                0.791,
+                0.926,
+                0.813
+            ],
+            "angle": 0,
+            "content": "S/A Moinho Santista, São Paulo 2:572\\$000",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.658,
+                0.814,
+                0.927,
+                0.835
+            ],
+            "angle": 0,
+            "content": "A. Sampai) & Comp., S.\nPaulo 4:357\\$400",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.659,
+                0.835,
+                0.928,
+                0.857
+            ],
+            "angle": 0,
+            "content": "Motta Filho & Comp., S.\nPaulo 3:083$200",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.66,
+                0.857,
+                0.926,
+                0.871
+            ],
+            "angle": 0,
+            "content": "Irmãos Durante, Jahú 231\\$800",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.66,
+                0.869,
+                0.926,
+                0.891
+            ],
+            "angle": 0,
+            "content": "The Dunlop Pneumatic Tyre\nComp. Ltda., S. Paulo 633\\$700",
+            "merge_prev": false
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.171,
+                0.062,
+                0.414,
+                0.075
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.132,
+                0.085,
+                0.496,
+                0.096
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.151,
+                0.097,
+                0.496,
+                0.107
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.152,
+                0.109,
+                0.26,
+                0.118
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.132,
+                0.13,
+                0.422,
+                0.141
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.557,
+                0.495,
+                0.917,
+                0.506
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.518,
+                0.505,
+                0.908,
+                0.518
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.145,
+                0.547,
+                0.314,
+                0.56
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.095,
+                0.569,
+                0.358,
+                0.581
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.142,
+                0.58,
+                0.319,
+                0.593
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.113,
+                0.603,
+                0.36,
+                0.614
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.095,
+                0.614,
+                0.36,
+                0.626
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.624,
+                0.36,
+                0.636
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.636,
+                0.137,
+                0.646
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.096,
+                0.646,
+                0.36,
+                0.659
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.193,
+                0.659,
+                0.237,
+                0.669
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.098,
+                0.668,
+                0.217,
+                0.681
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.304,
+                0.669,
+                0.36,
+                0.681
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.098,
+                0.679,
+                0.235,
+                0.691
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.293,
+                0.68,
+                0.36,
+                0.691
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.688,
+                0.36,
+                0.703
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.71,
+                0.231,
+                0.726
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.304,
+                0.711,
+                0.361,
+                0.726
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.722,
+                0.281,
+                0.736
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.111,
+                0.733,
+                0.147,
+                0.746
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.304,
+                0.735,
+                0.36,
+                0.747
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.098,
+                0.744,
+                0.281,
+                0.758
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.111,
+                0.756,
+                0.147,
+                0.767
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.305,
+                0.758,
+                0.36,
+                0.768
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.101,
+                0.768,
+                0.235,
+                0.779
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.296,
+                0.769,
+                0.36,
+                0.78
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.778,
+                0.28,
+                0.791
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.112,
+                0.789,
+                0.147,
+                0.801
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.294,
+                0.79,
+                0.361,
+                0.802
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.098,
+                0.832,
+                0.28,
+                0.846
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.113,
+                0.844,
+                0.153,
+                0.856
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.295,
+                0.845,
+                0.361,
+                0.856
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.098,
+                0.855,
+                0.282,
+                0.866
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.111,
+                0.867,
+                0.236,
+                0.877
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.311,
+                0.867,
+                0.361,
+                0.879
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.887,
+                0.281,
+                0.903
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.112,
+                0.901,
+                0.176,
+                0.912
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.287,
+                0.899,
+                0.36,
+                0.912
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.096,
+                0.908,
+                0.278,
+                0.924
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.11,
+                0.921,
+                0.177,
+                0.935
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.287,
+                0.921,
+                0.361,
+                0.934
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.097,
+                0.93,
+                0.277,
+                0.947
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.112,
+                0.942,
+                0.187,
+                0.957
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.293,
+                0.943,
+                0.361,
+                0.956
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.391,
+                0.559,
+                0.462,
+                0.571
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.573,
+                0.56,
+                0.64,
+                0.571
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.376,
+                0.548,
+                0.56,
+                0.562
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.377,
+                0.57,
+                0.539,
+                0.582
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.573,
+                0.57,
+                0.64,
+                0.582
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.377,
+                0.58,
+                0.562,
+                0.594
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.392,
+                0.593,
+                0.506,
+                0.604
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.573,
+                0.591,
+                0.64,
+                0.605
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.376,
+                0.603,
+                0.559,
+                0.616
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.391,
+                0.614,
+                0.461,
+                0.625
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.574,
+                0.615,
+                0.641,
+                0.625
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.377,
+                0.625,
+                0.562,
+                0.638
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.391,
+                0.635,
+                0.433,
+                0.648
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.574,
+                0.637,
+                0.64,
+                0.648
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.391,
+                0.658,
+                0.461,
+                0.67
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.566,
+                0.658,
+                0.639,
+                0.671
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.377,
+                0.647,
+                0.555,
+                0.66
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.391,
+                0.681,
+                0.437,
+                0.692
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.574,
+                0.68,
+                0.641,
+                0.692
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.376,
+                0.668,
+                0.56,
+                0.682
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.391,
+                0.713,
+                0.453,
+                0.725
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.586,
+                0.714,
+                0.641,
+                0.726
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.377,
+                0.702,
+                0.55,
+                0.715
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.378,
+                0.724,
+                0.529,
+                0.737
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.586,
+                0.725,
+                0.642,
+                0.737
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.378,
+                0.735,
+                0.523,
+                0.749
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.584,
+                0.736,
+                0.642,
+                0.748
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.377,
+                0.756,
+                0.55,
+                0.77
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.392,
+                0.768,
+                0.459,
+                0.782
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.566,
+                0.769,
+                0.642,
+                0.779
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.377,
+                0.782,
+                0.55,
+                0.796
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.393,
+                0.794,
+                0.459,
+                0.807
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.568,
+                0.794,
+                0.643,
+                0.806
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.378,
+                0.804,
+                0.55,
+                0.819
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.573,
+                0.805,
+                0.642,
+                0.817
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.378,
+                0.815,
+                0.55,
+                0.828
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.394,
+                0.828,
+                0.453,
+                0.838
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.586,
+                0.826,
+                0.643,
+                0.84
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.377,
+                0.84,
+                0.552,
+                0.854
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.392,
+                0.853,
+                0.428,
+                0.864
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.583,
+                0.853,
+                0.643,
+                0.865
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.38,
+                0.864,
+                0.549,
+                0.875
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.587,
+                0.865,
+                0.643,
+                0.875
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.377,
+                0.876,
+                0.546,
+                0.884
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.376,
+                0.874,
+                0.559,
+                0.887
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.394,
+                0.887,
+                0.464,
+                0.897
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.582,
+                0.886,
+                0.644,
+                0.897
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.379,
+                0.9,
+                0.553,
+                0.912
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.393,
+                0.912,
+                0.499,
+                0.923
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.586,
+                0.911,
+                0.644,
+                0.924
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.379,
+                0.92,
+                0.553,
+                0.936
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.574,
+                0.921,
+                0.644,
+                0.935
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.658,
+                0.547,
+                0.829,
+                0.561
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.672,
+                0.559,
+                0.713,
+                0.571
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.857,
+                0.561,
+                0.923,
+                0.571
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.892,
+                0.568,
+                0.896,
+                0.573
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.673,
+                0.582,
+                0.732,
+                0.593
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.853,
+                0.582,
+                0.921,
+                0.594
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.658,
+                0.57,
+                0.832,
+                0.583
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.658,
+                0.591,
+                0.832,
+                0.605
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.673,
+                0.603,
+                0.732,
+                0.615
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.853,
+                0.603,
+                0.922,
+                0.616
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.658,
+                0.614,
+                0.832,
+                0.627
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.673,
+                0.625,
+                0.83,
+                0.638
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.674,
+                0.637,
+                0.733,
+                0.647
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.856,
+                0.636,
+                0.922,
+                0.648
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.659,
+                0.645,
+                0.831,
+                0.661
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.673,
+                0.658,
+                0.733,
+                0.669
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.866,
+                0.658,
+                0.923,
+                0.671
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.657,
+                0.668,
+                0.832,
+                0.683
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.673,
+                0.68,
+                0.733,
+                0.692
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.857,
+                0.682,
+                0.923,
+                0.692
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.673,
+                0.703,
+                0.73,
+                0.714
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.849,
+                0.704,
+                0.923,
+                0.714
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.657,
+                0.69,
+                0.833,
+                0.705
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.658,
+                0.713,
+                0.833,
+                0.726
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.673,
+                0.725,
+                0.783,
+                0.736
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.848,
+                0.725,
+                0.922,
+                0.737
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.659,
+                0.734,
+                0.832,
+                0.749
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.673,
+                0.748,
+                0.829,
+                0.76
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.673,
+                0.757,
+                0.78,
+                0.771
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.845,
+                0.757,
+                0.923,
+                0.771
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.675,
+                0.78,
+                0.74,
+                0.792
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.857,
+                0.781,
+                0.923,
+                0.792
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.659,
+                0.768,
+                0.832,
+                0.781
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.658,
+                0.789,
+                0.849,
+                0.803
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.673,
+                0.802,
+                0.715,
+                0.813
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.857,
+                0.802,
+                0.923,
+                0.813
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.659,
+                0.811,
+                0.851,
+                0.829
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.675,
+                0.823,
+                0.715,
+                0.836
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.856,
+                0.823,
+                0.924,
+                0.836
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.657,
+                0.833,
+                0.856,
+                0.849
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.675,
+                0.846,
+                0.714,
+                0.857
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.856,
+                0.846,
+                0.923,
+                0.857
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.66,
+                0.856,
+                0.923,
+                0.871
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.66,
+                0.867,
+                0.851,
+                0.88
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.675,
+                0.879,
+                0.828,
+                0.891
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.86,
+                0.878,
+                0.925,
+                0.891
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ]
+]

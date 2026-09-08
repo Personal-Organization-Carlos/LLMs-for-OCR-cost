@@ -1,0 +1,2 @@
+﻿run_id,empresa,tipo,model_id,model_label,api_provider,provider_upstream,doc_id,prompt_id,repetition,ok,error_kind,truncated,finish_reason,attempts,wer,cer,num_f1,html_sem_texto_extra,prompt_tokens,completion_tokens,total_tokens,cost_usd,cost_source,latency_s,saida_formato,ref_n_tokens,hyp_n_tokens,num_n_ref,num_n_hyp,num_acertos,timestamp_utc,pasta,resposta
+20260907-162958,Google,fechado,google/gemini-3.6-flash,Gemini 3.6 Flash,gemini,,1891-08-01_p606,p1,0,False,servidor,False,,2,,,,,,,,,,,,,,,,,2026-09-07T20:29:58Z,chamadas/google__gemini-3.6-flash/1891-08-01_p606__p1__r0,

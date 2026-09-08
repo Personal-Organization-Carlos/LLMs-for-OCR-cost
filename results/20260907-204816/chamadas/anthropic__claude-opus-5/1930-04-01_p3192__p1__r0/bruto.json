@@ -1,0 +1,87 @@
+{
+  "chave": "anthropic/claude-opus-5|1930-04-01_p3192|p1|0",
+  "registro": {
+    "model_id": "anthropic/claude-opus-5",
+    "prompt_id": "p1",
+    "doc_id": "1930-04-01_p3192",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 67.15011889999732,
+    "prompt_tokens": 4820,
+    "completion_tokens": 6013,
+    "total_tokens": 10833,
+    "cost_usd": 0.174425,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Anthropic",
+    "generation_id": "gen-1788829718-dkUrrgSA6z9blkBfeNQQ",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T01:08:38Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788829718-dkUrrgSA6z9blkBfeNQQ",
+        "object": "chat.completion",
+        "created": 1788829718,
+        "model": "anthropic/claude-opus-5",
+        "provider": "Anthropic",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "end_turn",
+            "message": {
+              "role": "assistant",
+              "content": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diario Official — 1 de Abril de 1930</title>\n<style>\n    body {\n        background: #ffffff;\n        color: #111;\n        font-family: \"Times New Roman\", Times, serif;\n        font-size: 13px;\n        line-height: 1.15;\n        margin: 20px 40px;\n        text-align: justify;\n    }\n    .cabecalho {\n        display: flex;\n        justify-content: space-between;\n        align-items: flex-end;\n        font-weight: bold;\n        letter-spacing: 1px;\n        padding-bottom: 2px;\n    }\n    .cabecalho .esq { font-size: 14px; }\n    .cabecalho .centro { font-size: 16px; letter-spacing: 2px; }\n    .cabecalho .dir { font-size: 14px; }\n    hr.dupla {\n        border: none;\n        border-top: 2px solid #000;\n        border-bottom: 1px solid #000;\n        height: 2px;\n        margin: 2px 0 8px 0;\n    }\n    .colunas {\n        column-count: 3;\n        column-gap: 22px;\n        column-rule: 1px solid #000;\n    }\n    p {\n        margin: 0;\n        text-indent: 1.2em;\n    }\n    p.semrecuo { text-indent: 0; }\n    h2, h3, h4, h5 {\n        margin: 8px 0 4px 0;\n        text-align: center;\n        font-weight: normal;\n    }\n    h2.titulo-grande {\n        font-size: 20px;\n        letter-spacing: 3px;\n        margin: 14px 0 8px 0;\n    }\n    h3.secao {\n        font-size: 14px;\n        letter-spacing: 2px;\n    }\n    h4.sub {\n        font-size: 13px;\n        letter-spacing: 1px;\n    }\n    h5.sub2 {\n        font-size: 13px;\n        font-style: normal;\n    }\n    .italico { font-style: italic; }\n    .negrito { font-weight: bold; }\n    table.resumo {\n        width: 100%;\n        border-collapse: collapse;\n        font-size: 13px;\n    }\n    table.resumo td { padding: 0; vertical-align: bottom; }\n    table.resumo td.num { text-align: right; }\n    .separador {\n        text-align: center;\n        margin: 10px 0;\n    }\n    .separador::before {\n        content: \"———————\";\n        letter-spacing: 2px;\n    }\n    .recuo-lista {\n        text-indent: 0;\n        padding-left: 1.4em;\n        text-align: center;\n    }\n</style>\n</head>\n<body>\n\n<div class=\"cabecalho\">\n    <div class=\"esq\">3192&nbsp;&nbsp;Terça-feira, 1</div>\n    <div class=\"centro\">DIARIO OFFICIAL</div>\n    <div class=\"dir\">Abril&nbsp;&nbsp;1930</div>\n</div>\n<hr class=\"dupla\">\n\n<div class=\"colunas\">\n\n    <!-- ================= COLUNA 1 ================= -->\n    <h4 class=\"sub\">Para as Inspectorias Districtaes<br>Escolares</h4>\n\n    <p>Officios ns.: 13, do Grupo Escolar de Novo Horizonte; 5, do Grupo Escolar de Joanopolis; 15, do Grupo Escolar de Brotas.</p>\n\n    <h3 class=\"secao\">3.ª e 4.ª SECÇÕES</h3>\n\n    <h4 class=\"sub\">Escolas Isoladas e Reunidas</h4>\n\n    <h4 class=\"sub\">Papeis entrados</h4>\n    <p>Requerimentos de: Ignacio Carvalho Landell, Judith Frota Anna Mello Coelho, Francisca von Atzinzen, Davina Brasiliana dos Anjos, Maria dos Santos Carvalho, Anna Vieira, Giacomo Ventrili e outros, Paulo Ponciano Piedade, Eugenia Castro Pereira Leite, Gonçalo D'Amar Ferreira, Maria Apparecida Gurgel Pinto, Genesia Costa, Alda Moreira.</p>\n    <p>Officios de: N. 23, do Insp. do 20.º Districto; n. 5, do Insp. do 76.º Districto; n. 70, do Insp. do 12.º Districto; n. 32, do Insp. do 18.º Districto; n. 11, do Insp. do 72.º Districto; n. 7, do Insp. do 33.º Districto; n. 41, do Insp. do 78.º Districto; n. 40, do Insp. do 78.º Districto.</p>\n\n    <h4 class=\"sub\">Papeis sahidos</h4>\n    <h4 class=\"sub\">Para a Secretaria do Interior</h4>\n    <p>Requerimentos de: Jacyra de Abreu, Gabriel Gonçalves e outros, Claudina Aquino Rodrigues, Maria Oliveira Nogueira, Gabriel Prioli, Euclydes Moraes Rosa, Maria de Lourdes Andrade, Adelaide Fonseca de Barros, Luiz Conceição Silva.</p>\n\n    <h4 class=\"sub\">Para as Inspectorias Districtaes</h4>\n    <p>Ao sr. Insp. de Apiahy, requer. de Dario Almeida Dias.</p>\n    <p>Ao sr. Insp. de Itapetininga, requer. de Rosa Rossi.</p>\n    <p>Ao sr. Insp. de Mogy Mirim, requer. de Tilde Magnocavallo.</p>\n\n    <h3 class=\"secao\">5.ª SECÇÃO</h3>\n\n    <h4 class=\"sub\">Escolas Normaes e outras</h4>\n\n    <h4 class=\"sub\">Papeis entrados</h4>\n    <p>Officios: <span class=\"italico\">Da Directoria da Escola Normal Livre de São José dos Campos,</span> sob n. 34; <span class=\"italico\">da Inspectoria fiscal da Escola Normal Livre de Mogy das Cruzes,</span> sob ns. 13 e 14; <span class=\"italico\">da Inspectoria fiscal da Escola Normal Livre «Dr. Julio Prestes»,</span> em Jacarehy, sob n. 7.</p>\n\n    <h4 class=\"sub\">Papeis sahidos</h4>\n    <h4 class=\"sub\">Para o Thesouro do Estado</h4>\n    <p>Portarias de licença de: <span class=\"italico\">d. Maria Thereza de Oliveira</span> e do sr. <span class=\"negrito\">Manoel Arystobulo de Oliveira Freitas.</span></p>\n    <p>Titulo de nomeação de: d. <span class=\"negrito\">Olivia Bianco.</span></p>\n\n    <div class=\"separador\"></div>\n\n    <h2 class=\"titulo-grande\">INSPECÇÃO MEDICA<br>ESCOLAR</h2>\n\n    <h4 class=\"sub\"><span class=\"negrito\">Expediente do dia 28 de Março<br>de 1930</span></h4>\n\n    <p>1.ª ZONA — Dr. Wladimir Kehl</p>\n    <p class=\"semrecuo\"><span class=\"negrito\">Inspeccionou 36 alumnos do Grupo Escolar «Marechal Deodoro», vaccinou 13 e expediu 5 boletins sanitarios.</span></p>\n    <p><span class=\"negrito\">2.ª ZONA — Dr.ª Carmela Juliani</span></p>\n    <p class=\"semrecuo\"><span class=\"negrito\">Inspeccionou 18 alumnos da 62.ª escola «7 de Setembro», requisitou 3 ana-</span></p>\n\n    <!-- ================= COLUNA 2 ================= -->\n    <p class=\"semrecuo\">lyses, revaccinou 14, expediu 7 boletins sanitarios e fez 1 prelecção sobre hygiene individual.</p>\n    <p>Expediu mais 3 boletins sanitario para o Grupo Escolar «Pedro II».</p>\n    <p>3.ª ZONA — Dr.ª Margarida do Camargo Barros</p>\n    <p class=\"semrecuo\">Inspeccionou 52 alumnos da Escola Modelo «Caetano de Campos», vaccinou 1, revaccinou 11, expediu 7 boletins sanitarios e fez 1 prelecção sobre vaccina antivariolica.</p>\n    <p>4.ª ZONA — Dr <span class=\"italico\">Nery Gonçalves</span></p>\n    <p class=\"semrecuo\">Inspeccionou 31 alumnos do Grupo Escolar «Maria José», revaccinou 31, expediu 10 boletins sanitarios e determinou 1 evicção por parotidite.</p>\n    <p>5.ª ZONA — Dr. Araripe Sucupira</p>\n    <p class=\"semrecuo\">Inspeccionou 43 alumnos do 1.º Grupo Escolar do Cambucy, requisitou 2 analyses, vaccinou 4, revaccinou 11, expediu 5 boletins sanitarios e fez 1 prelecção sobre hygiene individual.</p>\n    <p>6.ª ZONA — Dr. Botelho Comenale</p>\n    <p class=\"semrecuo\">Inspeccionou 47 alumnos do Grupo Escolar «Oswaldo Cruz», requisitou 1 analyse e vaccinou 3, revaccinou 8 e expediu 13 boletins sanitarios.</p>\n    <p>7.ª ZONA — Dr. Pedroso Camargo</p>\n    <p class=\"semrecuo\">Não apresentou parte de serviço.</p>\n    <p>8.ª ZONA — Dr Durval Marcondes</p>\n    <p class=\"semrecuo\">Inspeccionou 36 alumnos do 1.º Grupo Escolar do Braz, vaccinou 1, revaccinou 3 e expediu 3 boletins sanitarios e fez 1 prelecção sobre vaccinação antivariolica e suas vantagens.</p>\n    <p>9.ª ZONA — Dr. Leoncio de Queiroz</p>\n    <p class=\"semrecuo\">Inspeccionou nesta Directoria 2 professoras e fez 1 deligencia.</p>\n\n    <h4 class=\"sub\">Inspecção de saúde</h4>\n\n    <p><span class=\"italico\">Foram inspeccionados nesta Directoria: as professora d. d Maria José Brasiliense Fusco e Maria José Nogueira, sendo encaminhados os respectivos laudos.</span></p>\n    <p>No n. 27-A, da rua Fernando de Albuquerque, não foi encontrada a professora d. Antonietta Pimentel Muniz.</p>\n    <p>Não compareceu o professor sr. Archimedes Aristeu de Carvalho.</p>\n\n    <h4 class=\"sub\">Assistencia Medica</h4>\n\n    <p class=\"recuo-lista\">I — Clinica de molestias <span class=\"italico\">internas</span> e <span class=\"italico\">verminoses</span> — <span class=\"italico\">Dr. Alcino Braga</span></p>\n    <p class=\"semrecuo\">Examinou 1 alumno, deu 1 consulta, 2 prescripções medicas e organizou as respectivas fichas.</p>\n    <p class=\"recuo-lista\">II — Clinica de molestias da pelle e uro-genitaes—Dr. L. V. Catta-Preta</p>\n    <p class=\"semrecuo\">Examinou 3 alumnos, deu 4 consultas, 5 prescripções medicas, fez 1 curativo e organizou as respectivas fichas.</p>\n    <p class=\"recuo-lista\">III — Clinica de molestias de olhos e correcção da vista — Dr. Danton Malta</p>\n    <p class=\"semrecuo\">Examinou 8 alumnos, deu 2 prescripções medicas, 5 prescripções de oculos e organizou as respectivas fichas.</p>\n    <p class=\"semrecuo\">Examinou nesta Directoria 1 professora.</p>\n    <p class=\"recuo-lista\">IV — Clinica de molestias de ouvido, nariz e garganta — Dr. Silvestre Passy</p>\n    <p class=\"semrecuo\">Examinou 5 alumnos, deu 1 prescripção medica e organizou as respectivas fichas.</p>\n    <p class=\"semrecuo\"><span class=\"negrito\">Inspeccionou nesta Directoria 2 professoras e fez 1 deligencia.</span></p>\n\n    <!-- ================= COLUNA 3 ================= -->\n    <h4 class=\"sub\">Assistencia Dentaria</h4>\n\n    <h4 class=\"sub\">Dr. Campos de Oliveira</h4>\n\n    <p>Acompanhou o sr. dr. director geral da Instrucção Publica, em visitas aos gabinetes dentarios dos Grupos Escolares «Marechal Floriano», «Marechal Deodoro», Jardim America, Carmo, Itahim e Escola Normal da Praça.</p>\n\n    <h4 class=\"sub\">Resumo</h4>\n\n    <table class=\"resumo\">\n        <tr><td>Visitas a escolas publicas</td><td class=\"num\">6</td></tr>\n        <tr><td>Visita a escola particular</td><td class=\"num\">1</td></tr>\n        <tr><td>Alumnos inspeccionados</td><td class=\"num\">263</td></tr>\n        <tr><td>Analyses requisitadas</td><td class=\"num\">6</td></tr>\n        <tr><td>Alumnos vaccinados contra a variola</td><td class=\"num\">22</td></tr>\n        <tr><td>Alumnos revaccinados idem</td><td class=\"num\">78</td></tr>\n        <tr><td>Boletins sanitarios expedidos</td><td class=\"num\">50</td></tr>\n        <tr><td>Evicção determinada</td><td class=\"num\">1</td></tr>\n        <tr><td>Prelecções sobre hygiene individual</td><td class=\"num\">4</td></tr>\n        <tr><td>Insp. de saúde nesta Directoria</td><td class=\"num\">2</td></tr>\n        <tr><td>Deligencia</td><td class=\"num\">1</td></tr>\n        <tr><td>Exames geraes</td><td class=\"num\">17</td></tr>\n        <tr><td>Consultas</td><td class=\"num\">5</td></tr>\n        <tr><td>Prescripções medicas</td><td class=\"num\">10</td></tr>\n        <tr><td>Prescripções de oculos</td><td class=\"num\">5</td></tr>\n        <tr><td>Exame especialisado</td><td class=\"num\">1</td></tr>\n        <tr><td>Curativo</td><td class=\"num\">1</td></tr>\n    </table>\n\n    <div class=\"separador\"></div>\n\n    <h2 class=\"titulo-grande\">DIRECTORIA GERAL DO<br>SERVIÇO SANITARIO</h2>\n\n    <h3 class=\"secao\">SECÇÃO DE EXPEDIENTE</h3>\n\n    <h4 class=\"sub\">Expediente do dia 29 de Março<br>de 1930</h4>\n\n    <p>Requerimentos despachados pelo Dr. Director Geral e informados, pelas seguintes secções:</p>\n\n    <h4 class=\"sub\">Inspectoria da Fisc. de Medicina<br>e Pharmacia</h4>\n\n    <p>João de Lucca.—O predio poderá ser aceito.</p>\n    <p>Oscar Cabral.—Deferido.</p>\n    <p>Gouveia &amp; Oliveira. — Poderá funccionar a titulo precario, uma vez provado o pagamento da taxa e exhibidos os livros á rubrica.</p>\n    <p>Instituto Biochimico Opotherapico Ltd.—Compareçam á Inspectoria para regularização do contracto de locação.</p>\n    <p>Januario da Cunha Mello.—Junte attestado de sanidade e recolha a taxa devida.</p>\n    <p>João Baptista Perrone. — Prov. Archive-se.</p>\n    <p>Ambrosina do Canto Barros. — Prov. Archive-se.</p>\n    <p>Francisco Serpa.—Deferido. Officie-se.</p>\n    <p>Oscal Cabral. — Deferido, uma vez paga a taxa legal.</p>\n    <p>Cid &amp; Campaz.—Deferido.</p>\n\n    <h4 class=\"sub\">Engenharia Sanitaria</h4>\n\n    <p><span class=\"negrito\">R. Santa Rosa, 39, apartamento 34.—Prov. Archive-se.</span></p>\n\n    <h4 class=\"sub\">Inspectoria de Molestias Infecciosas</h4>\n\n    <p><span class=\"negrito\">R. da Penha, 11 — Prorogo o prazo por 60 dias, afim de cumprir a intimação.</span></p>\n    <p><span class=\"negrito\">Largo do Belem, 21. — Prov. Archive-se.</span></p>\n\n</div>\n\n</body>\n</html>\n```",
+              "refusal": null,
+              "reasoning": "I need to recreate a page from a 1930s Brazilian official gazette, with the classic three-column layout, header showing page number, title, and date. I'll transcribe the period text and structure it using HTML with CSS columns to match that old newspaper style.\n\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "I need to recreate a page from a 1930s Brazilian official gazette, with the classic three-column layout, header showing page number, title, and date. I'll transcribe the period text and structure it using HTML with CSS columns to match that old newspaper style.\n\n",
+                  "format": "anthropic-claude-v1",
+                  "index": 0,
+                  "signature": "CAIS+wMKrgEIERgCKkCVW/BoNcXKDMMZHllVGSCmFzYpq3aZaF7bRf/MuwhzIzNf5fuSkw/y50apgpFmQnKed1jD4KG8y18a1PCynpr1Mg1jbGF1ZGUtb3B1cy01OAFCCHRoaW5raW5nWiQwZDk4M2YzZi00OWZhLTRhNDYtODI1NC1iMWJiMjQ5MWEyYTl6HnVwcm9mXzAxMUNlcHpua2tWbVNIcDRQWXl3NFpCVagBncD91AYSDFHbWoCsAzChvZqnVxoMEb2bsrxJFtN4wh3fIjBLh+ajeZ6gV84nqeAQsS+CZPEy9xRKkjUEFTgNGnK1Fd0RlKt22njdMUexR8ZvB+cq+QEoL/RAS0APU9X82hEu/BnMxjcX5AiuU5+e0ulm7nRBNDHj49Xz0O+CyD6uDjufYKYb2Qsq3aDSAA3l+axyIwrkCo1S6EViLuX20X6ARRBv9u28++0zZ5YK/j+MGypXFIN/3buElGFr4Y7JC+T7nGDnPYOq31mjrySYUkwuGrTUKWjMSVR7AAmO3v86hZz3oRJBboGXIytpfaBb6RJ82UsHrpkN6N+T9OcDMUGP+A9hbjv0Mf+lvCLMY+Th/qGXSy3JZQ5pZMAnb+NylCKbCjy8t7NrpX28N4ysaw1lnJYVvXQN7rJ5Gsb7epDGTC/ZOy6cWnTTg2bcfjYYAQ=="
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 4820,
+          "completion_tokens": 6013,
+          "total_tokens": 10833,
+          "cost": 0.174425,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.174425,
+            "upstream_inference_prompt_cost": 0.0241,
+            "upstream_inference_completions_cost": 0.150325
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 80,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

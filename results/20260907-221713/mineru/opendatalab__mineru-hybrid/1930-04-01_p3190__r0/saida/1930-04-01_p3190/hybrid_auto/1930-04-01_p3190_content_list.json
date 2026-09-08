@@ -1,0 +1,926 @@
+[
+    {
+        "type": "text",
+        "text": "Expediente do dia 29 de Março de 1930",
+        "text_level": 2,
+        "bbox": [
+            88,
+            55,
+            321,
+            81
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Solicitaram-se da Secretaria da Fazenda os seguintes pagamentos",
+        "text_level": 2,
+        "bbox": [
+            74,
+            87,
+            337,
+            115
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "270\\$000, a John Roger, av. 890.",
+        "bbox": [
+            85,
+            123,
+            316,
+            136
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1:275\\$000, a Zerronner, Bulow & Comp Ltd., av. 891.",
+        "bbox": [
+            74,
+            136,
+            337,
+            158
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "438\\$900, acs mesmos, av. 892.",
+        "bbox": [
+            88,
+            156,
+            295,
+            168
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "579\\$600, a Abel G:mes, av. 893.",
+        "bbox": [
+            88,
+            168,
+            321,
+            180
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "101\\$000, a Claudio Ribeiro da Silva av. 894.",
+        "bbox": [
+            75,
+            180,
+            337,
+            202
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "499\\$500, à Casa Vanorden, av. 895.\n458\\$500, à A. J. de Souza Alves Brandão, av. 896.",
+        "bbox": [
+            74,
+            202,
+            337,
+            236
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "17\\$500, á Light and Power, av. 897.",
+        "bbox": [
+            88,
+            235,
+            337,
+            248
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1:573\\$000, a diversos fornecedores da Inspectoria de Prophylaxia da Lepra, av. 898.",
+        "bbox": [
+            74,
+            246,
+            337,
+            280
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "30\\$000, a Carlos Ferreira de Almeida, av. 899.",
+        "bbox": [
+            74,
+            279,
+            337,
+            301
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "915\\$000, ao pessoal da Inspectoria de Hygiene dos Municipios, av. 900.\nSolicitou-se da Secretaria da Justiça o seguinte pagamento",
+        "bbox": [
+            74,
+            301,
+            337,
+            336
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            93,
+            335,
+            285,
+            348
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "6:631\\$560, ao «Diário Official», av. 144.",
+        "bbox": [
+            74,
+            345,
+            337,
+            369
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2.\\* DIRECTORIA",
+        "text_level": 2,
+        "bbox": [
+            126,
+            375,
+            290,
+            390
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1.ª SECCÃO",
+        "text_level": 2,
+        "bbox": [
+            161,
+            398,
+            252,
+            414
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Foram nomeados para substituir adjuntos de Grupos Escolares",
+        "text_level": 2,
+        "bbox": [
+            75,
+            422,
+            337,
+            448
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Alice Cesar Rosa, substituido: João Doretto, do de Santa Rosalia, em Sorocaba.",
+        "bbox": [
+            74,
+            456,
+            337,
+            490
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Nair de Oliveira, substituida : d. Brasília Gonçalves Pereira, do de Sa-coman, na Capital.",
+        "bbox": [
+            74,
+            490,
+            337,
+            523
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Zilda Moraes Carvalho, substituída: d. Olga Dagmar de Araujo Quirino dos Santos, do «Antonio J. do Carvalho», em Araraquara.",
+        "bbox": [
+            74,
+            523,
+            337,
+            567
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Addy Silveira, subtituida, d. Lydia Motta Minelli, de Santo Amaro e",
+        "bbox": [
+            72,
+            567,
+            337,
+            590
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Lucilla Martins de Camargo, substituida, d. Oscarliua do Alvarenga Mazzola, do «Conde do Parnahyba»' em Jundiahy.",
+        "bbox": [
+            72,
+            589,
+            337,
+            634
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Foi removida, a pedido, d. Catharina Lefcadito, substituta efectiva do Grupo Escolar «Coronel Tobias», em Descalvado, para igual cargo no jGrupo. Escolar «Rodrigues Alves», na Capital.",
+        "bbox": [
+            74,
+            632,
+            337,
+            688
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Licenças concedidas a adjuntos de\nGrupos Escolares",
+        "bbox": [
+            88,
+            688,
+            321,
+            711
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Oito dias, ao sr. João Quedinho Wolff, do de Ribeirão Pires, em S. Bernardo.",
+        "bbox": [
+            74,
+            710,
+            336,
+            732
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Vinte dias, a d. Aida Maragliano, do 2 o de Ribeirão Preto.",
+        "bbox": [
+            74,
+            732,
+            336,
+            755
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Um mez, a d.d. Laura de Camargo, do do Belemziuho; Maria da Gloria G. da Costa e Silva, do «Pedro II»; Clara de Rezende Puech, do do Arouche, todos na Capital; Adelina Ferraz de Arrada, do «Antonio J. de Carvalho», em Araraquara, Lydia Motta Minelli, do de Santo Amaro; Oscarlina de Alvarenga, Mazzol, do «Conde de Parnahyba», em Jundiahy e Elisa Agueda dos Santos, do 3.o de Campinas.",
+        "bbox": [
+            72,
+            753,
+            337,
+            877
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dois meze, a d.d. Helena Caiuby\nCresenti, do «Marcello Schmidt», em\nRio Claro e Oscarlina Leme Franco, do\n«Flaminio Ferreira», em Limeira.",
+        "bbox": [
+            71,
+            876,
+            336,
+            921
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Tres mezes, a d.d. Umbelina Freire da Silveira, do 3-o do Braz e Judith Martina, do «Oswaldo Cruz», todos na Capital.",
+        "bbox": [
+            69,
+            920,
+            337,
+            966
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Um anno, a d. Maria Candida Ferreira Martins, do 6 o de Campinas.",
+        "bbox": [
+            352,
+            55,
+            617,
+            83
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2. SECOÃO",
+        "text_level": 2,
+        "bbox": [
+            439,
+            90,
+            529,
+            106
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Foram nomeadas as seguintes profes-\nsoras para o cargo de substitutas effec-\ntivas do Grupos Escolares :",
+        "bbox": [
+            350,
+            111,
+            615,
+            150
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Carolina Dias de Aguiar, para o de Pennapolis.",
+        "bbox": [
+            353,
+            156,
+            617,
+            180
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Georgina Seabra, para o «João Floreucio», de Tatuhy.",
+        "bbox": [
+            352,
+            180,
+            615,
+            204
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Maria Julia Roxo, para o de Avahy.\nD. Celia Teixeira, para o «João Florencio», de Tatuhy.",
+        "bbox": [
+            350,
+            203,
+            615,
+            236
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "O sr. Henrique Unger, adjuncto do Grupo Escolar de Lins, para substituir o sr. Ernesto de Lima, director do mesmo estabelecimento, durante o seu impedimento.",
+        "bbox": [
+            350,
+            236,
+            615,
+            292
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Maria Galaute, adjuncta de 2.0 Grupo Escolar de Rio Preto, para substituir o sr. Alberto Silverio Gomes dos Reis, director em commissão, do mesmo estabelecimento, durante o seu impedimento por licença.",
+        "bbox": [
+            350,
+            291,
+            617,
+            361
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "As seguintes sras, para substituir adjunctas de Grupos Escolares",
+        "text_level": 2,
+        "bbox": [
+            353,
+            369,
+            615,
+            394
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Alda do Amaral Silva Martius, substituído: sr. Henrique Unger, do de Lins.",
+        "bbox": [
+            350,
+            401,
+            615,
+            437
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Joanna Possognoli, substituido: sr. Benedicto de Campos, do de Soc- corro.",
+        "bbox": [
+            350,
+            436,
+            615,
+            470
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Elvira Mani, substituído: sr. Manocl Faro, do de Penuapolis, durante o impedimento por licença do sr. Aureo Mendes Corrêa, que o vem substituído.",
+        "bbox": [
+            352,
+            469,
+            615,
+            514
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "D. Nair de Campos, substituida: d. Amelia Paes de Almeida, do de Cerquillo, em Tiete.",
+        "bbox": [
+            353,
+            513,
+            613,
+            547
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D Leonides Carvalho Almeida, substituida: d. Clementina Rocha Catalano, do de Bebedouro.",
+        "bbox": [
+            352,
+            547,
+            615,
+            579
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Maria Antonietta de Menezes, substituida: d. Leonor Gonçalves da Silva, do de Bebedouro.",
+        "bbox": [
+            350,
+            579,
+            613,
+            613
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "D Maria Sandoval, substituida: d. Josephina Silva, do de Ituverava",
+        "bbox": [
+            350,
+            613,
+            612,
+            636
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Agar de Sí, substituida: d. Lola Pinto Tavares, do de Barretos.",
+        "bbox": [
+            350,
+            635,
+            613,
+            658
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Iracema de Toledo, substituída: d. Francisca da Silva, do de Socorro.",
+        "bbox": [
+            350,
+            656,
+            613,
+            680
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Dib Asmar. Ventura, substituida:\nd. Ottilia Pereira, do de Pirajú.",
+        "bbox": [
+            350,
+            679,
+            613,
+            702
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Celia Teixeira, substituída: d Palmyra Castanho Flores, do «João Florencio», de Tatuhy.",
+        "bbox": [
+            350,
+            700,
+            613,
+            735
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Maria da Gloria Prado Altro, substituida: d. Luiza Nery da Sonza, do de Capivary.",
+        "bbox": [
+            350,
+            734,
+            613,
+            768
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Foi devidamente apostillado o decreto de 27 do corrente que revalidou a remoção da professora d. Adelaide Paes Landahl para o cargo de adjuncta do Grupo Escolar de Ituverava.",
+        "bbox": [
+            350,
+            767,
+            613,
+            824
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Foram concedidas as seguintes licenças a adjunctos de Grupos Escolares",
+        "text_level": 2,
+        "bbox": [
+            371,
+            833,
+            600,
+            868
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2 mezes, a d. Maria Eugedia Homem, do «Cel. Vaza», de Jaboticabal.",
+        "bbox": [
+            348,
+            877,
+            613,
+            900
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Herminia Villas Boas, do de Villa dos Lavradores, em Botucatú, em commissão do «Dr. Cardoso de Almeida», da mesma cidade; d. Clementina Rocha Catalano, do de Bebedouro; d. Leoaor Gonçalves da Silva, do de Bebedouro;",
+        "bbox": [
+            348,
+            898,
+            615,
+            966
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "d. Amelia Paes de Almeida, do de Cer- quilho, em Tietê; d. Josephina Silva, do de Ituverava; d. Francisca da Silva, do de Socorro; d. Lola Pinto Tavares, do de Barretos; d. Isabel de Paula e Silva, do de Queluz",
+        "bbox": [
+            631,
+            57,
+            903,
+            127
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "45 dias, a d. Maria Ferrara, do «Dr. Jorge Tibiriçá», de Bragança.",
+        "bbox": [
+            630,
+            126,
+            896,
+            150
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1 inez, em prorogação, a d. Maria Lourdes Nogueira, do 1.º de Rio Preto, e d. Alicé de Carvalho, do de São Manoel.",
+        "bbox": [
+            630,
+            148,
+            894,
+            192
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "20 dias, a d Hilda Pessos, do de Villa dos Lavradores, em Botucatú.",
+        "bbox": [
+            628,
+            192,
+            894,
+            216
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "15 dias, em prorogição, a d. Maria Stael da Rocha Silveira, do de Ribeirão Bonito.",
+        "bbox": [
+            628,
+            216,
+            894,
+            250
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Foram dadas providencias junto à Secretaria da Fazenda sobre o assumpto constante do officio sob n. 4°, da inspectoria do 58.º distrito escolar.",
+        "bbox": [
+            630,
+            248,
+            896,
+            295
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Requerimentos despachados",
+        "text_level": 2,
+        "bbox": [
+            675,
+            303,
+            854,
+            317
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "D. Maria Julia Roxo. — Providencie-se. (Prov.)",
+        "bbox": [
+            630,
+            325,
+            894,
+            349
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dario Monteiro de Brito, d. Manoola Pousa Fernandes e d. Noemia Fernandes. -- De acordo com a Seção. Providencie-se. (Prov.)",
+        "bbox": [
+            630,
+            348,
+            894,
+            394
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "B.a SECOÃO",
+        "text_level": 2,
+        "bbox": [
+            718,
+            413,
+            807,
+            428
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Foram concedidas licenças aos seguintes professores",
+        "text_level": 2,
+        "bbox": [
+            630,
+            436,
+            893,
+            461
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "3 mezes, a d. Dallila Antunes Filgueiras, da escola mixta, rural, de São Roque, em Areias.",
+        "bbox": [
+            628,
+            470,
+            893,
+            503
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "2 mezes, a d. Carmen Carofalo, da 3.a escola mixta urbana, do bairro da República, em Ribeirão Preto.",
+        "bbox": [
+            628,
+            503,
+            893,
+            537
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "2 mezes, a d. Dulce Bohrer, da escola feminina, urbana, de Villa Novaes, em Jaboticabal.",
+        "bbox": [
+            628,
+            537,
+            893,
+            570
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "2 mezes a d. Leopoldina Ponce, das escolas reunidas de Igarassú, em São Manoel.",
+        "bbox": [
+            628,
+            570,
+            893,
+            603
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "2 vezes, a d. Luiza Dias de Carvalho, das escolas rounidas de Boituva, em Porto Feliz.",
+        "bbox": [
+            628,
+            603,
+            893,
+            636
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "2 mezes, a d. Maria Corrêa Dias, das escolas reunidas de Campo Largo, de Sorocaba.",
+        "bbox": [
+            628,
+            636,
+            893,
+            670
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "2 mezes, a d. Miquelina Laudisio, da escola mixta, rural, de Ribeirão Grande, em Lins.",
+        "bbox": [
+            628,
+            668,
+            893,
+            702
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "2 mezes, a d. Mafalda Barone, da escola mixta, rural, do Bairro da Ponte, em Itatiba.",
+        "bbox": [
+            628,
+            702,
+            891,
+            735
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "2 mezes, a d. Maria Julieta Sydow, das escolas reuuidas de Bury.",
+        "bbox": [
+            628,
+            735,
+            890,
+            757
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "2 mezes, a d. Salvina Teixeira de Mendouça da 3.a escola mixta, de Presidente Wenceslau.",
+        "bbox": [
+            628,
+            757,
+            891,
+            791
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "45 dias ao sr. Aquilino Pacheco Filho, da 3.a escola das reunidas nocturuas que funcionam no Grupo Escolar «Moraes Barros», em Piracicaba.",
+        "bbox": [
+            626,
+            789,
+            896,
+            835
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "1 mez ao sr. Aureo Mendes Corrêa, da escola masculina, rural, de Lagendo, em Pennapolis.",
+        "bbox": [
+            625,
+            835,
+            891,
+            869
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "1 mez, a d. Candida Amaral Campos, da escola mixta, rural, de Morumby, em Santo Amaro.",
+        "bbox": [
+            626,
+            868,
+            891,
+            901
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "1 mez, a d. Tareilia Ladeira de Oliveira, da 4.ª escola mixta, das reuni-das de Jaguary, em Mogy-Mirim.",
+        "bbox": [
+            626,
+            901,
+            893,
+            934
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "ref_text",
+        "text": "15 dias, ao sr. Jónquim Monteiro da Silva, da escola masculina, das reuni-das de Areias.",
+        "bbox": [
+            626,
+            934,
+            894,
+            969
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "3190 Terça-feira. 1",
+        "bbox": [
+            113,
+            34,
+            253,
+            49
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "DIARIO OFFICIAL",
+        "bbox": [
+            402,
+            34,
+            544,
+            49
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Abril 1930",
+        "bbox": [
+            765,
+            35,
+            849,
+            50
+        ],
+        "page_idx": 0
+    }
+]

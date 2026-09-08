@@ -1,0 +1,819 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "DIARIO OFFICIAL"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                10,
+                52,
+                958,
+                112
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "DO ESTADO DE SÃO PAULO"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                196,
+                117,
+                792,
+                140
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ANNO 1-3° DA REPUBLICA-N. 71"
+                    }
+                ]
+            },
+            "bbox": [
+                21,
+                150,
+                333,
+                164
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "SÃO PAULO"
+                    }
+                ]
+            },
+            "bbox": [
+                419,
+                147,
+                530,
+                161
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "SABBADO 1 DE AGOSTO DE 189"
+                    }
+                ]
+            },
+            "bbox": [
+                662,
+                147,
+                944,
+                161
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "SENADO"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                69,
+                186,
+                262,
+                206
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sessão em 31 de Julho de 1891."
+                    }
+                ]
+            },
+            "bbox": [
+                50,
+                211,
+                285,
+                225
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "PRESIDENCIA DO SR. J. MONTEIRO"
+                    }
+                ]
+            },
+            "bbox": [
+                64,
+                232,
+                273,
+                242
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "A's 12 e 20 da tarde, o sr. 1º secretario procede a chamada, respondendo a ella os srs. J. Monteiro, Frederico Abranches, Paula Marhado, Rodrigo Lobato, Mello Freire, Souza Campos, Lycurgo dos Santos e Martin Francisco."
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                245,
+                328,
+                302
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Foi concedida a palavra ao sr. Martim Francisco.\nO sr. Martim Francisco (movimento de atenção)—Não havendo ainda regimento votado, e estando esta corporação em sessões preparatorias, creio, sr. presidente, usar de um direito apresentando uma indicação cujo destino dependerá da vontâde de v. exc."
+                    }
+                ]
+            },
+            "bbox": [
+                10,
+                302,
+                330,
+                384
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Faço-o impellido por motivos importantes o que affectam a autonomia, os interesses e os brios do povo paulista."
+                    }
+                ]
+            },
+            "bbox": [
+                14,
+                384,
+                332,
+                419
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sabe v. exc., sabe a opinião publica, representada aqui legitimamente, que o governo central deliberou, ha quarenta e oito horas, mais uma vez desrespeitar a zona paulista e desfeitear o povo que nos elegu. Com surpreza para nós senadores e para o povo, cujo desgosto mal poderá ser contido, o governo geral quiz esquecer que o artigo 13 da Constituição Federal aconselhava o adiamento de qualquer solução ao maguo problema de viação ferrea no Estado de S. Paulo e concedeu privilegio a dous desconhecidos para uma estrada que ligará ponto da estrada Bragantina ao porto de Santos."
+                    }
+                ]
+            },
+            "bbox": [
+                16,
+                419,
+                335,
+                557
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Nossa competência, nossos interessos, nossos direitos, nosso futuro até, licam assim atirados à margem, nullificados, em proveito de entidades em cujas veias, felizmente, não corre uma gotta do generoso e altivo sangue paulista. (muito bem!)"
+                    }
+                ]
+            },
+            "bbox": [
+                17,
+                557,
+                335,
+                617
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Não cabe nos limites de um simples, embora energico protesto, a discussão ampla do assumpto. Cabe-nos, porém, desde já, a obrigação de fazer sentir ao centro que a paciência tem limites e que nós não tememos as consequências naturaes de provocações inmerecidas. Os direitos dos nossos committentes não hão de ser objecto de privilegios arranjados clandestinamente pelo empenho lucrativo e pela cuhiça descarada (apoiados)."
+                    }
+                ]
+            },
+            "bbox": [
+                17,
+                617,
+                337,
+                721
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Contra a illegal, illogica e mesquinha aggressão do Governo Central, aggressão que será de amanha em diante discutida em todos os terrenos, formúlo desde agora o meu profesto, apresentando à consciência e ao voto do Senado a presente:"
+                    }
+                ]
+            },
+            "bbox": [
+                19,
+                721,
+                337,
+                779
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "INDICAÇÃO"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                148,
+                782,
+                210,
+                792
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Indico que o senado represente ao governo federal no sentido de ser suspensa a execução de todas as concessões de linhas ferreas no Estado de São Paulo até que o poder competente vote a lei a que se refere o art. 13 da Constituição Federal.»"
+                    }
+                ]
+            },
+            "bbox": [
+                23,
+                794,
+                337,
+                850
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sinto, ar. presidente, nada mais poder fazer neste momento contra o despolismo da centralização. Sinto... Mas ao menos protestemos em phrases expressivas e claras. Perdemos a possa autonomia, salvermos o nosso pudor!"
+                    }
+                ]
+            },
+            "bbox": [
+                23,
+                850,
+                337,
+                910
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(Mnito bem, muito bem no recinto e nas galerias.)"
+                    }
+                ]
+            },
+            "bbox": [
+                37,
+                910,
+                337,
+                921
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "O nr. Presidente—Explica não poder aceitar já a indicação por não haver número para deliberar, máximo tratando-se de assumpto tão impor-tais. Protesta lambem em seu nome contra o procedimento do governo e declara estar convencido que o senado e o digno presidente do Estado defenderão com energia e unanimidade a autonomia de S. Paulo."
+                    }
+                ]
+            },
+            "bbox": [
+                23,
+                921,
+                337,
+                970
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                328,
+                182,
+                644,
+                228
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(Signaes de adhesão no recinto e nas galerias).\nSuspende-se a sessão."
+                    }
+                ]
+            },
+            "bbox": [
+                342,
+                230,
+                630,
+                253
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "ACTOS OFFICIAES"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                389,
+                280,
+                587,
+                308
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Expediente da Presidencia do\nEstado de S. Paulo"
+                    }
+                ]
+            },
+            "bbox": [
+                351,
+                322,
+                625,
+                343
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Dia 30 de Julho"
+                    }
+                ]
+            },
+            "bbox": [
+                419,
+                348,
+                558,
+                362
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2ª SECÇÃO"
+                    }
+                ]
+            },
+            "bbox": [
+                435,
+                366,
+                542,
+                384
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Foram exonerados, por mudança de domicilio, os cidadãos José Pereira de Mello e Domingos Ferreira da Fonseca do cargo de membros do conselho de intendencia do Rio Bonito, sendo nomeados para substituíl-os os cidadãos Jonas Pereira de Mello e Benedicto Honorio de Oliveira."
+                    }
+                ]
+            },
+            "bbox": [
+                335,
+                391,
+                651,
+                496
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Remetteu-se à intendencia da Fartura o parecer da commissão de camaras municipaes da camara dos deputados do Estado acerca de um pedido de rectificação de divisas entre o mesmo município e o de Pirajú, feito pela intendencia deste."
+                    }
+                ]
+            },
+            "bbox": [
+                335,
+                496,
+                653,
+                587
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "OFFICIOS DESPACHADOS"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                410,
+                599,
+                580,
+                610
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Da intendencia de Tatuhy, solicitando pagamento de rs. 9:2353260, despendidos com o lazareto de variolosos da «Agua Branca».—A' Thesouraria de Fazenda, para informar sobre a legalidade das contas apresentadas."
+                    }
+                ]
+            },
+            "bbox": [
+                339,
+                617,
+                655,
+                695
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Da intendencia de S. Miguel Archanjo, remettendo cópia de uma resolução adoptada em sessão de 16 de Julho corrente.—Ao dr. procurador fiscal do Thesouro do Estado, para dar parecer."
+                    }
+                ]
+            },
+            "bbox": [
+                339,
+                695,
+                657,
+                762
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "4ª SECÇÃO"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                439,
+                779,
+                555,
+                796
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Foi nomeado o cidadão José Idalino Antunes da Porciuncula, para exercer o cargo de juiz commissario ad hoc de medição das terras de que trata o contracto feito pelo Governo Federal com a Companhia Rural do Brazil, para fundação de nucleos agrícolas neste Estado.—Deu-se conhecimento à delegacia de terras e colonisação."
+                    }
+                ]
+            },
+            "bbox": [
+                341,
+                799,
+                658,
+                917
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Mandou-se dar as seguintes passagens :"
+                    }
+                ]
+            },
+            "bbox": [
+                342,
+                917,
+                657,
+                942
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "De 2ª classe desta capital a Mogy das Cruzes, por conta do Estado, na estrada de ferro S. Paulo e Rio de Janeiro,\na Donato Pires, restabelecido no hos-\npicio de alienados ;"
+                    }
+                ]
+            },
+            "bbox": [
+                342,
+                942,
+                657,
+                970
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                646,
+                182,
+                964,
+                224
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "De 1ª classe, nas estradas S. Paulo e Rio de Janeiro, Santos a Jundiahy, Paulista, Sorocabana, Ytuana, Bragantina, Rio Claro e Mogyana, por conta do ministerio da Agricultura, ao fiscal do 3º distrito de engenhos centraes, Gervasio Pires Ferreira ou seu substituto, sempre que o mesmo requisitar;"
+                    }
+                ]
+            },
+            "bbox": [
+                646,
+                224,
+                966,
+                340
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Por conta do Governo Federal, nas mesmas estradas, á administração do correio, quando por esta requisitadas, em serviço postal ou em caso de remoção de seus empregados.—Deu-se conhecimento ao dr. administrador do correio."
+                    }
+                ]
+            },
+            "bbox": [
+                650,
+                340,
+                969,
+                430
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "O FICIOS DESPACHADOS"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                717,
+                437,
+                903,
+                450
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Da Companhia Mogyana informando o ofício do Governo de Minas Geraes, relativo a cobrança de direitos de exportação daquelle Estado pelas estações daquella linha.—Ao Thesouro do Estado para informar."
+                    }
+                ]
+            },
+            "bbox": [
+                651,
+                456,
+                971,
+                535
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Da intendencia de Batataes, comunicando ter concedido privilegio a Eduardo Garcia de Oliveira para uma linha de tramways a vapor entre a estação da linha. Mogyana, naquella cidade e a freguezia de Matto Grosso de Batataes.—A'directoria da Companhia Mogyana para informar."
+                    }
+                ]
+            },
+            "bbox": [
+                651,
+                534,
+                971,
+                638
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "REQUERIMENTOS DESPACHADOS"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                694,
+                645,
+                937,
+                658
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Da Companhia Mogyana, reclamando contra concessões de tramways feitas por diversas intendencias, sem atenção aos contractos celebrados entre o Governo e a supplicante.—A' superintendencia de obras públicas para informar."
+                    }
+                ]
+            },
+            "bbox": [
+                657,
+                659,
+                976,
+                750
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Da mesma, pedindo celebração de contracto para prolongar sua linha ferrea de S. Bom Jesus do Monte Alegre à cidade de Socorro.—Idem."
+                    }
+                ]
+            },
+            "bbox": [
+                657,
+                750,
+                976,
+                801
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "De José Cardoso de Siqueira e outro pedindo concessão da navegação do rio Parahyba desde a freguezia da Escada até Guararema e Santa Branca.—Remetta-se ao Congresso do Estado."
+                    }
+                ]
+            },
+            "bbox": [
+                658,
+                801,
+                978,
+                864
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "De José Marques Nunes e outro, pepindo para estabelecer uma vasta rede telephonica no Estado.—Idem."
+                    }
+                ]
+            },
+            "bbox": [
+                658,
+                864,
+                978,
+                903
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "De Manoel Guilherme de Arruda e Eduardo Mesquita, porteiro e continuo da superintendencia de obras públicas, pedindo melhoria de seus vencimentos.—Idem."
+                    }
+                ]
+            },
+            "bbox": [
+                658,
+                903,
+                978,
+                969
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "ESTADOS UNIDOS DO BRAZIL"
+                    }
+                ]
+            },
+            "bbox": [
+                135,
+                27,
+                825,
+                48
+            ]
+        }
+    ]
+]

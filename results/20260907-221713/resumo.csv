@@ -1,0 +1,5 @@
+﻿empresa,tipo,model_id,model_label,prompt_id,n_chamadas,n_sucesso,taxa_sucesso,n_truncadas,taxa_truncamento,n_validas,html_sem_texto_extra_taxa,wer_media,cer_media,num_f1_media,cost_usd_media,completion_tokens_media,prompt_tokens_media,latency_s_media
+OpenDataLab,aberto,opendatalab/mineru-hybrid,MinerU hybrid (medium),p0,17,16,0.9411764705882353,0,0.0,16,,0.20095550874003992,0.10526176602049402,0.7580597092573631,0.0,,,293.3452943625016
+OpenDataLab,aberto,opendatalab/mineru-hybrid-high,MinerU hybrid (high),p0,16,16,1.0,0,0.0,16,,0.17120209351731122,0.09626089225806501,0.7686367856542974,0.0,,,328.1507256312325
+OpenDataLab,aberto,opendatalab/mineru-pipeline,MinerU pipeline,p0,16,16,1.0,0,0.0,16,,0.3385791582629837,0.15601551784615383,0.6656662082943678,0.0,,,71.28836978748586
+OpenDataLab,aberto,opendatalab/mineru-vlm,MinerU vlm-engine,p0,16,16,1.0,0,0.0,16,,0.17120209351731122,0.09626089225806501,0.7686367856542974,0.0,,,338.98277299374604

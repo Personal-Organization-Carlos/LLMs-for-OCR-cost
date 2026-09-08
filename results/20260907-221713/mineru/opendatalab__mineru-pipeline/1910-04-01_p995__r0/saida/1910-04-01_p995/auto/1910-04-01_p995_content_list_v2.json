@@ -1,0 +1,521 @@
+[
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "O sr. Gabriel Gomideao sr. Scuzs: e Catro. as ciyeis 5605 do Sautoe, 5609 do Piracicaba e 5773da Cspital."
+                    }
+                ]
+            },
+            "bbox": [
+                31,
+                75,
+                331,
+                113
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "O ar. Firmino Whitscker ao sr. Gabriel Gcmide, as civeis 5184 de Piracicaba, 5648 do Rio Claro, 5441 de Santa Izabel, 5003 de Jaboticabal, 5352 deAgudos, 6023 do Campicas, 5180 e:5568 də Santos. 5729, 5862, 5687, 5539, €415e5787 da Capital."
+                    }
+                ]
+            },
+            "bbox": [
+                33,
+                111,
+                331,
+                184
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "--O ar, procurader geral do Estado deu parecer nas app llações civeis ns. 5564, de Espirito Santo do Finhal e 5870 de São Carlos a ncs. embergos 2270 da Capital, 5801 de Ibitingu, 5502 e.5735 de Jaboticsbal."
+                    }
+                ]
+            },
+            "bbox": [
+                34,
+                186,
+                333,
+                260
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "JULIAMENTOS"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                138,
+                267,
+                232,
+                282
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Embargos"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                151,
+                290,
+                221,
+                304
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "N. 5597-Ca;ita!-Embargante, A. Wainbarg; ru.b.gadia, A Companhis Francez das Indiai e do Estremo Oriente e G. Latnsille & Corp ; relator, o rr. Meireles Reis."
+                    }
+                ]
+            },
+            "bbox": [
+                37,
+                311,
+                336,
+                372
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Julgaram subsistente a desistencia dos ombargos."
+                    }
+                ]
+            },
+            "bbox": [
+                39,
+                369,
+                336,
+                398
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Appellaçõesciveis"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                422,
+                73,
+                552,
+                91
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "N. 5561Piracicaba—4ppn'lants, Thomiz Alonzo Knese; appellada, d. Laurinda Alves do Olive.ra; relator,o ar.Francisco Saldenha."
+                    }
+                ]
+            },
+            "bbox": [
+                336,
+                96,
+                636,
+                145
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Converteram o julgamesto em diliganeia. N. 6057-Capital-Apellante, o juizdu de direito ; appellados, Thzodoro Babraner e sua mulher; rolatcr, o sr. Ferreira Franç4."
+                    }
+                ]
+            },
+            "bbox": [
+                336,
+                144,
+                638,
+                203
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Negaram provimento."
+                    }
+                ]
+            },
+            "bbox": [
+                354,
+                201,
+                509,
+                214
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "N.6914-Capital—Appellante,Thomé Gomes Ferrrira; appsilado, Franciseo de Souza Franco; relator, o sr, Juvenal Malheircs."
+                    }
+                ]
+            },
+            "bbox": [
+                338,
+                211,
+                638,
+                260
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Negaram provimento."
+                    }
+                ]
+            },
+            "bbox": [
+                358,
+                259,
+                509,
+                271
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "N. 605-Capitai-Appellaute, o juiz de de dirsito; appeilades, Laura Hind e outres ; reiator, o st. Juveual Malhoireg,"
+                    }
+                ]
+            },
+            "bbox": [
+                341,
+                270,
+                638,
+                306
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Negaram provimento."
+                    }
+                ]
+            },
+            "bbox": [
+                358,
+                305,
+                513,
+                319
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "ACTOS FEDERAES"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                676,
+                73,
+                915,
+                102
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "DECRETON.7917D 21 D MARÇO DE 1910"
+                    }
+                ]
+            },
+            "bbox": [
+                660,
+                118,
+                929,
+                150
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Creia o Registro e Archico Geral de Mareas para animaes:"
+                    }
+                ]
+            },
+            "bbox": [
+                645,
+                155,
+                943,
+                185
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "O Presidente da Republica dos Estados Unidos do Brazil, em execução da lei nurero 1606, da 29 de Dezembro de- t906, decrets :"
+                    }
+                ]
+            },
+            "bbox": [
+                646,
+                189,
+                943,
+                237
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Artigo 1.° E' creado o Registro o Archivo Garal de Marcas para animaea de raça boviua, cavallar e muar, do aecôrdo com o regulameato que com este baixa, assignado pelo ministro do Eitado dos No. gocios da Agriclltura, Industria e Coamer.io,"
+                    }
+                ]
+            },
+            "bbox": [
+                646,
+                236,
+                947,
+                317
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ártigo 2.° Revogam-se. a3 disposiçõse em contrario."
+                    }
+                ]
+            },
+            "bbox": [
+                648,
+                316,
+                947,
+                341
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Rio de Janeiro, 24 do Março de 1510, S9.° da Independenciae 22.°d&Repablicz."
+                    }
+                ]
+            },
+            "bbox": [
+                648,
+                338,
+                950,
+                365
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "NILO PÇaNIA Rodolpho Noguetra da. Rocha Mirauda."
+                    }
+                ]
+            },
+            "bbox": [
+                671,
+                368,
+                947,
+                396
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Directoria de Agricultura-OTEM POEALVOURASecção Meteorologica"
+                    }
+                ]
+            },
+            "bbox": [
+                97,
+                412,
+                887,
+                432
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "OBSERVAÇÕES BECEBIDAS PELG TEI EGRAPEO. NO DIA 3I DE MARÇO DE 1910"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                178,
+                437,
+                836,
+                454
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/9dd417de5e2ed57ad1276cbdc2c6e4db81f44442c874fdbda7ff6fd82791b81c.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td rowspan=\"3\" colspan=\"2\">Observatorios</td><td colspan=\"3\">Obsarvucósda vespart</td><td colspan=\"10\">Ghservasão do sie, teaada e Gh. Ga, Gw.</td></tr><tr><td colspan=\"2\">Temperatars</td><td rowspan=\"2\">ake 10x2</td><td rowspan=\"2\">Preesio</td><td colspan=\"3\">Thermometro</td><td colspan=\"3\">Hauiãz Vento</td><td rowspan=\"2\">setaea ds Déu</td><td rowspan=\"2\">OBSERYAÇÕES</td></tr><tr><td>Nin.</td><td></td><td>goraada 2az20</td><td>ε2π4</td><td>2a ratslira</td><td>atss</td><td>Velct</td></tr><tr><td></td><td></td><td>26,6</td><td>Bom</td><td></td><td>761.2</td><td>24.0</td><td>225</td><td>171</td><td>F</td><td></td><td>Claão</td><td>Orvalho</td><td></td></tr><tr><td>Sautos Iguapa</td><td></td><td>26,0</td><td>22.7 21,0</td><td>子</td><td>7610</td><td>22.0</td><td>19.0</td><td>74 D</td><td>NW</td><td>1 m 4 m.</td><td>Ene,</td><td>Bom</td><td></td></tr><tr><td>S. Paulo</td><td></td><td>28.0</td><td>185</td><td>》</td><td>761.4</td><td>22.0</td><td>19.0</td><td>74 2</td><td>NE</td><td>1 w.</td><td>Clero</td><td>Neblina</td><td></td></tr><tr><td>Campinas</td><td></td><td>28.5</td><td>17.1</td><td></td><td>7615</td><td>23 6</td><td>19.4</td><td>65</td><td>E</td><td>2 m.</td><td></td><td></td><td>Choveu. Nebliua</td></tr><tr><td>Ribeirão Preto</td><td></td><td>04</td><td>178</td><td></td><td>762,2</td><td>227</td><td>20</td><td>77 1 1</td><td>NE</td><td>2 m.</td><td>&gt;</td><td></td><td>Bom</td></tr><tr><td>São Crrios</td><td></td><td>28 0</td><td>160</td><td></td><td>7614</td><td>234</td><td>20 0</td><td>72</td><td>E</td><td>4 u.</td><td>3</td><td></td><td>Bom</td></tr><tr><td>Taubaté.</td><td></td><td>28,2</td><td>20,0</td><td></td><td>761,4</td><td>23 0</td><td>20.8</td><td>81</td><td>NE</td><td>2 m.</td><td></td><td>M. enc.</td><td></td></tr><tr><td>Piracicabs</td><td></td><td>330</td><td>180</td><td></td><td>7611</td><td>21,0</td><td>212</td><td>77</td><td>N</td><td>1 m.</td><td>2</td><td></td><td>Neblioa</td></tr><tr><td>Agudos.</td><td></td><td>S3 0</td><td>19.0</td><td>Var.</td><td>761.6</td><td>22 2</td><td>20.4</td><td>84</td><td>C</td><td></td><td>Ciaro</td><td></td><td>Choveu 5.0 mm. O.vaiho</td></tr><tr><td>Brotas</td><td></td><td>29 0</td><td>170</td><td>Bom</td><td>161.1</td><td>238</td><td>19,8</td><td>67</td><td>N</td><td>星 IE.</td><td></td><td></td><td></td></tr><tr><td>Frauea</td><td></td><td>26,6</td><td>18,2</td><td></td><td>762.2</td><td>21.4</td><td>169</td><td>62</td><td>NE</td><td>4 m.</td><td></td><td></td><td>O.valho</td></tr><tr><td>Avaré</td><td></td><td>322</td><td>19.1</td><td></td><td>761,0</td><td>26.4</td><td>23 2</td><td>75</td><td>N</td><td>1 u.</td><td></td><td></td><td>Bom</td></tr><tr><td>Tetuby</td><td></td><td>31.0</td><td>175</td><td></td><td>761.</td><td>240</td><td>218</td><td>82</td><td>C</td><td></td><td></td><td></td><td></td></tr><tr><td>Ytú.</td><td></td><td>294</td><td>202</td><td></td><td>1619</td><td>242</td><td>21 2</td><td>75</td><td>NE</td><td>4m.</td><td></td><td>M. enc.</td><td></td></tr><tr><td>Fsxina</td><td></td><td>30.7</td><td>180</td><td></td><td>7608</td><td>22,6</td><td>20.6</td><td>83</td><td>C</td><td></td><td></td><td></td><td>Orvalbo. Neblioa</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Uberaba</td><td></td><td>275</td><td>20.2</td><td></td><td>7618</td><td>24 3</td><td>21.3</td><td>75</td><td>8</td><td>9 m.</td><td>Claro</td><td></td><td></td></tr><tr><td>Paravaguá</td><td></td><td>262 23 8</td><td>20.5 210</td><td></td><td>7588 759 3</td><td>24,5 23.7</td><td>23 3 220</td><td>90</td><td>C</td><td>1-</td><td></td><td>. enc</td><td></td></tr><tr><td>Flerianopolia Rio de Janeiro</td><td></td><td>27 3</td><td>23.0</td><td></td><td>761,4</td><td>253</td><td>222</td><td>Sü 75</td><td>C NE</td><td>2m.</td><td>Claro</td><td>B</td><td>Choveu 3,2 mi.</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Monteviléu.</td><td></td><td>20,0</td><td>16,2</td><td></td><td>762,5</td><td>192</td><td>18,3</td><td>91</td><td>SE</td><td>4m.</td><td>Eoc.</td><td></td><td>Máu. Grtaer lampagos</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>i</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>22,0</td><td>150</td><td></td><td>7635</td><td>i70</td><td>160</td><td>90</td><td>S</td><td>2 m.</td><td>Eac.</td><td></td><td></td></tr><tr><td>Cordoha</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>à</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mendoza</td><td></td><td>27 0</td><td>120</td><td></td><td>767.2</td><td>14,0</td><td></td><td>9,0 47</td><td>SW:</td><td>6 m.</td></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                46,
+                454,
+                955,
+                879
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Tempo provavel paa o dia 1. de Abril: Instavel.Nebliaa.Temporatura subiudo."
+                    }
+                ]
+            },
+            "bbox": [
+                110,
+                881,
+                415,
+                909
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Sexta-feira, 1"
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                46,
+                165,
+                62
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "DIARIOOFFICIAL"
+                    }
+                ]
+            },
+            "bbox": [
+                404,
+                43,
+                569,
+                61
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Abrl 1910 995"
+                    }
+                ]
+            },
+            "bbox": [
+                787,
+                40,
+                920,
+                58
+            ]
+        }
+    ]
+]

@@ -1,0 +1,349 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>DIARIO OFFICIAL - 1 de Abril de 1910</title>
+<style>
+    body {
+        font-family: "Times New Roman", Times, serif;
+        color: #111;
+        background-color: #fbf9f4;
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 950px;
+        font-size: 13px;
+        line-height: 1.25;
+    }
+    .header-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        font-weight: bold;
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+    .header-top .title {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    hr.thick-line {
+        border: 0;
+        border-top: 2px solid #000;
+        margin: 4px 0;
+    }
+    hr.double-line {
+        border: 0;
+        border-top: 3px double #000;
+        margin: 6px 0;
+    }
+    .columns-top {
+        display: flex;
+        gap: 15px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+    .col {
+        flex: 1;
+    }
+    .col-left {
+        border-right: 1px solid #444;
+        padding-right: 15px;
+    }
+    .col-center {
+        border-right: 1px solid #444;
+        padding-right: 15px;
+    }
+    .col-right {
+        padding-left: 0px;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .bold {
+        font-weight: bold;
+    }
+    .italic {
+        font-style: italic;
+    }
+    .act-title {
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+    }
+    .act-subtitle {
+        font-size: 11px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    .p-indent {
+        text-indent: 20px;
+        margin: 6px 0;
+    }
+    p {
+        margin: 6px 0;
+    }
+    
+    /* Weather Section */
+    .weather-section {
+        margin-top: 15px;
+        border-top: 2px solid #000;
+        padding-top: 4px;
+    }
+    .weather-header {
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 0.5px;
+        margin-bottom: 4px;
+    }
+    .weather-subheader {
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 6px;
+    }
+    
+    /* Weather Table */
+    table.weather-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 11.5px;
+        text-align: center;
+        border: 1px solid #000;
+    }
+    table.weather-table th, table.weather-table td {
+        border: 1px solid #000;
+        padding: 1px 3px;
+    }
+    table.weather-table th {
+        font-weight: normal;
+        font-size: 11px;
+    }
+    table.weather-table td.city {
+        text-align: left;
+        padding-left: 5px;
+    }
+    table.weather-table td.obs {
+        text-align: left;
+        padding-left: 5px;
+    }
+    .table-section-divider {
+        border-top: 2px solid #000;
+    }
+    
+    /* Footer Meteorological */
+    .weather-footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .weather-footer-left {
+        font-weight: bold;
+    }
+    .weather-footer-right {
+        text-align: right;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header-top">
+        <div>Sexta-feira, 1</div>
+        <div class="title">DIARIO OFFICIAL</div>
+        <div>Abril 1910 995</div>
+    </div>
+    
+    <hr class="thick-line">
+
+    <!-- Top 3 Columns -->
+    <div class="columns-top">
+        <!-- Column 1 -->
+        <div class="col col-left">
+            <p>O sr. Gabriel Gomide ao sr. Souza e Castro, as civeis 5605 de Santos, 5609 de Piracicaba e 5772 da Capital.</p>
+            <p>O sr. Firmino Whitaker ao sr. Gabriel Gomide, as civeis 5184 de Piracicaba, 5648 de Rio Claro, 5441 de Santa Izabel, 5003 de Jaboticabal, 5352 de Agudos, 6023 de Campinas, 5180 e 5368 de Santos, 5729, 5852, 5687, 5539, 5415 e 5787 da Capital.</p>
+            <p>-- O sr. procurador geral do Estado deu parecer nas appellações civeis ns. 5564, de Espirito Santo do Pinhal e 5870 de São Carlos e nos embargos 2270 da Capital, 5804 de Ibitinga, 5502 e 5735 de Jaboticabal.</p>
+            
+            <div class="text-center bold" style="margin-top: 15px; font-size: 11px;">JULGAMENTOS</div>
+            <div class="text-center italic" style="margin-bottom: 10px;">Embargos</div>
+            
+            <p>N. 5597—Capital—Embargante, A. Weinberg; embargadas, A Companhia Franceza das Indias e do Extremo Oriente e G. Lansille &amp; Comp; relator, o sr. Meirelles Reis.</p>
+            <p>Julgaram subsistente a desistencia dos embargos.</p>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="col col-center">
+            <div class="text-center italic bold" style="margin-bottom: 10px;">Appellações cíveis</div>
+            
+            <p>N. 5561—Piracicaba—Appellante, Thomaz Alonso Knese; appellada, d. Laurinda Alves de Oliveira; relator, o sr. Francisco Saldanha.</p>
+            <p class="p-indent">Converteram o julgamento em diligencia.</p>
+            
+            <p>N. 6057—Capital—Appellante, o juiz de de direito; appellados, Theodoro Bubraner e sua mulher; relator, o sr. Ferreira França.</p>
+            <p class="p-indent">Negaram provimento.</p>
+            
+            <p>N. 6014—Capital—Appellante, Thomé Gomes Ferreira; appellado, Francisco de Souza Franco; relator, o sr. Juvenal Malheiros.</p>
+            <p class="p-indent">Negaram provimento.</p>
+            
+            <p>N. 6005—Capital—Appellante, o juiz de de direito; appellados, Laura Hund e outros; relator, o sr. Juvenal Malheiros.</p>
+            <p class="p-indent">Negaram provimento.</p>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="col col-right">
+            <div class="text-center act-title">ACTOS FEDERAES</div>
+            <div class="text-center act-subtitle">DECRETO N. 7917—DE 24 DE MARÇO DE 1910</div>
+            
+            <p class="italic text-center" style="margin-bottom: 10px;">Crea o Registro e Archivo Geral de Marcas para animaes</p>
+            
+            <p class="p-indent">O Presidente da Republica dos Estados Unidos do Brazil, em execução da lei numero 1606, de 29 de Dezembro de 1906, decreta:</p>
+            <p class="p-indent"><span class="italic">Artigo</span> 1.° E' creado o Registro e Archivo Geral de Marcas para animaes de raça bovina, cavallar e muar, de accordo com o regulamento que com este baixa, assignado pelo ministro de Estado dos Negocios da Agricultura, Industria e Commercio.</p>
+            <p class="p-indent"><span class="italic">Artigo</span> 2.° Revogam-se as disposições em contrario.</p>
+            <p class="p-indent">Rio de Janeiro, 24 de Março de 1910, 89.° da Independencia e 22.° da Republica.</p>
+            
+            <p class="text-center bold" style="margin-top: 10px;">NILO PEÇANHA</p>
+            <p class="text-center italic">Rodolpho Nogueira da Rocha Miranda.</p>
+        </div>
+    </div>
+
+    <!-- Weather Section -->
+    <div class="weather-section">
+        <div class="weather-header">Directoria de Agricultura — O TEMPO E A LAVOURA — Secção Meteorologica</div>
+        <div class="weather-subheader">OBSERVAÇÕES RECEBIDAS PELO TELEGRAPHO, NO DIA 31 DE MARÇO DE 1910</div>
+        
+        <table class="weather-table">
+            <thead>
+                <tr>
+                    <th rowspan="3" style="width: 14%;"><i>Observatorios</i></th>
+                    <th colspan="3">Observações da vespera</th>
+                    <th colspan="7">Observação do dia, tomada a 9h. e m. Gw.</th>
+                    <th rowspan="3" style="width: 20%;"><i>OBSERVAÇÕES</i></th>
+                </tr>
+                <tr>
+                    <th colspan="2">Temperatura</th>
+                    <th rowspan="2" style="font-size: 9px;">Tempo geral</th>
+                    <th rowspan="2" style="font-size: 9px;">Pressão normalisada</th>
+                    <th colspan="2">Thermometro</th>
+                    <th rowspan="2" style="font-size: 9px;">Humidade relativa</th>
+                    <th colspan="2">Vento</th>
+                    <th rowspan="2" style="font-size: 9px;">Estado do Céo</th>
+                </tr>
+                <tr>
+                    <th style="font-size: 9px;">Max.</th>
+                    <th style="font-size: 9px;">Min.</th>
+                    <th style="font-size: 9px;">Secco</th>
+                    <th style="font-size: 9px;">Humido</th>
+                    <th style="font-size: 9px;">Direc.</th>
+                    <th style="font-size: 9px;">Veloc</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="city">Santos . . . . .</td>
+                    <td>26,6</td><td>22,7</td><td>Bom</td><td>761,2</td><td>24,0</td><td>22,5</td><td>87 %</td><td>E</td><td>1 m</td><td>Claro</td><td class="obs">Orvalho</td>
+                </tr>
+                <tr>
+                    <td class="city">Iguape . . . . .</td>
+                    <td>26,0</td><td>21,0</td><td>»</td><td>761,0</td><td>22,0</td><td>19,0</td><td>74 »</td><td>NW</td><td>4 m.</td><td>Enc.</td><td class="obs">Bom</td>
+                </tr>
+                <tr>
+                    <td class="city">S. Paulo . . . .</td>
+                    <td>28,0</td><td>18,5</td><td>»</td><td>761,4</td><td>22,0</td><td>19,0</td><td>74 »</td><td>NE</td><td>1 m.</td><td>Claro</td><td class="obs">Neblina</td>
+                </tr>
+                <tr>
+                    <td class="city">Campinas . . . .</td>
+                    <td>28,5</td><td>17,1</td><td>»</td><td>761,5</td><td>23,6</td><td>19,4</td><td>65 »</td><td>E</td><td>2 m.</td><td>»</td><td class="obs">Choveu. Neblina</td>
+                </tr>
+                <tr>
+                    <td class="city">Ribeirão Preto .</td>
+                    <td>30,4</td><td>17,8</td><td>»</td><td>762,2</td><td>22,7</td><td>20,1</td><td>77 »</td><td>NE</td><td>2 m.</td><td>»</td><td class="obs">Bom</td>
+                </tr>
+                <tr>
+                    <td class="city">São Carlos . . .</td>
+                    <td>28,0</td><td>16,0</td><td>»</td><td>761,4</td><td>23,4</td><td>20,0</td><td>72 »</td><td>E</td><td>4 m.</td><td>»</td><td class="obs">Bom</td>
+                </tr>
+                <tr>
+                    <td class="city">Taubaté . . . . .</td>
+                    <td>28,2</td><td>20,0</td><td>»</td><td>761,4</td><td>23,0</td><td>20,8</td><td>81 »</td><td>NE</td><td>2 m.</td><td>M. enc.</td><td class="obs">»</td>
+                </tr>
+                <tr>
+                    <td class="city">Piracicaba . . .</td>
+                    <td>30,0</td><td>18,0</td><td>»</td><td>761,1</td><td>24,0</td><td>21,2</td><td>77 »</td><td>N</td><td>1 m.</td><td>»</td><td class="obs">Neblina</td>
+                </tr>
+                <tr>
+                    <td class="city">Agudos . . . . .</td>
+                    <td>33,0</td><td>19,0</td><td>Var.</td><td>761,6</td><td>22,2</td><td>20,4</td><td>84 »</td><td>C</td><td>—</td><td>Claro</td><td class="obs">Choveu 5,0 mm. O.valho</td>
+                </tr>
+                <tr>
+                    <td class="city">Brotas . . . . .</td>
+                    <td>29,0</td><td>17,0</td><td>Bom</td><td>761,1</td><td>23,8</td><td>19,8</td><td>67 »</td><td>N</td><td>1 m.</td><td>»</td><td class="obs">»</td>
+                </tr>
+                <tr>
+                    <td class="city">Franca . . . . .</td>
+                    <td>26,6</td><td>18,2</td><td>»</td><td>762,2</td><td>21,4</td><td>16,9</td><td>62 »</td><td>NE</td><td>4 m.</td><td>»</td><td class="obs">O.valho</td>
+                </tr>
+                <tr>
+                    <td class="city">Avaré . . . . . .</td>
+                    <td>32,2</td><td>19,1</td><td>»</td><td>761,0</td><td>26,4</td><td>23,2</td><td>75 »</td><td>N</td><td>1 m.</td><td>»</td><td class="obs">Bom</td>
+                </tr>
+                <tr>
+                    <td class="city">Tatuhy . . . . .</td>
+                    <td>31,0</td><td>17,5</td><td>»</td><td>761,1</td><td>24,0</td><td>21,8</td><td>82 »</td><td>C</td><td>—</td><td>»</td><td class="obs">»</td>
+                </tr>
+                <tr>
+                    <td class="city">Ytú . . . . . . .</td>
+                    <td>29,4</td><td>20,2</td><td>»</td><td>761,9</td><td>24,2</td><td>21,2</td><td>75 »</td><td>NE</td><td>4 m.</td><td>M. enc.</td><td class="obs">»</td>
+                </tr>
+                <tr>
+                    <td class="city">Faxina . . . . .</td>
+                    <td>30,7</td><td>18,0</td><td>»</td><td>760,8</td><td>22,6</td><td>20,6</td><td>83 »</td><td>C</td><td>—</td><td>»</td><td class="obs">Orvalho. Neblina</td>
+                </tr>
+                <tr style="border-top: 2px solid #000;">
+                    <td class="city">Uberaba . . . .</td>
+                    <td>27,5</td><td>20,2</td><td>—</td><td>761,8</td><td>24,3</td><td>21,3</td><td>75 »</td><td>S</td><td>9 m.</td><td>Claro</td><td class="obs">»</td>
+                </tr>
+                <tr>
+                    <td class="city">Paranaguá . . .</td>
+                    <td>26,2</td><td>20,5</td><td>—</td><td>758,8</td><td>24,5</td><td>23,3</td><td>90 »</td><td>C</td><td>—</td><td>M. enc</td><td class="obs">»</td>
+                </tr>
+                <tr>
+                    <td class="city">Florianopolis . .</td>
+                    <td>23,8</td><td>21,0</td><td>—</td><td>759,3</td><td>23,7</td><td>22,0</td><td>86 »</td><td>C</td><td>—</td><td>»</td><td class="obs">Choveu 3,2 mm.</td>
+                </tr>
+                <tr>
+                    <td class="city">Rio de Janeiro .</td>
+                    <td>27,3</td><td>23,0</td><td>—</td><td>761,4</td><td>25,3</td><td>22,2</td><td>75 »</td><td>NE</td><td>2 m.</td><td>Claro</td><td class="obs">Bom</td>
+                </tr>
+                <tr style="border-top: 2px solid #000;">
+                    <td class="city">Montevidéu . . .</td>
+                    <td>20,0</td><td>16,2</td><td>—</td><td>762,5</td><td>19,2</td><td>18,3</td><td>91 »</td><td>SE</td><td>4 m.</td><td>Enc.</td><td class="obs">Máu. Garoa e relampagos</td>
+                </tr>
+                <tr style="border-top: 3px double #000;">
+                    <td class="city">Cordoba . . . .</td>
+                    <td>22,0</td><td>15,0</td><td>—</td><td>763,5</td><td>17,0</td><td>16,0</td><td>90 »</td><td>S</td><td>2 m.</td><td>Enc.</td><td class="obs">—</td>
+                </tr>
+                <tr>
+                    <td class="city">Mendoza . . . .</td>
+                    <td>27,0</td><td>12,0</td><td>—</td><td>767,2</td><td>14,0</td><td>9,0</td><td>47 »</td><td>SW</td><td>6 m.</td><td>»</td><td class="obs">—</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="weather-footer">
+            <div class="weather-footer-left">
+                Tempo provavel para o dia 1.° de Abril:<br>
+                Instavel. Neblina. Temperatura subindo.
+            </div>
+            <div class="weather-footer-right">
+                J. N. Belfort Mattos,<br>
+                <span class="italic">Chefe da Secção Meteorologica.</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+```

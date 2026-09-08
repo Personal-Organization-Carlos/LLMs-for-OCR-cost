@@ -1,0 +1,4774 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        37,
+                        63,
+                        218,
+                        89
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                37,
+                                63,
+                                218,
+                                89
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        37,
+                                        63,
+                                        218,
+                                        89
+                                    ],
+                                    "type": "text",
+                                    "content": "António Candido Xavier de Almelda e Souza, normeado curador por decreto de 6 de Março corrente."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        76,
+                        88,
+                        178,
+                        96
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                76,
+                                88,
+                                178,
+                                96
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        76,
+                                        88,
+                                        178,
+                                        96
+                                    ],
+                                    "type": "text",
+                                    "content": "Requerimentos despachados"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        37,
+                        97,
+                        218,
+                        197
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                37,
+                                97,
+                                218,
+                                197
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        37,
+                                        97,
+                                        218,
+                                        197
+                                    ],
+                                    "type": "text",
+                                    "content": "Do bacharel O-taviano de Aguirra Camargo, ex-promotor publico da comarca de Yú, pedindo providencias no sentido de poder receber no Thesouro do Estado, os vencimentos a que tem direito, durante o tempo em que esteve em gesso da licença que lhe foi concedira por acto de 23 de Janeiro do corrente ano, para tralar da saude de pessoa de sua família, visto ter-se extraviado a respectiva portaria.—Atendido, retirando desta secretaria por certidão, uma copia da portaria da licença que foi extraviada."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        37,
+                        198,
+                        218,
+                        253
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                37,
+                                198,
+                                218,
+                                253
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        37,
+                                        198,
+                                        218,
+                                        253
+                                    ],
+                                    "type": "text",
+                                    "content": "Do bacharel Bento Ribelro da Luz, juiz de direito da comarca de Naporanga, pedindo que se le mande certificar si obteve desta secretaria a portaria, devidamente sellada, da licença de sessenta dias, em cujo goso entrou (im 3) de Janeiro do corrente anno.—Certifique-se o que constar."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        84,
+                        258,
+                        170,
+                        267
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                84,
+                                258,
+                                170,
+                                267
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        258,
+                                        170,
+                                        267
+                                    ],
+                                    "type": "text",
+                                    "content": "2. SUB DIRECTORIA"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "bbox": [
+                        108,
+                        271,
+                        166,
+                        281
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                108,
+                                271,
+                                166,
+                                281
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        108,
+                                        271,
+                                        166,
+                                        281
+                                    ],
+                                    "type": "text",
+                                    "content": "1. SECQIQ"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        45,
+                        282,
+                        114,
+                        291
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                45,
+                                282,
+                                114,
+                                291
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        45,
+                                        282,
+                                        114,
+                                        291
+                                    ],
+                                    "type": "text",
+                                    "content": "Transmittiren se :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "bbox": [
+                        37,
+                        292,
+                        218,
+                        383
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                37,
+                                292,
+                                218,
+                                383
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        37,
+                                        292,
+                                        218,
+                                        383
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao ministro da Justiça e Negócios Interiores os documentos oficiais relativos ao acto humanitário praticado pelo soldado Francisco, da Cu Ia Benevides, do 2.º atalhã, da Brigale Pocial, que em Santo, a 31 de Janeiro do ativo findo, se alirou ao mar no intuito de salvar a praça do Corpo de Bomheiros Municipres, que se lançara do caes para afogar-se, alim de que équelle soldado, seja concedida a medalha de distinção, creada por decreto de 11 de Dezembro de 1889."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        37,
+                        384,
+                        218,
+                        429
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                37,
+                                384,
+                                218,
+                                429
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        37,
+                                        384,
+                                        218,
+                                        429
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao dr. secretario dos Negócios do Interior, por, cópia, o ofício do delegado de polícia de Araca-quara, de 25 do corrente mez, communicando te rem apparecido naquella localidade dois casos de febre amarela."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        46,
+                        430,
+                        105,
+                        438
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                46,
+                                430,
+                                105,
+                                438
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        46,
+                                        430,
+                                        105,
+                                        438
+                                    ],
+                                    "type": "text",
+                                    "content": "Remetteram-se :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "bbox": [
+                        37,
+                        439,
+                        216,
+                        502
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                37,
+                                439,
+                                216,
+                                502
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        37,
+                                        439,
+                                        216,
+                                        502
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao commandante do Co-po Policial no Interior os ofícios do dr. chife de polícia, ns, 851, 857 e 858, datados de 27 do corriente, referentes ao augmente dos destacamentos de A-a-a-quara e de Santos e sobre uma licença concedida a um soldado pelo delegado de Pedreira, para si a Posse d: Resacc."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        36,
+                        504,
+                        216,
+                        549
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                36,
+                                504,
+                                216,
+                                549
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        36,
+                                        504,
+                                        216,
+                                        549
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao dr. chef da polícia, os das camaras municipaes de Remedios da Ponte do Tiete, de Santo Antonio da Cachoeira e do juiz de paz de Santo Antonio da Alegia, datados de 22 e 23 do corrente mez."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        106,
+                        551,
+                        147,
+                        559
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                106,
+                                551,
+                                147,
+                                559
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        106,
+                                        551,
+                                        147,
+                                        559
+                                    ],
+                                    "type": "text",
+                                    "content": "2.ª SICÇÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        36,
+                        561,
+                        216,
+                        607
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                36,
+                                561,
+                                216,
+                                607
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        36,
+                                        561,
+                                        216,
+                                        607
+                                    ],
+                                    "type": "text",
+                                    "content": "O secretario dos Negocios da Justiça resolve que na distribuição de forragem aos animaes da Força Pública, da Departição da Polícia, sejam observadas, contar de 5 de Abril próximo vin-douro, às seg. Intes tabellas:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        45,
+                        608,
+                        121,
+                        616
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                45,
+                                608,
+                                121,
+                                616
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        45,
+                                        608,
+                                        121,
+                                        616
+                                    ],
+                                    "type": "text",
+                                    "content": "De 5 a 10 de Abril:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "merge_prev": false
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        37,
+                        620,
+                        215,
+                        685
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                37,
+                                620,
+                                215,
+                                685
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        37,
+                                        620,
+                                        215,
+                                        685
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                37,
+                                                620,
+                                                215,
+                                                685
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td></td><td></td><td colspan=\"2\">Aos cavallos</td><td colspan=\"2\">Aos muares</td></tr><tr><td>Alfafa</td><td>— diariamente</td><td>— 2</td><td>1<eq>\\frac{1}{2}</eq> kilos</td><td>—</td><td>2 kilos</td></tr><tr><td>Capim</td><td>—</td><td>— 8</td><td></td><td>—</td><td>8</td></tr><tr><td>Gamma</td><td>—</td><td>— 3</td><td></td><td>—</td><td>3</td></tr><tr><td>Farcto</td><td>—</td><td>— 1</td><td></td><td>—</td><td></td></tr><tr><td>M dio</td><td>—</td><td>— 3</td><td></td><td>—</td><td>3</td></tr><tr><td>Sal</td><td>—se 3 en 3 dias</td><td colspan=\"2\">— 1 decil.</td><td>—</td><td>1 decil</td></tr></table>",
+                                            "image_path": "99d4c360652500d46725edead6eb22503f727cd755ed0349800ff2214eaa965e.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 18
+                        }
+                    ],
+                    "index": 18
+                },
+                {
+                    "bbox": [
+                        44,
+                        685,
+                        143,
+                        693
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                44,
+                                685,
+                                143,
+                                693
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        44,
+                                        685,
+                                        143,
+                                        693
+                                    ],
+                                    "type": "text",
+                                    "content": "De II de Abril em deante :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "merge_prev": false
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        223,
+                        62,
+                        403,
+                        119
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                223,
+                                62,
+                                403,
+                                119
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        223,
+                                        62,
+                                        403,
+                                        119
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                223,
+                                                62,
+                                                403,
+                                                119
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td colspan=\"6\">Alfafa — diariamente — 1 1<eq>\\frac{1}{2}</eq> kilos — 1 kilo.</td></tr><tr><td>Capim —</td><td>» — 8</td><td>» — 8</td><td>» — 8</td><td>» — 8</td><td>» — 8</td></tr><tr><td>Canna —</td><td>» — 3</td><td>» — 3</td><td>» — 3</td><td>» — 3</td><td>» — 3</td></tr><tr><td>Farello —</td><td>» — 1</td><td>» — 1</td><td>» — 1</td><td>» — 1</td><td>» — 1</td></tr><tr><td>Milho —</td><td>» — 3</td><td>» — 3</td><td>» — 3</td><td>» — 3</td><td>» — 3</td></tr><tr><td colspan=\"6\">Sal — de 3 em 3 dias — 1 decil — 1 decil</td></tr></table>",
+                                            "image_path": "1ca2fcd2bd90f3bdaf0b3db1225ad923baa0374b3f4ca86b778856f0aadc5c0a.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 20
+                        }
+                    ],
+                    "index": 20
+                },
+                {
+                    "bbox": [
+                        223,
+                        121,
+                        403,
+                        139
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                223,
+                                121,
+                                403,
+                                139
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        223,
+                                        121,
+                                        403,
+                                        139
+                                    ],
+                                    "type": "text",
+                                    "content": "Observação.-Os animaes no paslo vencerão a\nração de alfafa, canna, milho e sal."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        223,
+                        142,
+                        403,
+                        161
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                223,
+                                142,
+                                403,
+                                161
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        223,
+                                        142,
+                                        403,
+                                        161
+                                    ],
+                                    "type": "text",
+                                    "content": "Secretaria da Justiça do Estado de São Paulo,\n30 de Março de 1900.—José Pereira de Queirot."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        223,
+                        161,
+                        403,
+                        197
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                223,
+                                161,
+                                403,
+                                197
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        223,
+                                        161,
+                                        403,
+                                        197
+                                    ],
+                                    "type": "text",
+                                    "content": "Remetten se có: ia da presente labella provisoria ao dr. chefe de polícia, coro nel commandante da Brigada Policial e chefe do Almoxarifado da Força Pública."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        223,
+                        198,
+                        403,
+                        252
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                223,
+                                198,
+                                403,
+                                252
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        223,
+                                        198,
+                                        403,
+                                        252
+                                    ],
+                                    "type": "text",
+                                    "content": "Por acto desta data foi elevada d.o 800 réis a 18360 a diiria de alimentação aos presos pobres da cadeia do São Paulo dos Agudos, a contar de 1.o de Abril d. corrente anno.—Deu-se conhecimento aos drs. chefe de polícia e secretario da Fazenda."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        222,
+                        254,
+                        403,
+                        383
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                222,
+                                254,
+                                403,
+                                383
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        222,
+                                        254,
+                                        403,
+                                        383
+                                    ],
+                                    "type": "text",
+                                    "content": "Secretaria dos Negócios da Justiça.—2.ª sub-directoria.—2ª secção.—N. 030.—São Paulo, 31 de Março de 1900.—Sº, coronel-commandante da Brigada Policial.—Para os deridos effectos vos communico que entando em vigor, a 2 de Abril próximo viindouro, o o vo regulame no do sello do Estado, que laixou com o decreto n. 750, de 2) do corrente mez, devem, a coi dar daquelta data, as petições e memoriaes dirigidos à auctoridade administrativa estadua' ou municipal, treze a estampilha de 1900) pela jprime a 10ha de papel' escrita e 200 réis pelas restantes, de acordo com o n. 5 da tabella B annexa ao referido regulamento.—Saude e fraternidade.—José L'eviro de Queiroz."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        222,
+                        383,
+                        401,
+                        401
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                222,
+                                383,
+                                401,
+                                401
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        222,
+                                        383,
+                                        401,
+                                        401
+                                    ],
+                                    "type": "text",
+                                    "content": "—Identicos a: dr. chefe de policise e ao coronel commandante do Corpo Policial do Interior."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        222,
+                        401,
+                        401,
+                        419
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                222,
+                                401,
+                                401,
+                                419
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        222,
+                                        401,
+                                        401,
+                                        419
+                                    ],
+                                    "type": "text",
+                                    "content": "Solicita:am-se do dr. secretario da Fazenda, os seguintes pagamentos :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        222,
+                        420,
+                        401,
+                        465
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                222,
+                                420,
+                                401,
+                                465
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        222,
+                                        420,
+                                        401,
+                                        465
+                                    ],
+                                    "type": "text",
+                                    "content": "De 30330, pela collectoria de Campos Novos, durante o actual exercício, mensalmente, a contar de 1.º de Janeiro último, a José Antonio da Costa, pelo aluguel do predio que serve de quartel e cadeia em Platina;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        221,
+                        466,
+                        401,
+                        511
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                221,
+                                466,
+                                401,
+                                511
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        221,
+                                        466,
+                                        401,
+                                        511
+                                    ],
+                                    "type": "text",
+                                    "content": "De 35,909, pela collectoria de Pirajit, mensalmente, até 30 de Junb, do corrente anno e a contar de 1.º de Jan i o findo, a Jorge Alreu Jeffery, pelo aluguel do predio que serve de quartel e cadeia em Bello Monte;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        221,
+                        511,
+                        401,
+                        539
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                221,
+                                511,
+                                401,
+                                539
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        221,
+                                        511,
+                                        401,
+                                        539
+                                    ],
+                                    "type": "text",
+                                    "content": "De 60§000, a Manuel Joajuim Gonçalves, pelo aluguel da casa onde está installado o posto policial na Modca, relativo a Janeiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        221,
+                        540,
+                        401,
+                        575
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                221,
+                                540,
+                                401,
+                                575
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        221,
+                                        540,
+                                        401,
+                                        575
+                                    ],
+                                    "type": "text",
+                                    "content": "De (COSO), a d. Anna Maria Caldeira, pelo aluguel do predio que serve de quartel em Morro Pellado, relativo aos mezes de Janeiro e Fevereiro fludos;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        221,
+                        576,
+                        399,
+                        604
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                221,
+                                576,
+                                399,
+                                604
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        221,
+                                        576,
+                                        399,
+                                        604
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1715000, a A. toublo Linza, por diversos con certos realizados no posto policial de Santa Ephi genia;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        221,
+                        604,
+                        401,
+                        639
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                221,
+                                604,
+                                401,
+                                639
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        221,
+                                        604,
+                                        401,
+                                        639
+                                    ],
+                                    "type": "text",
+                                    "content": "As ex-praça abaixo mencionadas, proveniente da restituição do desconto de fardamento de voluntário e de vericimentos a que tiveram direito até a data em que foram excluídos:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        640,
+                        346,
+                        650
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                640,
+                                346,
+                                650
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        640,
+                                        346,
+                                        650
+                                    ],
+                                    "type": "text",
+                                    "content": "De US$ 00, a Caelano Pestri v;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 34,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        650,
+                        372,
+                        659
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                650,
+                                372,
+                                659
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        650,
+                                        372,
+                                        659
+                                    ],
+                                    "type": "text",
+                                    "content": "De 85§300, a José Joaquim de Lemos;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 35,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        659,
+                        395,
+                        668
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                659,
+                                395,
+                                668
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        659,
+                                        395,
+                                        668
+                                    ],
+                                    "type": "text",
+                                    "content": "De 32\\$200, a Francisco Martins de Oliveira;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 36,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        668,
+                        348,
+                        677
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                668,
+                                348,
+                                677
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        668,
+                                        348,
+                                        677
+                                    ],
+                                    "type": "text",
+                                    "content": "De 73§.10, a Gregorio Vasques;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 37,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        677,
+                        339,
+                        686
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                677,
+                                339,
+                                686
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        677,
+                                        339,
+                                        686
+                                    ],
+                                    "type": "text",
+                                    "content": "De 118§920, a Arti# Pereira;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 38,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        686,
+                        395,
+                        697
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                686,
+                                395,
+                                697
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        686,
+                                        395,
+                                        697
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1.5333, a Raymundo Antonio de Souza;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 39,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        65,
+                        556,
+                        74
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                65,
+                                556,
+                                74
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        65,
+                                        556,
+                                        74
+                                    ],
+                                    "type": "text",
+                                    "content": "De 158§558, a José Antonio Sampaio;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 40,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        75,
+                        553,
+                        84
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                75,
+                                553,
+                                84
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        75,
+                                        553,
+                                        84
+                                    ],
+                                    "type": "text",
+                                    "content": "De 6585XU, a José Pedro de Campos;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 41,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        84,
+                        590,
+                        93
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                84,
+                                590,
+                                93
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        84,
+                                        590,
+                                        93
+                                    ],
+                                    "type": "text",
+                                    "content": "De 2303503, a Antonio de Assis Pereira da Silva;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        94,
+                        543,
+                        103
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                94,
+                                543,
+                                103
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        94,
+                                        543,
+                                        103
+                                    ],
+                                    "type": "text",
+                                    "content": "De 285520, a Horácio José-Maria;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 43,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        104,
+                        516,
+                        113
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                104,
+                                516,
+                                113
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        104,
+                                        516,
+                                        113
+                                    ],
+                                    "type": "text",
+                                    "content": "De 160,195, a José Leito;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 44,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        113,
+                        564,
+                        122
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                113,
+                                564,
+                                122
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        113,
+                                        564,
+                                        122
+                                    ],
+                                    "type": "text",
+                                    "content": "De 135§715 a Francisco da Silva Leitão;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 45,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        123,
+                        577,
+                        132
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                123,
+                                577,
+                                132
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        123,
+                                        577,
+                                        132
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1593106, a Raymundo Dona'o Ferreira:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 46,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        132,
+                        585,
+                        142
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                132,
+                                585,
+                                142
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        132,
+                                        585,
+                                        142
+                                    ],
+                                    "type": "text",
+                                    "content": "De 193§006, a Francisco Húdrigues Eelovés ;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 47,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        142,
+                        581,
+                        151
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                142,
+                                581,
+                                151
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        142,
+                                        581,
+                                        151
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1598426, a Fortunato Antonio das Gregas;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 48,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        151,
+                        555,
+                        160
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                151,
+                                555,
+                                160
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        151,
+                                        555,
+                                        160
+                                    ],
+                                    "type": "text",
+                                    "content": "De 151§10G, a José Vieira Brasileirão :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 49,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        160,
+                        565,
+                        170
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                160,
+                                565,
+                                170
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        160,
+                                        565,
+                                        170
+                                    ],
+                                    "type": "text",
+                                    "content": "De 117\\$706, a Benedict, Beno da Silva:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 50,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        170,
+                        550,
+                        179
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                170,
+                                550,
+                                179
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        170,
+                                        550,
+                                        179
+                                    ],
+                                    "type": "text",
+                                    "content": "De 137§506, a Caclano José da Silva :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 51,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        179,
+                        522,
+                        188
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                179,
+                                522,
+                                188
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        179,
+                                        522,
+                                        188
+                                    ],
+                                    "type": "text",
+                                    "content": "Transmittiram-se ao me-mo :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 52,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        188,
+                        588,
+                        225
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                188,
+                                588,
+                                225
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        188,
+                                        588,
+                                        225
+                                    ],
+                                    "type": "text",
+                                    "content": "Ofícios dos delegados de polícia do Rio Claro, Atibaia e Nuporanga sobre o pagamento das diárias de alimentação aos presos pobres recolbidos às respectivas cadeias."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 53,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        476,
+                        229,
+                        530,
+                        238
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                476,
+                                229,
+                                530,
+                                238
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        476,
+                                        229,
+                                        530,
+                                        238
+                                    ],
+                                    "type": "text",
+                                    "content": "Requerimentos"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 54
+                },
+                {
+                    "bbox": [
+                        407,
+                        238,
+                        587,
+                        276
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                407,
+                                238,
+                                587,
+                                276
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        407,
+                                        238,
+                                        587,
+                                        276
+                                    ],
+                                    "type": "text",
+                                    "content": "De Diogo Antonio de Arruda Mendes, pedindo pagamento da quantia de 25300, proviente de medicamentos fornecidos, a presos p bres rec. lidos à cadeia de Dous Corregos;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 55,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        407,
+                        276,
+                        586,
+                        302
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                407,
+                                276,
+                                586,
+                                302
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        407,
+                                        276,
+                                        586,
+                                        302
+                                    ],
+                                    "type": "text",
+                                    "content": "De J. G. dos Santos Fgueirdo, da de 71\\$900, proveniente da fo nacim- o ide t co aos presos pobres da cadeia de Mocóca:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 56,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        407,
+                        303,
+                        586,
+                        340
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                407,
+                                303,
+                                586,
+                                340
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        407,
+                                        303,
+                                        586,
+                                        340
+                                    ],
+                                    "type": "text",
+                                    "content": "De Francisco Ferreira da Silva, soldado do Grupo Policial do Interior, pedido pagamento de 14.983), correspondente a vencimentos que deixou de receber no anno findo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 57,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        407,
+                        340,
+                        586,
+                        369
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                407,
+                                340,
+                                586,
+                                369
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        407,
+                                        340,
+                                        586,
+                                        369
+                                    ],
+                                    "type": "text",
+                                    "content": "De Francisco de Salles Gomes, sobre pagamento da quantia de 250\\$000 por serviços medicos presentados a presos pobres da casa de Talulily."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 58,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        415,
+                        369,
+                        463,
+                        375
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                415,
+                                369,
+                                463,
+                                375
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        415,
+                                        369,
+                                        463,
+                                        375
+                                    ],
+                                    "type": "text",
+                                    "content": "Declarou se :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 59
+                },
+                {
+                    "bbox": [
+                        406,
+                        377,
+                        586,
+                        412
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                406,
+                                377,
+                                586,
+                                412
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        406,
+                                        377,
+                                        586,
+                                        412
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao mesmo, que foi contactada com Muri Gastro, o fornecimento da alimentação aos prees pobres da cadeia da Anna, é a razão de málreis diários;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 60,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        414,
+                        414,
+                        501,
+                        423
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                414,
+                                414,
+                                501,
+                                423
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        414,
+                                        414,
+                                        501,
+                                        423
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao dr. chefe de polícia :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 61
+                },
+                {
+                    "bbox": [
+                        406,
+                        424,
+                        586,
+                        459
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                406,
+                                424,
+                                586,
+                                459
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        406,
+                                        424,
+                                        586,
+                                        459
+                                    ],
+                                    "type": "text",
+                                    "content": "Que, por falta de verba, não pode ser attendido o pedido do delegado de polícia de Jundishy, sobre o fornecimento de um sino à cadela daquella cidade;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 62,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        406,
+                        460,
+                        586,
+                        516
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                406,
+                                460,
+                                586,
+                                516
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        406,
+                                        460,
+                                        586,
+                                        516
+                                    ],
+                                    "type": "text",
+                                    "content": "Que para se poder providenciar sobre o pagamento do aluguel do predio que serve de quartel e cadeia em Taquary, relativo ao auto de 1.98, torna-se preciso que o proprietario do mesmo requeira a este secretariado, por intermeio de sa chefia, o pagamento a que se julga com direito."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 63,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        406,
+                        516,
+                        586,
+                        561
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                406,
+                                516,
+                                586,
+                                561
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        406,
+                                        516,
+                                        586,
+                                        561
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao presidente da camara municipal de São João da Boa Vista, que a Superintendencia de Os as Públicas foi auctorizada a despeender a quinta de 5:350,§123 com os reparos de que necessa o edifício da cadeia daquella cidade."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 64,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        406,
+                        562,
+                        586,
+                        588
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                406,
+                                562,
+                                586,
+                                588
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        406,
+                                        562,
+                                        586,
+                                        588
+                                    ],
+                                    "type": "text",
+                                    "content": "Autorizou-se o chefe do alanxarifado da Força Pública a fornecer diversos artigos de expediente à Penitenciaria."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 65,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        470,
+                        605,
+                        527,
+                        616
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                470,
+                                605,
+                                527,
+                                616
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        470,
+                                        605,
+                                        527,
+                                        616
+                                    ],
+                                    "type": "text",
+                                    "content": "Fazenda"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 66
+                },
+                {
+                    "bbox": [
+                        424,
+                        621,
+                        570,
+                        630
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                424,
+                                621,
+                                570,
+                                630
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        424,
+                                        621,
+                                        570,
+                                        630
+                                    ],
+                                    "type": "text",
+                                    "content": "EXPEDIENTE DO DIA 31 DE MARÇ, DE 1990"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 67,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        406,
+                        633,
+                        586,
+                        670
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                406,
+                                633,
+                                586,
+                                670
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        406,
+                                        633,
+                                        586,
+                                        670
+                                    ],
+                                    "type": "text",
+                                    "content": "Do dr. secretario da Ag- icultura, schelando pagamento das seguintes contas de forrecimentos feitos à Repartição de Aguas e Engo, durante o mez de Fevereiro proximo passado :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 68,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        406,
+                        671,
+                        586,
+                        688
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                406,
+                                671,
+                                586,
+                                688
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        406,
+                                        671,
+                                        586,
+                                        688
+                                    ],
+                                    "type": "text",
+                                    "content": "De 6:000,000, à Compach à Mechanica e Importadora de S. Paulo;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 69,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        688,
+                        575,
+                        699
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                688,
+                                575,
+                                699
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        688,
+                                        575,
+                                        699
+                                    ],
+                                    "type": "text",
+                                    "content": "De 732\\$100, a Espíadola, Siqueira & Comp.;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 70,
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        59,
+                        45,
+                        104,
+                        54
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                59,
+                                45,
+                                104,
+                                54
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        59,
+                                        45,
+                                        104,
+                                        54
+                                    ],
+                                    "type": "text",
+                                    "content": "Domingo, 1"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        258,
+                        43,
+                        348,
+                        52
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                258,
+                                43,
+                                348,
+                                52
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        258,
+                                        43,
+                                        348,
+                                        52
+                                    ],
+                                    "type": "text",
+                                    "content": "DIARIO OFFICIAL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        496,
+                        43,
+                        572,
+                        53
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                496,
+                                43,
+                                572,
+                                53
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        496,
+                                        43,
+                                        572,
+                                        53
+                                    ],
+                                    "type": "text",
+                                    "content": "Abril : 1900 x 7:33"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                }
+            ],
+            "page_size": [
+                645,
+                744
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        37,
+                        63,
+                        218,
+                        89
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                37,
+                                63,
+                                218,
+                                89
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        37,
+                                        63,
+                                        218,
+                                        89
+                                    ],
+                                    "type": "text",
+                                    "content": "António Candido Xavier de Almelda e Souza, normeado curador por decreto de 6 de Março corrente."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        76,
+                        88,
+                        178,
+                        96
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                76,
+                                88,
+                                178,
+                                96
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        76,
+                                        88,
+                                        178,
+                                        96
+                                    ],
+                                    "type": "text",
+                                    "content": "Requerimentos despachados"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4
+                },
+                {
+                    "bbox": [
+                        37,
+                        97,
+                        218,
+                        197
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                37,
+                                97,
+                                218,
+                                197
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        37,
+                                        97,
+                                        218,
+                                        197
+                                    ],
+                                    "type": "text",
+                                    "content": "Do bacharel O-taviano de Aguirra Camargo, ex-promotor publico da comarca de Yú, pedindo providencias no sentido de poder receber no Thesouro do Estado, os vencimentos a que tem direito, durante o tempo em que esteve em gesso da licença que lhe foi concedira por acto de 23 de Janeiro do corrente ano, para tralar da saude de pessoa de sua família, visto ter-se extraviado a respectiva portaria.—Atendido, retirando desta secretaria por certidão, uma copia da portaria da licença que foi extraviada."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        37,
+                        198,
+                        218,
+                        253
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                37,
+                                198,
+                                218,
+                                253
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        37,
+                                        198,
+                                        218,
+                                        253
+                                    ],
+                                    "type": "text",
+                                    "content": "Do bacharel Bento Ribelro da Luz, juiz de direito da comarca de Naporanga, pedindo que se le mande certificar si obteve desta secretaria a portaria, devidamente sellada, da licença de sessenta dias, em cujo goso entrou (im 3) de Janeiro do corrente anno.—Certifique-se o que constar."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        84,
+                        258,
+                        170,
+                        267
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                84,
+                                258,
+                                170,
+                                267
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        84,
+                                        258,
+                                        170,
+                                        267
+                                    ],
+                                    "type": "text",
+                                    "content": "2. SUB DIRECTORIA"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7
+                },
+                {
+                    "bbox": [
+                        108,
+                        271,
+                        166,
+                        281
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                108,
+                                271,
+                                166,
+                                281
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        108,
+                                        271,
+                                        166,
+                                        281
+                                    ],
+                                    "type": "text",
+                                    "content": "1. SECQIQ"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        45,
+                        282,
+                        114,
+                        291
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                45,
+                                282,
+                                114,
+                                291
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        45,
+                                        282,
+                                        114,
+                                        291
+                                    ],
+                                    "type": "text",
+                                    "content": "Transmittiren se :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9
+                },
+                {
+                    "bbox": [
+                        37,
+                        292,
+                        218,
+                        383
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                37,
+                                292,
+                                218,
+                                383
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        37,
+                                        292,
+                                        218,
+                                        383
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao ministro da Justiça e Negócios Interiores os documentos oficiais relativos ao acto humanitário praticado pelo soldado Francisco, da Cu Ia Benevides, do 2.º atalhã, da Brigale Pocial, que em Santo, a 31 de Janeiro do ativo findo, se alirou ao mar no intuito de salvar a praça do Corpo de Bomheiros Municipres, que se lançara do caes para afogar-se, alim de que équelle soldado, seja concedida a medalha de distinção, creada por decreto de 11 de Dezembro de 1889."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        37,
+                        384,
+                        218,
+                        429
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                37,
+                                384,
+                                218,
+                                429
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        37,
+                                        384,
+                                        218,
+                                        429
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao dr. secretario dos Negócios do Interior, por, cópia, o ofício do delegado de polícia de Araca-quara, de 25 do corrente mez, communicando te rem apparecido naquella localidade dois casos de febre amarela."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        46,
+                        430,
+                        105,
+                        438
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                46,
+                                430,
+                                105,
+                                438
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        46,
+                                        430,
+                                        105,
+                                        438
+                                    ],
+                                    "type": "text",
+                                    "content": "Remetteram-se :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12
+                },
+                {
+                    "bbox": [
+                        37,
+                        439,
+                        216,
+                        502
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                37,
+                                439,
+                                216,
+                                502
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        37,
+                                        439,
+                                        216,
+                                        502
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao commandante do Co-po Policial no Interior os ofícios do dr. chife de polícia, ns, 851, 857 e 858, datados de 27 do corriente, referentes ao augmente dos destacamentos de A-a-a-quara e de Santos e sobre uma licença concedida a um soldado pelo delegado de Pedreira, para si a Posse d: Resacc."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        36,
+                        504,
+                        216,
+                        549
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                36,
+                                504,
+                                216,
+                                549
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        36,
+                                        504,
+                                        216,
+                                        549
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao dr. chef da polícia, os das camaras municipaes de Remedios da Ponte do Tiete, de Santo Antonio da Cachoeira e do juiz de paz de Santo Antonio da Alegia, datados de 22 e 23 do corrente mez."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        106,
+                        551,
+                        147,
+                        559
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                106,
+                                551,
+                                147,
+                                559
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        106,
+                                        551,
+                                        147,
+                                        559
+                                    ],
+                                    "type": "text",
+                                    "content": "2.ª SICÇÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        36,
+                        561,
+                        216,
+                        607
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                36,
+                                561,
+                                216,
+                                607
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        36,
+                                        561,
+                                        216,
+                                        607
+                                    ],
+                                    "type": "text",
+                                    "content": "O secretario dos Negocios da Justiça resolve que na distribuição de forragem aos animaes da Força Pública, da Departição da Polícia, sejam observadas, contar de 5 de Abril próximo vin-douro, às seg. Intes tabellas:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        45,
+                        608,
+                        121,
+                        616
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                45,
+                                608,
+                                121,
+                                616
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        45,
+                                        608,
+                                        121,
+                                        616
+                                    ],
+                                    "type": "text",
+                                    "content": "De 5 a 10 de Abril:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "merge_prev": false
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        37,
+                        620,
+                        215,
+                        685
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                37,
+                                620,
+                                215,
+                                685
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        37,
+                                        620,
+                                        215,
+                                        685
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                37,
+                                                620,
+                                                215,
+                                                685
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td></td><td></td><td colspan=\"2\">Aos cavallos</td><td colspan=\"2\">Aos muares</td></tr><tr><td>Alfafa</td><td>— diariamente</td><td>— 2</td><td>1<eq>\\frac{1}{2}</eq> kilos</td><td>—</td><td>2 kilos</td></tr><tr><td>Capim</td><td>—</td><td>— 8</td><td></td><td>—</td><td>8</td></tr><tr><td>Gamma</td><td>—</td><td>— 3</td><td></td><td>—</td><td>3</td></tr><tr><td>Farcto</td><td>—</td><td>— 1</td><td></td><td>—</td><td></td></tr><tr><td>M dio</td><td>—</td><td>— 3</td><td></td><td>—</td><td>3</td></tr><tr><td>Sal</td><td>—se 3 en 3 dias</td><td colspan=\"2\">— 1 decil.</td><td>—</td><td>1 decil</td></tr></table>",
+                                            "image_path": "99d4c360652500d46725edead6eb22503f727cd755ed0349800ff2214eaa965e.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 18
+                        }
+                    ],
+                    "index": 18
+                },
+                {
+                    "bbox": [
+                        44,
+                        685,
+                        143,
+                        693
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                44,
+                                685,
+                                143,
+                                693
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        44,
+                                        685,
+                                        143,
+                                        693
+                                    ],
+                                    "type": "text",
+                                    "content": "De II de Abril em deante :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "merge_prev": false
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        223,
+                        62,
+                        403,
+                        119
+                    ],
+                    "blocks": [
+                        {
+                            "bbox": [
+                                223,
+                                62,
+                                403,
+                                119
+                            ],
+                            "type": "table_body",
+                            "angle": 0,
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        223,
+                                        62,
+                                        403,
+                                        119
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                223,
+                                                62,
+                                                403,
+                                                119
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td colspan=\"6\">Alfafa — diariamente — 1 1<eq>\\frac{1}{2}</eq> kilos — 1 kilo.</td></tr><tr><td>Capim —</td><td>» — 8</td><td>» — 8</td><td>» — 8</td><td>» — 8</td><td>» — 8</td></tr><tr><td>Canna —</td><td>» — 3</td><td>» — 3</td><td>» — 3</td><td>» — 3</td><td>» — 3</td></tr><tr><td>Farello —</td><td>» — 1</td><td>» — 1</td><td>» — 1</td><td>» — 1</td><td>» — 1</td></tr><tr><td>Milho —</td><td>» — 3</td><td>» — 3</td><td>» — 3</td><td>» — 3</td><td>» — 3</td></tr><tr><td colspan=\"6\">Sal — de 3 em 3 dias — 1 decil — 1 decil</td></tr></table>",
+                                            "image_path": "1ca2fcd2bd90f3bdaf0b3db1225ad923baa0374b3f4ca86b778856f0aadc5c0a.jpg"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "index": 20
+                        }
+                    ],
+                    "index": 20
+                },
+                {
+                    "bbox": [
+                        223,
+                        121,
+                        403,
+                        139
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                223,
+                                121,
+                                403,
+                                139
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        223,
+                                        121,
+                                        403,
+                                        139
+                                    ],
+                                    "type": "text",
+                                    "content": "Observação.-Os animaes no paslo vencerão a\nração de alfafa, canna, milho e sal."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        223,
+                        142,
+                        403,
+                        161
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                223,
+                                142,
+                                403,
+                                161
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        223,
+                                        142,
+                                        403,
+                                        161
+                                    ],
+                                    "type": "text",
+                                    "content": "Secretaria da Justiça do Estado de São Paulo,\n30 de Março de 1900.—José Pereira de Queirot."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        223,
+                        161,
+                        403,
+                        197
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                223,
+                                161,
+                                403,
+                                197
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        223,
+                                        161,
+                                        403,
+                                        197
+                                    ],
+                                    "type": "text",
+                                    "content": "Remetten se có: ia da presente labella provisoria ao dr. chefe de polícia, coro nel commandante da Brigada Policial e chefe do Almoxarifado da Força Pública."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        223,
+                        198,
+                        403,
+                        252
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                223,
+                                198,
+                                403,
+                                252
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        223,
+                                        198,
+                                        403,
+                                        252
+                                    ],
+                                    "type": "text",
+                                    "content": "Por acto desta data foi elevada d.o 800 réis a 18360 a diiria de alimentação aos presos pobres da cadeia do São Paulo dos Agudos, a contar de 1.o de Abril d. corrente anno.—Deu-se conhecimento aos drs. chefe de polícia e secretario da Fazenda."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        222,
+                        254,
+                        403,
+                        383
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                222,
+                                254,
+                                403,
+                                383
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        222,
+                                        254,
+                                        403,
+                                        383
+                                    ],
+                                    "type": "text",
+                                    "content": "Secretaria dos Negócios da Justiça.—2.ª sub-directoria.—2ª secção.—N. 030.—São Paulo, 31 de Março de 1900.—Sº, coronel-commandante da Brigada Policial.—Para os deridos effectos vos communico que entando em vigor, a 2 de Abril próximo viindouro, o o vo regulame no do sello do Estado, que laixou com o decreto n. 750, de 2) do corrente mez, devem, a coi dar daquelta data, as petições e memoriaes dirigidos à auctoridade administrativa estadua' ou municipal, treze a estampilha de 1900) pela jprime a 10ha de papel' escrita e 200 réis pelas restantes, de acordo com o n. 5 da tabella B annexa ao referido regulamento.—Saude e fraternidade.—José L'eviro de Queiroz."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        222,
+                        383,
+                        401,
+                        401
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                222,
+                                383,
+                                401,
+                                401
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        222,
+                                        383,
+                                        401,
+                                        401
+                                    ],
+                                    "type": "text",
+                                    "content": "—Identicos a: dr. chefe de policise e ao coronel commandante do Corpo Policial do Interior."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        222,
+                        401,
+                        401,
+                        419
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                222,
+                                401,
+                                401,
+                                419
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        222,
+                                        401,
+                                        401,
+                                        419
+                                    ],
+                                    "type": "text",
+                                    "content": "Solicita:am-se do dr. secretario da Fazenda, os seguintes pagamentos :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        222,
+                        420,
+                        401,
+                        465
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                222,
+                                420,
+                                401,
+                                465
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        222,
+                                        420,
+                                        401,
+                                        465
+                                    ],
+                                    "type": "text",
+                                    "content": "De 30330, pela collectoria de Campos Novos, durante o actual exercício, mensalmente, a contar de 1.º de Janeiro último, a José Antonio da Costa, pelo aluguel do predio que serve de quartel e cadeia em Platina;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        221,
+                        466,
+                        401,
+                        511
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                221,
+                                466,
+                                401,
+                                511
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        221,
+                                        466,
+                                        401,
+                                        511
+                                    ],
+                                    "type": "text",
+                                    "content": "De 35,909, pela collectoria de Pirajit, mensalmente, até 30 de Junb, do corrente anno e a contar de 1.º de Jan i o findo, a Jorge Alreu Jeffery, pelo aluguel do predio que serve de quartel e cadeia em Bello Monte;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        221,
+                        511,
+                        401,
+                        539
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                221,
+                                511,
+                                401,
+                                539
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        221,
+                                        511,
+                                        401,
+                                        539
+                                    ],
+                                    "type": "text",
+                                    "content": "De 60§000, a Manuel Joajuim Gonçalves, pelo aluguel da casa onde está installado o posto policial na Modca, relativo a Janeiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        221,
+                        540,
+                        401,
+                        575
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                221,
+                                540,
+                                401,
+                                575
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        221,
+                                        540,
+                                        401,
+                                        575
+                                    ],
+                                    "type": "text",
+                                    "content": "De (COSO), a d. Anna Maria Caldeira, pelo aluguel do predio que serve de quartel em Morro Pellado, relativo aos mezes de Janeiro e Fevereiro fludos;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        221,
+                        576,
+                        399,
+                        604
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                221,
+                                576,
+                                399,
+                                604
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        221,
+                                        576,
+                                        399,
+                                        604
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1715000, a A. toublo Linza, por diversos con certos realizados no posto policial de Santa Ephi genia;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        221,
+                        604,
+                        401,
+                        639
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                221,
+                                604,
+                                401,
+                                639
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        221,
+                                        604,
+                                        401,
+                                        639
+                                    ],
+                                    "type": "text",
+                                    "content": "As ex-praça abaixo mencionadas, proveniente da restituição do desconto de fardamento de voluntário e de vericimentos a que tiveram direito até a data em que foram excluídos:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        640,
+                        346,
+                        650
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                640,
+                                346,
+                                650
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        640,
+                                        346,
+                                        650
+                                    ],
+                                    "type": "text",
+                                    "content": "De US$ 00, a Caelano Pestri v;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 34,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        650,
+                        372,
+                        659
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                650,
+                                372,
+                                659
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        650,
+                                        372,
+                                        659
+                                    ],
+                                    "type": "text",
+                                    "content": "De 85§300, a José Joaquim de Lemos;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 35,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        659,
+                        395,
+                        668
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                659,
+                                395,
+                                668
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        659,
+                                        395,
+                                        668
+                                    ],
+                                    "type": "text",
+                                    "content": "De 32\\$200, a Francisco Martins de Oliveira;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 36,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        668,
+                        348,
+                        677
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                668,
+                                348,
+                                677
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        668,
+                                        348,
+                                        677
+                                    ],
+                                    "type": "text",
+                                    "content": "De 73§.10, a Gregorio Vasques;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 37,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        677,
+                        339,
+                        686
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                677,
+                                339,
+                                686
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        677,
+                                        339,
+                                        686
+                                    ],
+                                    "type": "text",
+                                    "content": "De 118§920, a Arti# Pereira;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 38,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        686,
+                        395,
+                        697
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                686,
+                                395,
+                                697
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        686,
+                                        395,
+                                        697
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1.5333, a Raymundo Antonio de Souza;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 39,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        65,
+                        556,
+                        74
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                65,
+                                556,
+                                74
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        65,
+                                        556,
+                                        74
+                                    ],
+                                    "type": "text",
+                                    "content": "De 158§558, a José Antonio Sampaio;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 40,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        75,
+                        553,
+                        84
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                75,
+                                553,
+                                84
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        75,
+                                        553,
+                                        84
+                                    ],
+                                    "type": "text",
+                                    "content": "De 6585XU, a José Pedro de Campos;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 41,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        84,
+                        590,
+                        93
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                84,
+                                590,
+                                93
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        84,
+                                        590,
+                                        93
+                                    ],
+                                    "type": "text",
+                                    "content": "De 2303503, a Antonio de Assis Pereira da Silva;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        94,
+                        543,
+                        103
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                94,
+                                543,
+                                103
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        94,
+                                        543,
+                                        103
+                                    ],
+                                    "type": "text",
+                                    "content": "De 285520, a Horácio José-Maria;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 43,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        104,
+                        516,
+                        113
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                104,
+                                516,
+                                113
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        104,
+                                        516,
+                                        113
+                                    ],
+                                    "type": "text",
+                                    "content": "De 160,195, a José Leito;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 44,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        113,
+                        564,
+                        122
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                113,
+                                564,
+                                122
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        113,
+                                        564,
+                                        122
+                                    ],
+                                    "type": "text",
+                                    "content": "De 135§715 a Francisco da Silva Leitão;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 45,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        123,
+                        577,
+                        132
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                123,
+                                577,
+                                132
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        123,
+                                        577,
+                                        132
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1593106, a Raymundo Dona'o Ferreira:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 46,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        132,
+                        585,
+                        142
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                132,
+                                585,
+                                142
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        132,
+                                        585,
+                                        142
+                                    ],
+                                    "type": "text",
+                                    "content": "De 193§006, a Francisco Húdrigues Eelovés ;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 47,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        142,
+                        581,
+                        151
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                142,
+                                581,
+                                151
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        142,
+                                        581,
+                                        151
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1598426, a Fortunato Antonio das Gregas;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 48,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        151,
+                        555,
+                        160
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                151,
+                                555,
+                                160
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        151,
+                                        555,
+                                        160
+                                    ],
+                                    "type": "text",
+                                    "content": "De 151§10G, a José Vieira Brasileirão :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 49,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        160,
+                        565,
+                        170
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                160,
+                                565,
+                                170
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        160,
+                                        565,
+                                        170
+                                    ],
+                                    "type": "text",
+                                    "content": "De 117\\$706, a Benedict, Beno da Silva:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 50,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        170,
+                        550,
+                        179
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                170,
+                                550,
+                                179
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        170,
+                                        550,
+                                        179
+                                    ],
+                                    "type": "text",
+                                    "content": "De 137§506, a Caclano José da Silva :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 51,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        179,
+                        522,
+                        188
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                179,
+                                522,
+                                188
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        179,
+                                        522,
+                                        188
+                                    ],
+                                    "type": "text",
+                                    "content": "Transmittiram-se ao me-mo :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 52,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        408,
+                        188,
+                        588,
+                        225
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                408,
+                                188,
+                                588,
+                                225
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        408,
+                                        188,
+                                        588,
+                                        225
+                                    ],
+                                    "type": "text",
+                                    "content": "Ofícios dos delegados de polícia do Rio Claro, Atibaia e Nuporanga sobre o pagamento das diárias de alimentação aos presos pobres recolbidos às respectivas cadeias."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 53,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        476,
+                        229,
+                        530,
+                        238
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                476,
+                                229,
+                                530,
+                                238
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        476,
+                                        229,
+                                        530,
+                                        238
+                                    ],
+                                    "type": "text",
+                                    "content": "Requerimentos"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 54
+                },
+                {
+                    "bbox": [
+                        407,
+                        238,
+                        587,
+                        276
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                407,
+                                238,
+                                587,
+                                276
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        407,
+                                        238,
+                                        587,
+                                        276
+                                    ],
+                                    "type": "text",
+                                    "content": "De Diogo Antonio de Arruda Mendes, pedindo pagamento da quantia de 25300, proviente de medicamentos fornecidos, a presos p bres rec. lidos à cadeia de Dous Corregos;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 55,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        407,
+                        276,
+                        586,
+                        302
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                407,
+                                276,
+                                586,
+                                302
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        407,
+                                        276,
+                                        586,
+                                        302
+                                    ],
+                                    "type": "text",
+                                    "content": "De J. G. dos Santos Fgueirdo, da de 71\\$900, proveniente da fo nacim- o ide t co aos presos pobres da cadeia de Mocóca:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 56,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        407,
+                        303,
+                        586,
+                        340
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                407,
+                                303,
+                                586,
+                                340
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        407,
+                                        303,
+                                        586,
+                                        340
+                                    ],
+                                    "type": "text",
+                                    "content": "De Francisco Ferreira da Silva, soldado do Grupo Policial do Interior, pedido pagamento de 14.983), correspondente a vencimentos que deixou de receber no anno findo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 57,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        407,
+                        340,
+                        586,
+                        369
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                407,
+                                340,
+                                586,
+                                369
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        407,
+                                        340,
+                                        586,
+                                        369
+                                    ],
+                                    "type": "text",
+                                    "content": "De Francisco de Salles Gomes, sobre pagamento da quantia de 250\\$000 por serviços medicos presentados a presos pobres da casa de Talulily."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 58,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        415,
+                        369,
+                        463,
+                        375
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                415,
+                                369,
+                                463,
+                                375
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        415,
+                                        369,
+                                        463,
+                                        375
+                                    ],
+                                    "type": "text",
+                                    "content": "Declarou se :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 59
+                },
+                {
+                    "bbox": [
+                        406,
+                        377,
+                        586,
+                        412
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                406,
+                                377,
+                                586,
+                                412
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        406,
+                                        377,
+                                        586,
+                                        412
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao mesmo, que foi contactada com Muri Gastro, o fornecimento da alimentação aos prees pobres da cadeia da Anna, é a razão de málreis diários;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 60,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        414,
+                        414,
+                        501,
+                        423
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                414,
+                                414,
+                                501,
+                                423
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        414,
+                                        414,
+                                        501,
+                                        423
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao dr. chefe de polícia :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 61
+                },
+                {
+                    "bbox": [
+                        406,
+                        424,
+                        586,
+                        459
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                406,
+                                424,
+                                586,
+                                459
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        406,
+                                        424,
+                                        586,
+                                        459
+                                    ],
+                                    "type": "text",
+                                    "content": "Que, por falta de verba, não pode ser attendido o pedido do delegado de polícia de Jundishy, sobre o fornecimento de um sino à cadela daquella cidade;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 62,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        406,
+                        460,
+                        586,
+                        516
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                406,
+                                460,
+                                586,
+                                516
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        406,
+                                        460,
+                                        586,
+                                        516
+                                    ],
+                                    "type": "text",
+                                    "content": "Que para se poder providenciar sobre o pagamento do aluguel do predio que serve de quartel e cadeia em Taquary, relativo ao auto de 1.98, torna-se preciso que o proprietario do mesmo requeira a este secretariado, por intermeio de sa chefia, o pagamento a que se julga com direito."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 63,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        406,
+                        516,
+                        586,
+                        561
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                406,
+                                516,
+                                586,
+                                561
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        406,
+                                        516,
+                                        586,
+                                        561
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao presidente da camara municipal de São João da Boa Vista, que a Superintendencia de Os as Públicas foi auctorizada a despeender a quinta de 5:350,§123 com os reparos de que necessa o edifício da cadeia daquella cidade."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 64,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        406,
+                        562,
+                        586,
+                        588
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                406,
+                                562,
+                                586,
+                                588
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        406,
+                                        562,
+                                        586,
+                                        588
+                                    ],
+                                    "type": "text",
+                                    "content": "Autorizou-se o chefe do alanxarifado da Força Pública a fornecer diversos artigos de expediente à Penitenciaria."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 65,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        470,
+                        605,
+                        527,
+                        616
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                470,
+                                605,
+                                527,
+                                616
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        470,
+                                        605,
+                                        527,
+                                        616
+                                    ],
+                                    "type": "text",
+                                    "content": "Fazenda"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 66
+                },
+                {
+                    "bbox": [
+                        424,
+                        621,
+                        570,
+                        630
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                424,
+                                621,
+                                570,
+                                630
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        424,
+                                        621,
+                                        570,
+                                        630
+                                    ],
+                                    "type": "text",
+                                    "content": "EXPEDIENTE DO DIA 31 DE MARÇ, DE 1990"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 67,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        406,
+                        633,
+                        586,
+                        670
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                406,
+                                633,
+                                586,
+                                670
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        406,
+                                        633,
+                                        586,
+                                        670
+                                    ],
+                                    "type": "text",
+                                    "content": "Do dr. secretario da Ag- icultura, schelando pagamento das seguintes contas de forrecimentos feitos à Repartição de Aguas e Engo, durante o mez de Fevereiro proximo passado :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 68,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        406,
+                        671,
+                        586,
+                        688
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                406,
+                                671,
+                                586,
+                                688
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        406,
+                                        671,
+                                        586,
+                                        688
+                                    ],
+                                    "type": "text",
+                                    "content": "De 6:000,000, à Compach à Mechanica e Importadora de S. Paulo;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 69,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        688,
+                        575,
+                        699
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                688,
+                                575,
+                                699
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        688,
+                                        575,
+                                        699
+                                    ],
+                                    "type": "text",
+                                    "content": "De 732\\$100, a Espíadola, Siqueira & Comp.;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 70,
+                    "merge_prev": false
+                }
+            ]
+        }
+    ],
+    "_backend": "vlm",
+    "_version_name": "3.4.4"
+}

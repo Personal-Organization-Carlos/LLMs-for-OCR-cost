@@ -1,0 +1,95 @@
+{
+  "chave": "google/gemini-3.5-flash-lite|1910-04-01_p985|p1|0",
+  "registro": {
+    "model_id": "google/gemini-3.5-flash-lite",
+    "prompt_id": "p1",
+    "doc_id": "1910-04-01_p985",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 27.386028499924578,
+    "prompt_tokens": 1125,
+    "completion_tokens": 3183,
+    "total_tokens": 4308,
+    "cost_usd": 0.0041475,
+    "cost_source": "tabela_precos",
+    "finish_reason": "STOP",
+    "truncated": false,
+    "api_provider": "gemini",
+    "provider_upstream": "google",
+    "generation_id": null,
+    "attempts": 1,
+    "timestamp_utc": "2026-09-07T23:26:16Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "generateContent",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Diário Oficial do Estado de São Paulo - 1 de Abril de 1910</title>\n    <style>\n        body {\n            font-family: \"Times New Roman\", Times, serif, \"Old Standard TT\", \"Cardo\";\n            background-color: #f7f5f0;\n            color: #111;\n            margin: 0;\n            padding: 20px;\n            line-height: 1.15;\n        }\n        .document {\n            max-width: 850px;\n            margin: 0 auto;\n            background: #fff;\n            padding: 40px;\n            box-shadow: 0 0 10px rgba(0,0,0,0.1);\n            border: 1px solid #d3cbbd;\n        }\n        \n        /* Cabeçalho */\n        .header {\n            text-align: center;\n            border-bottom: 2px solid #000;\n            padding-bottom: 10px;\n            margin-bottom: 15px;\n        }\n        .header h1 {\n            font-size: 16pt;\n            letter-spacing: 1px;\n            margin: 0 0 5px 0;\n            font-weight: bold;\n        }\n        .header h2 {\n            font-size: 26pt;\n            letter-spacing: 2px;\n            margin: 5px 0;\n            font-weight: bold;\n        }\n        .header h3 {\n            font-size: 14pt;\n            letter-spacing: 1px;\n            margin: 5px 0 15px 0;\n            font-weight: normal;\n        }\n        .meta-info {\n            display: flex;\n            justify-content: space-between;\n            font-size: 9pt;\n            border-top: 1px solid #000;\n            border-bottom: 1px solid #000;\n            padding: 4px 0;\n            margin-bottom: 20px;\n            font-weight: bold;\n        }\n\n        /* Layout em colunas */\n        .columns {\n            display: flex;\n            gap: 20px;\n        }\n        .column {\n            flex: 1;\n            text-align: justify;\n            font-size: 9.5pt;\n        }\n        \n        /* Estilos de títulos e textos */\n        h4.section-title {\n            text-align: center;\n            font-size: 12pt;\n            font-weight: bold;\n            text-transform: uppercase;\n            margin: 10px 0 15px 0;\n            border-bottom: 1px solid #000;\n            padding-bottom: 3px;\n        }\n        \n        h5.decree-title {\n            text-align: center;\n            font-size: 10pt;\n            font-weight: bold;\n            margin: 15px 0 5px 0;\n        }\n        \n        .decree-date {\n            text-align: center;\n            font-size: 9pt;\n            font-style: italic;\n            margin-bottom: 10px;\n        }\n        \n        .decree-sub {\n            text-align: center;\n            font-size: 8.5pt;\n            font-style: italic;\n            margin-bottom: 10px;\n            padding: 0 10px;\n        }\n\n        p {\n            margin: 0 0 8px 0;\n            text-indent: 15px;\n        }\n        \n        p.no-indent {\n            text-indent: 0;\n        }\n\n        .signatures {\n            text-align: center;\n            margin-top: 15px;\n            font-size: 9pt;\n            font-weight: bold;\n        }\n        \n        .signatures .name {\n            margin-top: 2px;\n        }\n        \n        .clause-title {\n            text-align: center;\n            font-size: 9.5pt;\n            font-weight: bold;\n            margin: 15px 0 10px 0;\n        }\n\n        .roman-numeral {\n            text-align: center;\n            font-size: 10pt;\n            font-weight: bold;\n            margin: 10px 0 5px 0;\n        }\n    </style>\n</head>\n<body>\n\n<div class=\"document\">\n    \n    <!-- Cabeçalho Principal -->\n    <div class=\"header\">\n        <h1>ESTADOS UNIDOS DO BRAZIL</h1>\n        <h2>DIARIO OFFICIAL</h2>\n        <h3>DO ESTADO DE SÃO PAULO</h3>\n    </div>\n    \n    <div class=\"meta-info\">\n        <span>ANNO 19.—22.ª DA REPUBLICA.—N. 68</span>\n        <span>SÃO PAULO</span>\n        <span>SEXTA-FEIRA 1 DE ABRIL DE 1910</span>\n    </div>\n\n    <!-- Conteúdo em Colunas -->\n    <div class=\"columns\">\n        \n        <!-- Coluna Esquerda -->\n        <div class=\"column\">\n            \n            <h4 class=\"section-title\">Actos do Poder Executivo</h4>\n            \n            <h5 class=\"decree-title\">DECRETO N. 1848</h5>\n            <div class=\"decree-date\">DE 28 DE MARÇO DE 1910</div>\n            <div class=\"decree-sub\"><i>Autoriza a Companhia Estrada de Ferro S. Paulo a Guyaz a<br>abrir ao trafego publico a linha de Bebedouro a Monte Azul</i></div>\n            \n            <p>O Vice-presidente do Estado de S. Paulo, em exercicio na fórma do § 1 artigo 27, da Constituição,</p>\n            <p>Attendendo ao que solicitou a Companhia Estrada de Ferro S. Paulo a Gayaz, e sob propo ta do secretario de Estado dos Negocios da Agricultura, Commercio e Obras Publicas,</p>\n            <p class=\"no-indent\"><b>Decreta:</b></p>\n            \n            <p><b>Artigo 1.º</b> Fica a Companhia Estrada de Ferro S. Paulo a Gayaz, auctorizada a abrir ao trafego publico a via ferrea de Bebedouro a Monte Azul, com 31 kilometros de extensão e á qual se referiu o decreto n. 1732, de 4 de Maio de 1909.</p>\n            <p><b>Artigo 2.º</b> A presente licença é concedida mediante a condição de, dentro do prazo de 30 dias, contados desta data, serem ultimados os serviços de assentamento da linha telegraphica de retoque do leito e de construção de cercas lateraes.</p>\n            \n            <p class=\"no-indent\" style=\"text-align: center; margin-top: 10px;\"><b>Palacio do Governo do Estado de S. Paulo, 29 de Março de 1910.</b></p>\n            \n            <div class=\"signatures\">\n                FERNANDO PRESTES DE ALBUQUERQUE.<br>\n                <div class=\"name\">ANTONIO EE PADUA SALLES</div>\n            </div>\n\n            <hr style=\"border: none; border-top: 1px dashed #666; margin: 20px 0;\">\n\n            <h5 class=\"decree-title\">DECRETO N. 1849</h5>\n            <div class=\"decree-date\">DE 29 DE MARÇO DE 1910</div>\n            <div class=\"decree-sub\"><i>Concede á Companhia Mogyana de Estradas de Ferro e Navegação licença para construcção, uso e goso de uma estrada de ferro que, iniciando-se no bairro de Jatahy, termine em Ribeirão Preto.</i></div>\n            \n            <p>O Vice-presidente do Estado de S. Paulo, em exercicio na fórma do § 1.º, art. 27 da Constituição.</p>\n            <p>Usando da attribuição que lhe confere o artigo 2.º da lei n. 30, de 13 de Junho de 1892, e attendendo ao requerido pela Companhia Mogyana de Estradas de Ferro e Navegação, nos termos dos paragraphos 2.º e 3.º do artigo e lei citados,</p>\n            <p class=\"no-indent\"><b>Decreta:</b></p>\n            \n            <p><b>Artigo unico.</b> Fica concedida á Companhia Mogyana de Estradas de Ferro e Navegação licença para construcção, uso e goso de uma via ferrea que — partindo do ponto terminal da que lhe foi concedida pelo decreto n. 1773, de 1.º de Outubro de 1909 — vá terminar em Ribeirão Preto, de conformidade com as clausulas que com este baixam, assignadas pelo sr. dr. secretario de Estado dos Negocios da Agricultura, Commercio e Obras Publicas.</p>\n            \n            <p class=\"no-indent\" style=\"text-align: center; margin-top: 10px;\"><b>Palacio do Governo do Estado de S. Paulo, 29 de Março de 1910.</b></p>\n            \n            <div class=\"signatures\">\n                FERNANDO PRESTES DE ALBUQUERQUE<br>\n                <div class=\"name\">ANTONIO DE PADUA SALLES.</div>\n            </div>\n\n        </div>\n        \n        <!-- Coluna Direita -->\n        <div class=\"column\">\n            \n            <div class=\"clause-title\">Clausulas a que refere o Decreto n. 1849, de 29 de Março de 1910</div>\n            \n            <div class=\"roman-numeral\">I</div>\n            <p>O Governo do Estado de S. Paulo concede á Companhia Mogyana de Estradas de Ferro e Navegação licença para construcção, uso e goso de uma estrada de ferro que, partindo do ponto terminal da que lhe foi concedida pelo Decreto n. 1773, de 1.º de Outubro de 1908 — vá terminar em Ribeirão Preto.</p>\n            \n            <div class=\"roman-numeral\">II</div>\n            <p>Esta estrada de ferro gosará de uma zona garantida, de cem metros de cada lado, reinuizada a 50 metros nas gargantas e declives de serras, limitadas por duas linhas parallelas ao eixo da via permanente, dentro da qual nenhuma outra estrada de ferro poderá receber ganeiros ou passageiros, salvo: 1.º, o caso de outra ou mais estradas tiram o mesmo ponto inicial ou terminal; 2.º, o caso em que o ponto inicial ou terminal de outra estrada esteja dentro da zona desta; 3.º, o caso de entroncamento referido nesta clausula.</p>\n            <p>Comtanto que dentro da zona garantida desta estrada de ferro não receba generos nem passageiros, poderá qualquer outra atravessar a mesma zona, cruzando a linha desta, sujeita, porém, aos onus provenientes do cruzamento.</p>\n            <p>Qualquer outra estrada de ferro poderá ter simultaneamente os mesmos pontos inicial e terminal desta, respeitada a zona garantida por esta clausula, bem como poderá entroncar na linha desta, resolvendo o Governo, definitivamente, em caso de desaccordo, para regular as relações provenientes de entroncamento.</p>\n            <p>Considerar-se-á entroncamento, não só o caso de ligação por meio de via permanente, como por meio de estação commum.</p>\n            \n            <div class=\"roman-numeral\">III</div>\n            <p>Gosará mais a estrada do ferro do direito de desappropriação, nos termos da legislação do Estado, para os terrenos necessarios á construcção da linha, estações, armazens e mais dependencias.</p>\n            <p>Quando fôr necessario iniciar uma acção de desappropriação, deverá ser apresentada ao Governo a respectiva planta, sómente da parte a desapropriar.</p>\n            <p>O Governo, dentro do prazo de trinta dias, da data da apresentação da planta, deverá conceder ou negar a licença, dando os motivos da racusa, no caso de negativa, e indicando as modificações de traçado, de modo a permittir a continuação da obra.</p>\n            <p>Si, dentro do prazo de trinta dias, o Governo não se manifestar, fca entendido que está concedida a mesma licença.</p>\n            \n            <div class=\"roman-numeral\">IV</div>\n            <p>O Governo prestará a esta estrada de ferro toda a protecção compativel com as leis, afim de que possa ella realizar a arrecadação das taxas estabelecidas, para que sejam respeitadas as disposições dos seus regulamentos e mantida a sua policia, devendo todo o empregado na arrecadação das taxas e na policia da linha ser cidadão da Republica.</p>\n            \n            <div class=\"roman-numeral\">V</div>\n            <p>Antes de iniciarem-se os trabalhos da construcção desta estrada de ferro, deverão ser submettidos á approvação do Governo os projectos de todo estes trabalhos, que comprehenderão:</p>\n\n        </div>\n        \n    </div>\n\n</div>\n\n</body>\n</html>\n```",
+                  "thoughtSignature": "El4KXAERTTIP8ORizfpDfYYthCxZVbO4PiOKEY8IFRjBPeOwMZkXH2p4c2/YXCd0zUz62jHRweWcv5lp+9bvTg0gJy5KMsSzxLtFP3rCKRb3N+49hkDdwm68fgOZkKEr"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "index": 0,
+            "citationMetadata": {
+              "citationSources": [
+                {
+                  "startIndex": 6620,
+                  "endIndex": 6949,
+                  "uri": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/1910/decreto-1849-29.03.1910.html",
+                  "license": ""
+                },
+                {
+                  "startIndex": 8540,
+                  "endIndex": 8758,
+                  "uri": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/1895/decreto-310-17.09.1895.html",
+                  "license": ""
+                },
+                {
+                  "startIndex": 8780,
+                  "endIndex": 9023,
+                  "uri": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/1895/decreto-310-17.09.1895.html",
+                  "license": ""
+                },
+                {
+                  "startIndex": 10143,
+                  "endIndex": 10339,
+                  "uri": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/1895/decreto-310-17.09.1895.html",
+                  "license": ""
+                }
+              ]
+            }
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 1125,
+          "candidatesTokenCount": 3183,
+          "totalTokenCount": 4308,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 52
+            },
+            {
+              "modality": "IMAGE",
+              "tokenCount": 1073
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "responseId": "GEifav3HN4SLmtkPsO7I-Qw"
+      }
+    }
+  ]
+}

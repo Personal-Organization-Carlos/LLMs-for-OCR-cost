@@ -1,0 +1,1952 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.5463,
+                "bbox": [
+                    631,
+                    25,
+                    1723,
+                    116
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.5954,
+                "bbox": [
+                    84,
+                    111,
+                    2287,
+                    422
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4923,
+                "bbox": [
+                    1467,
+                    477,
+                    2253,
+                    532
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9246,
+                "bbox": [
+                    154,
+                    577,
+                    1088,
+                    697
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7552,
+                "bbox": [
+                    162,
+                    751,
+                    1074,
+                    804
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9642,
+                "bbox": [
+                    66,
+                    835,
+                    1162,
+                    1054
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9497,
+                "bbox": [
+                    58,
+                    1078,
+                    1158,
+                    1163
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9615,
+                "bbox": [
+                    58,
+                    1160,
+                    1159,
+                    1329
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7355,
+                "bbox": [
+                    175,
+                    1320,
+                    349,
+                    1361
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9589,
+                "bbox": [
+                    49,
+                    1359,
+                    1157,
+                    1571
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7646,
+                "bbox": [
+                    164,
+                    1566,
+                    1152,
+                    1607
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.861,
+                "bbox": [
+                    53,
+                    1599,
+                    1154,
+                    1691
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5718,
+                "bbox": [
+                    589,
+                    1685,
+                    910,
+                    1727
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9565,
+                "bbox": [
+                    46,
+                    1798,
+                    1155,
+                    1934
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8719,
+                "bbox": [
+                    144,
+                    2013,
+                    1052,
+                    2066
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9412,
+                "bbox": [
+                    54,
+                    2094,
+                    1144,
+                    2225
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9391,
+                "bbox": [
+                    48,
+                    2254,
+                    1150,
+                    2380
+                ],
+                "index": 17
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9651,
+                "bbox": [
+                    47,
+                    2378,
+                    1151,
+                    2625
+                ],
+                "index": 18
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5913,
+                "bbox": [
+                    157,
+                    2622,
+                    1042,
+                    2664
+                ],
+                "index": 19
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6494,
+                "bbox": [
+                    157,
+                    2659,
+                    782,
+                    2712
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9414,
+                "bbox": [
+                    48,
+                    2777,
+                    1148,
+                    2869
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8349,
+                "bbox": [
+                    645,
+                    2866,
+                    1084,
+                    2954
+                ],
+                "index": 22
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7026,
+                "bbox": [
+                    152,
+                    3059,
+                    1048,
+                    3112
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7933,
+                "bbox": [
+                    47,
+                    3142,
+                    1147,
+                    3319
+                ],
+                "index": 24
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8249,
+                "bbox": [
+                    42,
+                    3341,
+                    1143,
+                    3444
+                ],
+                "index": 25
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5739,
+                "bbox": [
+                    1305,
+                    579,
+                    1481,
+                    626
+                ],
+                "index": 26
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9668,
+                "bbox": [
+                    1188,
+                    620,
+                    2291,
+                    870
+                ],
+                "index": 27
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9581,
+                "bbox": [
+                    1189,
+                    863,
+                    2289,
+                    953
+                ],
+                "index": 28
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8388,
+                "bbox": [
+                    1786,
+                    947,
+                    2226,
+                    1036
+                ],
+                "index": 29
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9182,
+                "bbox": [
+                    1527,
+                    1142,
+                    1939,
+                    1217
+                ],
+                "index": 30
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8668,
+                "bbox": [
+                    1293,
+                    1254,
+                    1896,
+                    1301
+                ],
+                "index": 31
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.95,
+                "bbox": [
+                    1184,
+                    1298,
+                    2289,
+                    1463
+                ],
+                "index": 32
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9557,
+                "bbox": [
+                    1184,
+                    1458,
+                    2285,
+                    1585
+                ],
+                "index": 33
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9658,
+                "bbox": [
+                    1181,
+                    1581,
+                    2285,
+                    1744
+                ],
+                "index": 34
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9598,
+                "bbox": [
+                    1180,
+                    1740,
+                    2282,
+                    1865
+                ],
+                "index": 35
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9632,
+                "bbox": [
+                    1182,
+                    1860,
+                    2281,
+                    1988
+                ],
+                "index": 36
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9521,
+                "bbox": [
+                    1181,
+                    1984,
+                    2282,
+                    2107
+                ],
+                "index": 37
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.969,
+                "bbox": [
+                    1178,
+                    2102,
+                    2285,
+                    2388
+                ],
+                "index": 38
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.923,
+                "bbox": [
+                    1179,
+                    2384,
+                    2275,
+                    2469
+                ],
+                "index": 39
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9221,
+                "bbox": [
+                    1176,
+                    2467,
+                    2277,
+                    2552
+                ],
+                "index": 40
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9534,
+                "bbox": [
+                    1177,
+                    2548,
+                    2277,
+                    2670
+                ],
+                "index": 41
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9677,
+                "bbox": [
+                    1176,
+                    2665,
+                    2277,
+                    2830
+                ],
+                "index": 42
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9491,
+                "bbox": [
+                    1176,
+                    2826,
+                    2274,
+                    2912
+                ],
+                "index": 43
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9382,
+                "bbox": [
+                    1176,
+                    2907,
+                    2272,
+                    2993
+                ],
+                "index": 44
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9187,
+                "bbox": [
+                    1176,
+                    2990,
+                    2273,
+                    3072
+                ],
+                "index": 45
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9358,
+                "bbox": [
+                    1175,
+                    3068,
+                    2272,
+                    3152
+                ],
+                "index": 46
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9279,
+                "bbox": [
+                    1174,
+                    3148,
+                    2271,
+                    3234
+                ],
+                "index": 47
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9076,
+                "bbox": [
+                    1174,
+                    3230,
+                    2270,
+                    3314
+                ],
+                "index": 48
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9317,
+                "bbox": [
+                    1173,
+                    3311,
+                    2271,
+                    3440
+                ],
+                "index": 49
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    642,
+                    32,
+                    1717,
+                    113
+                ],
+                "score": 0.997,
+                "text": "ESTADOS UNIDOS DO BRAZIL"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    82,
+                    115,
+                    2294,
+                    331
+                ],
+                "score": 0.999,
+                "text": "DIARIO OFFICIAL"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    542,
+                    326,
+                    1845,
+                    415
+                ],
+                "score": 0.994,
+                "text": "DO ESTADO DE SÃO PAULO"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1475,
+                    484,
+                    2245,
+                    526
+                ],
+                "score": 0.973,
+                "text": "QUINTA-FEIRA, 1.° DE ABRIL DE 1920"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    158,
+                    575,
+                    1082,
+                    705
+                ],
+                "score": 0.988,
+                "text": "Actos do Poder Executivo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    171,
+                    754,
+                    1065,
+                    804
+                ],
+                "score": 0.97,
+                "text": "DECRETO N. 3185 — DE 30 DE MARÇO DE 1920"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    83,
+                    840,
+                    1151,
+                    882
+                ],
+                "score": 0.992,
+                "text": "Abre á Secretaría da Fazenda e do Thesouro do Estado,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    182,
+                    882,
+                    1154,
+                    925
+                ],
+                "score": 0.978,
+                "text": "un credito especial. de vinte e cinco contos, novecentos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    183,
+                    922,
+                    1150,
+                    966
+                ],
+                "score": 0.958,
+                "text": "e setenta e quatro mil e oitocentos e vinte réis......"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    184,
+                    963,
+                    1152,
+                    1006
+                ],
+                "score": 0.958,
+                "text": "(25:971$820), para fazir face ás despezas effetuadas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    183,
+                    1006,
+                    1049,
+                    1044
+                ],
+                "score": 0.973,
+                "text": "com a epidemia de grippe no exercicio de 1919."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    181,
+                    1080,
+                    1151,
+                    1125
+                ],
+                "score": 0.998,
+                "text": "O Doutor Altino Arantes, Presideute do Estado de São"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    69,
+                    1117,
+                    189,
+                    1167
+                ],
+                "score": 1.0,
+                "text": "Paulo,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    181,
+                    1160,
+                    1152,
+                    1206
+                ],
+                "score": 0.989,
+                "text": "Attendendo ao que lhe representou o sr. Secretario de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    77,
+                    1201,
+                    1150,
+                    1246
+                ],
+                "score": 0.958,
+                "text": "Estado dos Negocios da Fazenda e do Thesquro e usan lo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    74,
+                    1242,
+                    1149,
+                    1287
+                ],
+                "score": 0.971,
+                "text": "da faculdade que lhe confere a Lei r. 1605 de 31 de Ou-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    73,
+                    1284,
+                    350,
+                    1324
+                ],
+                "score": 1.0,
+                "text": "tubro de 1918,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    182,
+                    1320,
+                    338,
+                    1367
+                ],
+                "score": 0.946,
+                "text": "Decreta :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    178,
+                    1355,
+                    1152,
+                    1409
+                ],
+                "score": 0.962,
+                "text": "Artigo 1.º — Fic: aberto na Secretaiia da Fazenda e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    71,
+                    1403,
+                    1148,
+                    1448
+                ],
+                "score": 0.98,
+                "text": "do Thesouro do Estado um credito especial de vinte e cinco"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    72,
+                    1447,
+                    1149,
+                    1487
+                ],
+                "score": 0.977,
+                "text": "contos, novecentos e setenta e quatro mil e oitocentos e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    71,
+                    1486,
+                    1148,
+                    1527
+                ],
+                "score": 0.974,
+                "text": "vinte réis (Rs. 25:974$820) para fazer face ás' despezas effe-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    61,
+                    1528,
+                    1145,
+                    1569
+                ],
+                "score": 0.985,
+                "text": "etuadas. com a epidemia de grippe no exercicio de 1919."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    181,
+                    1563,
+                    1147,
+                    1611
+                ],
+                "score": 0.967,
+                "text": "Artigo 2.º  Revogam-ss as disposições em contrario."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    173,
+                    1600,
+                    1149,
+                    1654
+                ],
+                "score": 0.978,
+                "text": "Palacio do Governo do Estado de São Paulo, em 30"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    71,
+                    1645,
+                    401,
+                    1688
+                ],
+                "score": 0.97,
+                "text": "de Março de 1920."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    596,
+                    1688,
+                    902,
+                    1728
+                ],
+                "score": 0.985,
+                "text": "ALTINO ARANTES."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    176,
+                    1803,
+                    1145,
+                    1846
+                ],
+                "score": 0.985,
+                "text": "Publicado na Secretaria da Fazenda e do Thesou o do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    65,
+                    1845,
+                    1146,
+                    1888
+                ],
+                "score": 0.954,
+                "text": "Estado de São P'anlo, em 31 de Màrço de 1920.--Theophilo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    74,
+                    1886,
+                    564,
+                    1926
+                ],
+                "score": 0.975,
+                "text": "M. Nobregja, director-geral."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    157,
+                    2018,
+                    1043,
+                    2063
+                ],
+                "score": 0.941,
+                "text": "DECRETO N. 3186 — DE 3O DE MARÇO DE 1920"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    69,
+                    2101,
+                    1133,
+                    2140
+                ],
+                "score": 0.969,
+                "text": "Abre no Thesouro ds Esta lo um credito de 253:739s000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    173,
+                    2144,
+                    1133,
+                    2182
+                ],
+                "score": 0.987,
+                "text": "para liquidaçãc da despesa da Secretaria do Interior"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    175,
+                    2186,
+                    553,
+                    2218
+                ],
+                "score": 0.984,
+                "text": "no exercicio de 1919."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    171,
+                    2257,
+                    1146,
+                    2305
+                ],
+                "score": 0.963,
+                "text": "( Presideunte do Estado, usaudo da auctorisação que"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    2300,
+                    1142,
+                    2345
+                ],
+                "score": 0.971,
+                "text": "lhe é couferida pela lei n. 1.673, de 2 de Dezembro de 1919,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    173,
+                    2342,
+                    333,
+                    2381
+                ],
+                "score": 0.962,
+                "text": "Decreta :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    170,
+                    2377,
+                    1142,
+                    2427
+                ],
+                "score": 0.959,
+                "text": "Artigo unico. — Fica aberto no Thesouro do Estade,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    61,
+                    2421,
+                    1143,
+                    2465
+                ],
+                "score": 0.973,
+                "text": "á Secrecaria de Fstado dos Negocios do Interior, um credito"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    61,
+                    2463,
+                    1143,
+                    2506
+                ],
+                "score": 0.977,
+                "text": "supplementar de duzentos e cincoenta e tres contos sétecen-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    61,
+                    2503,
+                    1143,
+                    2547
+                ],
+                "score": 0.995,
+                "text": "tos e triuta e nove mil réis (253:739$000), para saldar o"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    2542,
+                    1142,
+                    2590
+                ],
+                "score": 0.978,
+                "text": "deficit verificado pas seguintes rubricas do orçamento para"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    66,
+                    2586,
+                    441,
+                    2622
+                ],
+                "score": 0.997,
+                "text": "o exercicio de 1919:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    167,
+                    2621,
+                    772,
+                    2672
+                ],
+                "score": 0.763,
+                "text": "§ 2.º Senado ……… … ……"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    834,
+                    2627,
+                    1032,
+                    2665
+                ],
+                "score": 1.0,
+                "text": "52:206$000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    159,
+                    2656,
+                    779,
+                    2712
+                ],
+                "score": 0.826,
+                "text": "§ 3.° Camara dos Deputados......"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    167,
+                    2781,
+                    1141,
+                    2829
+                ],
+                "score": 0.985,
+                "text": "Palacio do Governo do Estado de São Paulo, tos 30"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    63,
+                    2824,
+                    398,
+                    2864
+                ],
+                "score": 0.958,
+                "text": "de Março de 1920."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    657,
+                    2867,
+                    963,
+                    2906
+                ],
+                "score": 0.984,
+                "text": "ALTINO ARANTES."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    657,
+                    2907,
+                    1077,
+                    2951
+                ],
+                "score": 0.962,
+                "text": "Oscar Rodrigues Alves."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    162,
+                    3061,
+                    1039,
+                    3112
+                ],
+                "score": 0.967,
+                "text": "DECRETO N. 3187 — DE 3 DE MAR;O DE 1920"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    65,
+                    3148,
+                    1140,
+                    3190
+                ],
+                "score": 0.968,
+                "text": "Abre no Thesouro do Estado, á Secretaria de Estado dos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    167,
+                    3190,
+                    1132,
+                    3232
+                ],
+                "score": 0.972,
+                "text": "Negocios do Interior, um credito especial de rs... ....."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    166,
+                    3229,
+                    1135,
+                    3273
+                ],
+                "score": 0.969,
+                "text": "3.386:403§468, para as despesas feitas com a epide-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    167,
+                    3271,
+                    430,
+                    3311
+                ],
+                "score": 0.994,
+                "text": "mia de grippe."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    160,
+                    3343,
+                    1138,
+                    3395
+                ],
+                "score": 0.989,
+                "text": "O presidente do Estado, usando da auctorisação que"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    55,
+                    3387,
+                    1136,
+                    3434
+                ],
+                "score": 0.996,
+                "text": "lhe é conferida pela lei n. 1.605, de 31 de Outubro de 1918,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1312,
+                    585,
+                    1473,
+                    631
+                ],
+                "score": 0.992,
+                "text": "Decreta :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1312,
+                    624,
+                    2283,
+                    665
+                ],
+                "score": 0.983,
+                "text": "Artigo unico. — Fica aterto po 'Thesouro do Estado,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1203,
+                    667,
+                    2282,
+                    704
+                ],
+                "score": 0.985,
+                "text": "á Secretaria de Estado dos Negocios do Iaterior, um credito"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1204,
+                    710,
+                    2283,
+                    745
+                ],
+                "score": 0.978,
+                "text": "especial de tres inil trezentos e oitenta e seis contos qua-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1203,
+                    751,
+                    2276,
+                    784
+                ],
+                "score": 0.977,
+                "text": "trocentos e trez mil quatrocentos e sessenta e oito réis......"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1203,
+                    790,
+                    2279,
+                    826
+                ],
+                "score": 0.995,
+                "text": "(3.386:403$468), para as despesas feitas com a epidemia de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1202,
+                    835,
+                    1332,
+                    874
+                ],
+                "score": 1.0,
+                "text": "grippe."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1285,
+                    868,
+                    2280,
+                    908
+                ],
+                "score": 0.99,
+                "text": ",Palacio do Governo;do Estado de São Paulo, aos 30"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1205,
+                    912,
+                    1540,
+                    947
+                ],
+                "score": 0.997,
+                "text": "de Março de 1920."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1800,
+                    951,
+                    2106,
+                    989
+                ],
+                "score": 0.995,
+                "text": "ALTINO ARANTES."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1800,
+                    990,
+                    2219,
+                    1030
+                ],
+                "score": 0.971,
+                "text": "Oscar Rodrigues Alves."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1530,
+                    1153,
+                    1935,
+                    1214
+                ],
+                "score": 1.0,
+                "text": "INTERIOR"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1303,
+                    1256,
+                    1888,
+                    1300
+                ],
+                "score": 0.994,
+                "text": "Por decretos de 31 do correnté:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1303,
+                    1301,
+                    2275,
+                    1340
+                ],
+                "score": 0.986,
+                "text": "foram aposentados o dr. Augusto Militão Pacheco, in-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1197,
+                    1344,
+                    2277,
+                    1380
+                ],
+                "score": 0.986,
+                "text": "spector sanitario da Capital e o sr. Autonio Egydio Martins,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1197,
+                    1385,
+                    2277,
+                    1421
+                ],
+                "score": 0.994,
+                "text": "1.\" escripturario da Repartição de Estatistica e Archivo do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1197,
+                    1420,
+                    1343,
+                    1465
+                ],
+                "score": 0.951,
+                "text": "Estado ;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1270,
+                    1459,
+                    2277,
+                    1503
+                ],
+                "score": 0.983,
+                "text": " foi removido o inspecfor sanitario da Delegacia de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1197,
+                    1503,
+                    2274,
+                    1543
+                ],
+                "score": 0.933,
+                "text": "Saúde de Conpinas, dr.\" João Paes Leme de Monlevade,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1199,
+                    1548,
+                    1765,
+                    1584
+                ],
+                "score": 0.97,
+                "text": "para igual cargonestt Capital:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1302,
+                    1580,
+                    2276,
+                    1624
+                ],
+                "score": 0.983,
+                "text": "foram uomeados inspectores sauitarios os drs. João"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1198,
+                    1623,
+                    2275,
+                    1664
+                ],
+                "score": 0.985,
+                "text": "Thomaz Monteiro da Silva, para S. Carlos; Daniel Martins,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1196,
+                    1666,
+                    2274,
+                    1705
+                ],
+                "score": 0.995,
+                "text": "para Botucatú; Justiniano Lisbôa e Jorge Dutra Fragoso,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1197,
+                    1708,
+                    1428,
+                    1745
+                ],
+                "score": 0.942,
+                "text": "pare Santos;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1302,
+                    1740,
+                    2274,
+                    1784
+                ],
+                "score": 0.967,
+                "text": "foi nomead, o sr. Alfredo de Barros Santos, para exer-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1179,
+                    1785,
+                    2273,
+                    1822
+                ],
+                "score": 0.999,
+                "text": ".cer o cargo de auxiliar do director da Escola Profissional"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1199,
+                    1825,
+                    1596,
+                    1864
+                ],
+                "score": 0.941,
+                "text": "Masculinm da Capital;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1266,
+                    1860,
+                    2274,
+                    1905
+                ],
+                "score": 0.981,
+                "text": ". foi promovido a 2.’ escripturario da Directoria Geral"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1196,
+                    1904,
+                    2270,
+                    1947
+                ],
+                "score": 0.97,
+                "text": "do Serviço Sanitario, o 3.º escripturario da mesma reparti-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1197,
+                    1947,
+                    1898,
+                    1988
+                ],
+                "score": 0.973,
+                "text": "ção, sr. Bernardino dc Campos Araujo;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1300,
+                    1986,
+                    2273,
+                    2026
+                ],
+                "score": 0.989,
+                "text": "foi nomeado o dr. Henrique Jorge Guedes para exercer"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1192,
+                    2028,
+                    2273,
+                    2065
+                ],
+                "score": 0.976,
+                "text": "o cargo de lente substituto interino da 2.* secção da Escola"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1197,
+                    2068,
+                    1669,
+                    2106
+                ],
+                "score": 0.98,
+                "text": "Polytechnica de S. Paulo;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1299,
+                    2105,
+                    2272,
+                    2145
+                ],
+                "score": 0.973,
+                "text": "foi trausferido o dr. Francisco Pereira Ramos; lente"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1195,
+                    2146,
+                    2276,
+                    2186
+                ],
+                "score": 0.996,
+                "text": "cathedratico das cadeiras reunidas de Physica Industrial e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1195,
+                    2185,
+                    2275,
+                    2227
+                ],
+                "score": 0.968,
+                "text": "Electrotechnica (1.* parte) da Escola Polyteclnica dc Sào"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1195,
+                    2227,
+                    2271,
+                    2267
+                ],
+                "score": 0.993,
+                "text": "Panlo, para lente cathedratico da cadeira isolada de Econo-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1192,
+                    2267,
+                    2271,
+                    2305
+                ],
+                "score": 0.973,
+                "text": "mia Politica. Elementos de Estatisca. Noções le Direito"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1193,
+                    2308,
+                    2267,
+                    2346
+                ],
+                "score": 0.963,
+                "text": "Administrativo da mesma Escola, de accôrdo coun : art. 20,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1190,
+                    2348,
+                    2151,
+                    2386
+                ],
+                "score": 0.975,
+                "text": "§ 3.\" do Decreto n. 2.931, de 12 de Junho de 1918;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1298,
+                    2388,
+                    2269,
+                    2428
+                ],
+                "score": 0.998,
+                "text": "foi annexada ao grupo escolar de Pirajú a escola mixta"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1193,
+                    2428,
+                    1940,
+                    2468
+                ],
+                "score": 0.978,
+                "text": "urbaua, das Paivas, da mesma localidade;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1296,
+                    2466,
+                    2271,
+                    2511
+                ],
+                "score": 0.989,
+                "text": "foi dada a deuominação de «Francisco Simões», ao"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1190,
+                    2511,
+                    1774,
+                    2553
+                ],
+                "score": 0.984,
+                "text": "grupo escolar de Dois Corregos;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1293,
+                    2545,
+                    2271,
+                    2592
+                ],
+                "score": 0.999,
+                "text": "foi effectivado no cargo de director do grupo escolar"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1188,
+                    2587,
+                    2268,
+                    2631
+                ],
+                "score": 0.972,
+                "text": ".de Tambahú, o actual director interino, professor Mancel"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1194,
+                    2632,
+                    1605,
+                    2668
+                ],
+                "score": 0.986,
+                "text": "Nogueira de Carvalho;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1291,
+                    2665,
+                    2268,
+                    2710
+                ],
+                "score": 0.984,
+                "text": "foram nomeadas adjunctas dos grupos escolares de Ri-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1190,
+                    2708,
+                    2268,
+                    2750
+                ],
+                "score": 0.981,
+                "text": "beirão Bonito e Brotas, as seguintes professoras dd. Maria"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1189,
+                    2747,
+                    2268,
+                    2792
+                ],
+                "score": 0.982,
+                "text": "Paula de Paula Sousa, Maria Silveira Almeida, respectiva-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1189,
+                    2791,
+                    1316,
+                    2828
+                ],
+                "score": 0.977,
+                "text": "mente ;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1292,
+                    2827,
+                    2267,
+                    2873
+                ],
+                "score": 0.984,
+                "text": "foram removidos, a pedido, os seguintes adjunctos de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1187,
+                    2873,
+                    1494,
+                    2908
+                ],
+                "score": 0.989,
+                "text": "grupos escolares :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1288,
+                    2906,
+                    2266,
+                    2952
+                ],
+                "score": 0.993,
+                "text": "d. Maria Λugusta de Andrade Justo, do de Brotas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1186,
+                    2949,
+                    1913,
+                    2993
+                ],
+                "score": 0.986,
+                "text": "para o «Antonio Padilha», de Sorocabt;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1191,
+                    3026,
+                    1958,
+                    3075
+                ],
+                "score": 0.984,
+                "text": "«Viscoude de Porto Seguro», de Sorocaba;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1292,
+                    2989,
+                    2267,
+                    3032
+                ],
+                "score": 0.989,
+                "text": "d. Dulce de Barros Pereira, d de Brotas, para o"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1291,
+                    3064,
+                    2266,
+                    3116
+                ],
+                "score": 0.985,
+                "text": "Luiz do Amaral Waguer, do «Antonio Padilha», de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1186,
+                    3109,
+                    1692,
+                    3155
+                ],
+                "score": 0.97,
+                "text": "Sorjcaba, para o de Brotas;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1286,
+                    3132,
+                    2271,
+                    3199
+                ],
+                "score": 0.982,
+                "text": "d. Mariauna Mastroandréa, do «Visconde de Porto Se-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1183,
+                    3189,
+                    1882,
+                    3235
+                ],
+                "score": 0.989,
+                "text": "guro», de Sorocaba, para o de Brotas;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1290,
+                    3226,
+                    2263,
+                    3277
+                ],
+                "score": 0.999,
+                "text": "d. Edemea Rudge Ramos Parada, do de Belémzinho,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1186,
+                    3272,
+                    1920,
+                    3313
+                ],
+                "score": 0.967,
+                "text": "pira o de S. João. ambos desta Capital;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1290,
+                    3307,
+                    2262,
+                    3355
+                ],
+                "score": 0.977,
+                "text": "forain exoneradas, a pedido, do cargo de adjunctas do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1184,
+                    3352,
+                    2216,
+                    3395
+                ],
+                "score": 0.999,
+                "text": "grupo escolar do Bebedouro, d. Luiza Oliveira Algodoal"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1184,
+                    3391,
+                    2118,
+                    3436
+                ],
+                "score": 0.964,
+                "text": "d, Tamilde Rossi Magalhães, do 1.º de Araraquara;"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 2335,
+            "height": 3454
+        }
+    }
+]

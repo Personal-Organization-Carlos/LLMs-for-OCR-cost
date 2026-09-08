@@ -1,0 +1,78 @@
+{
+  "chave": "qwen/qwen3-vl-235b-a22b-instruct|1900-04-01_p735|p1|0",
+  "registro": {
+    "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "prompt_id": "p1",
+    "doc_id": "1900-04-01_p735",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 72.72660689998884,
+    "prompt_tokens": 2607,
+    "completion_tokens": 3693,
+    "total_tokens": 6300,
+    "cost_usd": 0.00451854,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Alibaba",
+    "generation_id": "gen-1788813917-hZB4maLrp2Dc1l7A5Efl",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-07T20:45:17Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788813917-hZB4maLrp2Dc1l7A5Efl",
+        "object": "chat.completion",
+        "created": 1788813917,
+        "model": "qwen/qwen3-vl-235b-a22b-instruct",
+        "provider": "Alibaba",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Diário Oficial - Abril 1900</title>\n    <style>\n        body { font-family: serif; line-height: 1.4; margin: 2cm; }\n        .header { text-align: center; font-weight: bold; border-bottom: 2px solid black; padding-bottom: 5px; }\n        .date { float: right; }\n        .column { column-count: 3; column-gap: 1.5cm; }\n        .section-title { font-size: 1.2em; font-weight: bold; text-align: center; margin: 1em 0; }\n        .table { border-collapse: collapse; width: 100%; margin: 1em 0; }\n        .table td, .table th { border: 1px solid black; padding: 3px; text-align: center; }\n        .bold { font-weight: bold; }\n        .italic { font-style: italic; }\n        .center { text-align: center; }\n        .right { text-align: right; }\n        .left { text-align: left; }\n        .small { font-size: 0.9em; }\n        .underline { text-decoration: underline; }\n    </style>\n</head>\n<body>\n    <div class=\"header\">\n        DIARIO OFFICIAL\n        <div class=\"date\">Abril 1900 — 7.35</div>\n    </div>\n\n    <div class=\"column\">\n\n        <p>Domingo, 1</p>\n\n        <p>Officiou á directoria pedindo providencias para que seja feita uma vistoria nos predios da rua Bresser ns. 42 e 44.</p>\n\n        <p><i>Consolação—1.ª secção</i></p>\n\n        <p>O dr. Synesio Pestana, inspector sanitario desta secção, visitou hontem as casas da rua 7 de Abril de ns. 89 a 126.</p>\n\n        <p>Estão em regulares condições hygienicas.</p>\n\n        <p>A’ rua Braulio Gomes visitou a casa n. 10 a procura de uma fabrica de vinhos.</p>\n\n        <p><i>Consolação—2.ª secção</i></p>\n\n        <p>O dr. Evaristo Bacellar, inspector sanitario desta secção, visitou hoje as casas da rua dr. Abreu-ches de n.º 1 a 51, inclusive 1 armazem da secção a cocheira da Companhia Viação Paulista.</p>\n\n        <p>Vaccinou 9 crianças.</p>\n\n        <p>Expediu 31 licenças.</p>\n\n        <p>Encontrou todas as casas em regulares condições de asseio.</p>\n\n        <p>E' bom o estado sanitario.</p>\n\n        <p><i>Consolação—4.ª secção</i></p>\n\n        <p>O dr. Alfredo Guaraná, inspector sanitario desta secção, visitou hoje 25 casas da rua Victorino Carmilo, de ns. 1 a 11 e de 13 a 69, encontrando-as, na sua maioria, em boas condições de asseio.</p>\n\n        <p>E' bom o estado sanitario.</p>\n\n        <div class=\"section-title\">NOTICIARIO</div>\n\n        <p><b>Guarda nacional.</b>—Foram declarados sem effeito:</p>\n\n        <p>O decreto de 17 de Março ultimo que nomeou Augusto Moreira de Carvalho para o posto de capitão da 1.ª companhia do 126.º batalhão de infantaria da guarda nacional da comarca de Santos;</p>\n\n        <p>O decreto da mesma data que annulou a nomeação de Antão Alves de Moura para o posto de capitão da 1.ª companhia do 126.º batalhão de infantaria da guarda nacional da comarca de Santos, ficando subsistente o decreto de 26 de Agosto do anno passado na parte em que nomeou o referido official.</p>\n\n        <p><b>Pagamentos.</b>—Pelo Ministerio da Industria, Viação e Obras Publicas foram solicitados do da Fazenda os seguintes pagamentos:</p>\n\n        <p>De £ 2093-13-4 á Companhia Mecchanica e Importadora de S. Paulo, de fornecimento feito á Estrada de Ferro Central do Brazil, em Dezembro do anno passado.</p>\n\n        <p>De £ 552-14-10 idem, idem, idem, em Dezembro do anno passado.</p>\n\n        <p><b>Camara Syndical.</b>—Cotação dos fundos publicos e particulares no dia 30 de Março de 1:00:</p>\n\n        <table class=\"table\">\n            <tr><td>Sobre Londres</td><td>8 7/12</td><td>7 3/3</td></tr>\n            <tr><td>Paris</td><td>1150</td><td>1173</td></tr>\n            <tr><td>Hamburgo</td><td>1432</td><td>1455</td></tr>\n            <tr><td>Italia</td><td>—</td><td>1108</td></tr>\n            <tr><td>Portugal</td><td>—</td><td>480</td></tr>\n            <tr><td>New-York</td><td>—</td><td>6110</td></tr>\n            <tr><td>Scheras</td><td>—</td><td>—</td></tr>\n        </table>\n\n        <p><b>CURSO OFFICIAL DOS FUNDOS PUBLICOS E PARTICULARES</b></p>\n\n        <p><b>Bancos</b></p>\n\n        <p>São Paulo . . . . . . . . . 147$000</p>\n\n        <p>Mercantil de Santos . . . . . . . 138$000</p>\n\n        <p><b>Companhias</b></p>\n\n        <p>Paulista de Vias Ferrêas e Fluviaes . . . 253$000</p>\n\n        <p>Dita de idem, a 30 dias (4 vontade do vendedor) . . . . . . . . . . . 259$000</p>\n\n        <p><b>Letras hypothecarias</b></p>\n\n        <p>Banco de Credito Real de São Paulo, 8ª, 9.ª e 11.ª . . . . . . . . . . 63$000</p>\n\n        <p>S. Paulo, 30 de Março de 1900.—O syndico, Henry White.</p>\n\n        <p><b>DIA 31</b></p>\n\n        <table class=\"table\">\n            <tr><td>SO d/v</td><td>A' vista</td></tr>\n            <tr><td>Sobre Londres</td><td>8 1/8</td><td>8 d.</td></tr>\n            <tr><td>Paris</td><td>1174</td><td>1192</td></tr>\n            <tr><td>Hamburgo</td><td>1449</td><td>1472</td></tr>\n            <tr><td>Italia</td><td>—</td><td>1110</td></tr>\n            <tr><td>Portugal</td><td>—</td><td>485</td></tr>\n            <tr><td>New-York</td><td>—</td><td>6181</td></tr>\n            <tr><td>Scheranos</td><td>—</td><td>—</td></tr>\n        </table>\n\n        <p><b>CURSO OFFICIAL DOS FUNDOS PUBLICOS E PARTICULARES</b></p>\n\n        <p><b>Bancos</b></p>\n\n        <p>São Paulo . . . . . . . . . 147$000</p>\n\n        <p><b>Companhias</b></p>\n\n        <p>Paulista de Vias Ferrêas e Fluviaes . . . 200$000</p>\n\n        <p><b>Letras hypothecarias</b></p>\n\n        <p>Banco de Credito Real de S. Paulo, 4.ª a 9.ª séries . . . . . . . . . . 63$000</p>\n\n        <p>São Paulo, 31 de Março de 1900.—O syndico, Henry White.</p>\n\n        <p><b>Hospedaria de Immigrantes.</b>—Boletim do movimento de immigrantes no dia 31 de Março de 1900:</p>\n\n        <table class=\"table\">\n            <tr><th colspan=\"2\">TOTAL</th><th rowspan=\"2\">Pedidos... Concedidas... Embarcadas...</th><th rowspan=\"2\">Saíram para a capital</th><th rowspan=\"2\">Saíram por conta própria.</th><th rowspan=\"2\">Falleceram</th><th rowspan=\"2\">1 fazendeiro faz pedido de 5 famílias</th></tr>\n            <tr><th>Passagens</th><th>Por contracto</th></tr>\n            <tr><td>TOTAL</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>43</td></tr>\n            <tr><td>Menores de 2 annos</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>\n            <tr><td>De 2 a 6 annos</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>\n            <tr><td>De 7 a 12 annos</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>\n            <tr><td>Maiores de 12 annos</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>\n            <tr><td>Movimento</td><td>Existiam</td><td>Entraram</td><td>Bagagem</td><td>Saíram</td><td>Existem</td><td>—</td></tr>\n        </table>\n\n        <p><b>Hospedaria de Immigrantes em São Paulo, 31 de Março de 1900.</b>—O ajudante do director, João M. Pinheiro.</p>\n\n        <p><b>Obituario.</b>—Foram sepultados no Cemiterio Municipal do Araçá os seguintes cadaveres:</p>\n\n        <p>Dia 25</p>\n\n        <p>Domingos dos Santos, 50 annos, brazileiro; hemorrhagia cerebral.</p>\n\n        <p>Maria Luisa, 60 annos, italiana, casada; embolia cerebral.</p>\n\n        <p>Mathias Congo, 70 annos, solteiro, africano; arterio sclerose.</p>\n\n        <p>Benedicta Maria Conceição, 19 annos, brazileira, solteira; endocardite syphilitica.</p>\n\n        <p>Antonio Correia Costa, 82 annos, portuguez, casado; tuberculose pulmonar.</p>\n\n        <p>Feto masculino, filho de Ernesto Pertlesi; nasceu morto.</p>\n\n        <p>Feto masculino, filho de Antorelli Giovanni; nasceu morto.</p>\n\n        <p>Feto masculino, filho de Carmine Natulli; nasceu morto.</p>\n\n        <p>Maria, 13 mezes, brazileira, filha de João Ron; bronchite.</p>\n\n        <p>Januario Rocco, 55 annos, italiano, solteiro; insufficiencia mitral.</p>\n\n        <p>Benedicta Ancelina Jesus, 23 annos, brazileira, solteira; tuberculose.</p>\n\n        <p>Dia 26</p>\n\n        <p>Aldo Rescoli, 17 annos, italiano, solteiro; febre amarella.</p>\n\n        <p>Jacintho Pinheiro, 9 annos, portuguez; febre amarella.</p>\n\n        <p>Carlos, 8 mezes, brazileiro, filho de José Pereira Simões; gastro enterite.</p>\n\n        <p>Feto masculino, filho de Vicenzo Boccia; nasceu morto.</p>\n\n        <p>Francisco, 17 mezes, brazileiro, filho de Miguel Depetrangle; eclampsia.</p>\n\n        <p>João das Dores Pestana, 25 annos, portuguez, solteiro; febre amarella.</p>\n\n        <p>Julio Cesar Martins Pestana, 52 annos, portuguez, casado; febre amarella.</p>\n\n        <p>Angelina, 3 annos, brazileira, filha de Michele Gaira; bronchite capillar.</p>\n\n        <p>Felicio Ferreira dos Santos, 31 annos, brazileiro, casado; peritonite traumatica.</p>\n\n        <p>João Evangelista, 33 annos, brazileiro, solteiro; tuberculose.</p>\n\n        <p>Francisco, 4 annos, brazileiro, filho de d. Eugenia Maria Conceição; infecção malarica.</p>\n\n        <p>Mafalda Ferraz, 50 annos, brazileira, solteira; queimadura.</p>\n\n        <p>Pedro Caifa, 22 annos, italiano solteiro; insufficiencia mitral.</p>\n\n        <p>Isabel Slatine, 60 annos, italiana viuva; congestão cerebral.</p>\n\n        <p>Dia 27</p>\n\n        <p>Angelo Barella, 72 annos, italiano, viuvo; sclerose cerebral.</p>\n\n        <p>Angelo Tedesco, 30 annos, italiano, casado; uremia.</p>\n\n        <p>Joaquim, 16 dias, brazileiro, filho de João Antonio de Oliveira; inviabilidade.</p>\n\n        <p>José Rodrigues, 41 annos, portuguez, casado; Narcisa Amelia Araujo, 32 annos, brazileira, solteira;</p>\n\n        <p>Malvina Maria Alexandrina, 35 annos, solteira, brazileira; cachexia epileptica.</p>\n\n        <p>Paschoal Annunziato, 18 annos, italiano, solteiro; tuberculose.</p>\n\n        <p>Leonardo Lo'e, 45 annos, italiano, casado; febre typhoide.</p>\n\n        <p>Antonio Pereira, 56 annos, portuguez, casado; peritonite em consequencia de fractura.</p>\n\n    </div>\n</body>\n</html>",
+              "refusal": null,
+              "reasoning": null
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2607,
+          "completion_tokens": 3693,
+          "total_tokens": 6300,
+          "cost": 0.00451854,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00451854,
+            "upstream_inference_prompt_cost": 0.00067782,
+            "upstream_inference_completions_cost": 0.00384072
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

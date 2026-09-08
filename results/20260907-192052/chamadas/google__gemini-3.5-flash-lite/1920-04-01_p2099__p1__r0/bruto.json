@@ -1,0 +1,67 @@
+{
+  "chave": "google/gemini-3.5-flash-lite|1920-04-01_p2099|p1|0",
+  "registro": {
+    "model_id": "google/gemini-3.5-flash-lite",
+    "prompt_id": "p1",
+    "doc_id": "1920-04-01_p2099",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 10.052271299995482,
+    "prompt_tokens": 1132,
+    "completion_tokens": 2977,
+    "total_tokens": 4109,
+    "cost_usd": 0.00389105,
+    "cost_source": "tabela_precos",
+    "finish_reason": "STOP",
+    "truncated": false,
+    "api_provider": "gemini",
+    "provider_upstream": "google",
+    "generation_id": null,
+    "attempts": 1,
+    "timestamp_utc": "2026-09-07T23:28:27Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "generateContent",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diario Oficial - Citação</title>\n<style>\n    body {\n        font-family: \"Times New Roman\", Times, serif;\n        font-size: 11pt;\n        line-height: 1.15;\n        margin: 20px;\n        color: #000;\n    }\n    .header-top {\n        display: flex;\n        justify-content: space-between;\n        font-weight: bold;\n        border-bottom: 1.5px solid #000;\n        border-top: 1.5px solid #000;\n        padding: 4px 0;\n        margin-bottom: 15px;\n        font-size: 10pt;\n    }\n    .main-title {\n        text-align: center;\n        font-weight: bold;\n        font-size: 14pt;\n        margin-bottom: 15px;\n        letter-spacing: 1px;\n    }\n    .columns {\n        column-count: 3;\n        column-gap: 15px;\n        text-align: justify;\n        hyphens: auto;\n    }\n    p {\n        text-indent: 15px;\n        margin-top: 0;\n        margin-bottom: 8px;\n    }\n    .sub-title {\n        text-align: center;\n        font-weight: bold;\n        font-size: 8.5pt;\n        margin-bottom: 10px;\n        text-transform: uppercase;\n    }\n</style>\n</head>\n<body>\n\n<div class=\"header-top\">\n    <span>Quinta-feira. 1</span>\n    <span>DIARIO OFFICIAL</span>\n    <span>Abril 1920 2099</span>\n</div>\n\n<div class=\"main-title\">Citação</div>\n\n<div class=\"columns\">\n    <div class=\"sub-title\">\n        DE CONDOMINOS AUSENTES E DESCONHECIDOS DA FAZENDA DA ESPERANÇA NOS LUGARES «BEBEDOURO DA P. DRAS, — «ESPERANÇA» E «BRILHANTES», — DSTA COMARCA, COM O PRAZO DE 90 DIAS\n    </div>\n\n    <p>O doutor Antonio Furtado da Rocha Frota, juiz de direito da comarca de Cajurú, Estado de S. Paulo, etc.</p>\n\n    <p>Faço saber aos que o presente edital, com o prazo de noventa dias virem, ou delle noticia tiverem que, por parte de Jeronymo Carmo do Nascimento, Manoel Pedro de Carvalho e Balduíno Antonio de Oliveira, me foram dirigidas as petições dos teores seguintes: Exmo. sr. dr. juiz de direito. Por seu procurador infra constituído nos inclusos instrumentos de procuração bastante, dizem Jeronymo Carmo do Nascimento, Manoel Pedro de Carvalho, Balduíno Antonio de Oliveira, lavradores domiciliados e residentes nesta comarca, que, sendo legítimos senhores e possuidores de terras na fazenda Esperança, nos logares «Bebedouro da Pedra», «Esperança» e «Brilhantes», sita nesta comarca, município e distrito, em communhão com os demais condominos da lista annexa, acontece que, não lhes convindo o estado de communhão, querem proceder á divisão judicial desse immovel que, compondo-se de terras de cultura, cerrado e campo, em matas, capoeiras, cultivadas e pastos, com benfeitorias proprias das quiaboceiras e provindo a commumhão da morte de Manoel Carmo do Nascimento, de João Bernardo da Silva e acquisição de parte no quinhão do «Brilhantes» se acha dentro das divisas e confrontações seguintes: quinhões — do «Bebedouro da Pedra» começam num antigo forno de olaria á margem esquerda do corrego do Boque e seguem pelo dito corrego abaixo com percurso de quinhentos e oitenta e quatro metros e cincoenta centimetros, onde se colloca um marco de pedra, deste ponto largando o percurso do corrego seguem com o rumo sudoeste com quinze graus de variação até outro marco de pedra collocado na distancia de quatricentos e dois metros: dali seguem á direita, com o angulo de cento e quarenta gráus e quarenta e cinco minutos até outro marco de pedra collocado a distancia de cento e oitenta e dois metros; e seguem dali á esquerda com o angulo de quarenta e três gráus e trinta minutos, até outro marco de pedra collocado perto de uma arvore de oleo de capaíba com a distancia de setecentas e quarenta metros. divirando até aqui com o quinhão do pagamento que nesta divisão vai dar ao socio João Sabino Pereira e seguindo dali á esquerda com o angulo de cento e quatro gráus e com o percurso de quinhentos e treze, vão ao referido forno de olaria onde tiveram principio estas divisas, confrontando com terras da fazenda da Esperança. Começam á margem direita do corrego do Boque defronte a um antigo forno de olaria que fica ao lado esquerdo do mesmo corrego, onde se colloca um marco de pedra e seguem per este corrego abaixo com o percurso de duzentos e cinco metros e quarenta centimetros, onde se encontra uma peroba com folhas;</p>\n\n    <p>dahi, largando o percurso do corrego do Boque, seguem com o rumo nordeste com vinte e cinco gráus de variação, até a passagem denominada do Cunha, no corrego tambem denominado Cunha e continuam por este corrego abaixo até quatrocentos e quareuta e dois metros e trinta centimetros, ponto onde se encontra a barra do correguinho denominado Brojo: seguem por este acima até sua cabeceira, e desta, em direcção nordeste com nove gráus de variação, vai até um coqueiro e deste ponto seguem á esquerda com percurso de oitocentos e quarenta e cinco metros e oitenta centimetros, com o rumo sudoeste, com cincoenta e sete gráus de variação, até um páu terra conhecido geralmente por arvore grande, continuando até este ponto com terras da fazenda do Cunha: desse ponto, seguindo á esquerda com o rumo sudeste, com onze graus de variação vão ao caminho velho da Damaria e acompanhando este vão ter á passagem do corrego do Bosque, com percurso de novecentos e trinta e cinco metros e dez centimetros; deste ponto continuam por este corrego acima até o logar denominado açude — com a distancia de duzentos e dezesseis metros e vinto centimetros divisando até aqui, com terras da fazenda Mascaba: e seguem deste ponto com a distancia de duzentos e moventa metros e cincoenta centimetros, pelo dito corrego do Bosque acima até um marco de pedra afincada á margem direita do dito corrego tendo em vista o rumo que lavum as divisas e são curso das aguas; desse ponto, largando o percurso do corrego seguem á direita em rumo a outio marco de pedra collocado a distancia de duzentos e vinte metros; desse ponto seguem á direita com um percurso de duzentos e quarenta e cinco metros, onde se collocou outro marco de pedra, divisando até aqui com as terras do quinhão que nesta divisão tém de ser dado aos orphãos José, Angelo e Joaquina; desse marco, seguem em direcção sudoeste com vinte graus de variação e com um percurso de duzentos e vinte e tres metros e quarenta centimetros, até a beira do cerrado e seguem dali, á esquierda, beirando o mato e deixando este á esquerda e o cerrado alto á direita, sempre pelas divisas do mato e do cerrado até encontrar o espigão e continuando por este, que verte para o corrego do Bosque, até uma cova feita no mesmo espigão e dessa cóva seguem á esquerda, com vinte e seis gráus de variação nordeste com a distancia de duzentos e setenta e cinco metros, até um pau de oleo de copahyba, onde se collocou um marco de pedia; dahi, següem á esquerda, com o angulo de setenta e seis gráus e seguem em rumo até a distancia de setecentos e quarenta metros, onde se encontra outro marco de pedra; deste seguem á direita, com um angulo de quareuta e tres gráus e trinta minutos, vão até cutro marco de pedra, e deste seguem á esquerda, com angulo de cento e quarenta gráus e quarenta e cinco minutos, vão até o corrego do Bosque, em um marco de pedra collocado á margem esquerda do dito corrego do Bosque; e seguem margeando o dito corrego acima até completar a medida de quinhentos e oitenta e quatro metros e cinoen-</p>\n\n    <p>ta centimetros, onde se encontra o dito forno de claria e deste ao marco de pedra onde tiveram principio, confrontando com terras dos quinhões dados aos socios Manoel Carmo do Nascimento e José Tiburcio; — Quinhão do Brilhan-te: — tem principio na barra do corrego do Brilhante e por este acima até as cabeceiras e dellas em rumo ao alto até Manoel José dos Santos e deste até encontrar a divisa da fazenda Bom Successo; dahi, toreendo á esquerda, em rumo á cova que se acha perto do caminho que vem do Bom Successo a Campo Limpo; deste, torcendo á esquerda, em rumo a um pau de jatobá, que está para cima de um rego dagua de Anna Gonçalves e ein rumo a uma moita de aroeira, balizada no corrego da Esperança, e atravessande em rumo a um pau peito de pomba, torcendo á esquerda pelo espigão até á baixada do caminho que vai para uma Santa Cruz e pela estrada até encontrar uma cova que está na eneruzilhada da Fazenda Masanhas e torcendo á esquerda em ramo á ponta de um valinho que está entre as moradas de Quintoinio e Frausino Sateiro Braz e pelo valinho abaixo até o corrego do Brilhante. — Assim, as supplicantes requerem a citação dos condominos da lista annexa, pessoalmente os que forem conhecidos e residirem nesta comarca e por edital de noventa dias os que forem desconhecidos ou ausentes que residam em logar incerto e ignorado, para o fim de virem á primeira audiencia do juizo, após a terminação de prazo edital. louvar-se com os supplicantes em agrimensor e arbitradores que procedam á divisão e abcnar as despesas ficando desde logo costados para todos os demais termos e actos do processo até final sentença e sua execução, sob penas da lei. Nestas termos, servindo-se V. E. deferir as citações pedidas, bem como a do curador geral de orphanos e ausentes por todo o teôr desta e para acompanhar a divisão até final, protestando por todo o genero de provas, especialmente testemunhas, juntada de documentos. depoimentos pessoaes, vistoriaes e demais constantes do art. 136 do Cod. Civ. e 138 do Reg. 737; por fractos communs e por indemnização de danos sobre vindos á contestação da lide, servindo o curador geral ad litem, es supplicantes, avaliada esta em cem coutes de réis (100:000$000) e distribuida ao ao cartorio do Segundo Officio' autuada com os inclusos documentos, justificada a ausencia dos condominos ausentes e desconhecidos em dia, legar e hora que forem designados com as testemunhas do ról infra, julgada por sentença e expedidos os necessarios editaes. Recebem mercê. Cajurú, 9 de Agosto de 1918. P.P. Manoel de Sousa Gomes, advogado. Lista de condominos promoventes: 1, Jeronimo Carmo do Nascimento; 2, Manoel Pedro de Carvalho; 3, Balduino Antonio de Oliveira; preimovidos: 4, Elviro Mendes Oliva; 5, João José Prates; 6, Albertino José Prates; 7, Pedro Lino de Sousa; 8, Estevam Eduardo de Carvalho; 9, Antonio Bento de Siqueira; 10, Olimpio Pereira Conceição; 11, José Porcino de Sousa; 12 Vicente Alves de Lima; 13, Nicolau Granado; 14, Antonio João de Sousa; 15, Jose Antonio Conceição; 16, Arthur Pinto d' Castilhos; 17, Fortunato José Prates; 18, Vito Pavolari; 19; Fabrica da Ma</p>\n</div>\n\n</body>\n</html>\n```",
+                  "thoughtSignature": "El4KXAERTTIP8W69Vzj/Vz7kNcD3lNhFreVfKVRht5LvQ/MO3ZyRks680bUw9faEi9X3hvla/br5cSJxHUgsqZh+8dKvh8o2EOWU5h+o6vwSu59T4BZXy8LeIZXTvsla"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "index": 0
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 1132,
+          "candidatesTokenCount": 2977,
+          "totalTokenCount": 4109,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 52
+            },
+            {
+              "modality": "IMAGE",
+              "tokenCount": 1080
+            }
+          ],
+          "serviceTier": "standard"
+        },
+        "modelVersion": "gemini-3.5-flash-lite",
+        "responseId": "m0ifasm5FpXjqtsPp7DN8AU"
+      }
+    }
+  ]
+}

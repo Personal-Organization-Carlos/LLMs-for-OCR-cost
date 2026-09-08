@@ -1,0 +1,81 @@
+a) Planta geral da linha concedida com a indicação dos pontos da passagem obrigatorios, configuração do terreno, representada por meio de curvas de nível equidistantes de cinco metros no máximo, o, bem assim, em uma zona de cincoenta metros pelo menos, para cada lado, os campos, mattas, terrenes pedregosos e brejos, e, sempre que fôr possível, a divisa das propriedades particulares, minas e terras devolutas.
+
+Nessa planta, em escala de um para quatro mil, serão indicada todas as distancias kilemétricas, contadas a partir do ponto inicial da estrada; a extensão dos alichamentos rectos o curvos; os grâns e ratos das curvas empregadas.
+
+(3) Peral longitudinal, na escala de um para quatrocentos, para as altaras, e de um para quatro mil, para as distancias horizontais, mostrando, por meio de convenção, o terrano natural, as plataformas dos cortes e aterros e as obras de arte.
+
+c) O perfil longitudinal deverá ser acompanhado de perfis transversaes intervallados do cincoenta metros, no maximo.
+
+d) Projectos completos o especificados de todas as obras de arte necessarias para o estabelecimento da estrada, pontes, tunnais, viafactos, praxisões, boeiros, estações e dependências, bem como planas de todas as propriedades, na parte cuja desapropriação fêo indispensável.
+
+c) O desenho dos trilhos e acessorios, em grandeza de execução.
+
+f) Relação do material rodante, contendo e tipo das locomotivas, vegetas, gondolas e carres de passageiros, na escala de une para cincentra, ou em catalogos das fabricos.
+
+Es, éldos poderão ser apresentados por seções, contanto que os as até sejeon monclares de cinco kilómetros.
+
+Os projectos das pontes, estações e outras obras importantes poderão ser apresentados à medida que vivacem de ser executados.
+
+O Governo poderá rejeitar os projectos, quando não oferecerem gerendido de solidez; mas terá então do apresentar as modificações que julgar convenientes.
+
+Aço se reojitando a concessivaria a elles, poderá recoirer à coilingem, como vzo determinado na clausula XIX.
+
+## VI
+
+Dentre do seis mezos, a contar da data da publicação de decreto de concessão de licença, deverão ser iniciados os trabalhos de construção desta entrada de forro, os quais deverão estar concuidos dentro do dois anos, a contar da data da approvação dos projectos e que se reíra a clausula antecedente.
+
+Si, exgottado o prazo marcado para início, não houver começado as óreas da liha, a concessionaria perderá a importância da canção, em proveite do Estado, salvo caso de força maior, a juzão ao Governo, que concederá mais uma ad protegação, do metade daquelle prazo.
+
+## VII
+
+A esução feita pela concessionaria poderá ser levasada desde que tenham sido dispendidos em construção tres por cento da importância total de 5.032:634\$284, do orçamento approximativo.
+
+A requerimento da Companhia, o Governo mandará um enguêrio da repartição competente examinar si a quantidade de cieras feitas corresponde a tres por cento da importância referida.
+
+Esse exame não poderá durar mais de dois mezes. Os ven- ciamentos do engenheiro, durante o tempo do exame das obras, coiterão por conta da concessionaria e serão deduzidos da im- portancia pela mesma caucionada.
+
+Si, no fim do um mez, a contar da data do pedido de orame das obras, não tiver o Governo encarragado engenheiro algum desse serviço, será considerado o orame feito e o total da quantia erucionada poderá ser retirado, independentemente da verificação da obra feita.
+
+## VIII
+
+O Governo, por seus agentes, poderá intervir, em qualquer tempo, em tudo o que se referir à solides das obras, resistencia do material e segurança do publico nesta estrada de ferro.
+
+## XI
+
+As obras de construção desta estrada de ferro não poderão impedir: o escôamento das aguas das propriedades particularas, a passagem das galerias de exgottes urbanos, de aguas utilizadas para abastecimento ou para finas industriacs e agrícolas, a navo-gabilidade dos rios e canaes e o livre transito das vias publicas. Ficam a cargo desta estrada de ferro as despesas com as obras necessarias para o cruzamento das rios, estradas publicas e caminhos particulares existentes ao tempo da construção da linha, ficando também a seu cargo as despesas com aignaos e guardas, quando se tornarem precisos necessos cruzamentos. Os onus provenientes dos cruzamentos das vies publicas que se abrirem depois da construção desta estrada de ferro não correção por conta della.
+
+## X
+
+Os preços de transporte neste estrada de ferro aos fixados em tarifas previamente approvas las pela administração, publios.
+
+Desias tarifas deverá constar a indicação do logar de partida e de chegada, a determinação dos frêtes pelas distancias a percorrer e a classificação dos generos.
+
+Não poderão meses preços exceder os mínimos adoptados para as linhas ferreas de igual bitola.
+
+E' vedado à estrada adoptar tarifas de favor para prejudicar ou favorecer pesiões ou cumpresas determinadas, assim como cobrar preços diferentes pelo transporte de passageiros e genetos, feito em condições identicas, desde que percizram distancias eguias, salvo o caso de tarifas diferenciacs.
+
+Depois de approvadas pelo Governo, serão as tarifas impressas em caractéres logíveis e collocadas em todas as estações, para conhecimento do publico.
+
+## XI
+
+Quando houver necessidade do se elevarem os preços das tarifas, solicitará esta estrada licença do Governo, apresentando as razões do acerescimo. No praso máximo de um moz reselverá o Governo sobre a questão. Si não o fizer, fica entendido que o acerescimo de preço está approvado. Neuluma elevação de preços das tarifas poderá tor força obrigatoria, mesmo approvada pelo Governo, são depois da publicação na imprense, durante dez dias, anunciando a modificação feita.
+
+Essa publicação será feita noz jornaes de maior circulação da Capital do Estado, e, quando for possível, em um de cada localidade servida por esta estrada.
+
+A reducção dos preços das tarifas poderá ter logar, independentemente de publicação prévia.
+
+Ums vez, porém, adoptada, a publicação será obrigatoria.
+
+## XJI
+
+As combinações que fizer esta estrada de forzo com outras, a respeito de tarifas, ao terão força obrigatoria depois de approvadas pelo Governo.
+
+## XIII
+
+: Serão observadas nesta estrada de ferro, enquanto o Governo não expedir o regulamento da lei n. 30, de 13 de Junho de 1892, as bases gerais para o transporte de bagagons, encomendes e mercadorias, estabelecidas pelo decreto n. 1237, de 2 de Maio de 1889.
+
+## XIV
+
+Para todos os efeitos legres ou, resultantes de contractos de lucros distribuidos entre os accionistas desta estrada de ferro, quer a título de bonus, quer sob forma de acções beneficiarias, ou por qualquer outro mero, serão computados conjunctamente com os pagos sob a denominação de dividendo.
+
+Para todos os efeite s resultantes de contractos, esta estrada deverá apresentar no Governo a conta do seu capital empregado na construção primílya, nos melhoramentos da linha e suas dependencias.

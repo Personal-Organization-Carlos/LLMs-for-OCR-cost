@@ -1,0 +1,3224 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.5548,
+                "bbox": [
+                    51,
+                    78,
+                    171,
+                    106
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8894,
+                "bbox": [
+                    650,
+                    88,
+                    898,
+                    121
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7386,
+                "bbox": [
+                    1180,
+                    109,
+                    1452,
+                    142
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8147,
+                "bbox": [
+                    25,
+                    141,
+                    501,
+                    202
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.582,
+                "bbox": [
+                    117,
+                    203,
+                    405,
+                    232
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9284,
+                "bbox": [
+                    25,
+                    234,
+                    504,
+                    315
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.874,
+                "bbox": [
+                    20,
+                    314,
+                    505,
+                    469
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8384,
+                "bbox": [
+                    16,
+                    468,
+                    506,
+                    575
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7748,
+                "bbox": [
+                    19,
+                    574,
+                    504,
+                    676
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7543,
+                "bbox": [
+                    27,
+                    674,
+                    503,
+                    752
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8008,
+                "bbox": [
+                    6,
+                    749,
+                    501,
+                    882
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7078,
+                "bbox": [
+                    92,
+                    884,
+                    410,
+                    914
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.814,
+                "bbox": [
+                    13,
+                    915,
+                    496,
+                    996
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8543,
+                "bbox": [
+                    5,
+                    994,
+                    497,
+                    1075
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7515,
+                "bbox": [
+                    108,
+                    1080,
+                    382,
+                    1107
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8243,
+                "bbox": [
+                    26,
+                    1108,
+                    495,
+                    1168
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7844,
+                "bbox": [
+                    121,
+                    1172,
+                    368,
+                    1199
+                ],
+                "index": 17
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8736,
+                "bbox": [
+                    21,
+                    1200,
+                    492,
+                    1261
+                ],
+                "index": 18
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.4542,
+                "bbox": [
+                    68,
+                    1261,
+                    424,
+                    1293
+                ],
+                "index": 19
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8667,
+                "bbox": [
+                    21,
+                    1288,
+                    491,
+                    1372
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8913,
+                "bbox": [
+                    10,
+                    1371,
+                    489,
+                    1450
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8972,
+                "bbox": [
+                    23,
+                    1448,
+                    487,
+                    1527
+                ],
+                "index": 22
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8666,
+                "bbox": [
+                    18,
+                    1526,
+                    486,
+                    1656
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.904,
+                "bbox": [
+                    17,
+                    1658,
+                    484,
+                    1769
+                ],
+                "index": 24
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6026,
+                "bbox": [
+                    73,
+                    1775,
+                    389,
+                    1805
+                ],
+                "index": 25
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7936,
+                "bbox": [
+                    16,
+                    1793,
+                    482,
+                    1889
+                ],
+                "index": 26
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6969,
+                "bbox": [
+                    16,
+                    1892,
+                    477,
+                    1956
+                ],
+                "index": 27
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7706,
+                "bbox": [
+                    505,
+                    146,
+                    1000,
+                    213
+                ],
+                "index": 28
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6169,
+                "bbox": [
+                    655,
+                    218,
+                    833,
+                    245
+                ],
+                "index": 29
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8923,
+                "bbox": [
+                    509,
+                    243,
+                    999,
+                    329
+                ],
+                "index": 30
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8039,
+                "bbox": [
+                    508,
+                    325,
+                    998,
+                    452
+                ],
+                "index": 31
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7412,
+                "bbox": [
+                    508,
+                    450,
+                    996,
+                    535
+                ],
+                "index": 32
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5602,
+                "bbox": [
+                    506,
+                    531,
+                    996,
+                    766
+                ],
+                "index": 33
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.564,
+                "bbox": [
+                    504,
+                    760,
+                    993,
+                    844
+                ],
+                "index": 34
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4582,
+                "bbox": [
+                    499,
+                    943,
+                    992,
+                    1074
+                ],
+                "index": 35
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6833,
+                "bbox": [
+                    499,
+                    1071,
+                    991,
+                    1151
+                ],
+                "index": 36
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7524,
+                "bbox": [
+                    497,
+                    1147,
+                    990,
+                    1226
+                ],
+                "index": 37
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.834,
+                "bbox": [
+                    495,
+                    1223,
+                    987,
+                    1305
+                ],
+                "index": 38
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6862,
+                "bbox": [
+                    495,
+                    1306,
+                    987,
+                    1368
+                ],
+                "index": 39
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8386,
+                "bbox": [
+                    510,
+                    1375,
+                    641,
+                    1397
+                ],
+                "index": 40
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5178,
+                "bbox": [
+                    492,
+                    1395,
+                    722,
+                    1417
+                ],
+                "index": 41
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7278,
+                "bbox": [
+                    491,
+                    1416,
+                    854,
+                    1458
+                ],
+                "index": 42
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5253,
+                "bbox": [
+                    491,
+                    1464,
+                    666,
+                    1490
+                ],
+                "index": 43
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6699,
+                "bbox": [
+                    852,
+                    1456,
+                    983,
+                    1536
+                ],
+                "index": 44
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8513,
+                "bbox": [
+                    502,
+                    1536,
+                    644,
+                    1558
+                ],
+                "index": 45
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.808,
+                "bbox": [
+                    489,
+                    1557,
+                    848,
+                    1601
+                ],
+                "index": 46
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7837,
+                "bbox": [
+                    505,
+                    1608,
+                    773,
+                    1632
+                ],
+                "index": 47
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5281,
+                "bbox": [
+                    866,
+                    1599,
+                    981,
+                    1624
+                ],
+                "index": 48
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.743,
+                "bbox": [
+                    487,
+                    1627,
+                    851,
+                    1671
+                ],
+                "index": 49
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.632,
+                "bbox": [
+                    847,
+                    1670,
+                    981,
+                    1733
+                ],
+                "index": 50
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5148,
+                "bbox": [
+                    487,
+                    1734,
+                    980,
+                    1783
+                ],
+                "index": 51
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5239,
+                "bbox": [
+                    502,
+                    1771,
+                    747,
+                    1794
+                ],
+                "index": 52
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.4739,
+                "bbox": [
+                    486,
+                    1783,
+                    979,
+                    1848
+                ],
+                "index": 53
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8313,
+                "bbox": [
+                    491,
+                    1879,
+                    670,
+                    1904
+                ],
+                "index": 54
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7008,
+                "bbox": [
+                    485,
+                    1902,
+                    978,
+                    1957
+                ],
+                "index": 55
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5937,
+                "bbox": [
+                    1061,
+                    166,
+                    1429,
+                    229
+                ],
+                "index": 56
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9393,
+                "bbox": [
+                    1006,
+                    229,
+                    1495,
+                    316
+                ],
+                "index": 57
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9097,
+                "bbox": [
+                    1002,
+                    311,
+                    1495,
+                    394
+                ],
+                "index": 58
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9349,
+                "bbox": [
+                    1000,
+                    388,
+                    1496,
+                    467
+                ],
+                "index": 59
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9169,
+                "bbox": [
+                    997,
+                    465,
+                    1493,
+                    572
+                ],
+                "index": 60
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8783,
+                "bbox": [
+                    999,
+                    569,
+                    1493,
+                    648
+                ],
+                "index": 61
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8429,
+                "bbox": [
+                    997,
+                    645,
+                    1492,
+                    806
+                ],
+                "index": 62
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8867,
+                "bbox": [
+                    995,
+                    801,
+                    1491,
+                    985
+                ],
+                "index": 63
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8092,
+                "bbox": [
+                    995,
+                    980,
+                    1489,
+                    1089
+                ],
+                "index": 64
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9085,
+                "bbox": [
+                    990,
+                    1086,
+                    1487,
+                    1444
+                ],
+                "index": 65
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9483,
+                "bbox": [
+                    982,
+                    1441,
+                    1482,
+                    1827
+                ],
+                "index": 66
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9366,
+                "bbox": [
+                    978,
+                    1824,
+                    1480,
+                    1988
+                ],
+                "index": 67
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    50,
+                    76,
+                    170,
+                    108
+                ],
+                "score": 0.98,
+                "text": "S.bbado"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    652,
+                    86,
+                    895,
+                    122
+                ],
+                "score": 0.984,
+                "text": "DIARIO OFFICIAL"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1179,
+                    107,
+                    1451,
+                    142
+                ],
+                "score": 0.906,
+                "text": "Agosto (1891) 601"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    28,
+                    141,
+                    501,
+                    176
+                ],
+                "score": 0.991,
+                "text": "o porteiro deste Thesouro, afim de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    33,
+                    170,
+                    499,
+                    202
+                ],
+                "score": 0.963,
+                "text": "rem entregues aos interessados:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    120,
+                    205,
+                    400,
+                    233
+                ],
+                "score": 0.97,
+                "text": "REGISTRO DE SOROCABA"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    36,
+                    288,
+                    203,
+                    313
+                ],
+                "score": 0.992,
+                "text": "aio de 1882."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    46,
+                    236,
+                    502,
+                    264
+                ],
+                "score": 0.98,
+                "text": "Antonio Augusto de Padua Fleu-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    47,
+                    263,
+                    502,
+                    292
+                ],
+                "score": 0.915,
+                "text": ",de 24 de Agosto de 1878 a 31 de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    28,
+                    438,
+                    90,
+                    468
+                ],
+                "score": 1.0,
+                "text": "856."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    43,
+                    314,
+                    504,
+                    342
+                ],
+                "score": 0.972,
+                "text": "José de Almeida Leme, de 1° de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    25,
+                    340,
+                    503,
+                    367
+                ],
+                "score": 0.954,
+                "text": "iunho de 1832 a 8 de Outubro de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    27,
+                    366,
+                    504,
+                    395
+                ],
+                "score": 0.959,
+                "text": "837, de 26 de Novembro de 1838 a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    23,
+                    392,
+                    504,
+                    420
+                ],
+                "score": 0.915,
+                "text": " de Dezembro de 1839 e dc 1• de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    24,
+                    419,
+                    503,
+                    446
+                ],
+                "score": 0.992,
+                "text": "utubro de 1849 a 14 de Março de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    45,
+                    467,
+                    507,
+                    497
+                ],
+                "score": 0.975,
+                "text": "Elias Ayres do Amaral, de 9 de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    21,
+                    494,
+                    508,
+                    524
+                ],
+                "score": 0.979,
+                "text": "Outubro de 1837 a 25 de Novem-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    22,
+                    520,
+                    506,
+                    549
+                ],
+                "score": 0.918,
+                "text": "oro de. Iè38 e de 26 de Outubro de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    18,
+                    546,
+                    392,
+                    575
+                ],
+                "score": 0.95,
+                "text": "1840 a 25 do Junho de 1842."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    43,
+                    571,
+                    502,
+                    599
+                ],
+                "score": 0.979,
+                "text": "Antonio de Mascarenhas Camel-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    55,
+                    598,
+                    502,
+                    624
+                ],
+                "score": 0.97,
+                "text": "de 1° de Janeiro a 11 de Abril de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    21,
+                    622,
+                    502,
+                    652
+                ],
+                "score": 0.969,
+                "text": "-94o e de 25 de Julho de 844 a 30"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    23,
+                    648,
+                    306,
+                    674
+                ],
+                "score": 0.956,
+                "text": "3 Setembro de 1849."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    31,
+                    714,
+                    89,
+                    752
+                ],
+                "score": 0.923,
+                "text": "178."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    45,
+                    672,
+                    501,
+                    702
+                ],
+                "score": 0.99,
+                "text": "Francisco de Assis Penteado, de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    40,
+                    700,
+                    502,
+                    728
+                ],
+                "score": 0.991,
+                "text": " de Julho a 23 de Agosto de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    4,
+                    846,
+                    82,
+                    881
+                ],
+                "score": 0.965,
+                "text": "1844."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    40,
+                    749,
+                    500,
+                    778
+                ],
+                "score": 0.973,
+                "text": "Joaquim José Loureiro de Ai-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    23,
+                    776,
+                    500,
+                    806
+                ],
+                "score": 0.959,
+                "text": "neida, de 12 dc Abril de 1840 a 25"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    17,
+                    802,
+                    501,
+                    830
+                ],
+                "score": 0.958,
+                "text": "Jo Outubro do mesmo c de 26 de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    3,
+                    828,
+                    500,
+                    856
+                ],
+                "score": 0.987,
+                "text": "unho de 1842 a 24 de Julho de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    98,
+                    890,
+                    404,
+                    911
+                ],
+                "score": 0.943,
+                "text": "COLLECTORIA DA TIMERA"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    38,
+                    918,
+                    496,
+                    947
+                ],
+                "score": 0.977,
+                "text": "Francisco da Rocha Siqueira Ca-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    14,
+                    944,
+                    496,
+                    973
+                ],
+                "score": 0.966,
+                "text": "margo, de 1° de Julho de 1889 a 31"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    32,
+                    969,
+                    277,
+                    995
+                ],
+                "score": 0.908,
+                "text": ", Janeiro de 189o."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    4,
+                    1040,
+                    82,
+                    1075
+                ],
+                "score": 0.994,
+                "text": "1889."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    37,
+                    993,
+                    496,
+                    1023
+                ],
+                "score": 0.978,
+                "text": "José Monteiro de Mendonça, de 1°"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    28,
+                    1021,
+                    496,
+                    1050
+                ],
+                "score": 0.959,
+                "text": "Agosto de 1887 a 3o de Junho de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    115,
+                    1086,
+                    376,
+                    1105
+                ],
+                "score": 0.946,
+                "text": "BARREIRA DA FIGUEIRA"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    32,
+                    1110,
+                    496,
+                    1141
+                ],
+                "score": 0.974,
+                "text": "José Antonio Moreira, de 1° de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    24,
+                    1139,
+                    492,
+                    1166
+                ],
+                "score": 0.962,
+                "text": "utubro a 31 de Dezembro de 1883."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    126,
+                    1174,
+                    361,
+                    1197
+                ],
+                "score": 0.968,
+                "text": "REGISTRO DO AIRÓ"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    34,
+                    1204,
+                    490,
+                    1232
+                ],
+                "score": 0.985,
+                "text": "Mariano Ramos da Silva, de 1° de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    24,
+                    1230,
+                    491,
+                    1258
+                ],
+                "score": 0.976,
+                "text": "ulho de 1872 a 12 de Maio de 1873."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    72,
+                    1266,
+                    417,
+                    1288
+                ],
+                "score": 0.956,
+                "text": "REGISTRO DO RIO DO BRAÇO"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    24,
+                    1341,
+                    117,
+                    1371
+                ],
+                "score": 0.994,
+                "text": "1890."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    34,
+                    1293,
+                    490,
+                    1323
+                ],
+                "score": 0.957,
+                "text": "Luiz Ribeiro de Aguiar, de 12 de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    28,
+                    1319,
+                    490,
+                    1349
+                ],
+                "score": 0.972,
+                "text": "gosto de 1886 até 6 de Fevereiro"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    23,
+                    1420,
+                    152,
+                    1448
+                ],
+                "score": 0.921,
+                "text": "Jmesmo."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    30,
+                    1370,
+                    488,
+                    1399
+                ],
+                "score": 0.988,
+                "text": "Tertuliano de Araujo Ferraz, de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    9,
+                    1394,
+                    492,
+                    1432
+                ],
+                "score": 0.979,
+                "text": "de Junho de 1879 a 1° de Agosto"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    30,
+                    1448,
+                    486,
+                    1476
+                ],
+                "score": 0.997,
+                "text": "Lourenço Justiniano dos Santos,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    27,
+                    1474,
+                    485,
+                    1502
+                ],
+                "score": 0.95,
+                "text": "18 de Janeiro de 1887 a 28 do Fo-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    30,
+                    1497,
+                    224,
+                    1526
+                ],
+                "score": 0.965,
+                "text": "reiro de 1890."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    18,
+                    1618,
+                    110,
+                    1656
+                ],
+                "score": 0.965,
+                "text": "1874."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    28,
+                    1524,
+                    485,
+                    1552
+                ],
+                "score": 0.98,
+                "text": "João de Padua Machado, de 22 de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    27,
+                    1550,
+                    482,
+                    1578
+                ],
+                "score": 0.967,
+                "text": "nho de 1874 a 2 de Junho de 1879."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    26,
+                    1575,
+                    485,
+                    1604
+                ],
+                "score": 0.99,
+                "text": "Francisco Gonçalves Ramos, de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    23,
+                    1602,
+                    482,
+                    1630
+                ],
+                "score": 0.991,
+                "text": "de Janeiro de 1870 a 21 de Junho"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    18,
+                    1738,
+                    164,
+                    1766
+                ],
+                "score": 0.985,
+                "text": "10 de 1882."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    24,
+                    1662,
+                    466,
+                    1684
+                ],
+                "score": 0.959,
+                "text": "ESA DE BENDAS DE CARAGUATATUBA"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    26,
+                    1692,
+                    481,
+                    1717
+                ],
+                "score": 0.969,
+                "text": "Bento Xavier de Araujo Leite, de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    24,
+                    1716,
+                    483,
+                    1745
+                ],
+                "score": 0.983,
+                "text": "de Fevereiro de 188o a 3o de Ju-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    83,
+                    1781,
+                    384,
+                    1802
+                ],
+                "score": 0.943,
+                "text": "BARREIRA DE SANTA CRUZ"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    17,
+                    1851,
+                    117,
+                    1891
+                ],
+                "score": 0.982,
+                "text": "1891."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    24,
+                    1806,
+                    480,
+                    1833
+                ],
+                "score": 0.987,
+                "text": "Manoel Barbosa de Moraes, de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    21,
+                    1831,
+                    480,
+                    1862
+                ],
+                "score": 0.953,
+                "text": " de Março de 1890 a 30 de Junho"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    84,
+                    1893,
+                    377,
+                    1918
+                ],
+                "score": 0.885,
+                "text": "BAREIRA DE UBATUBA"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    20,
+                    1924,
+                    473,
+                    1952
+                ],
+                "score": 0.957,
+                "text": "Luiz Ernesto Valodino Pereira,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    506,
+                    155,
+                    998,
+                    188
+                ],
+                "score": 0.927,
+                "text": "de 1° de Outubro de 1875 a 30 de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    504,
+                    178,
+                    698,
+                    210
+                ],
+                "score": 0.983,
+                "text": "Abril de1877."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    660,
+                    223,
+                    828,
+                    244
+                ],
+                "score": 0.996,
+                "text": "COLLECTORIAS"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    539,
+                    247,
+                    998,
+                    277
+                ],
+                "score": 0.957,
+                "text": "Indaiatuba—Jcaquimn Emydio de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    512,
+                    274,
+                    996,
+                    302
+                ],
+                "score": 0.94,
+                "text": "Campos Bicudo,de 1° dc Julho de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    512,
+                    299,
+                    891,
+                    327
+                ],
+                "score": 0.941,
+                "text": "1873 a 12 de Janeiro de 1881."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    536,
+                    325,
+                    997,
+                    353
+                ],
+                "score": 0.975,
+                "text": "Franca-Joaquim Paes de Toledo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    511,
+                    351,
+                    995,
+                    379
+                ],
+                "score": 0.95,
+                "text": "Cubas, de 4 de Julho đe 1878 a 1º de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    510,
+                    378,
+                    997,
+                    405
+                ],
+                "score": 0.996,
+                "text": "Agosto do mesmo e Antonio de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    509,
+                    403,
+                    995,
+                    431
+                ],
+                "score": 0.979,
+                "text": "Andrade Lobo Bastos,de 2 de Agos-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    508,
+                    428,
+                    985,
+                    456
+                ],
+                "score": 0.893,
+                "text": "to de 1878 a 5 de Novembro de r88-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    537,
+                    455,
+                    993,
+                    482
+                ],
+                "score": 0.973,
+                "text": "Botucstú—Elias de Oliveira Lima"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    880,
+                    443,
+                    989,
+                    463
+                ],
+                "score": 0.746,
+                "text": "uc 1007"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    511,
+                    481,
+                    994,
+                    508
+                ],
+                "score": 0.981,
+                "text": "Machado,de 15 deDezembro de 1868"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    509,
+                    504,
+                    829,
+                    533
+                ],
+                "score": 0.98,
+                "text": "a 24 de Março de 1878."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    536,
+                    528,
+                    993,
+                    560
+                ],
+                "score": 0.988,
+                "text": "Atibaia- José da Silveira Franco,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    507,
+                    557,
+                    994,
+                    585
+                ],
+                "score": 0.959,
+                "text": "de 8 de Agosto, de 1878 a 4de Maio"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    508,
+                    583,
+                    994,
+                    611
+                ],
+                "score": 0.972,
+                "text": "de 1879; José Francisco de Campos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    508,
+                    609,
+                    995,
+                    637
+                ],
+                "score": 0.934,
+                "text": "Bueno, de 5 de Maio de 1879 a 10 de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    508,
+                    635,
+                    993,
+                    663
+                ],
+                "score": 0.991,
+                "text": "Junho do mesmo e de 14 de Março"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    507,
+                    661,
+                    994,
+                    689
+                ],
+                "score": 0.947,
+                "text": "de 1882 a 31 dc Outubro de 1887 e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    507,
+                    686,
+                    994,
+                    715
+                ],
+                "score": 0.963,
+                "text": "Benedicto Franco da Silveira, de 1°"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    506,
+                    711,
+                    994,
+                    743
+                ],
+                "score": 0.984,
+                "text": "de Novembro de 1887 a 30 de Ju-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    507,
+                    733,
+                    680,
+                    762
+                ],
+                "score": 0.988,
+                "text": "nho de.889."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    531,
+                    763,
+                    990,
+                    791
+                ],
+                "score": 0.961,
+                "text": "S. José dos Campos.- Olympio"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    506,
+                    789,
+                    990,
+                    816
+                ],
+                "score": 0.973,
+                "text": "José de Freitas, de 11 de Maio de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    505,
+                    813,
+                    879,
+                    840
+                ],
+                "score": 0.98,
+                "text": "1888 a 3o de Junho de189o."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    528,
+                    942,
+                    991,
+                    971
+                ],
+                "score": 0.975,
+                "text": "Silveiras-Mancel Guedes de Si-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    498,
+                    968,
+                    990,
+                    996
+                ],
+                "score": 0.976,
+                "text": "qucira, de 25 de Janeiro de 1887 a 21"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    499,
+                    994,
+                    989,
+                    1022
+                ],
+                "score": 0.993,
+                "text": "de Agosto de 1889 e Candido de Oli-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    502,
+                    1019,
+                    989,
+                    1048
+                ],
+                "score": 0.945,
+                "text": "veira Castro, de l° de Fevereiro de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    501,
+                    1044,
+                    873,
+                    1072
+                ],
+                "score": 0.953,
+                "text": "1869 a 24 de Janeiro de 1887."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    528,
+                    1071,
+                    989,
+                    1099
+                ],
+                "score": 0.972,
+                "text": "Mogy das Cruzes-João Candido"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    500,
+                    1096,
+                    990,
+                    1125
+                ],
+                "score": 0.976,
+                "text": "Martins, de 1° de Janeiro de :870 a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    500,
+                    1119,
+                    775,
+                    1148
+                ],
+                "score": 0.977,
+                "text": "11 de Julho de 1873."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    525,
+                    1144,
+                    991,
+                    1176
+                ],
+                "score": 0.981,
+                "text": "Arêas—José Joaquim Ferreira"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    496,
+                    1173,
+                    990,
+                    1202
+                ],
+                "score": 0.952,
+                "text": "Penna, de 1° de Janeiro de 1886 a 4"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    498,
+                    1195,
+                    751,
+                    1225
+                ],
+                "score": 0.978,
+                "text": "de Agosto de 1889."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    525,
+                    1224,
+                    984,
+                    1253
+                ],
+                "score": 0.983,
+                "text": "Capivar-Joaquim Vaz do Ama-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    497,
+                    1250,
+                    985,
+                    1277
+                ],
+                "score": 0.965,
+                "text": "ral Carval, de 28 de Janeiro de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    495,
+                    1273,
+                    862,
+                    1302
+                ],
+                "score": 0.977,
+                "text": "1885 a 31 de Março de 1890."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    513,
+                    1342,
+                    627,
+                    1364
+                ],
+                "score": 0.971,
+                "text": "de 1891"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    495,
+                    1312,
+                    985,
+                    1333
+                ],
+                "score": 0.977,
+                "text": "Balancete do Thesouro do Bstado"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    513,
+                    1331,
+                    985,
+                    1351
+                ],
+                "score": 0.935,
+                "text": "no periodo de 1° a 3o de Julho"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    512,
+                    1376,
+                    638,
+                    1400
+                ],
+                "score": 1.0,
+                "text": "Receita:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    493,
+                    1396,
+                    718,
+                    1417
+                ],
+                "score": 0.946,
+                "text": "Saldo do mcz anterior :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    729,
+                    1416,
+                    848,
+                    1440
+                ],
+                "score": 0.955,
+                "text": "527:5358310"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    661,
+                    1432,
+                    852,
+                    1459
+                ],
+                "score": 0.937,
+                "text": "2.194:9459039"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    487,
+                    1412,
+                    739,
+                    1435
+                ],
+                "score": 0.943,
+                "text": "No Barco União..."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    490,
+                    1431,
+                    588,
+                    1450
+                ],
+                "score": 0.957,
+                "text": "Em caixa"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    492,
+                    1466,
+                    661,
+                    1488
+                ],
+                "score": 0.995,
+                "text": "Entradas até hoje"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    853,
+                    1455,
+                    984,
+                    1481
+                ],
+                "score": 0.971,
+                "text": "2.722:4805349"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    870,
+                    1473,
+                    983,
+                    1500
+                ],
+                "score": 0.967,
+                "text": "373:2855691"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    853,
+                    1509,
+                    982,
+                    1533
+                ],
+                "score": 0.962,
+                "text": "3.095:7668040"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    505,
+                    1538,
+                    642,
+                    1562
+                ],
+                "score": 0.979,
+                "text": "Despeza :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    734,
+                    1559,
+                    845,
+                    1585
+                ],
+                "score": 0.991,
+                "text": "710:5768577"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    731,
+                    1577,
+                    846,
+                    1603
+                ],
+                "score": 0.973,
+                "text": "227:0728590"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    490,
+                    1555,
+                    586,
+                    1574
+                ],
+                "score": 0.968,
+                "text": "Por caixa"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    489,
+                    1573,
+                    610,
+                    1592
+                ],
+                "score": 0.974,
+                "text": "Por folhas ."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    508,
+                    1611,
+                    770,
+                    1632
+                ],
+                "score": 0.924,
+                "text": "Saldo em dinheiro :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    867,
+                    1600,
+                    980,
+                    1627
+                ],
+                "score": 0.986,
+                "text": "937:6498167"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    488,
+                    1642,
+                    587,
+                    1666
+                ],
+                "score": 0.936,
+                "text": "Em caíxa"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    486,
+                    1625,
+                    661,
+                    1648
+                ],
+                "score": 0.973,
+                "text": "No Banco União."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    733,
+                    1629,
+                    845,
+                    1654
+                ],
+                "score": 0.987,
+                "text": "527:5358310"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    702,
+                    1650,
+                    848,
+                    1671
+                ],
+                "score": 0.961,
+                "text": ". 1.630:5818563"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    846,
+                    1672,
+                    979,
+                    1694
+                ],
+                "score": 0.975,
+                "text": "2.158:1168873"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    849,
+                    1706,
+                    980,
+                    1731
+                ],
+                "score": 0.925,
+                "text": "3,095:766$040"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    875,
+                    1762,
+                    978,
+                    1785
+                ],
+                "score": 0.997,
+                "text": "31:5508155"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    507,
+                    1738,
+                    908,
+                    1758
+                ],
+                "score": 0.939,
+                "text": "Caixa de ¿Juros de apolices» :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    487,
+                    1754,
+                    710,
+                    1774
+                ],
+                "score": 0.928,
+                "text": "Existe paãa pagainento."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    509,
+                    1771,
+                    675,
+                    1786
+                ],
+                "score": 0.605,
+                "text": "Aaldnamsis"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    508,
+                    1770,
+                    742,
+                    1793
+                ],
+                "score": 0.974,
+                "text": "Saldo ém titulos :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    487,
+                    1794,
+                    762,
+                    1815
+                ],
+                "score": 0.976,
+                "text": "Acções da Cornpanbia Ituana"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    488,
+                    1812,
+                    657,
+                    1831
+                ],
+                "score": 0.971,
+                "text": "Lettras a receber."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    865,
+                    1803,
+                    978,
+                    1824
+                ],
+                "score": 0.993,
+                "text": "940:6008000"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    877,
+                    1821,
+                    979,
+                    1844
+                ],
+                "score": 0.983,
+                "text": "16:0228820"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    500,
+                    1881,
+                    666,
+                    1906
+                ],
+                "score": 0.963,
+                "text": "Depositos :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    872,
+                    1930,
+                    978,
+                    1957
+                ],
+                "score": 0.88,
+                "text": "76:957520"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    486,
+                    1905,
+                    839,
+                    1930
+                ],
+                "score": 0.972,
+                "text": "Apolices geraes e do Estado, acções de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    503,
+                    1927,
+                    835,
+                    1947
+                ],
+                "score": 0.958,
+                "text": "Companbias e valorés diversos.."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1063,
+                    175,
+                    1424,
+                    196
+                ],
+                "score": 0.919,
+                "text": "Thesouraria de Fazenda"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1111,
+                    205,
+                    1380,
+                    226
+                ],
+                "score": 0.858,
+                "text": "SESSÃO DA'1UNTA DE 20"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1028,
+                    235,
+                    1490,
+                    265
+                ],
+                "score": 0.97,
+                "text": "José Padula e Valeriano Barbiéri."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1006,
+                    264,
+                    1491,
+                    291
+                ],
+                "score": 0.972,
+                "text": "—De accòrdo com os pareceres resti-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1003,
+                    288,
+                    1354,
+                    315
+                ],
+                "score": 0.93,
+                "text": "tua-se a quantia de 102ooo."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1031,
+                    313,
+                    1492,
+                    343
+                ],
+                "score": 0.944,
+                "text": "Candido da Cunha· Nepomuceno:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1006,
+                    342,
+                    1492,
+                    368
+                ],
+                "score": 0.958,
+                "text": "—De accôrdo com os pareccres resti-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1000,
+                    366,
+                    1343,
+                    393
+                ],
+                "score": 0.93,
+                "text": "tua-se a quantia de 4t$700."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1028,
+                    390,
+                    1492,
+                    422
+                ],
+                "score": 0.973,
+                "text": "João Rodrigues Ferraz.-—De accôrdo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    999,
+                    420,
+                    1489,
+                    447
+                ],
+                "score": 0.962,
+                "text": "com os pareceres restitua-se a quantia"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1001,
+                    440,
+                    1137,
+                    466
+                ],
+                "score": 0.985,
+                "text": "de 21$000."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1028,
+                    468,
+                    1488,
+                    498
+                ],
+                "score": 0.986,
+                "text": "Capitão Sebastião de Barros Silva."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1003,
+                    495,
+                    1488,
+                    524
+                ],
+                "score": 0.975,
+                "text": "—De accôrdo com o parecer do sr. dr."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    999,
+                    523,
+                    1488,
+                    549
+                ],
+                "score": 0.98,
+                "text": "procurador fiscal restitua-se a quantia"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    997,
+                    542,
+                    1148,
+                    571
+                ],
+                "score": 0.932,
+                "text": "de 864$000."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1001,
+                    619,
+                    1114,
+                    648
+                ],
+                "score": 0.985,
+                "text": "126$000."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1027,
+                    572,
+                    1490,
+                    601
+                ],
+                "score": 0.951,
+                "text": "Ernesto Nery.—De accôrdo com os"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    999,
+                    599,
+                    1490,
+                    628
+                ],
+                "score": 0.988,
+                "text": "pareceres restitua-se a quantia de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1026,
+                    648,
+                    1486,
+                    677
+                ],
+                "score": 0.99,
+                "text": "Gonçalo José Martins de Figueiredo."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1004,
+                    675,
+                    1489,
+                    703
+                ],
+                "score": 0.96,
+                "text": "Restitua-se a quantia de 21sooo de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    999,
+                    702,
+                    1487,
+                    729
+                ],
+                "score": 0.996,
+                "text": "accôrdo com os pareceres, e expeça-se"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    997,
+                    727,
+                    1488,
+                    755
+                ],
+                "score": 0.98,
+                "text": "portaria ao collector determinando-lhe"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    997,
+                    753,
+                    1487,
+                    781
+                ],
+                "score": 0.989,
+                "text": "que se debite pela importancia de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    997,
+                    777,
+                    1385,
+                    805
+                ],
+                "score": 0.966,
+                "text": "3s78o devida pela arrecadação."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1023,
+                    800,
+                    1487,
+                    831
+                ],
+                "score": 0.99,
+                "text": "João Dias Martins.—Nega-se a res-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    994,
+                    829,
+                    1486,
+                    856
+                ],
+                "score": 0.996,
+                "text": "tituição pedida; determinando-se á col-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    994,
+                    856,
+                    1484,
+                    883
+                ],
+                "score": 0.998,
+                "text": "lectoria de Pirassununga que promova,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    995,
+                    881,
+                    1486,
+                    909
+                ],
+                "score": 0.977,
+                "text": "contra quem de direito, a cobrança dó"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    995,
+                    907,
+                    1486,
+                    934
+                ],
+                "score": 0.986,
+                "text": "imposto devido, para o que se lhe re-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    995,
+                    932,
+                    1485,
+                    962
+                ],
+                "score": 0.961,
+                "text": "metterá o respéctivo processo, que de-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    998,
+                    957,
+                    1318,
+                    984
+                ],
+                "score": 0.99,
+                "text": "volverá opportunamente."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1025,
+                    981,
+                    1486,
+                    1011
+                ],
+                "score": 0.995,
+                "text": "Officio do collector do Patrocinio das"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    997,
+                    1008,
+                    1486,
+                    1037
+                ],
+                "score": 0.982,
+                "text": "Araras, sob n. 38, de 3 do corrente."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    999,
+                    1037,
+                    1484,
+                    1062
+                ],
+                "score": 0.952,
+                "text": "—A' secção do contencioso para pro-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    997,
+                    1060,
+                    1354,
+                    1086
+                ],
+                "score": 0.994,
+                "text": "mover a cobrança exccutiva."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1022,
+                    1084,
+                    1481,
+                    1113
+                ],
+                "score": 0.965,
+                "text": "João Modesto da. Cunha Franco."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1000,
+                    1111,
+                    1485,
+                    1140
+                ],
+                "score": 0.99,
+                "text": "Tendo sido recolhido o alcance de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    994,
+                    1138,
+                    1484,
+                    1166
+                ],
+                "score": 0.984,
+                "text": "que tratam as contas juntas, e á vista"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    992,
+                    1162,
+                    1481,
+                    1191
+                ],
+                "score": 0.978,
+                "text": "dos parcceres do sr. contador e dr."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    991,
+                    1189,
+                    1482,
+                    1217
+                ],
+                "score": 0.974,
+                "text": "procùrador. fiscal, julgo-as definitiva-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    991,
+                    1215,
+                    1482,
+                    1242
+                ],
+                "score": 0.971,
+                "text": "mente tomadas c o respectivo exactor,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    991,
+                    1239,
+                    1482,
+                    1268
+                ],
+                "score": 0.95,
+                "text": "João Modesto da Cunha Franco, quite"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    988,
+                    1265,
+                    1483,
+                    1293
+                ],
+                "score": 0.986,
+                "text": "para com a Fazenda Nacional; dando-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    989,
+                    1291,
+                    1482,
+                    1320
+                ],
+                "score": 0.964,
+                "text": "se baixa na fiança que o mesmo prestou."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    989,
+                    1317,
+                    1483,
+                    1345
+                ],
+                "score": 0.972,
+                "text": "para exercer o cargo de collector do."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    988,
+                    1342,
+                    1481,
+                    1371
+                ],
+                "score": 0.971,
+                "text": "municipio do Amparo. Passe-se a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    989,
+                    1369,
+                    1481,
+                    1396
+                ],
+                "score": 0.982,
+                "text": "necessaria quitação, voltando este pro-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    988,
+                    1394,
+                    1480,
+                    1422
+                ],
+                "score": 0.984,
+                "text": "cesso á secção do contencioso e á con-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    990,
+                    1419,
+                    1336,
+                    1444
+                ],
+                "score": 0.999,
+                "text": "tadoria para os devidos fins."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1012,
+                    1442,
+                    1478,
+                    1473
+                ],
+                "score": 0.98,
+                "text": "Procésso de tomada de contas do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    988,
+                    1469,
+                    1476,
+                    1497
+                ],
+                "score": 0.999,
+                "text": "ex-collector interino de S. José do Rio"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    989,
+                    1496,
+                    1476,
+                    1523
+                ],
+                "score": 0.97,
+                "text": "Verde, Olympio José .de Freitas."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    988,
+                    1522,
+                    1476,
+                    1549
+                ],
+                "score": 0.966,
+                "text": "—Tendo em vista os pareceres do sr."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    983,
+                    1547,
+                    1477,
+                    1576
+                ],
+                "score": 0.995,
+                "text": "contador e dr. procurador fiscal, julgo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    986,
+                    1573,
+                    1476,
+                    1601
+                ],
+                "score": 0.976,
+                "text": "definitivamente tomadas as contas da"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    984,
+                    1596,
+                    1478,
+                    1627
+                ],
+                "score": 0.984,
+                "text": "gestão de Olympio José de Freitas,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    985,
+                    1623,
+                    1478,
+                    1652
+                ],
+                "score": 0.976,
+                "text": "ex-collector interino de S. José dos:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    985,
+                    1650,
+                    1476,
+                    1677
+                ],
+                "score": 0.981,
+                "text": "Campos; e porque, á vis a de taes con-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    982,
+                    1675,
+                    1480,
+                    1702
+                ],
+                "score": 0.986,
+                "text": "tas, verifica-se estar o mesmo cidadão"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    983,
+                    1700,
+                    1475,
+                    1728
+                ],
+                "score": 0.945,
+                "text": "quite para com a Fazenda Nacional,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    983,
+                    1727,
+                    1476,
+                    1754
+                ],
+                "score": 0.94,
+                "text": "dê-se baixa na fiança.prestada epasse-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    982,
+                    1752,
+                    1477,
+                    1779
+                ],
+                "score": 0.988,
+                "text": "se a necessaria quitação, indo este pro-."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    982,
+                    1777,
+                    1477,
+                    1805
+                ],
+                "score": 0.962,
+                "text": "cesso á secção do contencioso e á con-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    980,
+                    1800,
+                    1331,
+                    1828
+                ],
+                "score": 0.981,
+                "text": "tadoria para os devidos fins."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1007,
+                    1824,
+                    1476,
+                    1856
+                ],
+                "score": 0.992,
+                "text": "Felicissimo Parreiro de Souza.—De"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    981,
+                    1853,
+                    1472,
+                    1882
+                ],
+                "score": 0.997,
+                "text": "accôrdo comospareceresrestitua-sea"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    981,
+                    1879,
+                    1475,
+                    1908
+                ],
+                "score": 0.965,
+                "text": "quantia de setenta e tres mil. e qui-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    981,
+                    1904,
+                    1475,
+                    1932
+                ],
+                "score": 0.952,
+                "text": "nhentos réis e expeça-se portaria ao"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    980,
+                    1930,
+                    1474,
+                    1958
+                ],
+                "score": 0.986,
+                "text": "collector de Santa Rita do Paraizo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    978,
+                    1955,
+                    1472,
+                    1986
+                ],
+                "score": 0.98,
+                "text": "para se debitar pelaquantia de 14$7oo."
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1517,
+            "height": 2070
+        }
+    }
+]

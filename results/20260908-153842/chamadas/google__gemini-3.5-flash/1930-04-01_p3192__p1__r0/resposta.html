@@ -1,0 +1,270 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Diario Official - 1930</title>
+    <style>
+        body {
+            background-color: #fbf9f3;
+            color: #1c1b1a;
+            font-family: "Times New Roman", Times, Georgia, serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .document-container {
+            max-width: 1100px;
+            width: 100%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background-color: #fbf9f3;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .header-center {
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+        .header-line {
+            border: none;
+            border-top: 2px solid #1c1b1a;
+            margin-top: 2px;
+            margin-bottom: 15px;
+        }
+        .columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+        .column {
+            text-align: justify;
+            font-size: 12.5px;
+            line-height: 1.3;
+        }
+        .column:not(:last-child) {
+            border-right: 1px solid #d0cbd0;
+            padding-right: 15px;
+        }
+        .column:not(:first-child) {
+            padding-left: 5px;
+        }
+        h2, h3, h4, h5 {
+            text-align: center;
+            margin-top: 12px;
+            margin-bottom: 6px;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+        h2 {
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+        h3 {
+            font-size: 13px;
+        }
+        h4 {
+            font-size: 12.5px;
+        }
+        h5 {
+            font-size: 12px;
+        }
+        p {
+            margin: 0 0 8px 0;
+            text-indent: 15px;
+        }
+        .no-indent {
+            text-indent: 0;
+        }
+        .center {
+            text-align: center;
+            text-indent: 0;
+        }
+        .uppercase {
+            text-transform: uppercase;
+        }
+        .dotted-list {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+        .dotted-list li {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-bottom: 2px;
+        }
+        .dotted-list li span:first-child {
+            padding-right: 5px;
+            background-color: #fbf9f3;
+            z-index: 1;
+        }
+        .dotted-list li span:last-child {
+            padding-left: 5px;
+            background-color: #fbf9f3;
+            z-index: 1;
+            font-weight: bold;
+        }
+        .dotted-list li::after {
+            content: "";
+            flex-grow: 1;
+            border-bottom: 1px dotted #1c1b1a;
+            margin-bottom: 3px;
+            order: 0;
+        }
+        .dotted-list li span:first-child {
+            order: -1;
+        }
+        .dotted-list li span:last-child {
+            order: 2;
+        }
+        .section-divider {
+            border-top: 1px solid #1c1b1a;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="document-container">
+    <div class="header">
+        <div>3192 &nbsp;&nbsp;&nbsp;&nbsp; Terça-feira, 1</div>
+        <div class="header-center">DIARIO OFFICIAL</div>
+        <div>Abril 1930</div>
+    </div>
+    <hr class="header-line">
+
+    <div class="columns">
+        <!-- COLUNA 1 -->
+        <div class="column">
+            <h3>Para as Inspectorias Districtaes Escolares</h3>
+            <p><strong>Officios ns.:</strong> 13, do Grupo Escolar de Novo Horizonte; 5, do Grupo Escolar de Joanopolis; 15, do Grupo Escolar de Brotas.</p>
+
+            <h3>3.ª e 4.ª SECÇÕES</h3>
+            <h4>Escolas Isoladas e Reunidas</h4>
+            <h5>Papeis entrados</h5>
+            <p><strong>Requerimentos de:</strong> Ignacio Carvalho Landell, Judith Frota Anna Mello Coelho, Francisca von Atzingen, Davina Brasiliana dos Anjos, Maria dos Santos Carvalho, Anna Vieira, Giacomo Ventrili e outros, Paulo Ponciano Piedade, Eugenia Castro Pereira Leite, Gonzalo D'Amar Ferreira, Maria Apparecida Gurgel Pinto, Genesia Costa, Alda Moreira.</p>
+            <p><strong>Officios de:</strong> N- 23, do Insp. do 20.º Districto; n. 5, do Insp. do 76.º Districto; n. 70, do Insp. do 12.º Districto; n. 32, do Insp. do 18.º Districto; n. 11, do Insp do 72.º Districto; n. 7, do Insp. do 33.º Districto; n. 41, do Insp. do 78.º Districto; n. 40, do Insp. do 78.º Districto.</p>
+
+            <h5>Papeis sahidos</h5>
+            <h5 class="uppercase">Para a Secretaria do Interior</h5>
+            <p><strong>Requerimentos de:</strong> Jaeyra de Abreu, Gabriel Gonçalves e outros, Claudina Aquino Rodrigues, Maria Oliveira Nogueira, Gabriel Prioli, Euclydes Moraes Rosa, Maria de Lourdes Andrade, Adelaide Fonseca de Barros, Luiz Conceição Silva.</p>
+            
+            <h5>Para as Inspectorias Districtaes</h5>
+            <p class="no-indent">Ao sr. Insp. de Apiahy, requer. de Dario Almeida Dias.</p>
+            <p class="no-indent">Ao sr. Insp. de Itapetininga, requer. de Rosa Rossi.</p>
+            <p class="no-indent">Ao sr. Insp. de Mogy Mirim, requer. de Tildo Magnocavallo.</p>
+
+            <h3>5.ª SECÇÃO</h3>
+            <h4>Escolas Normaes e outras</h4>
+            <h5>Papeis entrados</h5>
+            <p><strong>Officios:</strong> Da Directoria da Escola Normal Livre de São José dos Campos, sob n. 34; da Inspectoria fiscal da Escola Normal Livre de Mogy das Cruzes, sob ns. 13 e 14; da Inspectoria fiscal da Escola Normal Livre «Dr. Julio Prestes», em Jacarehy, sob n. 7.</p>
+            
+            <h5>Papeis sahidos</h5>
+            <h5 class="uppercase">Para o Thesouro do Estado</h5>
+            <p><strong>Portarias de licença de:</strong> d. Maria Thereza de Oliveira e do sr. Manoel Arystobulo de Oliveira Freitas.</p>
+            <p><strong>Titulo de nomeação de:</strong> d. Olivia Bianco.</p>
+
+            <div class="section-divider"></div>
+
+            <h2 class="uppercase">Inspecção Medica Escolar</h2>
+            <h4>Expediente do dia 28 de Março de 1930</h4>
+            
+            <p class="no-indent"><strong>1.ª ZONA — Dr. Wladimir Kehl</strong> — Inspeccionou 36 alumnos do Grupo Escolar «Marechal Deodoro», vaccinou 13 e expediu 5 boletins sanitarios.</p>
+            <p class="no-indent"><strong>2.ª ZONA — Dr.ª Carmela Juliani</strong> — Inspeccionou 18 alumnos da 62.ª escola «7 de Setembro», requisitou 3 ana-</p>
+        </div>
+
+        <!-- COLUNA 2 -->
+        <div class="column">
+            <p class="no-indent">lyses, revaccinou 14, expediu 7 boletins sanitarios e fez 1 prelecção sobre hygiene individual.</p>
+            <p>Expediu mais 3 boletins sanitario para o Grupo Escolar «Pedro II».</p>
+            <p class="no-indent"><strong>3.ª ZONA — Dr.ª Margarida de Camargo Barros</strong> — Inspeccionou 52 alumnos da Escola Modelo «Caetano de Campos», vaccinou 1, revaccinou 11, expediu 7 boletins sanitarios e fez 1 prelecção sobre vaccina antivariolica.</p>
+            <p class="no-indent"><strong>4.ª ZONA — Dr Nery Gonçalves</strong> — Inspeccionou 31 alumnos do Grupo Escolar «Maria José», revaccinou 31, expediu 10 boletins sanitarios e determinou 1 evicção por parotidite.</p>
+            <p class="no-indent"><strong>5.ª ZONA — Dr. Araripo Sacupira</strong> — Inspeccionou 43 alumnos do 1.º Grupo Escolar do Cambucy, requisitou 2 analyses, vaccinou 4, revaccinou 11, expediu 5 boletins sanitarios e fez 1 prelecção sobre hygiene individual.</p>
+            <p class="no-indent"><strong>6.ª ZONA — Dr. Botelho Comenale</strong> — Inspeccionou 47 alumnos do Grupo Escolar «Oswaldo Cruz», requisitou 1 analyse e vaccinou 3, revaccinou 8 e expediu 13 boletins sanitarios.</p>
+            <p class="no-indent"><strong>7.ª ZONA — Dr. Pedroso Camargo</strong> — Não apresentou parte de serviço.</p>
+            <p class="no-indent"><strong>8.ª ZONA — Dr Durval Marcondes</strong> — Inspeccionou 36 alumnos do 1.º Grupo Escolar do Braz, vaccinou 1, revaccinou 3 e expediu 3 boletins sanitarios e fez 1 prelecção sobre vaccinação antivariolica e suas vantagens.</p>
+            <p class="no-indent"><strong>9.ª ZONA — Dr. Leoncio de Queiroz</strong> — Inspeccionou nesta Directoria 2 professoras e fez 1 deligencia.</p>
+
+            <h4>Inspecção de saúde</h4>
+            <p>Foram inspeccionados nesta Directoria: as professoras d. d Maria José Brasiliense Fusco e Maria José Nogueira, sendo encaminhados os respectivos laudos.</p>
+            <p>No n. 27-A, da rua Fernando de Albuquerque, não foi encontrada a professora d. Antonietta Pimentel Muniz.</p>
+            <p>Não compareceu o professor sr. Archimedes Aristeu de Carvalho.</p>
+
+            <h4>Assistencia Medica</h4>
+            <p class="no-indent"><strong>I -- Clinica de molestias internas e verminoses — Dr. Aleixo Braga</strong> — Examinou 1 alumno, deu 1 consulta, 2 prescripções medicas e organizou as respectivas fichas.</p>
+            <p class="no-indent"><strong>II — Clinica de molestias da pelle e uro-genitaes — Dr. L. V. Catta-Preta</strong> — Examinou 3 alumnos, deu 4 consultas, 5 prescripções medicas, fez 1 curativo e organizou as respectivas fichas.</p>
+            <p class="no-indent"><strong>III — Clinica de molestias de olhos e correcção da vista — Dr. Danton Malta</strong> — Examinou 8 alumnos, deu 2 prescripções medicas, 5 prescripções de oculos e organizou as respectivas fichas.</p>
+            <p>Examinou nesta Directoria 1 professora.</p>
+            <p class="no-indent"><strong>IV — Clinica de molestias de ouvido, nariz e garganta — Dr. Silvestre Passy</strong> — Examinou 5 alumnos, deu 1 prescripção medica e organizou as respectivas fichas.</p>
+            <p>Inspeccionou nesta Directoria 2 professoras e fez 1 deligencia.</p>
+        </div>
+
+        <!-- COLUNA 3 -->
+        <div class="column">
+            <h4>Assistencia Dentaria</h4>
+            <h5>Dr. Campos de Oliveira</h5>
+            <p>Acompanhou o sr. dr. director geral da Instrucção Publica, em visitas aos gabinetes dentarios dos Grupos Escolares «Marechal Floriano», «Marechal Deodoro», Jardim America, Carmo, Itahim e Escola Normal da Praça.</p>
+
+            <h5 class="uppercase">Resumo</h5>
+            <ul class="dotted-list">
+                <li><span>Vizitas a escolas publicas</span><span>6</span></li>
+                <li><span>Visita a escola particular</span><span>1</span></li>
+                <li><span>Alumnos inspeccionados</span><span>263</span></li>
+                <li><span>Analyses requisitadas</span><span>6</span></li>
+                <li><span>Alumnes vaccinados contra a variola</span><span>22</span></li>
+                <li><span>Alumnos revaccinados tre a</span><span>78</span></li>
+                <li><span>Boletins sanitarios expedidos</span><span>50</span></li>
+                <li><span>Evicção determinada</span><span>1</span></li>
+                <li><span>Prelecções sobre hygiene individual</span><span>4</span></li>
+                <li><span>Insp. de saúde nesta Directoria</span><span>2</span></li>
+                <li><span>Deligencia</span><span>1</span></li>
+                <li><span>Exames geraes</span><span>17</span></li>
+                <li><span>Consultas</span><span>5</span></li>
+                <li><span>Prescripções medicas</span><span>10</span></li>
+                <li><span>Prescripções de oculos</span><span>5</span></li>
+                <li><span>Exame especialisado</span><span>1</span></li>
+                <li><span>Curativo</span><span>1</span></li>
+            </ul>
+
+            <div class="section-divider"></div>
+
+            <h2 class="uppercase center">Directoria Geral do Serviço Sanitario</h2>
+            <h3 class="uppercase center">Secção de Expediente</h3>
+            <h4 class="center">Expediente do dia 29 de Março de 1930</h4>
+            
+            <p>Requerimentos despachados pelo Dr. Director Geral e informados, pelas seguintes secções:</p>
+
+            <h4 class="center">Inspectoria da Fisc. de Medicina e Pharmacia</h4>
+            <p class="no-indent"><strong>João de Lucca.</strong>—O predio poderá ser acceito.</p>
+            <p class="no-indent"><strong>Oscar Cabral.</strong>—Deferido.</p>
+            <p class="no-indent"><strong>Gouveia & Oliveira.</strong> — Poderá funccionar a titulo precario, uma vez provado o pagamento da taxa e exhibidos os livros á rubrica.</p>
+            <p class="no-indent"><strong>Instituto Biochimico Opotherapico Ltd.</strong>—Compareçam á Inspectoria para regularização do contracto de locação.</p>
+            <p class="no-indent"><strong>Januario da Cunha Mello.</strong>—Junte attestado de sanidade e recolha a taxa devida.</p>
+            <p class="no-indent"><strong>João Baptista Perrone.</strong> — Prov. Archive-se.</p>
+            <p class="no-indent"><strong>Ambrosina do Canto Barros.</strong> — Prov. Archive-se.</p>
+            <p class="no-indent"><strong>Francisco Serpa.</strong>—Doferido. Officie-se.</p>
+            <p class="no-indent"><strong>Oscar Cabral.</strong> — Deferido, uma vez paga a taga legal.</p>
+            <p class="no-indent"><strong>Cid & Campaz.</strong>—Deferido.</p>
+
+            <h4 class="center">Engenharia Sanitaria</h4>
+            <p class="no-indent"><strong>R. Santa Rosa, 39, apartamento 34.</strong> —Prov. Archive-se.</p>
+
+            <h4 class="center">Inspectoria de Molestias Infecciosas</h4>
+            <p class="no-indent"><strong>R. da Penha, 11</strong> —Prorogo o prazo por 60 dias, afim de cumprir a intimação.</p>
+            <p class="no-indent"><strong>Largo do Belém, 21.</strong> — Prov. Archive-se.</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+```

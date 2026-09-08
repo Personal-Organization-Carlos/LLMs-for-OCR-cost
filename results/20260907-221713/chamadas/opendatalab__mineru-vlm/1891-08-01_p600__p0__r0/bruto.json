@@ -1,0 +1,44 @@
+{
+  "chave": "opendatalab/mineru-vlm|1891-08-01_p600|p0|0",
+  "registro": {
+    "model_id": "opendatalab/mineru-vlm",
+    "prompt_id": "p0",
+    "doc_id": "1891-08-01_p600",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 140.66682339995168,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "total_tokens": null,
+    "cost_usd": 0.0,
+    "cost_source": "local",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "mineru",
+    "provider_upstream": "local",
+    "generation_id": "mineru-vlm-engine-1891-08-01_p600__r0",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T17:36:07Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "subprocess",
+      "tentativa": 1,
+      "comando": [
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\.venv-mineru\\Scripts\\mineru.exe",
+        "-p",
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-vlm\\1891-08-01_p600__r0\\entrada\\1891-08-01_p600.jpg",
+        "-o",
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-vlm\\1891-08-01_p600__r0\\saida",
+        "-b",
+        "vlm-engine"
+      ],
+      "returncode": 0,
+      "backend": "vlm-engine",
+      "artefatos": "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-vlm\\1891-08-01_p600__r0",
+      "log_final": "\n\u001b[32m2026-09-08 13:36:25.615\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.vlm.vlm_analyze\u001b[0m:\u001b[36mget_model\u001b[0m:\u001b[36m251\u001b[0m - \u001b[1mget transformers predictor cost: 9.91s\u001b[0m\n\u001b[32m2026-09-08 13:36:25.624\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.vlm.vlm_analyze\u001b[0m:\u001b[36maio_doc_analyze\u001b[0m:\u001b[36m553\u001b[0m - \u001b[1mVLM processing-window run. page_count=1, window_size=64, total_windows=1\u001b[0m\n\u001b[32m2026-09-08 13:36:30.075\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.vlm.vlm_analyze\u001b[0m:\u001b[36maio_doc_analyze\u001b[0m:\u001b[36m572\u001b[0m - \u001b[1mVLM processing window 1/1: pages 1-1/1 (1 pages)\u001b[0m\n\nLayout Preparation:   0%|          | 0/1 [00:00<?, ?it/s]\nLayout Preparation: 100%|##########| 1/1 [00:00<00:00, 31.97it/s]\n\nPredict:   0%|          | 0/1 [00:00<?, ?it/s]\nPredict: 100%|##########| 1/1 [00:38<00:00, 38.52s/it]\nPredict: 100%|##########| 1/1 [00:38<00:00, 38.52s/it]\n\nLayout Output Parsing:   0%|          | 0/1 [00:00<?, ?it/s]\nLayout Output Parsing: 100%|##########| 1/1 [00:00<?, ?it/s]\n\nExtract Preparation:   0%|          | 0/1 [00:00<?, ?it/s]\nExtract Preparation: 100%|##########| 1/1 [00:00<?, ?it/s]\n\nPredict:   0%|          | 0/42 [00:00<?, ?it/s]\nPredict:   2%|2         | 1/42 [00:00<00:18,  2.22it/s]\nPredict:   5%|4         | 2/42 [00:00<00:13,  2.98it/s]\nPredict:   7%|7         | 3/42 [00:01<00:13,  2.80it/s]\nPredict:  10%|9         | 4/42 [00:02<00:26,  1.42it/s]\nPredict:  12%|#1        | 5/42 [00:03<00:36,  1.01it/s]\nPredict:  14%|#4        | 6/42 [00:04<00:36,  1.01s/it]\nPredict:  17%|#6        | 7/42 [00:06<00:38,  1.10s/it]\nPredict:  19%|#9        | 8/42 [00:07<00:36,  1.08s/it]\nPredict:  21%|##1       | 9/42 [00:07<00:27,  1.18it/s]\nPredict:  24%|##3       | 10/42 [00:08<00:28,  1.11it/s]\nPredict:  26%|##6       | 11/42 [00:11<00:47,  1.53s/it]\nPredict:  29%|##8       | 12/42 [00:17<01:28,  2.95s/it]\nPredict:  31%|###       | 13/42 [00:20<01:20,  2.78s/it]\nPredict:  33%|###3      | 14/42 [00:23<01:25,  3.05s/it]\nPredict:  36%|###5      | 15/42 [00:25<01:12,  2.69s/it]\nPredict:  38%|###8      | 16/42 [00:25<00:51,  1.99s/it]\nPredict:  40%|####      | 17/42 [00:27<00:45,  1.80s/it]\nPredict:  43%|####2     | 18/42 [00:28<00:41,  1.73s/it]\nPredict:  45%|####5     | 19/42 [00:32<00:49,  2.17s/it]\nPredict:  48%|####7     | 20/42 [00:33<00:42,  1.93s/it]\nPredict:  50%|#####     | 21/42 [00:33<00:31,  1.48s/it]\nPredict:  52%|#####2    | 22/42 [00:35<00:28,  1.44s/it]\nPredict:  55%|#####4    | 23/42 [00:37<00:30,  1.59s/it]\nPredict:  57%|#####7    | 24/42 [00:37<00:22,  1.24s/it]\nPredict:  60%|#####9    | 25/42 [00:37<00:16,  1.02it/s]\nPredict:  62%|######1   | 26/42 [00:39<00:16,  1.06s/it]\nPredict:  64%|######4   | 27/42 [00:41<00:19,  1.32s/it]\nPredict:  67%|######6   | 28/42 [00:43<00:21,  1.52s/it]\nPredict:  69%|######9   | 29/42 [00:44<00:17,  1.36s/it]\nPredict:  71%|#######1  | 30/42 [00:44<00:13,  1.15s/it]\nPredict:  74%|#######3  | 31/42 [00:47<00:16,  1.50s/it]\nPredict:  76%|#######6  | 32/42 [00:49<00:18,  1.87s/it]\nPredict:  79%|#######8  | 33/42 [00:51<00:16,  1.89s/it]\nPredict:  81%|########  | 34/42 [00:53<00:13,  1.71s/it]\nPredict:  83%|########3 | 35/42 [00:54<00:11,  1.67s/it]\nPredict:  86%|########5 | 36/42 [00:56<00:09,  1.59s/it]\nPredict:  88%|########8 | 37/42 [00:58<00:09,  1.81s/it]\nPredict:  90%|######### | 38/42 [00:59<00:06,  1.51s/it]\nPredict:  93%|#########2| 39/42 [01:01<00:05,  1.90s/it]\nPredict:  95%|#########5| 40/42 [01:03<00:03,  1.72s/it]\nPredict:  98%|#########7| 41/42 [01:05<00:01,  1.76s/it]\nPredict: 100%|##########| 42/42 [01:05<00:00,  1.45s/it]\nPredict: 100%|##########| 42/42 [01:05<00:00,  1.57s/it]\n\nPost Processing:   0%|          | 0/1 [00:00<?, ?it/s]\nPost Processing: 100%|##########| 1/1 [00:00<?, ?it/s]\n\nProcessing pages:   0%|          | 0/1 [00:00<?, ?it/s]\nProcessing pages: 100%|##########| 1/1 [00:00<00:00, 33.15it/s]\n2026-09-08 13:38:15.601 | INFO     | mineru.cli.client:run_planned_task:883 - Completed batch 1/1 | Processed 1/1 page | 1 of 1 batch finished | task#1 [1891-08-01_p600]\n"
+    }
+  ]
+}

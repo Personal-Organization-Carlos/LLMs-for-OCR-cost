@@ -1,0 +1,78 @@
+{
+  "chave": "qwen/qwen3-vl-235b-a22b-instruct|1900-04-01_p731|p1|0",
+  "registro": {
+    "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "prompt_id": "p1",
+    "doc_id": "1900-04-01_p731",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 80.54400130000431,
+    "prompt_tokens": 2560,
+    "completion_tokens": 2707,
+    "total_tokens": 5267,
+    "cost_usd": 0.00348088,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Alibaba",
+    "generation_id": "gen-1788813647-LFBCDEueBt5fILxi3xxj",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-07T20:40:47Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788813647-LFBCDEueBt5fILxi3xxj",
+        "object": "chat.completion",
+        "created": 1788813647,
+        "model": "qwen/qwen3-vl-235b-a22b-instruct",
+        "provider": "Alibaba",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Diário Oficial do Estado de São Paulo - 1º de Abril de 1900</title>\n    <style>\n        body { font-family: serif; line-height: 1.4; margin: 2cm; }\n        h1, h2, h3 { text-align: center; margin: 0.5em 0; }\n        .header { border-bottom: 2px solid black; padding-bottom: 0.5em; margin-bottom: 0.5em; }\n        .subheader { display: flex; justify-content: space-between; margin-bottom: 1em; }\n        .section { page-break-inside: avoid; margin-bottom: 1.5em; }\n        .column { column-count: 3; column-gap: 1.5em; }\n        .column > div { break-inside: avoid; }\n        .section-title { font-weight: bold; text-decoration: underline; margin: 0.5em 0; }\n        .date-line { font-size: 0.9em; text-align: right; }\n    </style>\n</head>\n<body>\n    <div class=\"header\">\n        <h1>ESTADOS UNIDOS DO BRAZIL</h1>\n        <h1>DIARIO OFFICIAL</h1>\n        <h2>DO ESTADO DE SÃO PAULO</h2>\n    </div>\n    <div class=\"subheader\">\n        <span>ANNO 9º—12.º DA REPUBLICA—N. 75</span>\n        <span>SÃO PAULO</span>\n        <span>DOMINGO, 1 DE ABRIL DE 1900</span>\n    </div>\n\n    <div class=\"column\">\n        <!-- Coluna 1 -->\n        <div>\n            <h3>ACTOS DO PODER EXECUTIVO</h3>\n            <h4>Interior</h4>\n            <p>Por decreto de 27 do corrente foi exonerado o professor preliminar, cidadão José de Castro, com exercício na Escola Complementar de Itapetininga, para o cargo de professor do grupo escolar de São Manoel do Paraíso;</p>\n            <p>Por decreto da mesma data, foi nomeada a professora preliminar, d. Anna Candida Soares, para o cargo de professora adjunta do grupo escolar da Faxina;</p>\n            <p>Por decreto da mesma data, foi nomeada a professora de igual categoria, d. Emygdia Soares, para, interinamente, exercer o cargo de professora do mesmo grupo.</p>\n            <p>Por decreto da mesma data, foi exonerado, a pedido, o bacharel José Pinto de Moura, do cargo de lente da 9.ª cadeira do Gymnasio de Campinas;</p>\n            <p>Por decreto da mesma data, foram creados quatro logares de adjunctos na secção feminina do 2.º grupo escolar de Campinas;</p>\n            <p>Por decreto da mesma data, foram também creados dois logares idênticos na secção feminina do grupo da Faxina.</p>\n\n            <h4>Agricultura</h4>\n            <p>Por decreto de 27 do mez findo, foi removido a pedido, o cidadão Carlos Martins, 2.º escriptorario da Hospedaria de Immigrantes, para o logar de conferente da Repartição de Aguas e Exgottos; sendo nomeado para aquella vaga o cidadão Julio Bicudo.</p>\n\n            <h3>SECRETARIAS DE ESTADO</h3>\n            <h4>Interior</h4>\n            <p>EXPEDIENTE DE 30 DE MARÇO DE 1900</p>\n            <h4>1.ª SUB-DIRECTORIA</h4>\n            <h5>1.ª SECÇÃO</h5>\n            <p>Comunicou-se á Secretaria dos Negocios da Fazenda, para os devidos fins, que o bacharel Jacintho do Nascimento Moura, auxiliar da redacção do Diario Official, reassumiu o exercício do cargo no dia 21 do corrente, visto ter terminado a licença em cujo gozo se achava.</p>\n            <p>Transmittiram-se á Secretaria dos Negocios da Agricultura, Commercio e Obras Publicas dois officios, sendo um da camara municipal de Guaracy e outro do intendente municipal da Franca, vistos tratarem de assumptos referentes áquella secretaria.</p>\n        </div>\n\n        <!-- Coluna 2 -->\n        <div>\n            <h5>2.ª SECÇÃO</h5>\n            <p><em>Officios despachados</em></p>\n            <p>Da Secretaria da Agricultura, communicando que opportunamente será executado o serviço de exgottos nos bairros da Lapa, Agua Branca e outros da capital.—A’ Directoria do Serviço Sanitario.</p>\n            <p>EXPEDIENTE DE 28 DE MARÇO DE 1900</p>\n\n            <h5>3.ª SECÇÃO</h5>\n            <p>Foram solicitados da Secretaria da Fazenda os seguintes pagamentos:</p>\n            <p>De 3$9000, pela collectoria de Mogi das Cruzes, ao director do grupo escolar daquella cidade, pelos fornecimentos feitos ao referido estabelecimento;</p>\n            <p>De 2$10$100, pela collectoria da Faxina, ao director do grupo escolar daquella cidade, Emilio Mario de Arantes, proveniente de fornecimentos feitos ao dito estabelecimento;</p>\n            <p>De 295$000, pela collectoria de Areias, ao director do grupo escolar daquella cidade, José Mario da Silveira, proveniente de reparos feitos no prédio onde funciona o referido estabelecimento;</p>\n            <p>De 100$000, pela collectoria de Espirito Santo do Pinhal, ao director, em commissão, do grupo escolar daquella cidade, Domingos de Paula da Silva, proveniente de contas de serviços prestados ao referido estabelecimento.</p>\n            <p>Autorizou-se o director do Serviço Sanitario a despende a quantia de 725$000, para aquisição de objectos necessarios áquella repartição.</p>\n\n            <h4>1.ª SUB-DIRECTORIA</h4>\n            <h5>1.ª SECÇÃO</h5>\n            <p>Comunicou-se ao sr. dr. secretario da Fazenda:</p>\n            <p>Que, por motivo de molestia, interrompeu o exercício de seu cargo, desde o dia 11 do corrente, o professor do grupo escolar do Braz, cidadão Ilnessio Braulio Rodrigues;</p>\n            <p>Que foram abonadas seis faltas dadas pelo professor de escripturação mercantil da Eschola Normal, cidadão Jeronymo Azevedo, no mez ultimo.</p>\n            <p>Recommendo-se ao director do grupo escolar «Dr. Flamínio Lessa», de Guaratinguetá, que informasse a este secretariado de que serviço se acha encarregado o professor Miguel Virginio dos Santos.</p>\n            <p>Declarou-se ao director do grupo escolar «Gabriel Prestes», de Lorena, em resposta ao seu officio n. 21, de 6 do corrente, não haver necessidade do augmento de uma sala naquelle estabelecimento, como informou o inspector escolar que alli estava em commissão.</p>\n\n            <h5>Requerimento despachado</h5>\n            <p>De Maria da Piedade Canto, porteira do grupo escolar de Lorena, pedindo equiparação de seus vencimentos aos do porteiro do mesmo grupo.—Sejam equiparados.</p>\n        </div>\n\n        <!-- Coluna 3 -->\n        <div>\n            <h5>2.ª SECÇÃO</h5>\n            <p><em>Dia 27</em></p>\n            <p>Officiou-se:</p>\n            <p>A’ Fazenda, communicando que a professora nomeada para reger a escola mixta da villa Cerqueira Cesar, desta capital, d. Maria Elisa Mac Intyre, assumiu o exercício no dia 20 do corrente;</p>\n            <p>A’ mesma, communicando que a 10 do corrente foi nomeado inspector municipal de Santa Barbara do Rio Pardo, assumindo o exercício a 17 do mesmo, o major Casemiro Nunes de Carvalho;</p>\n            <p>A’ mesma, communicando que entrou em exercício da escola da villa do Rio das Pedras, no dia 20 do corrente, o professor João Braulio Cesar.</p>\n\n            <p><em>Dia 28</em></p>\n            <p>Officiou-se:</p>\n            <p>A’ Fazenda, trasmitindo, por cópia, o decreto que aposentou a professora da escolha do 22.º districto desta capital, d. Galdina America de Almeida, bem como todos os papeis referentes ao assumpto;</p>\n            <p>A’ mesma, transmitindo, por cópia, o decreto que aposentou o professor da escola do bairro de Santa Cruz, município de Cruzeiro e demais papeis referentes ao assumpto;</p>\n            <p>A’ mesma, transmitindo, por cópia, o decreto que aposentou o cidadão Augusto Pinto da Silva Saes, professor da escola da villa de S. Pedro, e demais papeis referentes ao assumpto;</p>\n            <p>A’ mesma, solicitando pagamento da gratificação de que trata o artigo 135 do regulamento de 27 de Novembro de 1893, ao professor adjuncto da 1.ª escola de Santos, cidadão Olyntho Paiva.</p>\n\n            <p><em>Dia 29</em></p>\n            <p>Officiou-se:</p>\n            <p>A’ Fazenda, communicando que a professora da escolha do 5.º districto, desta capital, d. Marianna da Gloria Rodrigues Bahia, entrou a 21 do corrente no gozo da licença que lhe fora concedida;</p>\n            <p>A’ mesma, communicando que o professor Brazilianno de Azevedo, removido da escola do bairro dos Mauricios, em São Bento do Sapucahy, para a da freguezia de Santo Antonio do Pinhal, do mesmo município, assumiu o exercício do cargo no dia 17 do corrente.</p>\n\n            <p><em>Dia 30</em></p>\n            <p>Officiou-se:</p>\n            <p>A’ camara municipal de Santos, mandando passar os attestados de exercício ao professor da 4.ª escola daquella cidade, cidadão Eugenio Porehat de Assis, visto não ter sido abandonada a sua escola, conforme se verificou dos papeis relativos ao caso.</p>\n\n            <h5>3.ª SECÇÃO</h5>\n            <p>Officiou-se:</p>\n            <p>Ao agente da E. de Ferro Central, pedindo transporte para volumes destinados aos grupos escolares de Areias e Pindamonhangaba;</p>\n        </div>\n    </div>\n</body>\n</html>",
+              "refusal": null,
+              "reasoning": null
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2560,
+          "completion_tokens": 2707,
+          "total_tokens": 5267,
+          "cost": 0.00348088,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00348088,
+            "upstream_inference_prompt_cost": 0.0006656,
+            "upstream_inference_completions_cost": 0.00281528
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

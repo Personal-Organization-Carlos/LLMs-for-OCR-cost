@@ -1,0 +1,78 @@
+{
+  "chave": "anthropic/claude-sonnet-5|1900-04-01_p735|p1|0",
+  "registro": {
+    "model_id": "anthropic/claude-sonnet-5",
+    "prompt_id": "p1",
+    "doc_id": "1900-04-01_p735",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 48.58933019998949,
+    "prompt_tokens": 4840,
+    "completion_tokens": 5623,
+    "total_tokens": 10463,
+    "cost_usd": 0.06591,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Anthropic",
+    "generation_id": "gen-1788826356-vlGNsq1jwvHdCYRTuAUv",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T00:12:37Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788826356-vlGNsq1jwvHdCYRTuAUv",
+        "object": "chat.completion",
+        "created": 1788826356,
+        "model": "anthropic/claude-sonnet-5",
+        "provider": "Anthropic",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "end_turn",
+            "message": {
+              "role": "assistant",
+              "content": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diario Official</title>\n<style>\n  body {\n    font-family: Georgia, serif;\n    font-size: 13px;\n    margin: 20px;\n    color: #1a1a1a;\n  }\n  .header {\n    display: flex;\n    justify-content: space-between;\n    border-bottom: 2px solid #000;\n    padding-bottom: 5px;\n    margin-bottom: 10px;\n    font-weight: bold;\n  }\n  .header .title {\n    font-size: 18px;\n    text-align: center;\n    flex-grow: 1;\n  }\n  .columns {\n    display: flex;\n    gap: 15px;\n  }\n  .col {\n    flex: 1;\n    text-align: justify;\n  }\n  h3 {\n    text-align: center;\n    font-size: 16px;\n    letter-spacing: 2px;\n    margin: 15px 0 10px 0;\n  }\n  .section-title {\n    font-style: italic;\n    font-weight: bold;\n    display: block;\n    margin-top: 8px;\n    margin-bottom: 3px;\n  }\n  .italic {\n    font-style: italic;\n  }\n  table {\n    width: 100%;\n    border-collapse: collapse;\n    margin: 5px 0;\n    font-size: 12px;\n  }\n  table, th, td {\n    border: 1px solid #000;\n  }\n  td, th {\n    padding: 2px 4px;\n    text-align: center;\n  }\n  .table-title {\n    text-align: center;\n    font-weight: bold;\n  }\n  p {\n    margin: 4px 0;\n  }\n  .financeiro-line {\n    display: flex;\n    justify-content: space-between;\n  }\n  .dia {\n    font-style: italic;\n    font-weight: bold;\n    display: block;\n    text-align: right;\n    margin-top: 6px;\n  }\n</style>\n</head>\n<body>\n\n<div class=\"header\">\n  <span>Domingo, 1</span>\n  <span class=\"title\">DIARIO OFFICIAL</span>\n  <span>Abril 1900 735</span>\n</div>\n<hr>\n\n<div class=\"columns\">\n\n  <!-- COLUNA 1 -->\n  <div class=\"col\">\n    <p>Officiou á directoria pedindo providencias para que seja feita uma vistoria nos predios da rua Bresser ns. 42 e 44.</p>\n\n    <span class=\"section-title\">Consolação—1.ª secção</span>\n    <p>O dr. Synesio Pestana, inspector sanitario desta secção, visitou hoje as casas da rua 7 de Abril de ns. 88 a 126.</p>\n    <p>Estão em regulares condições hygienicas.</p>\n    <p>A' rua Braulio Gomes visitou a casa n. 10 a procura de uma fabrica de vinhos</p>\n\n    <span class=\"section-title\">Consolação—3.ª secção</span>\n    <p>O dr. Evaristo Bacellar, inspector sanitario desta secção, visitou hoje as casas da rua dr. Abranches de ns. 1 a 51, inclusive o armazem de seccos e a cochelra da Companhia Viação Paulista.</p>\n    <p>Vaccinou 9 creanças.</p>\n    <p>Expediu 3 Intimações.</p>\n    <p>Encontrou todas as casas em regulares condições de asseio.</p>\n    <p>E' bom o estado sanitario.</p>\n\n    <span class=\"section-title\">Consolação—4.ª secção</span>\n    <p>O dr. Alfredo Guaraná, inspector sanitario desta secção, visitou hoje 25 casas da rua Victorino Carmilo, de ns. 1 a 11 e de 19 a -69, encontrando-as, na sua maioria, em boas condições de asseio.</p>\n    <p>E' bom o estado sanitario.</p>\n\n    <hr>\n\n    <h3>NOTICIARIO</h3>\n\n    <span class=\"section-title\">Guarda nacional.</span>\n    <p>—Foram declarados sem effeito :</p>\n    <p>O decreto de 17 de Março ultimo que nomeou Augusto Moreira de Carvalho para o posto de capitão da 1.ª companhia do 126.º batalhão de infanteria da guarda nacional da comarca de Santos;</p>\n    <p>O decreto da mesma data que annullou a nomeação de Antão Alves de Moura para o posto de capitão da 1.ª companhia do 126.º batalhão de infanteria da guarda nacional da comarca de Santos, ficando subsistente o decreto de 26 de Agosto do anno passado na parte em que nomeou o referido official.</p>\n\n    <span class=\"section-title\">Pagamentos.</span>\n    <p>—Pelo Ministerio da Industria, Viação e Obras Publicas foram solicitados do da Fazenda os seguintes pagamentos :</p>\n    <p>De £ 2098-13-4 á Companhia Mechanica e Importadora de S. Paulo, de fornecimento feito á Estrada de Ferro Central do Brazil, em Dezembro do anno passado.</p>\n    <p>De £ 552-14-10 idem, idem, idem, em Dezembro do anno passado.</p>\n\n    <span class=\"section-title\">Camara Syndical.</span>\n    <p>—Cotação dos fundos publicos e particulares no dia 30 de Março de 1900 :</p>\n    <table>\n      <tr><td></td><td>90 d/v</td><td>A' vista</td></tr>\n      <tr><td>Sobre Londres . . .</td><td>8 7/32</td><td>7 3,32</td></tr>\n      <tr><td>&nbsp;&nbsp;» Pariz. . . . .</td><td>1160</td><td>1173</td></tr>\n      <tr><td>&nbsp;&nbsp;» Hamburgo . .</td><td>1432</td><td>1455</td></tr>\n      <tr><td>&nbsp;&nbsp;» Italia. . . . .</td><td>—</td><td>1108</td></tr>\n      <tr><td>&nbsp;&nbsp;» Portugal . . .</td><td>—</td><td>480</td></tr>\n      <tr><td>&nbsp;&nbsp;» New-York. . .</td><td>—</td><td>6110</td></tr>\n      <tr><td>Soberanos . . . . .</td><td>—</td><td>—</td></tr>\n    </table>\n\n    <p class=\"table-title\">CURSO OFFICIAL DOS FUNDOS PUBLICOS E PARTICULARES</p>\n    <p class=\"italic\">Bancos</p>\n    <table>\n      <tr><td>São Paulo . . . . . . . . . .</td><td>147$000</td></tr>\n      <tr><td>Mercantil de Santos. . . . . .</td><td>135$000</td></tr>\n    </table>\n  </div>\n\n  <!-- COLUNA 2 -->\n  <div class=\"col\">\n    <p class=\"italic\">Companhias</p>\n    <table>\n      <tr><td>Paulista de Vias Ferreas e Fluviaes . .</td><td>258$100</td></tr>\n      <tr><td>Dita de idem, a 30 dias (á vontade do vendedor</td><td>258$000</td></tr>\n    </table>\n\n    <p class=\"italic\">Lettras hypothecarias</p>\n    <table>\n      <tr><td>Banco de Credito Real de São Paulo, 8ª, 9ª e 11ª. . . . . . . .</td><td>68$000</td></tr>\n    </table>\n    <p>S. Paulo, 30 de Março de 1900.—O syndico, <span class=\"italic\">Henry White.</span></p>\n\n    <p class=\"table-title\">DIA 31</p>\n    <table>\n      <tr><td></td><td>90 d/v</td><td>A' vista</td></tr>\n      <tr><td>Sobre Londres</td><td>8 1/8</td><td>8 d.</td></tr>\n      <tr><td>&nbsp;&nbsp;» Pariz .</td><td>1174</td><td>1192</td></tr>\n      <tr><td>&nbsp;&nbsp;» Hamburgo . . .</td><td>1449</td><td>1472</td></tr>\n      <tr><td>&nbsp;&nbsp;» Italia .</td><td></td><td>1110</td></tr>\n      <tr><td>&nbsp;&nbsp;» Portugal . . .</td><td></td><td>485</td></tr>\n      <tr><td>&nbsp;&nbsp;New-York. . . .</td><td></td><td>6181</td></tr>\n      <tr><td>Soberanos . . . . .</td><td></td><td>—</td></tr>\n    </table>\n\n    <p class=\"table-title\">CURSO OFFICIAL DOS FUNDOS PUBLICOS E PARTICULARES</p>\n    <p class=\"italic\">Bancos</p>\n    <table>\n      <tr><td>São Paulo . . . . . . . . . .</td><td>147$000</td></tr>\n    </table>\n\n    <p class=\"italic\">Companhias</p>\n    <table>\n      <tr><td>Paulista de Vias Ferreas e Fluviaes .</td><td>260$000</td></tr>\n    </table>\n\n    <p class=\"italic\">Lettras hypothecarias</p>\n    <table>\n      <tr><td>Banco de Credito Real de S. Paulo, 4ª a 9ª séries . . . . . . . .</td><td>68$000</td></tr>\n    </table>\n    <p>São Paulo, 31 de Março de 1900.—O syndico, <span class=\"italic\">Henry White.</span></p>\n\n    <span class=\"section-title\">Hospedaria de Immigrantes.</span>\n    <p>—Boletim do movimento de immigrantes no dia 31 de Março de 1900 :</p>\n\n    <table>\n      <tr><th>MOVIMENTO</th><td>Existiam</td><td>Entraram</td><td>Bagagem</td><td>Sahiram</td><td>Existem</td></tr>\n      <tr><th>Maiores de 12 annos</th><td>25</td><td></td><td></td><td></td><td>25</td></tr>\n      <tr><th>De 7 a 12 annos</th><td>8</td><td></td><td></td><td></td><td>8</td></tr>\n      <tr><th>De 2 a 6 annos</th><td>8</td><td></td><td></td><td></td><td>8</td></tr>\n      <tr><th>Menores de 2 annos</th><td>2</td><td></td><td></td><td></td><td>2</td></tr>\n      <tr><th>TOTAL</th><td>26</td><td></td><td></td><td></td><td>43</td></tr>\n    </table>\n\n    <table>\n      <tr><th>PASSAGENS</th><td>Pedidas</td><td>Concedidas</td><td>Embarcadas</td></tr>\n      <tr><td></td><td></td><td></td><td></td></tr>\n      <tr><th>Por contracto directo</th><td></td><td></td><td></td></tr>\n      <tr><th>Por Intermedio dos agentes</th><td></td><td></td><td></td></tr>\n      <tr><th>Com destino certo</th><td></td><td></td><td></td></tr>\n      <tr><th>Conductores de bagagens</th><td></td><td></td><td></td></tr>\n      <tr><th>TOTAL</th><td></td><td></td><td></td></tr>\n    </table>\n    <p>Sahiram para a capital / Sahiram por conta propria / Fallecerâm / 1 fazendeiro faz pedido de 5 familias</p>\n\n    <p>Hospedaria de Immigrantes em São Paulo, 31 de Março de 1900. — O ajudante do director, <span class=\"italic\">João M. Pinheiro.</span></p>\n\n    <span class=\"section-title\">Obituario.</span>\n    <p>—Foram sepultados no Cemiterio Municipal do Araçá os seguintes cadaveres :</p>\n  </div>\n\n  <!-- COLUNA 3 -->\n  <div class=\"col\">\n    <span class=\"dia\">Dia 25</span>\n    <p>Domingos dos Santos, 50 annos, brazileiro; hemorragia cerebral.</p>\n    <p>Maria Luiza, 60 annos, italiana, casada; embolia cerebral.</p>\n    <p>Mathias Congo, 70 annos, solteiro, africano; arterio sclerose.</p>\n    <p>Benedicta Maria Conceição, 19 annos, brazileira, solteira; endocardite syphilitica.</p>\n    <p>Antonio Correia Costa, 82 annos, portuguez, casado; tuberculose pulmonar.</p>\n    <p>Féto masculino, filho de Ernesto Pertresi; nasceu morto.</p>\n    <p>Féto masculino, filho de Antorelli Giovanni; nasceu morto.</p>\n    <p>Féto masculino, filho de Carmine Natulli; nasceu morto.</p>\n    <p>Maria, 13 mezes, brazileira, filha de João Ron; bronchite.</p>\n    <p>Jannuario Rocco, 55 annos, italiano, solteiro; insufficiencia mitral.</p>\n    <p>Benedicta Andrelina Jesus, 23 annos, brazileira, solteira; tuberculose.</p>\n\n    <span class=\"dia\">Dia 26</span>\n    <p>Aldo Rescoli, 17 annos, italiano, solteiro; febre amarella.</p>\n    <p>Jacintho Pinheiro, 9 annos, portuguez; febre amarella.</p>\n    <p>Carlos, 8 mezes, brazileiro, filho de José Pereira Simões; gastro enterite.</p>\n    <p>Féto masculino, filho de Vicenzo Boccia; nasceu morto.</p>\n    <p>Francisco, 17 mezes, brazileiro, filho de Miguel Depetrangele; eclampsia.</p>\n    <p>João das Dores Pestana, 25 annos, portuguez, solteiro; febre amarella.</p>\n    <p>Julio Cesar Martins Pestana, 52 annos, portuguez, casado; febre amarella.</p>\n    <p>Angelina, 3 annos, brazileira, filha de Michele Gaira; bronchite capillar.</p>\n    <p>Felicio Ferreira dos Santos, 31 annos, brazileiro, casado; peritonite traumatica.</p>\n    <p>João Evangelista, 33 annos, brazileiro, solteiro; tuberculose.</p>\n    <p>Francisco, 4 annos, brazileiro, filho de d. Eugenia Maria Conceição; infecção malarica.</p>\n    <p>Mafalda Ferraz, 50 annos, brazileira, solteira; queimadura.</p>\n    <p>Pedro Gaifa, 22 annos, italiano solteiro; insufficiencia mitral.</p>\n    <p>Izabel Slatine, 60 annos, italiana viuva; congestão cerebral.</p>\n\n    <span class=\"dia\">Dia 27</span>\n    <p>Angelo Baretta, 72 annos, italiano, viuvo; sclerlise cerebral.</p>\n    <p>Angelo Tedesco, 80 annos, italiano, casado; uremia.</p>\n    <p>Joaquim, 16 dias, brazileiro, filho de João Antonio de Oliveira; inviabilidade.</p>\n    <p>José Rodrigues, 44 annos, portuguez, casado;</p>\n    <p>Narcisa Amelia Araujo, 22 annos, brazileira, solteira;</p>\n    <p>Malvina Maria Alexandrina, 35 annos, solteira, brazileira; cachexia epileptica.</p>\n    <p>Paschoal Annunciato, 18 annos, italiano, solteiro; tuberculose.</p>\n    <p>Leonardo Lole, 15 annos, italiano, casado; febre typhoide.</p>\n    <p>Antonio Pereira, 56 annos, portuguez, casado; peritonite em consequencia de fractura.</p>\n  </div>\n\n</div>\n\n</body>\n</html>\n```",
+              "refusal": null,
+              "reasoning": null
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 4840,
+          "completion_tokens": 5623,
+          "total_tokens": 10463,
+          "cost": 0.06591,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.06591,
+            "upstream_inference_prompt_cost": 0.00968,
+            "upstream_inference_completions_cost": 0.05623
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Diario Official do Estado de São Paulo - 1 de Abril de 1900</title>
+    <style>
+        body {
+            background-color: #f7f5f0;
+            color: #111;
+            font-family: "Times New Roman", Times, "Nimbus Roman No9 L", Georgia, serif;
+            font-size: 11px;
+            line-height: 1.25;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .newspaper {
+            max-width: 960px;
+            margin: 0 auto;
+            background-color: #fffdfa;
+            padding: 25px 35px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
+            border: 1px solid #dcd7ce;
+        }
+
+        /* Top Header */
+        .top-header {
+            text-align: center;
+            letter-spacing: 7px;
+            font-size: 16px;
+            font-weight: 900;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .main-title {
+            text-align: center;
+            font-size: 64px;
+            font-weight: 900;
+            letter-spacing: 4px;
+            line-height: 0.95;
+            margin: 0;
+            transform: scaleY(1.1);
+            text-transform: uppercase;
+        }
+
+        .sub-title {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            margin-top: 8px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        /* Masthead Meta info bar */
+        .meta-bar {
+            border-top: 2px solid #000;
+            border-bottom: 2px solid #000;
+            padding: 4px 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 11px;
+            letter-spacing: 0.5px;
+            margin-bottom: 15px;
+        }
+
+        .meta-bar span {
+            text-transform: uppercase;
+        }
+
+        /* Three columns layout */
+        .columns {
+            display: flex;
+            gap: 15px;
+        }
+
+        .column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        .column:not(:last-child) {
+            border-right: 1px solid #000;
+            padding-right: 15px;
+        }
+
+        /* Typography Styles */
+        h2.section-head {
+            font-size: 14px;
+            font-weight: 900;
+            text-align: center;
+            margin: 4px 0 2px 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        h3.section-subhead {
+            font-size: 13px;
+            font-weight: normal;
+            font-style: italic;
+            text-align: center;
+            margin: 6px 0 4px 0;
+        }
+
+        h4.division-head {
+            font-size: 9.5px;
+            font-weight: bold;
+            text-align: center;
+            margin: 4px 0 2px 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .divider {
+            text-align: center;
+            margin: 4px 0;
+            line-height: 1;
+        }
+
+        .divider::after {
+            content: "————";
+            letter-spacing: -2px;
+            font-size: 10px;
+        }
+
+        p {
+            margin: 0 0 5px 0;
+            text-indent: 14px;
+        }
+
+        p.no-indent {
+            text-indent: 0;
+        }
+
+        .center-text {
+            text-align: center;
+            text-indent: 0;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="newspaper">
+    <!-- Header Area -->
+    <div class="top-header">Estados Unidos do Brazil</div>
+    <h1 class="main-title">Diario Official</h1>
+    <div class="sub-title">do Estado de São Paulo</div>
+
+    <!-- Metadata Bar -->
+    <div class="meta-bar">
+        <span>Anno 9.º—12.º da Republica—N. 75</span>
+        <span>São Paulo</span>
+        <span>Domingo, 1 de Abril de 1900</span>
+    </div>
+
+    <!-- 3-Column Content -->
+    <div class="columns">
+        <!-- COLUMN 1 -->
+        <div class="column">
+            <h2 class="section-head">Actos do Poder Executivo</h2>
+            <div class="divider"></div>
+            
+            <h3 class="section-subhead">Interior</h3>
+            
+            <p>Por decreto de 27 do corrente foi exonerado o professor preliminar, cidadão José de Castro, com exercicio na Eschola Complementar de Itapetininga, para o cargo de professor do grupo escholar de São Manoel do Paraiso ;</p>
+            
+            <p>Por decreto da mesma data, foi nomeada a professora preliminar, d. Anna Candida Soares, para o cargo de professora adjuncta do grupo escholar da Faxina ;</p>
+            
+            <p>Por decreto da mesma data, foi nomeada a professora de egual categoria, d. Emygdia Soares, para, interinamente, exercer o cargo de professora do mesmo grupo.</p>
+            
+            <p>Por decreto da mesma data, foi exonerado, a pedido, o bacharel José Pinto de Moura, do cargo de lente da 9.ª cadeira do Gymnasio de Campinas ;</p>
+            
+            <p>Por decreto da mesma data, foram creados quatro logares de adjunctos na secção feminina do 2.º grupo escholar de Campinas ;</p>
+            
+            <p>Por decreto da mesma data, foram tambem creados dois logares identicos na secção feminina do grupo da Faxina.</p>
+            
+            <h3 class="section-subhead">Agricultura</h3>
+            
+            <p>Por decreto de 27 do mez findo, foi removido a pedido, o cidadão Carlos Martins, 2.º escripturario da Hospedaria de Immigrantes, para o logar de conferente da Repartição de Aguas e Exgottos ; sendo nomeado para aquella vaga o cidadão Julio Bicudo.</p>
+            
+            <h2 class="section-head" style="margin-top: 10px;">Secretarias de Estado</h2>
+            
+            <h3 class="section-subhead">Interior</h3>
+            
+            <h4 class="division-head">Expediente de 30 de Março de 1900</h4>
+            <h4 class="division-head">1.ª Sub-Directoria</h4>
+            <h4 class="division-head">1.ª Secção</h4>
+            
+            <p>Communicou-se á Secretaria dos Negocios da Fazenda, para os devidos fins, que o bacharel Jacintho do Nascimento Moura, auxiliar da redacção do <i>Diario Official</i>, reassumiu o exercicio do cargo no dia 24 do corrente, visto ter terminado a licença em cujo goso se achava.</p>
+            
+            <p>Transmittiram-se á Secretaria dos Negocios da Agricultura, Commercio e Obras Publicas dois officios, sendo um da camara municipal de Guarehy e outro do intendente municipal da Franca, visto tratarem de assumptos referentes áquella secretaria.</p>
+        </div>
+
+        <!-- COLUMN 2 -->
+        <div class="column">
+            <h4 class="division-head">2.ª Secção</h4>
+            <p class="center-text italic" style="margin-bottom: 4px;">Officios despachados</p>
+            
+            <p class="no-indent"><b>Da Secretaria da Agricultura</b>, communicando que opportunamente será executado o serviço de exgottos nos bairros da Lapa, Agua Branca e outros da capital.—A' Directoria do Serviço Sanitario.</p>
+            
+            <h4 class="division-head" style="margin-top: 8px;">Expediente de 28 de Março de 1900</h4>
+            <h4 class="division-head">3.ª Secção</h4>
+            
+            <p class="no-indent">Foram solicitados da Secretaria da Fazenda os seguintes pagamentos :</p>
+            
+            <p>De 35$000, pela collectoria de Mogy das Cruzes, ao director do grupo escholar daquella cidade, pelos fornecimentos feitos ao referido estabelecimento ;</p>
+            
+            <p>De 2:810$100, pela collectoria da Faxina, ao director do grupo escholar daquella cidade, Emilio Mario de Arantes, proveniente de fornecimentos feitos ao dito estabelecimento ;</p>
+            
+            <p>De 295$000, pela collectoria de Areias, ao director do grupo escholar daquella cidade, José Mario da Silveira, proveniente de reparos feitos no predio onde funcciona o referido estabelecimento ;</p>
+            
+            <p>De 100$000, pela collectoria de Espirito Santo do Pinhal, ao director, em commissão, do grupo escholar daquella cidade, Domingos de Paula da Silva, proveniente de contas de serviços prestados ao referido estabelecimento.</p>
+            
+            <p>Auctorizou-se o director do Serviço Sanitario a despender a quantia de 725$000, para acquisição de objectos necessarios áquella repartição.</p>
+            
+            <h4 class="division-head" style="margin-top: 8px;">1.ª Sub-Directoria</h4>
+            <h4 class="division-head">1.ª Secção</h4>
+            
+            <p class="no-indent">Communicou-se ao sr. dr. secretario da Fazenda :</p>
+            
+            <p>Que, por motivo de molestia, interrompeu o exercicio de seu cargo, desde o dia 14 do corrente, o professor do grupo escholar do Braz, cidadão Dionysio Braulio Rodrigues ;</p>
+            
+            <p>Que foram abonadas seis faltas dadas pelo professor de escripturação mercantil da Eschola Normal, cidadão Jeronymo Azevedo, no mez ultimo.</p>
+            
+            <p>Recommendou-se ao director do grupo escholar «Dr. Flaminio Lessa», de Guaratinguetá, que informasse a este secretariado de que serviço se acha encarregado o professor Miguel Virginio dos Santos.</p>
+            
+            <p>Declarou-se ao director do grupo escholar «Gabriel Prestes», de Lorena, em resposta ao seu officio n. 21, de 6 do corrente, não haver necessidade de augmento de uma sala naquelle estabelecimento, como informou o inspector escholar que alli esteve em commissão.</p>
+            
+            <p class="center-text italic" style="margin-top: 6px; margin-bottom: 3px;">Requerimento despachado</p>
+            
+            <p class="no-indent"><b>De Maria da Piedade Canto</b>, porteira do grupo escholar de Lorena, pedindo equiparação de seus vencimentos aos do porteiro do mesmo grupo.—Sejam equiparados.</p>
+        </div>
+
+        <!-- COLUMN 3 -->
+        <div class="column">
+            <h4 class="division-head">3.ª Secção</h4>
+            <p class="center-text bold" style="margin-bottom: 3px;">Dia 27</p>
+            <p class="no-indent">Officiou-se :</p>
+            
+            <p><b>A' Fazenda</b>, communicando que a professora nomeada para reger a eschola mixta da villa Cerqueira Cesar, desta capital, d. Maria Ellia Mac Intyre, assumiu o exercicio no dia 20 do corrente ;</p>
+            
+            <p><b>A' mesma</b>, communicando que a 10 do corrente foi nomeado inspector municipal de Santa Barbara do Rio Pardo, assumindo o exercicio a 17 do mesmo, o major Casemiro Nunes de Carvalho ;</p>
+            
+            <p><b>A' mesma</b>, communicando que entrou em exercicio da eschola da villa do Rio das Pedras, no dia 20 do corrente, o professor João Braulio Cesar.</p>
+            
+            <p class="center-text bold" style="margin-top: 6px; margin-bottom: 3px;">Dia 28</p>
+            <p class="no-indent">Officiou-se :</p>
+            
+            <p><b>A' Fazenda</b>, trasmittindo, por cópia, o decreto que aposentou a professora da eschola do 22.º districto desta capital, d. Galdina America de Almeida, bem como todos os papeis referentes ao assumpto ;</p>
+            
+            <p><b>A' mesma</b>, transmittindo, por cópia, o decreto que aposentou o professor da eschola do bairro de Santa Cruz, municipio de Cruzeiro e demais papeis referentes ao assumpto ;</p>
+            
+            <p><b>A' mesma</b>, transmittindo, por cópia, o decreto que aposentou o cidadão Augusto Pinto da Silva Saes, professor da eschola da villa de S. Pedro, e demais papeis referentes ao assumpto ;</p>
+            
+            <p><b>A' mesma</b>, solicitando pagamento da gratificação de que trata o artigo 125 do regulamento de 27 de Novembro de 1893, ao professor adjuncto da 1.ª eschola de Santos, cidadão Olyntho Paiva.</p>
+            
+            <p class="center-text bold" style="margin-top: 6px; margin-bottom: 3px;">Dia 29</p>
+            <p class="no-indent">Officiou-se :</p>
+            
+            <p><b>A' Fazenda</b>, communicando que a professora da eschola do 5.º districto, desta capital, d. Marianna da Gloria Rodrigues Bahia, entrou a 21 do corrente no goso da licença que lhe fora concedida ;</p>
+            
+            <p><b>A' mesma</b>, communicando que o professor Braziliano de Azevedo, removido da eschola do bairro dos Mauricios, em São Bento do Sapucahy, para a da freguezia de Santo Antonio do Pinhal, do mesmo municipio, assumiu o exercicio do cargo no dia 17 do corrente.</p>
+            
+            <p class="center-text bold" style="margin-top: 6px; margin-bottom: 3px;">Dia 30</p>
+            <p class="no-indent">Officiou-se :</p>
+            
+            <p><b>A' camara municipal de Santos</b>, mandando passar os attestados de exercicio ao professor da 1.ª eschola daquella cidade, cidadão Eugenio Porchat de Assis, visto não ter sido abandonada a sua eschola, conforme se verificou dos papeis relativos ao caso.</p>
+            
+            <h4 class="division-head" style="margin-top: 8px;">3.ª Secção</h4>
+            <p class="no-indent">Officiou-se :</p>
+            
+            <p><b>Ao agente da E. de Ferro Central</b>, pedindo transporte para volumes destinados aos grupos escholares de Areias e Pindamonhangaba ;</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+```

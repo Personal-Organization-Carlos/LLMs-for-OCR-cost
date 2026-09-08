@@ -1,0 +1,44 @@
+{
+  "chave": "opendatalab/mineru-vlm|1920-04-01_p2099|p0|0",
+  "registro": {
+    "model_id": "opendatalab/mineru-vlm",
+    "prompt_id": "p0",
+    "doc_id": "1920-04-01_p2099",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 298.08435290004127,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "total_tokens": null,
+    "cost_usd": 0.0,
+    "cost_source": "local",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "mineru",
+    "provider_upstream": "local",
+    "generation_id": "mineru-vlm-engine-1920-04-01_p2099__r0",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T18:27:21Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "subprocess",
+      "tentativa": 1,
+      "comando": [
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\.venv-mineru\\Scripts\\mineru.exe",
+        "-p",
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-vlm\\1920-04-01_p2099__r0\\entrada\\1920-04-01_p2099.jpg",
+        "-o",
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-vlm\\1920-04-01_p2099__r0\\saida",
+        "-b",
+        "vlm-engine"
+      ],
+      "returncode": 0,
+      "backend": "vlm-engine",
+      "artefatos": "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-vlm\\1920-04-01_p2099__r0",
+      "log_final": "Start MinerU FastAPI Service: http://127.0.0.1:56389\nAPI documentation: http://127.0.0.1:56389/docs\n2026-09-08 14:27:29.931 | INFO     | mineru.cli.client:run_orchestrated_cli:953 - Started local mineru-api at http://127.0.0.1:56389\n\u001b[32m2026-09-08 14:27:34.700\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36m__main__\u001b[0m:\u001b[36mcreate_app\u001b[0m:\u001b[36m236\u001b[0m - \u001b[1mRequest concurrency limited to 3\u001b[0m\nINFO:     Started server process [61144]\nINFO:     Waiting for application startup.\nINFO:     Application startup complete.\nINFO:     Uvicorn running on http://127.0.0.1:56389 (Press CTRL+C to quit)\n2026-09-08 14:27:35.043 | INFO     | mineru.cli.client:run_planned_task:832 - Submitting batch 1/1 | 1 document, 1 page in this batch | 1 page total | task#1 [1920-04-01_p2099]\n\u001b[32m2026-09-08 14:27:35.591\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.utils.engine_utils\u001b[0m:\u001b[36mget_vlm_engine\u001b[0m:\u001b[36m34\u001b[0m - \u001b[1mUsing transformers as the inference engine for VLM.\u001b[0m\n\u001b[32m2026-09-08 14:27:58.994\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.vlm.utils\u001b[0m:\u001b[36mset_default_batch_size\u001b[0m:\u001b[36m106\u001b[0m - \u001b[1mgpu_memory: 6 GB, batch_size: 1\u001b[0m\n\u001b[32m2026-09-08 14:27:59.008\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.vlm.vlm_analyze\u001b[0m:\u001b[36mget_model\u001b[0m:\u001b[36m251\u001b[0m - \u001b[1mget transformers predictor cost: 23.42s\u001b[0m\n\u001b[32m2026-09-08 14:27:59.013\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.vlm.vlm_analyze\u001b[0m:\u001b[36maio_doc_analyze\u001b[0m:\u001b[36m553\u001b[0m - \u001b[1mVLM processing-window run. page_count=1, window_size=64, total_windows=1\u001b[0m\n\u001b[32m2026-09-08 14:28:07.469\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.vlm.vlm_analyze\u001b[0m:\u001b[36maio_doc_analyze\u001b[0m:\u001b[36m572\u001b[0m - \u001b[1mVLM processing window 1/1: pages 1-1/1 (1 pages)\u001b[0m\n\nLayout Preparation:   0%|          | 0/1 [00:00<?, ?it/s]\nLayout Preparation: 100%|##########| 1/1 [00:00<00:00, 11.94it/s]\n\nPredict:   0%|          | 0/1 [00:00<?, ?it/s]\nPredict: 100%|##########| 1/1 [00:32<00:00, 32.73s/it]\nPredict: 100%|##########| 1/1 [00:32<00:00, 32.73s/it]\n\nLayout Output Parsing:   0%|          | 0/1 [00:00<?, ?it/s]\nLayout Output Parsing: 100%|##########| 1/1 [00:00<00:00, 1001.27it/s]\n\nExtract Preparation:   0%|          | 0/1 [00:00<?, ?it/s]\nExtract Preparation: 100%|##########| 1/1 [00:00<00:00, 117.15it/s]\n\nPredict:   0%|          | 0/9 [00:00<?, ?it/s]\nPredict:  11%|#1        | 1/9 [00:01<00:11,  1.45s/it]\nPredict:  22%|##2       | 2/9 [00:02<00:06,  1.01it/s]\nPredict:  33%|###3      | 3/9 [00:03<00:08,  1.38s/it]\nPredict:  44%|####4     | 4/9 [00:04<00:05,  1.13s/it]\nPredict:  56%|#####5    | 5/9 [00:14<00:17,  4.36s/it]\nPredict:  67%|######6   | 6/9 [00:20<00:14,  4.68s/it]\nPredict:  78%|#######7  | 7/9 [01:58<01:10, 35.42s/it]\nPredict:  89%|########8 | 8/9 [02:49<00:40, 40.14s/it]\nPredict: 100%|##########| 9/9 [03:25<00:00, 39.12s/it]\nPredict: 100%|##########| 9/9 [03:25<00:00, 22.88s/it]\n\nPost Processing:   0%|          | 0/1 [00:00<?, ?it/s]\nPost Processing: 100%|##########| 1/1 [00:00<?, ?it/s]\n\nProcessing pages:   0%|          | 0/1 [00:00<?, ?it/s]\nProcessing pages: 100%|##########| 1/1 [00:00<00:00, 28.53it/s]\n2026-09-08 14:32:06.785 | INFO     | mineru.cli.client:run_planned_task:883 - Completed batch 1/1 | Processed 1/1 page | 1 of 1 batch finished | task#1 [1920-04-01_p2099]\n"
+    }
+  ]
+}

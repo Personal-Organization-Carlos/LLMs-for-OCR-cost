@@ -1,0 +1,1175 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8697,
+                "bbox": [
+                    107,
+                    97,
+                    279,
+                    128
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8756,
+                "bbox": [
+                    682,
+                    89,
+                    961,
+                    125
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8073,
+                "bbox": [
+                    1327,
+                    85,
+                    1550,
+                    122
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.948,
+                "bbox": [
+                    55,
+                    155,
+                    559,
+                    232
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9747,
+                "bbox": [
+                    57,
+                    228,
+                    559,
+                    377
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9754,
+                "bbox": [
+                    59,
+                    381,
+                    562,
+                    531
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.858,
+                "bbox": [
+                    235,
+                    547,
+                    393,
+                    575
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8825,
+                "bbox": [
+                    256,
+                    593,
+                    373,
+                    622
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.974,
+                "bbox": [
+                    65,
+                    636,
+                    567,
+                    759
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9442,
+                "bbox": [
+                    68,
+                    754,
+                    567,
+                    813
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7635,
+                "bbox": [
+                    712,
+                    152,
+                    932,
+                    187
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9674,
+                "bbox": [
+                    568,
+                    198,
+                    1073,
+                    299
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9478,
+                "bbox": [
+                    569,
+                    297,
+                    1076,
+                    415
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8885,
+                "bbox": [
+                    599,
+                    413,
+                    859,
+                    438
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9602,
+                "bbox": [
+                    572,
+                    433,
+                    1076,
+                    531
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8781,
+                "bbox": [
+                    603,
+                    528,
+                    861,
+                    554
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9476,
+                "bbox": [
+                    576,
+                    550,
+                    1077,
+                    625
+                ],
+                "index": 17
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9013,
+                "bbox": [
+                    604,
+                    623,
+                    864,
+                    650
+                ],
+                "index": 18
+            },
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.6517,
+                "bbox": [
+                    1140,
+                    152,
+                    1543,
+                    211
+                ],
+                "index": 19
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8301,
+                "bbox": [
+                    1113,
+                    244,
+                    1566,
+                    307
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8674,
+                "bbox": [
+                    1087,
+                    317,
+                    1591,
+                    380
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9722,
+                "bbox": [
+                    1089,
+                    387,
+                    1591,
+                    486
+                ],
+                "index": 22
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.977,
+                "bbox": [
+                    1089,
+                    483,
+                    1595,
+                    648
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9197,
+                "bbox": [
+                    1093,
+                    645,
+                    1597,
+                    695
+                ],
+                "index": 24
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9409,
+                "bbox": [
+                    1094,
+                    691,
+                    1600,
+                    745
+                ],
+                "index": 25
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7033,
+                "bbox": [
+                    1133,
+                    752,
+                    1597,
+                    810
+                ],
+                "index": 26
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6379,
+                "bbox": [
+                    166,
+                    839,
+                    1496,
+                    883
+                ],
+                "index": 27
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5673,
+                "bbox": [
+                    302,
+                    892,
+                    1410,
+                    926
+                ],
+                "index": 28
+            },
+            {
+                "cls_id": 21,
+                "label": "table",
+                "score": 0.9689,
+                "bbox": [
+                    80,
+                    926,
+                    1609,
+                    1794
+                ],
+                "index": 29,
+                "html": "<table><tr><td rowspan=\"3\" colspan=\"2\">Observatorios</td><td colspan=\"3\">Obsarvucósda vespart</td><td colspan=\"10\">Ghservasão do sie, teaada e Gh. Ga, Gw.</td></tr><tr><td colspan=\"2\">Temperatars</td><td rowspan=\"2\">ake 10x2</td><td rowspan=\"2\">Preesio</td><td colspan=\"3\">Thermometro</td><td colspan=\"3\">Hauiãz Vento</td><td rowspan=\"2\">setaea ds Déu</td><td rowspan=\"2\">OBSERYAÇÕES</td></tr><tr><td>Nin.</td><td></td><td>goraada 2az20</td><td>ε2π4</td><td>2a ratslira</td><td>atss</td><td>Velct</td></tr><tr><td></td><td></td><td>26,6</td><td>Bom</td><td></td><td>761.2</td><td>24.0</td><td>225</td><td>171</td><td>F</td><td></td><td>Claão</td><td>Orvalho</td><td></td></tr><tr><td>Sautos Iguapa</td><td></td><td>26,0</td><td>22.7 21,0</td><td>子</td><td>7610</td><td>22.0</td><td>19.0</td><td>74 D</td><td>NW</td><td>1 m 4 m.</td><td>Ene,</td><td>Bom</td><td></td></tr><tr><td>S. Paulo</td><td></td><td>28.0</td><td>185</td><td>》</td><td>761.4</td><td>22.0</td><td>19.0</td><td>74 2</td><td>NE</td><td>1 w.</td><td>Clero</td><td>Neblina</td><td></td></tr><tr><td>Campinas</td><td></td><td>28.5</td><td>17.1</td><td></td><td>7615</td><td>23 6</td><td>19.4</td><td>65</td><td>E</td><td>2 m.</td><td></td><td></td><td>Choveu. Nebliua</td></tr><tr><td>Ribeirão Preto</td><td></td><td>04</td><td>178</td><td></td><td>762,2</td><td>227</td><td>20</td><td>77 1 1</td><td>NE</td><td>2 m.</td><td>&gt;</td><td></td><td>Bom</td></tr><tr><td>São Crrios</td><td></td><td>28 0</td><td>160</td><td></td><td>7614</td><td>234</td><td>20 0</td><td>72</td><td>E</td><td>4 u.</td><td>3</td><td></td><td>Bom</td></tr><tr><td>Taubaté.</td><td></td><td>28,2</td><td>20,0</td><td></td><td>761,4</td><td>23 0</td><td>20.8</td><td>81</td><td>NE</td><td>2 m.</td><td></td><td>M. enc.</td><td></td></tr><tr><td>Piracicabs</td><td></td><td>330</td><td>180</td><td></td><td>7611</td><td>21,0</td><td>212</td><td>77</td><td>N</td><td>1 m.</td><td>2</td><td></td><td>Neblioa</td></tr><tr><td>Agudos.</td><td></td><td>S3 0</td><td>19.0</td><td>Var.</td><td>761.6</td><td>22 2</td><td>20.4</td><td>84</td><td>C</td><td></td><td>Ciaro</td><td></td><td>Choveu 5.0 mm. O.vaiho</td></tr><tr><td>Brotas</td><td></td><td>29 0</td><td>170</td><td>Bom</td><td>161.1</td><td>238</td><td>19,8</td><td>67</td><td>N</td><td>星 IE.</td><td></td><td></td><td></td></tr><tr><td>Frauea</td><td></td><td>26,6</td><td>18,2</td><td></td><td>762.2</td><td>21.4</td><td>169</td><td>62</td><td>NE</td><td>4 m.</td><td></td><td></td><td>O.valho</td></tr><tr><td>Avaré</td><td></td><td>322</td><td>19.1</td><td></td><td>761,0</td><td>26.4</td><td>23 2</td><td>75</td><td>N</td><td>1 u.</td><td></td><td></td><td>Bom</td></tr><tr><td>Tetuby</td><td></td><td>31.0</td><td>175</td><td></td><td>761.</td><td>240</td><td>218</td><td>82</td><td>C</td><td></td><td></td><td></td><td></td></tr><tr><td>Ytú.</td><td></td><td>294</td><td>202</td><td></td><td>1619</td><td>242</td><td>21 2</td><td>75</td><td>NE</td><td>4m.</td><td></td><td>M. enc.</td><td></td></tr><tr><td>Fsxina</td><td></td><td>30.7</td><td>180</td><td></td><td>7608</td><td>22,6</td><td>20.6</td><td>83</td><td>C</td><td></td><td></td><td></td><td>Orvalbo. Neblioa</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Uberaba</td><td></td><td>275</td><td>20.2</td><td></td><td>7618</td><td>24 3</td><td>21.3</td><td>75</td><td>8</td><td>9 m.</td><td>Claro</td><td></td><td></td></tr><tr><td>Paravaguá</td><td></td><td>262 23 8</td><td>20.5 210</td><td></td><td>7588 759 3</td><td>24,5 23.7</td><td>23 3 220</td><td>90</td><td>C</td><td>1-</td><td></td><td>. enc</td><td></td></tr><tr><td>Flerianopolia Rio de Janeiro</td><td></td><td>27 3</td><td>23.0</td><td></td><td>761,4</td><td>253</td><td>222</td><td>Sü 75</td><td>C NE</td><td>2m.</td><td>Claro</td><td>B</td><td>Choveu 3,2 mi.</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Monteviléu.</td><td></td><td>20,0</td><td>16,2</td><td></td><td>762,5</td><td>192</td><td>18,3</td><td>91</td><td>SE</td><td>4m.</td><td>Eoc.</td><td></td><td>Máu. Grtaer lampagos</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>i</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>22,0</td><td>150</td><td></td><td>7635</td><td>i70</td><td>160</td><td>90</td><td>S</td><td>2 m.</td><td>Eac.</td><td></td><td></td></tr><tr><td>Cordoha</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>à</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mendoza</td><td></td><td>27 0</td><td>120</td><td></td><td>767.2</td><td>14,0</td><td></td><td>9,0 47</td><td>SW:</td><td>6 m.</td></table>"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6883,
+                "bbox": [
+                    188,
+                    1795,
+                    701,
+                    1855
+                ],
+                "index": 30
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    110,
+                    98,
+                    275,
+                    128
+                ],
+                "score": 0.933,
+                "text": "Sexta-feira, 1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    690,
+                    92,
+                    953,
+                    120
+                ],
+                "score": 0.996,
+                "text": "DIARIOOFFICIAL"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1328,
+                    92,
+                    1545,
+                    119
+                ],
+                "score": 0.901,
+                "text": "Abrl 1910 995"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    87,
+                    159,
+                    556,
+                    182
+                ],
+                "score": 0.942,
+                "text": "O sr. Gabriel Gomideao sr. Scuzs: e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    60,
+                    185,
+                    556,
+                    205
+                ],
+                "score": 0.911,
+                "text": "Catro. as ciyeis 5605 do Sautoe, 5609 do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    207,
+                    409,
+                    231
+                ],
+                "score": 0.927,
+                "text": "Piracicaba e 5773da Cspital."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    87,
+                    229,
+                    553,
+                    252
+                ],
+                "score": 0.961,
+                "text": "O ar. Firmino Whitscker ao sr. Gabriel"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    63,
+                    254,
+                    553,
+                    275
+                ],
+                "score": 0.955,
+                "text": "Gcmide, as civeis 5184 de Piracicaba, 5648"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    278,
+                    553,
+                    298
+                ],
+                "score": 0.918,
+                "text": "do Rio Claro, 5441 de Santa Izabel, 5003"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    63,
+                    302,
+                    553,
+                    321
+                ],
+                "score": 0.925,
+                "text": "de Jaboticabal, 5352 deAgudos, 6023 do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    63,
+                    325,
+                    553,
+                    344
+                ],
+                "score": 0.896,
+                "text": "Campicas, 5180 e:5568 də Santos. 5729,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    347,
+                    554,
+                    370
+                ],
+                "score": 0.925,
+                "text": "5862, 5687, 5539, €415e5787 da Capital."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    91,
+                    385,
+                    555,
+                    406
+                ],
+                "score": 0.918,
+                "text": "--O ar, procurader geral do Estado deu"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    65,
+                    456,
+                    556,
+                    477
+                ],
+                "score": 0.939,
+                "text": "Carlos a ncs. embergos 2270 da Capital,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    65,
+                    480,
+                    557,
+                    500
+                ],
+                "score": 0.933,
+                "text": "5801 de Ibitingu, 5502 e.5735 de Jabo-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    66,
+                    504,
+                    152,
+                    526
+                ],
+                "score": 0.956,
+                "text": "ticsbal."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    63,
+                    408,
+                    557,
+                    434
+                ],
+                "score": 0.944,
+                "text": "parecer nas app llações civeis ns. 5564, de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    66,
+                    432,
+                    557,
+                    456
+                ],
+                "score": 0.958,
+                "text": "Espirito Santo do Finhal e 5870 de São"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    239,
+                    555,
+                    386,
+                    571
+                ],
+                "score": 0.938,
+                "text": "JULIAMENTOS"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    259,
+                    592,
+                    369,
+                    624
+                ],
+                "score": 0.997,
+                "text": "Embargos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    95,
+                    641,
+                    560,
+                    664
+                ],
+                "score": 0.921,
+                "text": "N. 5597-Ca;ita!-Embargante, A. Wain-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    70,
+                    667,
+                    560,
+                    686
+                ],
+                "score": 0.848,
+                "text": "barg; ru.b.gadia, A Companhis Fran-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    70,
+                    690,
+                    562,
+                    709
+                ],
+                "score": 0.892,
+                "text": "cez das Indiai e do Estremo Oriente e"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    70,
+                    712,
+                    560,
+                    734
+                ],
+                "score": 0.86,
+                "text": "G. Latnsille & Corp ; relator, o rr. Mei-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    72,
+                    737,
+                    201,
+                    758
+                ],
+                "score": 0.927,
+                "text": "reles Reis."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    75,
+                    785,
+                    188,
+                    806
+                ],
+                "score": 0.95,
+                "text": "ombargos."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    97,
+                    756,
+                    563,
+                    780
+                ],
+                "score": 0.958,
+                "text": "Julgaram subsistente a desistencia dos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    720,
+                    158,
+                    928,
+                    182
+                ],
+                "score": 0.983,
+                "text": "Appellaçõesciveis"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    579,
+                    201,
+                    1066,
+                    227
+                ],
+                "score": 0.928,
+                "text": "N. 5561Piracicaba—4ppn'lants, Tho-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    574,
+                    227,
+                    1067,
+                    250
+                ],
+                "score": 0.923,
+                "text": "miz Alonzo Knese; appellada, d. Laurin-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    575,
+                    251,
+                    1066,
+                    275
+                ],
+                "score": 0.867,
+                "text": "da Alves do Olive.ra; relator,o ar.Fran-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    576,
+                    276,
+                    753,
+                    298
+                ],
+                "score": 0.952,
+                "text": "cisco Saldenha."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    601,
+                    296,
+                    1070,
+                    321
+                ],
+                "score": 0.93,
+                "text": "Converteram o julgamesto em diliganeia."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    602,
+                    320,
+                    1069,
+                    343
+                ],
+                "score": 0.91,
+                "text": "N. 6057-Capital-Apellante, o juizdu"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    575,
+                    344,
+                    1069,
+                    367
+                ],
+                "score": 0.904,
+                "text": "de direito ; appellados, Thzodoro Babra-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    576,
+                    369,
+                    1071,
+                    391
+                ],
+                "score": 0.941,
+                "text": "ner e sua mulher; rolatcr, o sr. Ferreira"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    573,
+                    390,
+                    667,
+                    417
+                ],
+                "score": 0.917,
+                "text": "Franç4."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    605,
+                    415,
+                    852,
+                    438
+                ],
+                "score": 0.988,
+                "text": "Negaram provimento."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    605,
+                    435,
+                    1072,
+                    459
+                ],
+                "score": 0.922,
+                "text": "N.6914-Capital—Appellante,Thomé"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    576,
+                    459,
+                    1071,
+                    484
+                ],
+                "score": 0.948,
+                "text": "Gomes Ferrrira; appsilado, Franciseo de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    578,
+                    483,
+                    1071,
+                    508
+                ],
+                "score": 0.934,
+                "text": "Souza Franco; relator, o sr, Juvenal Ma-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    578,
+                    506,
+                    666,
+                    531
+                ],
+                "score": 0.958,
+                "text": "lheircs."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    606,
+                    528,
+                    856,
+                    558
+                ],
+                "score": 0.984,
+                "text": "Negaram provimento."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    607,
+                    549,
+                    1074,
+                    577
+                ],
+                "score": 0.93,
+                "text": "N. 605-Capitai-Appellaute, o juiz de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    582,
+                    574,
+                    1072,
+                    600
+                ],
+                "score": 0.967,
+                "text": "de dirsito; appeilades, Laura Hind e ou-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    582,
+                    600,
+                    1029,
+                    625
+                ],
+                "score": 0.91,
+                "text": "tres ; reiator, o st. Juveual Malhoireg,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    609,
+                    625,
+                    856,
+                    648
+                ],
+                "score": 0.96,
+                "text": "Negaram provimento."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1147,
+                    161,
+                    1526,
+                    205
+                ],
+                "score": 0.998,
+                "text": "ACTOS FEDERAES"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1119,
+                    251,
+                    1560,
+                    279
+                ],
+                "score": 0.897,
+                "text": "DECRETON.7917D 21 D MARÇO"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1287,
+                    278,
+                    1395,
+                    303
+                ],
+                "score": 0.951,
+                "text": "DE 1910"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1094,
+                    322,
+                    1584,
+                    346
+                ],
+                "score": 0.925,
+                "text": "Creia o Registro e Archico Geral de Mareas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1261,
+                    351,
+                    1453,
+                    371
+                ],
+                "score": 0.921,
+                "text": "para animaes:"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1119,
+                    390,
+                    1584,
+                    417
+                ],
+                "score": 0.982,
+                "text": "O Presidente da Republica dos Estados"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1094,
+                    414,
+                    1589,
+                    440
+                ],
+                "score": 0.936,
+                "text": "Unidos do Brazil, em execução da lei nu-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1093,
+                    438,
+                    1587,
+                    463
+                ],
+                "score": 0.891,
+                "text": "rero 1606, da 29 de Dezembro de- t906,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1095,
+                    463,
+                    1191,
+                    485
+                ],
+                "score": 0.97,
+                "text": "decrets :"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1122,
+                    484,
+                    1584,
+                    508
+                ],
+                "score": 0.899,
+                "text": "Artigo 1.° E' creado o Registro o Ar-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1096,
+                    506,
+                    1585,
+                    530
+                ],
+                "score": 0.978,
+                "text": "chivo Garal de Marcas para animaea de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1095,
+                    531,
+                    1586,
+                    555
+                ],
+                "score": 0.971,
+                "text": "raça boviua, cavallar e muar, do aecôrdo"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1095,
+                    555,
+                    1587,
+                    579
+                ],
+                "score": 0.961,
+                "text": "com o regulameato que com este baixa,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1096,
+                    578,
+                    1588,
+                    602
+                ],
+                "score": 0.959,
+                "text": "assignado pelo ministro do Eitado dos No."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1095,
+                    602,
+                    1588,
+                    626
+                ],
+                "score": 0.941,
+                "text": "gocios da Agriclltura, Industria e Coa-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1098,
+                    628,
+                    1185,
+                    646
+                ],
+                "score": 0.85,
+                "text": "mer.io,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1125,
+                    647,
+                    1590,
+                    672
+                ],
+                "score": 0.814,
+                "text": "Ártigo 2.° Revogam-se. a3 disposiçõse"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1098,
+                    674,
+                    1255,
+                    691
+                ],
+                "score": 0.959,
+                "text": "em contrario."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1125,
+                    692,
+                    1600,
+                    717
+                ],
+                "score": 0.946,
+                "text": "Rio de Janeiro, 24 do Março de 1510,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1100,
+                    718,
+                    1592,
+                    741
+                ],
+                "score": 0.909,
+                "text": "S9.° da Independenciae 22.°d&Repablicz."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1141,
+                    753,
+                    1312,
+                    779
+                ],
+                "score": 0.656,
+                "text": "NILO PÇaNIA"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1143,
+                    779,
+                    1591,
+                    802
+                ],
+                "score": 0.939,
+                "text": "Rodolpho Noguetra da. Rocha Mirauda."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    173,
+                    843,
+                    1491,
+                    880
+                ],
+                "score": 0.964,
+                "text": "Directoria de Agricultura-OTEM POEALVOURASecção Meteorologica"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    311,
+                    896,
+                    1401,
+                    926
+                ],
+                "score": 0.895,
+                "text": "OBSERVAÇÕES BECEBIDAS PELG TEI EGRAPEO. NO DIA 3I DE MARÇO DE 1910"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    197,
+                    1827,
+                    700,
+                    1849
+                ],
+                "score": 0.892,
+                "text": "Instavel.Nebliaa.Temporatura subiudo."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    196,
+                    1801,
+                    689,
+                    1827
+                ],
+                "score": 0.912,
+                "text": "Tempo provavel paa o dia 1. de Abril:"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1687,
+            "height": 2038
+        }
+    }
+]

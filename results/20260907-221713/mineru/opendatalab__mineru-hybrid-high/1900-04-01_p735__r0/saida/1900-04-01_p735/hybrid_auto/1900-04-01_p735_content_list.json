@@ -1,0 +1,970 @@
+[
+    {
+        "type": "text",
+        "text": "Oficiou à directoria pedindo providencias para que seja feits uma vistoria nos pradios da rua Breser ns, 42 e 11.",
+        "bbox": [
+            58,
+            71,
+            334,
+            109
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Consolacao—1. secido",
+        "text_level": 2,
+        "bbox": [
+            128,
+            113,
+            257,
+            125
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "O dr. Synesio Pe-stana, inspector sanitarlo desta seção, visitou hoje as casas da rua 7 de Abril de ns. 88 a 126.",
+        "bbox": [
+            60,
+            127,
+            337,
+            163
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Estado em regulares condições hygienica.",
+        "bbox": [
+            72,
+            163,
+            299,
+            175
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "A' rua Braulio Gomes visitou a casa n. 10 a procura de uma fabric de vinhos",
+        "bbox": [
+            61,
+            177,
+            337,
+            201
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Consolação-3.º seccão",
+        "text_level": 2,
+        "bbox": [
+            135,
+            202,
+            265,
+            213
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "O dr. Evaristo Bacellar, inspector sanitário desta sacção, visitou hoje as casas da rua dr. Abranches de ns. 1 a 51, inclusive I armazem de secos a cocheira da Companhia Viação Paulista.",
+        "bbox": [
+            64,
+            215,
+            339,
+            263
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Vaccinou 9 creanças.",
+        "bbox": [
+            75,
+            266,
+            192,
+            276
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Expediu 3 Intimações.",
+        "bbox": [
+            75,
+            278,
+            197,
+            289
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Encontrou lidas as casas em regulares condições de assio.",
+        "bbox": [
+            66,
+            290,
+            339,
+            313
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "E' bum o estido sanllao.",
+        "bbox": [
+            75,
+            315,
+            222,
+            326
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Consolação -4.¹ secção",
+        "text_level": 2,
+        "bbox": [
+            140,
+            328,
+            268,
+            339
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "O dr. Alfredo Guaraná, inspector sanitário deste seção, visitou hoje 25 casas da rua Victorino Carmilo, de ns. 1 e 11 e de 19 a -69, encontrando-15, na sua maioria, em boss condições de asseio.",
+        "bbox": [
+            66,
+            341,
+            341,
+            401
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "E' bom o estado sanitario.",
+        "bbox": [
+            77,
+            403,
+            222,
+            414
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "NOTICIARIO",
+        "text_level": 2,
+        "bbox": [
+            149,
+            443,
+            253,
+            462
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "一",
+        "text_level": 2,
+        "bbox": [
+            179,
+            466,
+            229,
+            474
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Guarda nacional.—Foram declaradoe sem\neffeito :",
+        "bbox": [
+            70,
+            477,
+            342,
+            500
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "O decreto de 17 de Março último que nomeou Augusto Moreira de Carvalho para o posto de capitão da L.ª companhia do 126.º batalhão de infanteria da guarda nacional da comarca de Santos;",
+        "bbox": [
+            70,
+            503,
+            345,
+            552
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "O decreto da mesma data que annullou a nomeação de Antão Alves de Moura para o posto de capitão da 1.a companhia do 126.o batalhão de infanteria da guarda nacional da comarca de Santos, ficando subsistente o decreto de 26 de Agosto do ano passado na parte em que nomeou o referido oficial.",
+        "bbox": [
+            70,
+            553,
+            348,
+            638
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pagamentos.—Pelo Ministerio da Indus-\ntrio, Viação e Obras Publicas foram solicitados do\nda Fazenda os seguintes pagamentos :",
+        "bbox": [
+            72,
+            640,
+            350,
+            676
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "De £ 2093-13-4 à Companhia Mechanica e Importadora de S. Paulo, de fornecimento feito à Estrada de Ferro Central do Brazil, em Dezembro do anno passado.",
+        "bbox": [
+            74,
+            677,
+            351,
+            726
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "De E 552-14-10 idem, idem, idem, em Dezembro do ano passado.",
+        "bbox": [
+            75,
+            726,
+            351,
+            752
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Camora Syndical.—Cotação dos fundos públicos e particulares no dia 30 de Março de 1000 :",
+        "bbox": [
+            77,
+            755,
+            351,
+            779
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/b819aad704c6258bf5f65c3bfde6c293cc294d9545d4fbfb02aaedfe5d5bc505.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "Suberatos . . . . . — —",
+            "CLRSO OFFICIAL DOS FUNDOS PUBLICOS E PARTICULARES"
+        ],
+        "table_body": "<table><tr><td></td><td></td><td>90 d/u</td><td>A&#x27; vista</td></tr><tr><td>Sobre</td><td>Londres</td><td>8 7/32</td><td>7 3,8:</td></tr><tr><td></td><td>Pariz.</td><td>1150</td><td>1173</td></tr><tr><td></td><td>Hamburgo</td><td>1432</td><td>1455</td></tr><tr><td></td><td>Italia.</td><td>—</td><td>1103</td></tr><tr><td></td><td>Portugal</td><td>—</td><td>480</td></tr><tr><td></td><td>New-York</td><td>—</td><td>6110</td></tr><tr><td colspan=\"2\">S. berano</td><td>—</td><td>—</td></tr></table>",
+        "bbox": [
+            84,
+            780,
+            356,
+            876
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/5bc02e205890a3e368327cc37083f0eba2adf80e1da19fe2cf407138c9f4c820.jpg",
+        "table_caption": [
+            "Bancos"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>São Paul)</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>147$000</td></tr></table>",
+        "bbox": [
+            81,
+            905,
+            356,
+            916
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/ea25942083c4154bbe3e118859daca28600c63ee1d9caa352bc53586a0e79b62.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Mercantil de Santos.</td><td>.</td><td>.</td><td>.</td><td>.</td><td>135,500</td></tr></table>",
+        "bbox": [
+            81,
+            918,
+            356,
+            929
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Companhias",
+        "text_level": 2,
+        "bbox": [
+            450,
+            71,
+            518,
+            83
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Paulista de Vias Ferreza e Fluvias . . 258\\$100",
+        "bbox": [
+            348,
+            83,
+            621,
+            94
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dila do idem, a 30 dias (1 vontade do veddedor . . . . . . . . . . . . 259\\$000",
+        "bbox": [
+            348,
+            96,
+            621,
+            120
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Lettras hypothecarias",
+        "text_level": 2,
+        "bbox": [
+            424,
+            121,
+            546,
+            133
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Banco de Credito Real de São Paulo, 8º,\n9.º e 11.º. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69\\$000",
+        "bbox": [
+            348,
+            135,
+            621,
+            158
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "S. Paulo, 30 de Março de 1900.—O syndico, enry White.",
+        "bbox": [
+            358,
+            159,
+            621,
+            184
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/e3c10778f7894803c6a36b8a9449e387b983adaa3ccc0de9769888aa08c9a76a.jpg",
+        "table_caption": [
+            "DIA 31"
+        ],
+        "table_footnote": [
+            "CURSO OFFICIAL DOS FUNDOS PUBLICOS E PARTICULATÉS"
+        ],
+        "table_body": "<table><tr><td></td><td>50 d/v</td><td>A&#x27; vista</td></tr><tr><td>Sobre Londres</td><td>8 1/8</td><td>8 d.</td></tr><tr><td>» Pariz .</td><td>1174</td><td>1192</td></tr><tr><td>» Hamburgo . . .</td><td>1449</td><td>1572</td></tr><tr><td>» Italia .</td><td></td><td>1119</td></tr><tr><td>» Portugal . . .</td><td></td><td>485</td></tr><tr><td>New-York. . . .</td><td></td><td>6181</td></tr><tr><td>Siberanos . . . . .</td><td></td><td>—</td></tr></table>",
+        "bbox": [
+            358,
+            197,
+            623,
+            296
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/68d1654aadaaec6f34d4a69d6aa7a59b222b8bf78950d9ec8d81c37add4755ea.jpg",
+        "table_caption": [
+            "Bancos"
+        ],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>São Paulo</td><td>$47,000</td></tr></table>",
+        "bbox": [
+            351,
+            330,
+            626,
+            341
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Companhias",
+        "text_level": 2,
+        "bbox": [
+            455,
+            343,
+            521,
+            354
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "L'aultsta de Vias Ferreas e Fluvias. 200800)",
+        "bbox": [
+            351,
+            355,
+            626,
+            366
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Lettras hypothecarias",
+        "text_level": 2,
+        "bbox": [
+            427,
+            368,
+            552,
+            378
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Banco de Credito Real de S. Paulo, 4.\na 9ª séries 63\\$000",
+        "bbox": [
+            353,
+            384,
+            626,
+            407
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "São Paulo, 31 de Março de 1990.—O syndico, Henry White.",
+        "bbox": [
+            353,
+            408,
+            626,
+            434
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Hospederia de Immigrantes.-Boletim do movimento de immigrantes no dia 31 de Março de 1900:",
+        "bbox": [
+            353,
+            438,
+            629,
+            474
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/3e40b2502ec826e41208bc6415e6d731bbfdddcf4a05fc4abcc9606171006dab.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>MOVIMENTO</td><td>Jafaros do 12 anos</td><td>De 7 a 12 anos</td><td>De 2 a 6 anos</td><td>Menores do 2 anos</td><td>TOTAL</td><td>PASSAGENS</td><td>Por contesto directo</td><td>Por intermedio dos agenços</td><td>Gom destino certo</td><td>Conducto los de bagagens</td><td>TOTAL</td></tr><tr><td rowspan=\"2\">Existiam</td><td rowspan=\"2\">25</td><td rowspan=\"2\">8</td><td rowspan=\"2\">8</td><td rowspan=\"2\">2</td><td rowspan=\"2\">26</td><td>Pedidas....</td><td>..</td><td>..</td><td>..</td><td>..</td><td>0</td></tr><tr><td>Concedidas.</td><td>..</td><td>..</td><td>..</td><td>..</td><td>0</td></tr><tr><td>Entraram</td><td>..</td><td>..</td><td>..</td><td>..</td><td>..</td><td>Embarcadas</td><td>..</td><td>..</td><td>..</td><td>..</td><td>0</td></tr><tr><td rowspan=\"2\">Bagagem</td><td rowspan=\"2\">..</td><td rowspan=\"2\">..</td><td rowspan=\"2\">..</td><td rowspan=\"2\">..</td><td rowspan=\"2\">..</td><td colspan=\"5\">Sahiram para a capital</td><td>0</td></tr><tr><td colspan=\"5\">Sahiram por conta própria.</td><td>0</td></tr><tr><td>Sahiram</td><td>..</td><td>..</td><td>..</td><td>..</td><td>..</td><td colspan=\"5\">Falleceram</td><td>0</td></tr><tr><td>Existem</td><td>25</td><td>8</td><td>8</td><td>2</td><td>49</td><td colspan=\"6\">1 fuzendeiro fez pedido de 5 famílias</td></tr></table>",
+        "bbox": [
+            362,
+            477,
+            628,
+            859
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/bb8a6843f4c26e78d6f0823b665028f7ef2199b07aa48669f5f4a8fccb8c2ced.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td rowspan=\"2\">MOVIAENIO</td><td>Marces do 12 annos</td><td>De 7 a 12 annos</td><td>De 5 a 6 annos</td><td>Menores do 2 annos</td><td>TOTAL</td></tr><tr><td>25</td><td>8</td><td>2</td><td>25</td><td>43</td></tr><tr><td>Exisiam</td><td>..</td><td>..</td><td>..</td><td>..</td><td>2</td></tr><tr><td>Entraram</td><td>..</td><td>..</td><td>..</td><td>..</td><td>2</td></tr><tr><td>Basingem</td><td>..</td><td>..</td><td>..</td><td>..</td><td>2</td></tr><tr><td>Sabiram</td><td>..</td><td>..</td><td>..</td><td>..</td><td>2</td></tr><tr><td>Existem</td><td>25</td><td>8</td><td>8</td><td>8</td><td>2</td></tr></table>",
+        "bbox": [
+            375,
+            664,
+            628,
+            857
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Hospedaria de Immigrantes em São Paulo, 31\ne Março de 1900. — O ajudante do director,\nsão M. Pinheiro.",
+        "bbox": [
+            375,
+            864,
+            640,
+            901
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Obituario.—Foram sepultados no Cemiterio Municipal do Araçá os seguintes cadaveres :",
+        "bbox": [
+            368,
+            905,
+            641,
+            930
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dia 25",
+        "text_level": 2,
+        "bbox": [
+            750,
+            70,
+            788,
+            79
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Domingos dos Santos, 50 anos, brazileiro; hemorragia cerebral.",
+        "bbox": [
+            632,
+            79,
+            910,
+            102
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Maria Luisa, 60 anni, italiana, casada; embolia cerebrui.",
+        "bbox": [
+            632,
+            104,
+            910,
+            127
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Mathias Congo, 70 annos, solteiro, africano; arterio schlerose.",
+        "bbox": [
+            632,
+            129,
+            910,
+            152
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Henedicta Maria Conceição, 19 anos, brazileira, solteira; endocardile syphilitica.",
+        "bbox": [
+            632,
+            154,
+            908,
+            179
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Antonio Correla Costa, 32 anos, portuguez, casado; tuberculose pulmonar.",
+        "bbox": [
+            632,
+            179,
+            908,
+            204
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Féto masculino, filho de Ernesto Pertresi; nasceu morto.",
+        "bbox": [
+            632,
+            205,
+            910,
+            228
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Félo masculino, filho de Antorelli Giovanni; nas-\ncen morlo.",
+        "bbox": [
+            634,
+            228,
+            910,
+            253
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Félo masculino, filho de Carmine Natulli; rasceu morto.",
+        "bbox": [
+            634,
+            254,
+            912,
+            277
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Maria, 13 vezes, brazileira, filba de João Ron; bronchite.",
+        "bbox": [
+            634,
+            278,
+            912,
+            303
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Jannuario Rocco, 55 annos, Italiano, solteiro; insufficiencia mitral.",
+        "bbox": [
+            634,
+            304,
+            913,
+            328
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Benedicta Andrelina Jesus, 23 annos, brazileira, solteira; tuberculose.",
+        "bbox": [
+            634,
+            328,
+            913,
+            353
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dia 56",
+        "text_level": 2,
+        "bbox": [
+            754,
+            351,
+            794,
+            359
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Aldo Rescoli, 17 annos, italiano, solteiro; febre amarella,",
+        "bbox": [
+            634,
+            359,
+            913,
+            382
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Jacintho Pinheiro, 9 annos, portuguez; febre amarella.",
+        "bbox": [
+            634,
+            384,
+            913,
+            408
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Carlos, 8 mezes, brazileiro, filho de José Pereira Simões; gastro enterite.",
+        "bbox": [
+            634,
+            408,
+            913,
+            433
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Féto masculino, filho de Viceuza Boceia; nasceu morto.",
+        "bbox": [
+            638,
+            437,
+            913,
+            461
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Francisco, 17 mezes, brazileiro, filho de Miguel Depetrangele; eclampsia.",
+        "bbox": [
+            638,
+            462,
+            915,
+            487
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "João das Dores Pestana, 25 anos, portuguez, solteiro; febre amarella.",
+        "bbox": [
+            638,
+            488,
+            915,
+            512
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Julio Cesar Martins Pestana, 52 annos, portuguez, casado; febre amarella.",
+        "bbox": [
+            638,
+            512,
+            915,
+            537
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Angelina, 3 annos, brazileira, filha de Michele Guira; bronchite capillar.",
+        "bbox": [
+            640,
+            538,
+            916,
+            562
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Felicio Ferreira dos Santos, 31 anos, brazileiro, casado; perilonite traumatica.",
+        "bbox": [
+            641,
+            562,
+            918,
+            587
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "João Evangelista, 33 anos, brazileiro, solteiro; tuberculose.",
+        "bbox": [
+            641,
+            588,
+            918,
+            612
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Francisco, 4 annos, brazileiro, filho de d. Eugenia Maria Conceição; infecção malarica.",
+        "bbox": [
+            641,
+            612,
+            918,
+            637
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Mafalda Ferraz, 50 anos, brazileira, solteira; queimadura.",
+        "bbox": [
+            641,
+            638,
+            918,
+            661
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Pedro Caifa, 22 annos, italiano solteiro; insuficiencia mitral.",
+        "bbox": [
+            643,
+            663,
+            919,
+            686
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": ". Izabel Slatine, 60 annos, italiana viuva; con-gestão cerebral.",
+        "bbox": [
+            643,
+            688,
+            919,
+            711
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Dia 27",
+        "text_level": 2,
+        "bbox": [
+            765,
+            710,
+            800,
+            719
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Angelo Barelta, 72 anni, italiano, vivo; sclerlise cerebral.",
+        "bbox": [
+            645,
+            719,
+            919,
+            741
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Angelo Tedesco, 3) annos, italiano, casado; urenia.",
+        "bbox": [
+            645,
+            742,
+            922,
+            765
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Joaquim, 16 dias, brazileiro, Llho de João Antonio de Oliveira; inviabilidade.",
+        "bbox": [
+            645,
+            767,
+            922,
+            791
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "José Rodrigues, 41 annos, portuguez, casado;",
+        "bbox": [
+            658,
+            792,
+            924,
+            805
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Narcisa Amelia Araujo, 22 anos, brazileira, solteira;",
+        "bbox": [
+            648,
+            806,
+            924,
+            829
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Malvina Maria Alexandrina, 35 annos, selteira, brazileira; cachexia epileptica.",
+        "bbox": [
+            648,
+            830,
+            925,
+            853
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Paschool Annunciato, 18 anpes, italiano, solteiro; tuberculose.",
+        "bbox": [
+            649,
+            855,
+            925,
+            879
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Leonardo Lole, 15 annos, italiano, casado; febre typhoide.",
+        "bbox": [
+            651,
+            880,
+            925,
+            905
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Antonio Pereira, 56 anos, p. tuguez, casado; perilonite em consequencia de fractura.",
+        "bbox": [
+            652,
+            906,
+            925,
+            930
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "Domingo,",
+        "bbox": [
+            83,
+            48,
+            141,
+            59
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "DIARIO OFFICIAL",
+        "bbox": [
+            399,
+            46,
+            516,
+            56
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "header",
+        "text": "AbHI 1900 735",
+        "bbox": [
+            763,
+            43,
+            881,
+            56
+        ],
+        "page_idx": 0
+    }
+]

@@ -1,0 +1,4056 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        43,
+                        54,
+                        222,
+                        81
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                43,
+                                54,
+                                222,
+                                81
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        43,
+                                        54,
+                                        222,
+                                        81
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao director do grupo escholar de Botucatu, pedindo orçamento das despesas a que se refere o seu ofício de 12 do corrente;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        44,
+                        82,
+                        223,
+                        120
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                44,
+                                82,
+                                223,
+                                120
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        44,
+                                        82,
+                                        223,
+                                        120
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao director do grupo escolar de Belia Vista, auctorizando as despesas constantes do orçamento que acompanhou o seu officio n. 7 do corrente mez;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        44,
+                        120,
+                        224,
+                        147
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                44,
+                                120,
+                                224,
+                                147
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        44,
+                                        120,
+                                        224,
+                                        147
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao director da eschola-modelo de Itapelininga, auctorizando a entrega de varios objectos à pro-professora da eschola mixta do bairro do Porto;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        44,
+                        147,
+                        224,
+                        174
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                44,
+                                147,
+                                224,
+                                174
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        44,
+                                        147,
+                                        224,
+                                        174
+                                    ],
+                                    "type": "text",
+                                    "content": ". Ao director do Diário Oficial, recomendando a remessa dos cartões pedidos para o grupo escolar de Riteirão Preto;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        44,
+                        175,
+                        225,
+                        211
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                44,
+                                175,
+                                225,
+                                211
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        44,
+                                        175,
+                                        225,
+                                        211
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao secretari da Agricultura, pedindo que ordene as providencias solicitadas por ofício de 7 do corrente, em relação ao grupo escolar de Bella Vista."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        96,
+                        222,
+                        174,
+                        235
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                222,
+                                174,
+                                235
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        222,
+                                        174,
+                                        235
+                                    ],
+                                    "type": "text",
+                                    "content": "Agricultura"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        61,
+                        241,
+                        208,
+                        250
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                61,
+                                241,
+                                208,
+                                250
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        61,
+                                        241,
+                                        208,
+                                        250
+                                    ],
+                                    "type": "text",
+                                    "content": "EXPEDIENTE DO DIA 31 DE MARÇO DE 1900"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        113,
+                        253,
+                        161,
+                        262
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                113,
+                                253,
+                                161,
+                                262
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        113,
+                                        253,
+                                        161,
+                                        262
+                                    ],
+                                    "type": "text",
+                                    "content": "1.a SEÇÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        54,
+                        265,
+                        215,
+                        273
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                265,
+                                215,
+                                273
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        265,
+                                        215,
+                                        273
+                                    ],
+                                    "type": "text",
+                                    "content": "Solicitaram-se do dr. secretario da Fazenda :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        55,
+                        274,
+                        105,
+                        283
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                274,
+                                105,
+                                283
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        274,
+                                        105,
+                                        283
+                                    ],
+                                    "type": "text",
+                                    "content": "Pagamentos :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        284,
+                        227,
+                        329
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                284,
+                                227,
+                                329
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        284,
+                                        227,
+                                        329
+                                    ],
+                                    "type": "text",
+                                    "content": "De 7:500\\$000, á «City of Santos Improvements Company, Limited», pela agua fornecida, em Outubro, Novembro e Dezembro de 1893, para os serviços de extinção de incendios e irrigação das ruas da cidade de Santos;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        48,
+                        330,
+                        227,
+                        357
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                48,
+                                330,
+                                227,
+                                357
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        48,
+                                        330,
+                                        227,
+                                        357
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1:56S\\$210, a Lebre, Castilho & Comp., pelo fornecimento de artigos diversos à Repartição de Aguas e Exgottos, em Fevereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        48,
+                        357,
+                        227,
+                        384
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                48,
+                                357,
+                                227,
+                                384
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        48,
+                                        357,
+                                        227,
+                                        384
+                                    ],
+                                    "type": "text",
+                                    "content": "De 7325400, a Espindola, Siqueira & Comp., pelo fornecimento de artigos diversos à Repartição de Aguas e Exgotlos, em Fevereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        385,
+                        228,
+                        412
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                385,
+                                228,
+                                412
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        385,
+                                        228,
+                                        412
+                                    ],
+                                    "type": "text",
+                                    "content": "De 138\\$400, a C. Hildebrand & Comp., pelo fornecimento de artigos à mesma repartição, em Fevereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        413,
+                        228,
+                        439
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                413,
+                                228,
+                                439
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        413,
+                                        228,
+                                        439
+                                    ],
+                                    "type": "text",
+                                    "content": "De 2:1995400, a Bastiano Buona Vita, por materiaes fornecidos à mesma repartição, em Fevereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        440,
+                        228,
+                        467
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                440,
+                                228,
+                                467
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        440,
+                                        228,
+                                        467
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1:285\\$290, a EduarJu B. Kneesse, por materiaes fornecidos, em Fevereiro último, à mesma repartição;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        468,
+                        228,
+                        494
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                468,
+                                228,
+                                494
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        468,
+                                        228,
+                                        494
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1:023\\$900, a Kisgen & Schiefferdecker, por identico fornecimento à mesma repartição, em Fevereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        495,
+                        228,
+                        522
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                495,
+                                228,
+                                522
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        495,
+                                        228,
+                                        522
+                                    ],
+                                    "type": "text",
+                                    "content": "De 6 000\\$990, à Companhia Mechanica e Importadora de São Paulo, por identico fornecimento à mesma repartição, em Fevereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        522,
+                        229,
+                        558
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                522,
+                                229,
+                                558
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        522,
+                                        229,
+                                        558
+                                    ],
+                                    "type": "text",
+                                    "content": "De 250\\$000, a d. Vicencia das Neves, pelo fornecimento, no corrente mez, de 1000 saccos de algodãosinho, para o serviço de distribuição de sementes aos lavradores do Estado."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        559,
+                        229,
+                        586
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                559,
+                                229,
+                                586
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        559,
+                                        229,
+                                        586
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1:181\\$16), a Francisco Duarte & Irmão, pelo fornecimento de forragem à Repartição de Aguas e Exgottos, em Fevereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        587,
+                        228,
+                        613
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                587,
+                                228,
+                                613
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        587,
+                                        228,
+                                        613
+                                    ],
+                                    "type": "text",
+                                    "content": "De 605000, a Luiz Strias & Comp., pelo fornemento de artigos à mesmo re-partição, em Fevereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        614,
+                        228,
+                        642
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                614,
+                                228,
+                                642
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        614,
+                                        228,
+                                        642
+                                    ],
+                                    "type": "text",
+                                    "content": "De S1350, a Del Fio e rino & Como., pelo fornecimento de artigos à mesma e; artição, em F. -vereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        642,
+                        228,
+                        669
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                642,
+                                228,
+                                669
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        642,
+                                        228,
+                                        669
+                                    ],
+                                    "type": "text",
+                                    "content": "De 33§165, à Companhia de Gaz de São Paulo, pelo fornecimento de gaz à Repartição de Agias e Ergottos, em Janeiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        55,
+                        669,
+                        228,
+                        678
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                669,
+                                228,
+                                678
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        669,
+                                        228,
+                                        678
+                                    ],
+                                    "type": "text",
+                                    "content": "De J.09007, a Brovine Giovanni, por materias"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        53,
+                        406,
+                        71
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                53,
+                                406,
+                                71
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        53,
+                                        406,
+                                        71
+                                    ],
+                                    "type": "text",
+                                    "content": "fornecidos, em Fevereiro último, à Repartição de Águas e Esgottos;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        72,
+                        406,
+                        99
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                72,
+                                406,
+                                99
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        72,
+                                        406,
+                                        99
+                                    ],
+                                    "type": "text",
+                                    "content": "De 356/880, a Francisco Gonçalves, pelo fornecimenta de forragem à mesma repartição, em Fevereiro último."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        99,
+                        408,
+                        164
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                99,
+                                408,
+                                164
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        99,
+                                        408,
+                                        164
+                                    ],
+                                    "type": "text",
+                                    "content": "Credito da quântia de 3:311§200 ao amanuense da Superintendencia de Obras Publicas, João Alfredo Baptista Borba, por despesas, em Fevereiro último, com o pagamento de diarias e transportes de angecheiros, e outros de expediente; recolhendo o mesmo funcionário aos cofres do Thesouro o saldo, em seu poder, da quantia de 8§800."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        165,
+                        409,
+                        219
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                165,
+                                409,
+                                219
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        165,
+                                        409,
+                                        219
+                                    ],
+                                    "type": "text",
+                                    "content": "Adeantamento da quantia de 680\\$750, ao engenheiro da Superintendencia de Obras Publicas, Victor Andrigo, para occorrer às despesas com os reparos do telhado do Hospicio de Alienados da capital.—Deu-se conhecimento ao dr. director da Superintendencia;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        231,
+                        220,
+                        410,
+                        267
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                231,
+                                220,
+                                410,
+                                267
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        231,
+                                        220,
+                                        410,
+                                        267
+                                    ],
+                                    "type": "text",
+                                    "content": "Permissão para o engenheiro Antonio By depo-\nsitar, no Thesouro do Estado, a quantia de.....\n300507, como garantia da proposta que pretende\naprese tis para a construção de uma cadeia em\nS. Bento do Sapuc by."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        232,
+                        267,
+                        410,
+                        303
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                232,
+                                267,
+                                410,
+                                303
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        232,
+                                        267,
+                                        410,
+                                        303
+                                    ],
+                                    "type": "text",
+                                    "content": "Auctoriz uses a Commissão Geographica e Geologia a desenter 3:2008000, com aquisição de oito animaes para os trabalhos das turmas de campo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        233,
+                        303,
+                        410,
+                        349
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                233,
+                                303,
+                                410,
+                                349
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        233,
+                                        303,
+                                        410,
+                                        349
+                                    ],
+                                    "type": "text",
+                                    "content": "Declarou-se à Superintendencia de Obras Públicas que fica approvado o contracto celebrado com Francisco José do Prado, para o serviço de passagens em balsa sobre o rio Parahyba, na estrada de Santa Branca a Jacarchy."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        233,
+                        350,
+                        410,
+                        377
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                233,
+                                350,
+                                410,
+                                377
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        233,
+                                        350,
+                                        410,
+                                        377
+                                    ],
+                                    "type": "text",
+                                    "content": "Devolveram-se à Repartição de Aguas e Exgotlos, para a necessaria reelificação, as contas apresentadas pela casa Érico Milha & Comp."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 34,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        233,
+                        378,
+                        411,
+                        441
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                233,
+                                378,
+                                411,
+                                441
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        233,
+                                        378,
+                                        411,
+                                        441
+                                    ],
+                                    "type": "text",
+                                    "content": "Realizou-se, hoje, 31 de Março de 1900, nesta secretaria, a abertura das propostas apresentadas para a construção de uma cadeia em S. Bento do Sapucahy, as quaes, assignadas pelos cidadãos Antonio By, Nicola Grigola, Santiago Stornini, José Mollica e Santo Bertollazzi, foram pela respectiva junta, julgadas conforme para decisão ulterior."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 35,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        275,
+                        442,
+                        371,
+                        450
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                275,
+                                442,
+                                371,
+                                450
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        275,
+                                        442,
+                                        371,
+                                        450
+                                    ],
+                                    "type": "text",
+                                    "content": "REQUERIMENTO DESPACHADO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 36,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        234,
+                        451,
+                        412,
+                        524
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                234,
+                                451,
+                                412,
+                                524
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        234,
+                                        451,
+                                        412,
+                                        524
+                                    ],
+                                    "type": "text",
+                                    "content": "Da City of Santos Improvements Company, Limited, pedindo reconsideração do despacho de 22 de Fevereiro último, e apresentando conta de.... 7:500\\$000 de agua fornecida para a extinção de incendios e irrigação das ruas da cidade de Santos, em Outubro, Novembro e Dezembro de 1899. —Mantenho o despacho de 22 de Fevereiro último. Requisite-se o pagamento de 7:500\\$000."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 37,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        299,
+                        537,
+                        344,
+                        549
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                299,
+                                537,
+                                344,
+                                549
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        299,
+                                        537,
+                                        344,
+                                        549
+                                    ],
+                                    "type": "text",
+                                    "content": "Justiça"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 38
+                },
+                {
+                    "bbox": [
+                        253,
+                        551,
+                        395,
+                        559
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                253,
+                                551,
+                                395,
+                                559
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        253,
+                                        551,
+                                        395,
+                                        559
+                                    ],
+                                    "type": "text",
+                                    "content": "EXPEDIENTE DO DIA 31 DE MARCHO DE 1900"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 39,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        283,
+                        563,
+                        366,
+                        571
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                283,
+                                563,
+                                366,
+                                571
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        283,
+                                        563,
+                                        366,
+                                        571
+                                    ],
+                                    "type": "text",
+                                    "content": "1.ª SUB-DIRECTORIA"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 40,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        305,
+                        573,
+                        342,
+                        581
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                305,
+                                573,
+                                342,
+                                581
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        305,
+                                        573,
+                                        342,
+                                        581
+                                    ],
+                                    "type": "text",
+                                    "content": "1.a SECCÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 41,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        241,
+                        582,
+                        301,
+                        590
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                241,
+                                582,
+                                301,
+                                590
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        241,
+                                        582,
+                                        301,
+                                        590
+                                    ],
+                                    "type": "text",
+                                    "content": "Transmittu-se :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        234,
+                        591,
+                        414,
+                        682
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                234,
+                                591,
+                                414,
+                                682
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        234,
+                                        591,
+                                        414,
+                                        682
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao ser, ministão da Justiça e Norgeços. Interiores afm d que e lignes examin' a: a competente destin, a cast. roçatia é lij da pelo juiz d direito da comac de Sen e Ciz do Il o Pardo, às justiças de M'gaço, provincia do Minho, no Reto de Portugal, para e esção de d, Antonia Maria Rodrigues, como berdeira dos haus deixidos pelo final José Joaquim (Rodriges) de Ca tro, a cuj inventario se procede por aquelle juizo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 43,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        413,
+                        56,
+                        592,
+                        93
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                413,
+                                56,
+                                592,
+                                93
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        413,
+                                        56,
+                                        592,
+                                        93
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao secretario do Interior, afim de que se digneu kamar em consideração, o ofício do 1.º julz do pia do distrito de Czapava, em que faz uma consulta sob e o próximo alistamento eleitoral."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 44,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        413,
+                        93,
+                        592,
+                        185
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                413,
+                                93,
+                                592,
+                                185
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        413,
+                                        93,
+                                        592,
+                                        185
+                                    ],
+                                    "type": "text",
+                                    "content": "Comunicou-se ao chefe de polícia, de confoc-midade com o que participou a Direcrtoria do Serviço Sanitário, em data de 23 do corrente mea, que o cidadão Adolpho Schumann está exercendo ilegalmente a profissão de pharmaceutico na cidade de Jacarehy, com pharmacia aberta, que foi adquirida do pharmaceutico José Carlos de Oliveira Garcez Sobrinho, cumprindo que, outra o mesmo, mande proceder de acordo com o codigo penal."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 45,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        469,
+                        186,
+                        538,
+                        195
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                469,
+                                186,
+                                538,
+                                195
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        469,
+                                        186,
+                                        538,
+                                        195
+                                    ],
+                                    "type": "text",
+                                    "content": "Officio despachado"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 46
+                },
+                {
+                    "bbox": [
+                        414,
+                        195,
+                        593,
+                        250
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                414,
+                                195,
+                                593,
+                                250
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        414,
+                                        195,
+                                        593,
+                                        250
+                                    ],
+                                    "type": "text",
+                                    "content": "Do juiz de direito da comarca de Pladade, remettendo a cópia do edital que põe em concurso os ofícios de 1.a e 2.o tabelliães de notas, oficial do registro geral de hypothecas e o de distribuidor, todos com os respectivos annexos.—Requalite se pela directoria geral a publicação do edital."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 47,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        484,
+                        252,
+                        522,
+                        259
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                484,
+                                252,
+                                522,
+                                259
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        484,
+                                        252,
+                                        522,
+                                        259
+                                    ],
+                                    "type": "text",
+                                    "content": "2.1 SEOQAO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 48,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        423,
+                        261,
+                        571,
+                        269
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                423,
+                                261,
+                                571,
+                                269
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        423,
+                                        261,
+                                        571,
+                                        269
+                                    ],
+                                    "type": "text",
+                                    "content": "Solicitaram-se as seguintes informações :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 49,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        270,
+                        594,
+                        325
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                270,
+                                594,
+                                325
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        270,
+                                        594,
+                                        325
+                                    ],
+                                    "type": "text",
+                                    "content": "Do dr. julz de direito de Mogy-mirim, conjuntamente com o su pracer, a respeito da petição de graça (u em tempo apresentou ao governo do Estado o sentenciado liesitor des Retours, recolhido à cadeia publica daquella cidade em cumeprimento de pena Imposta pelo jury local;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 50,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        326,
+                        594,
+                        342
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                326,
+                                594,
+                                342
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        326,
+                                        594,
+                                        342
+                                    ],
+                                    "type": "text",
+                                    "content": "Do dr. juiz de direito de Itatiba, idem, idem, quanto ao sentenciado Paulo Luiz;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 51,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        344,
+                        594,
+                        361
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                344,
+                                594,
+                                361
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        344,
+                                        594,
+                                        361
+                                    ],
+                                    "type": "text",
+                                    "content": "Do dr. juiz de Direito de Botucatú, idem, idem, quanto ao sentenciado João Martin;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 52,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        362,
+                        595,
+                        388
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                362,
+                                595,
+                                388
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        362,
+                                        595,
+                                        388
+                                    ],
+                                    "type": "text",
+                                    "content": "Do dr. juiz de direito de Santo Antonio da Ca-\nchoeira, idem, idem, quanto su sentenciado Luiz\nBeraldi;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 53,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        390,
+                        595,
+                        415
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                390,
+                                595,
+                                415
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        390,
+                                        595,
+                                        415
+                                    ],
+                                    "type": "text",
+                                    "content": "Do dr. juiz de direito de Pirassununga, idem, dem, quanto ao sentenciado Virgilio Gatto Suasuna;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 54,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        417,
+                        594,
+                        434
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                417,
+                                594,
+                                434
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        417,
+                                        594,
+                                        434
+                                    ],
+                                    "type": "text",
+                                    "content": "Do dr. juiz de direito de Lenções, idem, idem, quanto ao sentenciado Roberto José da Silva;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 55,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        435,
+                        595,
+                        507
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                435,
+                                595,
+                                507
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        435,
+                                        595,
+                                        507
+                                    ],
+                                    "type": "text",
+                                    "content": "Do dr. juiz de direito de S. Carlos do Pichal, conjuntamente com as providencias necessarias, sobre o requerimento em que o sentenciado Joaquim Rodrigues Pinto, recolhido é cadeia publica da capital, em cumprimento de pena imposta pelo jury daquella comarca, pede a cópia de seu processo para instruir petição de graça que descaja apresentar."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 56,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        426,
+                        509,
+                        490,
+                        516
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                426,
+                                509,
+                                490,
+                                516
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        426,
+                                        509,
+                                        490,
+                                        516
+                                    ],
+                                    "type": "text",
+                                    "content": "Transmilliram-se :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 57,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        418,
+                        518,
+                        596,
+                        609
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                418,
+                                518,
+                                596,
+                                609
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        418,
+                                        518,
+                                        596,
+                                        609
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao dr. presidente do Tribunal de Justiça, para que se digne aquele tribunal informar a respeito, a pelição de graça, devidamente documentada, que ao governo do Estado apresentou o sentenciado Antonio Augusto Alves, recolhido à cadeia publica de Bebedouro, desde 4 de Setembro de 1899, em cumprimento da pena de um ano e dois mezes de prisão sim, les que lhe foi: Imposta pelo jury daquella comarca, em 16 de Outubro do mesmo ano;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 58,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        418,
+                        610,
+                        596,
+                        664
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                418,
+                                610,
+                                596,
+                                664
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        418,
+                                        610,
+                                        596,
+                                        664
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao ór. juiz de direi o de Bananil, para ser entregues ao interessado, o título de nomeação do promotor público daquella c. marca, l'acharel A'varo Augusto de Carvalho Aranha, para o cargo de curador geral de orphams e ausentes, por decelo de 23 do mez findo de Feverelco;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 59,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        418,
+                        666,
+                        596,
+                        684
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                418,
+                                666,
+                                596,
+                                684
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        418,
+                                        666,
+                                        596,
+                                        684
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao dr. juiz de direito de Xúrinica, equal título do pmenclor público dequella comarca, bacharel"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 60,
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        54,
+                        36,
+                        132,
+                        46
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                36,
+                                132,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        36,
+                                        132,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "732 Domingo, 1"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                },
+                {
+                    "bbox": [
+                        257,
+                        33,
+                        333,
+                        43
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                257,
+                                33,
+                                333,
+                                43
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        257,
+                                        33,
+                                        333,
+                                        43
+                                    ],
+                                    "type": "text",
+                                    "content": "DIARIO OFFICIAL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1
+                },
+                {
+                    "bbox": [
+                        524,
+                        35,
+                        572,
+                        44
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                524,
+                                35,
+                                572,
+                                44
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        524,
+                                        35,
+                                        572,
+                                        44
+                                    ],
+                                    "type": "text",
+                                    "content": "Abril 1990"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2
+                }
+            ],
+            "page_size": [
+                666,
+                750
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        43,
+                        54,
+                        222,
+                        81
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                43,
+                                54,
+                                222,
+                                81
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        43,
+                                        54,
+                                        222,
+                                        81
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao director do grupo escholar de Botucatu, pedindo orçamento das despesas a que se refere o seu ofício de 12 do corrente;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        44,
+                        82,
+                        223,
+                        120
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                44,
+                                82,
+                                223,
+                                120
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        44,
+                                        82,
+                                        223,
+                                        120
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao director do grupo escolar de Belia Vista, auctorizando as despesas constantes do orçamento que acompanhou o seu officio n. 7 do corrente mez;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        44,
+                        120,
+                        224,
+                        147
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                44,
+                                120,
+                                224,
+                                147
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        44,
+                                        120,
+                                        224,
+                                        147
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao director da eschola-modelo de Itapelininga, auctorizando a entrega de varios objectos à pro-professora da eschola mixta do bairro do Porto;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        44,
+                        147,
+                        224,
+                        174
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                44,
+                                147,
+                                224,
+                                174
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        44,
+                                        147,
+                                        224,
+                                        174
+                                    ],
+                                    "type": "text",
+                                    "content": ". Ao director do Diário Oficial, recomendando a remessa dos cartões pedidos para o grupo escolar de Riteirão Preto;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        44,
+                        175,
+                        225,
+                        211
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                44,
+                                175,
+                                225,
+                                211
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        44,
+                                        175,
+                                        225,
+                                        211
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao secretari da Agricultura, pedindo que ordene as providencias solicitadas por ofício de 7 do corrente, em relação ao grupo escolar de Bella Vista."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        96,
+                        222,
+                        174,
+                        235
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                96,
+                                222,
+                                174,
+                                235
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        96,
+                                        222,
+                                        174,
+                                        235
+                                    ],
+                                    "type": "text",
+                                    "content": "Agricultura"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8
+                },
+                {
+                    "bbox": [
+                        61,
+                        241,
+                        208,
+                        250
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                61,
+                                241,
+                                208,
+                                250
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        61,
+                                        241,
+                                        208,
+                                        250
+                                    ],
+                                    "type": "text",
+                                    "content": "EXPEDIENTE DO DIA 31 DE MARÇO DE 1900"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        113,
+                        253,
+                        161,
+                        262
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                113,
+                                253,
+                                161,
+                                262
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        113,
+                                        253,
+                                        161,
+                                        262
+                                    ],
+                                    "type": "text",
+                                    "content": "1.a SEÇÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        54,
+                        265,
+                        215,
+                        273
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                54,
+                                265,
+                                215,
+                                273
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        54,
+                                        265,
+                                        215,
+                                        273
+                                    ],
+                                    "type": "text",
+                                    "content": "Solicitaram-se do dr. secretario da Fazenda :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        55,
+                        274,
+                        105,
+                        283
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                274,
+                                105,
+                                283
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        274,
+                                        105,
+                                        283
+                                    ],
+                                    "type": "text",
+                                    "content": "Pagamentos :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        284,
+                        227,
+                        329
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                284,
+                                227,
+                                329
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        284,
+                                        227,
+                                        329
+                                    ],
+                                    "type": "text",
+                                    "content": "De 7:500\\$000, á «City of Santos Improvements Company, Limited», pela agua fornecida, em Outubro, Novembro e Dezembro de 1893, para os serviços de extinção de incendios e irrigação das ruas da cidade de Santos;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        48,
+                        330,
+                        227,
+                        357
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                48,
+                                330,
+                                227,
+                                357
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        48,
+                                        330,
+                                        227,
+                                        357
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1:56S\\$210, a Lebre, Castilho & Comp., pelo fornecimento de artigos diversos à Repartição de Aguas e Exgottos, em Fevereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        48,
+                        357,
+                        227,
+                        384
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                48,
+                                357,
+                                227,
+                                384
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        48,
+                                        357,
+                                        227,
+                                        384
+                                    ],
+                                    "type": "text",
+                                    "content": "De 7325400, a Espindola, Siqueira & Comp., pelo fornecimento de artigos diversos à Repartição de Aguas e Exgotlos, em Fevereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        385,
+                        228,
+                        412
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                385,
+                                228,
+                                412
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        385,
+                                        228,
+                                        412
+                                    ],
+                                    "type": "text",
+                                    "content": "De 138\\$400, a C. Hildebrand & Comp., pelo fornecimento de artigos à mesma repartição, em Fevereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        413,
+                        228,
+                        439
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                413,
+                                228,
+                                439
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        413,
+                                        228,
+                                        439
+                                    ],
+                                    "type": "text",
+                                    "content": "De 2:1995400, a Bastiano Buona Vita, por materiaes fornecidos à mesma repartição, em Fevereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        440,
+                        228,
+                        467
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                440,
+                                228,
+                                467
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        440,
+                                        228,
+                                        467
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1:285\\$290, a EduarJu B. Kneesse, por materiaes fornecidos, em Fevereiro último, à mesma repartição;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        468,
+                        228,
+                        494
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                468,
+                                228,
+                                494
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        468,
+                                        228,
+                                        494
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1:023\\$900, a Kisgen & Schiefferdecker, por identico fornecimento à mesma repartição, em Fevereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        495,
+                        228,
+                        522
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                495,
+                                228,
+                                522
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        495,
+                                        228,
+                                        522
+                                    ],
+                                    "type": "text",
+                                    "content": "De 6 000\\$990, à Companhia Mechanica e Importadora de São Paulo, por identico fornecimento à mesma repartição, em Fevereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        522,
+                        229,
+                        558
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                522,
+                                229,
+                                558
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        522,
+                                        229,
+                                        558
+                                    ],
+                                    "type": "text",
+                                    "content": "De 250\\$000, a d. Vicencia das Neves, pelo fornecimento, no corrente mez, de 1000 saccos de algodãosinho, para o serviço de distribuição de sementes aos lavradores do Estado."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        559,
+                        229,
+                        586
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                559,
+                                229,
+                                586
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        559,
+                                        229,
+                                        586
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1:181\\$16), a Francisco Duarte & Irmão, pelo fornecimento de forragem à Repartição de Aguas e Exgottos, em Fevereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        587,
+                        228,
+                        613
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                587,
+                                228,
+                                613
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        587,
+                                        228,
+                                        613
+                                    ],
+                                    "type": "text",
+                                    "content": "De 605000, a Luiz Strias & Comp., pelo fornemento de artigos à mesmo re-partição, em Fevereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        614,
+                        228,
+                        642
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                614,
+                                228,
+                                642
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        614,
+                                        228,
+                                        642
+                                    ],
+                                    "type": "text",
+                                    "content": "De S1350, a Del Fio e rino & Como., pelo fornecimento de artigos à mesma e; artição, em F. -vereiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        49,
+                        642,
+                        228,
+                        669
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                49,
+                                642,
+                                228,
+                                669
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        49,
+                                        642,
+                                        228,
+                                        669
+                                    ],
+                                    "type": "text",
+                                    "content": "De 33§165, à Companhia de Gaz de São Paulo, pelo fornecimento de gaz à Repartição de Agias e Ergottos, em Janeiro último;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        55,
+                        669,
+                        228,
+                        678
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                55,
+                                669,
+                                228,
+                                678
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        55,
+                                        669,
+                                        228,
+                                        678
+                                    ],
+                                    "type": "text",
+                                    "content": "De J.09007, a Brovine Giovanni, por materias"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        53,
+                        406,
+                        71
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                53,
+                                406,
+                                71
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        53,
+                                        406,
+                                        71
+                                    ],
+                                    "type": "text",
+                                    "content": "fornecidos, em Fevereiro último, à Repartição de Águas e Esgottos;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        72,
+                        406,
+                        99
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                72,
+                                406,
+                                99
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        72,
+                                        406,
+                                        99
+                                    ],
+                                    "type": "text",
+                                    "content": "De 356/880, a Francisco Gonçalves, pelo fornecimenta de forragem à mesma repartição, em Fevereiro último."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        229,
+                        99,
+                        408,
+                        164
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                229,
+                                99,
+                                408,
+                                164
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        229,
+                                        99,
+                                        408,
+                                        164
+                                    ],
+                                    "type": "text",
+                                    "content": "Credito da quântia de 3:311§200 ao amanuense da Superintendencia de Obras Publicas, João Alfredo Baptista Borba, por despesas, em Fevereiro último, com o pagamento de diarias e transportes de angecheiros, e outros de expediente; recolhendo o mesmo funcionário aos cofres do Thesouro o saldo, em seu poder, da quantia de 8§800."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        165,
+                        409,
+                        219
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                165,
+                                409,
+                                219
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        165,
+                                        409,
+                                        219
+                                    ],
+                                    "type": "text",
+                                    "content": "Adeantamento da quantia de 680\\$750, ao engenheiro da Superintendencia de Obras Publicas, Victor Andrigo, para occorrer às despesas com os reparos do telhado do Hospicio de Alienados da capital.—Deu-se conhecimento ao dr. director da Superintendencia;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        231,
+                        220,
+                        410,
+                        267
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                231,
+                                220,
+                                410,
+                                267
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        231,
+                                        220,
+                                        410,
+                                        267
+                                    ],
+                                    "type": "text",
+                                    "content": "Permissão para o engenheiro Antonio By depo-\nsitar, no Thesouro do Estado, a quantia de.....\n300507, como garantia da proposta que pretende\naprese tis para a construção de uma cadeia em\nS. Bento do Sapuc by."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        232,
+                        267,
+                        410,
+                        303
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                232,
+                                267,
+                                410,
+                                303
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        232,
+                                        267,
+                                        410,
+                                        303
+                                    ],
+                                    "type": "text",
+                                    "content": "Auctoriz uses a Commissão Geographica e Geologia a desenter 3:2008000, com aquisição de oito animaes para os trabalhos das turmas de campo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        233,
+                        303,
+                        410,
+                        349
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                233,
+                                303,
+                                410,
+                                349
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        233,
+                                        303,
+                                        410,
+                                        349
+                                    ],
+                                    "type": "text",
+                                    "content": "Declarou-se à Superintendencia de Obras Públicas que fica approvado o contracto celebrado com Francisco José do Prado, para o serviço de passagens em balsa sobre o rio Parahyba, na estrada de Santa Branca a Jacarchy."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        233,
+                        350,
+                        410,
+                        377
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                233,
+                                350,
+                                410,
+                                377
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        233,
+                                        350,
+                                        410,
+                                        377
+                                    ],
+                                    "type": "text",
+                                    "content": "Devolveram-se à Repartição de Aguas e Exgotlos, para a necessaria reelificação, as contas apresentadas pela casa Érico Milha & Comp."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 34,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        233,
+                        378,
+                        411,
+                        441
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                233,
+                                378,
+                                411,
+                                441
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        233,
+                                        378,
+                                        411,
+                                        441
+                                    ],
+                                    "type": "text",
+                                    "content": "Realizou-se, hoje, 31 de Março de 1900, nesta secretaria, a abertura das propostas apresentadas para a construção de uma cadeia em S. Bento do Sapucahy, as quaes, assignadas pelos cidadãos Antonio By, Nicola Grigola, Santiago Stornini, José Mollica e Santo Bertollazzi, foram pela respectiva junta, julgadas conforme para decisão ulterior."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 35,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        275,
+                        442,
+                        371,
+                        450
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                275,
+                                442,
+                                371,
+                                450
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        275,
+                                        442,
+                                        371,
+                                        450
+                                    ],
+                                    "type": "text",
+                                    "content": "REQUERIMENTO DESPACHADO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 36,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        234,
+                        451,
+                        412,
+                        524
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                234,
+                                451,
+                                412,
+                                524
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        234,
+                                        451,
+                                        412,
+                                        524
+                                    ],
+                                    "type": "text",
+                                    "content": "Da City of Santos Improvements Company, Limited, pedindo reconsideração do despacho de 22 de Fevereiro último, e apresentando conta de.... 7:500\\$000 de agua fornecida para a extinção de incendios e irrigação das ruas da cidade de Santos, em Outubro, Novembro e Dezembro de 1899. —Mantenho o despacho de 22 de Fevereiro último. Requisite-se o pagamento de 7:500\\$000."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 37,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        299,
+                        537,
+                        344,
+                        549
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                299,
+                                537,
+                                344,
+                                549
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        299,
+                                        537,
+                                        344,
+                                        549
+                                    ],
+                                    "type": "text",
+                                    "content": "Justiça"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 38
+                },
+                {
+                    "bbox": [
+                        253,
+                        551,
+                        395,
+                        559
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                253,
+                                551,
+                                395,
+                                559
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        253,
+                                        551,
+                                        395,
+                                        559
+                                    ],
+                                    "type": "text",
+                                    "content": "EXPEDIENTE DO DIA 31 DE MARCHO DE 1900"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 39,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        283,
+                        563,
+                        366,
+                        571
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                283,
+                                563,
+                                366,
+                                571
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        283,
+                                        563,
+                                        366,
+                                        571
+                                    ],
+                                    "type": "text",
+                                    "content": "1.ª SUB-DIRECTORIA"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 40,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        305,
+                        573,
+                        342,
+                        581
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                305,
+                                573,
+                                342,
+                                581
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        305,
+                                        573,
+                                        342,
+                                        581
+                                    ],
+                                    "type": "text",
+                                    "content": "1.a SECCÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 41,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        241,
+                        582,
+                        301,
+                        590
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                241,
+                                582,
+                                301,
+                                590
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        241,
+                                        582,
+                                        301,
+                                        590
+                                    ],
+                                    "type": "text",
+                                    "content": "Transmittu-se :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        234,
+                        591,
+                        414,
+                        682
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                234,
+                                591,
+                                414,
+                                682
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        234,
+                                        591,
+                                        414,
+                                        682
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao ser, ministão da Justiça e Norgeços. Interiores afm d que e lignes examin' a: a competente destin, a cast. roçatia é lij da pelo juiz d direito da comac de Sen e Ciz do Il o Pardo, às justiças de M'gaço, provincia do Minho, no Reto de Portugal, para e esção de d, Antonia Maria Rodrigues, como berdeira dos haus deixidos pelo final José Joaquim (Rodriges) de Ca tro, a cuj inventario se procede por aquelle juizo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 43,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        413,
+                        56,
+                        592,
+                        93
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                413,
+                                56,
+                                592,
+                                93
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        413,
+                                        56,
+                                        592,
+                                        93
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao secretario do Interior, afim de que se digneu kamar em consideração, o ofício do 1.º julz do pia do distrito de Czapava, em que faz uma consulta sob e o próximo alistamento eleitoral."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 44,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        413,
+                        93,
+                        592,
+                        185
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                413,
+                                93,
+                                592,
+                                185
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        413,
+                                        93,
+                                        592,
+                                        185
+                                    ],
+                                    "type": "text",
+                                    "content": "Comunicou-se ao chefe de polícia, de confoc-midade com o que participou a Direcrtoria do Serviço Sanitário, em data de 23 do corrente mea, que o cidadão Adolpho Schumann está exercendo ilegalmente a profissão de pharmaceutico na cidade de Jacarehy, com pharmacia aberta, que foi adquirida do pharmaceutico José Carlos de Oliveira Garcez Sobrinho, cumprindo que, outra o mesmo, mande proceder de acordo com o codigo penal."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 45,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        469,
+                        186,
+                        538,
+                        195
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                469,
+                                186,
+                                538,
+                                195
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        469,
+                                        186,
+                                        538,
+                                        195
+                                    ],
+                                    "type": "text",
+                                    "content": "Officio despachado"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 46
+                },
+                {
+                    "bbox": [
+                        414,
+                        195,
+                        593,
+                        250
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                414,
+                                195,
+                                593,
+                                250
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        414,
+                                        195,
+                                        593,
+                                        250
+                                    ],
+                                    "type": "text",
+                                    "content": "Do juiz de direito da comarca de Pladade, remettendo a cópia do edital que põe em concurso os ofícios de 1.a e 2.o tabelliães de notas, oficial do registro geral de hypothecas e o de distribuidor, todos com os respectivos annexos.—Requalite se pela directoria geral a publicação do edital."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 47,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        484,
+                        252,
+                        522,
+                        259
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                484,
+                                252,
+                                522,
+                                259
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        484,
+                                        252,
+                                        522,
+                                        259
+                                    ],
+                                    "type": "text",
+                                    "content": "2.1 SEOQAO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 48,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        423,
+                        261,
+                        571,
+                        269
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                423,
+                                261,
+                                571,
+                                269
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        423,
+                                        261,
+                                        571,
+                                        269
+                                    ],
+                                    "type": "text",
+                                    "content": "Solicitaram-se as seguintes informações :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 49,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        270,
+                        594,
+                        325
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                270,
+                                594,
+                                325
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        270,
+                                        594,
+                                        325
+                                    ],
+                                    "type": "text",
+                                    "content": "Do dr. julz de direito de Mogy-mirim, conjuntamente com o su pracer, a respeito da petição de graça (u em tempo apresentou ao governo do Estado o sentenciado liesitor des Retours, recolhido à cadeia publica daquella cidade em cumeprimento de pena Imposta pelo jury local;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 50,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        326,
+                        594,
+                        342
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                326,
+                                594,
+                                342
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        326,
+                                        594,
+                                        342
+                                    ],
+                                    "type": "text",
+                                    "content": "Do dr. juiz de direito de Itatiba, idem, idem, quanto ao sentenciado Paulo Luiz;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 51,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        344,
+                        594,
+                        361
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                344,
+                                594,
+                                361
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        344,
+                                        594,
+                                        361
+                                    ],
+                                    "type": "text",
+                                    "content": "Do dr. juiz de Direito de Botucatú, idem, idem, quanto ao sentenciado João Martin;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 52,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        362,
+                        595,
+                        388
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                362,
+                                595,
+                                388
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        362,
+                                        595,
+                                        388
+                                    ],
+                                    "type": "text",
+                                    "content": "Do dr. juiz de direito de Santo Antonio da Ca-\nchoeira, idem, idem, quanto su sentenciado Luiz\nBeraldi;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 53,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        416,
+                        390,
+                        595,
+                        415
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                416,
+                                390,
+                                595,
+                                415
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        416,
+                                        390,
+                                        595,
+                                        415
+                                    ],
+                                    "type": "text",
+                                    "content": "Do dr. juiz de direito de Pirassununga, idem, dem, quanto ao sentenciado Virgilio Gatto Suasuna;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 54,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        417,
+                        594,
+                        434
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                417,
+                                594,
+                                434
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        417,
+                                        594,
+                                        434
+                                    ],
+                                    "type": "text",
+                                    "content": "Do dr. juiz de direito de Lenções, idem, idem, quanto ao sentenciado Roberto José da Silva;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 55,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        417,
+                        435,
+                        595,
+                        507
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                417,
+                                435,
+                                595,
+                                507
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        417,
+                                        435,
+                                        595,
+                                        507
+                                    ],
+                                    "type": "text",
+                                    "content": "Do dr. juiz de direito de S. Carlos do Pichal, conjuntamente com as providencias necessarias, sobre o requerimento em que o sentenciado Joaquim Rodrigues Pinto, recolhido é cadeia publica da capital, em cumprimento de pena imposta pelo jury daquella comarca, pede a cópia de seu processo para instruir petição de graça que descaja apresentar."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 56,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        426,
+                        509,
+                        490,
+                        516
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                426,
+                                509,
+                                490,
+                                516
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        426,
+                                        509,
+                                        490,
+                                        516
+                                    ],
+                                    "type": "text",
+                                    "content": "Transmilliram-se :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 57,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        418,
+                        518,
+                        596,
+                        609
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                418,
+                                518,
+                                596,
+                                609
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        418,
+                                        518,
+                                        596,
+                                        609
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao dr. presidente do Tribunal de Justiça, para que se digne aquele tribunal informar a respeito, a pelição de graça, devidamente documentada, que ao governo do Estado apresentou o sentenciado Antonio Augusto Alves, recolhido à cadeia publica de Bebedouro, desde 4 de Setembro de 1899, em cumprimento da pena de um ano e dois mezes de prisão sim, les que lhe foi: Imposta pelo jury daquella comarca, em 16 de Outubro do mesmo ano;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 58,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        418,
+                        610,
+                        596,
+                        664
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                418,
+                                610,
+                                596,
+                                664
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        418,
+                                        610,
+                                        596,
+                                        664
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao ór. juiz de direi o de Bananil, para ser entregues ao interessado, o título de nomeação do promotor público daquella c. marca, l'acharel A'varo Augusto de Carvalho Aranha, para o cargo de curador geral de orphams e ausentes, por decelo de 23 do mez findo de Feverelco;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 59,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        418,
+                        666,
+                        596,
+                        684
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                418,
+                                666,
+                                596,
+                                684
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        418,
+                                        666,
+                                        596,
+                                        684
+                                    ],
+                                    "type": "text",
+                                    "content": "Ao dr. juiz de direito de Xúrinica, equal título do pmenclor público dequella comarca, bacharel"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 60,
+                    "merge_prev": false
+                }
+            ]
+        }
+    ],
+    "_backend": "vlm",
+    "_version_name": "3.4.4"
+}

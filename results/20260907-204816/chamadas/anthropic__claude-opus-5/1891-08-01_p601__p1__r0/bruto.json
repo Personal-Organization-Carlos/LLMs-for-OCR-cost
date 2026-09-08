@@ -1,0 +1,87 @@
+{
+  "chave": "anthropic/claude-opus-5|1891-08-01_p601|p1|0",
+  "registro": {
+    "model_id": "anthropic/claude-opus-5",
+    "prompt_id": "p1",
+    "doc_id": "1891-08-01_p601",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 66.69192399992608,
+    "prompt_tokens": 4165,
+    "completion_tokens": 6022,
+    "total_tokens": 10187,
+    "cost_usd": 0.171375,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Anthropic",
+    "generation_id": "gen-1788828779-xyemEF0BQN7XGTtb2nSY",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T00:52:59Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788828779-xyemEF0BQN7XGTtb2nSY",
+        "object": "chat.completion",
+        "created": 1788828779,
+        "model": "anthropic/claude-opus-5",
+        "provider": "Anthropic",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "end_turn",
+            "message": {
+              "role": "assistant",
+              "content": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diario Official - Agosto (1891)</title>\n<style>\n    body {\n        background: #fdfdf7;\n        font-family: \"Times New Roman\", Times, serif;\n        margin: 20px auto;\n        max-width: 1150px;\n        color: #111;\n    }\n    .cabecalho {\n        display: flex;\n        justify-content: space-between;\n        align-items: flex-end;\n        font-weight: bold;\n        padding: 0 6px 2px 6px;\n    }\n    .cabecalho .esq { font-size: 15px; letter-spacing: 1px; }\n    .cabecalho .centro { font-size: 20px; letter-spacing: 2px; }\n    .cabecalho .dir { font-size: 15px; letter-spacing: 1px; }\n    .cabecalho .dir .num { font-size: 18px; }\n    hr.regra {\n        border: none;\n        border-top: 3px solid #000;\n        border-bottom: 1px solid #000;\n        height: 2px;\n        margin: 2px 0 6px 0;\n    }\n    table.jornal {\n        width: 100%;\n        border-collapse: collapse;\n        table-layout: fixed;\n    }\n    table.jornal td {\n        vertical-align: top;\n        padding: 0 10px;\n        font-size: 14.5px;\n        line-height: 1.25;\n        text-align: justify;\n    }\n    table.jornal td.col1, table.jornal td.col2 {\n        border-right: 1px solid #000;\n    }\n    p {\n        margin: 0;\n        text-indent: 1.4em;\n    }\n    h2.sec {\n        font-size: 14px;\n        font-weight: normal;\n        text-align: center;\n        font-variant: small-caps;\n        letter-spacing: 1px;\n        margin: 7px 0 3px 0;\n    }\n    h2.sec.maior { font-size: 15px; }\n    h3.negrito {\n        text-align: center;\n        font-size: 15px;\n        font-weight: bold;\n        margin: 8px 0 4px 0;\n        letter-spacing: 1px;\n    }\n    .balancete {\n        text-align: center;\n        font-weight: bold;\n        font-size: 15px;\n        margin: 10px 0 6px 0;\n        line-height: 1.15;\n    }\n    .rubrica {\n        font-weight: bold;\n        font-size: 15px;\n        margin-top: 6px;\n    }\n    table.contas {\n        width: 100%;\n        font-size: 13px;\n        border-collapse: collapse;\n        line-height: 1.15;\n    }\n    table.contas td { padding: 0; vertical-align: bottom; }\n    table.contas td.desc { text-align: left; }\n    table.contas td.v1 { text-align: right; width: 30%; white-space: nowrap; }\n    table.contas td.v2 { text-align: right; width: 27%; white-space: nowrap; }\n    .linha-total { border-top: 1px solid #000; }\n    .destaque { font-weight: bold; font-size: 16px; }\n</style>\n</head>\n<body>\n\n<div class=\"cabecalho\">\n    <div class=\"esq\">Sabbado&nbsp;&nbsp;1</div>\n    <div class=\"centro\">DIARIO OFFICIAL</div>\n    <div class=\"dir\">Agosto&nbsp; (1891)&nbsp; <span class=\"num\">601</span></div>\n</div>\n<hr class=\"regra\">\n\n<table class=\"jornal\">\n<tr>\n\n<!-- ============ COLUNA 1 ============ -->\n<td class=\"col1\" style=\"width:33%\">\n<p>o porteiro deste Thesouro, afim de rem entregues aos interessados :</p>\n\n<h2 class=\"sec\">REGISTRO DE SOROCABA</h2>\n\n<p>Antonio Augusto de Padua Fleu-, de 24 de Agosto de 1878 a 31 de aio de 1882.</p>\n<p>José de Almeida Leme, de 1º de unho de 1832 a 8 de Outubro de 837, de 26 de Novembro de 1838 a 1 de Dezembro de 1839 e de 1º de Outubro de 1849 a 14 de Março de 856.</p>\n<p>Elias Ayres do Amaral, de 9 de Outubro de 1837 a 25 de Novembro de 1838 e de 26 de Outubro de 1840 a 25 do Junho de 1842.</p>\n<p>Antonio de Mascarenhas Camel-, de 1º de Janeiro a 11 de Abril de 840 e de 25 de Julho de 1844 a 30 e Setembro de 1849.</p>\n<p>Francisco de Assis Penteado, de de Julho a 23 de Agosto de 878.</p>\n<p>Joaquim José Loureiro de Almeida, de 12 de Abril de 1840 a 25 de Outubro do mesmo e de 26 de junho de 1842 a 24 de Julho de 1844.</p>\n\n<h2 class=\"sec\">COLLECTORIA DA LIMEIRA</h2>\n\n<p>Francisco da Rocha Siqueira Camargo, de 1º de Julho de 1889 a 31 e Janeiro de 1890.</p>\n<p>José Monteiro de Mendonça, de 1º e Agosto de 1887 a 30 de Junho de 1889.</p>\n\n<h2 class=\"sec\">BARREIRA DA FIGUEIRA</h2>\n\n<p>José Antonio Moreira, de 1º de Outubro a 31 de Dezembro de 1883.</p>\n\n<h2 class=\"sec\">REGISTRO DO ARIRÓ</h2>\n\n<p>Mariano Ramos da Silva, de 1º de ulho de 1872 a 12 de Maio de 1873.</p>\n\n<h2 class=\"sec\">REGISTRO DO RIO DO BRAÇO</h2>\n\n<p>Luiz Ribeiro de Aguiar, de 12 de gosto de 1886 até 6 de Fevereiro 1890.</p>\n<p>Tertuliano de Araujo Ferraz, de de Junho de 1879 a 1º de Agosto o mesmo.</p>\n<p>Lourenço Justiniano dos Santos, 18 de Janeiro de 1887 a 28 de Fevereiro de 1890.</p>\n<p>João de Padua Machado, de 22 de nho de 1874 a 2 de Junho de 1879.</p>\n<p>Francisco Gonçalves Ramos, de de Janeiro de 1870 a 21 de Junho e 1874.</p>\n\n<h2 class=\"sec\">ESA DE RENDAS DE CARAGUATATUBA</h2>\n\n<p>Bento Xavier de Araujo Leite, de de Fevereiro de 1880 a 30 de Julho de 1882.</p>\n\n<h2 class=\"sec maior\">BARREIRA DE SANTA CRUZ</h2>\n\n<p class=\"destaque\" style=\"text-indent:0\">Manoel Barbosa de Moraes, de de Março de 1890 a 30 de Junho 1891.</p>\n\n<h2 class=\"sec maior\">BARREIRA DE UBATUBA</h2>\n\n<p class=\"destaque\" style=\"text-indent:0\">Luiz Ernesto Valodino Pereira,</p>\n</td>\n\n<!-- ============ COLUNA 2 ============ -->\n<td class=\"col2\" style=\"width:33%\">\n<p style=\"text-indent:0\">de 1º de Outubro de 1875 a 30 de Abril de 1877.</p>\n\n<h2 class=\"sec\">COLLECTORIAS</h2>\n\n<p>Indaiatuba—Joaquim Emydio de Campos Bicudo, de 1º de Julho de 1873 a 12 de Janeiro de 1881.</p>\n<p>Franca—Joaquim Paes de Toledo Cubas, de 4 de Julho de 1878 a 1º de Agosto do mesmo e Antonio de Andrade Lobo Bastos, de 2 de Agosto de 1878 a 5 de Novembro de 1885.</p>\n<p>Botucatú—Elias de Oliveira Lima Machado, de 15 de Dezembro de 1868 a 24 de Março de 1878.</p>\n<p>Atibaia— José da Silveira Franco, de 8 de Agosto de 1878 a 4 de Maio de 1879; José Francisco de Campos Bueno, de 5 de Maio de 1879 a 10 de Junho do mesmo e de 14 de Março de 1882 a 31 de Outubro de 1887 e Benedicto Franco da Silveira, de 1º de Novembro de 1887 a 30 de Junho de 1889.</p>\n<p>S. José dos Campos. — Olympio José de Freitas, de 11 de Maio de 1888 a 30 de Junho de 1890.</p>\n<p>Bananal—Alexandre Norberto da Costa, de 11 a 31 de Março de 1880 e Luiz de Padua Machado, de 1º de Abril de 1880 a 12 de Julho de 1881.</p>\n<p>Silveiras—Manoel Guedes de Siqueira, de 25 de Janeiro de 1887 a 21 de Agosto de 1889 e Candido de Oliveira Castro, de 1º de Fevereiro de 1869 a 24 de Janeiro de 1887.</p>\n<p>Mogy das Cruzes—João Candido Martins, de 1º de Janeiro de 1870 a 11 de Julho de 1873.</p>\n<p>Arêas—José Joaquim Ferreira Penna, de 1º de Janeiro de 1886 a 4 de Agosto de 1889.</p>\n<p>Capivary—Joaquim Vaz do Amaral Carvalho, de 28 de Janeiro de 1885 a 31 de Março de 1890.</p>\n\n<div class=\"balancete\">Balancete do Thesouro do Estado<br>no periodo de 1º a 30 de Julho<br>de 1891</div>\n\n<div class=\"rubrica\">Receita :</div>\n<table class=\"contas\">\n<tr><td class=\"desc\" colspan=\"3\">Saldo do mez anterior :</td></tr>\n<tr><td class=\"desc\">No Banco União</td><td class=\"v1\">527:535$310</td><td class=\"v2\"></td></tr>\n<tr><td class=\"desc\">Em caixa&nbsp;. . . . .</td><td class=\"v1\">2.194:945$039</td><td class=\"v2\"></td></tr>\n<tr><td class=\"desc\"></td><td class=\"v1\" style=\"border-top:1px solid #000\"></td><td class=\"v2\">2.722:480$349</td></tr>\n<tr><td class=\"desc\">Entradas até hoje&nbsp;&nbsp;. .</td><td class=\"v1\"></td><td class=\"v2\">373:285$691</td></tr>\n<tr><td class=\"desc\"></td><td class=\"v1\"></td><td class=\"v2\" style=\"border-top:1px solid #000\">3.095:766$040</td></tr>\n<tr><td class=\"desc\"></td><td class=\"v1\"></td><td class=\"v2\" style=\"border-top:1px solid #000\"></td></tr>\n</table>\n\n<div class=\"rubrica\">Despeza :</div>\n<table class=\"contas\">\n<tr><td class=\"desc\">Por caixa&nbsp;. . . . .</td><td class=\"v1\">710:576$577</td><td class=\"v2\"></td></tr>\n<tr><td class=\"desc\">Por folhas . . . . .</td><td class=\"v1\">227:072$590</td><td class=\"v2\"></td></tr>\n<tr><td class=\"desc\"></td><td class=\"v1\" style=\"border-top:1px solid #000\"></td><td class=\"v2\">937:649$167</td></tr>\n</table>\n\n<div class=\"rubrica\">Saldo em dinheiro :</div>\n<table class=\"contas\">\n<tr><td class=\"desc\">No Banco União . . .</td><td class=\"v1\">527:535$310</td><td class=\"v2\"></td></tr>\n<tr><td class=\"desc\">Em caixa&nbsp;. . . . .</td><td class=\"v1\">1.630:581$563</td><td class=\"v2\"></td></tr>\n<tr><td class=\"desc\"></td><td class=\"v1\" style=\"border-top:1px solid #000\"></td><td class=\"v2\">2.158:116$873</td></tr>\n<tr><td class=\"desc\"></td><td class=\"v1\"></td><td class=\"v2\" style=\"border-top:1px solid #000\">3.095:766$040</td></tr>\n<tr><td class=\"desc\"></td><td class=\"v1\"></td><td class=\"v2\" style=\"border-top:1px solid #000\"></td></tr>\n</table>\n\n<div class=\"rubrica\">Caixa de «Juros de apolices» :</div>\n<table class=\"contas\">\n<tr><td class=\"desc\">Existe para pagamento. . . . . . .</td><td class=\"v2\">31:550$155</td></tr>\n</table>\n<div class=\"rubrica\">Saldo em titulos :</div>\n<table class=\"contas\">\n<tr><td class=\"desc\">Acções da Companhia Ituana</td><td class=\"v2\">940:600$000</td></tr>\n<tr><td class=\"desc\">Lettras a receber. . . . . . . .</td><td class=\"v2\">16:022$820</td></tr>\n<tr><td class=\"desc\"></td><td class=\"v2\" style=\"border-top:1px solid #000\">956:622$820</td></tr>\n<tr><td class=\"desc\"></td><td class=\"v2\" style=\"border-top:1px solid #000\"></td></tr>\n</table>\n\n<div class=\"rubrica\">Depositos :</div>\n<table class=\"contas\">\n<tr><td class=\"desc\">Apolices geraes e do Estado, acções de Companhias e valores diversos . . .</td><td class=\"v2\">76:957$210</td></tr>\n<tr><td class=\"desc\"></td><td class=\"v2\" style=\"border-top:1px solid #000\"></td></tr>\n</table>\n</td>\n\n<!-- ============ COLUNA 3 ============ -->\n<td class=\"col3\" style=\"width:34%\">\n<h3 class=\"negrito\">Thesouraria de Fazenda</h3>\n<h2 class=\"sec\">SESSÃO DA JUNTA DE 29</h2>\n\n<p>José Padula e Valeriano Barbiéri.—De accôrdo com os pareceres restitua-se a quantia de 192$000.</p>\n<p>Candido da Cunha Nepomuceno.—De accôrdo com os pareceres restitua-se a quantia de 41$700.</p>\n<p>João Rodrigues Ferraz.—De accôrdo com os pareceres restitua-se a quantia de 21$000.</p>\n<p>Capitão Sebastião de Barros Silva.—De accôrdo com o parecer do sr. dr. procurador fiscal restitua-se a quantia de 86$000.</p>\n<p>Ernesto Nery.—De accôrdo com os pareceres restitua-se a quantia de 126$000.</p>\n<p>Gonçalo José Martins de Figueiredo.—Restitua-se a quantia de 21$000 de accôrdo com os pareceres, e expeça-se portaria ao collector determinando-lhe que se debite pela importancia de 3$780 devida pela arrecadação.</p>\n<p>João Dias Martins.—Nega-se a restituição pedida; determinando-se á collectoria de Pirassununga que promova, contra quem de direito, a cobrança do imposto devido, para o que se lhe remetterá o respectivo processo, que devolverá opportunamente.</p>\n<p>Officio do collector do Patrocinio das Araras, sob n. 38, de 3 do corrente.—A' secção do contencioso para promover a cobrança executiva.</p>\n<p>João Modesto da Cunha Franco.—Tendo sido recolhido o alcance de que tratam as contas juntas, e á vista dos pareceres do sr. contador e dr. procurador fiscal, julgo-as definitivamente tomadas e o respectivo exactor, João Modesto da Cunha Franco, quite para com a Fazenda Nacional; dando-se baixa na fiança que o mesmo prestou para exercer o cargo de collector do municipio do Amparo. Passe-se a necessaria quitação, voltando este processo á secção do contencioso e á contadoria para os devidos fins.</p>\n<p>Processo de tomada de contas do ex-collector interino de S. José do Rio Verde, Olympio José de Freitas.—Tendo em vista os pareceres do sr. contador e dr. procurador fiscal, julgo definitivamente tomadas as contas da gestão de Olympio José de Freitas, ex-collector interino de S. José dos Campos; e porque, á vista de taes contas, verifica-se estar o mesmo cidadão quite para com a Fazenda Nacional, dê-se baixa na fiança prestada e passe-se a necessaria quitação, indo este processo á secção do contencioso e á contadoria para os devidos fins.</p>\n<p>Felicissimo Parreiro de Souza.—De accôrdo com os pareceres restitua-se a quantia de setenta e tres mil e quinhentos réis e expeça-se portaria ao collector de Santa Rita do Paraizo para se debitar pela quantia de 14$700.</p>\n</td>\n\n</tr>\n</table>\n\n</body>\n</html>\n```",
+              "refusal": null,
+              "reasoning": "I'm planning an HTML page replicating the newspaper layout, with a header showing the date and title, followed by three text columns using CSS columns or a bordered table structure.\n\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "I'm planning an HTML page replicating the newspaper layout, with a header showing the date and title, followed by three text columns using CSS columns or a bordered table structure.\n\n",
+                  "format": "anthropic-claude-v1",
+                  "index": 0,
+                  "signature": "CAIS+wMKrgEIERgCKkAbNFkhBIdj7L3bb6USp1rSslURJ919f/ocwPufKhXz/bUNMj/7SPelwHB+WcPc8Jt0db0AiC7vRj+d3vXeYTXgMg1jbGF1ZGUtb3B1cy01OAFCCHRoaW5raW5nWiQwZDk4M2YzZi00OWZhLTRhNDYtODI1NC1iMWJiMjQ5MWEyYTl6HnVwcm9mXzAxMUNlcHpua2tWbVNIcDRQWXl3NFpCVagB8rj91AYSDJmIUL3qeY91U0GFkBoMVJX9AkfG95aQOaanIjABnCfdWTWR7yToQtvNkzmjpaq+aTf6ZZcTrCzKphLoMATodnozEfDxMptVs8Z+zI8q+QF6Fs1mLIhspzmtOxhkoe9LKBB3rEMR3yiRAXnFl5X3jIxoygDoR4EYDMbbUgnY7MicyDaTRtz2QKDnPIlPDX7kvlYrxEySZDKB17/RfMgQOGirdnC2Yz0SayISCqphi715m7dmM7l4FApEurIn5pf0g8NaQh2gXto2qwJ7DYa4NvjKbadG7jBLo2lik+mDnEQvkoXavlUIyE3ZMHmoq8kKy1nZb2LHEQvNc7LObXzCJH7T6IxowhWk2LuYB+NVruEUonIqHbhdwcpbRY+l2g05dep8RW/qoA38DiPKCDA7Xku0rqaGRG5wsZ+BQzV4S12N5xW6ZDbHmFEYAQ=="
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 4165,
+          "completion_tokens": 6022,
+          "total_tokens": 10187,
+          "cost": 0.171375,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.171375,
+            "upstream_inference_prompt_cost": 0.020825,
+            "upstream_inference_completions_cost": 0.15055
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 90,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

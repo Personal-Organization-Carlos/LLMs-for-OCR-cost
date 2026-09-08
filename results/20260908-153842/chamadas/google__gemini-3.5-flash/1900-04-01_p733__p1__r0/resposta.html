@@ -1,0 +1,128 @@
+Analisando a imagem fornecida, trata-se de uma página do **Diário Official** do Estado de São Paulo, datada de **Abril de 1900** (página 733). 
+
+Abaixo está o código HTML completo que reproduz fielmente o layout original em três colunas, a tipografia de época (serifada, justificada, com recuos de parágrafo) e a grafia exata das palavras (incluindo termos arcaicos como *transmittiram-se*, *auctoridade*, *exgottos*, *tabellas*, etc.).
+
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Diario Official - Abril 1900</title>
+    <style>
+        body {
+            background-color: #fbf9f3;
+            color: #1a1a1a;
+            font-family: "Times New Roman", Times, Georgia, serif;
+            line-height: 1.3;
+            font-size: 13px;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+        /* Header Styles */
+        .header {
+            border-bottom: 4px double #000;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .header-title {
+            font-size: 20px;
+            letter-spacing: 2px;
+            text-align: center;
+            flex-grow: 1;
+        }
+        /* Column Layout */
+        .columns {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            text-align: justify;
+        }
+        .column {
+            padding-right: 5px;
+        }
+        /* Typography & Spacing */
+        p {
+            text-indent: 20px;
+            margin: 0 0 8px 0;
+        }
+        p.no-indent {
+            text-indent: 0;
+        }
+        h2, h3, h4 {
+            text-align: center;
+            margin: 12px 0 6px 0;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+        h3 {
+            font-size: 14px;
+        }
+        h4 {
+            font-style: italic;
+            text-transform: none;
+        }
+        .section-divider {
+            border-top: 1px solid #000;
+            margin: 15px auto;
+            width: 60%;
+        }
+        .short-divider {
+            border-top: 1px dashed #000;
+            margin: 10px auto;
+            width: 30%;
+        }
+        /* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 8px 0;
+            font-size: 12px;
+        }
+        td {
+            padding: 1px 3px;
+            vertical-align: bottom;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .text-right {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Header -->
+    <div class="header">
+        <div>Domingo, 1</div>
+        <div class="header-title">DIARIO OFFICIAL</div>
+        <div>Abril 1900 &nbsp;&nbsp;&nbsp; 733</div>
+    </div>
+
+    <!-- Three Columns Content -->
+    <div class="columns">
+        
+        <!-- COLUMN 1 -->
+        <div class="column">
+            <p class="no-indent">Antonio Candido Xavier de Almeida e Souza, nomeado curador por decreto de 6 de Março corrente.</p>
+            
+            <h4>Requerimentos despachados</h4>
+            
+            <p>Do bacharel Octaviano de Aguiar Camargo, ex-promotor publico da comarca de Ytú, pedindo providencias no sentido de poder receber no Thesouro do Estado, os vencimentos a que tem direito, durante o tempo em que esteve em goso da licença que lhe foi concedida por acto de 23 de Janeiro do corrente anno, para tratar da saude de pessoa de sua familia, visto ter-se extraviado a respectiva portaria. — Attendido, retirando desta secretaria por certidão, uma copia da portaria da licença que foi extraviada.</p>
+            
+            <p>Do bacharel Bento Ribeiro da Luz, juiz de direito da comarca de Nuporanga, pedindo que se lhe mande certificar si obteve desta secretaria a

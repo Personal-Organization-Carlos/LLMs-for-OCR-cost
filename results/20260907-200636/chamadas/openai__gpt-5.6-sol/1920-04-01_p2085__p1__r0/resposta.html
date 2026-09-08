@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diario Official do Estado de São Paulo — 1.º de Abril de 1920</title>
+<style>
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    background: #eee;
+    color: #111;
+  }
+
+  body {
+    font-family: "Times New Roman", Georgia, serif;
+  }
+
+  .page {
+    width: 1500px;
+    min-height: 2200px;
+    margin: 0 auto;
+    padding: 20px 42px 48px;
+    background: #fff;
+  }
+
+  .masthead {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .country {
+    margin: 0;
+    font-size: 43px;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: -1px;
+  }
+
+  .newspaper-name {
+    margin: 3px 0 0;
+    font-family: Impact, "Arial Black", sans-serif;
+    font-size: 116px;
+    line-height: .98;
+    font-weight: 900;
+    letter-spacing: 3px;
+    transform: scaleX(1.04);
+  }
+
+  .state-name {
+    margin: 4px 0 12px;
+    font-size: 49px;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+
+  .double-rule {
+    height: 11px;
+    border-top: 5px solid #111;
+    border-bottom: 2px solid #111;
+  }
+
+  .issue-line {
+    display: grid;
+    grid-template-columns: 1fr .58fr 1.12fr;
+    align-items: center;
+    gap: 20px;
+    min-height: 55px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+  }
+
+  .issue-line .place {
+    text-align: center;
+    font-size: 31px;
+    letter-spacing: 5px;
+  }
+
+  .issue-line .date {
+    text-align: right;
+  }
+
+  .smallcaps {
+    font-variant: small-caps;
+  }
+
+  .columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+
+  .column {
+    min-width: 0;
+    padding: 15px 24px 0 0;
+    font-size: 22px;
+    line-height: 1.18;
+    text-align: justify;
+  }
+
+  .column.right {
+    border-left: 3px solid #111;
+    padding: 15px 0 0 25px;
+  }
+
+  .section-title {
+    margin: 0 0 23px;
+    padding-bottom: 9px;
+    border-bottom: 6px double #111;
+    text-align: center;
+    font-size: 52px;
+    line-height: 1;
+    font-weight: 500;
+  }
+
+  .department {
+    margin: 28px 0 23px;
+    text-align: center;
+    font-family: Impact, "Arial Black", sans-serif;
+    font-size: 45px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+
+  .decree {
+    margin-bottom: 34px;
+  }
+
+  .decree-title {
+    margin: 0 0 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 23px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+  .summary {
+    margin: 0 16px 25px 50px;
+    text-align: center;
+    font-size: 23px;
+    line-height: 1.25;
+    font-style: italic;
+  }
+
+  p {
+    margin: 0;
+    text-indent: 68px;
+  }
+
+  p.no-indent {
+    text-indent: 0;
+  }
+
+  p.center {
+    text-align: center;
+    text-indent: 0;
+  }
+
+  .decreta {
+    margin-top: 3px;
+    text-align: left;
+    text-indent: 70px;
+  }
+
+  .article {
+    text-indent: 70px;
+  }
+
+  .signature {
+    margin-top: 4px;
+    padding-right: 52px;
+    text-align: right;
+    text-indent: 0;
+    font-variant: small-caps;
+  }
+
+  .signature em {
+    font-variant: normal;
+  }
+
+  .publication {
+    margin-top: 20px;
+  }
+
+  .separator {
+    width: 140px;
+    margin: 34px auto;
+    border-top: 4px solid #111;
+  }
+
+  .continuation {
+    margin-bottom: 42px;
+  }
+
+  .budget {
+    width: 78%;
+    margin: 8px 7% 4px 15%;
+    border-collapse: collapse;
+    font-size: 22px;
+  }
+
+  .budget td {
+    padding: 1px 4px;
+  }
+
+  .budget td:last-child {
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .budget .total td:last-child {
+    border-top: 2px dashed #111;
+    padding-top: 7px;
+  }
+
+  .interior p {
+    text-indent: 66px;
+  }
+
+  @media (max-width: 1500px) {
+    .page {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .page {
+      padding: 18px;
+    }
+
+    .newspaper-name {
+      font-size: 14vw;
+    }
+
+    .country {
+      font-size: 5vw;
+    }
+
+    .state-name {
+      font-size: 5.5vw;
+    }
+
+    .issue-line {
+      grid-template-columns: 1fr;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .issue-line .date {
+      text-align: center;
+    }
+
+    .columns {
+      display: block;
+    }
+
+    .column,
+    .column.right {
+      padding: 18px 0;
+      border-left: 0;
+    }
+  }
+</style>
+</head>
+<body>
+<main class="page">
+  <header class="masthead">
+    <h2 class="country">Estados Unidos do Brazil</h2>
+    <h1 class="newspaper-name">Diario Official</h1>
+    <h2 class="state-name">do Estado de São Paulo</h2>
+  </header>
+
+  <div class="double-rule"></div>
+
+  <div class="issue-line">
+    <div>Anno 30 — 32.º da Republica — N. 73</div>
+    <div class="place">São Paulo</div>
+    <div class="date">Quinta-feira, 1.º de Abril de 1920</div>
+  </div>
+
+  <div class="double-rule"></div>
+
+  <div class="columns">
+    <section class="column left">
+      <h2 class="section-title">Actos do Poder Executivo</h2>
+
+      <article class="decree">
+        <h3 class="decree-title">Decreto N. 3185 — de 30 de Março de 1920</h3>
+
+        <p class="summary">
+          Abre á Secretaria da Fazenda e do Thesouro do Estado, um credito especial
+          de vinte e cinco contos, novecentos e setenta e quatro mil e oitocentos e
+          vinte réis (25:974$820), para fazer face ás despesas effectuadas com a
+          epidemia de grippe no exercicio de 1919.
+        </p>
+
+        <p>O Doutor Altino Arantes, Presidente do Estado de São Paulo,</p>
+        <p>
+          Attendendo ao que lhe representou o sr. Secretario de Estado dos Negocios
+          da Fazenda e do Thesouro e usando da faculdade que lhe confere a Lei
+          n. 1605 de 31 de Outubro de 1918,
+        </p>
+        <p class="decreta">Decreta:</p>
+        <p class="article">
+          Artigo 1.º — Fica aberto na Secretaria da Fazenda e do Thesouro do Estado
+          um credito especial de vinte e cinco contos, novecentos e setenta e
+          quatro mil e oitocentos e vinte réis (Rs. 25:974$820) para fazer face ás
+          despesas effectuadas com a epidemia de grippe no exercicio de 1919.
+        </p>
+        <p class="article">
+          Artigo 2.º — Revogam-se as disposições em contrario.
+        </p>
+        <p>
+          Palacio do Governo do Estado de São Paulo, em 30 de Março de 1920.
+        </p>
+        <p class="signature">Altino Arantes.</p>
+        <p class="signature"><em>U. Herculano de Freitas.</em></p>
+
+        <p class="publication">
+          Publicado na Secretaria da Fazenda e do Thesouro do Estado de São Paulo,
+          em 31 de Março de 1920. — <em>Theophilo M. Nobrega</em>, director-geral.
+        </p>
+      </article>
+
+      <div class="separator"></div>
+
+      <article class="decree">
+        <h3 class="decree-title">Decreto N. 3186 — de 30 de Março de 1920</h3>
+
+        <p class="summary">
+          Abre no Thesouro do Estado um credito de 253:739$000 para liquidação da
+          despesa da Secretaria do Interior no exercicio de 1919.
+        </p>
+
+        <p>
+          O Presidente do Estado, usando da auctorisação que lhe é conferida pela
+          lei n. 1.673, de 2 de Dezembro de 1919,
+        </p>
+        <p class="decreta">Decreta:</p>
+        <p class="article">
+          Artigo unico. — Fica aberto no Thesouro do Estado, á Secretaria de Estado
+          dos Negocios do Interior, um credito supplementar de duzentos e cincoenta
+          e tres contos setecentos e trinta e nove mil réis (253:739$000), para
+          saldar o deficit verificado nas seguintes rubricas do orçamento para o
+          exercicio de 1919:
+        </p>
+
+        <table class="budget" aria-label="Rubricas do orçamento">
+          <tr>
+            <td>§ 2.º Senado .................</td>
+            <td>52:206$000</td>
+          </tr>
+          <tr>
+            <td>§ 3.º Camara dos Deputados.........</td>
+            <td>201:533$000</td>
+          </tr>
+          <tr class="total">
+            <td></td>
+            <td>253:739$000</td>
+          </tr>
+        </table>
+
+        <p>
+          Palacio do Governo do Estado de São Paulo, aos 30 de Março de 1920.
+        </p>
+        <p class="signature">Altino Arantes.</p>
+        <p class="signature"><em>Oscar Rodrigues Alves.</em></p>
+      </article>
+
+      <div class="separator"></div>
+
+      <article class="decree">
+        <h3 class="decree-title">Decreto N. 3187 — de 3 de Março de 1920</h3>
+
+        <p class="summary">
+          Abre no Thesouro do Estado, á Secretaria de Estado dos Negocios do
+          Interior, um credito especial de rs. 3.386:403$468, para as despesas
+          feitas com a epidemia de grippe.
+        </p>
+
+        <p>
+          O presidente do Estado, usando da auctorisação que lhe é conferida pela
+          lei n. 1.605, de 31 de Outubro de 1918,
+        </p>
+      </article>
+    </section>
+
+    <section class="column right">
+      <article class="continuation">
+        <p class="no-indent">Decreta:</p>
+        <p class="article">
+          Artigo unico. — Fica aberto no Thesouro do Estado, á Secretaria de Estado
+          dos Negocios do Interior, um credito especial de tres mil trezentos e
+          oitenta e seis contos quatrocentos e treze mil quatrocentos e sessenta e
+          oito réis (3.386:403$468), para as despesas feitas com a epidemia de
+          grippe.
+        </p>
+        <p>
+          Palacio do Governo do Estado de São Paulo, aos 30 de Março de 1920.
+        </p>
+        <p class="signature">Altino Arantes.</p>
+        <p class="signature"><em>Oscar Rodrigues Alves.</em></p>
+      </article>
+
+      <div class="separator"></div>
+
+      <section class="interior">
+        <h2 class="department">INTERIOR</h2>
+
+        <p>
+          Por decretos de 31 do corrente:
+        </p>
+        <p>
+          foram aposentados o dr. Augusto Militão Pacheco, inspector sanitario da
+          Capital e o sr. Antonio Egydio Martins, 1.º escripturario da Repartição
+          de Estatistica e Archivo do Estado;
+        </p>
+        <p>
+          foi removido o inspector sanitario da Delegacia de Saúde de Campinas,
+          dr. João Paes Leme de Monlevadé, para igual cargo nesta Capital;
+        </p>
+        <p>
+          foram nomeados inspectores sanitarios os drs. João Thomaz Monteiro da
+          Silva, para S. Carlos; Daniel Martins, para Botucatú; Justiniano Lisboa
+          e Jorge Dutra Fragoso, para Santos;
+        </p>
+        <p>
+          foi nomeado o sr. Alfredo de Barros Santos, para exercer o cargo de
+          auxiliar do director da Escola Profissional Masculina da Capital;
+        </p>
+        <p>
+          foi promovido a 2.º escripturario da Directoria Geral do Serviço
+          Sanitario, o 3.º escripturario da mesma repartição, sr. Bernardino de
+          Campos Araujo;
+        </p>
+        <p>
+          foi nomeado o dr. Henrique Jorge Guedes para exercer o cargo de lente
+          substituto interino da 2.ª secção da Escola Polytechnica de S. Paulo;
+        </p>
+        <p>
+          foi transferido o dr. Francisco Pereira Ramos, lente cathedratico das
+          cadeiras reunidas de Physica Industrial e Electrotechnica (1.ª parte) da
+          Escola Polytechnica de São Paulo, para lente cathedratico da cadeira
+          isolada de Economia Politica, Elementos de Estatistica, Noções de Direito
+          Administrativo da mesma Escola, de accôrdo com o art. 20, § 3.º do
+          Decreto n. 2.931, de 12 de Junho de 1918;
+        </p>
+        <p>
+          foi annexada ao grupo escolar de Piraju a escola mixta urbana, das
+          Paivas, da mesma localidade;
+        </p>
+        <p>
+          foi dada a denominação de «Francisco Simões», ao grupo escolar de Dois
+          Corregos;
+        </p>
+        <p>
+          foi effectivado no cargo de director do grupo escolar de Tambahú, o
+          actual director interino, professor Manoel Nogueira de Carvalho;
+        </p>
+        <p>
+          foram nomeadas adjunctas dos grupos escolares de Ribeirão Bonito e
+          Brotas, as seguintes professoras dd. Maria Paula de Paula Sousa, Maria
+          Silveira Almeida, respectivamente;
+        </p>
+        <p>
+          foram removidos, a pedido, os seguintes adjunctos de grupos escolares:
+        </p>
+        <p>
+          d. Maria Augusta de Andrade Justo, do de Brotas para o «Antonio Padilha»,
+          de Sorocaba;
+        </p>
+        <p>
+          d. Dulce de Barros Pereira, do de Brotas, para o «Visconde de Porto
+          Seguro», de Sorocaba;
+        </p>
+        <p>
+          Luiz do Amaral Wagner, do «Antonio Padilha», de Sorocaba, para o de
+          Brotas;
+        </p>
+        <p>
+          d. Marianna Mastroandréa, do «Visconde de Porto Seguro», de Sorocaba,
+          para o de Brotas;
+        </p>
+        <p>
+          d. Edemea Rudge Ramos Parada, do de Belémzinho, para o de S. João, ambos
+          desta Capital;
+        </p>
+        <p>
+          foram exoneradas, a pedido, do cargo de adjunctas do grupo escolar do
+          Bebedouro, d. Luiza Oliveira Algodoal e d. Tamilde Rossi Magalhães, do
+          1.º de Araraquara;
+        </p>
+      </section>
+    </section>
+  </div>
+</main>
+</body>
+</html>

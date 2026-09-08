@@ -1,0 +1,3967 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "score": 0.948,
+                    "bbox": [
+                        19,
+                        55,
+                        201,
+                        83
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                31,
+                                57,
+                                200,
+                                65
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        31,
+                                        57,
+                                        200,
+                                        65
+                                    ],
+                                    "type": "text",
+                                    "content": "O sr. Gabriel Gomideao sr. Scuzs: e",
+                                    "score": 0.942
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                21,
+                                66,
+                                200,
+                                73
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        66,
+                                        200,
+                                        73
+                                    ],
+                                    "type": "text",
+                                    "content": "Catro. as ciyeis 5605 do Sautoe, 5609 do",
+                                    "score": 0.911
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                22,
+                                74,
+                                147,
+                                83
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        22,
+                                        74,
+                                        147,
+                                        83
+                                    ],
+                                    "type": "text",
+                                    "content": "Piracicaba e 5773da Cspital.",
+                                    "score": 0.927
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9747,
+                    "bbox": [
+                        20,
+                        82,
+                        201,
+                        135
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                31,
+                                82,
+                                199,
+                                90
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        31,
+                                        82,
+                                        199,
+                                        90
+                                    ],
+                                    "type": "text",
+                                    "content": "O ar. Firmino Whitscker ao sr. Gabriel",
+                                    "score": 0.961
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                22,
+                                91,
+                                199,
+                                99
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        22,
+                                        91,
+                                        199,
+                                        99
+                                    ],
+                                    "type": "text",
+                                    "content": "Gcmide, as civeis 5184 de Piracicaba, 5648",
+                                    "score": 0.955
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                22,
+                                100,
+                                199,
+                                107
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        22,
+                                        100,
+                                        199,
+                                        107
+                                    ],
+                                    "type": "text",
+                                    "content": "do Rio Claro, 5441 de Santa Izabel, 5003",
+                                    "score": 0.918
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                22,
+                                108,
+                                199,
+                                115
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        22,
+                                        108,
+                                        199,
+                                        115
+                                    ],
+                                    "type": "text",
+                                    "content": "de Jaboticabal, 5352 deAgudos, 6023 do",
+                                    "score": 0.925
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                22,
+                                117,
+                                199,
+                                123
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        22,
+                                        117,
+                                        199,
+                                        123
+                                    ],
+                                    "type": "text",
+                                    "content": "Campicas, 5180 e:5568 də Santos. 5729,",
+                                    "score": 0.896
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                22,
+                                124,
+                                199,
+                                133
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        22,
+                                        124,
+                                        199,
+                                        133
+                                    ],
+                                    "type": "text",
+                                    "content": "5862, 5687, 5539, €415e5787 da Capital.",
+                                    "score": 0.925
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9754,
+                    "bbox": [
+                        21,
+                        137,
+                        202,
+                        191
+                    ],
+                    "index": 6,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                32,
+                                138,
+                                199,
+                                146
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        138,
+                                        199,
+                                        146
+                                    ],
+                                    "type": "text",
+                                    "content": "--O ar, procurader geral do Estado deu",
+                                    "score": 0.918
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                22,
+                                146,
+                                200,
+                                156
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        22,
+                                        146,
+                                        200,
+                                        156
+                                    ],
+                                    "type": "text",
+                                    "content": "parecer nas app llações civeis ns. 5564, de",
+                                    "score": 0.944
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                23,
+                                155,
+                                200,
+                                164
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        23,
+                                        155,
+                                        200,
+                                        164
+                                    ],
+                                    "type": "text",
+                                    "content": "Espirito Santo do Finhal e 5870 de São",
+                                    "score": 0.958
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                23,
+                                164,
+                                200,
+                                171
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        23,
+                                        164,
+                                        200,
+                                        171
+                                    ],
+                                    "type": "text",
+                                    "content": "Carlos a ncs. embergos 2270 da Capital,",
+                                    "score": 0.939
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                23,
+                                172,
+                                200,
+                                180
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        23,
+                                        172,
+                                        200,
+                                        180
+                                    ],
+                                    "type": "text",
+                                    "content": "5801 de Ibitingu, 5502 e.5735 de Jabo-",
+                                    "score": 0.933
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                23,
+                                181,
+                                54,
+                                189
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        23,
+                                        181,
+                                        54,
+                                        189
+                                    ],
+                                    "type": "text",
+                                    "content": "ticsbal.",
+                                    "score": 0.956
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.858,
+                    "bbox": [
+                        84,
+                        196,
+                        141,
+                        207
+                    ],
+                    "index": 7,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                199,
+                                138,
+                                205
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        199,
+                                        138,
+                                        205
+                                    ],
+                                    "type": "text",
+                                    "content": "JULIAMENTOS",
+                                    "score": 0.938
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.8825,
+                    "bbox": [
+                        92,
+                        213,
+                        134,
+                        223
+                    ],
+                    "index": 8,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                93,
+                                213,
+                                132,
+                                224
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        93,
+                                        213,
+                                        132,
+                                        224
+                                    ],
+                                    "type": "text",
+                                    "content": "Embargos",
+                                    "score": 0.997
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.974,
+                    "bbox": [
+                        23,
+                        228,
+                        204,
+                        273
+                    ],
+                    "index": 9,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                34,
+                                230,
+                                201,
+                                239
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        34,
+                                        230,
+                                        201,
+                                        239
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 5597-Ca;ita!-Embargante, A. Wain-",
+                                    "score": 0.921
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                25,
+                                240,
+                                201,
+                                246
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        240,
+                                        201,
+                                        246
+                                    ],
+                                    "type": "text",
+                                    "content": "barg; ru.b.gadia, A Companhis Fran-",
+                                    "score": 0.848
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                25,
+                                248,
+                                202,
+                                255
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        248,
+                                        202,
+                                        255
+                                    ],
+                                    "type": "text",
+                                    "content": "cez das Indiai e do Estremo Oriente e",
+                                    "score": 0.892
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                25,
+                                256,
+                                201,
+                                264
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        256,
+                                        201,
+                                        264
+                                    ],
+                                    "type": "text",
+                                    "content": "G. Latnsille & Corp ; relator, o rr. Mei-",
+                                    "score": 0.86
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                25,
+                                265,
+                                72,
+                                272
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        265,
+                                        72,
+                                        272
+                                    ],
+                                    "type": "text",
+                                    "content": "reles Reis.",
+                                    "score": 0.927
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9442,
+                    "bbox": [
+                        24,
+                        271,
+                        204,
+                        292
+                    ],
+                    "index": 10,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                34,
+                                272,
+                                202,
+                                280
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        34,
+                                        272,
+                                        202,
+                                        280
+                                    ],
+                                    "type": "text",
+                                    "content": "Julgaram subsistente a desistencia dos",
+                                    "score": 0.958
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                27,
+                                282,
+                                67,
+                                290
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        27,
+                                        282,
+                                        67,
+                                        290
+                                    ],
+                                    "type": "text",
+                                    "content": "ombargos.",
+                                    "score": 0.95
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7635,
+                    "bbox": [
+                        256,
+                        54,
+                        335,
+                        67
+                    ],
+                    "index": 11,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                259,
+                                56,
+                                334,
+                                65
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        259,
+                                        56,
+                                        334,
+                                        65
+                                    ],
+                                    "type": "text",
+                                    "content": "Appellaçõesciveis",
+                                    "score": 0.983
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.9674,
+                    "bbox": [
+                        204,
+                        71,
+                        386,
+                        107
+                    ],
+                    "index": 12,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                208,
+                                72,
+                                383,
+                                81
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        208,
+                                        72,
+                                        383,
+                                        81
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 5561Piracicaba—4ppn'lants, Tho-",
+                                    "score": 0.928
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                206,
+                                81,
+                                384,
+                                90
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        81,
+                                        384,
+                                        90
+                                    ],
+                                    "type": "text",
+                                    "content": "miz Alonzo Knese; appellada, d. Laurin-",
+                                    "score": 0.923
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                207,
+                                90,
+                                383,
+                                99
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        90,
+                                        383,
+                                        99
+                                    ],
+                                    "type": "text",
+                                    "content": "da Alves do Olive.ra; relator,o ar.Fran-",
+                                    "score": 0.867
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                207,
+                                99,
+                                271,
+                                107
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        99,
+                                        271,
+                                        107
+                                    ],
+                                    "type": "text",
+                                    "content": "cisco Saldenha.",
+                                    "score": 0.952
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9478,
+                    "bbox": [
+                        204,
+                        106,
+                        387,
+                        149
+                    ],
+                    "index": 13,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                216,
+                                106,
+                                385,
+                                115
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        216,
+                                        106,
+                                        385,
+                                        115
+                                    ],
+                                    "type": "text",
+                                    "content": "Converteram o julgamesto em diliganeia.",
+                                    "score": 0.93
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                216,
+                                115,
+                                384,
+                                123
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        216,
+                                        115,
+                                        384,
+                                        123
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 6057-Capital-Apellante, o juizdu",
+                                    "score": 0.91
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                207,
+                                123,
+                                384,
+                                132
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        123,
+                                        384,
+                                        132
+                                    ],
+                                    "type": "text",
+                                    "content": "de direito ; appellados, Thzodoro Babra-",
+                                    "score": 0.904
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                207,
+                                132,
+                                385,
+                                140
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        132,
+                                        385,
+                                        140
+                                    ],
+                                    "type": "text",
+                                    "content": "ner e sua mulher; rolatcr, o sr. Ferreira",
+                                    "score": 0.941
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                206,
+                                140,
+                                240,
+                                150
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        140,
+                                        240,
+                                        150
+                                    ],
+                                    "type": "text",
+                                    "content": "Franç4.",
+                                    "score": 0.917
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8885,
+                    "bbox": [
+                        215,
+                        148,
+                        309,
+                        157
+                    ],
+                    "index": 14,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                217,
+                                149,
+                                306,
+                                157
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        217,
+                                        149,
+                                        306,
+                                        157
+                                    ],
+                                    "type": "text",
+                                    "content": "Negaram provimento.",
+                                    "score": 0.988
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9602,
+                    "bbox": [
+                        205,
+                        155,
+                        387,
+                        191
+                    ],
+                    "index": 15,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                217,
+                                156,
+                                385,
+                                165
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        217,
+                                        156,
+                                        385,
+                                        165
+                                    ],
+                                    "type": "text",
+                                    "content": "N.6914-Capital—Appellante,Thomé",
+                                    "score": 0.922
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                207,
+                                165,
+                                385,
+                                174
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        165,
+                                        385,
+                                        174
+                                    ],
+                                    "type": "text",
+                                    "content": "Gomes Ferrrira; appsilado, Franciseo de",
+                                    "score": 0.948
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                208,
+                                173,
+                                385,
+                                182
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        208,
+                                        173,
+                                        385,
+                                        182
+                                    ],
+                                    "type": "text",
+                                    "content": "Souza Franco; relator, o sr, Juvenal Ma-",
+                                    "score": 0.934
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                208,
+                                182,
+                                239,
+                                191
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        208,
+                                        182,
+                                        239,
+                                        191
+                                    ],
+                                    "type": "text",
+                                    "content": "lheircs.",
+                                    "score": 0.958
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8781,
+                    "bbox": [
+                        217,
+                        190,
+                        309,
+                        199
+                    ],
+                    "index": 16,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                218,
+                                190,
+                                308,
+                                200
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        218,
+                                        190,
+                                        308,
+                                        200
+                                    ],
+                                    "type": "text",
+                                    "content": "Negaram provimento.",
+                                    "score": 0.984
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9476,
+                    "bbox": [
+                        207,
+                        198,
+                        387,
+                        225
+                    ],
+                    "index": 17,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                218,
+                                197,
+                                386,
+                                207
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        218,
+                                        197,
+                                        386,
+                                        207
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 605-Capitai-Appellaute, o juiz de",
+                                    "score": 0.93
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                209,
+                                206,
+                                385,
+                                216
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        209,
+                                        206,
+                                        385,
+                                        216
+                                    ],
+                                    "type": "text",
+                                    "content": "de dirsito; appeilades, Laura Hind e ou-",
+                                    "score": 0.967
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                209,
+                                216,
+                                370,
+                                225
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        209,
+                                        216,
+                                        370,
+                                        225
+                                    ],
+                                    "type": "text",
+                                    "content": "tres ; reiator, o st. Juveual Malhoireg,",
+                                    "score": 0.91
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9013,
+                    "bbox": [
+                        217,
+                        224,
+                        311,
+                        234
+                    ],
+                    "index": 18,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                219,
+                                225,
+                                308,
+                                233
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        219,
+                                        225,
+                                        308,
+                                        233
+                                    ],
+                                    "type": "text",
+                                    "content": "Negaram provimento.",
+                                    "score": 0.96
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.6517,
+                    "bbox": [
+                        410,
+                        54,
+                        555,
+                        75
+                    ],
+                    "index": 19,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                412,
+                                57,
+                                549,
+                                73
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        412,
+                                        57,
+                                        549,
+                                        73
+                                    ],
+                                    "type": "text",
+                                    "content": "ACTOS FEDERAES",
+                                    "score": 0.998
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 1
+                },
+                {
+                    "score": 0.8301,
+                    "bbox": [
+                        400,
+                        87,
+                        563,
+                        110
+                    ],
+                    "index": 20,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                90,
+                                561,
+                                100
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        90,
+                                        561,
+                                        100
+                                    ],
+                                    "type": "text",
+                                    "content": "DECRETON.7917D 21 D MARÇO",
+                                    "score": 0.897
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                463,
+                                100,
+                                502,
+                                109
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        463,
+                                        100,
+                                        502,
+                                        109
+                                    ],
+                                    "type": "text",
+                                    "content": "DE 1910",
+                                    "score": 0.951
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8674,
+                    "bbox": [
+                        391,
+                        114,
+                        572,
+                        136
+                    ],
+                    "index": 21,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                393,
+                                115,
+                                570,
+                                124
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        393,
+                                        115,
+                                        570,
+                                        124
+                                    ],
+                                    "type": "text",
+                                    "content": "Creia o Registro e Archico Geral de Mareas",
+                                    "score": 0.925
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                453,
+                                126,
+                                523,
+                                133
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        453,
+                                        126,
+                                        523,
+                                        133
+                                    ],
+                                    "type": "text",
+                                    "content": "para animaes:",
+                                    "score": 0.921
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9722,
+                    "bbox": [
+                        392,
+                        139,
+                        572,
+                        174
+                    ],
+                    "index": 22,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                140,
+                                570,
+                                150
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        140,
+                                        570,
+                                        150
+                                    ],
+                                    "type": "text",
+                                    "content": "O Presidente da Republica dos Estados",
+                                    "score": 0.982
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                393,
+                                149,
+                                572,
+                                158
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        393,
+                                        149,
+                                        572,
+                                        158
+                                    ],
+                                    "type": "text",
+                                    "content": "Unidos do Brazil, em execução da lei nu-",
+                                    "score": 0.936
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                393,
+                                157,
+                                571,
+                                166
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        393,
+                                        157,
+                                        571,
+                                        166
+                                    ],
+                                    "type": "text",
+                                    "content": "rero 1606, da 29 de Dezembro de- t906,",
+                                    "score": 0.891
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                394,
+                                166,
+                                428,
+                                174
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        394,
+                                        166,
+                                        428,
+                                        174
+                                    ],
+                                    "type": "text",
+                                    "content": "decrets :",
+                                    "score": 0.97
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.977,
+                    "bbox": [
+                        392,
+                        173,
+                        574,
+                        233
+                    ],
+                    "index": 23,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                403,
+                                174,
+                                570,
+                                182
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        403,
+                                        174,
+                                        570,
+                                        182
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo 1.° E' creado o Registro o Ar-",
+                                    "score": 0.899
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                394,
+                                182,
+                                570,
+                                190
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        394,
+                                        182,
+                                        570,
+                                        190
+                                    ],
+                                    "type": "text",
+                                    "content": "chivo Garal de Marcas para animaea de",
+                                    "score": 0.978
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                394,
+                                191,
+                                570,
+                                199
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        394,
+                                        191,
+                                        570,
+                                        199
+                                    ],
+                                    "type": "text",
+                                    "content": "raça boviua, cavallar e muar, do aecôrdo",
+                                    "score": 0.971
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                394,
+                                199,
+                                571,
+                                208
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        394,
+                                        199,
+                                        571,
+                                        208
+                                    ],
+                                    "type": "text",
+                                    "content": "com o regulameato que com este baixa,",
+                                    "score": 0.961
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                394,
+                                208,
+                                571,
+                                216
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        394,
+                                        208,
+                                        571,
+                                        216
+                                    ],
+                                    "type": "text",
+                                    "content": "assignado pelo ministro do Eitado dos No.",
+                                    "score": 0.959
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                394,
+                                216,
+                                571,
+                                225
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        394,
+                                        216,
+                                        571,
+                                        225
+                                    ],
+                                    "type": "text",
+                                    "content": "gocios da Agriclltura, Industria e Coa-",
+                                    "score": 0.941
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                395,
+                                226,
+                                426,
+                                232
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        395,
+                                        226,
+                                        426,
+                                        232
+                                    ],
+                                    "type": "text",
+                                    "content": "mer.io,",
+                                    "score": 0.85
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9197,
+                    "bbox": [
+                        393,
+                        232,
+                        574,
+                        250
+                    ],
+                    "index": 24,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                405,
+                                232,
+                                572,
+                                241
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        405,
+                                        232,
+                                        572,
+                                        241
+                                    ],
+                                    "type": "text",
+                                    "content": "Ártigo 2.° Revogam-se. a3 disposiçõse",
+                                    "score": 0.814
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                395,
+                                242,
+                                451,
+                                248
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        395,
+                                        242,
+                                        451,
+                                        248
+                                    ],
+                                    "type": "text",
+                                    "content": "em contrario.",
+                                    "score": 0.959
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.9409,
+                    "bbox": [
+                        393,
+                        248,
+                        576,
+                        268
+                    ],
+                    "index": 25,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                405,
+                                249,
+                                576,
+                                258
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        405,
+                                        249,
+                                        576,
+                                        258
+                                    ],
+                                    "type": "text",
+                                    "content": "Rio de Janeiro, 24 do Março de 1510,",
+                                    "score": 0.946
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                396,
+                                258,
+                                573,
+                                266
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        396,
+                                        258,
+                                        573,
+                                        266
+                                    ],
+                                    "type": "text",
+                                    "content": "S9.° da Independenciae 22.°d&Repablicz.",
+                                    "score": 0.909
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.7033,
+                    "bbox": [
+                        407,
+                        270,
+                        574,
+                        291
+                    ],
+                    "index": 26,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                410,
+                                271,
+                                472,
+                                280
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        410,
+                                        271,
+                                        472,
+                                        280
+                                    ],
+                                    "type": "text",
+                                    "content": "NILO PÇaNIA",
+                                    "score": 0.656
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                411,
+                                280,
+                                572,
+                                288
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        411,
+                                        280,
+                                        572,
+                                        288
+                                    ],
+                                    "type": "text",
+                                    "content": "Rodolpho Noguetra da. Rocha Mirauda.",
+                                    "score": 0.939
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.6379,
+                    "bbox": [
+                        59,
+                        302,
+                        538,
+                        317
+                    ],
+                    "index": 27,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                62,
+                                303,
+                                536,
+                                316
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        62,
+                                        303,
+                                        536,
+                                        316
+                                    ],
+                                    "type": "text",
+                                    "content": "Directoria de Agricultura-OTEM POEALVOURASecção Meteorologica",
+                                    "score": 0.964
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.5673,
+                    "bbox": [
+                        108,
+                        321,
+                        507,
+                        333
+                    ],
+                    "index": 28,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                322,
+                                504,
+                                333
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        322,
+                                        504,
+                                        333
+                                    ],
+                                    "type": "text",
+                                    "content": "OBSERVAÇÕES BECEBIDAS PELG TEI EGRAPEO. NO DIA 3I DE MARÇO DE 1910",
+                                    "score": 0.895
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        28,
+                        333,
+                        579,
+                        645
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9689,
+                            "bbox": [
+                                28,
+                                333,
+                                579,
+                                645
+                            ],
+                            "index": 29,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        28,
+                                        333,
+                                        579,
+                                        645
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                28,
+                                                333,
+                                                579,
+                                                645
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=\"3\" colspan=\"2\">Observatorios</td><td colspan=\"3\">Obsarvucósda vespart</td><td colspan=\"10\">Ghservasão do sie, teaada e Gh. Ga, Gw.</td></tr><tr><td colspan=\"2\">Temperatars</td><td rowspan=\"2\">ake 10x2</td><td rowspan=\"2\">Preesio</td><td colspan=\"3\">Thermometro</td><td colspan=\"3\">Hauiãz Vento</td><td rowspan=\"2\">setaea ds Déu</td><td rowspan=\"2\">OBSERYAÇÕES</td></tr><tr><td>Nin.</td><td></td><td>goraada 2az20</td><td>ε2π4</td><td>2a ratslira</td><td>atss</td><td>Velct</td></tr><tr><td></td><td></td><td>26,6</td><td>Bom</td><td></td><td>761.2</td><td>24.0</td><td>225</td><td>171</td><td>F</td><td></td><td>Claão</td><td>Orvalho</td><td></td></tr><tr><td>Sautos Iguapa</td><td></td><td>26,0</td><td>22.7 21,0</td><td>子</td><td>7610</td><td>22.0</td><td>19.0</td><td>74 D</td><td>NW</td><td>1 m 4 m.</td><td>Ene,</td><td>Bom</td><td></td></tr><tr><td>S. Paulo</td><td></td><td>28.0</td><td>185</td><td>》</td><td>761.4</td><td>22.0</td><td>19.0</td><td>74 2</td><td>NE</td><td>1 w.</td><td>Clero</td><td>Neblina</td><td></td></tr><tr><td>Campinas</td><td></td><td>28.5</td><td>17.1</td><td></td><td>7615</td><td>23 6</td><td>19.4</td><td>65</td><td>E</td><td>2 m.</td><td></td><td></td><td>Choveu. Nebliua</td></tr><tr><td>Ribeirão Preto</td><td></td><td>04</td><td>178</td><td></td><td>762,2</td><td>227</td><td>20</td><td>77 1 1</td><td>NE</td><td>2 m.</td><td>&gt;</td><td></td><td>Bom</td></tr><tr><td>São Crrios</td><td></td><td>28 0</td><td>160</td><td></td><td>7614</td><td>234</td><td>20 0</td><td>72</td><td>E</td><td>4 u.</td><td>3</td><td></td><td>Bom</td></tr><tr><td>Taubaté.</td><td></td><td>28,2</td><td>20,0</td><td></td><td>761,4</td><td>23 0</td><td>20.8</td><td>81</td><td>NE</td><td>2 m.</td><td></td><td>M. enc.</td><td></td></tr><tr><td>Piracicabs</td><td></td><td>330</td><td>180</td><td></td><td>7611</td><td>21,0</td><td>212</td><td>77</td><td>N</td><td>1 m.</td><td>2</td><td></td><td>Neblioa</td></tr><tr><td>Agudos.</td><td></td><td>S3 0</td><td>19.0</td><td>Var.</td><td>761.6</td><td>22 2</td><td>20.4</td><td>84</td><td>C</td><td></td><td>Ciaro</td><td></td><td>Choveu 5.0 mm. O.vaiho</td></tr><tr><td>Brotas</td><td></td><td>29 0</td><td>170</td><td>Bom</td><td>161.1</td><td>238</td><td>19,8</td><td>67</td><td>N</td><td>星 IE.</td><td></td><td></td><td></td></tr><tr><td>Frauea</td><td></td><td>26,6</td><td>18,2</td><td></td><td>762.2</td><td>21.4</td><td>169</td><td>62</td><td>NE</td><td>4 m.</td><td></td><td></td><td>O.valho</td></tr><tr><td>Avaré</td><td></td><td>322</td><td>19.1</td><td></td><td>761,0</td><td>26.4</td><td>23 2</td><td>75</td><td>N</td><td>1 u.</td><td></td><td></td><td>Bom</td></tr><tr><td>Tetuby</td><td></td><td>31.0</td><td>175</td><td></td><td>761.</td><td>240</td><td>218</td><td>82</td><td>C</td><td></td><td></td><td></td><td></td></tr><tr><td>Ytú.</td><td></td><td>294</td><td>202</td><td></td><td>1619</td><td>242</td><td>21 2</td><td>75</td><td>NE</td><td>4m.</td><td></td><td>M. enc.</td><td></td></tr><tr><td>Fsxina</td><td></td><td>30.7</td><td>180</td><td></td><td>7608</td><td>22,6</td><td>20.6</td><td>83</td><td>C</td><td></td><td></td><td></td><td>Orvalbo. Neblioa</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Uberaba</td><td></td><td>275</td><td>20.2</td><td></td><td>7618</td><td>24 3</td><td>21.3</td><td>75</td><td>8</td><td>9 m.</td><td>Claro</td><td></td><td></td></tr><tr><td>Paravaguá</td><td></td><td>262 23 8</td><td>20.5 210</td><td></td><td>7588 759 3</td><td>24,5 23.7</td><td>23 3 220</td><td>90</td><td>C</td><td>1-</td><td></td><td>. enc</td><td></td></tr><tr><td>Flerianopolia Rio de Janeiro</td><td></td><td>27 3</td><td>23.0</td><td></td><td>761,4</td><td>253</td><td>222</td><td>Sü 75</td><td>C NE</td><td>2m.</td><td>Claro</td><td>B</td><td>Choveu 3,2 mi.</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Monteviléu.</td><td></td><td>20,0</td><td>16,2</td><td></td><td>762,5</td><td>192</td><td>18,3</td><td>91</td><td>SE</td><td>4m.</td><td>Eoc.</td><td></td><td>Máu. Grtaer lampagos</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>i</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>22,0</td><td>150</td><td></td><td>7635</td><td>i70</td><td>160</td><td>90</td><td>S</td><td>2 m.</td><td>Eac.</td><td></td><td></td></tr><tr><td>Cordoha</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>à</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mendoza</td><td></td><td>27 0</td><td>120</td><td></td><td>767.2</td><td>14,0</td><td></td><td>9,0 47</td><td>SW:</td><td>6 m.</td></table>",
+                                            "image_path": "9dd417de5e2ed57ad1276cbdc2c6e4db81f44442c874fdbda7ff6fd82791b81c.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "score": 0.9689
+                },
+                {
+                    "score": 0.6883,
+                    "bbox": [
+                        67,
+                        646,
+                        252,
+                        667
+                    ],
+                    "index": 30,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                648,
+                                248,
+                                657
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        648,
+                                        248,
+                                        657
+                                    ],
+                                    "type": "text",
+                                    "content": "Tempo provavel paa o dia 1. de Abril:",
+                                    "score": 0.912
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                657,
+                                252,
+                                665
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        657,
+                                        252,
+                                        665
+                                    ],
+                                    "type": "text",
+                                    "content": "Instavel.Nebliaa.Temporatura subiudo.",
+                                    "score": 0.892
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_idx": 0,
+            "page_size": [
+                606,
+                733
+            ],
+            "discarded_blocks": [
+                {
+                    "score": 0.8697,
+                    "bbox": [
+                        38,
+                        34,
+                        100,
+                        46
+                    ],
+                    "index": 1,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                39,
+                                35,
+                                99,
+                                46
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        35,
+                                        99,
+                                        46
+                                    ],
+                                    "type": "text",
+                                    "content": "Sexta-feira, 1",
+                                    "score": 0.933
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8756,
+                    "bbox": [
+                        245,
+                        32,
+                        345,
+                        45
+                    ],
+                    "index": 2,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                248,
+                                33,
+                                343,
+                                43
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        248,
+                                        33,
+                                        343,
+                                        43
+                                    ],
+                                    "type": "text",
+                                    "content": "DIARIOOFFICIAL",
+                                    "score": 0.996
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "score": 0.8073,
+                    "bbox": [
+                        477,
+                        30,
+                        558,
+                        43
+                    ],
+                    "index": 3,
+                    "type": "header",
+                    "lines": [
+                        {
+                            "bbox": [
+                                478,
+                                33,
+                                556,
+                                42
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        478,
+                                        33,
+                                        556,
+                                        42
+                                    ],
+                                    "type": "text",
+                                    "content": "Abrl 1910 995",
+                                    "score": 0.901
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "para_blocks": [
+                {
+                    "score": 0.948,
+                    "bbox": [
+                        19,
+                        55,
+                        201,
+                        83
+                    ],
+                    "index": 4,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                31,
+                                57,
+                                200,
+                                65
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        31,
+                                        57,
+                                        200,
+                                        65
+                                    ],
+                                    "type": "text",
+                                    "content": "O sr. Gabriel Gomideao sr. Scuzs: e",
+                                    "score": 0.942
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                21,
+                                66,
+                                200,
+                                73
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        66,
+                                        200,
+                                        73
+                                    ],
+                                    "type": "text",
+                                    "content": "Catro. as ciyeis 5605 do Sautoe, 5609 do",
+                                    "score": 0.911
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                22,
+                                74,
+                                147,
+                                83
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        22,
+                                        74,
+                                        147,
+                                        83
+                                    ],
+                                    "type": "text",
+                                    "content": "Piracicaba e 5773da Cspital.",
+                                    "score": 0.927
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        21,
+                        57,
+                        200,
+                        83
+                    ]
+                },
+                {
+                    "score": 0.9747,
+                    "bbox": [
+                        20,
+                        82,
+                        201,
+                        135
+                    ],
+                    "index": 5,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                31,
+                                82,
+                                199,
+                                90
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        31,
+                                        82,
+                                        199,
+                                        90
+                                    ],
+                                    "type": "text",
+                                    "content": "O ar. Firmino Whitscker ao sr. Gabriel",
+                                    "score": 0.961
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                22,
+                                91,
+                                199,
+                                99
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        22,
+                                        91,
+                                        199,
+                                        99
+                                    ],
+                                    "type": "text",
+                                    "content": "Gcmide, as civeis 5184 de Piracicaba, 5648",
+                                    "score": 0.955
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                22,
+                                100,
+                                199,
+                                107
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        22,
+                                        100,
+                                        199,
+                                        107
+                                    ],
+                                    "type": "text",
+                                    "content": "do Rio Claro, 5441 de Santa Izabel, 5003",
+                                    "score": 0.918
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                22,
+                                108,
+                                199,
+                                115
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        22,
+                                        108,
+                                        199,
+                                        115
+                                    ],
+                                    "type": "text",
+                                    "content": "de Jaboticabal, 5352 deAgudos, 6023 do",
+                                    "score": 0.925
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                22,
+                                117,
+                                199,
+                                123
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        22,
+                                        117,
+                                        199,
+                                        123
+                                    ],
+                                    "type": "text",
+                                    "content": "Campicas, 5180 e:5568 də Santos. 5729,",
+                                    "score": 0.896
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                22,
+                                124,
+                                199,
+                                133
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        22,
+                                        124,
+                                        199,
+                                        133
+                                    ],
+                                    "type": "text",
+                                    "content": "5862, 5687, 5539, €415e5787 da Capital.",
+                                    "score": 0.925
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        22,
+                        82,
+                        199,
+                        133
+                    ]
+                },
+                {
+                    "score": 0.9754,
+                    "bbox": [
+                        21,
+                        137,
+                        202,
+                        191
+                    ],
+                    "index": 6,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                32,
+                                138,
+                                199,
+                                146
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        32,
+                                        138,
+                                        199,
+                                        146
+                                    ],
+                                    "type": "text",
+                                    "content": "--O ar, procurader geral do Estado deu",
+                                    "score": 0.918
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                22,
+                                146,
+                                200,
+                                156
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        22,
+                                        146,
+                                        200,
+                                        156
+                                    ],
+                                    "type": "text",
+                                    "content": "parecer nas app llações civeis ns. 5564, de",
+                                    "score": 0.944
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                23,
+                                155,
+                                200,
+                                164
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        23,
+                                        155,
+                                        200,
+                                        164
+                                    ],
+                                    "type": "text",
+                                    "content": "Espirito Santo do Finhal e 5870 de São",
+                                    "score": 0.958
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                23,
+                                164,
+                                200,
+                                171
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        23,
+                                        164,
+                                        200,
+                                        171
+                                    ],
+                                    "type": "text",
+                                    "content": "Carlos a ncs. embergos 2270 da Capital,",
+                                    "score": 0.939
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                23,
+                                172,
+                                200,
+                                180
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        23,
+                                        172,
+                                        200,
+                                        180
+                                    ],
+                                    "type": "text",
+                                    "content": "5801 de Ibitingu, 5502 e.5735 de Jabo-",
+                                    "score": 0.933
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                23,
+                                181,
+                                54,
+                                189
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        23,
+                                        181,
+                                        54,
+                                        189
+                                    ],
+                                    "type": "text",
+                                    "content": "ticsbal.",
+                                    "score": 0.956
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        22,
+                        138,
+                        200,
+                        189
+                    ]
+                },
+                {
+                    "score": 0.858,
+                    "bbox": [
+                        84,
+                        196,
+                        141,
+                        207
+                    ],
+                    "index": 7,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                86,
+                                199,
+                                138,
+                                205
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        86,
+                                        199,
+                                        138,
+                                        205
+                                    ],
+                                    "type": "text",
+                                    "content": "JULIAMENTOS",
+                                    "score": 0.938
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.8825,
+                    "bbox": [
+                        92,
+                        213,
+                        134,
+                        223
+                    ],
+                    "index": 8,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                93,
+                                213,
+                                132,
+                                224
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        93,
+                                        213,
+                                        132,
+                                        224
+                                    ],
+                                    "type": "text",
+                                    "content": "Embargos",
+                                    "score": 0.997
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.974,
+                    "bbox": [
+                        23,
+                        228,
+                        204,
+                        273
+                    ],
+                    "index": 9,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                34,
+                                230,
+                                201,
+                                239
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        34,
+                                        230,
+                                        201,
+                                        239
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 5597-Ca;ita!-Embargante, A. Wain-",
+                                    "score": 0.921
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                25,
+                                240,
+                                201,
+                                246
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        240,
+                                        201,
+                                        246
+                                    ],
+                                    "type": "text",
+                                    "content": "barg; ru.b.gadia, A Companhis Fran-",
+                                    "score": 0.848
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                25,
+                                248,
+                                202,
+                                255
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        248,
+                                        202,
+                                        255
+                                    ],
+                                    "type": "text",
+                                    "content": "cez das Indiai e do Estremo Oriente e",
+                                    "score": 0.892
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                25,
+                                256,
+                                201,
+                                264
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        256,
+                                        201,
+                                        264
+                                    ],
+                                    "type": "text",
+                                    "content": "G. Latnsille & Corp ; relator, o rr. Mei-",
+                                    "score": 0.86
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                25,
+                                265,
+                                72,
+                                272
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        25,
+                                        265,
+                                        72,
+                                        272
+                                    ],
+                                    "type": "text",
+                                    "content": "reles Reis.",
+                                    "score": 0.927
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        25,
+                        230,
+                        202,
+                        272
+                    ]
+                },
+                {
+                    "score": 0.9442,
+                    "bbox": [
+                        24,
+                        271,
+                        204,
+                        292
+                    ],
+                    "index": 10,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                34,
+                                272,
+                                202,
+                                280
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        34,
+                                        272,
+                                        202,
+                                        280
+                                    ],
+                                    "type": "text",
+                                    "content": "Julgaram subsistente a desistencia dos",
+                                    "score": 0.958
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                27,
+                                282,
+                                67,
+                                290
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        27,
+                                        282,
+                                        67,
+                                        290
+                                    ],
+                                    "type": "text",
+                                    "content": "ombargos.",
+                                    "score": 0.95
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        27,
+                        272,
+                        202,
+                        290
+                    ]
+                },
+                {
+                    "score": 0.7635,
+                    "bbox": [
+                        256,
+                        54,
+                        335,
+                        67
+                    ],
+                    "index": 11,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                259,
+                                56,
+                                334,
+                                65
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        259,
+                                        56,
+                                        334,
+                                        65
+                                    ],
+                                    "type": "text",
+                                    "content": "Appellaçõesciveis",
+                                    "score": 0.983
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "score": 0.9674,
+                    "bbox": [
+                        204,
+                        71,
+                        386,
+                        107
+                    ],
+                    "index": 12,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                208,
+                                72,
+                                383,
+                                81
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        208,
+                                        72,
+                                        383,
+                                        81
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 5561Piracicaba—4ppn'lants, Tho-",
+                                    "score": 0.928
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                206,
+                                81,
+                                384,
+                                90
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        81,
+                                        384,
+                                        90
+                                    ],
+                                    "type": "text",
+                                    "content": "miz Alonzo Knese; appellada, d. Laurin-",
+                                    "score": 0.923
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                207,
+                                90,
+                                383,
+                                99
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        90,
+                                        383,
+                                        99
+                                    ],
+                                    "type": "text",
+                                    "content": "da Alves do Olive.ra; relator,o ar.Fran-",
+                                    "score": 0.867
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                207,
+                                99,
+                                271,
+                                107
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        99,
+                                        271,
+                                        107
+                                    ],
+                                    "type": "text",
+                                    "content": "cisco Saldenha.",
+                                    "score": 0.952
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        206,
+                        72,
+                        384,
+                        107
+                    ]
+                },
+                {
+                    "score": 0.9478,
+                    "bbox": [
+                        204,
+                        106,
+                        387,
+                        149
+                    ],
+                    "index": 13,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                216,
+                                106,
+                                385,
+                                115
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        216,
+                                        106,
+                                        385,
+                                        115
+                                    ],
+                                    "type": "text",
+                                    "content": "Converteram o julgamesto em diliganeia.",
+                                    "score": 0.93
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                216,
+                                115,
+                                384,
+                                123
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        216,
+                                        115,
+                                        384,
+                                        123
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 6057-Capital-Apellante, o juizdu",
+                                    "score": 0.91
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                207,
+                                123,
+                                384,
+                                132
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        123,
+                                        384,
+                                        132
+                                    ],
+                                    "type": "text",
+                                    "content": "de direito ; appellados, Thzodoro Babra-",
+                                    "score": 0.904
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                207,
+                                132,
+                                385,
+                                140
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        132,
+                                        385,
+                                        140
+                                    ],
+                                    "type": "text",
+                                    "content": "ner e sua mulher; rolatcr, o sr. Ferreira",
+                                    "score": 0.941
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                206,
+                                140,
+                                240,
+                                150
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        206,
+                                        140,
+                                        240,
+                                        150
+                                    ],
+                                    "type": "text",
+                                    "content": "Franç4.",
+                                    "score": 0.917
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        206,
+                        106,
+                        385,
+                        150
+                    ]
+                },
+                {
+                    "score": 0.8885,
+                    "bbox": [
+                        215,
+                        148,
+                        309,
+                        157
+                    ],
+                    "index": 14,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                217,
+                                149,
+                                306,
+                                157
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        217,
+                                        149,
+                                        306,
+                                        157
+                                    ],
+                                    "type": "text",
+                                    "content": "Negaram provimento.",
+                                    "score": 0.988
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        217,
+                        149,
+                        306,
+                        157
+                    ]
+                },
+                {
+                    "score": 0.9602,
+                    "bbox": [
+                        205,
+                        155,
+                        387,
+                        191
+                    ],
+                    "index": 15,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                217,
+                                156,
+                                385,
+                                165
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        217,
+                                        156,
+                                        385,
+                                        165
+                                    ],
+                                    "type": "text",
+                                    "content": "N.6914-Capital—Appellante,Thomé",
+                                    "score": 0.922
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                207,
+                                165,
+                                385,
+                                174
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        207,
+                                        165,
+                                        385,
+                                        174
+                                    ],
+                                    "type": "text",
+                                    "content": "Gomes Ferrrira; appsilado, Franciseo de",
+                                    "score": 0.948
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                208,
+                                173,
+                                385,
+                                182
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        208,
+                                        173,
+                                        385,
+                                        182
+                                    ],
+                                    "type": "text",
+                                    "content": "Souza Franco; relator, o sr, Juvenal Ma-",
+                                    "score": 0.934
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                208,
+                                182,
+                                239,
+                                191
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        208,
+                                        182,
+                                        239,
+                                        191
+                                    ],
+                                    "type": "text",
+                                    "content": "lheircs.",
+                                    "score": 0.958
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        207,
+                        156,
+                        385,
+                        191
+                    ]
+                },
+                {
+                    "score": 0.8781,
+                    "bbox": [
+                        217,
+                        190,
+                        309,
+                        199
+                    ],
+                    "index": 16,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                218,
+                                190,
+                                308,
+                                200
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        218,
+                                        190,
+                                        308,
+                                        200
+                                    ],
+                                    "type": "text",
+                                    "content": "Negaram provimento.",
+                                    "score": 0.984
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        218,
+                        190,
+                        308,
+                        200
+                    ]
+                },
+                {
+                    "score": 0.9476,
+                    "bbox": [
+                        207,
+                        198,
+                        387,
+                        225
+                    ],
+                    "index": 17,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                218,
+                                197,
+                                386,
+                                207
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        218,
+                                        197,
+                                        386,
+                                        207
+                                    ],
+                                    "type": "text",
+                                    "content": "N. 605-Capitai-Appellaute, o juiz de",
+                                    "score": 0.93
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                209,
+                                206,
+                                385,
+                                216
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        209,
+                                        206,
+                                        385,
+                                        216
+                                    ],
+                                    "type": "text",
+                                    "content": "de dirsito; appeilades, Laura Hind e ou-",
+                                    "score": 0.967
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                209,
+                                216,
+                                370,
+                                225
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        209,
+                                        216,
+                                        370,
+                                        225
+                                    ],
+                                    "type": "text",
+                                    "content": "tres ; reiator, o st. Juveual Malhoireg,",
+                                    "score": 0.91
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        209,
+                        197,
+                        386,
+                        225
+                    ]
+                },
+                {
+                    "score": 0.9013,
+                    "bbox": [
+                        217,
+                        224,
+                        311,
+                        234
+                    ],
+                    "index": 18,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                219,
+                                225,
+                                308,
+                                233
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        219,
+                                        225,
+                                        308,
+                                        233
+                                    ],
+                                    "type": "text",
+                                    "content": "Negaram provimento.",
+                                    "score": 0.96
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        219,
+                        225,
+                        308,
+                        233
+                    ]
+                },
+                {
+                    "score": 0.6517,
+                    "bbox": [
+                        410,
+                        54,
+                        555,
+                        75
+                    ],
+                    "index": 19,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                412,
+                                57,
+                                549,
+                                73
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        412,
+                                        57,
+                                        549,
+                                        73
+                                    ],
+                                    "type": "text",
+                                    "content": "ACTOS FEDERAES",
+                                    "score": 0.998
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 1
+                },
+                {
+                    "score": 0.8301,
+                    "bbox": [
+                        400,
+                        87,
+                        563,
+                        110
+                    ],
+                    "index": 20,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                90,
+                                561,
+                                100
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        90,
+                                        561,
+                                        100
+                                    ],
+                                    "type": "text",
+                                    "content": "DECRETON.7917D 21 D MARÇO",
+                                    "score": 0.897
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                463,
+                                100,
+                                502,
+                                109
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        463,
+                                        100,
+                                        502,
+                                        109
+                                    ],
+                                    "type": "text",
+                                    "content": "DE 1910",
+                                    "score": 0.951
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        402,
+                        90,
+                        561,
+                        109
+                    ]
+                },
+                {
+                    "score": 0.8674,
+                    "bbox": [
+                        391,
+                        114,
+                        572,
+                        136
+                    ],
+                    "index": 21,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                393,
+                                115,
+                                570,
+                                124
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        393,
+                                        115,
+                                        570,
+                                        124
+                                    ],
+                                    "type": "text",
+                                    "content": "Creia o Registro e Archico Geral de Mareas",
+                                    "score": 0.925
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                453,
+                                126,
+                                523,
+                                133
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        453,
+                                        126,
+                                        523,
+                                        133
+                                    ],
+                                    "type": "text",
+                                    "content": "para animaes:",
+                                    "score": 0.921
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        393,
+                        115,
+                        570,
+                        133
+                    ]
+                },
+                {
+                    "score": 0.9722,
+                    "bbox": [
+                        392,
+                        139,
+                        572,
+                        174
+                    ],
+                    "index": 22,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                140,
+                                570,
+                                150
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        140,
+                                        570,
+                                        150
+                                    ],
+                                    "type": "text",
+                                    "content": "O Presidente da Republica dos Estados",
+                                    "score": 0.982
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                393,
+                                149,
+                                572,
+                                158
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        393,
+                                        149,
+                                        572,
+                                        158
+                                    ],
+                                    "type": "text",
+                                    "content": "Unidos do Brazil, em execução da lei nu-",
+                                    "score": 0.936
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                393,
+                                157,
+                                571,
+                                166
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        393,
+                                        157,
+                                        571,
+                                        166
+                                    ],
+                                    "type": "text",
+                                    "content": "rero 1606, da 29 de Dezembro de- t906,",
+                                    "score": 0.891
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                394,
+                                166,
+                                428,
+                                174
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        394,
+                                        166,
+                                        428,
+                                        174
+                                    ],
+                                    "type": "text",
+                                    "content": "decrets :",
+                                    "score": 0.97
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        393,
+                        140,
+                        572,
+                        174
+                    ]
+                },
+                {
+                    "score": 0.977,
+                    "bbox": [
+                        392,
+                        173,
+                        574,
+                        233
+                    ],
+                    "index": 23,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                403,
+                                174,
+                                570,
+                                182
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        403,
+                                        174,
+                                        570,
+                                        182
+                                    ],
+                                    "type": "text",
+                                    "content": "Artigo 1.° E' creado o Registro o Ar-",
+                                    "score": 0.899
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                394,
+                                182,
+                                570,
+                                190
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        394,
+                                        182,
+                                        570,
+                                        190
+                                    ],
+                                    "type": "text",
+                                    "content": "chivo Garal de Marcas para animaea de",
+                                    "score": 0.978
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                394,
+                                191,
+                                570,
+                                199
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        394,
+                                        191,
+                                        570,
+                                        199
+                                    ],
+                                    "type": "text",
+                                    "content": "raça boviua, cavallar e muar, do aecôrdo",
+                                    "score": 0.971
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                394,
+                                199,
+                                571,
+                                208
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        394,
+                                        199,
+                                        571,
+                                        208
+                                    ],
+                                    "type": "text",
+                                    "content": "com o regulameato que com este baixa,",
+                                    "score": 0.961
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                394,
+                                208,
+                                571,
+                                216
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        394,
+                                        208,
+                                        571,
+                                        216
+                                    ],
+                                    "type": "text",
+                                    "content": "assignado pelo ministro do Eitado dos No.",
+                                    "score": 0.959
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                394,
+                                216,
+                                571,
+                                225
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        394,
+                                        216,
+                                        571,
+                                        225
+                                    ],
+                                    "type": "text",
+                                    "content": "gocios da Agriclltura, Industria e Coa-",
+                                    "score": 0.941
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                395,
+                                226,
+                                426,
+                                232
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        395,
+                                        226,
+                                        426,
+                                        232
+                                    ],
+                                    "type": "text",
+                                    "content": "mer.io,",
+                                    "score": 0.85
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        394,
+                        174,
+                        571,
+                        232
+                    ]
+                },
+                {
+                    "score": 0.9197,
+                    "bbox": [
+                        393,
+                        232,
+                        574,
+                        250
+                    ],
+                    "index": 24,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                405,
+                                232,
+                                572,
+                                241
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        405,
+                                        232,
+                                        572,
+                                        241
+                                    ],
+                                    "type": "text",
+                                    "content": "Ártigo 2.° Revogam-se. a3 disposiçõse",
+                                    "score": 0.814
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                395,
+                                242,
+                                451,
+                                248
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        395,
+                                        242,
+                                        451,
+                                        248
+                                    ],
+                                    "type": "text",
+                                    "content": "em contrario.",
+                                    "score": 0.959
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        395,
+                        232,
+                        572,
+                        248
+                    ]
+                },
+                {
+                    "score": 0.9409,
+                    "bbox": [
+                        393,
+                        248,
+                        576,
+                        268
+                    ],
+                    "index": 25,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                405,
+                                249,
+                                576,
+                                258
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        405,
+                                        249,
+                                        576,
+                                        258
+                                    ],
+                                    "type": "text",
+                                    "content": "Rio de Janeiro, 24 do Março de 1510,",
+                                    "score": 0.946
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                396,
+                                258,
+                                573,
+                                266
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        396,
+                                        258,
+                                        573,
+                                        266
+                                    ],
+                                    "type": "text",
+                                    "content": "S9.° da Independenciae 22.°d&Repablicz.",
+                                    "score": 0.909
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        396,
+                        249,
+                        576,
+                        266
+                    ]
+                },
+                {
+                    "score": 0.7033,
+                    "bbox": [
+                        407,
+                        270,
+                        574,
+                        291
+                    ],
+                    "index": 26,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                410,
+                                271,
+                                472,
+                                280
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        410,
+                                        271,
+                                        472,
+                                        280
+                                    ],
+                                    "type": "text",
+                                    "content": "NILO PÇaNIA",
+                                    "score": 0.656
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                411,
+                                280,
+                                572,
+                                288
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        411,
+                                        280,
+                                        572,
+                                        288
+                                    ],
+                                    "type": "text",
+                                    "content": "Rodolpho Noguetra da. Rocha Mirauda.",
+                                    "score": 0.939
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        410,
+                        271,
+                        572,
+                        288
+                    ]
+                },
+                {
+                    "score": 0.6379,
+                    "bbox": [
+                        59,
+                        302,
+                        538,
+                        317
+                    ],
+                    "index": 27,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                62,
+                                303,
+                                536,
+                                316
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        62,
+                                        303,
+                                        536,
+                                        316
+                                    ],
+                                    "type": "text",
+                                    "content": "Directoria de Agricultura-OTEM POEALVOURASecção Meteorologica",
+                                    "score": 0.964
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        62,
+                        303,
+                        536,
+                        316
+                    ]
+                },
+                {
+                    "score": 0.5673,
+                    "bbox": [
+                        108,
+                        321,
+                        507,
+                        333
+                    ],
+                    "index": 28,
+                    "type": "title",
+                    "lines": [
+                        {
+                            "bbox": [
+                                111,
+                                322,
+                                504,
+                                333
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        111,
+                                        322,
+                                        504,
+                                        333
+                                    ],
+                                    "type": "text",
+                                    "content": "OBSERVAÇÕES BECEBIDAS PELG TEI EGRAPEO. NO DIA 3I DE MARÇO DE 1910",
+                                    "score": 0.895
+                                }
+                            ]
+                        }
+                    ],
+                    "level": 2
+                },
+                {
+                    "type": "table",
+                    "bbox": [
+                        28,
+                        333,
+                        579,
+                        645
+                    ],
+                    "blocks": [
+                        {
+                            "score": 0.9689,
+                            "bbox": [
+                                28,
+                                333,
+                                579,
+                                645
+                            ],
+                            "index": 29,
+                            "type": "table_body",
+                            "lines": [
+                                {
+                                    "bbox": [
+                                        28,
+                                        333,
+                                        579,
+                                        645
+                                    ],
+                                    "spans": [
+                                        {
+                                            "bbox": [
+                                                28,
+                                                333,
+                                                579,
+                                                645
+                                            ],
+                                            "type": "table",
+                                            "html": "<table><tr><td rowspan=\"3\" colspan=\"2\">Observatorios</td><td colspan=\"3\">Obsarvucósda vespart</td><td colspan=\"10\">Ghservasão do sie, teaada e Gh. Ga, Gw.</td></tr><tr><td colspan=\"2\">Temperatars</td><td rowspan=\"2\">ake 10x2</td><td rowspan=\"2\">Preesio</td><td colspan=\"3\">Thermometro</td><td colspan=\"3\">Hauiãz Vento</td><td rowspan=\"2\">setaea ds Déu</td><td rowspan=\"2\">OBSERYAÇÕES</td></tr><tr><td>Nin.</td><td></td><td>goraada 2az20</td><td>ε2π4</td><td>2a ratslira</td><td>atss</td><td>Velct</td></tr><tr><td></td><td></td><td>26,6</td><td>Bom</td><td></td><td>761.2</td><td>24.0</td><td>225</td><td>171</td><td>F</td><td></td><td>Claão</td><td>Orvalho</td><td></td></tr><tr><td>Sautos Iguapa</td><td></td><td>26,0</td><td>22.7 21,0</td><td>子</td><td>7610</td><td>22.0</td><td>19.0</td><td>74 D</td><td>NW</td><td>1 m 4 m.</td><td>Ene,</td><td>Bom</td><td></td></tr><tr><td>S. Paulo</td><td></td><td>28.0</td><td>185</td><td>》</td><td>761.4</td><td>22.0</td><td>19.0</td><td>74 2</td><td>NE</td><td>1 w.</td><td>Clero</td><td>Neblina</td><td></td></tr><tr><td>Campinas</td><td></td><td>28.5</td><td>17.1</td><td></td><td>7615</td><td>23 6</td><td>19.4</td><td>65</td><td>E</td><td>2 m.</td><td></td><td></td><td>Choveu. Nebliua</td></tr><tr><td>Ribeirão Preto</td><td></td><td>04</td><td>178</td><td></td><td>762,2</td><td>227</td><td>20</td><td>77 1 1</td><td>NE</td><td>2 m.</td><td>&gt;</td><td></td><td>Bom</td></tr><tr><td>São Crrios</td><td></td><td>28 0</td><td>160</td><td></td><td>7614</td><td>234</td><td>20 0</td><td>72</td><td>E</td><td>4 u.</td><td>3</td><td></td><td>Bom</td></tr><tr><td>Taubaté.</td><td></td><td>28,2</td><td>20,0</td><td></td><td>761,4</td><td>23 0</td><td>20.8</td><td>81</td><td>NE</td><td>2 m.</td><td></td><td>M. enc.</td><td></td></tr><tr><td>Piracicabs</td><td></td><td>330</td><td>180</td><td></td><td>7611</td><td>21,0</td><td>212</td><td>77</td><td>N</td><td>1 m.</td><td>2</td><td></td><td>Neblioa</td></tr><tr><td>Agudos.</td><td></td><td>S3 0</td><td>19.0</td><td>Var.</td><td>761.6</td><td>22 2</td><td>20.4</td><td>84</td><td>C</td><td></td><td>Ciaro</td><td></td><td>Choveu 5.0 mm. O.vaiho</td></tr><tr><td>Brotas</td><td></td><td>29 0</td><td>170</td><td>Bom</td><td>161.1</td><td>238</td><td>19,8</td><td>67</td><td>N</td><td>星 IE.</td><td></td><td></td><td></td></tr><tr><td>Frauea</td><td></td><td>26,6</td><td>18,2</td><td></td><td>762.2</td><td>21.4</td><td>169</td><td>62</td><td>NE</td><td>4 m.</td><td></td><td></td><td>O.valho</td></tr><tr><td>Avaré</td><td></td><td>322</td><td>19.1</td><td></td><td>761,0</td><td>26.4</td><td>23 2</td><td>75</td><td>N</td><td>1 u.</td><td></td><td></td><td>Bom</td></tr><tr><td>Tetuby</td><td></td><td>31.0</td><td>175</td><td></td><td>761.</td><td>240</td><td>218</td><td>82</td><td>C</td><td></td><td></td><td></td><td></td></tr><tr><td>Ytú.</td><td></td><td>294</td><td>202</td><td></td><td>1619</td><td>242</td><td>21 2</td><td>75</td><td>NE</td><td>4m.</td><td></td><td>M. enc.</td><td></td></tr><tr><td>Fsxina</td><td></td><td>30.7</td><td>180</td><td></td><td>7608</td><td>22,6</td><td>20.6</td><td>83</td><td>C</td><td></td><td></td><td></td><td>Orvalbo. Neblioa</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Uberaba</td><td></td><td>275</td><td>20.2</td><td></td><td>7618</td><td>24 3</td><td>21.3</td><td>75</td><td>8</td><td>9 m.</td><td>Claro</td><td></td><td></td></tr><tr><td>Paravaguá</td><td></td><td>262 23 8</td><td>20.5 210</td><td></td><td>7588 759 3</td><td>24,5 23.7</td><td>23 3 220</td><td>90</td><td>C</td><td>1-</td><td></td><td>. enc</td><td></td></tr><tr><td>Flerianopolia Rio de Janeiro</td><td></td><td>27 3</td><td>23.0</td><td></td><td>761,4</td><td>253</td><td>222</td><td>Sü 75</td><td>C NE</td><td>2m.</td><td>Claro</td><td>B</td><td>Choveu 3,2 mi.</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Monteviléu.</td><td></td><td>20,0</td><td>16,2</td><td></td><td>762,5</td><td>192</td><td>18,3</td><td>91</td><td>SE</td><td>4m.</td><td>Eoc.</td><td></td><td>Máu. Grtaer lampagos</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>i</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>22,0</td><td>150</td><td></td><td>7635</td><td>i70</td><td>160</td><td>90</td><td>S</td><td>2 m.</td><td>Eac.</td><td></td><td></td></tr><tr><td>Cordoha</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>à</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mendoza</td><td></td><td>27 0</td><td>120</td><td></td><td>767.2</td><td>14,0</td><td></td><td>9,0 47</td><td>SW:</td><td>6 m.</td></table>",
+                                            "image_path": "9dd417de5e2ed57ad1276cbdc2c6e4db81f44442c874fdbda7ff6fd82791b81c.jpg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "score": 0.9689
+                },
+                {
+                    "score": 0.6883,
+                    "bbox": [
+                        67,
+                        646,
+                        252,
+                        667
+                    ],
+                    "index": 30,
+                    "type": "text",
+                    "lines": [
+                        {
+                            "bbox": [
+                                70,
+                                648,
+                                248,
+                                657
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        648,
+                                        248,
+                                        657
+                                    ],
+                                    "type": "text",
+                                    "content": "Tempo provavel paa o dia 1. de Abril:",
+                                    "score": 0.912
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                70,
+                                657,
+                                252,
+                                665
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        70,
+                                        657,
+                                        252,
+                                        665
+                                    ],
+                                    "type": "text",
+                                    "content": "Instavel.Nebliaa.Temporatura subiudo.",
+                                    "score": 0.892
+                                }
+                            ]
+                        }
+                    ],
+                    "bbox_fs": [
+                        70,
+                        648,
+                        252,
+                        665
+                    ]
+                }
+            ]
+        }
+    ],
+    "_backend": "pipeline",
+    "_version_name": "3.4.4"
+}

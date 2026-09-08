@@ -1,0 +1,2145 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8995,
+                "bbox": [
+                    154,
+                    68,
+                    390,
+                    99
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.9135,
+                "bbox": [
+                    742,
+                    76,
+                    991,
+                    113
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.9037,
+                "bbox": [
+                    1403,
+                    96,
+                    1577,
+                    130
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9806,
+                "bbox": [
+                    98,
+                    128,
+                    851,
+                    304
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9454,
+                "bbox": [
+                    95,
+                    298,
+                    845,
+                    403
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9414,
+                "bbox": [
+                    92,
+                    399,
+                    841,
+                    491
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9543,
+                "bbox": [
+                    93,
+                    482,
+                    838,
+                    537
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.981,
+                "bbox": [
+                    89,
+                    529,
+                    835,
+                    650
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9553,
+                "bbox": [
+                    88,
+                    644,
+                    833,
+                    695
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9677,
+                "bbox": [
+                    87,
+                    689,
+                    833,
+                    768
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.95,
+                "bbox": [
+                    81,
+                    762,
+                    831,
+                    815
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9655,
+                "bbox": [
+                    82,
+                    809,
+                    827,
+                    879
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9675,
+                "bbox": [
+                    74,
+                    875,
+                    828,
+                    951
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9533,
+                "bbox": [
+                    78,
+                    947,
+                    827,
+                    1000
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8818,
+                "bbox": [
+                    437,
+                    1022,
+                    475,
+                    1048
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9836,
+                "bbox": [
+                    77,
+                    1066,
+                    826,
+                    1189
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9764,
+                "bbox": [
+                    74,
+                    1185,
+                    823,
+                    1305
+                ],
+                "index": 17
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9006,
+                "bbox": [
+                    424,
+                    1313,
+                    476,
+                    1340
+                ],
+                "index": 18
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9583,
+                "bbox": [
+                    72,
+                    1357,
+                    822,
+                    1432
+                ],
+                "index": 19
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9614,
+                "bbox": [
+                    71,
+                    1429,
+                    819,
+                    1500
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9735,
+                "bbox": [
+                    68,
+                    1497,
+                    817,
+                    1594
+                ],
+                "index": 21
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9734,
+                "bbox": [
+                    66,
+                    1591,
+                    818,
+                    1713
+                ],
+                "index": 22
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8658,
+                "bbox": [
+                    412,
+                    1713,
+                    473,
+                    1742
+                ],
+                "index": 23
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9546,
+                "bbox": [
+                    59,
+                    1753,
+                    813,
+                    1840
+                ],
+                "index": 24
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.5944,
+                "bbox": [
+                    1224,
+                    153,
+                    1266,
+                    184
+                ],
+                "index": 25
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9837,
+                "bbox": [
+                    854,
+                    195,
+                    1618,
+                    504
+                ],
+                "index": 26
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8729,
+                "bbox": [
+                    1215,
+                    525,
+                    1248,
+                    552
+                ],
+                "index": 27
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9228,
+                "bbox": [
+                    846,
+                    566,
+                    1605,
+                    620
+                ],
+                "index": 28
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9592,
+                "bbox": [
+                    845,
+                    614,
+                    1602,
+                    693
+                ],
+                "index": 29
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.954,
+                "bbox": [
+                    845,
+                    685,
+                    1601,
+                    738
+                ],
+                "index": 30
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9757,
+                "bbox": [
+                    844,
+                    731,
+                    1600,
+                    851
+                ],
+                "index": 31
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.966,
+                "bbox": [
+                    842,
+                    846,
+                    1600,
+                    920
+                ],
+                "index": 32
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8388,
+                "bbox": [
+                    1205,
+                    917,
+                    1245,
+                    943
+                ],
+                "index": 33
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9836,
+                "bbox": [
+                    837,
+                    958,
+                    1600,
+                    1150
+                ],
+                "index": 34
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9634,
+                "bbox": [
+                    835,
+                    1144,
+                    1593,
+                    1219
+                ],
+                "index": 35
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9569,
+                "bbox": [
+                    836,
+                    1213,
+                    1588,
+                    1264
+                ],
+                "index": 36
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.865,
+                "bbox": [
+                    885,
+                    1259,
+                    1589,
+                    1295
+                ],
+                "index": 37
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9005,
+                "bbox": [
+                    1186,
+                    1304,
+                    1240,
+                    1332
+                ],
+                "index": 38
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9609,
+                "bbox": [
+                    831,
+                    1346,
+                    1585,
+                    1426
+                ],
+                "index": 39
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8722,
+                "bbox": [
+                    1177,
+                    1420,
+                    1241,
+                    1448
+                ],
+                "index": 40
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9689,
+                "bbox": [
+                    829,
+                    1461,
+                    1590,
+                    1583
+                ],
+                "index": 41
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8944,
+                "bbox": [
+                    1182,
+                    1580,
+                    1242,
+                    1608
+                ],
+                "index": 42
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.975,
+                "bbox": [
+                    827,
+                    1623,
+                    1589,
+                    1747
+                ],
+                "index": 43
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9649,
+                "bbox": [
+                    826,
+                    1740,
+                    1586,
+                    1839
+                ],
+                "index": 44
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    158,
+                    66,
+                    387,
+                    101
+                ],
+                "score": 0.947,
+                "text": "986 Sexta-feira 1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    746,
+                    78,
+                    987,
+                    112
+                ],
+                "score": 0.974,
+                "text": "DIARIO OFFICIAL"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1406,
+                    97,
+                    1469,
+                    129
+                ],
+                "score": 0.966,
+                "text": "Abril"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1510,
+                    97,
+                    1573,
+                    132
+                ],
+                "score": 0.996,
+                "text": "1910"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    157,
+                    293,
+                    189,
+                    306
+                ],
+                "score": 0.75,
+                "text": "NT"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    158,
+                    135,
+                    852,
+                    163
+                ],
+                "score": 0.949,
+                "text": "a) Plants geral da linha concedida com a indicsção dos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    107,
+                    161,
+                    848,
+                    186
+                ],
+                "score": 0.845,
+                "text": "pttos ds pazagem obrigatotios, conignração do terreno, repre-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    106,
+                    185,
+                    843,
+                    208
+                ],
+                "score": 0.934,
+                "text": "sontada por meio de curvas de mivel equidistantes de cinco me-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    107,
+                    208,
+                    840,
+                    232
+                ],
+                "score": 0.876,
+                "text": "tres no ruximo, o, bam assim, em unia zona de cinensnta motros"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    106,
+                    232,
+                    840,
+                    255
+                ],
+                "score": 0.929,
+                "text": "pelo monós, pata cada lado, os campos, niattes, terronos podre-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    104,
+                    254,
+                    840,
+                    280
+                ],
+                "score": 0.925,
+                "text": "gosos e brejoa, e, sempre que fôr possival, a diviza das proprie-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    105,
+                    275,
+                    616,
+                    298
+                ],
+                "score": 0.934,
+                "text": "dades perticalares, minas e terras devolutas."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    155,
+                    298,
+                    840,
+                    327
+                ],
+                "score": 0.934,
+                "text": "Nessa planta, em esoala de um para qustro mil, serão in-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    102,
+                    323,
+                    842,
+                    349
+                ],
+                "score": 0.953,
+                "text": "dicadas todas as distancias kilemstrieas, contadas a partir do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    101,
+                    346,
+                    842,
+                    373
+                ],
+                "score": 0.938,
+                "text": "ponto inicial ds sstrada; a oxtensão dos aliobnmontos rectos o"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    100,
+                    368,
+                    667,
+                    394
+                ],
+                "score": 0.932,
+                "text": "curvos ; os gráus e raios das enrves ompregadas."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    101,
+                    386,
+                    413,
+                    408
+                ],
+                "score": 0.566,
+                "text": "Bh)Pasal loncitdnel"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    194,
+                    480,
+                    307,
+                    496
+                ],
+                "score": 0.591,
+                "text": "…1"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    99,
+                    391,
+                    840,
+                    421
+                ],
+                "score": 0.849,
+                "text": "a.) 1or tougitudinal, na escaia de um para qugtrocentos,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    98,
+                    417,
+                    837,
+                    441
+                ],
+                "score": 0.894,
+                "text": "pars as gliuras, e da um para quatro mil, pura as disteneiss ho-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    98,
+                    440,
+                    835,
+                    464
+                ],
+                "score": 0.955,
+                "text": "rizontaes, mostrando, por meio do convonção, o terreno natural,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    98,
+                    462,
+                    728,
+                    486
+                ],
+                "score": 0.988,
+                "text": "as plataformas dos córtes e aterros e as obras dc arto."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    155,
+                    527,
+                    250,
+                    540
+                ],
+                "score": 0.51,
+                "text": "2. "
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    149,
+                    485,
+                    835,
+                    511
+                ],
+                "score": 0.957,
+                "text": "c) O perfil lengitudinal daverá ser acompanhado de perfis"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    98,
+                    509,
+                    775,
+                    532
+                ],
+                "score": 0.955,
+                "text": "transverzaes interyallados do cincoenta metros, no maximo."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    94,
+                    617,
+                    388,
+                    648
+                ],
+                "score": 0.821,
+                "text": "prinçāj fee fudiapenssvel."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    150,
+                    530,
+                    834,
+                    557
+                ],
+                "score": 0.964,
+                "text": "d) Projeetos complotos o especifcades de tedas as cbras de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    95,
+                    554,
+                    831,
+                    580
+                ],
+                "score": 0.88,
+                "text": "arts rescszarias para σ aatabelecímonto da eatrads, pontes, tun-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    93,
+                    572,
+                    834,
+                    605
+                ],
+                "score": 0.731,
+                "text": "neis, yiaductos, prisihoás, boeiros, estações e dependencias, bom"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    95,
+                    600,
+                    829,
+                    627
+                ],
+                "score": 0.943,
+                "text": "coro plantas de todas as propriedades, na parte cuja desapro-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    95,
+                    666,
+                    204,
+                    689
+                ],
+                "score": 0.766,
+                "text": "0x0.uçã3."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    142,
+                    643,
+                    833,
+                    676
+                ],
+                "score": 0.843,
+                "text": "e) O cezeuho doe trilhos o asctssorios, em graudeza de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    142,
+                    691,
+                    827,
+                    720
+                ],
+                "score": 0.948,
+                "text": "f) Rolação do material rodante, contondo e typa das loco-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    93,
+                    718,
+                    831,
+                    743
+                ],
+                "score": 0.871,
+                "text": "motivai, vegtes, gondolns a esures de passageiros, na escals de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    94,
+                    740,
+                    664,
+                    763
+                ],
+                "score": 0.75,
+                "text": "uis kàsa tinseonia, ou em eatalogoa das fubriens,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    474,
+                    759,
+                    486,
+                    767
+                ],
+                "score": 0.911,
+                "text": "L"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    147,
+                    763,
+                    829,
+                    790
+                ],
+                "score": 0.817,
+                "text": "Es. lo pde:ão ser apresentados por sec,ños, contanto"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    87,
+                    786,
+                    667,
+                    812
+                ],
+                "score": 0.681,
+                "text": "quc ssas ais pojam moneres do einuo kilomatres."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    89,
+                    851,
+                    186,
+                    876
+                ],
+                "score": 0.99,
+                "text": "cutados."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    143,
+                    810,
+                    825,
+                    836
+                ],
+                "score": 0.939,
+                "text": "Os projeets das pontes, estaçõss G outras obras importan"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    89,
+                    830,
+                    825,
+                    859
+                ],
+                "score": 0.838,
+                "text": "tes poderao :er svenentatoz é medila que tivarem de ser exo-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    141,
+                    879,
+                    825,
+                    904
+                ],
+                "score": 0.913,
+                "text": "O Goverzo pedorá rejeitar os projeetes, quando não offere-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    901,
+                    825,
+                    930
+                ],
+                "score": 0.833,
+                "text": "cezca gsatia de solidez; maz terà eutão do apresentar as mo-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    81,
+                    922,
+                    487,
+                    948
+                ],
+                "score": 0.905,
+                "text": "difcações que jnlgar convenientes."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    135,
+                    948,
+                    825,
+                    974
+                ],
+                "score": 0.88,
+                "text": "ão so sujcitando a concersicuaria a elles, péderá rocoirer"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    85,
+                    971,
+                    721,
+                    995
+                ],
+                "score": 0.893,
+                "text": "á aruivagem, corao vzo determinado na clausula NIX."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    438,
+                    1023,
+                    475,
+                    1052
+                ],
+                "score": 0.527,
+                "text": "∇I"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    136,
+                    1069,
+                    823,
+                    1096
+                ],
+                "score": 0.907,
+                "text": "Doutro de seis rezos, a contar da dats da publicsção do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    85,
+                    1094,
+                    823,
+                    1118
+                ],
+                "score": 0.897,
+                "text": "docroto co concesão de liconça, doverão aar inicindo: os trabathos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    84,
+                    1115,
+                    823,
+                    1143
+                ],
+                "score": 0.853,
+                "text": "de eonsirueção desta estrada de farro, os quaea dovorão estar"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    82,
+                    1140,
+                    821,
+                    1166
+                ],
+                "score": 0.896,
+                "text": "cenciuidos dsatro do dots annos, a contar da data da approvação"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    82,
+                    1162,
+                    692,
+                    1186
+                ],
+                "score": 0.914,
+                "text": "ács projectos  qus se retera a clausula antocedeate."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    79,
+                    1274,
+                    346,
+                    1302
+                ],
+                "score": 0.878,
+                "text": "retade doquelle piazo."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    133,
+                    1184,
+                    821,
+                    1212
+                ],
+                "score": 0.964,
+                "text": "Si, oxgottade o prazo mareado para inicio, não houver co-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    80,
+                    1209,
+                    820,
+                    1234
+                ],
+                "score": 0.848,
+                "text": "meçado Rs obzas da linha, a conceñsíonaria perderá a inporteneia"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    80,
+                    1231,
+                    821,
+                    1258
+                ],
+                "score": 0.883,
+                "text": "da canção, enn preveito do Bitado, salvo caso de força masior, a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    78,
+                    1255,
+                    818,
+                    1282
+                ],
+                "score": 0.824,
+                "text": "jazo do Govern, que eoncsderá mais uua só prorogução, do"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    427,
+                    1316,
+                    473,
+                    1343
+                ],
+                "score": 0.673,
+                "text": "VII"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    131,
+                    1362,
+                    820,
+                    1387
+                ],
+                "score": 0.931,
+                "text": "A esução feits pela concessionaria podsrá ser levsotada desd."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    77,
+                    1384,
+                    819,
+                    1411
+                ],
+                "score": 0.952,
+                "text": "que tenhara sido dispendidos em construeção tres por cento da"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    77,
+                    1407,
+                    815,
+                    1434
+                ],
+                "score": 0.944,
+                "text": "importanein tetal de 5.032:6348284, do orçamento anproximativo."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    128,
+                    1431,
+                    816,
+                    1457
+                ],
+                "score": 0.946,
+                "text": "à requerimento da Companhia, o Governo mandará um en-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    76,
+                    1455,
+                    815,
+                    1480
+                ],
+                "score": 0.928,
+                "text": "gtúheiro da repartição competente sxaminar si a quantidade de"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    76,
+                    1479,
+                    809,
+                    1501
+                ],
+                "score": 0.891,
+                "text": "obrsa feísas ecrresponde a tres por cento da imnortsncin refarida"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    616,
+                    1485,
+                    814,
+                    1507
+                ],
+                "score": 0.636,
+                "text": "."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    73,
+                    1567,
+                    463,
+                    1595
+                ],
+                "score": 0.958,
+                "text": "portancia pela mesmia caucionada."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    124,
+                    1499,
+                    815,
+                    1526
+                ],
+                "score": 0.906,
+                "text": "Esse ezeme não poderá durar meis de dois mezes, Os von-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    74,
+                    1524,
+                    813,
+                    1548
+                ],
+                "score": 0.905,
+                "text": "ciznsntos do engenboiro, durante o tompo do exsme das obras,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    74,
+                    1547,
+                    812,
+                    1571
+                ],
+                "score": 0.967,
+                "text": "cotrerão por conté da concessionaria e serão deduzidos da im-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    69,
+                    1681,
+                    230,
+                    1708
+                ],
+                "score": 0.943,
+                "text": "da obra feita,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    124,
+                    1590,
+                    815,
+                    1617
+                ],
+                "score": 0.945,
+                "text": "Si, no fia do um mez, a contar da data do pedido de exame"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    73,
+                    1616,
+                    814,
+                    1640
+                ],
+                "score": 0.934,
+                "text": "das abeas, não tiver o Governo encarregado ongenheiro algum"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    72,
+                    1639,
+                    814,
+                    1664
+                ],
+                "score": 0.953,
+                "text": "desse serviço, será considsrado o oxame foito e o total da quantia"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    68,
+                    1661,
+                    812,
+                    1689
+                ],
+                "score": 0.944,
+                "text": "ctucionada poderá ser retirado, independentomeato da verificação"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    413,
+                    1716,
+                    473,
+                    1752
+                ],
+                "score": 1.0,
+                "text": "VII"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    66,
+                    1757,
+                    812,
+                    1790
+                ],
+                "score": 0.929,
+                "text": "O Gtoverno, por seus agontes, poderá intervir, em quaiquer"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    64,
+                    1784,
+                    808,
+                    1811
+                ],
+                "score": 0.898,
+                "text": "tempo, em tudo o que se referir á solides das obras, resistencia"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    62,
+                    1808,
+                    762,
+                    1835
+                ],
+                "score": 0.935,
+                "text": "do material e zegurança do publico nesta estrada de ferro."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1225,
+                    155,
+                    1265,
+                    187
+                ],
+                "score": 0.984,
+                "text": "XI"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    856,
+                    471,
+                    923,
+                    499
+                ],
+                "score": 1.0,
+                "text": "della."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    915,
+                    199,
+                    1615,
+                    229
+                ],
+                "score": 0.943,
+                "text": "As obras de construéção desta estrada de ferro não podarão"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    866,
+                    226,
+                    1610,
+                    252
+                ],
+                "score": 0.888,
+                "text": "fimpedir: o escõamento das aguis das propriadadas arricularas,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    863,
+                    250,
+                    1612,
+                    275
+                ],
+                "score": 0.86,
+                "text": "a pazragam das gatorias de exgottos urbauos, de aguas ntrlizadas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    863,
+                    275,
+                    1611,
+                    298
+                ],
+                "score": 0.931,
+                "text": "para abastecimento ou psra fns ináustriaes c agrizolas, a nuvo-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    863,
+                    297,
+                    1611,
+                    321
+                ],
+                "score": 0.933,
+                "text": "gabilidade doa rios e cšnaos e o livre transito das vias pablicas"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    862,
+                    320,
+                    1610,
+                    345
+                ],
+                "score": 0.934,
+                "text": "Ficam & eargo desta estrade de forro as despeass com as obras"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    858,
+                    344,
+                    1609,
+                    368
+                ],
+                "score": 0.922,
+                "text": "necesssries para o cruzamento das ráss, ostradas publicas e ca-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    861,
+                    367,
+                    1608,
+                    391
+                ],
+                "score": 0.951,
+                "text": "minhos particularos existenies ao tompo da construcção da linha,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    861,
+                    390,
+                    1607,
+                    414
+                ],
+                "score": 0.932,
+                "text": "ficando tambem a seu cargo as despeãas com aignaes e guardas,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    859,
+                    414,
+                    1606,
+                    437
+                ],
+                "score": 0.868,
+                "text": "qugudo se tornaro precisos neeass eruzamentos. Os onus pro-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    858,
+                    437,
+                    1607,
+                    460
+                ],
+                "score": 0.954,
+                "text": "vanientes dos cruzamentos das vigs publicas qua se abrirem de-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    856,
+                    460,
+                    1605,
+                    484
+                ],
+                "score": 0.966,
+                "text": "pois de construeção dests estrada de forro não corrorão por conta"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1218,
+                    528,
+                    1246,
+                    555
+                ],
+                "score": 0.72,
+                "text": "X"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    905,
+                    575,
+                    1600,
+                    601
+                ],
+                "score": 0.931,
+                "text": "Os preçes de trensporte neatu cstrada de ferro aoráo fixados"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    851,
+                    598,
+                    1585,
+                    622
+                ],
+                "score": 0.845,
+                "text": "ein tarifas previamente approv&las pela administeecñn bt"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    904,
+                    682,
+                    937,
+                    696
+                ],
+                "score": 0.718,
+                "text": "AT-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1137,
+                    604,
+                    1596,
+                    627
+                ],
+                "score": 0.612,
+                "text": "rriaumtsirsçaopubles."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    906,
+                    622,
+                    1596,
+                    645
+                ],
+                "score": 0.945,
+                "text": "Dessas tarifas deverá constar s indicação do logar do par-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    853,
+                    644,
+                    1600,
+                    669
+                ],
+                "score": 0.956,
+                "text": "tida e do chegads, a determinação doa frétes pelie distaacias a"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    850,
+                    663,
+                    1307,
+                    689
+                ],
+                "score": 0.929,
+                "text": "pereorrese a classificação dos gen-ros."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    906,
+                    730,
+                    930,
+                    740
+                ],
+                "score": 0.522,
+                "text": "131"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    902,
+                    690,
+                    1596,
+                    716
+                ],
+                "score": 0.964,
+                "text": "Não poderão esses preços exceder os minimos adoptados para"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    851,
+                    710,
+                    1236,
+                    733
+                ],
+                "score": 0.959,
+                "text": "us linhas forreas de egual bitola."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    901,
+                    734,
+                    1597,
+                    761
+                ],
+                "score": 0.961,
+                "text": "E' vedado á estrada adoptar tarifas de favor para projudiear"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    851,
+                    760,
+                    1595,
+                    782
+                ],
+                "score": 0.845,
+                "text": "ou favorecer pessõas ou ewprssns determingdas, assim ecmo cohrar"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    849,
+                    782,
+                    1594,
+                    807
+                ],
+                "score": 0.937,
+                "text": "preç's differentus palo transporte de pussageires 3 generos, feito"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    847,
+                    804,
+                    1595,
+                    831
+                ],
+                "score": 0.878,
+                "text": "ea cindiçõos idanticas, de-de que percorram distsncias eguzãs,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    849,
+                    823,
+                    1263,
+                    848
+                ],
+                "score": 0.925,
+                "text": "ealvo o caso də tarifas difforenciaes."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    899,
+                    847,
+                    1593,
+                    877
+                ],
+                "score": 0.937,
+                "text": "Depois de approvadas pelo Governo, serãs as tarifas inipresaz"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    848,
+                    872,
+                    1596,
+                    899
+                ],
+                "score": 0.95,
+                "text": "em caraetéres legiveis e cullocads em todas as ostaçõos, para"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    848,
+                    891,
+                    1135,
+                    915
+                ],
+                "score": 0.921,
+                "text": "eonhocimanto do publico."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1204,
+                    918,
+                    1243,
+                    947
+                ],
+                "score": 0.977,
+                "text": "XI"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    897,
+                    962,
+                    1592,
+                    990
+                ],
+                "score": 0.908,
+                "text": "Quando beuver necessidade do εe clevarem o3 praços das"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    845,
+                    987,
+                    1588,
+                    1012
+                ],
+                "score": 0.96,
+                "text": "tarifas, solicitará esta estrada licença do Govorno, apresontando"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    845,
+                    1010,
+                    1589,
+                    1034
+                ],
+                "score": 0.873,
+                "text": "as razõss do acarescimo. No praso inaximo de um mnoz resel-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    845,
+                    1033,
+                    1590,
+                    1057
+                ],
+                "score": 0.937,
+                "text": "verá o Governo sobre a questão. Si não o fizar, Gea oatendido"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    844,
+                    1057,
+                    1597,
+                    1081
+                ],
+                "score": 0.914,
+                "text": "que o acercoscimo de preço está approvádo. Neuluma elev ação-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    842,
+                    1078,
+                    1590,
+                    1105
+                ],
+                "score": 0.945,
+                "text": "ds preços das tarifas poderá tor força obrigatoria, meemo sppro-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    841,
+                    1101,
+                    1590,
+                    1128
+                ],
+                "score": 0.923,
+                "text": "vada pslo Governo, sinão depois da publicação na imprenss,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    843,
+                    1123,
+                    1429,
+                    1148
+                ],
+                "score": 0.908,
+                "text": "áurante dez dias, anunnciando a raodiicação foita."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    892,
+                    1147,
+                    1591,
+                    1173
+                ],
+                "score": 0.918,
+                "text": "Fssa pnhlicsção será feita noz jernaes de maior cireutação-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    842,
+                    1171,
+                    1588,
+                    1195
+                ],
+                "score": 0.939,
+                "text": "da Capital do Estaéo, e, qusudo fór possivel, era um de eada"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    840,
+                    1190,
+                    1245,
+                    1216
+                ],
+                "score": 0.956,
+                "text": "laealidado servida por esta estrada."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    892,
+                    1216,
+                    1582,
+                    1242
+                ],
+                "score": 0.952,
+                "text": "A roducsão dos preços das tarifas poderá ter logar, inde-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    840,
+                    1237,
+                    1262,
+                    1260
+                ],
+                "score": 0.957,
+                "text": "pendentemente de publicação prévis."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    892,
+                    1261,
+                    1585,
+                    1290
+                ],
+                "score": 0.89,
+                "text": "Ums vez, porém, adeptada, a puhlicação sorá obrigetoria."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1189,
+                    1308,
+                    1238,
+                    1340
+                ],
+                "score": 0.9,
+                "text": "XJI"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    824,
+                    1353,
+                    1580,
+                    1380
+                ],
+                "score": 0.917,
+                "text": "As combinações que fizer .esta estrada do ferzo com outres;"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    837,
+                    1377,
+                    1580,
+                    1403
+                ],
+                "score": 0.939,
+                "text": "a reepeito da tsrifas, só terão forçs obrigatoria dopois do ap-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    838,
+                    1397,
+                    1108,
+                    1422
+                ],
+                "score": 0.974,
+                "text": "provadas pelo Governo."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1182,
+                    1423,
+                    1238,
+                    1450
+                ],
+                "score": 0.862,
+                "text": "XUI"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    835,
+                    1555,
+                    1040,
+                    1582
+                ],
+                "score": 0.967,
+                "text": "de Maio da 1889."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    870,
+                    1468,
+                    1580,
+                    1492
+                ],
+                "score": 0.962,
+                "text": "; Ssrão obsorvodas nosta ostrade de ferro, emquaato o Go-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    836,
+                    1492,
+                    1582,
+                    1515
+                ],
+                "score": 0.966,
+                "text": "verno não expedir o regulamento da lai n. 30, de 13 de Junho"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    836,
+                    1516,
+                    1583,
+                    1539
+                ],
+                "score": 0.911,
+                "text": "de 1892, as baies gerass para o treusporto də bsgsgone, oacom-"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    834,
+                    1538,
+                    1582,
+                    1563
+                ],
+                "score": 0.844,
+                "text": "mendes e mercadoriss, cstzbelecidea polo deareto n. 1237, de 2"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1183,
+                    1581,
+                    1239,
+                    1614
+                ],
+                "score": 0.995,
+                "text": "XIV"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    881,
+                    1627,
+                    1577,
+                    1654
+                ],
+                "score": 0.955,
+                "text": "Para todos cs effoitos lege.ss ou resultantes de contractos"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    834,
+                    1652,
+                    1583,
+                    1677
+                ],
+                "score": 0.947,
+                "text": "de lucros distribuidos entre o acciuniztaa dezta ostrada do forro,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    833,
+                    1675,
+                    1582,
+                    1701
+                ],
+                "score": 0.952,
+                "text": "quer a titulo de bonus, quer. zob fórma de acções benoficiarias,"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    833,
+                    1700,
+                    1581,
+                    1723
+                ],
+                "score": 0.893,
+                "text": "ou por qualqusr. cutro mero, ssrão comnputados conjunetamsnte"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    831,
+                    1719,
+                    1384,
+                    1747
+                ],
+                "score": 0.889,
+                "text": "com os pagos eoba denorrinação de dividendo."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    832,
+                    1807,
+                    989,
+                    1835
+                ],
+                "score": 0.948,
+                "text": "dependencias."
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    883,
+                    1742,
+                    1580,
+                    1771
+                ],
+                "score": 0.9,
+                "text": "Para todes os effsit's resultantos de contractos, esta eatrada"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    832,
+                    1766,
+                    1579,
+                    1794
+                ],
+                "score": 0.92,
+                "text": "devorá aprerentar so. G,verno a conte do sen capital empregado"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    828,
+                    1790,
+                    1580,
+                    1818
+                ],
+                "score": 0.888,
+                "text": "na conatrueção primiriva, nos molhoramentes da linha é raa"
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 1671,
+            "height": 1968
+        }
+    }
+]

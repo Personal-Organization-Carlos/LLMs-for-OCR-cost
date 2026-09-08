@@ -1,0 +1,44 @@
+{
+  "chave": "opendatalab/mineru-pipeline|1930-04-01_p3201|p0|0",
+  "registro": {
+    "model_id": "opendatalab/mineru-pipeline",
+    "prompt_id": "p0",
+    "doc_id": "1930-04-01_p3201",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 60.41073180001695,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "total_tokens": null,
+    "cost_usd": 0.0,
+    "cost_source": "local",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "mineru",
+    "provider_upstream": "local",
+    "generation_id": "mineru-pipeline-1930-04-01_p3201__r0",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T03:11:02Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "subprocess",
+      "tentativa": 1,
+      "comando": [
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\.venv-mineru\\Scripts\\mineru.exe",
+        "-p",
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-pipeline\\1930-04-01_p3201__r0\\entrada\\1930-04-01_p3201.jpg",
+        "-o",
+        "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-pipeline\\1930-04-01_p3201__r0\\saida",
+        "-b",
+        "pipeline"
+      ],
+      "returncode": 0,
+      "backend": "pipeline",
+      "artefatos": "C:\\Users\\carlo\\Documents\\mestrado\\Pesquisa\\LLMs-to-OCR-cost\\results\\20260907-221713\\mineru\\opendatalab__mineru-pipeline\\1930-04-01_p3201__r0",
+      "log_final": "INFO    \u001b[0m | \u001b[36mmineru.backend.pipeline.model_init\u001b[0m:\u001b[36m__init__\u001b[0m:\u001b[36m291\u001b[0m - \u001b[1mDocAnalysis init done!\u001b[0m\n\u001b[32m2026-09-07 23:11:35.137\u001b[0m | \u001b[1mINFO    \u001b[0m | \u001b[36mmineru.backend.pipeline.pipeline_analyze\u001b[0m:\u001b[36mcustom_model_init\u001b[0m:\u001b[36m83\u001b[0m - \u001b[1mmodel init cost: 6.518809080123901\u001b[0m\n\nLayout Predict:   0%|          | 0/1 [00:00<?, ?it/s]\nLayout Predict: 100%|##########| 1/1 [00:02<00:00,  2.54s/it]\nLayout Predict: 100%|##########| 1/1 [00:02<00:00,  2.54s/it]\n\nTable orientation det:   0%|          | 0/2 [00:00<?, ?it/s]\nTable orientation det:  50%|#####     | 1/2 [00:01<00:01,  1.43s/it]\nTable orientation det: 100%|##########| 2/2 [00:01<00:00,  1.41it/s]\nTable orientation score: 100%|##########| 2/2 [00:01<00:00,  1.41it/s]\nTable orientation score: 100%|##########| 2/2 [00:01<00:00,  1.41it/s]\nTable orientation: 100%|##########| 2/2 [00:01<00:00,  1.41it/s]      \nTable orientation: 100%|##########| 2/2 [00:01<00:00,  1.41it/s]\nTable orientation: 100%|##########| 2/2 [00:01<00:00,  1.22it/s]\n\nTable-ocr det:   0%|          | 0/2 [00:00<?, ?it/s]\nTable-ocr det:  50%|#####     | 1/2 [00:00<00:00,  4.59it/s]\nTable-ocr det: 100%|##########| 2/2 [00:00<00:00,  6.33it/s]\nTable-ocr det: 100%|##########| 2/2 [00:00<00:00,  5.86it/s]\n\nTable-ocr rec ch:   0%|          | 0/138 [00:00<?, ?it/s]\nTable-ocr rec ch:   4%|4         | 6/138 [00:00<00:08, 16.22it/s]\nTable-ocr rec ch:  13%|#3        | 18/138 [00:00<00:02, 44.50it/s]\nTable-ocr rec ch:  30%|###       | 42/138 [00:00<00:00, 96.39it/s]\nTable-ocr rec ch:  43%|####3     | 60/138 [00:00<00:00, 115.09it/s]\nTable-ocr rec ch:  57%|#####6    | 78/138 [00:00<00:00, 115.75it/s]\nTable-ocr rec ch:  70%|######9   | 96/138 [00:01<00:00, 72.44it/s] \nTable-ocr rec ch:  78%|#######8  | 108/138 [00:01<00:00, 62.77it/s]\nTable-ocr rec ch:  87%|########6 | 120/138 [00:01<00:00, 63.39it/s]\nTable-ocr rec ch:  96%|#########5| 132/138 [00:01<00:00, 65.69it/s]\nTable-ocr rec ch: 100%|##########| 138/138 [00:01<00:00, 69.44it/s]\n\nTable-wireless Predict:   0%|          | 0/2 [00:00<?, ?it/s]\nTable-wireless Predict: 100%|##########| 2/2 [00:01<00:00,  1.30it/s]\nTable-wireless Predict: 100%|##########| 2/2 [00:01<00:00,  1.30it/s]\n\nOCR-det ch:   0%|          | 0/58 [00:00<?, ?it/s]\nOCR-det ch:   2%|1         | 1/58 [00:00<00:33,  1.68it/s]\nOCR-det ch:   3%|3         | 2/58 [00:00<00:20,  2.76it/s]\nOCR-det ch:   5%|5         | 3/58 [00:00<00:15,  3.63it/s]\nOCR-det ch:   7%|6         | 4/58 [00:01<00:12,  4.36it/s]\nOCR-det ch:   9%|8         | 5/58 [00:01<00:10,  5.03it/s]\nOCR-det ch:  12%|#2        | 7/58 [00:01<00:08,  5.97it/s]\nOCR-det ch:  14%|#3        | 8/58 [00:01<00:07,  6.42it/s]\nOCR-det ch:  41%|####1     | 24/58 [00:02<00:01, 24.08it/s]\nOCR-det ch:  69%|######8   | 40/58 [00:02<00:00, 45.15it/s]\nOCR-det ch:  98%|#########8| 57/58 [00:02<00:00, 37.86it/s]\nOCR-det ch: 100%|##########| 58/58 [00:02<00:00, 20.54it/s]\n\nOCR-rec Predict:   0%|          | 0/150 [00:00<?, ?it/s]\nOCR-rec Predict:  12%|#2        | 18/150 [00:00<00:01, 129.27it/s]\nOCR-rec Predict:  24%|##4       | 36/150 [00:00<00:00, 148.45it/s]\nOCR-rec Predict:  40%|####      | 60/150 [00:00<00:00, 161.31it/s]\nOCR-rec Predict:  52%|#####2    | 78/150 [00:00<00:00, 142.35it/s]\nOCR-rec Predict:  64%|######4   | 96/150 [00:00<00:00, 90.98it/s] \nOCR-rec Predict:  72%|#######2  | 108/150 [00:01<00:00, 75.17it/s]\nOCR-rec Predict:  80%|########  | 120/150 [00:01<00:00, 75.90it/s]\nOCR-rec Predict:  88%|########8 | 132/150 [00:01<00:00, 70.35it/s]\nOCR-rec Predict:  96%|#########6| 144/150 [00:01<00:00, 64.57it/s]\nOCR-rec Predict: 100%|##########| 150/150 [00:01<00:00, 81.74it/s]\n\nSeal Predict: 0it [00:00, ?it/s]\nSeal Predict: 0it [00:00, ?it/s]\n\nProcessing pages:   0%|          | 0/1 [00:00<?, ?it/s]\nProcessing pages: 100%|##########| 1/1 [00:00<00:00,  9.84it/s]\n2026-09-07 23:11:50.792 | INFO     | mineru.cli.client:run_planned_task:883 - Completed batch 1/1 | Processed 1/1 page | 1 of 1 batch finished | task#1 [1930-04-01_p3201]\n"
+    }
+  ]
+}

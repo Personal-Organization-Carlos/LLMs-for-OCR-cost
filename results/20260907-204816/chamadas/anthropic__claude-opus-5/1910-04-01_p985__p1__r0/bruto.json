@@ -1,0 +1,87 @@
+{
+  "chave": "anthropic/claude-opus-5|1910-04-01_p985|p1|0",
+  "registro": {
+    "model_id": "anthropic/claude-opus-5",
+    "prompt_id": "p1",
+    "doc_id": "1910-04-01_p985",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 52.927157500060275,
+    "prompt_tokens": 4461,
+    "completion_tokens": 4563,
+    "total_tokens": 9024,
+    "cost_usd": 0.13638,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Anthropic",
+    "generation_id": "gen-1788829313-yZrcwUpR8iwYwx4YWl7p",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T01:01:54Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788829313-yZrcwUpR8iwYwx4YWl7p",
+        "object": "chat.completion",
+        "created": 1788829313,
+        "model": "anthropic/claude-opus-5",
+        "provider": "Anthropic",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "end_turn",
+            "message": {
+              "role": "assistant",
+              "content": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diario Official do Estado de São Paulo — 1 de Abril de 1910</title>\n<style>\n    body {\n        background: #ffffff;\n        color: #000;\n        font-family: \"Times New Roman\", Times, serif;\n        margin: 0 auto;\n        padding: 20px 30px;\n        max-width: 1000px;\n    }\n\n    .masthead {\n        text-align: center;\n    }\n\n    .masthead .linha1 {\n        font-family: \"Arial Black\", Impact, sans-serif;\n        font-weight: bold;\n        font-size: 34px;\n        letter-spacing: 2px;\n        margin: 0;\n    }\n\n    .masthead .linha2 {\n        font-family: \"Arial Black\", Impact, sans-serif;\n        font-weight: bold;\n        font-size: 86px;\n        line-height: 0.95;\n        letter-spacing: 4px;\n        margin: 6px 0 4px 0;\n    }\n\n    .masthead .linha3 {\n        font-family: \"Arial Black\", Impact, sans-serif;\n        font-weight: bold;\n        font-size: 30px;\n        letter-spacing: 3px;\n        margin: 0 0 8px 0;\n    }\n\n    hr.grossa {\n        border: none;\n        border-top: 3px solid #000;\n        margin: 4px 0 2px 0;\n    }\n\n    hr.fina {\n        border: none;\n        border-top: 1px solid #000;\n        margin: 2px 0 6px 0;\n    }\n\n    .cabecalho {\n        display: flex;\n        justify-content: space-between;\n        font-variant: small-caps;\n        font-size: 15px;\n        padding: 2px 6px;\n    }\n\n    .cabecalho .centro {\n        font-variant: normal;\n        font-size: 18px;\n        letter-spacing: 1px;\n    }\n\n    .colunas {\n        display: flex;\n        margin-top: 10px;\n    }\n\n    .coluna {\n        width: 50%;\n        text-align: justify;\n        font-size: 14.5px;\n        line-height: 1.25;\n    }\n\n    .coluna.esq {\n        padding-right: 18px;\n        border-right: 1px solid #000;\n    }\n\n    .coluna.dir {\n        padding-left: 18px;\n    }\n\n    .coluna p {\n        margin: 0;\n        text-indent: 1.6em;\n    }\n\n    .titulo-secao {\n        font-family: \"Arial Black\", Impact, sans-serif;\n        font-size: 30px;\n        text-align: center;\n        letter-spacing: 1px;\n        margin: 0 0 4px 0;\n    }\n\n    .risco-curto {\n        width: 130px;\n        border: none;\n        border-top: 1px solid #000;\n        margin: 6px auto 14px auto;\n    }\n\n    .risco-medio {\n        width: 180px;\n        border: none;\n        border-top: 1px solid #000;\n        margin: 26px auto 26px auto;\n    }\n\n    .decreto {\n        font-family: \"Arial Black\", Impact, sans-serif;\n        font-size: 22px;\n        text-align: center;\n        letter-spacing: 3px;\n        margin: 12px 0 6px 0;\n    }\n\n    .data-decreto {\n        text-align: center;\n        font-variant: small-caps;\n        font-size: 15px;\n        margin-bottom: 14px;\n    }\n\n    .ementa {\n        font-style: italic;\n        text-align: justify;\n        margin-bottom: 14px;\n        text-indent: 0;\n    }\n\n    .assinatura {\n        text-align: left;\n        margin-top: 10px;\n        margin-left: 1.6em;\n        font-size: 17px;\n        letter-spacing: 1px;\n    }\n\n    .assinatura.menor {\n        font-size: 14px;\n        font-variant: small-caps;\n        letter-spacing: 1px;\n    }\n\n    .titulo-clausulas {\n        text-align: center;\n        font-size: 24px;\n        line-height: 1.15;\n        margin: 0 0 18px 0;\n    }\n\n    .numeral {\n        text-align: center;\n        font-size: 16px;\n        letter-spacing: 2px;\n        margin: 16px 0 8px 0;\n    }\n\n    .negrito-final {\n        font-weight: bold;\n    }\n</style>\n</head>\n<body>\n\n<div class=\"masthead\">\n    <p class=\"linha1\">ESTADOS UNIDOS DO BRAZIL</p>\n    <p class=\"linha2\">DIARIO OFFICIAL</p>\n    <p class=\"linha3\">DO ESTADO DE SÃO PAULO</p>\n</div>\n\n<hr class=\"grossa\">\n<hr class=\"fina\">\n\n<div class=\"cabecalho\">\n    <span>Anno 19.º—22.º da Republica—N. 68</span>\n    <span class=\"centro\">SÃO PAULO</span>\n    <span>Sexta-feira 1 de Abril de 1910</span>\n</div>\n\n<hr class=\"fina\">\n<hr class=\"grossa\">\n\n<div class=\"colunas\">\n\n    <!-- COLUNA ESQUERDA -->\n    <div class=\"coluna esq\">\n\n        <p class=\"titulo-secao\">Actos do Poder Executivo</p>\n        <hr class=\"risco-curto\">\n\n        <p class=\"decreto\">DECRETO N. 1848</p>\n        <p class=\"data-decreto\">de 29 de março de 1910</p>\n\n        <p class=\"ementa\">Auctoriza a Companhia Estrada de Ferro S. Paulo a Goyaz a\n        abrir ao trafego publico a linha de Bebedouro a Monte Azul</p>\n\n        <p>O Vice-presidente do Estado de S. Paulo, em exercicio na\n        fórma do § 1 artigo 27, da Constituição,</p>\n\n        <p>Attendendo ao que solicitou a Companhia Estrada do Ferro\n        S. Paulo a Goyaz, e sob proposta do secretario de Estado dos\n        Negocios da Agricultura, Commercio e Obras Publicas,</p>\n\n        <p>Decreta:</p>\n\n        <p>Artigo 1.º&nbsp; Fica a Companhia Estrada de Ferro S. Paulo\n        a Goyaz, auctorizada a abrir ao trafego publico a via ferrea de\n        Bebedouro a Monte Azul, com 31 kilometros de extensão e á\n        qual se referiu o decreto n. 1732, de 4 de Maio de 1909.</p>\n\n        <p>Artigo 2.º&nbsp; A presente licença é concedida mediante a con-\n        dição de, dentro do prazo de 30 dias, contados desta data, serem\n        ultimados os serviços de assentamento da linha telegraphica de\n        retoque do leito e de construcção de cercas lateraes.</p>\n\n        <p>Palacio do Governo do Estado de S. Paulo, 29 de Março\n        de 1910.</p>\n\n        <p class=\"assinatura\">FERNANDO PRESTES DE ALBUQUERQUE.</p>\n        <p class=\"assinatura menor\">Antonio de Padua Salles</p>\n\n        <hr class=\"risco-medio\">\n\n        <p class=\"decreto\">DECRETO N. 1849</p>\n        <p class=\"data-decreto\">de 29 de março de 1910</p>\n\n        <p class=\"ementa\">Concede á Companhia Mogyana de Estradas de Ferro e Nave-\n        gação licença para construcção, uso e goso de uma estrada\n        de ferro que, iniciando-se no bairro de Jatahy, termine em\n        Ribeirão Preto.</p>\n\n        <p>O Vice-presidente do Estado de S. Paulo, em exercicio na\n        fórma do § 1.º, art. 27 da Constituição.</p>\n\n        <p>Usando da attribuição que lhe confere o artigo 2.º da lei\n        n. 30, de 13 de Junho de 1892, e attendendo ao requerido pela\n        Companhia Mogyana de Estradas de Ferro e Navegação, nos\n        termos dos paragraphos 2.º e 3.º do artigo e lei citados,</p>\n\n        <p>Decreta:</p>\n\n        <p>Artigo unico. Fica concedida á Companhia Mogyana de\n        Estradas de Ferro e Navegação licença para construcção, uso e\n        goso de uma via ferrea que — partindo do ponto terminal da\n        que lhe foi concedida pelo decreto n. 1773, de 1.º de Outubro\n        de 1909 — vá terminar em Ribeirão Preto, de conformidade com\n        as clausulas que com este baixam, assignadas pelo sr. dr. se-\n        cretario de Estado dos Negocios da Agricultura, Commercio e\n        Obras Publicas.</p>\n\n        <p>Palacio do Governo do Estado de S. Paulo, 29 de Março\n        de 1910.</p>\n\n        <p class=\"assinatura\">FERNANDO PRESTES DE ALBUQUERQUE</p>\n        <p class=\"assinatura menor\">Antonio de Padua Salles.</p>\n\n    </div>\n\n    <!-- COLUNA DIREITA -->\n    <div class=\"coluna dir\">\n\n        <p class=\"titulo-clausulas\">Clausulas a que refere o Decreto n. 1849, de 29<br>\n        de Março de 1910</p>\n\n        <p class=\"numeral\">I</p>\n\n        <p>O Governo do Estado de S. Paulo concede á Companhia\n        Mogyana de Estradas de Ferro e Navegação licença para con-\n        strucção, uso e goso de uma estrada de ferro que, partindo do\n        ponto terminal da que lhe foi concedida pelo Decreto n. 1773,\n        de 1.º de Outubro de 1909 — vá terminar em Ribeirão Preto.</p>\n\n        <p class=\"numeral\">II</p>\n\n        <p>Esta estrada de ferro gosará de uma zona garantida, de cem\n        metros de cada lado, reduzida a 50 metros nas gargantas e de-\n        clives de serras, limitadas por duas linhas parallelas ao eixo da\n        via permanente, dentro da qual nenhuma outra estrada de ferro\n        poderá receber generos ou passageiros, salvo: 1.º, o caso de ou-\n        tra ou mais estradas terem o mesmo ponto inicial ou terminal;\n        2.º, o caso em que o ponto inicial ou terminal de outra estrada\n        esteja dentro da zona desta; 3.º, o caso de entroncamento refe-\n        rido nesta clausula.</p>\n\n        <p>Comtanto que dentro da zona garantida desta estrada de\n        ferro não receba generos nem passageiros, poderá qualquer ou-\n        tra atravessar a mesma zona, cruzando a linha desta, sujeita,\n        porém, aos onus provenientes do cruzamento.</p>\n\n        <p>Qualquer outra estrada de ferro poderá ter simultanea-\n        mente os mesmos pontos inicial e terminal desta, respeitada\n        a zona garantida por esta clausula, bem como poderá entroncar\n        na linha desta, resolvendo o Governo, definitivamente, em caso\n        de desaccôrdo, para regular as relações provenientes de entron-\n        camento.</p>\n\n        <p>Considerar-se-á entroncamento, não só o caso de ligação\n        por meio de via permanente, como por meio de estação commum.</p>\n\n        <p class=\"numeral\">III</p>\n\n        <p>Gosará mais a estrada de ferro do direito de desappropria-\n        ção, nos termos da legislação do Estado, para os terrenos neces-\n        sarios á construcção da linha, estações, armazens e mais depen-\n        dencias.</p>\n\n        <p>Quando fôr necessario iniciar uma acção de desappropria-\n        ção, deverá ser apresentada ao Governo a respectiva planta, só-\n        mente da parte a desapropriar.</p>\n\n        <p>O Governo, dentro do prazo de trinta dias, da data da apre-\n        sentação da planta, deverá conceder ou negar a licença, dando\n        os motivos da recusa, no caso de negativa, e indicando as mo-\n        dificações de traçado, de modo a permittir a continuação da obra.</p>\n\n        <p>Si, dentro do prazo de trinta dias, o Governo não se mani-\n        festar, fica entendido que está concedida a mesma licença.</p>\n\n        <p class=\"numeral\">I V</p>\n\n        <p>O Governo prestará a esta estrada de ferro toda a prote-\n        cção compativel com as leis, afim de que possa ella realizar a\n        arrecadação das taxas estabelecidas, para que sejam respeitadas\n        as disposições dos seus regulamentos e mantida a sua policia,\n        devendo todo o empregado na arrecadação das taxas e na policia\n        da linha ser cidadão da Republica.</p>\n\n        <p class=\"numeral\">V</p>\n\n        <p class=\"negrito-final\">Antes de iniciarem-se os trabalhos da construcção desta es-\n        trada de ferro, deverão ser submettidos á approvação do Governo\n        os projectos de todos esses trabalhos, que comprehenderão:</p>\n\n    </div>\n\n</div>\n\n</body>\n</html>\n```",
+              "refusal": null,
+              "reasoning": "I'm building an HTML document that replicates the layout with a masthead and two-column structure.\n\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "I'm building an HTML document that replicates the layout with a masthead and two-column structure.\n\n",
+                  "format": "anthropic-claude-v1",
+                  "index": 0,
+                  "signature": "CAIS5AIKrgEIERgCKkBUlR7V6LrgqJ99SIblX5lSVYejgwXjgz55z2suu7iAFJZUoK8Vv80tpRejIgrQdfJe3vydWo9jphHi1+XrkUmGMg1jbGF1ZGUtb3B1cy01OAFCCHRoaW5raW5nWiQwZDk4M2YzZi00OWZhLTRhNDYtODI1NC1iMWJiMjQ5MWEyYTl6HnVwcm9mXzAxMUNlcHpua2tWbVNIcDRQWXl3NFpCVagBh7391AYSDLGbDxtKTVnZ5T6CKRoM3QhLFbJAH/TAKtupIjDmyEkWoMDyhlqIP7eLFHNW3ulsa5yKQfvTCQJRcI7azXB0XF5lhsql4jp8cVcFSAcqY8Ac7eZPikS5SYaaJ5XnLHvDasLbaWSuLGV3/57fHMkFA6ZHP3oCiddGZmkvL76WZE305+DsiFQYSjKbr+DaloJNkMNMy7nfs5ipsNoPWrLLD+/eGtIOWUQlhD/asRnLc7oKixgB"
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 4461,
+          "completion_tokens": 4563,
+          "total_tokens": 9024,
+          "cost": 0.13638,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.13638,
+            "upstream_inference_prompt_cost": 0.022305,
+            "upstream_inference_completions_cost": 0.114075
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 30,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

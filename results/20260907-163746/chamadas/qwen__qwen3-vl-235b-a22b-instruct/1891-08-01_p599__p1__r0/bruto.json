@@ -1,0 +1,78 @@
+{
+  "chave": "qwen/qwen3-vl-235b-a22b-instruct|1891-08-01_p599|p1|0",
+  "registro": {
+    "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "prompt_id": "p1",
+    "doc_id": "1891-08-01_p599",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 44.2877086000517,
+    "prompt_tokens": 2577,
+    "completion_tokens": 2493,
+    "total_tokens": 5070,
+    "cost_usd": 0.00326274,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Alibaba",
+    "generation_id": "gen-1788813467-1f2wzXMXAXy92YcF131H",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-07T20:37:46Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788813467-1f2wzXMXAXy92YcF131H",
+        "object": "chat.completion",
+        "created": 1788813467,
+        "model": "qwen/qwen3-vl-235b-a22b-instruct",
+        "provider": "Alibaba",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Diário Oficial do Estado de São Paulo - 1º de Agosto de 1891</title>\n    <style>\n        body { font-family: serif; line-height: 1.4; margin: 2cm; }\n        h1 { font-size: 2.5em; text-align: center; margin-bottom: 0.2em; }\n        h2 { font-size: 1.8em; text-align: center; margin-top: 0.5em; margin-bottom: 0.3em; }\n        .header { text-align: center; font-size: 0.9em; margin-bottom: 0.5em; }\n        .section { margin-top: 1.5em; }\n        .subheading { font-weight: bold; margin-top: 1em; margin-bottom: 0.5em; }\n        .indent { text-indent: 1.5em; }\n        .center { text-align: center; }\n        .small { font-size: 0.8em; }\n        .underline { text-decoration: underline; }\n    </style>\n</head>\n<body>\n    <h1>ESTADOS UNIDOS DO BRASIL</h1>\n    <h1>DIARIO OFFICIAL</h1>\n    <h2>DO ESTADO DE SÃO PAULO</h2>\n    <div class=\"header\">\n        ANNO I—3º DA REPUBLICA—N. 71 — SÃO PAULO — SABBAO 1 DE AGOSTO DE 1891\n    </div>\n\n    <div class=\"section\">\n        <h2>SENADO</h2>\n        <p><em>Sessão em 31 de Julho de 1891</em></p>\n        <p><strong>PRESIDENCIA DO SR. J. MONTEIRO</strong></p>\n        <p>A’s 12 e 20 da tarde, o sr. 1º secretario procede a chamada, respondendo a ella os srs. J. Monteiro, Frederico Abranches, Paula Machado, Rodrigo Lobato, Mello Freire, Souza Campos, Lycurgo dos Santos e Martin Francisco.</p>\n        <p>Foi concedida a palavra ao sr. Martin Francisco.</p>\n        <p><strong>O sr. Martin Francisco</strong> (movimento de attenção)—Não havendo ainda regimento votado, e estando esta corporação em sessões preparatorias, creio, sr. presidente, usar de um direito apresentando uma indicação cujo destino dependerá da vontade de v. exa.</p>\n        <p>Faço-o impellido por motivos importantes e que affectam a autonomia, os interesses e os brios do povo paulista.</p>\n        <p>Sabe v. exa., sabe a opinião publica, representada aqui legitimamente, que o governo central deliberou, ha quarenta e oito horas, mais uma vez desrespeitar a zona paulista e desfeitar o povo que nos elegeu. Com surpreza para nós senadores e para o povo, cujo desgosto mal poderá ser contido, o governo geral quiz esquecer que o artigo 13 da Constituição Federal aconselhava o adiamento de qualquer solução ao magno problema de viação ferrea no Estado de S. Paulo e concedeu privilegio a dous desconhecidos para uma estrada que ligará ponto da estrada Bragantina ao porto de Santos.</p>\n        <p>Nossa competencia, nossos interesses, nossos direitos, nosso futuro até, ficam assim atirados á margem, nulificados, em proveito de entidades em cujas veias, felizmente, não corre uma gotta do generoso e altivo sangue paulista. (<em>muito bem!</em>)</p>\n        <p>Não cabe nos limites de um simples, embora energico protesto, a discussão ampla do assumpto. Cabe-nos, porém, desde já, a obrigação de fazer sentir ao centro que a paciencia tem limites e que nós não tememos as consequencias naturaes de provocações immerecidas. Os direitos dos nossos committentes não hão de ser objecto de privilégios arranjados clandestinamente pelo empenho lucrativo e pela cobiça descarada (<em>apoiados</em>).</p>\n        <p>Contra a illegal, illogica e mesquinha aggressão do Governo Central, aggressão que será de amanhã, em diante discutida em todos os terrenos, formulo desde agora o meu protesto, apresentando á consciencia e ao voto do Senado a presente:</p>\n        <p><strong>INDICAÇÃO</strong></p>\n        <p>•Indico que o senado represente ao governo federal no sentido de ser suspensa a execução de todas as concessões de linhas férreas no Estado de São Paulo até que o poder competente vote a lei a que se refere o art. 13 da Constituição Federal.</p>\n        <p>Sinto, sr. presidente, nada mais poder fazer neste momento contra o despotismo da centralisação. Sinto... Mas ao menos protestemos em phrases expressivas e claras. Perdemos a nossa autonomia, salvemos o nosso pudor!</p>\n        <p>(<em>Muito bem, muito bem no recinto e nas galerias</em>).</p>\n        <p><strong>O sr. Presidente</strong>—Explica não poder receber já a indicação por não haver numero para deliberar, maxime tratando-se de assumpto tão importante. Protesta também em seu nome contra o pro-</p>\n    </div>\n\n    <div class=\"section\">\n        <h2>ACTOS OFFICIAES</h2>\n        <p><em>Expediente da Presidencia do Estado de S. Paulo</em></p>\n        <p><em>Dia 30 de Julho</em></p>\n        <p><strong>2ª SECÇÃO</strong></p>\n        <p>Foram exonerados, por mudança de domicilio, os cidadãos José Pereira de Mello e Domingos Ferreira da Fonseca do cargo de membros do conselho de intendencia do Rio Bonito, sendo nomeados para substituil-os os cidadãos Jonas Pereira de Mello e Benedicto Honorio de Oliveira.</p>\n        <p>Remetteu-se á intendencia da Fartura o parecer da commissão de camaras municipaes da camara dos deputados do Estado acerca de um pedido de rectificação de divisas entre o mesmo municipio e o de Pirajú, feito pela intendencia deste.</p>\n        <p><strong>OFFICIOS DESPACHADOS</strong></p>\n        <p>Da intendencia de Tatuhy, solicitando pagamento de rs. 9:235$260, despendidos com o lazareto de variolosos da «Agua Branca».—A’ Thesouraria de Fazenda, para informar sobre a legalidade das contas apresentadas.</p>\n        <p>Da intendencia de S. Miguel Archanjo, remettendo cópia de uma resolução adoptada em sessão de 16 de Julho corrente.—Ao dr. procurador fiscal do Thesouro do Estado, para dar parecer.</p>\n        <p><strong>4ª SECÇÃO</strong></p>\n        <p>Foi nomeado o cidadão José Idalino Antunes da Porciuncula, para exercer o cargo de juiz commissario <em>ad hoc</em> de medição das terras de que trata o contracto feito pelo Governo Federal com a Companhia Rural do Brazil, para fundação de nucleos agricolas neste Estado.—Deu-se conhecimento á delegacia de terras e colonisação.</p>\n        <p>Mandou-se dar as seguintes passagens:</p>\n        <p>De 2ª classe desta capital a Mogi das Cruzes, por conta do Estado, na estra-</p>\n    </div>\n\n    <div class=\"section\">\n        <p>da de ferro S. Paulo e Rio de Janeiro, a Donato Pires, restabelecido no hospicio de alienados;</p>\n        <p>De 1ª classe, nas estradas S. Paulo e Rio de Janeiro, Santos a Jundiahy, Paulista, Sorocaba, Ytuana, Bragantina, Rio Claro e Mogya, por conta do ministerio da Agricultura, ao fiscal do 3º districto de engenheiros centraes, Gervasio Pires Ferreira ou seu substituto, sempre que o mesmo requisitar;</p>\n        <p>Por conta do Governo Federal, nas mesmas estradas, á administração do correio, quando por esta requisitadas, em serviço postal ou em caso de remoção de seus empregados.—Deu-se conhecimento ao dr. administrador do correio.</p>\n        <p><strong>O FICIOS DESPACHADOS</strong></p>\n        <p>Da Companhia Mogya informando o officio do Governo de Minas Geraes, relativo a cobrança de direitos de exportação daquelle Estado pelas estações daquella linha.—Ao Thesouro do Estado para informar.</p>\n        <p>Da intendencia de Batataes, communicando ter concedido privilegio a Eduardo Garcia de Oliveira para uma linha de tramways a vapor entre a estação da linha Mogya, naquella cidade e a freguezia de Matto Grosso de Batataes.—A’ directoria da Companhia Mogya para informar.</p>\n        <p><strong>REQUERIMENTOS DESPACHADOS</strong></p>\n        <p>Da Companhia Mogya, reclamando contra concessões de tramways feitas por diversas intendencias, sem attenção aos contractos celebrados entre o Governo e a supplicante.—A’ superintendencia de obras publicas para informar.</p>\n        <p>Da mesma, pedindo celebração de contracto para prolongar sua linha férrea de S. Bom Jesus do Monte à cidade de Soccorro.—Idem.</p>\n        <p>De José Cardoso de Siqueira e outro pedindo concessão da navegação do rio Parahyba desde a freguezia da Escada até Guararema e Santa Branca.—Remetta-se ao Congresso do Estado.</p>\n        <p>De José Marques Nunes e outro, pedindo para estabelecer uma vasta rede telephonica no Estado.—Idem.</p>\n        <p>De Manoel Guilherme de Arruda e Eduardo Mesquita, porteiro e continuo da superintendencia de obras publicas, pedindo melhoria de seus vencimentos.—Idem.</p>\n    </div>\n</body>\n</html>",
+              "refusal": null,
+              "reasoning": null
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2577,
+          "completion_tokens": 2493,
+          "total_tokens": 5070,
+          "cost": 0.00326274,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00326274,
+            "upstream_inference_prompt_cost": 0.00067002,
+            "upstream_inference_completions_cost": 0.00259272
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

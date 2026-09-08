@@ -1,0 +1,78 @@
+{
+  "chave": "anthropic/claude-sonnet-5|1900-04-01_p732|p1|0",
+  "registro": {
+    "model_id": "anthropic/claude-sonnet-5",
+    "prompt_id": "p1",
+    "doc_id": "1900-04-01_p732",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 50.157484699971974,
+    "prompt_tokens": 4840,
+    "completion_tokens": 4908,
+    "total_tokens": 9748,
+    "cost_usd": 0.05876,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Anthropic",
+    "generation_id": "gen-1788826250-EC4lGbg5qivBLHCZaozy",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T00:10:50Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788826250-EC4lGbg5qivBLHCZaozy",
+        "object": "chat.completion",
+        "created": 1788826250,
+        "model": "anthropic/claude-sonnet-5",
+        "provider": "Anthropic",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "end_turn",
+            "message": {
+              "role": "assistant",
+              "content": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diario Official - Domingo, 1 Abril 1900</title>\n<style>\n    body {\n        font-family: Georgia, 'Times New Roman', serif;\n        background-color: #f0ede4;\n        color: #1a1a1a;\n        max-width: 1200px;\n        margin: 0 auto;\n        padding: 20px;\n    }\n    .header {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        border-bottom: 2px solid #000;\n        border-top: 2px solid #000;\n        padding: 5px 0;\n        margin-bottom: 15px;\n        font-size: 14px;\n    }\n    .header .page-num {\n        font-weight: bold;\n        font-size: 16px;\n    }\n    .header .title {\n        font-weight: bold;\n        letter-spacing: 2px;\n        font-size: 18px;\n    }\n    .columns {\n        display: flex;\n        gap: 25px;\n        text-align: justify;\n        font-size: 13px;\n        line-height: 1.35;\n    }\n    .column {\n        flex: 1;\n    }\n    h2 {\n        text-align: center;\n        font-size: 17px;\n        margin: 15px 0 5px 0;\n    }\n    h3 {\n        text-align: center;\n        font-size: 12px;\n        font-weight: normal;\n        text-transform: uppercase;\n        margin: 5px 0;\n    }\n    h4 {\n        text-align: center;\n        font-size: 12px;\n        font-weight: bold;\n        margin: 10px 0 5px 0;\n    }\n    p {\n        margin: 6px 0;\n    }\n    .divider {\n        text-align: center;\n        margin: 15px 0;\n    }\n    .indent {\n        text-indent: 15px;\n    }\n</style>\n</head>\n<body>\n\n<div class=\"header\">\n    <span class=\"page-num\">732 Domingo, 1</span>\n    <span class=\"title\">DIARIO OFFICIAL</span>\n    <span class=\"date\">Abril 1900</span>\n</div>\n\n<div class=\"columns\">\n\n    <div class=\"column\">\n        <p>Ao director do grupo escholar de Botucatú, pedindo orçamento das despesas a que se refere o seu officio de 12 do corrente;</p>\n\n        <p>Ao director do grupo escholar de Bella Vista, auctorizando as despesas constantes do orçamento que acompanhou o seu officio n. 7 do corrente mez;</p>\n\n        <p>Ao director da eschola-modelo de Itapetininga, auctorizando a entrega de varios objectos á pro-professora da eschola mixta do bairro do Porto;</p>\n\n        <p>Ao director do <i>Diario Official</i>, recommendando a remessa dos cartões pedidos para o grupo escholar de Ribeirão Preto;</p>\n\n        <p>Ao secretario da Agricultura, pedindo que ordene as providencias solicitadas por officio de 7 do corrente, em relação ao grupo escholar de Bella Vista.</p>\n\n        <div class=\"divider\">—————</div>\n\n        <h2>Agricultura</h2>\n        <h3>EXPEDIENTE DO DIA 30 DE MARÇO DE 1900</h3>\n        <h4>1.ª SECÇÃO</h4>\n\n        <p>Solicitaram-se do dr. secretario da Fazenda:</p>\n        <p>Pagamentos:</p>\n\n        <p>De 7:500$000, á «City of Santos Improvements Company, Limited», pela agua fornecida, em Outubro, Novembro e Dezembro de 1899, para os serviços de extincção de incendios e irrigação das ruas da cidade de Santos;</p>\n\n        <p>De 1:568$210, a Lebre, Castilho & Comp., pelo fornecimento de artigos diversos á Repartição de Aguas e Exgottos, em Fevereiro ultimo;</p>\n\n        <p>De 732$400, a Espindola, Siqueira & Comp., pelo fornecimento de artigos diversos á Repartição de Aguas e Exgottos, em Fevereiro ultimo;</p>\n\n        <p>De 138$400, a C. Hildebrand & Comp., pelo fornecimento de artigos á mesma repartição, em Fevereiro ultimo;</p>\n\n        <p>De 2:199$400, a Bastiano Buona Vita, por materiaes fornecidos á mesma repartição, em Fevereiro ultimo;</p>\n\n        <p>De 1:285$290, a Eduardo B. Kneesse, por materiaes fornecidos, em Fevereiro ultimo, á mesma repartição;</p>\n\n        <p>De 1:023$360, a Kisgea & Schiefferdecker, por identico fornecimento á mesma repartição, em Fevereiro ultimo;</p>\n\n        <p>De 6:000$990, á Companhia Mechanica e Importadora de São Paulo, por identico fornecimento á mesma repartição, em Fevereiro ultimo;</p>\n\n        <p>De 250$600, a d. Vicencia das Neves, pelo fornecimento, no corrente mez, de 1000 saccos de algodãosinho, para o serviço de distribuição de sementes aos lavradores do Estado.</p>\n\n        <p>De 1:181$460, a Francisco Duarte & Irmão, pelo fornecimento de forragem á Repartição de Aguas e Exgottos, em Fevereiro ultimo;</p>\n\n        <p>De 60$000, a Luiz Sirias & Comp., pelo fornecimento de artigos á mesma repartição, em Fevereiro ultimo;</p>\n\n        <p>De 81$50, a Del Fio e tino & Comp., pelo fornecimento de artigos á mesma repartição, em Fevereiro ultimo;</p>\n\n        <p>De 33$165, á Companhia de Gaz de São Paulo, pelo fornecimento de gaz á Repartição de Aguas e Exgottos, em Janeiro ultimo;</p>\n\n        <p>De 3:098$000, a Brosine Giovani, por materiaes</p>\n    </div>\n\n    <div class=\"column\">\n        <p>fornecidos, em Fevereiro ultimo, á Repartição de Aguas e Exgottos;</p>\n\n        <p>De 356$880, a Francisco Gonçalves, pelo fornecimento de forragem á mesma repartição, em Fevereiro ultimo.</p>\n\n        <p>Credito da quantia de 3:311$200 ao amanuense da Superintendencia de Obras Publicas, João Alfredo Baptista Borba, por despesas, em Fevereiro ultimo, com o pagamento de diarias e transportes de engenheiros, e outros de expediente; recolhendo o mesmo funcionario aos cofres do Thesouro o saldo, em seu poder, da quantia de 8$800.</p>\n\n        <p>Adeantamento da quantia de 680$750, ao engenheiro da Superintendencia de Obras Publicas, Victor Andrigo, para occorrer ás despesas com os reparos do telhado do Hospicio de Alienados da capital.—Deu-se conhecimento ao dr. director da Superintendencia;</p>\n\n        <p>Permissão para o engenheiro Antonio By depositar, no Thesouro do Estado, a quantia de..... 300$0.., como garantia da proposta que pretende apresentar para a construcção de uma cadeia em S. Bento do Sapucahy.</p>\n\n        <p>Auctoriza-se a Commissão Geographica e Geologica a despender 3:200$000, com acquisição de oito animaes para os trabalhos das turmas de campo.</p>\n\n        <p>Declarou-se á Superintendencia de Obras Publicas que fica approvado o contracto celebrado com Francisco José do Prado, para o serviço de passagens em balsa sobre o rio Parahyba, na estrada de Santa Branca a Jacarehy.</p>\n\n        <p>Devolveram-se á Repartição de Aguas e Exgottos, para a necessaria rectificação, as contas apresentadas pela casa Erico Milta & Comp.</p>\n\n        <p>Realizou-se, hoje, 31 de Março de 1900, nesta secretaria, a abertura das propostas apresentadas para a construcção de uma cadeia em S. Bento do Sapucahy, as quaes, assignadas pelos cidadãos Antonio By, Nicola Grigola, Santiago Stornini, José Mollica e Santo Bertollazzi, foram pela respectiva junta, julgadas conforme para decisão ulterior.</p>\n\n        <h4>REQUERIMENTO DESPACHADO</h4>\n\n        <p>Da City of Santos Improvements Company, Limited, pedindo reconsideração do despacho de 22 de Fevereiro ultimo, e apresentando conta de.... 7:500$000 de agua fornecida para a extincção de incendios e irrigação das ruas da cidade de Santos, em Outubro, Novembro e Dezembro de 1899. —Mantenho o despacho de 22 de Fevereiro ultimo. Requisite-se o pagamento de 7:500$000.</p>\n\n        <div class=\"divider\">—————</div>\n\n        <h2>Justiça</h2>\n        <h3>EXPEDIENTE DO DIA 31 DE MARÇO DE 1900</h3>\n        <h4>1.ª SUB-DIRECTORIA</h4>\n        <h4>1.ª SECÇÃO</h4>\n\n        <p>Transmittiu-se:</p>\n\n        <p>Ao sr. ministro da Justiça e Negocios Interiores afim de que se digne examinar a competente destina, a carta rogatoria dirigida pelo juiz de direito da comarca de Santa Cruz do Rio Pardo, ás justiças de Nelgaço, provincia do Minho, no Reino de Portugal, para citação de d. Antonia Maria Rodrigues, como herdeira dos bens deixados pelo finado José Joaquim (Rodrigues) de Castro, a cujo inventario se procede por aquelle juizo.</p>\n    </div>\n\n    <div class=\"column\">\n        <p>Ao secretario do Interior, afim de que se digne tomar em consideração, o officio do 1.º juiz de paz do districto de Cruçapava, em que faz uma consulta sobre o proximo alistamento eleitoral.</p>\n\n        <p>Communicou-se ao chefe de policia, de conformidade com o que participou a Directoria do Serviço Sanitario, em data de 28 do corrente mez, que o cidadão Adolpho Schumann está exercendo illegalmente a profissão de pharmaceutico na cidade de Jacarehy, com pharmacia aberta, que foi adquirida do pharmaceutico José Carlos de Oliveira Garcez Sobrinho, cumprindo que, contra o mesmo, mande proceder de accordo com o codigo penal.</p>\n\n        <h4>Officio despachado</h4>\n\n        <p>Do juiz de direito da comarca de Piedade, remettendo a copia do edital que põe em concurso os officios de 1.ª e 2.º tabelliães de notas, official do registro geral de hypothecas e o distribuidor, todos com os respectivos annexos.—Requisita-se pela directoria geral a publicação do edital.</p>\n\n        <h4>2.ª SECÇÃO</h4>\n\n        <p>Solicitaram-se as seguintes informações:</p>\n\n        <p>Do dr. juiz de direito de Mogy-mirim, conjuntamente com o seu preser, a respeito da petição de graça que em tempo apresentou ao governo do Estado o sentenciado Heitor des Retours, recolhido á cadeia publica daquella cidade em cumprimento de pena imposta pelo jury local;</p>\n\n        <p>Do dr. juiz de direito de Itatiba, idem, idem, quanto ao sentenciado Paulo Luiz;</p>\n\n        <p>Do dr. juiz de direito de Botucatú, idem, idem, quanto ao sentenciado João Martin;</p>\n\n        <p>Do dr. juiz de direito de Santo Antonio da Cachoeira, idem, idem, quanto ao sentenciado Luiz Beraldi;</p>\n\n        <p>Do dr. juiz de direito de Pirassununga, idem, idem, quanto ao sentenciado Virgilio Gatto Suassuna;</p>\n\n        <p>Do dr. juiz de direito de Lençóes, idem, idem, quanto ao sentenciado Roberto José da Silva;</p>\n\n        <p>Do dr. juiz de direito de S. Carlos do Pinhal, conjuntamente com as providencias necessarias, sobre o requerimento em que o sentenciado Joaquim Rodrigues Pinto, recolhido á cadeia publica da capital, em cumprimento de pena imposta pelo jury daquella comarca, pede a copia de seu processo para instruir petição de graça que deseja apresentar.</p>\n\n        <p>Transmittiram-se:</p>\n\n        <p>Ao dr. presidente do Tribunal de Justiça, para que se digne aquelle tribunal informar a respeito, a petição de graça, devidamente documentada, que ao governo do Estado apresentou o sentenciado Antonio Augusto Alves, recolhido á cadeia publica de Bebedouro, desde 4 de Setembro de 1899, em cumprimento da pena de um anno e dois mezes de prisão simples que lhe foi imposta pelo jury daquella comarca, em 16 de Outubro do mesmo anno.</p>\n\n        <p>Ao dr. juiz de direito de Bananal, para ser entregue ao interessado, o titulo de nomeação do promotor publico daquella comarca, bacharel Alvaro Augusto de Carvalho Aranha, para o cargo de curador geral de orphams e ausentes, por decreto de 23 do mez findo de Fevereiro;</p>\n\n        <p>Ao dr. juiz de direito de Xiririca, egual titulo do promotor publico daquella comarca, bacharel</p>\n    </div>\n\n</div>\n\n</body>\n</html>\n```",
+              "refusal": null,
+              "reasoning": null
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 4840,
+          "completion_tokens": 4908,
+          "total_tokens": 9748,
+          "cost": 0.05876,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.05876,
+            "upstream_inference_prompt_cost": 0.00968,
+            "upstream_inference_completions_cost": 0.04908
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

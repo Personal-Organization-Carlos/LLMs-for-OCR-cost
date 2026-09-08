@@ -1,0 +1,78 @@
+{
+  "chave": "qwen/qwen3-vl-235b-a22b-instruct|1910-04-01_p986|p1|0",
+  "registro": {
+    "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
+    "prompt_id": "p1",
+    "doc_id": "1910-04-01_p986",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 67.37093580001965,
+    "prompt_tokens": 2553,
+    "completion_tokens": 2717,
+    "total_tokens": 5270,
+    "cost_usd": 0.00348946,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Alibaba",
+    "generation_id": "gen-1788814035-Hj8czGwyKqVgKAwG8WwL",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-07T20:47:15Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788814035-Hj8czGwyKqVgKAwG8WwL",
+        "object": "chat.completion",
+        "created": 1788814035,
+        "model": "qwen/qwen3-vl-235b-a22b-instruct",
+        "provider": "Alibaba",
+        "system_fingerprint": null,
+        "service_tier": null,
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Diário Oficial - Abril 1910</title>\n    <style>\n        body {\n            font-family: \"Times New Roman\", serif;\n            line-height: 1.4;\n            margin: 2cm;\n            text-align: justify;\n        }\n        .header {\n            display: flex;\n            justify-content: space-between;\n            border-bottom: 2px solid black;\n            padding-bottom: 5px;\n            margin-bottom: 10px;\n        }\n        .page-number {\n            font-weight: bold;\n        }\n        .date {\n            font-weight: bold;\n        }\n        .title {\n            text-align: center;\n            font-weight: bold;\n            margin: 10px 0;\n        }\n        .section {\n            margin-bottom: 1em;\n        }\n        .clause {\n            margin-left: 2em;\n            text-indent: -1em;\n        }\n        .subclause {\n            margin-left: 4em;\n            text-indent: -1em;\n        }\n        .roman-numeral {\n            font-weight: bold;\n            text-align: center;\n            margin: 1em 0;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"header\">\n        <span class=\"page-number\">986 Sexta-feira 1</span>\n        <span class=\"title\">DIÁRIO OFICIAL</span>\n        <span class=\"date\">Abril 1910</span>\n    </div>\n\n    <div class=\"section\">\n        <div class=\"clause\">a) Planta geral da linha concedida com a indicação dos pontos de passagem obrigatórios, configuração do terreno, representada por meio de curvas de nível equidistantes de cinco metros no máximo, o, bem assim, em uma zona de cincuenta metros pelo menos, para cada lado, os campos, matas, terrenos pedregosos e brejos, e, sempre que fôr possível, a divisa das propriedades particulares, minas e terras devolutas.</div>\n        <div class=\"clause\">Nessa planta, em escala de um para quatro mil, serão indicadas todas as distancias kilometricas, contadas a partir do ponto inicial da estrada; a extensão dos alinhamentos rectos e curvos; os grãos e raios das curvas empregadas.</div>\n        <div class=\"clause\">b) Perfil longitudinal, na escala de um para quatrocentos, para as alturas, e de um para quatro mil, para as distancias horizontaes, mostrando, por meio de convenção, o terreno natural, as plataformas dos córtes e aterros e as obras de arte.</div>\n        <div class=\"clause\">c) O perfil longitudinal deverá ser acompanhado de perfis transversaes intervalados de cinqüenta metros, no maximo.</div>\n        <div class=\"clause\">d) Projectos completos e especificados de todas as obras de arte necessarias para o estabelecimento da estrada, pontes, tuneis, viaductos, prédios, boeiros, estações e dependencias, bem como plantas de todas as propriedades, na parte cuja desapropriação fôr indispensavel.</div>\n        <div class=\"clause\">e) O desenho dos trilhos e accessórios, em grandeza de execução.</div>\n        <div class=\"clause\">f) Relação do material rodante, contendo o typo das locomotivas, vagões, gondolas e carros de passageiros, na escala de um para cinqüenta, ou em catalogos das fabricas.</div>\n        <div class=\"clause\">Esses dados poderão ser apresentados por secções, contanto que estas não sejam menores de cinco kilometros.</div>\n        <div class=\"clause\">Os projectos das pontes, estações e outras obras importantes poderão ser apresentados á medida que tiverem de ser executados.</div>\n        <div class=\"clause\">O Governo poderá rejeitar os projectos, quando não offerecerem garantia de solidez; mas terá então de apresentar as modificações que julgar convenientes.</div>\n        <div class=\"clause\">Não se sujeitando a concessionaria a elles, poderá recorrer á arbitragem, como vzo determinado na clausula XIX.</div>\n    </div>\n\n    <div class=\"roman-numeral\">VI</div>\n    <div class=\"section\">\n        <div class=\"clause\">Dentro de seis mezes, a contar da data da publicação do decreto de concessão de licença, deverão ser iniciados os trabalhos de construção desta estrada de ferro, os quaes deverão estar concluidos dentro de dois annos, a contar da data da approvação dos projectos a que se refere a clausula antecedente.</div>\n        <div class=\"clause\">Si, esgotado o prazo marcado para inicio, não houver começado as obras da linha, a concessionaria perderá a importancia da caução, em proveito do Estado, salvo caso de força maior, a juizo do Governo, que concederá mais uma só prorrogação, do mesmo daquelle prazo.</div>\n    </div>\n\n    <div class=\"roman-numeral\">VII</div>\n    <div class=\"section\">\n        <div class=\"clause\">A estação feita pela concessionaria poderá ser levantada desde que tenham sido dispendidos em construção tres por cento da importância total de 5.032:634$284, do orçamento approximativo.</div>\n        <div class=\"clause\">A requerimento da Companhia, o Governo mandará um engenheiro da repartição competente examinar si a quantidade de obras feitas corresponde a tres por cento da importância referida.</div>\n        <div class=\"clause\">Esse exame não poderá durar mais de dois mezes. Os vencimentos do engenheiro, durante o tempo do exame das obras, cobrarão por conta da concessionaria e serão deduzidos da importância pela mesma caucionada.</div>\n        <div class=\"clause\">Si, no fim de um mez, a contar da data do pedido de exame das obras, não tiver o Governo encarregado engenheiro algum desse serviço, será considerado o exame feito e o total da quantia caucionada deverá ser retirado, independentemente da verificação da obra feita.</div>\n    </div>\n\n    <div class=\"roman-numeral\">VIII</div>\n    <div class=\"section\">\n        <div class=\"clause\">O Governo, por seus agentes, poderá intervir, em qualquer tempo, em tudo o que se referir á solidez das obras, resistencia do material e segurança do publico nesta estrada de ferro.</div>\n    </div>\n\n    <div class=\"roman-numeral\">XI</div>\n    <div class=\"section\">\n        <div class=\"clause\">As obras de construção desta estrada de ferro não poderão impedir: o escoamento das aguas das propriedades particulares, a passagem das galerias de esgotos urbanos, de aguas utilizadas para abastecimento ou para fins industriais e agricolas, a navegabilidade dos rios e canaes e o livre transito das vias publicas. Ficam a cargo desta estrada de ferro as despesas com as obras necessarias para o cruzamento das ruas, estradas publicas e caminhos particulares existentes ao tempo da construção da linha, ficando tambem a seu cargo as despesas com signaes e guardas, quando se tornarem precisos nesses cruzamentos. Os onus provenientes dos cruzamentos das vias publicas que se abrirem depois de construcção desta estrada de ferro não correrão por conta della.</div>\n    </div>\n\n    <div class=\"roman-numeral\">X</div>\n    <div class=\"section\">\n        <div class=\"clause\">Os preços de transporte nesta estrada de ferro serão fixados em tarifas previamente approvadas pela administração publica. Dessas tarifas deverá constar a indicação de logar de partida e do chegada, a determinação dos fretes pelas distancias a percorrer e a classificação dos generos.</div>\n        <div class=\"clause\">Não poderão esses preços exceder os mínimos adoptados para as linhas férreas de igual bitola.</div>\n        <div class=\"clause\">E' vedado á estrada adoptar tarifas de favor para prejudicar ou favorecer pessoas ou empresas determinadas, assim como cobrar preços differentes pelo transporte de passageiros e generos, feito em condições identicas, desde que percorram distancias eguaes, salvo o caso de tarifas differenciaes.</div>\n        <div class=\"clause\">Depois de approvadas pelo Governo, serão as tarifas impressas em caracteres legiveis e collocadas em todas as estações, para conhecimento do publico.</div>\n    </div>\n\n    <div class=\"roman-numeral\">XI</div>\n    <div class=\"section\">\n        <div class=\"clause\">Quando houver necessidade de se elevarem os preços das tarifas, solicitará esta estrada licença do Governo, apresentando as razões do acréscimo. No prazo maximo de um mez resolverá o Governo sobre a questão. Si não o fizer, fica entendido que o acréscimo de preço está approvado. Nenhuma elevação de preços das tarifas poderá ter força obrigatoria, mesmo approvada pelo Governo, senão depois da publicação na imprensa, durante dez dias, annunciando a modificação feita.</div>\n        <div class=\"clause\">Essa publicação será feita nos jornaes de maior circulação da Capital do Estado, e, quando fôr possivel, em um de cada localidade servida por esta estrada.</div>\n        <div class=\"clause\">A reducção dos preços das tarifas poderá ter logar, independentemente de publicação prévia.</div>\n        <div class=\"clause\">Uma vez, porém, adoptada, a publicação será obrigatoria.</div>\n    </div>\n\n    <div class=\"roman-numeral\">XII</div>\n    <div class=\"section\">\n        <div class=\"clause\">As combinações que fizer esta estrada de ferro com outras, a respeito de tarifas, só terão força obrigatoria depois de approvadas pelo Governo.</div>\n    </div>\n\n    <div class=\"roman-numeral\">XIII</div>\n    <div class=\"section\">\n        <div class=\"clause\">Serão observadas nesta estrada de ferro, emquanto o Governo não expedir o regulamento da lei n. 30, de 13 de Junho de 1892, as bases geraes para o transporte de bagagens, encomendas e mercadorias, estabelecidas pelo decreto n. 1237, de 2 de Maio de 1889.</div>\n    </div>\n\n    <div class=\"roman-numeral\">XIV</div>\n    <div class=\"section\">\n        <div class=\"clause\">Para todos os effeitos legaes ou resultantes de contractos de lucros distribuidos entre os accionistas desta estrada de ferro, quer a titulo de bonus, quer sob forma de acções beneficiarias, ou por qualquer outro meio, serão computados conjuntamente com os pagos sob a denominação de dividendo.</div>\n        <div class=\"clause\">Para todos os effeitos resultantes de contractos, esta estrada deverá apresentar ao Governo a conta do seu capital empregado na construção primitiva, nos melhoramentos da linha e suas dependencias.</div>\n    </div>\n</body>\n</html>",
+              "refusal": null,
+              "reasoning": null
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 2553,
+          "completion_tokens": 2717,
+          "total_tokens": 5270,
+          "cost": 0.00348946,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00348946,
+            "upstream_inference_prompt_cost": 0.00066378,
+            "upstream_inference_completions_cost": 0.00282568
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

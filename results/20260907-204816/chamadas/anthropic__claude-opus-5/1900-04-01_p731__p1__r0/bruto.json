@@ -1,0 +1,87 @@
+{
+  "chave": "anthropic/claude-opus-5|1900-04-01_p731|p1|0",
+  "registro": {
+    "model_id": "anthropic/claude-opus-5",
+    "prompt_id": "p1",
+    "doc_id": "1900-04-01_p731",
+    "repetition": 0,
+    "ok": true,
+    "error": null,
+    "error_kind": null,
+    "latency_s": 62.04391480004415,
+    "prompt_tokens": 4767,
+    "completion_tokens": 4947,
+    "total_tokens": 9714,
+    "cost_usd": 0.14751,
+    "cost_source": "usage",
+    "finish_reason": "stop",
+    "truncated": false,
+    "api_provider": "openrouter",
+    "provider_upstream": "Anthropic",
+    "generation_id": "gen-1788828934-f61xtCMlhRPBcS3Y3Vpk",
+    "attempts": 1,
+    "timestamp_utc": "2026-09-08T00:55:34Z"
+  },
+  "respostas_brutas": [
+    {
+      "etapa": "chat/completions",
+      "tentativa": 1,
+      "http_status": 200,
+      "corpo": {
+        "id": "gen-1788828934-f61xtCMlhRPBcS3Y3Vpk",
+        "object": "chat.completion",
+        "created": 1788828934,
+        "model": "anthropic/claude-opus-5",
+        "provider": "Anthropic",
+        "system_fingerprint": null,
+        "service_tier": "default",
+        "choices": [
+          {
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "stop",
+            "native_finish_reason": "end_turn",
+            "message": {
+              "role": "assistant",
+              "content": "```html\n<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<meta charset=\"UTF-8\">\n<title>Diario Official do Estado de São Paulo — 1 de Abril de 1900</title>\n<style>\n    body {\n        background: #fdfdfa;\n        color: #111;\n        font-family: \"Times New Roman\", Times, serif;\n        margin: 20px auto;\n        max-width: 1100px;\n        padding: 10px 25px;\n    }\n    .cabecalho {\n        text-align: center;\n    }\n    .cabecalho .linha1 {\n        font-size: 30px;\n        font-weight: bold;\n        letter-spacing: 4px;\n        margin-bottom: 2px;\n    }\n    .cabecalho .titulo {\n        font-size: 92px;\n        font-weight: bold;\n        letter-spacing: 6px;\n        line-height: 0.95;\n        margin: 4px 0;\n    }\n    .cabecalho .linha3 {\n        font-size: 30px;\n        font-weight: bold;\n        letter-spacing: 5px;\n        margin-top: 4px;\n    }\n    .regua {\n        border-top: 3px solid #000;\n        border-bottom: 1px solid #000;\n        height: 4px;\n        margin: 12px 0 4px 0;\n    }\n    .barra {\n        display: flex;\n        justify-content: space-between;\n        font-size: 15px;\n        font-weight: bold;\n        letter-spacing: 1px;\n        padding: 4px 6px;\n    }\n    .regua2 {\n        border-top: 1px solid #000;\n        border-bottom: 3px solid #000;\n        height: 4px;\n        margin: 4px 0 14px 0;\n    }\n    .colunas {\n        column-count: 3;\n        column-gap: 26px;\n        column-rule: 1px solid #000;\n        text-align: justify;\n        font-size: 13px;\n        line-height: 1.25;\n    }\n    .colunas p {\n        margin: 0;\n        text-indent: 18px;\n    }\n    h2.secao {\n        text-align: center;\n        font-size: 22px;\n        font-weight: bold;\n        letter-spacing: 1px;\n        margin: 10px 0 4px 0;\n        border-bottom: 1px solid #000;\n        padding-bottom: 3px;\n    }\n    h3.sub {\n        text-align: center;\n        font-size: 19px;\n        font-weight: normal;\n        margin: 14px 0 6px 0;\n    }\n    h4.men {\n        text-align: center;\n        font-size: 12px;\n        font-weight: normal;\n        font-variant: small-caps;\n        letter-spacing: 1px;\n        margin: 10px 0 5px 0;\n    }\n    h4.men2 {\n        text-align: center;\n        font-size: 14px;\n        font-weight: normal;\n        margin: 10px 0 5px 0;\n    }\n    .italico {\n        text-align: center;\n        font-style: italic;\n        font-size: 14px;\n        margin: 8px 0 5px 0;\n    }\n    .sep {\n        text-align: center;\n        margin: 6px 0;\n    }\n</style>\n</head>\n<body>\n\n<div class=\"cabecalho\">\n    <div class=\"linha1\">ESTADOS UNIDOS DO BRAZIL</div>\n    <div class=\"titulo\">DIARIO OFFICIAL</div>\n    <div class=\"linha3\">DO ESTADO DE SÃO PAULO</div>\n</div>\n\n<div class=\"regua\"></div>\n<div class=\"barra\">\n    <span>ANNO 9&deg;&mdash;12.&ordf; DA REPUBLICA&mdash;N. 75</span>\n    <span>SÃO PAULO</span>\n    <span>DOMINGO, 1 DE ABRIL DE 1900</span>\n</div>\n<div class=\"regua2\"></div>\n\n<div class=\"colunas\">\n\n    <h2 class=\"secao\">ACTOS DO PODER EXECUTIVO</h2>\n    <div class=\"sep\">&mdash;</div>\n\n    <h3 class=\"sub\">Interior</h3>\n\n    <p>Por decreto de 27 do corrente foi exonerado o professor preliminar, cidadão José de Castro, com exercicio na Eschola Complementar de Itapetininga, para o cargo de professor do grupo escholar de São Manoel do Paraiso ;</p>\n    <p>Por decreto da mesma data, foi nomeada a professora preliminar, d. Anna Candida Soares, para o cargo de professora adjuncta do grupo escholar da Faxina ;</p>\n    <p>Por decreto da mesma data, foi nomeada a professora de egual categoria, d. Emygdia Soares, para, interinamente, exercer o cargo de professora do mesmo grupo.</p>\n    <p>Por decreto da mesma data, foi exonerado, a pedido, o bacharel José Pinto de Moura, do cargo de lente da 9.&ordf; cadeira do Gymnasio de Campinas ;</p>\n    <p>Por decreto da mesma data, foram creados quatro logares de adjunctos na secção feminina do 2.&deg; grupo escholar de Campinas ;</p>\n    <p>Por decreto da mesma data, foram tambem creados dois logares identicos na secção feminina do grupo da Faxina.</p>\n\n    <h3 class=\"sub\">Agricultura</h3>\n\n    <p>Por decreto de 27 do mez findo, foi removido a pedido, o cidadão Carlos Martins, 2.&deg; escripturario da Hospedaria de Immigrantes, para o logar de conferente da Repartição de Aguas e Exgottos ; sendo nomeado para aquella vaga o cidadão Julio Bicudo.</p>\n\n    <div class=\"sep\">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</div>\n\n    <h2 class=\"secao\">SECRETARIAS DE ESTADO</h2>\n\n    <h3 class=\"sub\">Interior</h3>\n\n    <h4 class=\"men\">EXPEDIENTE DE 30 DE MARÇO DE 1900</h4>\n    <h4 class=\"men2\">1.&ordf; SUB-DIRECTORIA</h4>\n    <h4 class=\"men\">1.&ordf; SECÇÃO</h4>\n\n    <p>Communicou-se á Secretaria dos Negocios da Fazenda, para os devidos fins, que o bacharel Jacintho do Nascimento Moura, auxiliar da redacção do <i>Diario Official</i>, reassumiu o exercicio do cargo no dia 24 do corrente, visto ter terminado a licença em cujo goso se achava.</p>\n    <p>Transmittiram-se á Secretaria dos Negocios da Agricultura, Commercio e Obras Publicas dois officios, sendo um da camara municipal de Guarehy e outro do intendente municipal da Franca, visto tratarem de assumptos referentes áquella secretaria.</p>\n\n    <h4 class=\"men2\">2.&ordf; SECÇÃO</h4>\n    <div class=\"italico\">Officios despachados</div>\n\n    <p>Da Secretaria da Agricultura, communicando que opportunamente será executado o serviço de exgottos nos bairros da Lapa, Agua Branca e outros da capital.&mdash;A' Directoria do Serviço Sanitario.</p>\n\n    <h4 class=\"men\">EXPEDIENTE DE 28 DE MARÇO DE 1900</h4>\n    <h4 class=\"men2\">3.&ordf; SECÇÃO</h4>\n\n    <p>Foram solicitados da Secretaria da Fazenda os seguintes pagamentos :</p>\n    <p>De 35$000, pela collectoria de Mogy das Cruzes, ao director do grupo escholar daquella cidade, pelos fornecimentos feitos ao referido estabelecimento ;</p>\n    <p>De 2:810$100, pela collectoria da Faxina, ao director do grupo escholar daquella cidade, Emilio Mario de Arantes, proveniente de fornecimentos feitos ao dito estabelecimento ;</p>\n    <p>De 295$000, pela collectoria de Areias, ao director do grupo escholar daquella cidade, José Mario da Silveira, proveniente de reparos feitos no predio onde funcciona o referido estabelecimento ;</p>\n    <p>De 100$000, pela collectoria de Espirito Santo do Pinhal, ao director, em commissão, do grupo escholar daquella cidade, Domingos de Paula da Silva, proveniente de contas de serviços prestados ao referido estabelecimento.</p>\n    <p>Auctorizou-se o director do Serviço Sanitario a despender a quantia de 725$000, para acquisição de objectos necessarios áquella repartição.</p>\n\n    <h4 class=\"men2\">1.&ordf; SUB-DIRECTORIA</h4>\n    <h4 class=\"men\">1.&ordf; SECÇÃO</h4>\n\n    <p>Communicou-se ao sr. dr. secretario da Fazenda :</p>\n    <p>Que, por motivo de molestia, interrompeu o exercicio de seu cargo, desde o dia 14 do corrente, o professor do grupo escholar do Braz, cidadão Genesio Braulio Rodrigues ;</p>\n    <p>Que foram abonadas seis faltas dadas pelo professor de escripturação mercantil da Eschola Normal, cidadão Jeronymo Azevedo, no mez ultimo.</p>\n    <p>Recommendou-se ao director do grupo escholar «Dr. Flaminio Lessa», de Guaratinguetá, que informasse a este secretariado de que serviço se acha encarregado o professor Miguel Virginio dos Santos.</p>\n    <p>Declarou-se ao director do grupo escholar «Gabriel Prestes», de Lorena, em resposta ao seu officio n. 21, de 6 do corrente, não haver necessidade do augmento de uma sala naquelle estabelecimento, como informou o inspector escholar que alli esteve em commissão.</p>\n\n    <div class=\"italico\">Requerimento despachado</div>\n\n    <p>De Maria da Piedade Canto, porteira do grupo escholar de Lorena, pedindo equiparação de seus vencimentos aos do porteiro do mesmo grupo.&mdash;Sejam equiparados.</p>\n\n    <h4 class=\"men2\">3.&ordf; SECÇÃO</h4>\n    <div class=\"italico\">Dia 27</div>\n\n    <p>Officiou-se :</p>\n    <p>A' Fazenda, communicando que a professora nomeada para reger a eschola mixta da vila Cerqueira Cesar, desta capital, d. Maria Ellis Mac Intyre, assumiu o exercicio no dia 20 do corrente ;</p>\n    <p>A' mesma, communicando que a 10 do corrente foi nomeado inspector municipal de Santa Barbara do Rio Pardo, assumindo o exercicio a 17 do mesmo, o major Casemiro Nunes de Carvalho ;</p>\n    <p>A' mesma, communicando que entrou em exercicio da eschola da villa do Rio das Pedras, no dia 20 do corrente, o professor João Braulio Cesar.</p>\n\n    <div class=\"italico\">Dia 28</div>\n\n    <p>Officiou-se :</p>\n    <p>A' Fazenda, trasmittindo, por cópia, o decreto que aposentou a professora da eschola do 22.&deg; districto desta capital, d. Galdina America de Almeida, bem como todos os papeis referentes ao assumpto ;</p>\n    <p>A' mesma, transmittindo, por cópia, o decreto que aposentou o professor da eschola do bairro de Santa Cruz, municipio de Cruzeiro e demais papeis referentes ao assumpto ;</p>\n    <p>A' mesma, transmittindo, por cópia, o decreto que aposentou o cidadão Augusto Pinto da Silva Saes, professor da eschola da villa de S. Pedro, e demais papeis referentes ao assumpto ;</p>\n    <p>A' mesma, solicitando pagamento da gratificação de que trata o artigo 125 do regulamento de 27 de Novembro de 1893, ao professor adjuncto da 1.&ordf; eschola de Santos, cidadão Olyntho Paiva.</p>\n\n    <div class=\"italico\">Dia 29</div>\n\n    <p>Officiou-se :</p>\n    <p>A' Fazenda, communicando que a professora da eschola do 5.&deg; districto, desta capital, d. Marianna da Gloria Rodrigues Bahia, entrou a 21 do corrente no goso da licença que lhe fôra concedida ;</p>\n    <p>A' mesma, communicando que o professor Braziliano de Azevedo, removido da eschola do bairro dos Mauricios, em São Bento do Sapucahy, para a da freguezia de Santo Antonio do Pinhal, do mesmo municipio, assumiu o exercicio do cargo no dia 17 do corrente.</p>\n\n    <div class=\"italico\">Dia 30</div>\n\n    <p>Officiou-se :</p>\n    <p>A' camara municipal de Santos, mandando passar os attestados de exercicio ao professor da 4.&ordf; eschola daquella cidade, cidadão Eugenio Porchat de Assis, visto não ter sido abandonada a sua eschola, conforme se verificou dos papeis relativos ao caso.</p>\n\n    <h4 class=\"men2\">3.&ordf; SECÇÃO</h4>\n\n    <p>Officiou-se :</p>\n    <p>Ao agente da E. de Ferro Central, pedindo transporte para volumes destinados aos grupos escholares de Areias e Pindamonhangaba ;</p>\n\n</div>\n\n</body>\n</html>\n```",
+              "refusal": null,
+              "reasoning": "I'm structuring the HTML to replicate the newspaper masthead—\"ESTADOS UNIDOS DO BRAZIL,\" \"DIARIO OFFICIAL,\" and \"DO ESTADO DE SÃO PAULO\"—followed by the dateline and a three-column layout for the body text.\n\n",
+              "reasoning_details": [
+                {
+                  "type": "reasoning.text",
+                  "text": "I'm structuring the HTML to replicate the newspaper masthead—\"ESTADOS UNIDOS DO BRAZIL,\" \"DIARIO OFFICIAL,\" and \"DO ESTADO DE SÃO PAULO\"—followed by the dateline and a three-column layout for the body text.\n\n",
+                  "format": "anthropic-claude-v1",
+                  "index": 0,
+                  "signature": "CAISyAQKrgEIERgCKkDU2SBwZ7pg1CxB3qwmrincCGcW1aUoNCKYpkNAg3vhcFPvjY5Jx8s9h9d77xbVq9VqYpk1hdl33r1P5d0YoFoIMg1jbGF1ZGUtb3B1cy01OAFCCHRoaW5raW5nWiQwZDk4M2YzZi00OWZhLTRhNDYtODI1NC1iMWJiMjQ5MWEyYTl6HnVwcm9mXzAxMUNlcHpua2tWbVNIcDRQWXl3NFpCVagBj7r91AYSDI34BvIaEaLfa9kkdBoMmJ3CrXIbyb4K3x9YIjC+HSbiIGE4P1gaOOAcYrSvqxqHwWSUSt7zb88k0MtVDfUlkSjSVZjYejVEW2jKWI0qxgLl3YLTwiL4azKo+BlwBW18wbt74jvzo8wgGgzRzFwHLO5E+nWbZD8UWGrMdRieN1ZDRmZEF7K9kvqV5lgehv+Qc9oGefla5q0cgRN7GLveuAVhxpcU4obVvS3bVLlweF0t/BzPFXE3eUee0vjZGmxC9upVbd+vEhOjaN3j15bRVJt3xTTKTbVTt6dQjCUMRbY0FyotXQuSfzOry2j9ellhIv63QLONXyIc9i9IyIYRUCMcSvb7sNHHDYB/Nb2AQ8ddUm16NRLSob/YLX85CrTLrWLKLzdMXwVusAiBgNiaBvp3UhT5ufjAwXtXEJO/ciZfECU2+xROSkajUxjqDwqW1b8bVL0LpG0EN2W0c5GxkJkRAkM/E7waD/OEJW7buSajHa0RmTxnpI0zvrR2ceQT9L0XY3RKxShgDbcVux8l1rWf0MwBkxgB"
+                }
+              ]
+            }
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 4767,
+          "completion_tokens": 4947,
+          "total_tokens": 9714,
+          "cost": 0.14751,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.14751,
+            "upstream_inference_prompt_cost": 0.023835,
+            "upstream_inference_completions_cost": 0.123675
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 163,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        }
+      }
+    }
+  ]
+}

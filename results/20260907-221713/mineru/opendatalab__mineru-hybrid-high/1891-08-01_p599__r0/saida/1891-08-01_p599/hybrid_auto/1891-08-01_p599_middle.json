@@ -1,0 +1,3250 @@
+{
+    "pdf_info": [
+        {
+            "preproc_blocks": [
+                {
+                    "bbox": [
+                        6,
+                        38,
+                        537,
+                        81
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                6,
+                                38,
+                                537,
+                                81
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        6,
+                                        38,
+                                        537,
+                                        81
+                                    ],
+                                    "type": "text",
+                                    "content": "DIARIO OFFICIAL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        110,
+                        84,
+                        444,
+                        101
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                84,
+                                444,
+                                101
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        84,
+                                        444,
+                                        101
+                                    ],
+                                    "type": "text",
+                                    "content": "DO ESTADO DE SÃO PAULO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        12,
+                        108,
+                        187,
+                        118
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                12,
+                                108,
+                                187,
+                                118
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        12,
+                                        108,
+                                        187,
+                                        118
+                                    ],
+                                    "type": "text",
+                                    "content": "ANNO 1-3° DA REPUBLICA-N. 71"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        235,
+                        106,
+                        297,
+                        116
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                235,
+                                106,
+                                297,
+                                116
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        235,
+                                        106,
+                                        297,
+                                        116
+                                    ],
+                                    "type": "text",
+                                    "content": "SÃO PAULO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        371,
+                        106,
+                        529,
+                        116
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                371,
+                                106,
+                                529,
+                                116
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        371,
+                                        106,
+                                        529,
+                                        116
+                                    ],
+                                    "type": "text",
+                                    "content": "SABBADO 1 DE AGOSTO DE 189"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        39,
+                        134,
+                        147,
+                        148
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                39,
+                                134,
+                                147,
+                                148
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        134,
+                                        147,
+                                        148
+                                    ],
+                                    "type": "text",
+                                    "content": "SENADO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        28,
+                        152,
+                        160,
+                        162
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                28,
+                                152,
+                                160,
+                                162
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        28,
+                                        152,
+                                        160,
+                                        162
+                                    ],
+                                    "type": "text",
+                                    "content": "Sessão em 31 de Julho de 1891."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        36,
+                        167,
+                        153,
+                        174
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                36,
+                                167,
+                                153,
+                                174
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        36,
+                                        167,
+                                        153,
+                                        174
+                                    ],
+                                    "type": "text",
+                                    "content": "PRESIDENCIA DO SR. J. MONTEIRO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        6,
+                        176,
+                        184,
+                        217
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                6,
+                                176,
+                                184,
+                                217
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        6,
+                                        176,
+                                        184,
+                                        217
+                                    ],
+                                    "type": "text",
+                                    "content": "A's 12 e 20 da tarde, o sr. 1º secretario procede a chamada, respondendo a ella os srs. J. Monteiro, Frederico Abranches, Paula Marhado, Rodrigo Lobato, Mello Freire, Souza Campos, Lycurgo dos Santos e Martin Francisco."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        6,
+                        217,
+                        185,
+                        276
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                6,
+                                217,
+                                185,
+                                276
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        6,
+                                        217,
+                                        185,
+                                        276
+                                    ],
+                                    "type": "text",
+                                    "content": "Foi concedida a palavra ao sr. Martim Francisco.\nO sr. Martim Francisco (movimento de atenção)—Não havendo ainda regimento votado, e estando esta corporação em sessões preparatorias, creio, sr. presidente, usar de um direito apresentando uma indicação cujo destino dependerá da vontâde de v. exc."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        8,
+                        276,
+                        186,
+                        301
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                8,
+                                276,
+                                186,
+                                301
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        8,
+                                        276,
+                                        186,
+                                        301
+                                    ],
+                                    "type": "text",
+                                    "content": "Faço-o impellido por motivos importantes o que affectam a autonomia, os interesses e os brios do povo paulista."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        9,
+                        301,
+                        188,
+                        400
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                9,
+                                301,
+                                188,
+                                400
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        301,
+                                        188,
+                                        400
+                                    ],
+                                    "type": "text",
+                                    "content": "Sabe v. exc., sabe a opinião publica, representada aqui legitimamente, que o governo central deliberou, ha quarenta e oito horas, mais uma vez desrespeitar a zona paulista e desfeitear o povo que nos elegu. Com surpreza para nós senadores e para o povo, cujo desgosto mal poderá ser contido, o governo geral quiz esquecer que o artigo 13 da Constituição Federal aconselhava o adiamento de qualquer solução ao maguo problema de viação ferrea no Estado de S. Paulo e concedeu privilegio a dous desconhecidos para uma estrada que ligará ponto da estrada Bragantina ao porto de Santos."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        10,
+                        400,
+                        188,
+                        443
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                400,
+                                188,
+                                443
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        400,
+                                        188,
+                                        443
+                                    ],
+                                    "type": "text",
+                                    "content": "Nossa competência, nossos interessos, nossos direitos, nosso futuro até, licam assim atirados à margem, nullificados, em proveito de entidades em cujas veias, felizmente, não corre uma gotta do generoso e altivo sangue paulista. (muito bem!)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        10,
+                        443,
+                        189,
+                        517
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                443,
+                                189,
+                                517
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        443,
+                                        189,
+                                        517
+                                    ],
+                                    "type": "text",
+                                    "content": "Não cabe nos limites de um simples, embora energico protesto, a discussão ampla do assumpto. Cabe-nos, porém, desde já, a obrigação de fazer sentir ao centro que a paciência tem limites e que nós não tememos as consequências naturaes de provocações inmerecidas. Os direitos dos nossos committentes não hão de ser objecto de privilegios arranjados clandestinamente pelo empenho lucrativo e pela cuhiça descarada (apoiados)."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        11,
+                        517,
+                        189,
+                        559
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                11,
+                                517,
+                                189,
+                                559
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        11,
+                                        517,
+                                        189,
+                                        559
+                                    ],
+                                    "type": "text",
+                                    "content": "Contra a illegal, illogica e mesquinha aggressão do Governo Central, aggressão que será de amanha em diante discutida em todos os terrenos, formúlo desde agora o meu profesto, apresentando à consciência e ao voto do Senado a presente:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        83,
+                        561,
+                        118,
+                        568
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                561,
+                                118,
+                                568
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        561,
+                                        118,
+                                        568
+                                    ],
+                                    "type": "text",
+                                    "content": "INDICAÇÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        13,
+                        570,
+                        189,
+                        610
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                13,
+                                570,
+                                189,
+                                610
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        13,
+                                        570,
+                                        189,
+                                        610
+                                    ],
+                                    "type": "text",
+                                    "content": "- Indico que o senado represente ao governo federal no sentido de ser suspensa a execução de todas as concessões de linhas ferreas no Estado de São Paulo até que o poder competente vote a lei a que se refere o art. 13 da Constituição Federal.»"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        13,
+                        610,
+                        189,
+                        653
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                13,
+                                610,
+                                189,
+                                653
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        13,
+                                        610,
+                                        189,
+                                        653
+                                    ],
+                                    "type": "text",
+                                    "content": "Sinto, ar. presidente, nada mais poder fazer neste momento contra o despolismo da centralização. Sinto... Mas ao menos protestemos em phrases expressivas e claras. Perdemos a possa autonomia, salvermos o nosso pudor!"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        21,
+                        653,
+                        189,
+                        661
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                653,
+                                189,
+                                661
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        653,
+                                        189,
+                                        661
+                                    ],
+                                    "type": "text",
+                                    "content": "(Mnito bem, muito bem no recinto e nas galerias.)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        13,
+                        661,
+                        189,
+                        696
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                13,
+                                661,
+                                189,
+                                696
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        13,
+                                        661,
+                                        189,
+                                        696
+                                    ],
+                                    "type": "text",
+                                    "content": "O nr. Presidente—Explica não poder aceitar já a indicação por não haver número para deliberar, máximo tratando-se de assumpto tão impor-tais. Protesta lambem em seu nome contra o pro-"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        184,
+                        131,
+                        361,
+                        164
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                184,
+                                131,
+                                361,
+                                164
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        184,
+                                        131,
+                                        361,
+                                        164
+                                    ],
+                                    "type": "text",
+                                    "content": "cedimento do governo e declara estar convencido que o senado e o digno presidente do Estado defenderão com energia e unanimidade a autonomia de S. Paulo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 21,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        192,
+                        165,
+                        353,
+                        182
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                192,
+                                165,
+                                353,
+                                182
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        192,
+                                        165,
+                                        353,
+                                        182
+                                    ],
+                                    "type": "text",
+                                    "content": "(Signaes de adhesão no recinto e nas galerias).\nSuspende-se a sessão."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        218,
+                        201,
+                        329,
+                        221
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                218,
+                                201,
+                                329,
+                                221
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        218,
+                                        201,
+                                        329,
+                                        221
+                                    ],
+                                    "type": "text",
+                                    "content": "ACTOS OFFICIAES"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        197,
+                        231,
+                        350,
+                        246
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                197,
+                                231,
+                                350,
+                                246
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        197,
+                                        231,
+                                        350,
+                                        246
+                                    ],
+                                    "type": "text",
+                                    "content": "Expediente da Presidencia do\nEstado de S. Paulo"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        235,
+                        250,
+                        313,
+                        260
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                235,
+                                250,
+                                313,
+                                260
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        235,
+                                        250,
+                                        313,
+                                        260
+                                    ],
+                                    "type": "text",
+                                    "content": "Dia 30 de Julho"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        244,
+                        263,
+                        304,
+                        276
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                244,
+                                263,
+                                304,
+                                276
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        244,
+                                        263,
+                                        304,
+                                        276
+                                    ],
+                                    "type": "text",
+                                    "content": "2ª SECÇÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        188,
+                        281,
+                        365,
+                        356
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                188,
+                                281,
+                                365,
+                                356
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        188,
+                                        281,
+                                        365,
+                                        356
+                                    ],
+                                    "type": "text",
+                                    "content": "Foram exonerados, por mudança de domicilio, os cidadãos José Pereira de Mello e Domingos Ferreira da Fonseca do cargo de membros do conselho de intendencia do Rio Bonito, sendo nomeados para substituíl-os os cidadãos Jonas Pereira de Mello e Benedicto Honorio de Oliveira."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        188,
+                        356,
+                        366,
+                        421
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                188,
+                                356,
+                                366,
+                                421
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        188,
+                                        356,
+                                        366,
+                                        421
+                                    ],
+                                    "type": "text",
+                                    "content": "Remetteu-se à intendencia da Fartura o parecer da commissão de camaras municipaes da camara dos deputados do Estado acerca de um pedido de rectificação de divisas entre o mesmo município e o de Pirajú, feito pela intendencia deste."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        430,
+                        325,
+                        438
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                430,
+                                325,
+                                438
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        430,
+                                        325,
+                                        438
+                                    ],
+                                    "type": "text",
+                                    "content": "OFFICIOS DESPACHADOS"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        190,
+                        443,
+                        367,
+                        499
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                190,
+                                443,
+                                367,
+                                499
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        190,
+                                        443,
+                                        367,
+                                        499
+                                    ],
+                                    "type": "text",
+                                    "content": "Da intendencia de Tatuhy, solicitando pagamento de rs. 9:2353260, despendidos com o lazareto de variolosos da «Agua Branca».—A' Thesouraria de Fazenda, para informar sobre a legalidade das contas apresentadas."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        190,
+                        499,
+                        368,
+                        547
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                190,
+                                499,
+                                368,
+                                547
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        190,
+                                        499,
+                                        368,
+                                        547
+                                    ],
+                                    "type": "text",
+                                    "content": "Da intendencia de S. Miguel Archanjo, remettendo cópia de uma resolução adoptada em sessão de 16 de Julho corrente.—Ao dr. procurador fiscal do Thesouro do Estado, para dar parecer."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        246,
+                        559,
+                        311,
+                        571
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                246,
+                                559,
+                                311,
+                                571
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        246,
+                                        559,
+                                        311,
+                                        571
+                                    ],
+                                    "type": "text",
+                                    "content": "4ª SECÇÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        191,
+                        573,
+                        369,
+                        658
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                191,
+                                573,
+                                369,
+                                658
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        191,
+                                        573,
+                                        369,
+                                        658
+                                    ],
+                                    "type": "text",
+                                    "content": "Foi nomeado o cidadão José Idalino Antunes da Porciuncula, para exercer o cargo de juiz commissario ad hoc de medição das terras de que trata o contracto feito pelo Governo Federal com a Companhia Rural do Brazil, para fundação de nucleos agrícolas neste Estado.—Deu-se conhecimento à delegacia de terras e colonisação."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        192,
+                        658,
+                        368,
+                        676
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                192,
+                                658,
+                                368,
+                                676
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        192,
+                                        658,
+                                        368,
+                                        676
+                                    ],
+                                    "type": "text",
+                                    "content": "Mandou-se dar as seguintes passagens :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 34,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        192,
+                        676,
+                        368,
+                        696
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                192,
+                                676,
+                                368,
+                                696
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        192,
+                                        676,
+                                        368,
+                                        696
+                                    ],
+                                    "type": "text",
+                                    "content": "De 2ª classe desta capital a Mogy das Cruzes, por conta do Estado, na estra-"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 35,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        362,
+                        131,
+                        540,
+                        161
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                362,
+                                131,
+                                540,
+                                161
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        362,
+                                        131,
+                                        540,
+                                        161
+                                    ],
+                                    "type": "text",
+                                    "content": "da de ferro S. Paulo e Rio de Janeiro,\na Donato Pires, restabelecido no hos-\npicio de alienados ;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 36,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        362,
+                        161,
+                        541,
+                        244
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                362,
+                                161,
+                                541,
+                                244
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        362,
+                                        161,
+                                        541,
+                                        244
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1ª classe, nas estradas S. Paulo e Rio de Janeiro, Santos a Jundiahy, Paulista, Sorocabana, Ytuana, Bragantina, Rio Claro e Mogyana, por conta do ministerio da Agricultura, ao fiscal do 3º distrito de engenhos centraes, Gervasio Pires Ferreira ou seu substituto, sempre que o mesmo requisitar;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 37,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        364,
+                        244,
+                        543,
+                        309
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                364,
+                                244,
+                                543,
+                                309
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        364,
+                                        244,
+                                        543,
+                                        309
+                                    ],
+                                    "type": "text",
+                                    "content": "Por conta do Governo Federal, nas mesmas estradas, á administração do correio, quando por esta requisitadas, em serviço postal ou em caso de remoção de seus empregados.—Deu-se conhecimento ao dr. administrador do correio."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 38,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        314,
+                        506,
+                        323
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                314,
+                                506,
+                                323
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        314,
+                                        506,
+                                        323
+                                    ],
+                                    "type": "text",
+                                    "content": "O FICIOS DESPACHADOS"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 39,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        365,
+                        327,
+                        544,
+                        384
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                365,
+                                327,
+                                544,
+                                384
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        365,
+                                        327,
+                                        544,
+                                        384
+                                    ],
+                                    "type": "text",
+                                    "content": "Da Companhia Mogyana informando o ofício do Governo de Minas Geraes, relativo a cobrança de direitos de exportação daquelle Estado pelas estações daquella linha.—Ao Thesouro do Estado para informar."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 40,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        365,
+                        383,
+                        544,
+                        458
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                365,
+                                383,
+                                544,
+                                458
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        365,
+                                        383,
+                                        544,
+                                        458
+                                    ],
+                                    "type": "text",
+                                    "content": "Da intendencia de Batataes, comunicando ter concedido privilegio a Eduardo Garcia de Oliveira para uma linha de tramways a vapor entre a estação da linha. Mogyana, naquella cidade e a freguezia de Matto Grosso de Batataes.—A'directoria da Companhia Mogyana para informar."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 41,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        389,
+                        463,
+                        525,
+                        472
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                389,
+                                463,
+                                525,
+                                472
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        389,
+                                        463,
+                                        525,
+                                        472
+                                    ],
+                                    "type": "text",
+                                    "content": "REQUERIMENTOS DESPACHADOS"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        368,
+                        473,
+                        547,
+                        538
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                368,
+                                473,
+                                547,
+                                538
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        368,
+                                        473,
+                                        547,
+                                        538
+                                    ],
+                                    "type": "text",
+                                    "content": "Da Companhia Mogyana, reclamando contra concessões de tramways feitas por diversas intendencias, sem atenção aos contractos celebrados entre o Governo e a supplicante.—A' superintendencia de obras públicas para informar."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 43,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        368,
+                        538,
+                        547,
+                        575
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                368,
+                                538,
+                                547,
+                                575
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        368,
+                                        538,
+                                        547,
+                                        575
+                                    ],
+                                    "type": "text",
+                                    "content": "Da mesma, pedindo celebração de contracto para prolongar sua linha ferrea de S. Bom Jesus do Monte Alegre à cidade de Socorro.—Idem."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 44,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        369,
+                        575,
+                        548,
+                        620
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                369,
+                                575,
+                                548,
+                                620
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        369,
+                                        575,
+                                        548,
+                                        620
+                                    ],
+                                    "type": "text",
+                                    "content": "De José Cardoso de Siqueira e outro pedindo concessão da navegação do rio Parahyba desde a freguezia da Escada até Guararema e Santa Branca.—Remetta-se ao Congresso do Estado."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 45,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        369,
+                        620,
+                        548,
+                        648
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                369,
+                                620,
+                                548,
+                                648
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        369,
+                                        620,
+                                        548,
+                                        648
+                                    ],
+                                    "type": "text",
+                                    "content": "De José Marques Nunes e outro, pepindo para estabelecer uma vasta rede telephonica no Estado.—Idem."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 46,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        369,
+                        648,
+                        548,
+                        695
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                369,
+                                648,
+                                548,
+                                695
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        369,
+                                        648,
+                                        548,
+                                        695
+                                    ],
+                                    "type": "text",
+                                    "content": "De Manoel Guilherme de Arruda e Eduardo Mesquita, porteiro e continuo da superintendencia de obras públicas, pedindo melhoria de seus vencimentos.—Idem."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 47,
+                    "merge_prev": false
+                }
+            ],
+            "discarded_blocks": [
+                {
+                    "bbox": [
+                        76,
+                        20,
+                        462,
+                        35
+                    ],
+                    "type": "header",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                76,
+                                20,
+                                462,
+                                35
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        76,
+                                        20,
+                                        462,
+                                        35
+                                    ],
+                                    "type": "text",
+                                    "content": "ESTADOS UNIDOS DO BRAZIL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 0
+                }
+            ],
+            "page_size": [
+                560,
+                717
+            ],
+            "page_idx": 0,
+            "para_blocks": [
+                {
+                    "bbox": [
+                        6,
+                        38,
+                        537,
+                        81
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                6,
+                                38,
+                                537,
+                                81
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        6,
+                                        38,
+                                        537,
+                                        81
+                                    ],
+                                    "type": "text",
+                                    "content": "DIARIO OFFICIAL"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 1,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        110,
+                        84,
+                        444,
+                        101
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                110,
+                                84,
+                                444,
+                                101
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        110,
+                                        84,
+                                        444,
+                                        101
+                                    ],
+                                    "type": "text",
+                                    "content": "DO ESTADO DE SÃO PAULO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 2,
+                    "level": 1
+                },
+                {
+                    "bbox": [
+                        12,
+                        108,
+                        187,
+                        118
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                12,
+                                108,
+                                187,
+                                118
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        12,
+                                        108,
+                                        187,
+                                        118
+                                    ],
+                                    "type": "text",
+                                    "content": "ANNO 1-3° DA REPUBLICA-N. 71"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 3,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        235,
+                        106,
+                        297,
+                        116
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                235,
+                                106,
+                                297,
+                                116
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        235,
+                                        106,
+                                        297,
+                                        116
+                                    ],
+                                    "type": "text",
+                                    "content": "SÃO PAULO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 4,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        371,
+                        106,
+                        529,
+                        116
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                371,
+                                106,
+                                529,
+                                116
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        371,
+                                        106,
+                                        529,
+                                        116
+                                    ],
+                                    "type": "text",
+                                    "content": "SABBADO 1 DE AGOSTO DE 189"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 5,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        39,
+                        134,
+                        147,
+                        148
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                39,
+                                134,
+                                147,
+                                148
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        39,
+                                        134,
+                                        147,
+                                        148
+                                    ],
+                                    "type": "text",
+                                    "content": "SENADO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 6,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        28,
+                        152,
+                        160,
+                        162
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                28,
+                                152,
+                                160,
+                                162
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        28,
+                                        152,
+                                        160,
+                                        162
+                                    ],
+                                    "type": "text",
+                                    "content": "Sessão em 31 de Julho de 1891."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 7,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        36,
+                        167,
+                        153,
+                        174
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                36,
+                                167,
+                                153,
+                                174
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        36,
+                                        167,
+                                        153,
+                                        174
+                                    ],
+                                    "type": "text",
+                                    "content": "PRESIDENCIA DO SR. J. MONTEIRO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 8,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        6,
+                        176,
+                        184,
+                        217
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                6,
+                                176,
+                                184,
+                                217
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        6,
+                                        176,
+                                        184,
+                                        217
+                                    ],
+                                    "type": "text",
+                                    "content": "A's 12 e 20 da tarde, o sr. 1º secretario procede a chamada, respondendo a ella os srs. J. Monteiro, Frederico Abranches, Paula Marhado, Rodrigo Lobato, Mello Freire, Souza Campos, Lycurgo dos Santos e Martin Francisco."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 9,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        6,
+                        217,
+                        185,
+                        276
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                6,
+                                217,
+                                185,
+                                276
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        6,
+                                        217,
+                                        185,
+                                        276
+                                    ],
+                                    "type": "text",
+                                    "content": "Foi concedida a palavra ao sr. Martim Francisco.\nO sr. Martim Francisco (movimento de atenção)—Não havendo ainda regimento votado, e estando esta corporação em sessões preparatorias, creio, sr. presidente, usar de um direito apresentando uma indicação cujo destino dependerá da vontâde de v. exc."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 10,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        8,
+                        276,
+                        186,
+                        301
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                8,
+                                276,
+                                186,
+                                301
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        8,
+                                        276,
+                                        186,
+                                        301
+                                    ],
+                                    "type": "text",
+                                    "content": "Faço-o impellido por motivos importantes o que affectam a autonomia, os interesses e os brios do povo paulista."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 11,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        9,
+                        301,
+                        188,
+                        400
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                9,
+                                301,
+                                188,
+                                400
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        9,
+                                        301,
+                                        188,
+                                        400
+                                    ],
+                                    "type": "text",
+                                    "content": "Sabe v. exc., sabe a opinião publica, representada aqui legitimamente, que o governo central deliberou, ha quarenta e oito horas, mais uma vez desrespeitar a zona paulista e desfeitear o povo que nos elegu. Com surpreza para nós senadores e para o povo, cujo desgosto mal poderá ser contido, o governo geral quiz esquecer que o artigo 13 da Constituição Federal aconselhava o adiamento de qualquer solução ao maguo problema de viação ferrea no Estado de S. Paulo e concedeu privilegio a dous desconhecidos para uma estrada que ligará ponto da estrada Bragantina ao porto de Santos."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 12,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        10,
+                        400,
+                        188,
+                        443
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                400,
+                                188,
+                                443
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        400,
+                                        188,
+                                        443
+                                    ],
+                                    "type": "text",
+                                    "content": "Nossa competência, nossos interessos, nossos direitos, nosso futuro até, licam assim atirados à margem, nullificados, em proveito de entidades em cujas veias, felizmente, não corre uma gotta do generoso e altivo sangue paulista. (muito bem!)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 13,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        10,
+                        443,
+                        189,
+                        517
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                10,
+                                443,
+                                189,
+                                517
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        10,
+                                        443,
+                                        189,
+                                        517
+                                    ],
+                                    "type": "text",
+                                    "content": "Não cabe nos limites de um simples, embora energico protesto, a discussão ampla do assumpto. Cabe-nos, porém, desde já, a obrigação de fazer sentir ao centro que a paciência tem limites e que nós não tememos as consequências naturaes de provocações inmerecidas. Os direitos dos nossos committentes não hão de ser objecto de privilegios arranjados clandestinamente pelo empenho lucrativo e pela cuhiça descarada (apoiados)."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 14,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        11,
+                        517,
+                        189,
+                        559
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                11,
+                                517,
+                                189,
+                                559
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        11,
+                                        517,
+                                        189,
+                                        559
+                                    ],
+                                    "type": "text",
+                                    "content": "Contra a illegal, illogica e mesquinha aggressão do Governo Central, aggressão que será de amanha em diante discutida em todos os terrenos, formúlo desde agora o meu profesto, apresentando à consciência e ao voto do Senado a presente:"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 15,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        83,
+                        561,
+                        118,
+                        568
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                83,
+                                561,
+                                118,
+                                568
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        83,
+                                        561,
+                                        118,
+                                        568
+                                    ],
+                                    "type": "text",
+                                    "content": "INDICAÇÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 16,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        13,
+                        570,
+                        189,
+                        610
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                13,
+                                570,
+                                189,
+                                610
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        13,
+                                        570,
+                                        189,
+                                        610
+                                    ],
+                                    "type": "text",
+                                    "content": "- Indico que o senado represente ao governo federal no sentido de ser suspensa a execução de todas as concessões de linhas ferreas no Estado de São Paulo até que o poder competente vote a lei a que se refere o art. 13 da Constituição Federal.»"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 17,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        13,
+                        610,
+                        189,
+                        653
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                13,
+                                610,
+                                189,
+                                653
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        13,
+                                        610,
+                                        189,
+                                        653
+                                    ],
+                                    "type": "text",
+                                    "content": "Sinto, ar. presidente, nada mais poder fazer neste momento contra o despolismo da centralização. Sinto... Mas ao menos protestemos em phrases expressivas e claras. Perdemos a possa autonomia, salvermos o nosso pudor!"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 18,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        21,
+                        653,
+                        189,
+                        661
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                21,
+                                653,
+                                189,
+                                661
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        21,
+                                        653,
+                                        189,
+                                        661
+                                    ],
+                                    "type": "text",
+                                    "content": "(Mnito bem, muito bem no recinto e nas galerias.)"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 19,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        13,
+                        661,
+                        189,
+                        696
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                13,
+                                661,
+                                189,
+                                696
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        13,
+                                        661,
+                                        189,
+                                        696
+                                    ],
+                                    "type": "text",
+                                    "content": "O nr. Presidente—Explica não poder aceitar já a indicação por não haver número para deliberar, máximo tratando-se de assumpto tão impor-tais. Protesta lambem em seu nome contra o pro-"
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                184,
+                                131,
+                                361,
+                                164
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        184,
+                                        131,
+                                        361,
+                                        164
+                                    ],
+                                    "type": "text",
+                                    "content": "cedimento do governo e declara estar convencido que o senado e o digno presidente do Estado defenderão com energia e unanimidade a autonomia de S. Paulo."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 20,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        184,
+                        131,
+                        361,
+                        164
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [],
+                    "index": 21,
+                    "merge_prev": false,
+                    "lines_deleted": true
+                },
+                {
+                    "bbox": [
+                        192,
+                        165,
+                        353,
+                        182
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                192,
+                                165,
+                                353,
+                                182
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        192,
+                                        165,
+                                        353,
+                                        182
+                                    ],
+                                    "type": "text",
+                                    "content": "(Signaes de adhesão no recinto e nas galerias).\nSuspende-se a sessão."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 22,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        218,
+                        201,
+                        329,
+                        221
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                218,
+                                201,
+                                329,
+                                221
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        218,
+                                        201,
+                                        329,
+                                        221
+                                    ],
+                                    "type": "text",
+                                    "content": "ACTOS OFFICIAES"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 23,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        197,
+                        231,
+                        350,
+                        246
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                197,
+                                231,
+                                350,
+                                246
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        197,
+                                        231,
+                                        350,
+                                        246
+                                    ],
+                                    "type": "text",
+                                    "content": "Expediente da Presidencia do\nEstado de S. Paulo"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 24,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        235,
+                        250,
+                        313,
+                        260
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                235,
+                                250,
+                                313,
+                                260
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        235,
+                                        250,
+                                        313,
+                                        260
+                                    ],
+                                    "type": "text",
+                                    "content": "Dia 30 de Julho"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 25,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        244,
+                        263,
+                        304,
+                        276
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                244,
+                                263,
+                                304,
+                                276
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        244,
+                                        263,
+                                        304,
+                                        276
+                                    ],
+                                    "type": "text",
+                                    "content": "2ª SECÇÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 26,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        188,
+                        281,
+                        365,
+                        356
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                188,
+                                281,
+                                365,
+                                356
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        188,
+                                        281,
+                                        365,
+                                        356
+                                    ],
+                                    "type": "text",
+                                    "content": "Foram exonerados, por mudança de domicilio, os cidadãos José Pereira de Mello e Domingos Ferreira da Fonseca do cargo de membros do conselho de intendencia do Rio Bonito, sendo nomeados para substituíl-os os cidadãos Jonas Pereira de Mello e Benedicto Honorio de Oliveira."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 27,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        188,
+                        356,
+                        366,
+                        421
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                188,
+                                356,
+                                366,
+                                421
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        188,
+                                        356,
+                                        366,
+                                        421
+                                    ],
+                                    "type": "text",
+                                    "content": "Remetteu-se à intendencia da Fartura o parecer da commissão de camaras municipaes da camara dos deputados do Estado acerca de um pedido de rectificação de divisas entre o mesmo município e o de Pirajú, feito pela intendencia deste."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 28,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        230,
+                        430,
+                        325,
+                        438
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                230,
+                                430,
+                                325,
+                                438
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        230,
+                                        430,
+                                        325,
+                                        438
+                                    ],
+                                    "type": "text",
+                                    "content": "OFFICIOS DESPACHADOS"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 29,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        190,
+                        443,
+                        367,
+                        499
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                190,
+                                443,
+                                367,
+                                499
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        190,
+                                        443,
+                                        367,
+                                        499
+                                    ],
+                                    "type": "text",
+                                    "content": "Da intendencia de Tatuhy, solicitando pagamento de rs. 9:2353260, despendidos com o lazareto de variolosos da «Agua Branca».—A' Thesouraria de Fazenda, para informar sobre a legalidade das contas apresentadas."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 30,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        190,
+                        499,
+                        368,
+                        547
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                190,
+                                499,
+                                368,
+                                547
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        190,
+                                        499,
+                                        368,
+                                        547
+                                    ],
+                                    "type": "text",
+                                    "content": "Da intendencia de S. Miguel Archanjo, remettendo cópia de uma resolução adoptada em sessão de 16 de Julho corrente.—Ao dr. procurador fiscal do Thesouro do Estado, para dar parecer."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 31,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        246,
+                        559,
+                        311,
+                        571
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                246,
+                                559,
+                                311,
+                                571
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        246,
+                                        559,
+                                        311,
+                                        571
+                                    ],
+                                    "type": "text",
+                                    "content": "4ª SECÇÃO"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 32,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        191,
+                        573,
+                        369,
+                        658
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                191,
+                                573,
+                                369,
+                                658
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        191,
+                                        573,
+                                        369,
+                                        658
+                                    ],
+                                    "type": "text",
+                                    "content": "Foi nomeado o cidadão José Idalino Antunes da Porciuncula, para exercer o cargo de juiz commissario ad hoc de medição das terras de que trata o contracto feito pelo Governo Federal com a Companhia Rural do Brazil, para fundação de nucleos agrícolas neste Estado.—Deu-se conhecimento à delegacia de terras e colonisação."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 33,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        192,
+                        658,
+                        368,
+                        676
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                192,
+                                658,
+                                368,
+                                676
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        192,
+                                        658,
+                                        368,
+                                        676
+                                    ],
+                                    "type": "text",
+                                    "content": "Mandou-se dar as seguintes passagens :"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 34,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        192,
+                        676,
+                        368,
+                        696
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                192,
+                                676,
+                                368,
+                                696
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        192,
+                                        676,
+                                        368,
+                                        696
+                                    ],
+                                    "type": "text",
+                                    "content": "De 2ª classe desta capital a Mogy das Cruzes, por conta do Estado, na estra-"
+                                }
+                            ]
+                        },
+                        {
+                            "bbox": [
+                                362,
+                                131,
+                                540,
+                                161
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        362,
+                                        131,
+                                        540,
+                                        161
+                                    ],
+                                    "type": "text",
+                                    "content": "da de ferro S. Paulo e Rio de Janeiro,\na Donato Pires, restabelecido no hos-\npicio de alienados ;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 35,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        362,
+                        131,
+                        540,
+                        161
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [],
+                    "index": 36,
+                    "merge_prev": false,
+                    "lines_deleted": true
+                },
+                {
+                    "bbox": [
+                        362,
+                        161,
+                        541,
+                        244
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                362,
+                                161,
+                                541,
+                                244
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        362,
+                                        161,
+                                        541,
+                                        244
+                                    ],
+                                    "type": "text",
+                                    "content": "De 1ª classe, nas estradas S. Paulo e Rio de Janeiro, Santos a Jundiahy, Paulista, Sorocabana, Ytuana, Bragantina, Rio Claro e Mogyana, por conta do ministerio da Agricultura, ao fiscal do 3º distrito de engenhos centraes, Gervasio Pires Ferreira ou seu substituto, sempre que o mesmo requisitar;"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 37,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        364,
+                        244,
+                        543,
+                        309
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                364,
+                                244,
+                                543,
+                                309
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        364,
+                                        244,
+                                        543,
+                                        309
+                                    ],
+                                    "type": "text",
+                                    "content": "Por conta do Governo Federal, nas mesmas estradas, á administração do correio, quando por esta requisitadas, em serviço postal ou em caso de remoção de seus empregados.—Deu-se conhecimento ao dr. administrador do correio."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 38,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        402,
+                        314,
+                        506,
+                        323
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                402,
+                                314,
+                                506,
+                                323
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        402,
+                                        314,
+                                        506,
+                                        323
+                                    ],
+                                    "type": "text",
+                                    "content": "O FICIOS DESPACHADOS"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 39,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        365,
+                        327,
+                        544,
+                        384
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                365,
+                                327,
+                                544,
+                                384
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        365,
+                                        327,
+                                        544,
+                                        384
+                                    ],
+                                    "type": "text",
+                                    "content": "Da Companhia Mogyana informando o ofício do Governo de Minas Geraes, relativo a cobrança de direitos de exportação daquelle Estado pelas estações daquella linha.—Ao Thesouro do Estado para informar."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 40,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        365,
+                        383,
+                        544,
+                        458
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                365,
+                                383,
+                                544,
+                                458
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        365,
+                                        383,
+                                        544,
+                                        458
+                                    ],
+                                    "type": "text",
+                                    "content": "Da intendencia de Batataes, comunicando ter concedido privilegio a Eduardo Garcia de Oliveira para uma linha de tramways a vapor entre a estação da linha. Mogyana, naquella cidade e a freguezia de Matto Grosso de Batataes.—A'directoria da Companhia Mogyana para informar."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 41,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        389,
+                        463,
+                        525,
+                        472
+                    ],
+                    "type": "title",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                389,
+                                463,
+                                525,
+                                472
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        389,
+                                        463,
+                                        525,
+                                        472
+                                    ],
+                                    "type": "text",
+                                    "content": "REQUERIMENTOS DESPACHADOS"
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 42,
+                    "level": 2
+                },
+                {
+                    "bbox": [
+                        368,
+                        473,
+                        547,
+                        538
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                368,
+                                473,
+                                547,
+                                538
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        368,
+                                        473,
+                                        547,
+                                        538
+                                    ],
+                                    "type": "text",
+                                    "content": "Da Companhia Mogyana, reclamando contra concessões de tramways feitas por diversas intendencias, sem atenção aos contractos celebrados entre o Governo e a supplicante.—A' superintendencia de obras públicas para informar."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 43,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        368,
+                        538,
+                        547,
+                        575
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                368,
+                                538,
+                                547,
+                                575
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        368,
+                                        538,
+                                        547,
+                                        575
+                                    ],
+                                    "type": "text",
+                                    "content": "Da mesma, pedindo celebração de contracto para prolongar sua linha ferrea de S. Bom Jesus do Monte Alegre à cidade de Socorro.—Idem."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 44,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        369,
+                        575,
+                        548,
+                        620
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                369,
+                                575,
+                                548,
+                                620
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        369,
+                                        575,
+                                        548,
+                                        620
+                                    ],
+                                    "type": "text",
+                                    "content": "De José Cardoso de Siqueira e outro pedindo concessão da navegação do rio Parahyba desde a freguezia da Escada até Guararema e Santa Branca.—Remetta-se ao Congresso do Estado."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 45,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        369,
+                        620,
+                        548,
+                        648
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                369,
+                                620,
+                                548,
+                                648
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        369,
+                                        620,
+                                        548,
+                                        648
+                                    ],
+                                    "type": "text",
+                                    "content": "De José Marques Nunes e outro, pepindo para estabelecer uma vasta rede telephonica no Estado.—Idem."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 46,
+                    "merge_prev": false
+                },
+                {
+                    "bbox": [
+                        369,
+                        648,
+                        548,
+                        695
+                    ],
+                    "type": "text",
+                    "angle": 0,
+                    "lines": [
+                        {
+                            "bbox": [
+                                369,
+                                648,
+                                548,
+                                695
+                            ],
+                            "spans": [
+                                {
+                                    "bbox": [
+                                        369,
+                                        648,
+                                        548,
+                                        695
+                                    ],
+                                    "type": "text",
+                                    "content": "De Manoel Guilherme de Arruda e Eduardo Mesquita, porteiro e continuo da superintendencia de obras públicas, pedindo melhoria de seus vencimentos.—Idem."
+                                }
+                            ]
+                        }
+                    ],
+                    "index": 47,
+                    "merge_prev": false
+                }
+            ]
+        }
+    ],
+    "_backend": "hybrid",
+    "_effort": "high",
+    "_ocr_enable": true,
+    "_version_name": "3.4.4"
+}

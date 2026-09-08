@@ -1,0 +1,837 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.037,
+                0.037,
+                0.135,
+                0.05
+            ],
+            "angle": 0,
+            "content": "Sibbado I"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.43,
+                0.043,
+                0.591,
+                0.058
+            ],
+            "angle": 0,
+            "content": "DIARIO OFFICIAL"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.78,
+                0.053,
+                0.955,
+                0.068
+            ],
+            "angle": 0,
+            "content": "Agosto (1891) 601"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.019,
+                0.069,
+                0.33,
+                0.097
+            ],
+            "angle": 0,
+            "content": "o porteiro deste Thesouro, afin de\nrem entregues aos interessados :",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.081,
+                0.099,
+                0.266,
+                0.112
+            ],
+            "angle": 0,
+            "content": "REGISTRO DE SOROCARA"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.018,
+                0.114,
+                0.331,
+                0.152
+            ],
+            "angle": 0,
+            "content": "Antonio Augusto de Padua Fleu-\nde 24 de Agosto de 1878 a 31 de\naio de 1882.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.015,
+                0.152,
+                0.332,
+                0.225
+            ],
+            "angle": 0,
+            "content": "José de Almeida Leme, de 1º de junho de 1832 a 8 de Outubro de 837, de 26 de Novembro de 1838 a 11 de Dezembro de 1839 e de 1º de Outubro de 1849 a 14 de Março de 856.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.012,
+                0.226,
+                0.332,
+                0.277
+            ],
+            "angle": 0,
+            "content": "Elias Ayres do Amaral, de 9 de Outubro de 1837 a 25 de Novembro de 1838 e de 26 de Outubro de 1840 a 25 de Junho de 1842.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.013,
+                0.277,
+                0.331,
+                0.326
+            ],
+            "angle": 0,
+            "content": "Antonio de Mascarenhas Camel-\n, de 1º de Janeiro a 11 de Abril de\n-940 e de 25 de Julho de 1844 a 30\nº 3 Setembro de 1849.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.018,
+                0.326,
+                0.33,
+                0.361
+            ],
+            "angle": 0,
+            "content": "Francisco de Assis Penteado, de\nde Julho a 23 de Agosto de\n378.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.009,
+                0.362,
+                0.33,
+                0.425
+            ],
+            "angle": 0,
+            "content": "Joaquim José Loureiro de Almeida, de 12 de Abril de 1840 a 25 de Outubro do mesmo e de 26 de junho de 1842 a 24 de Julho de 1844.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.062,
+                0.428,
+                0.269,
+                0.44
+            ],
+            "angle": 0,
+            "content": "COLLECTORIA DA LIMEIRA"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.009,
+                0.442,
+                0.328,
+                0.481
+            ],
+            "angle": 0,
+            "content": "Francisco da Rocha Siqueira Camargo, de 1º de Julho de 1889 a 31º Janeiro de 1890.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.007,
+                0.481,
+                0.328,
+                0.518
+            ],
+            "angle": 0,
+            "content": "José Monteiro de Mendonça, de 1º\n3 Agosto de 1887 a 30 de Junho de\n1889.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.074,
+                0.523,
+                0.25,
+                0.534
+            ],
+            "angle": 0,
+            "content": "BARREIRA DA FIGUEIRA"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.011,
+                0.536,
+                0.327,
+                0.565
+            ],
+            "angle": 0,
+            "content": "José Antonio Moreira, de 1º de\nAutubro a 31 de Dezembro de 1883.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.082,
+                0.567,
+                0.241,
+                0.579
+            ],
+            "angle": 0,
+            "content": "REGISTRO DO ARÍRÓ"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.014,
+                0.58,
+                0.323,
+                0.611
+            ],
+            "angle": 0,
+            "content": "Mariano Ramos da Silva, de 1º de ulho de 1872 a 12 de Maio de 1873.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.047,
+                0.61,
+                0.277,
+                0.625
+            ],
+            "angle": 0,
+            "content": "REGISTRO DO RIO DO BRAÇO"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.018,
+                0.625,
+                0.322,
+                0.661
+            ],
+            "angle": 0,
+            "content": "Luiz Ribeiro de Aguiar, de 12 de\njosto de 1886 até 6 de Fevereiro\n1890.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.009,
+                0.662,
+                0.321,
+                0.698
+            ],
+            "angle": 0,
+            "content": "Tertuliano de Araujo Ferraz, de de Junho de 1879 a 1º de Agosto o mesmo.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.018,
+                0.7,
+                0.32,
+                0.736
+            ],
+            "angle": 0,
+            "content": "Lourenço Justiniano dos Santos,\n18 de Janeiro de 1887 a 28 de Fe-\nreiro de 1890.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.017,
+                0.736,
+                0.319,
+                0.799
+            ],
+            "angle": 0,
+            "content": "João de Padua Machado, de 22 de\nnho de 1874 a 2 de Junho de 1879.\nFrancisco Gonçalves Ramos, de\nde Janeiro de 1870 a 21 de Junho\n1874.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.016,
+                0.801,
+                0.309,
+                0.815
+            ],
+            "angle": 0,
+            "content": "ESA DE RENDAS DE CARAGUATATUBA",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.014,
+                0.816,
+                0.317,
+                0.853
+            ],
+            "angle": 0,
+            "content": "Bento Xavier de Araujo Leite, de\nde Fevereiro de 1880 a 30 de Ju-\n10 de 1882.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.057,
+                0.859,
+                0.255,
+                0.871
+            ],
+            "angle": 0,
+            "content": "BARREIRA DE SANTA CRUZ"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.013,
+                0.871,
+                0.317,
+                0.91
+            ],
+            "angle": 0,
+            "content": "Manoel Barbosa de Moraes, de\nde Março de 1890 a 30 de Junho\n1891.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.058,
+                0.915,
+                0.25,
+                0.927
+            ],
+            "angle": 0,
+            "content": "BARREIRA DE UBATUBA"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.012,
+                0.928,
+                0.314,
+                0.945
+            ],
+            "angle": 0,
+            "content": "Luiz Ernesto Valodino Pereira,",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.334,
+                0.072,
+                0.657,
+                0.102
+            ],
+            "angle": 0,
+            "content": "de 1º de Outubro de 1875 a 30 de\nAbril de 1877.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.433,
+                0.106,
+                0.547,
+                0.118
+            ],
+            "angle": 0,
+            "content": "COLLECTORIAS"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.336,
+                0.118,
+                0.656,
+                0.158
+            ],
+            "angle": 0,
+            "content": "Indaiatuba—Jeaquim Emydio de Campos Bicudo, de 1º de Julho de 1873, a 12 de Janeiro de 1881.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.336,
+                0.158,
+                0.656,
+                0.221
+            ],
+            "angle": 0,
+            "content": "Franca--Joaquim Paes de Toledo Cubas, de 4 de Julho de 1878 a 1º de Agosto do mesmo e Antonio de Andrade Lobo Bastos, de 2 de Agosto de 1878 a 5 de Novembro de 1885.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.336,
+                0.22,
+                0.655,
+                0.257
+            ],
+            "angle": 0,
+            "content": "Botucatú—Elias de Oliveira Lima Machado, de 15 de Dezembro de 1868 a 24 de Março de 1878.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.334,
+                0.257,
+                0.655,
+                0.367
+            ],
+            "angle": 0,
+            "content": "Atibaia- José da Silveira Franco, de 8 de Agosto de 1878 a 4 de Maio de 1879; José Francisco de Campos Bueno, de 5 de Maio de 1879 a 10 de Junho do mesmo e de 14 de Março de 1882 a 31 de Outubro de 1887 e Benedicto Franco da Silveira, de 1º de Novembro de 1887 a 30 de Junho de 1889.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.334,
+                0.367,
+                0.653,
+                0.407
+            ],
+            "angle": 0,
+            "content": "S. José dos Campos. — Olympio José de Freitas, de 11 de Maio de 1888 a 30 de Junho de 1890.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.332,
+                0.406,
+                0.652,
+                0.518
+            ],
+            "angle": 0,
+            "content": "Bananal—Alexandre Norberto da Costa, de 11 a 31 de Março de 1880 e Luiz de Padua Machado, de 1º de Abril de 1880 a 12 de Julho de 1881.\nSilveiras—Mancel Guedes de Siqueira, de 25 de Janeiro de 1887 a 21 de Agosto de 1889 e Candido de Oliveira Castro, de 1º de Fevereiro de 1869 a 24 de Janeiro de 1887.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.33,
+                0.518,
+                0.652,
+                0.555
+            ],
+            "angle": 0,
+            "content": "Mogy das Cruzes—João Candido Martins, de 1º de Janeiro de 1870 a 11 de Julho de 1873.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.329,
+                0.554,
+                0.652,
+                0.591
+            ],
+            "angle": 0,
+            "content": "Aréas—José Joaquim Ferreira\nPenna, de 1º de Janeiro de 1886 a 4\nde Agosto de 1889.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.328,
+                0.591,
+                0.651,
+                0.63
+            ],
+            "angle": 0,
+            "content": "Capivarr—Joaquim Vaz do Amaral Carvalho, de 28 de Janeiro de 1885 a 31 de Março de 1890.",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.327,
+                0.632,
+                0.65,
+                0.659
+            ],
+            "angle": 0,
+            "content": "Balancete do Thesouro do Estado\nno período de 1º a 30 de Julho\nde 1891"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.338,
+                0.665,
+                0.42,
+                0.674
+            ],
+            "angle": 0,
+            "content": "Receita:"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.324,
+                0.674,
+                0.648,
+                0.704
+            ],
+            "angle": 0,
+            "content": "Saldo do mez anterior:\nNo Banco União . . . 527:535\\$310\nEm caixa . . . . . 2.194:945\\$039",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.324,
+                0.705,
+                0.648,
+                0.743
+            ],
+            "angle": 0,
+            "content": "Entradas até hoje . . 2.722:480§349\n373:285§691\n3.095:766§040",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.338,
+                0.743,
+                0.422,
+                0.753
+            ],
+            "angle": 0,
+            "content": "Despeza :"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.323,
+                0.752,
+                0.647,
+                0.777
+            ],
+            "angle": 0,
+            "content": "Por caixa . . . . . 710:576$577\nPor folhas . . . . . 227:072$590",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.336,
+                0.777,
+                0.508,
+                0.787
+            ],
+            "angle": 0,
+            "content": "Saldo em dinheiro:"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.322,
+                0.787,
+                0.646,
+                0.837
+            ],
+            "angle": 0,
+            "content": "No Banco União. . . . 527:535\\$310\nEm caixa . . . . . 1.630:581\\$563\n2.158:116\\$873\n3.095:766\\$040",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.336,
+                0.838,
+                0.593,
+                0.85
+            ],
+            "angle": 0,
+            "content": "Caixa de «Juros de apolices»"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.322,
+                0.849,
+                0.645,
+                0.864
+            ],
+            "angle": 0,
+            "content": "Existe para pagamento. 31:550\\$155\nSaldo em titulos.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.322,
+                0.866,
+                0.645,
+                0.889
+            ],
+            "angle": 0,
+            "content": "Acções da Companhia Ituana . . . 940:6008000\nLeltras a receber. . . . . . . 16:0228820",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.333,
+                0.909,
+                0.431,
+                0.919
+            ],
+            "angle": 0,
+            "content": "Depositos:"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.32,
+                0.92,
+                0.554,
+                0.941
+            ],
+            "angle": 0,
+            "content": "Apolices geraes e do Estado, acções de\nCompanhias e valores diversos.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.561,
+                0.703,
+                0.648,
+                0.742
+            ],
+            "angle": 0,
+            "content": "2.722:480$349\n373:285$691\n3.095:766$040",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.572,
+                0.773,
+                0.646,
+                0.786
+            ],
+            "angle": 0,
+            "content": "937:649g167",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.561,
+                0.807,
+                0.646,
+                0.837
+            ],
+            "angle": 0,
+            "content": "2,158:116§873\n3,095:766§040",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.572,
+                0.896,
+                0.643,
+                0.908
+            ],
+            "angle": 0,
+            "content": "956:622#820",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.576,
+                0.933,
+                0.643,
+                0.945
+            ],
+            "angle": 0,
+            "content": "76:957$200",
+            "merge_prev": false
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.706,
+                0.082,
+                0.94,
+                0.096
+            ],
+            "angle": 0,
+            "content": "Thesouraria de Fazenda"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.731,
+                0.097,
+                0.911,
+                0.113
+            ],
+            "angle": 0,
+            "content": "SESSÃO DA JUNTA DE 29"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.661,
+                0.112,
+                0.984,
+                0.152
+            ],
+            "angle": 0,
+            "content": "José Padula e Valeriano Barbiéri.\n—De acordo com os pareceres resti-\ntua-se a quantia de 102\\$000.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.661,
+                0.151,
+                0.984,
+                0.19
+            ],
+            "angle": 0,
+            "content": "Candido da Cunha Nepomuceno.\n—De acordo com os pareceres restitua-se a quantia de 41\\$700.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.66,
+                0.189,
+                0.983,
+                0.225
+            ],
+            "angle": 0,
+            "content": "João Rodrigues Ferraz.—De acordo com os pareceres restitua-se a quantia de 21\\$000.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.66,
+                0.226,
+                0.982,
+                0.275
+            ],
+            "angle": 0,
+            "content": "Capitão Sebastião de Barros Silva.\n—De acordo com o parecer do sr. dr.\nprocurador fiscal restitua-se a quantia\nde 864\\$000.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.66,
+                0.275,
+                0.982,
+                0.312
+            ],
+            "angle": 0,
+            "content": "Ernesto Nery.—De acordo com os pareceres restitua-se a quantia de 126\\$000.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.659,
+                0.312,
+                0.982,
+                0.388
+            ],
+            "angle": 0,
+            "content": "Gonçalo José Martins de Figueiredo.\n—Restitua-se a quantia de 215000 de\naccôrdo com os pareceres, e expeça-se\nportaria ao collector determinando-lhe\nque se debite pela importancia de\n38-80 devida pela arrecadação.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.657,
+                0.388,
+                0.981,
+                0.475
+            ],
+            "angle": 0,
+            "content": "João Dias Martins.—Nega-se a restituição pedida; determinando-se á collectoria de Pirassununga que promova, contra quem de direito, a cobrança do imposto devido, para o que se lhe remetterá o respectivo processo, que devolverá opportunamente.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.657,
+                0.475,
+                0.981,
+                0.525
+            ],
+            "angle": 0,
+            "content": "Ofício do collector do Patrocinio das Araras, sob n. 38, de 3 do corrente. —A' secção do contencioso para promover a cobrança executiva.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.652,
+                0.525,
+                0.978,
+                0.698
+            ],
+            "angle": 0,
+            "content": "João Modesto da Cunha Franco.\n—Tendo sido recolhido o alcance de que tratam as contas juntas, e á vista dos pareceres do sr. contador e dr. procurador fiscal, julgo-as definitivamente tomadas e o respectivo exactor, João Modesto da Cunha Franco, quite para com a Fazenda Nacional; dando-se baixa na fiança que o mesmo prestou para exercer o cargo de collector do município do Amparo. Passe-se a necessaria quitação, voltando este processo à secção do contencioso e á contadoria para os devidos fins.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.648,
+                0.698,
+                0.974,
+                0.882
+            ],
+            "angle": 0,
+            "content": "Processo de tomada de contas do ex-collector interino de S. José do Rio Verde, Olympio José de Freitas.—Tendo em vista os pareceres do sr. contador e dr. procurador fiscal, julgo definitivamente tomadas as contas da gestão de Olympio José de Freitas, ex-collector interino de S. José dos Campos; e porque, á visa de taes contas, verifica-se estar o mesmo cidadão quite para com a Fazenda Nacional, dê-se baixa na fiança prestada e passe-se a necessaria quitação, indo este processo á secção do contencioso e á contadoria para os devidos fins.",
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.647,
+                0.882,
+                0.973,
+                0.961
+            ],
+            "angle": 0,
+            "content": "Felicissimo Parreiro de Souza.—De\naccórd o com os pareceres restitua-se a\nquantia de setenta e tres mil e quin-\nhentos réis e expeça-se portaria ao\ncollector de Santa Rita do Paraizo\npara se debitar pela quantia de 14\\$700.",
+            "merge_prev": false
+        }
+    ]
+]
