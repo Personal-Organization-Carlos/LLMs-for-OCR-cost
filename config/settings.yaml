@@ -1,0 +1,74 @@
+# ============================================================================
+# Configuração do benchmark (versão simplificada).
+#
+# Só existem aqui as chaves que o código realmente lê. A normalização de texto
+# (minúsculas, pontuação de borda, desifenização) é fixa e está em
+# bench/normalize.py.
+# ============================================================================
+
+dataset:
+  root: Dataset
+  image_extensions: [".jpg", ".jpeg", ".png", ".webp"]
+
+  # Documentos usados por padrão. Lista vazia = todos os encontrados.
+  # Na linha de comando, `--docs A B` escolhe outro conjunto e `--all-docs`
+  # ignora esta restrição.
+  active:
+    - 1891-08-01_p606
+
+api:
+  base_url: https://openrouter.ai/api/v1
+  # A chave é lida da variável de ambiente OPENROUTER_API_KEY.
+  # Nunca coloque a chave neste arquivo.
+  api_key_env: OPENROUTER_API_KEY
+  timeout_seconds: 900
+  max_retries: 3
+  retry_backoff_seconds: 5
+  # O que fazer quando a casa de hospedagem fixada em models.yaml
+  # (`provider_upstream`) não atende. false = a chamada falha, e a
+  # comparabilidade entre execuções fica preservada; true = o OpenRouter pode
+  # servir de outra casa, com outra quantização, sem avisar na hora.
+  permitir_fallback_de_hospedagem: false
+
+# API nativa do Google, usada pelos modelos com `provider: gemini`.
+gemini:
+  base_url: https://generativelanguage.googleapis.com/v1beta
+  api_key_env: GEMINI_API_KEY
+  timeout_seconds: 900
+  max_retries: 4
+  retry_backoff_seconds: 10
+  # Teto padrão de chamadas por minuto (a camada gratuita é restritiva).
+  # Pode ser sobrescrito por modelo com `rpm_limit` em models.yaml.
+  # 0 ou ausente = sem throttle.
+  rpm_limit: 0
+
+# Execução local do MinerU (provider: mineru em models.yaml).
+#
+# O MinerU exige Python 3.10-3.12; se este projeto rodar em 3.13+ os dois não
+# cabem no mesmo interpretador, daí o ambiente virtual separado. O caminho é
+# relativo à raiz do projeto e o venv é criado por
+# `ferramentas/mineru/setup_mineru.ps1`.
+mineru:
+  venv: .venv-mineru
+  # modelscope, e não huggingface: o cache do HF usa symlinks, que no Windows
+  # exigem um privilégio que nem toda máquina concede (WinError 1314).
+  model_source: modelscope
+  # A primeira execução ainda baixa os pesos; um timeout curto seria registrado
+  # como falha do MinerU sem ser.
+  timeout_seconds: 3600
+
+generation:
+  temperature: 0.0
+  # ATENÇÃO: as páginas do Diário Oficial são longas (3 colunas + tabelas).
+  # Valores baixos causam truncamento, que destrói o WER. Chamadas truncadas
+  # são marcadas com truncated=true e ficam fora das médias de qualidade.
+  max_tokens: 32000
+
+execution:
+  # Repetições por (modelo, documento, prompt) dentro de uma mesma execução.
+  repetitions: 1
+  # Chamadas concorrentes. A concorrência é APENAS entre modelos diferentes;
+  # dentro de um mesmo modelo as chamadas são serializadas.
+  max_parallel_models: 3
+  # Pausa entre chamadas consecutivas do mesmo modelo.
+  sleep_between_calls_seconds: 1.0

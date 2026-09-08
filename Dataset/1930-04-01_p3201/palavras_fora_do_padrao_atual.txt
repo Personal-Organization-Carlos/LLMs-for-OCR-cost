@@ -1,0 +1,66 @@
+# ====================================================================
+# PALAVRAS EM DESACORDO COM A NORMA ORTOGRAFICA ATUAL
+# Documento : Diario Official - Terca-feira, 1 de Abril de 1930 - pag. 3201
+# Arquivos  : 1930-04-01_p3201.html / 1930_3201_Notas.jpg
+# Fonte     : texto da transcricao em HTML, conferido contra a imagem
+# Gerado em : 2026-08-15
+# --------------------------------------------------------------------
+# FORMATO   : TSV (separador = TAB), codificacao UTF-8 (sem BOM)
+# Linhas iniciadas por '#' sao comentario: descartar ao processar.
+# Colunas   : grupo <TAB> forma_epoca <TAB> forma_atual <TAB> obs
+# Uso       : 'forma_epoca' e a grafia esperada no fac-simile.
+#             Se a transcricao trouxer 'forma_atual' no lugar dela,
+#             houve MODERNIZACAO indevida.
+# Grupos    : consoantes_dobradas_mudas, digrafos_gregos, alternancia_s_z, acento_ausente, acento_hoje_inexistente, nome_proprio_toponimo, nota_transcritor
+# Total     : 35 linhas de dados
+# ====================================================================
+grupo	forma_epoca	forma_atual	obs
+
+# [consoantes_dobradas_mudas] Consoantes dobradas e consoantes mudas (cc, ct, pt, pp, ll, mm, nn, ss, ff, bb) eliminadas pelas reformas de 1911/1943/1971
+consoantes_dobradas_mudas	accordo	acordo	
+consoantes_dobradas_mudas	accôrdo	acordo	tambem acento circunflexo
+consoantes_dobradas_mudas	activo	ativo	
+consoantes_dobradas_mudas	admittidos	admitidos	
+consoantes_dobradas_mudas	fallencia	falência	tambem falta acento
+consoantes_dobradas_mudas	immovel	imóvel	tambem falta acento
+consoantes_dobradas_mudas	official	oficial	
+consoantes_dobradas_mudas	somma	soma	
+
+# [digrafos_gregos] Digrafos e letras de origem grega (ph, th, ch=k, y, rh)
+digrafos_gregos	chirographarios	quirografários	ch>qu, ph>f, falta acento
+digrafos_gregos	mechanica	mecânica	tambem falta acento
+digrafos_gregos	syndico	síndico	tambem falta acento
+
+# [alternancia_s_z] Alternancia s/z (inclui -isar > -izar e brazil > brasil)
+alternancia_s_z	inglez	inglês	'Moinho Inglez'
+
+# [acento_ausente] Palavra sem acento que hoje e obrigatorio
+acento_ausente	camara	câmara	
+acento_ausente	cartorio	cartório	
+acento_ausente	diario	diário	
+acento_ausente	fabrica	fábrica	'Fabrica Aurora Limitada'
+acento_ausente	officio	ofício	tambem ff>f
+acento_ausente	privilegio	privilégio	
+
+# [acento_hoje_inexistente] Palavra com acento que hoje nao existe mais
+acento_hoje_inexistente	á	a / à	preposicao grafada com acento agudo
+
+# [nome_proprio_toponimo] Nome proprio ou toponimo com grafia hoje diferente (fora da norma comum)
+nome_proprio_toponimo	Antonio	Antônio	
+nome_proprio_toponimo	Baptista	Batista	
+nome_proprio_toponimo	Bariry	Bariri	
+nome_proprio_toponimo	Bazilio	Basílio	
+nome_proprio_toponimo	Felicio	Felício	
+nome_proprio_toponimo	Gouvêa	Gouveia	
+nome_proprio_toponimo	Ignacio	Inácio	
+nome_proprio_toponimo	Jahú	Jaú	
+nome_proprio_toponimo	Januario	Januário	
+nome_proprio_toponimo	Lazaro	Lázaro	
+nome_proprio_toponimo	Mario	Mário	
+nome_proprio_toponimo	Roméro	Romero	
+nome_proprio_toponimo	Victor	Vítor	
+
+# [nota_transcritor] Palavra que NAO consta do impresso original: pertence a nota inserida pelo transcritor
+nota_transcritor	columna	coluna	aparece so na nota final inserida pelo transcritor
+nota_transcritor	pagina	página	aparece so na nota final inserida pelo transcritor
+nota_transcritor	prosegue	prossegue	aparece so na nota final inserida pelo transcritor

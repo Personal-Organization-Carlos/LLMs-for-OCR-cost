@@ -1,0 +1,266 @@
+# ============================================================================
+# Registro de sistemas avaliados.
+#
+# Cada entrada descreve UM sistema de transcricao: por onde ele e chamado, como
+# ele e identificado no estudo e, quando o provedor nao informa o valor cobrado,
+# a que preco os tokens dele sao contabilizados.
+#
+# Antes de rodar, confira o registro com:
+#     python -m bench check
+#
+# Ele valida o arquivo, mostra quais chaves de API sao necessarias e confere
+# contra o catalogo do OpenRouter que cada `endpoint_tag` declarado existe.
+#
+# ---------------------------------------------------------------------------
+# ROTEAMENTO (campo `provider`)
+#   gemini      -> API nativa do Google (os Gemini proprietarios)
+#   mineru      -> executavel local, sem chave e sem custo por token
+#   openrouter  -> todo o resto (padrao quando o campo e omitido)
+#
+# ---------------------------------------------------------------------------
+# ENDPOINT FIXO (campo `endpoint_tag`, so para `provider: openrouter`)
+#   Dentro do OpenRouter o mesmo modelo e servido por varias casas E em varias
+#   faixas de servico, e nenhuma das duas coisas e neutra:
+#
+#     casa   as casas de um modelo aberto diferem em quantizacao — o Kimi K3 e
+#            servido em fp4, mxfp4, fp8 e bf16 conforme quem atende. Trocar de
+#            casa no meio de uma execucao mudaria o erro medido como se fosse
+#            propriedade do modelo.
+#     faixa  a mesma casa vende o mesmo modelo em niveis de servico com precos
+#            diferentes: o gpt-5.6-sol sai a 1/5 em `openai/flex`, 2/10 em
+#            `openai` e 4/20 em `openai/fast`.
+#
+#   A `endpoint_tag` fixa as duas de uma vez. A escolha aqui e sempre a casa DE
+#   ORIGEM (quem treinou o modelo) na faixa PADRAO — que e a faixa em que o
+#   roteador entrega quando ninguem pede nada, e portanto a base comum a todos.
+#
+#   `permitir_fallback_de_hospedagem` em settings.yaml decide o que acontece se
+#   o endpoint nao atender: false (padrao) faz a chamada FALHAR, preservando a
+#   comparabilidade; true deixa o OpenRouter desviar para outro.
+#
+#   As tags vem de `GET /api/v1/models/<id>/endpoints`.
+#
+# ---------------------------------------------------------------------------
+# PRECO DECLARADO (`preco_entrada_usd_mtok` / `preco_saida_usd_mtok`)
+#   So os modelos `provider: gemini` precisam de preco aqui: a API do Google
+#   devolve tokens mas nao o valor cobrado. Pelo OpenRouter o custo vem medido,
+#   no proprio corpo da resposta, e nao depende desta tabela.
+#
+#   Os valores declarados sao os do catalogo do OpenRouter na faixa PADRAO
+#   (reconferidos em 2026-09-07), para que TODOS os sistemas do estudo — os
+#   chamados pelo OpenRouter e os chamados pela API nativa — sejam precificados
+#   na mesma base.
+#
+#   ATENCAO: este numero NUNCA e o que se paga ao Google. O `cost_usd` dos
+#   Gemini e sempre preco-de-tabela x tokens, marcado com
+#   `cost_source: tabela_precos`, e o `score` o recalcula a partir deste arquivo
+#   a cada pontuacao. Serve para comparar sistemas numa base comum, nao para
+#   reconciliar com a fatura.
+# ============================================================================
+
+models:
+
+  # =========================================================================
+  # GOOGLE DEEPMIND — proprietário (API nativa)
+  # Único fornecedor da lista com visão nos dois lados, aberto e fechado.
+  # =========================================================================
+  - id: google/gemini-3.7-flash
+    empresa: Google
+    tipo: fechado
+    provider: gemini
+    api_model_id: gemini-3.7-flash
+    label: Gemini 3.7 Flash
+    licenca: proprietária
+    familia: gemini-3
+    notas: A tarifa direta do Google e o dobro (promo ate 31/12/2026). faixa PADRAO do OpenRouter (google-ai-studio), a mesma em que todos os demais modelos do estudo sao efetivamente cobrados.
+    preco_entrada_usd_mtok: 0.750
+    preco_saida_usd_mtok: 3.750
+    rpm_limit: 10
+
+  - id: google/gemini-3.6-flash
+    empresa: Google
+    tipo: fechado
+    provider: gemini
+    api_model_id: gemini-3.6-flash
+    label: Gemini 3.6 Flash
+    licenca: proprietária
+    familia: gemini-3
+    notas: GA. faixa PADRAO do OpenRouter (google-ai-studio), a mesma em que todos os demais modelos do estudo sao efetivamente cobrados.
+    preco_entrada_usd_mtok: 0.750
+    preco_saida_usd_mtok: 3.750
+    rpm_limit: 10
+
+  - id: google/gemini-3.5-flash
+    empresa: Google
+    tipo: fechado
+    provider: gemini
+    api_model_id: gemini-3.5-flash
+    label: Gemini 3.5 Flash
+    licenca: proprietária
+    familia: gemini-3
+    notas: Estavel, legado. faixa PADRAO do OpenRouter (google-ai-studio), a mesma em que todos os demais modelos do estudo sao efetivamente cobrados.
+    preco_entrada_usd_mtok: 1.500
+    preco_saida_usd_mtok: 9.000
+    rpm_limit: 10
+
+  - id: google/gemini-3.5-flash-lite
+    empresa: Google
+    tipo: fechado
+    provider: gemini
+    api_model_id: gemini-3.5-flash-lite
+    label: Gemini 3.5 Flash-Lite
+    licenca: proprietária
+    familia: gemini-3
+    notas: Perfil subagente/lote. faixa PADRAO do OpenRouter (google-ai-studio), a mesma em que todos os demais modelos do estudo sao efetivamente cobrados.
+    preco_entrada_usd_mtok: 0.300
+    preco_saida_usd_mtok: 2.500
+    rpm_limit: 15
+
+
+  # =========================================================================
+  # OPENAI — só proprietário (a linha aberta gpt-oss não tem visão)
+  # =========================================================================
+  - id: openai/gpt-5.6-sol
+    empresa: OpenAI
+    tipo: fechado
+    label: GPT-5.6 Sol
+    endpoint_tag: openai
+    licenca: proprietária
+    familia: gpt-5.6
+
+  # =========================================================================
+  # ANTHROPIC — só proprietário, todos aceitam imagem
+  # =========================================================================
+
+  - id: anthropic/claude-opus-5
+    empresa: Anthropic
+    tipo: fechado
+    label: Claude Opus 5
+    endpoint_tag: anthropic
+    licenca: proprietária
+    familia: claude-5
+
+  - id: anthropic/claude-sonnet-5
+    empresa: Anthropic
+    tipo: fechado
+    label: Claude Sonnet 5
+    endpoint_tag: anthropic
+    licenca: proprietária
+    familia: claude-5
+
+
+  # =========================================================================
+  # ALIBABA · QWEN — a segunda empresa com os dois tipos
+  # A família Qwen3-VL é servida em três tamanhos instruct pelo OpenRouter, o
+  # que permite, se quiser, uma análise de escala dentro da mesma arquitetura.
+  # =========================================================================
+  - id: qwen/qwen3-vl-235b-a22b-instruct
+    empresa: Alibaba
+    tipo: aberto
+    label: Qwen3-VL 235B
+    endpoint_tag: alibaba
+    licenca: Apache-2.0
+    familia: qwen3-vl
+    parametros_totais_b: 235
+    parametros_ativos_b: 22
+
+  - id: qwen/qwen3.7-plus
+    empresa: Alibaba
+    tipo: fechado
+    label: Qwen3.7 Plus
+    endpoint_tag: alibaba
+    licenca: proprietária
+    familia: qwen3.7
+    notas: o multimodal da linha 3.7 (o Max é só texto)
+
+  # =========================================================================
+  # MOONSHOT AI · KIMI
+  # Sua própria ficha avisa: o raciocínio vem em `max` por padrão e os tokens
+  # de pensamento são cobrados como saída. Por isso `reasoning_effort: low` —
+  # sem isso a fatura vem várias vezes maior e a medida de tokens/segundo fica
+  # sem sentido. Os tokens de raciocínio são registrados em `reasoning_tokens`.
+  # =========================================================================
+  - id: moonshotai/kimi-k3
+    empresa: Moonshot
+    tipo: aberto
+    label: Kimi K3
+    endpoint_tag: moonshotai/mxfp4
+    licenca: Modified MIT
+    familia: kimi-k3
+    reasoning_effort: low
+    notas: visão nativa só a partir do K3; tokens de pensamento cobrados como saída
+
+
+  # =========================================================================
+  # OPENDATALAB · MinerU — analisador de documentos, executado localmente
+  #
+  # Não é um LLM instruído: é a linha de base especializada em documento. Roda
+  # na máquina (RTX 4050, 6 GB), sem chave e sem custo por token — por isso
+  # `cost_usd` é 0 e o custo que importa é `latency_s`.
+  #
+  # Os três backends locais do MinerU 3.4.4 não são variações de tamanho, são
+  # arquiteturas diferentes, e é essa a comparação interessante:
+  #   pipeline      detector de layout + PP-OCR. Sem modelo de linguagem no
+  #                 caminho — a hipótese é que seja o que menos moderniza.
+  #   vlm-engine    VLM puro (MinerU2.5-Pro-2605-1.2B) via transformers.
+  #   hybrid-engine layout do pipeline + texto do VLM. É o padrão do MinerU.
+  #
+  # O `hybrid-engine` aparece duas vezes, com `--effort medium` (o padrão) e
+  # `--effort high` (que liga a análise de imagem/gráfico). A página de 1891
+  # tem uma tabela, e saber se o esforço alto muda alguma coisa é barato.
+  #
+  # `parametros_ativos_b: 1.2` só existe onde há VLM: é o tamanho declarado do
+  # MinerU2.5-Pro. O `pipeline` não tem modelo de linguagem e fica sem, o que é
+  # a resposta correta e não uma lacuna.
+  # =========================================================================
+  - id: opendatalab/mineru-pipeline
+    empresa: OpenDataLab
+    tipo: aberto
+    provider: mineru
+    label: MinerU pipeline
+    licenca: AGPL-3.0
+    familia: mineru-3.4
+    notas: detecção de layout + PP-OCRv6; único backend que roda sem GPU e único que gera span.pdf
+    backend_options:
+      backend: pipeline
+
+  - id: opendatalab/mineru-vlm
+    empresa: OpenDataLab
+    tipo: aberto
+    provider: mineru
+    label: MinerU vlm-engine
+    licenca: AGPL-3.0
+    familia: mineru-3.4
+    notas: VLM puro (MinerU2.5-Pro-2605-1.2B) via transformers; sem vLLM no Windows
+    parametros_totais_b: 1.2
+    parametros_ativos_b: 1.2
+    backend_options:
+      backend: vlm-engine
+
+  - id: opendatalab/mineru-hybrid
+    empresa: OpenDataLab
+    tipo: aberto
+    provider: mineru
+    label: MinerU hybrid (medium)
+    licenca: AGPL-3.0
+    familia: mineru-3.4
+    notas: padrão do MinerU — layout do pipeline, texto do VLM
+    parametros_totais_b: 1.2
+    parametros_ativos_b: 1.2
+    backend_options:
+      backend: hybrid-engine
+      effort: medium
+
+  - id: opendatalab/mineru-hybrid-high
+    empresa: OpenDataLab
+    tipo: aberto
+    provider: mineru
+    label: MinerU hybrid (high)
+    licenca: AGPL-3.0
+    familia: mineru-3.4
+    notas: hybrid com --effort high, que habilita análise de imagem/gráfico
+    parametros_totais_b: 1.2
+    parametros_ativos_b: 1.2
+    backend_options:
+      backend: hybrid-engine
+      effort: high

@@ -1,0 +1,93 @@
+# ====================================================================
+# PALAVRAS EM DESACORDO COM A NORMA ORTOGRAFICA ATUAL
+# Documento : Diario Official - Sexta-feira, 1 de Abril de 1910 - pag. 985
+# Arquivos  : 1910-04-01_p985.html / 1910_0985_Facil.jpg
+# Fonte     : texto da transcricao em HTML  --  RASCUNHO NAO CONFERIDO
+# Gerado em : 2026-09-01
+# --------------------------------------------------------------------
+# ATENCAO   : esta lista foi extraida de uma transcricao AUTOMATICA que
+#             ainda nao foi conferida contra a imagem. Uma grafia que o
+#             transcritor tenha modernizado por conta propria nao aparece
+#             aqui - e justamente a que mais importa. Confira a lista
+#             contra o fac-simile antes de por 1910-04-01_p985 em dataset.active.
+# --------------------------------------------------------------------
+# FORMATO   : TSV (separador = TAB), codificacao UTF-8 (sem BOM)
+# Linhas iniciadas por '#' sao comentario: descartar ao processar.
+# Colunas   : grupo <TAB> forma_epoca <TAB> forma_atual <TAB> obs
+# Uso       : 'forma_epoca' e a grafia esperada no fac-simile.
+#             Se a transcricao trouxer 'forma_atual' no lugar dela,
+#             houve MODERNIZACAO indevida.
+# Grupos    : consoantes_dobradas_mudas, digrafos_gregos, alternancia_s_z, acento_ausente, acento_hoje_inexistente, vocabulario_morfologia, nome_proprio_toponimo
+# Total     : 55 linhas de dados
+# ====================================================================
+grupo	forma_epoca	forma_atual	obs
+
+
+# [consoantes_dobradas_mudas] Consoantes dobradas e consoantes mudas (cc, ct, pt, pp, ll, mm, nn, ss, ff, bb) eliminadas pelas reformas de 1911/1943/1971
+consoantes_dobradas_mudas	actos	atos	
+consoantes_dobradas_mudas	acção	ação	
+consoantes_dobradas_mudas	anno	ano	
+consoantes_dobradas_mudas	approvação	aprovação	
+consoantes_dobradas_mudas	assignadas	assinadas	
+consoantes_dobradas_mudas	attendendo	atendendo	
+consoantes_dobradas_mudas	attribuição	atribuição	
+consoantes_dobradas_mudas	auctoriza	autoriza	queda do c em auct-
+consoantes_dobradas_mudas	auctorizada	autorizada	queda do c em auct-
+consoantes_dobradas_mudas	commercio	comércio	tambem falta acento
+consoantes_dobradas_mudas	commum	comum	
+consoantes_dobradas_mudas	comprehenderão	compreenderão	queda do h
+consoantes_dobradas_mudas	comtanto	contanto	m antes de t
+consoantes_dobradas_mudas	construcção	construção	
+consoantes_dobradas_mudas	desaccôrdo	desacordo	tambem acento circunflexo
+consoantes_dobradas_mudas	desappropriação	desapropriação	
+consoantes_dobradas_mudas	official	oficial	
+consoantes_dobradas_mudas	parallelas	paralelas	
+consoantes_dobradas_mudas	permittir	permitir	
+consoantes_dobradas_mudas	projectos	projetos	
+consoantes_dobradas_mudas	protecção	proteção	
+consoantes_dobradas_mudas	submettidos	submetidos	
+
+# [digrafos_gregos] Digrafos de origem grega (ph, th, ch=k, rh, y) substituidos em 1911/1943
+digrafos_gregos	paragraphos	parágrafos	ph > f, tambem falta acento
+digrafos_gregos	telegraphica	telegráfica	ph > f, tambem falta acento
+
+# [alternancia_s_z] Alternancia s/z e c/s, fixada pelas reformas
+alternancia_s_z	gosará	gozará	
+alternancia_s_z	goso	gozo	
+
+# [acento_ausente] Palavra que hoje leva acento e no fac-simile nao leva
+acento_ausente	compativel	compatível	
+acento_ausente	dependencias	dependências	
+acento_ausente	exercicio	exercício	
+acento_ausente	ferrea	férrea	
+acento_ausente	generos	gêneros	
+acento_ausente	necessario	necessário	
+acento_ausente	necessarios	necessários	
+acento_ausente	negocios	negócios	
+acento_ausente	onus	ônus	
+acento_ausente	palacio	palácio	
+acento_ausente	policia	polícia	
+acento_ausente	publicas	públicas	
+acento_ausente	publico	público	
+acento_ausente	secretario	secretário	
+acento_ausente	trafego	tráfego	
+
+# [acento_hoje_inexistente] Acento que a norma atual eliminou
+acento_hoje_inexistente	fórma	forma	acento diacritico hoje inexistente
+acento_hoje_inexistente	fôr	for	futuro do subjuntivo, hoje sem acento
+acento_hoje_inexistente	sómente	somente	hoje sem acento
+acento_hoje_inexistente	á	a / à	preposicao grafada com acento agudo
+
+# [vocabulario_morfologia] Forma lexical ou morfologica de epoca (plurais em -aes, arcaismos)
+vocabulario_morfologia	armazens	armazéns	plural hoje em -éns
+vocabulario_morfologia	kilometros	quilômetros	k > qu, tambem falta acento
+vocabulario_morfologia	lateraes	laterais	plural em -aes
+vocabulario_morfologia	si	se	conjuncao condicional grafada si
+
+# [nome_proprio_toponimo] Nome proprio ou toponimo com grafia de epoca
+nome_proprio_toponimo	Antonio	Antônio	
+nome_proprio_toponimo	Brazil	Brasil	
+nome_proprio_toponimo	Goyaz	Goiás	y > i, z > s
+nome_proprio_toponimo	Jatahy	Jataí	hy > i
+nome_proprio_toponimo	Mogyana	Mogiana	Companhia Mogyana
+nome_proprio_toponimo	Salles	Sales	

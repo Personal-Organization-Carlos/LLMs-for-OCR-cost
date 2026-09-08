@@ -1,0 +1,105 @@
+# ====================================================================
+# PALAVRAS EM DESACORDO COM A NORMA ORTOGRAFICA ATUAL
+# Documento : Diario Official - Quinta-feira, 1.o de Abril de 1920 - pag. 2099
+# Arquivos  : 1920-04-01_p2099.html / 1920_2099_Facil.jpg
+# Fonte     : texto da transcricao em HTML  --  RASCUNHO NAO CONFERIDO
+# Gerado em : 2026-09-01
+# --------------------------------------------------------------------
+# ATENCAO   : esta lista foi extraida de uma transcricao AUTOMATICA que
+#             ainda nao foi conferida contra a imagem. Uma grafia que o
+#             transcritor tenha modernizado por conta propria nao aparece
+#             aqui - e justamente a que mais importa. Confira a lista
+#             contra o fac-simile antes de por 1920-04-01_p2099 em dataset.active.
+# --------------------------------------------------------------------
+# FORMATO   : TSV (separador = TAB), codificacao UTF-8 (sem BOM)
+# Linhas iniciadas por '#' sao comentario: descartar ao processar.
+# Colunas   : grupo <TAB> forma_epoca <TAB> forma_atual <TAB> obs
+# Uso       : 'forma_epoca' e a grafia esperada no fac-simile.
+#             Se a transcricao trouxer 'forma_atual' no lugar dela,
+#             houve MODERNIZACAO indevida.
+# Grupos    : consoantes_dobradas_mudas, digrafos_gregos, alternancia_s_z, acento_ausente, acento_hoje_inexistente, vocabulario_morfologia, nome_proprio_toponimo
+# Total     : 67 linhas de dados
+# ====================================================================
+grupo	forma_epoca	forma_atual	obs
+
+
+# [consoantes_dobradas_mudas] Consoantes dobradas e consoantes mudas (cc, ct, pt, pp, ll, mm, nn, ss, ff, bb) eliminadas pelas reformas de 1911/1943/1971
+consoantes_dobradas_mudas	acquisição	aquisição	
+consoantes_dobradas_mudas	actos	atos	
+consoantes_dobradas_mudas	annexa	anexa	
+consoantes_dobradas_mudas	colloca	coloca	
+consoantes_dobradas_mudas	collocado	colocado	
+consoantes_dobradas_mudas	collocou	colocou	
+consoantes_dobradas_mudas	communhão	comunhão	
+consoantes_dobradas_mudas	communs	comuns	
+consoantes_dobradas_mudas	damnos	danos	
+consoantes_dobradas_mudas	dellas	delas	
+consoantes_dobradas_mudas	delle	dele	
+consoantes_dobradas_mudas	direcção	direção	
+consoantes_dobradas_mudas	districto	distrito	
+consoantes_dobradas_mudas	fructos	frutos	
+consoantes_dobradas_mudas	immovel	imóvel	tambem falta acento
+consoantes_dobradas_mudas	indemnização	indenização	m antes de n
+consoantes_dobradas_mudas	official	oficial	
+consoantes_dobradas_mudas	officio	ofício	tambem falta acento
+consoantes_dobradas_mudas	successo	sucesso	fazenda Bom Successo
+consoantes_dobradas_mudas	supplicantes	suplicantes	
+
+# [digrafos_gregos] Digrafos de origem grega (ph, th, ch=k, rh, y) substituidos em 1911/1943
+digrafos_gregos	copahyba	copaíba	hy > i
+digrafos_gregos	orphams	órfãos	ph > f, tambem falta acento
+digrafos_gregos	orphãos	órfãos	ph > f, tambem falta acento
+
+# [alternancia_s_z] Alternancia s/z e c/s, fixada pelas reformas
+alternancia_s_z	despezas	despesas	
+
+# [acento_ausente] Palavra que hoje leva acento e no fac-simile nao leva
+acento_ausente	audiencia	audiência	
+acento_ausente	ausencia	ausência	
+acento_ausente	bemfeitorias	benfeitorias	tambem m antes de f
+acento_ausente	cartorio	cartório	
+acento_ausente	constituido	constituído	hiato hoje acentuado
+acento_ausente	corrego	córrego	
+acento_ausente	corregosinho	corregozinho	tambem s > z
+acento_ausente	distancia	distância	
+acento_ausente	distribuida	distribuída	hiato hoje acentuado
+acento_ausente	genero	gênero	
+acento_ausente	juizo	juízo	
+acento_ausente	legitimos	legítimos	
+acento_ausente	municipio	município	
+acento_ausente	necessarios	necessários	
+acento_ausente	noticia	notícia	
+acento_ausente	oleo	óleo	
+acento_ausente	principio	princípio	
+acento_ausente	proprias	próprias	
+acento_ausente	socio	sócio	
+acento_ausente	socios	sócios	
+acento_ausente	tres	três	
+
+# [acento_hoje_inexistente] Acento que a norma atual eliminou
+acento_hoje_inexistente	cóva	cova	hoje sem acento
+acento_hoje_inexistente	gráos	graus	hoje sem acento
+acento_hoje_inexistente	gráus	graus	hoje sem acento
+acento_hoje_inexistente	páu	pau	hoje sem acento
+acento_hoje_inexistente	ról	rol	hoje sem acento
+acento_hoje_inexistente	teôr	teor	hoje sem acento
+acento_hoje_inexistente	á	a / à	preposicao grafada com acento agudo
+
+# [vocabulario_morfologia] Forma lexical ou morfologica de epoca (plurais em -aes, arcaismos)
+vocabulario_morfologia	capueira	capoeira	o > u pretonico
+vocabulario_morfologia	cincoenta	cinquenta	forma de epoca do numeral
+vocabulario_morfologia	dagua	d'agua	aglutinacao de epoca
+vocabulario_morfologia	dezeseis	dezesseis	s simples por ss
+vocabulario_morfologia	editaes	editais	plural em -aes
+vocabulario_morfologia	logar	lugar	o > u pretonico
+vocabulario_morfologia	logares	lugares	o > u pretonico
+vocabulario_morfologia	pessoaes	pessoais	plural em -aes
+
+# [nome_proprio_toponimo] Nome proprio ou toponimo com grafia de epoca
+nome_proprio_toponimo	Anna	Ana	
+nome_proprio_toponimo	Antonio	Antônio	
+nome_proprio_toponimo	Arthur	Artur	th > t
+nome_proprio_toponimo	Braz	Brás	z > s
+nome_proprio_toponimo	Cajurú	Cajuru	hoje sem acento
+nome_proprio_toponimo	Jeronymo	Jerônimo	y > i
+nome_proprio_toponimo	Sátero	Sátiro	

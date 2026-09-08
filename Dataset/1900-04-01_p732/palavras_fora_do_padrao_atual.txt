@@ -1,0 +1,127 @@
+# ====================================================================
+# PALAVRAS EM DESACORDO COM A NORMA ORTOGRAFICA ATUAL
+# Documento : Diario Official - Domingo, 1 de Abril de 1900 - pag. 732
+# Arquivos  : 1900-04-01_p732.html / 1900_0732_Facil.jpg
+# Fonte     : texto da transcricao em HTML  --  RASCUNHO NAO CONFERIDO
+# Gerado em : 2026-09-01
+# --------------------------------------------------------------------
+# ATENCAO   : esta lista foi extraida de uma transcricao AUTOMATICA que
+#             ainda nao foi conferida contra a imagem. Uma grafia que o
+#             transcritor tenha modernizado por conta propria nao aparece
+#             aqui - e justamente a que mais importa. Confira a lista
+#             contra o fac-simile antes de por 1900-04-01_p732 em dataset.active.
+# --------------------------------------------------------------------
+# FORMATO   : TSV (separador = TAB), codificacao UTF-8 (sem BOM)
+# Linhas iniciadas por '#' sao comentario: descartar ao processar.
+# Colunas   : grupo <TAB> forma_epoca <TAB> forma_atual <TAB> obs
+# Uso       : 'forma_epoca' e a grafia esperada no fac-simile.
+#             Se a transcricao trouxer 'forma_atual' no lugar dela,
+#             houve MODERNIZACAO indevida.
+# Grupos    : consoantes_dobradas_mudas, digrafos_gregos, alternancia_s_z, acento_ausente, acento_hoje_inexistente, vocabulario_morfologia, nome_proprio_toponimo
+# Total     : 89 linhas de dados
+# ====================================================================
+grupo	forma_epoca	forma_atual	obs
+
+
+# [consoantes_dobradas_mudas] Consoantes dobradas e consoantes mudas (cc, ct, pt, pp, ll, mm, nn, ss, ff, bb) eliminadas pelas reformas de 1911/1943/1971
+consoantes_dobradas_mudas	accôrdo	acordo	tambem acento circunflexo
+consoantes_dobradas_mudas	acquisição	aquisição	
+consoantes_dobradas_mudas	annexos	anexos	
+consoantes_dobradas_mudas	anno	ano	
+consoantes_dobradas_mudas	approvado	aprovado	
+consoantes_dobradas_mudas	assignadas	assinadas	
+consoantes_dobradas_mudas	auctorizando	autorizando	queda do c em auct-
+consoantes_dobradas_mudas	auctorizou-se	autorizou-se	queda do c em auct-
+consoantes_dobradas_mudas	bella	bela	grupo escholar de Bella Vista
+consoantes_dobradas_mudas	commissão	comissão	
+consoantes_dobradas_mudas	communicou-se	comunicou-se	
+consoantes_dobradas_mudas	conjunctamente	conjuntamente	
+consoantes_dobradas_mudas	construcção	construção	
+consoantes_dobradas_mudas	contracto	contrato	
+consoantes_dobradas_mudas	director	diretor	
+consoantes_dobradas_mudas	directoria	diretoria	
+consoantes_dobradas_mudas	districto	distrito	
+consoantes_dobradas_mudas	exgottos	esgotos	
+consoantes_dobradas_mudas	extincção	extinção	
+consoantes_dobradas_mudas	funccionario	funcionário	tambem falta acento
+consoantes_dobradas_mudas	illegalmente	ilegalmente	
+consoantes_dobradas_mudas	objectos	objetos	
+consoantes_dobradas_mudas	occorrer	ocorrer	
+consoantes_dobradas_mudas	official	oficial	
+consoantes_dobradas_mudas	officio	ofício	tambem falta acento
+consoantes_dobradas_mudas	officios	ofícios	tambem falta acento
+consoantes_dobradas_mudas	recommendando	recomendando	
+consoantes_dobradas_mudas	rectificação	retificação	
+consoantes_dobradas_mudas	remettendo	remetendo	
+consoantes_dobradas_mudas	saccos	sacos	
+consoantes_dobradas_mudas	secção	seção	
+consoantes_dobradas_mudas	tabelliães	tabeliães	
+consoantes_dobradas_mudas	transmittiram-se	transmitiram-se	
+consoantes_dobradas_mudas	transmittiu-se	transmitiu-se	
+
+# [digrafos_gregos] Digrafos de origem grega (ph, th, ch=k, rh, y) substituidos em 1911/1943
+digrafos_gregos	eschola	escola	ch > c
+digrafos_gregos	escholar	escolar	ch > c
+digrafos_gregos	geographica	geográfica	ph > f, tambem falta acento
+digrafos_gregos	hypothecas	hipotecas	y > i, th > t
+digrafos_gregos	mechanica	mecânica	ch = k, tambem falta acento
+digrafos_gregos	orphams	órfãos	ph > f, tambem falta acento
+digrafos_gregos	pharmaceutico	farmacêutico	ph > f, tambem falta acento
+digrafos_gregos	pharmacia	farmácia	ph > f, tambem falta acento
+digrafos_gregos	thesouro	tesouro	th > t
+
+# [alternancia_s_z] Alternancia s/z e c/s, fixada pelas reformas
+alternancia_s_z	algodãosinho	algodãozinho	
+alternancia_s_z	gaz	gás	tambem falta acento
+
+# [acento_ausente] Palavra que hoje leva acento e no fac-simile nao leva
+acento_ausente	codigo	código	
+acento_ausente	diarias	diárias	
+acento_ausente	hospicio	hospício	
+acento_ausente	identico	idêntico	
+acento_ausente	incendios	incêndios	
+acento_ausente	inventario	inventário	
+acento_ausente	juizo	juízo	
+acento_ausente	mez	mês	
+acento_ausente	mezes	meses	tambem z > s
+acento_ausente	necessaria	necessária	
+acento_ausente	necessarias	necessárias	
+acento_ausente	negocios	negócios	
+acento_ausente	policia	polícia	
+acento_ausente	provincia	província	
+acento_ausente	proximo	próximo	
+acento_ausente	publica	pública	
+acento_ausente	publicas	públicas	
+acento_ausente	publico	público	
+acento_ausente	rogatoria	rogatória	
+acento_ausente	secretario	secretário	
+acento_ausente	titulo	título	
+acento_ausente	ultimo	último	
+acento_ausente	varios	vários	
+
+# [acento_hoje_inexistente] Acento que a norma atual eliminou
+acento_hoje_inexistente	á	a / à	preposicao grafada com acento agudo
+acento_hoje_inexistente	ás	às	
+
+# [vocabulario_morfologia] Forma lexical ou morfologica de epoca (plurais em -aes, arcaismos)
+vocabulario_morfologia	adeantamento	adiantamento	e > i pretonico
+vocabulario_morfologia	animaes	animais	plural em -aes
+vocabulario_morfologia	egual	igual	e > i pretonico
+vocabulario_morfologia	materiaes	materiais	plural em -aes
+vocabulario_morfologia	quaes	quais	plural em -aes
+
+# [nome_proprio_toponimo] Nome proprio ou toponimo com grafia de epoca
+nome_proprio_toponimo	Adolpho	Adolfo	ph > f
+nome_proprio_toponimo	Alvaro	Álvaro	
+nome_proprio_toponimo	Antonia	Antônia	
+nome_proprio_toponimo	Antonio	Antônio	
+nome_proprio_toponimo	Baptista	Batista	
+nome_proprio_toponimo	Botucatú	Botucatu	hoje sem acento
+nome_proprio_toponimo	Jacarehy	Jacareí	hy > i
+nome_proprio_toponimo	Lençóes	Lençóis	
+nome_proprio_toponimo	Luiz	Luís	z > s
+nome_proprio_toponimo	Mogy-mirim	Mogi Mirim	y > i
+nome_proprio_toponimo	Parahyba	Paraíba	rio Parahyba
+nome_proprio_toponimo	Sapucahy	Sapucaí	S. Bento do Sapucahy
+nome_proprio_toponimo	Vicencia	Vicência	
+nome_proprio_toponimo	Virgilio	Virgílio	

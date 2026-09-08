@@ -1,0 +1,87 @@
+# ====================================================================
+# PALAVRAS EM DESACORDO COM A NORMA ORTOGRAFICA ATUAL
+# Documento : Diario Official - Sexta-feira, 1 de Abril de 1910 - pag. 995
+# Arquivos  : 1910-04-01_p995.html / 1910_0995_TabelaGrande.jpg
+# Fonte     : texto da transcricao em HTML, conferido contra a imagem
+# Gerado em : 2026-08-15
+# --------------------------------------------------------------------
+# FORMATO   : TSV (separador = TAB), codificacao UTF-8 (sem BOM)
+# Linhas iniciadas por '#' sao comentario: descartar ao processar.
+# Colunas   : grupo <TAB> forma_epoca <TAB> forma_atual <TAB> obs
+# Uso       : 'forma_epoca' e a grafia esperada no fac-simile.
+#             Se a transcricao trouxer 'forma_atual' no lugar dela,
+#             houve MODERNIZACAO indevida.
+# Grupos    : consoantes_dobradas_mudas, digrafos_gregos, alternancia_s_z, acento_ausente, acento_hoje_inexistente, vocabulario_morfologia, nome_proprio_toponimo
+# Total     : 56 linhas de dados
+# ====================================================================
+grupo	forma_epoca	forma_atual	obs
+
+# [consoantes_dobradas_mudas] Consoantes dobradas e consoantes mudas (cc, ct, pt, pp, ll, mm, nn, ss, ff, bb) eliminadas pelas reformas de 1911/1943/1971
+consoantes_dobradas_mudas	accôrdo	acordo	tambem acento circunflexo
+consoantes_dobradas_mudas	actos	atos	
+consoantes_dobradas_mudas	animaes	animais	
+consoantes_dobradas_mudas	appellada	apelada	
+consoantes_dobradas_mudas	appellado	apelado	
+consoantes_dobradas_mudas	appellados	apelados	
+consoantes_dobradas_mudas	appellante	apelante	
+consoantes_dobradas_mudas	appellações	apelações	
+consoantes_dobradas_mudas	assignado	assinado	
+consoantes_dobradas_mudas	cavallar	cavalar	
+consoantes_dobradas_mudas	commercio	comércio	tambem falta acento
+consoantes_dobradas_mudas	directoria	diretoria	
+consoantes_dobradas_mudas	federaes	federais	
+consoantes_dobradas_mudas	official	oficial	
+consoantes_dobradas_mudas	secco	seco	
+consoantes_dobradas_mudas	secção	seção	
+
+# [digrafos_gregos] Digrafos e letras de origem grega (ph, th, ch=k, y, rh)
+digrafos_gregos	archivo	arquivo	
+digrafos_gregos	telegrapho	telégrafo	tambem falta acento
+digrafos_gregos	thermometro	termômetro	tambem falta acento
+
+# [alternancia_s_z] Alternancia s/z (inclui -isar > -izar e brazil > brasil)
+alternancia_s_z	brazil	Brasil	'Estados Unidos do Brazil'
+alternancia_s_z	franceza	francesa	
+alternancia_s_z	normalisada	normalizada	
+
+# [acento_ausente] Palavra sem acento que hoje e obrigatorio
+acento_ausente	civeis	cíveis	
+acento_ausente	contrario	contrário	
+acento_ausente	desistencia	desistência	
+acento_ausente	diario	diário	
+acento_ausente	diligencia	diligência	
+acento_ausente	espirito	espírito	
+acento_ausente	independencia	independência	
+acento_ausente	industria	indústria	
+acento_ausente	instavel	instável	
+acento_ausente	meteorologica	meteorológica	
+acento_ausente	negocios	negócios	
+acento_ausente	numero	número	
+acento_ausente	observatorios	observatórios	
+acento_ausente	provavel	provável	
+acento_ausente	relampagos	relâmpagos	
+acento_ausente	republica	república	
+acento_ausente	vespera	véspera	
+
+# [acento_hoje_inexistente] Palavra com acento que hoje nao existe mais
+acento_hoje_inexistente	E'	É	"E' creado o Registro"
+acento_hoje_inexistente	garôa	garoa	
+acento_hoje_inexistente	máu	mau	
+
+# [vocabulario_morfologia] Vocabulario, morfologia verbal e juncao/separacao de palavras
+vocabulario_morfologia	creado	criado	
+vocabulario_morfologia	humidade	umidade	h inicial etimologico
+vocabulario_morfologia	humido	úmido	h inicial etimologico + acento
+
+# [nome_proprio_toponimo] Nome proprio ou toponimo com grafia hoje diferente (fora da norma comum)
+nome_proprio_toponimo	Cordoba	Córdoba	
+nome_proprio_toponimo	Faxina	Itapeva	toponimo alterado em 1935
+nome_proprio_toponimo	Florianopolis	Florianópolis	
+nome_proprio_toponimo	Indias	Índias	'Companhia Franceza das Indias'
+nome_proprio_toponimo	Izabel	Isabel	comarca de Santa Izabel
+nome_proprio_toponimo	Rodolpho	Rodolfo	
+nome_proprio_toponimo	Tatuhy	Tatuí	
+nome_proprio_toponimo	Theodoro	Teodoro	
+nome_proprio_toponimo	Thomaz	Tomás	
+nome_proprio_toponimo	Thomé	Tomé	
+nome_proprio_toponimo	Ytú	Itu	

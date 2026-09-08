@@ -1,0 +1,10 @@
+# Nucleo
+PyYAML>=6.0
+requests>=2.31
+
+# Distancia de edicao (WER/CER). Implementada em C++: uma pagina inteira sai em
+# milissegundos.
+rapidfuzz>=3.6
+
+# Graficos (comando `graficos`). Sem ele, `run` e `score` continuam funcionando.
+matplotlib>=3.8

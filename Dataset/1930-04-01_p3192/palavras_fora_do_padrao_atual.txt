@@ -1,0 +1,123 @@
+# ====================================================================
+# PALAVRAS EM DESACORDO COM A NORMA ORTOGRAFICA ATUAL
+# Documento : Diario Official - Terca-feira, 1 de Abril de 1930 - pag. 3192
+# Arquivos  : 1930-04-01_p3192.html / 1930_3192_Facil.jpg
+# Fonte     : texto da transcricao em HTML  --  RASCUNHO NAO CONFERIDO
+# Gerado em : 2026-09-01
+# --------------------------------------------------------------------
+# ATENCAO   : esta lista foi extraida de uma transcricao AUTOMATICA que
+#             ainda nao foi conferida contra a imagem. Uma grafia que o
+#             transcritor tenha modernizado por conta propria nao aparece
+#             aqui - e justamente a que mais importa. Confira a lista
+#             contra o fac-simile antes de por 1930-04-01_p3192 em dataset.active.
+# --------------------------------------------------------------------
+# FORMATO   : TSV (separador = TAB), codificacao UTF-8 (sem BOM)
+# Linhas iniciadas por '#' sao comentario: descartar ao processar.
+# Colunas   : grupo <TAB> forma_epoca <TAB> forma_atual <TAB> obs
+# Uso       : 'forma_epoca' e a grafia esperada no fac-simile.
+#             Se a transcricao trouxer 'forma_atual' no lugar dela,
+#             houve MODERNIZACAO indevida.
+# Grupos    : consoantes_dobradas_mudas, digrafos_gregos, alternancia_s_z, acento_ausente, acento_hoje_inexistente, vocabulario_morfologia, nome_proprio_toponimo
+# Total     : 85 linhas de dados
+# ====================================================================
+grupo	forma_epoca	forma_atual	obs
+
+
+# [consoantes_dobradas_mudas] Consoantes dobradas e consoantes mudas (cc, ct, pt, pp, ll, mm, nn, ss, ff, bb) eliminadas pelas reformas de 1911/1943/1971
+consoantes_dobradas_mudas	alumno	aluno	
+consoantes_dobradas_mudas	alumnos	alunos	
+consoantes_dobradas_mudas	apparecida	aparecida	
+consoantes_dobradas_mudas	attestado	atestado	
+consoantes_dobradas_mudas	contracto	contrato	
+consoantes_dobradas_mudas	correcção	correção	
+consoantes_dobradas_mudas	director	diretor	
+consoantes_dobradas_mudas	directoria	diretoria	
+consoantes_dobradas_mudas	districtaes	distritais	tambem plural em -aes
+consoantes_dobradas_mudas	districto	distrito	
+consoantes_dobradas_mudas	exhibidos	exibidos	queda do h
+consoantes_dobradas_mudas	funccionar	funcionar	
+consoantes_dobradas_mudas	inspeccionados	inspecionados	
+consoantes_dobradas_mudas	inspeccionou	inspecionou	
+consoantes_dobradas_mudas	inspectoria	inspetoria	
+consoantes_dobradas_mudas	inspectorias	inspetorias	
+consoantes_dobradas_mudas	inspecção	inspeção	
+consoantes_dobradas_mudas	instrucção	instrução	
+consoantes_dobradas_mudas	magnocavallo	Magnocavalo	antroponimo com ll
+consoantes_dobradas_mudas	official	oficial	
+consoantes_dobradas_mudas	officie-se	oficie-se	
+consoantes_dobradas_mudas	officios	ofícios	tambem falta acento
+consoantes_dobradas_mudas	pelle	pele	
+consoantes_dobradas_mudas	prelecção	preleção	
+consoantes_dobradas_mudas	prelecções	preleções	
+consoantes_dobradas_mudas	prescripção	prescrição	
+consoantes_dobradas_mudas	prescripções	prescrições	
+consoantes_dobradas_mudas	prorogo	prorrogo	r simples por rr
+consoantes_dobradas_mudas	revaccinados	revacinados	
+consoantes_dobradas_mudas	revaccinou	revacinou	
+consoantes_dobradas_mudas	secção	seção	
+consoantes_dobradas_mudas	secções	seções	
+consoantes_dobradas_mudas	vaccina	vacina	
+consoantes_dobradas_mudas	vaccinados	vacinados	
+consoantes_dobradas_mudas	vaccinação	vacinação	
+consoantes_dobradas_mudas	vaccinou	vacinou	
+
+# [digrafos_gregos] Digrafos de origem grega (ph, th, ch=k, rh, y) substituidos em 1911/1943
+digrafos_gregos	analyse	análise	y > i, tambem falta acento
+digrafos_gregos	analyses	análises	y > i, tambem falta acento
+digrafos_gregos	archimedes	Arquimedes	ch = k
+digrafos_gregos	archive-se	arquive-se	ch = k
+digrafos_gregos	biochimico	bioquímico	ch = k, tambem falta acento
+digrafos_gregos	hygiene	higiene	y > i
+digrafos_gregos	opotherapico	opoterápico	th > t, tambem falta acento
+digrafos_gregos	pharmacia	farmácia	ph > f, tambem falta acento
+digrafos_gregos	thesouro	tesouro	th > t
+
+# [alternancia_s_z] Alternancia s/z e c/s, fixada pelas reformas
+alternancia_s_z	especialisado	especializado	-isar > -izar
+
+# [acento_ausente] Palavra que hoje leva acento e no fac-simile nao leva
+acento_ausente	assistencia	assistência	
+acento_ausente	clinica	clínica	
+acento_ausente	deligencia	diligência	tambem e > i pretonico
+acento_ausente	dentaria	dentária	
+acento_ausente	dentarios	dentários	
+acento_ausente	medica	médica	
+acento_ausente	medicas	médicas	
+acento_ausente	molestias	moléstias	
+acento_ausente	oculos	óculos	
+acento_ausente	precario	precário	
+acento_ausente	predio	prédio	
+acento_ausente	publica	pública	
+acento_ausente	publicas	públicas	
+acento_ausente	sanitario	sanitário	
+acento_ausente	sanitarios	sanitários	
+acento_ausente	titulo	título	
+acento_ausente	variola	varíola	
+
+# [acento_hoje_inexistente] Acento que a norma atual eliminou
+acento_hoje_inexistente	á	a / à	preposicao grafada com acento agudo
+
+# [vocabulario_morfologia] Forma lexical ou morfologica de epoca (plurais em -aes, arcaismos)
+vocabulario_morfologia	geraes	gerais	plural em -aes
+vocabulario_morfologia	normaes	normais	plural em -aes
+vocabulario_morfologia	sahidos	saídos	h intervocalico
+vocabulario_morfologia	uro-genitaes	uro-genitais	plural em -aes
+
+# [nome_proprio_toponimo] Nome proprio ou toponimo com grafia de epoca
+nome_proprio_toponimo	Anna	Ana	
+nome_proprio_toponimo	Antonietta	Antonieta	
+nome_proprio_toponimo	Apiahy	Apiaí	hy > i
+nome_proprio_toponimo	Arystobulo	Aristóbulo	y > i, tambem falta acento
+nome_proprio_toponimo	Baptista	Batista	pt > t
+nome_proprio_toponimo	Belem	Belém	
+nome_proprio_toponimo	Braz	Brás	z > s
+nome_proprio_toponimo	Cambucy	Cambuci	y > i
+nome_proprio_toponimo	Euclydes	Euclides	y > i
+nome_proprio_toponimo	Jacarehy	Jacareí	hy > i
+nome_proprio_toponimo	Jacyra	Jacira	y > i
+nome_proprio_toponimo	Joanopolis	Joanópolis	
+nome_proprio_toponimo	Julio	Júlio	
+nome_proprio_toponimo	Luiz	Luís	z > s
+nome_proprio_toponimo	Mogy	Mogi	
+nome_proprio_toponimo	Thereza	Teresa	th > t, z > s
+nome_proprio_toponimo	Wladimir	Vladimir	W > V

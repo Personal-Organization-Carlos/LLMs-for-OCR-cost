@@ -1,0 +1,123 @@
+# ====================================================================
+# PALAVRAS EM DESACORDO COM A NORMA ORTOGRAFICA ATUAL
+# Documento : Diario Official - Domingo, 1 de Abril de 1900 - pag. 735
+# Arquivos  : 1900-04-01_p735.html / 1900_0735_TabelaVirada.jpg
+# Fonte     : texto da transcricao em HTML, conferido contra a imagem
+# Gerado em : 2026-08-15
+# --------------------------------------------------------------------
+# FORMATO   : TSV (separador = TAB), codificacao UTF-8 (sem BOM)
+# Linhas iniciadas por '#' sao comentario: descartar ao processar.
+# Colunas   : grupo <TAB> forma_epoca <TAB> forma_atual <TAB> obs
+# Uso       : 'forma_epoca' e a grafia esperada no fac-simile.
+#             Se a transcricao trouxer 'forma_atual' no lugar dela,
+#             houve MODERNIZACAO indevida.
+# Grupos    : consoantes_dobradas_mudas, digrafos_gregos, alternancia_s_z, acento_ausente, acento_hoje_inexistente, vocabulario_morfologia, nome_proprio_toponimo
+# Total     : 92 linhas de dados
+# ====================================================================
+grupo	forma_epoca	forma_atual	obs
+
+# [consoantes_dobradas_mudas] Consoantes dobradas e consoantes mudas (cc, ct, pt, pp, ll, mm, nn, ss, ff, bb) eliminadas pelas reformas de 1911/1943/1971
+consoantes_dobradas_mudas	amarella	amarela	
+consoantes_dobradas_mudas	anno	ano	
+consoantes_dobradas_mudas	annos	anos	
+consoantes_dobradas_mudas	annullou	anulou	
+consoantes_dobradas_mudas	capillar	capilar	
+consoantes_dobradas_mudas	conductores	condutores	
+consoantes_dobradas_mudas	contracto	contrato	
+consoantes_dobradas_mudas	directo	direto	
+consoantes_dobradas_mudas	director	diretor	
+consoantes_dobradas_mudas	directoria	diretoria	
+consoantes_dobradas_mudas	effeito	efeito	
+consoantes_dobradas_mudas	falleceram	faleceram	
+consoantes_dobradas_mudas	fluviaes	fluviais	
+consoantes_dobradas_mudas	fractura	fratura	
+consoantes_dobradas_mudas	immigrantes	imigrantes	
+consoantes_dobradas_mudas	insufficiencia	insuficiência	tambem falta acento
+consoantes_dobradas_mudas	lettras	letras	
+consoantes_dobradas_mudas	official	oficial	
+consoantes_dobradas_mudas	officiou	oficiou	
+consoantes_dobradas_mudas	seccos	secos	
+consoantes_dobradas_mudas	secção	seção	
+consoantes_dobradas_mudas	vaccinou	vacinou	
+
+# [digrafos_gregos] Digrafos e letras de origem grega (ph, th, ch=k, y, rh)
+digrafos_gregos	bronchite	bronquite	
+digrafos_gregos	cachexia	caquexia	
+digrafos_gregos	hygienicas	higiênicas	tambem falta acento
+digrafos_gregos	schlerose	sclerose / esclerose	em 'arterio schlerose'
+digrafos_gregos	sclerose	esclerose	
+digrafos_gregos	syndical	sindical	
+digrafos_gregos	syndico	síndico	tambem falta acento
+digrafos_gregos	syphilitica	sifilítica	
+digrafos_gregos	typhoide	tifoide	
+
+# [alternancia_s_z] Alternancia s/z (inclui -isar > -izar e brazil > brasil)
+alternancia_s_z	brazil	Brasil	'Estrada de Ferro Central do Brazil'
+alternancia_s_z	brazileira	brasileira	
+alternancia_s_z	brazileiro	brasileiro	
+alternancia_s_z	mezes	meses	
+alternancia_s_z	portuguez	português	tambem falta acento
+
+# [acento_ausente] Palavra sem acento que hoje e obrigatorio
+acento_ausente	armazem	armazém	
+acento_ausente	cadaveres	cadáveres	
+acento_ausente	camara	câmara	
+acento_ausente	cemiterio	cemitério	
+acento_ausente	consequencia	consequência	
+acento_ausente	credito	crédito	
+acento_ausente	diario	diário	
+acento_ausente	eclampsia	eclâmpsia	
+acento_ausente	epileptica	epiléptica / epilética	
+acento_ausente	fabrica	fábrica	
+acento_ausente	familias	famílias	
+acento_ausente	ferreas	férreas	'Vias Ferreas e Fluviaes'
+acento_ausente	industria	indústria	
+acento_ausente	intermedio	intermédio	
+acento_ausente	malarica	malárica	
+acento_ausente	mechanica	mecânica	tambem ch>c
+acento_ausente	ministerio	ministério	
+acento_ausente	noticiario	noticiário	
+acento_ausente	obituario	obituário	
+acento_ausente	predios	prédios	
+acento_ausente	propria	própria	
+acento_ausente	providencias	providências	
+acento_ausente	publicas	públicas	
+acento_ausente	publicos	públicos	
+acento_ausente	sanitario	sanitário	
+acento_ausente	traumatica	traumática	
+acento_ausente	ultimo	último	
+acento_ausente	viuva	viúva	
+acento_ausente	viuvo	viúvo	
+
+# [acento_hoje_inexistente] Palavra com acento que hoje nao existe mais
+acento_hoje_inexistente	A'	À	"A' vista", "A' rua" - crase por apostrofo
+acento_hoje_inexistente	E'	É	"E' bom o estado sanitario"
+acento_hoje_inexistente	féto	feto	
+acento_hoje_inexistente	á	a / à	preposicao grafada com acento agudo
+
+# [vocabulario_morfologia] Vocabulario, morfologia verbal e juncao/separacao de palavras
+vocabulario_morfologia	creanças	crianças	
+vocabulario_morfologia	gastro enterite	gastroenterite	hoje grafado junto
+vocabulario_morfologia	infanteria	infantaria	
+vocabulario_morfologia	sahiram	saíram	h intervocalico > acento
+
+# [nome_proprio_toponimo] Nome proprio ou toponimo com grafia hoje diferente (fora da norma comum)
+nome_proprio_toponimo	Amelia	Amélia	
+nome_proprio_toponimo	Angelo	Ângelo	
+nome_proprio_toponimo	Antonio	Antônio	
+nome_proprio_toponimo	Araujo	Araújo	
+nome_proprio_toponimo	Benedicta	Benedita	
+nome_proprio_toponimo	Braulio	Bráulio	
+nome_proprio_toponimo	Eugenia	Eugênia	
+nome_proprio_toponimo	Felicio	Felício	
+nome_proprio_toponimo	Italia	Itália	
+nome_proprio_toponimo	Izabel	Isabel	
+nome_proprio_toponimo	Jacintho	Jacinto	
+nome_proprio_toponimo	Januario	Januário	no impresso: 'Jannuario'
+nome_proprio_toponimo	Julio	Júlio	
+nome_proprio_toponimo	Mathias	Matias	
+nome_proprio_toponimo	New-York	Nova York	
+nome_proprio_toponimo	Pariz	Paris	
+nome_proprio_toponimo	Paschoal	Pascoal	
+nome_proprio_toponimo	Synesio	Sinésio	
+nome_proprio_toponimo	Victorino	Vitorino	

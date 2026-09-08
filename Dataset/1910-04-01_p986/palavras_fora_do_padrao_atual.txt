@@ -1,0 +1,131 @@
+# ====================================================================
+# PALAVRAS EM DESACORDO COM A NORMA ORTOGRAFICA ATUAL
+# Documento : Diario Official - Sexta-feira, 1 de Abril de 1910 - pag. 986
+# Arquivos  : 1910-04-01_p986.html / 1910_0986_Facil.jpg
+# Fonte     : texto da transcricao em HTML  --  RASCUNHO NAO CONFERIDO
+# Gerado em : 2026-09-01
+# --------------------------------------------------------------------
+# ATENCAO   : esta lista foi extraida de uma transcricao AUTOMATICA que
+#             ainda nao foi conferida contra a imagem. Uma grafia que o
+#             transcritor tenha modernizado por conta propria nao aparece
+#             aqui - e justamente a que mais importa. Confira a lista
+#             contra o fac-simile antes de por 1910-04-01_p986 em dataset.active.
+# --------------------------------------------------------------------
+# FORMATO   : TSV (separador = TAB), codificacao UTF-8 (sem BOM)
+# Linhas iniciadas por '#' sao comentario: descartar ao processar.
+# Colunas   : grupo <TAB> forma_epoca <TAB> forma_atual <TAB> obs
+# Uso       : 'forma_epoca' e a grafia esperada no fac-simile.
+#             Se a transcricao trouxer 'forma_atual' no lugar dela,
+#             houve MODERNIZACAO indevida.
+# Grupos    : consoantes_dobradas_mudas, digrafos_gregos, alternancia_s_z, acento_ausente, acento_hoje_inexistente, vocabulario_morfologia, nome_proprio_toponimo
+# Total     : 95 linhas de dados
+# ====================================================================
+grupo	forma_epoca	forma_atual	obs
+
+
+# [consoantes_dobradas_mudas] Consoantes dobradas e consoantes mudas (cc, ct, pt, pp, ll, mm, nn, ss, ff, bb) eliminadas pelas reformas de 1911/1943/1971
+consoantes_dobradas_mudas	accessorios	acessórios	tambem falta acento
+consoantes_dobradas_mudas	accionistas	acionistas	
+consoantes_dobradas_mudas	accrescimo	acréscimo	tambem falta acento
+consoantes_dobradas_mudas	acções	ações	
+consoantes_dobradas_mudas	adoptada	adotada	
+consoantes_dobradas_mudas	adoptados	adotados	
+consoantes_dobradas_mudas	adoptar	adotar	
+consoantes_dobradas_mudas	annos	anos	
+consoantes_dobradas_mudas	annunciando	anunciando	
+consoantes_dobradas_mudas	approvada	aprovada	
+consoantes_dobradas_mudas	approvadas	aprovadas	
+consoantes_dobradas_mudas	approvado	aprovado	
+consoantes_dobradas_mudas	approvação	aprovação	
+consoantes_dobradas_mudas	approximativo	aproximativo	
+consoantes_dobradas_mudas	collocadas	colocadas	
+consoantes_dobradas_mudas	comtanto	contanto	m antes de t
+consoantes_dobradas_mudas	conjunctamente	conjuntamente	
+consoantes_dobradas_mudas	construcção	construção	
+consoantes_dobradas_mudas	contractos	contratos	
+consoantes_dobradas_mudas	differenciaes	diferenciais	tambem plural em -aes
+consoantes_dobradas_mudas	differentes	diferentes	
+consoantes_dobradas_mudas	effeitos	efeitos	
+consoantes_dobradas_mudas	ellas	elas	
+consoantes_dobradas_mudas	emquanto	enquanto	m antes de q
+consoantes_dobradas_mudas	encommendas	encomendas	
+consoantes_dobradas_mudas	esgottado	esgotado	
+consoantes_dobradas_mudas	exgottos	esgotos	
+consoantes_dobradas_mudas	intervallados	intervalados	
+consoantes_dobradas_mudas	mattas	matas	
+consoantes_dobradas_mudas	offerecerem	oferecerem	
+consoantes_dobradas_mudas	official	oficial	
+consoantes_dobradas_mudas	projectos	projetos	
+consoantes_dobradas_mudas	prorogação	prorrogação	r simples por rr
+consoantes_dobradas_mudas	rectos	retos	
+consoantes_dobradas_mudas	reducção	redução	
+consoantes_dobradas_mudas	secções	seções	
+consoantes_dobradas_mudas	tunneis	túneis	tambem falta acento
+consoantes_dobradas_mudas	viaductos	viadutos	
+
+# [digrafos_gregos] Digrafos de origem grega (ph, th, ch=k, rh, y) substituidos em 1911/1943
+digrafos_gregos	typo	tipo	y > i
+
+# [alternancia_s_z] Alternancia s/z e c/s, fixada pelas reformas
+alternancia_s_z	utilisadas	utilizadas	-isar > -izar
+
+# [acento_ausente] Palavra que hoje leva acento e no fac-simile nao leva
+acento_ausente	agricolas	agrícolas	
+acento_ausente	beneficiarias	beneficiárias	
+acento_ausente	concessionaria	concessionária	
+acento_ausente	concluidos	concluídos	hiato hoje acentuado
+acento_ausente	dependencias	dependências	
+acento_ausente	distancias	distâncias	
+acento_ausente	distribuidos	distribuídos	hiato hoje acentuado
+acento_ausente	ferreas	férreas	
+acento_ausente	generos	gêneros	
+acento_ausente	identicas	idênticas	
+acento_ausente	importancia	importância	
+acento_ausente	indispensavel	indispensável	
+acento_ausente	industriaes	industriais	tambem plural em -aes
+acento_ausente	juizo	juízo	
+acento_ausente	kilometricas	quilométricas	k > qu, tambem falta acento
+acento_ausente	legiveis	legíveis	
+acento_ausente	maximo	máximo	
+acento_ausente	mez	mês	
+acento_ausente	mezes	meses	tambem z > s
+acento_ausente	minimos	mínimos	
+acento_ausente	necessarias	necessárias	
+acento_ausente	nivel	nível	
+acento_ausente	obrigatoria	obrigatória	
+acento_ausente	obrigatorios	obrigatórios	
+acento_ausente	onus	ônus	
+acento_ausente	possivel	possível	
+acento_ausente	publica	pública	
+acento_ausente	publicas	públicas	
+acento_ausente	publico	público	
+acento_ausente	resistencia	resistência	
+acento_ausente	titulo	título	
+acento_ausente	transito	trânsito	
+
+# [acento_hoje_inexistente] Acento que a norma atual eliminou
+acento_hoje_inexistente	caractéres	caracteres	hoje sem acento
+acento_hoje_inexistente	córtes	cortes	hoje sem acento
+acento_hoje_inexistente	frétes	fretes	hoje sem acento
+acento_hoje_inexistente	fórma	forma	acento diacritico hoje inexistente
+acento_hoje_inexistente	fôr	for	futuro do subjuntivo, hoje sem acento
+acento_hoje_inexistente	gráus	graus	hoje sem acento
+acento_hoje_inexistente	pessôas	pessoas	hoje sem acento
+acento_hoje_inexistente	á	a / à	preposicao grafada com acento agudo
+
+# [vocabulario_morfologia] Forma lexical ou morfologica de epoca (plurais em -aes, arcaismos)
+vocabulario_morfologia	canaes	canais	plural em -aes
+vocabulario_morfologia	cincoenta	cinquenta	forma de epoca do numeral
+vocabulario_morfologia	eguaes	iguais	e > i pretonico, plural em -aes
+vocabulario_morfologia	egual	igual	e > i pretonico
+vocabulario_morfologia	geraes	gerais	plural em -aes
+vocabulario_morfologia	horizontaes	horizontais	plural em -aes
+vocabulario_morfologia	jornaes	jornais	plural em -aes
+vocabulario_morfologia	kilometros	quilômetros	k > qu, tambem falta acento
+vocabulario_morfologia	legaes	legais	plural em -aes
+vocabulario_morfologia	logar	lugar	o > u pretonico
+vocabulario_morfologia	si	se	conjuncao condicional grafada si
+vocabulario_morfologia	signaes	sinais	plural em -aes, gn > n
+vocabulario_morfologia	sinão	senão	e > i pretonico
+vocabulario_morfologia	transversaes	transversais	plural em -aes
+vocabulario_morfologia	vae	vai	forma de epoca do verbo ir

@@ -1,0 +1,78 @@
+# ====================================================================
+# PALAVRAS EM DESACORDO COM A NORMA ORTOGRAFICA ATUAL
+# Documento : Diario Official - Sabbado, 1 de Agosto de 1891 - pag. 601
+# Arquivos  : 1891-08-01_p601.html / 1891_0601_Medio.jpg
+# Fonte     : texto da transcricao em HTML  --  RASCUNHO NAO CONFERIDO
+# Gerado em : 2026-09-01
+# --------------------------------------------------------------------
+# ATENCAO   : esta lista foi extraida de uma transcricao AUTOMATICA que
+#             ainda nao foi conferida contra a imagem. Uma grafia que o
+#             transcritor tenha modernizado por conta propria nao aparece
+#             aqui - e justamente a que mais importa. Confira a lista
+#             contra o fac-simile antes de por 1891-08-01_p601 em dataset.active.
+# --------------------------------------------------------------------
+# FORMATO   : TSV (separador = TAB), codificacao UTF-8 (sem BOM)
+# Linhas iniciadas por '#' sao comentario: descartar ao processar.
+# Colunas   : grupo <TAB> forma_epoca <TAB> forma_atual <TAB> obs
+# Uso       : 'forma_epoca' e a grafia esperada no fac-simile.
+#             Se a transcricao trouxer 'forma_atual' no lugar dela,
+#             houve MODERNIZACAO indevida.
+# Grupos    : consoantes_dobradas_mudas, digrafos_gregos, alternancia_s_z, acento_ausente, acento_hoje_inexistente, vocabulario_morfologia, nome_proprio_toponimo
+# Total     : 40 linhas de dados
+# ====================================================================
+grupo	forma_epoca	forma_atual	obs
+
+
+# [consoantes_dobradas_mudas] Consoantes dobradas e consoantes mudas (cc, ct, pt, pp, ll, mm, nn, ss, ff, bb) eliminadas pelas reformas de 1911/1943/1971
+consoantes_dobradas_mudas	accôrdo	acordo	tambem acento circunflexo
+consoantes_dobradas_mudas	acções	ações	
+consoantes_dobradas_mudas	collector	coletor	
+consoantes_dobradas_mudas	collectoria	coletoria	
+consoantes_dobradas_mudas	collectorias	coletorias	
+consoantes_dobradas_mudas	exactor	exator	
+consoantes_dobradas_mudas	lettras	letras	Lettras a receber
+consoantes_dobradas_mudas	official	oficial	
+consoantes_dobradas_mudas	officio	ofício	tambem falta acento
+consoantes_dobradas_mudas	opportunamente	oportunamente	
+consoantes_dobradas_mudas	sabbado	sábado	tambem falta acento
+consoantes_dobradas_mudas	secção	seção	
+
+# [digrafos_gregos] Digrafos de origem grega (ph, th, ch=k, rh, y) substituidos em 1911/1943
+digrafos_gregos	thesouraria	tesouraria	th > t
+digrafos_gregos	thesouro	tesouro	th > t
+
+# [alternancia_s_z] Alternancia s/z e c/s, fixada pelas reformas
+alternancia_s_z	despeza	despesa	
+alternancia_s_z	mez	mês	tambem falta acento
+
+# [acento_ausente] Palavra que hoje leva acento e no fac-simile nao leva
+acento_ausente	apolices	apólices	
+acento_ausente	depositos	depósitos	
+acento_ausente	felicissimo	felicíssimo	
+acento_ausente	importancia	importância	
+acento_ausente	municipio	município	
+acento_ausente	necessaria	necessária	
+acento_ausente	periodo	período	
+acento_ausente	titulos	títulos	
+acento_ausente	tres	três	
+
+# [acento_hoje_inexistente] Acento que a norma atual eliminou
+acento_hoje_inexistente	á	a / à	preposicao grafada com acento agudo
+
+# [vocabulario_morfologia] Forma lexical ou morfologica de epoca (plurais em -aes, arcaismos)
+vocabulario_morfologia	geraes	gerais	plural em -aes
+vocabulario_morfologia	taes	tais	plural em -aes
+
+# [nome_proprio_toponimo] Nome proprio ou toponimo com grafia de epoca
+nome_proprio_toponimo	Ariró	Aririú	
+nome_proprio_toponimo	Arêas	Areias	hoje Areias, SP
+nome_proprio_toponimo	Barbiéri	Barbieri	
+nome_proprio_toponimo	Benedicto	Benedito	
+nome_proprio_toponimo	Botucatú	Botucatu	hoje sem acento
+nome_proprio_toponimo	Capivary	Capivari	y > i
+nome_proprio_toponimo	Emydio	Emídio	y > i
+nome_proprio_toponimo	Ituana	Ituana	Companhia Ituana; grafia mantida
+nome_proprio_toponimo	Luiz	Luís	z > s
+nome_proprio_toponimo	Mogy	Mogi	Mogy das Cruzes
+nome_proprio_toponimo	Olympio	Olímpio	y > i
+nome_proprio_toponimo	Paraizo	Paraíso	Santa Rita do Paraizo

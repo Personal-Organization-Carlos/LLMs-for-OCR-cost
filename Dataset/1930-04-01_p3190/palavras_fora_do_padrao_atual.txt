@@ -1,0 +1,101 @@
+# ====================================================================
+# PALAVRAS EM DESACORDO COM A NORMA ORTOGRAFICA ATUAL
+# Documento : Diario Official - Terca-feira, 1 de Abril de 1930 - pag. 3190
+# Arquivos  : 1930-04-01_p3190.html / 1930_3190_Facill.jpg
+# Fonte     : texto da transcricao em HTML  --  RASCUNHO NAO CONFERIDO
+# Gerado em : 2026-09-01
+# --------------------------------------------------------------------
+# ATENCAO   : esta lista foi extraida de uma transcricao AUTOMATICA que
+#             ainda nao foi conferida contra a imagem. Uma grafia que o
+#             transcritor tenha modernizado por conta propria nao aparece
+#             aqui - e justamente a que mais importa. Confira a lista
+#             contra o fac-simile antes de por 1930-04-01_p3190 em dataset.active.
+# --------------------------------------------------------------------
+# FORMATO   : TSV (separador = TAB), codificacao UTF-8 (sem BOM)
+# Linhas iniciadas por '#' sao comentario: descartar ao processar.
+# Colunas   : grupo <TAB> forma_epoca <TAB> forma_atual <TAB> obs
+# Uso       : 'forma_epoca' e a grafia esperada no fac-simile.
+#             Se a transcricao trouxer 'forma_atual' no lugar dela,
+#             houve MODERNIZACAO indevida.
+# Grupos    : consoantes_dobradas_mudas, digrafos_gregos, alternancia_s_z, acento_ausente, acento_hoje_inexistente, vocabulario_morfologia, nome_proprio_toponimo
+# Total     : 63 linhas de dados
+# ====================================================================
+grupo	forma_epoca	forma_atual	obs
+
+
+# [consoantes_dobradas_mudas] Consoantes dobradas e consoantes mudas (cc, ct, pt, pp, ll, mm, nn, ss, ff, bb) eliminadas pelas reformas de 1911/1943/1971
+consoantes_dobradas_mudas	accordo	acordo	
+consoantes_dobradas_mudas	adjuncta	adjunta	
+consoantes_dobradas_mudas	adjunctas	adjuntas	
+consoantes_dobradas_mudas	adjuncto	adjunto	
+consoantes_dobradas_mudas	adjunctos	adjuntos	
+consoantes_dobradas_mudas	anno	ano	
+consoantes_dobradas_mudas	apostillado	apostilado	
+consoantes_dobradas_mudas	assumpto	assunto	
+consoantes_dobradas_mudas	commissão	comissão	
+consoantes_dobradas_mudas	director	diretor	
+consoantes_dobradas_mudas	directoria	diretoria	
+consoantes_dobradas_mudas	districto	distrito	
+consoantes_dobradas_mudas	effectiva	efetiva	
+consoantes_dobradas_mudas	effectivas	efetivas	
+consoantes_dobradas_mudas	funccionam	funcionam	
+consoantes_dobradas_mudas	inspectoria	inspetoria	
+consoantes_dobradas_mudas	nocturnas	noturnas	
+consoantes_dobradas_mudas	official	oficial	
+consoantes_dobradas_mudas	officio	ofício	tambem falta acento
+consoantes_dobradas_mudas	prorogação	prorrogação	r simples por rr
+consoantes_dobradas_mudas	secção	seção	
+consoantes_dobradas_mudas	villa	vila	
+consoantes_dobradas_mudas	villas	vilas	Villas Boas
+
+# [digrafos_gregos] Digrafos de origem grega (ph, th, ch=k, rh, y) substituidos em 1911/1943
+digrafos_gregos	hygiene	higiene	y > i
+digrafos_gregos	prophylaxia	profilaxia	ph > f, y > i
+
+# [alternancia_s_z] Alternancia s/z e c/s, fixada pelas reformas
+alternancia_s_z	mezes	meses	
+
+# [acento_ausente] Palavra que hoje leva acento e no fac-simile nao leva
+acento_ausente	mez	mês	
+acento_ausente	municipios	municípios	
+acento_ausente	providencias	providências	
+acento_ausente	republica	república	
+acento_ausente	tres	três	
+
+# [acento_hoje_inexistente] Acento que a norma atual eliminou
+acento_hoje_inexistente	á	a / à	preposicao grafada com acento agudo
+
+# [vocabulario_morfologia] Forma lexical ou morfologica de epoca (plurais em -aes, arcaismos)
+vocabulario_morfologia	mixta	mista	x > s
+
+# [nome_proprio_toponimo] Nome proprio ou toponimo com grafia de epoca
+nome_proprio_toponimo	Antonietta	Antonieta	
+nome_proprio_toponimo	Antonio	Antônio	
+nome_proprio_toponimo	Avahy	Avaí	hy > i
+nome_proprio_toponimo	Belemzinho	Belenzinho	
+nome_proprio_toponimo	Benedicto	Benedito	ct > t
+nome_proprio_toponimo	Botucatú	Botucatu	hoje sem acento
+nome_proprio_toponimo	Braz	Brás	z > s
+nome_proprio_toponimo	Capivary	Capivari	y > i
+nome_proprio_toponimo	Catharina	Catarina	th > t
+nome_proprio_toponimo	Dallila	Dalila	
+nome_proprio_toponimo	Gloria	Glória	
+nome_proprio_toponimo	Igarassú	Igarassu	hoje sem acento
+nome_proprio_toponimo	Jaguary	Jaguari	y > i
+nome_proprio_toponimo	Joanna	Joana	
+nome_proprio_toponimo	Josephina	Josefina	ph > f
+nome_proprio_toponimo	Jundiahy	Jundiaí	hy > i
+nome_proprio_toponimo	Lucilla	Lucila	
+nome_proprio_toponimo	Lydia	Lídia	y > i
+nome_proprio_toponimo	Marcello	Marcelo	
+nome_proprio_toponimo	Mogy-Mirim	Mogi Mirim	y > i
+nome_proprio_toponimo	Morumby	Morumbi	y > i
+nome_proprio_toponimo	Ottilia	Otília	tt > t, tambem falta acento
+nome_proprio_toponimo	Palmyra	Palmira	y > i
+nome_proprio_toponimo	Parnahyba	Parnaíba	hy > i
+nome_proprio_toponimo	Pennapolis	Penápolis	nn > n, tambem falta acento
+nome_proprio_toponimo	Pirajú	Piraju	hoje sem acento
+nome_proprio_toponimo	Rosalia	Rosália	
+nome_proprio_toponimo	Soccorro	Socorro	cc > c
+nome_proprio_toponimo	Tatuhy	Tatuí	hy > i
+nome_proprio_toponimo	Wenceslau	Venceslau	W > V

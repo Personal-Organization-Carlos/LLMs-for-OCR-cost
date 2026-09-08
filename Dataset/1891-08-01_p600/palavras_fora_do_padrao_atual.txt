@@ -1,0 +1,109 @@
+# ====================================================================
+# PALAVRAS EM DESACORDO COM A NORMA ORTOGRAFICA ATUAL
+# Documento : Diario Official - Sabbado, 1 de Agosto de 1891 - pag. 600
+# Arquivos  : 1891-08-01_p600.html / 1891_0600_Facil.jpg
+# Fonte     : texto da transcricao em HTML  --  RASCUNHO NAO CONFERIDO
+# Gerado em : 2026-09-01
+# --------------------------------------------------------------------
+# ATENCAO   : esta lista foi extraida de uma transcricao AUTOMATICA que
+#             ainda nao foi conferida contra a imagem. Uma grafia que o
+#             transcritor tenha modernizado por conta propria nao aparece
+#             aqui - e justamente a que mais importa. Confira a lista
+#             contra o fac-simile antes de por 1891-08-01_p600 em dataset.active.
+# --------------------------------------------------------------------
+# FORMATO   : TSV (separador = TAB), codificacao UTF-8 (sem BOM)
+# Linhas iniciadas por '#' sao comentario: descartar ao processar.
+# Colunas   : grupo <TAB> forma_epoca <TAB> forma_atual <TAB> obs
+# Uso       : 'forma_epoca' e a grafia esperada no fac-simile.
+#             Se a transcricao trouxer 'forma_atual' no lugar dela,
+#             houve MODERNIZACAO indevida.
+# Grupos    : consoantes_dobradas_mudas, digrafos_gregos, alternancia_s_z, acento_ausente, acento_hoje_inexistente, vocabulario_morfologia, nome_proprio_toponimo
+# Total     : 71 linhas de dados
+# ====================================================================
+grupo	forma_epoca	forma_atual	obs
+
+
+# [consoantes_dobradas_mudas] Consoantes dobradas e consoantes mudas (cc, ct, pt, pp, ll, mm, nn, ss, ff, bb) eliminadas pelas reformas de 1911/1943/1971
+consoantes_dobradas_mudas	affinidade	afinidade	
+consoantes_dobradas_mudas	attender	atender	
+consoantes_dobradas_mudas	collector	coletor	
+consoantes_dobradas_mudas	collectoria	coletoria	
+consoantes_dobradas_mudas	commandante	comandante	
+consoantes_dobradas_mudas	commissão	comissão	
+consoantes_dobradas_mudas	communicou-se	comunicou-se	
+consoantes_dobradas_mudas	directoria	diretoria	
+consoantes_dobradas_mudas	directorio	diretório	tambem falta acento
+consoantes_dobradas_mudas	districto	distrito	
+consoantes_dobradas_mudas	effectivamente	efetivamente	
+consoantes_dobradas_mudas	embellezamento	embelezamento	
+consoantes_dobradas_mudas	exactores	exatores	
+consoantes_dobradas_mudas	extincta	extinta	
+consoantes_dobradas_mudas	facto	fato	
+consoantes_dobradas_mudas	inspecção	inspeção	
+consoantes_dobradas_mudas	objectos	objetos	
+consoantes_dobradas_mudas	official	oficial	
+consoantes_dobradas_mudas	officio	ofício	tambem falta acento
+consoantes_dobradas_mudas	officios	ofícios	tambem falta acento
+consoantes_dobradas_mudas	remettendo	remetendo	
+consoantes_dobradas_mudas	remetteu-se	remeteu-se	
+consoantes_dobradas_mudas	sabbado	sábado	tambem falta acento
+consoantes_dobradas_mudas	submettido	submetido	
+consoantes_dobradas_mudas	tabellião	tabelião	
+consoantes_dobradas_mudas	villa	vila	
+
+# [digrafos_gregos] Digrafos de origem grega (ph, th, ch=k, rh, y) substituidos em 1911/1943
+digrafos_gregos	pharmacia	farmácia	ph > f, tambem falta acento
+digrafos_gregos	thesouraria	tesouraria	th > t
+digrafos_gregos	thesouro	tesouro	th > t
+
+# [alternancia_s_z] Alternancia s/z e c/s, fixada pelas reformas
+alternancia_s_z	autorisado	autorizado	-isar > -izar
+alternancia_s_z	autorisou-se	autorizou-se	-isar > -izar
+alternancia_s_z	meza	mesa	Meza de Rendas
+alternancia_s_z	visinho	vizinho	
+
+# [acento_ausente] Palavra que hoje leva acento e no fac-simile nao leva
+acento_ausente	excluido	excluído	hiato hoje acentuado
+acento_ausente	exercicio	exercício	
+acento_ausente	intendencia	intendência	
+acento_ausente	inventarios	inventários	
+acento_ausente	juizes	juízes	
+acento_ausente	juizo	juízo	
+acento_ausente	ministerio	ministério	
+acento_ausente	necessaria	necessária	
+acento_ausente	palacio	palácio	
+acento_ausente	policia	polícia	
+acento_ausente	publicas	públicas	
+acento_ausente	referencia	referência	
+acento_ausente	seminario	seminário	
+acento_ausente	superintendencia	superintendência	
+acento_ausente	ultimo	último	
+
+# [acento_hoje_inexistente] Acento que a norma atual eliminou
+acento_hoje_inexistente	fôra	fora	mais-que-perfeito, hoje sem acento
+acento_hoje_inexistente	gráu	grau	hoje sem acento
+acento_hoje_inexistente	mistér	mister	hoje sem acento
+acento_hoje_inexistente	á	a / à	preposicao grafada com acento agudo
+
+# [vocabulario_morfologia] Forma lexical ou morfologica de epoca (plurais em -aes, arcaismos)
+vocabulario_morfologia	animaes	animais	plural em -aes
+vocabulario_morfologia	concertos	consertos	reparos; hoje grafado com s
+vocabulario_morfologia	creado	criado	e > i pretonico
+vocabulario_morfologia	creou	criou	e > i pretonico
+vocabulario_morfologia	dous	dois	forma arcaica do numeral
+vocabulario_morfologia	egual	igual	e > i pretonico
+vocabulario_morfologia	estaes	estais	plural em -aes
+vocabulario_morfologia	logar	lugar	o > u pretonico
+vocabulario_morfologia	si	se	conjuncao condicional grafada si
+
+# [nome_proprio_toponimo] Nome proprio ou toponimo com grafia de epoca
+nome_proprio_toponimo	Americo	Américo	
+nome_proprio_toponimo	Angelo	Ângelo	
+nome_proprio_toponimo	Baptista	Batista	
+nome_proprio_toponimo	Cananéa	Cananéia	
+nome_proprio_toponimo	Gloria	Glória	Seminario da Gloria
+nome_proprio_toponimo	Jacyntho	Jacinto	
+nome_proprio_toponimo	Jahú	Jaú	
+nome_proprio_toponimo	Jundiahy	Jundiaí	
+nome_proprio_toponimo	Matheus	Mateus	
+nome_proprio_toponimo	Moysés	Moisés	

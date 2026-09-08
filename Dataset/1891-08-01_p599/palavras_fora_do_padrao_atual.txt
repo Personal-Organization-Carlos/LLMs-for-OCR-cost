@@ -1,0 +1,134 @@
+# ====================================================================
+# PALAVRAS EM DESACORDO COM A NORMA ORTOGRAFICA ATUAL
+# Documento : Diario Official - Sabbado, 1 de Agosto de 1891 - pag. 599
+# Arquivos  : 1891-08-01_p599.html / 1891_0599_Facil.jpg
+# Fonte     : texto da transcricao em HTML  --  CONFERIDO contra o fac-simile
+# Gerado em : 2026-09-01
+# Conferido : 2026-09-01, contra 1891_0599_Facil.jpg
+# --------------------------------------------------------------------
+# STATUS    : as 89 formas de epoca abaixo foram cruzadas com o texto do
+#             HTML: todas as 89 ocorrem na transcricao e nenhuma das
+#             respectivas formas atuais aparece no lugar delas, isto e,
+#             nao houve modernizacao ortografica indevida.
+#             A conferencia visual da imagem confirmou as grafias mais
+#             expostas (acceitar, objecto, contracto, phrases, thesouraria,
+#             quiz, surpreza, dous, cubica, nullificados, formulo, maxime,
+#             Brazil, Matto, Mogy).
+# NOTA      : esta lista cobre ortografia lexical. Nao cobre dois tracos
+#             typographicos do original, ja aplicados ao HTML: ordinaes sem
+#             ponto (1o, 2a, 3o, 4a) e espaco antes de ! : ; .
+# --------------------------------------------------------------------
+# FORMATO   : TSV (separador = TAB), codificacao UTF-8 (sem BOM)
+# Linhas iniciadas por '#' sao comentario: descartar ao processar.
+# Colunas   : grupo <TAB> forma_epoca <TAB> forma_atual <TAB> obs
+# Uso       : 'forma_epoca' e a grafia esperada no fac-simile.
+#             Se a transcricao trouxer 'forma_atual' no lugar dela,
+#             houve MODERNIZACAO indevida.
+# Grupos    : consoantes_dobradas_mudas, digrafos_gregos, alternancia_s_z, acento_ausente, acento_hoje_inexistente, vocabulario_morfologia, nome_proprio_toponimo
+# Total     : 89 linhas de dados
+# ====================================================================
+grupo	forma_epoca	forma_atual	obs
+
+
+# [consoantes_dobradas_mudas] Consoantes dobradas e consoantes mudas (cc, ct, pt, pp, ll, mm, nn, ss, ff, bb) eliminadas pelas reformas de 1911/1943/1971
+consoantes_dobradas_mudas	acceitar	aceitar	
+consoantes_dobradas_mudas	actos	atos	
+consoantes_dobradas_mudas	adhesão	adesão	h mudo apos d
+consoantes_dobradas_mudas	adoptada	adotada	
+consoantes_dobradas_mudas	affectam	afetam	
+consoantes_dobradas_mudas	aggressão	agressão	
+consoantes_dobradas_mudas	anno	ano	
+consoantes_dobradas_mudas	assumpto	assunto	
+consoantes_dobradas_mudas	attenção	atenção	
+consoantes_dobradas_mudas	commissario	comissário	tambem falta acento
+consoantes_dobradas_mudas	commissão	comissão	
+consoantes_dobradas_mudas	committentes	comitentes	
+consoantes_dobradas_mudas	communicando	comunicando	
+consoantes_dobradas_mudas	contracto	contrato	
+consoantes_dobradas_mudas	contractos	contratos	
+consoantes_dobradas_mudas	directoria	diretoria	
+consoantes_dobradas_mudas	districto	distrito	
+consoantes_dobradas_mudas	gotta	gota	
+consoantes_dobradas_mudas	illegal	ilegal	
+consoantes_dobradas_mudas	illogica	ilógica	tambem falta acento
+consoantes_dobradas_mudas	immerecidas	imerecidas	
+consoantes_dobradas_mudas	impellido	impelido	
+consoantes_dobradas_mudas	nullificados	nulificados	
+consoantes_dobradas_mudas	objecto	objeto	
+consoantes_dobradas_mudas	officiaes	oficiais	tambem plural em -aes
+consoantes_dobradas_mudas	official	oficial	
+consoantes_dobradas_mudas	officio	ofício	tambem falta acento
+consoantes_dobradas_mudas	officios	ofícios	tambem falta acento
+consoantes_dobradas_mudas	sabbado	sábado	tambem falta acento
+consoantes_dobradas_mudas	soccorro	socorro	
+consoantes_dobradas_mudas	supplicante	suplicante	
+
+# [digrafos_gregos] Digrafos de origem grega (ph, th, ch=k, rh, y) substituidos em 1911/1943
+digrafos_gregos	phrases	frases	ph > f
+digrafos_gregos	telephonica	telefônica	ph > f, tambem falta acento
+digrafos_gregos	thesouraria	tesouraria	th > t
+digrafos_gregos	thesouro	tesouro	th > t
+
+# [alternancia_s_z] Alternancia s/z e c/s, fixada pelas reformas
+alternancia_s_z	centralisação	centralização	-isar > -izar
+alternancia_s_z	colonisação	colonização	-isar > -izar
+alternancia_s_z	freguezia	freguesia	
+alternancia_s_z	quiz	quis	
+alternancia_s_z	surpreza	surpresa	
+
+# [acento_ausente] Palavra que hoje leva acento e no fac-simile nao leva
+acento_ausente	agricolas	agrícolas	
+acento_ausente	competencia	competência	
+acento_ausente	consciencia	consciência	
+acento_ausente	consequencias	consequências	
+acento_ausente	domicilio	domicílio	
+acento_ausente	energico	enérgico	
+acento_ausente	ferrea	férrea	
+acento_ausente	ferreas	férreas	
+acento_ausente	hospicio	hospício	
+acento_ausente	intendencia	intendência	
+acento_ausente	ministerio	ministério	
+acento_ausente	municipio	município	
+acento_ausente	numero	número	
+acento_ausente	paciencia	paciência	
+acento_ausente	preparatorias	preparatórias	
+acento_ausente	presidencia	presidência	
+acento_ausente	privilegio	privilégio	
+acento_ausente	privilegios	privilégios	
+acento_ausente	publica	pública	
+acento_ausente	publicas	públicas	
+acento_ausente	secretario	secretário	
+acento_ausente	superintendencia	superintendência	
+acento_ausente	tambem	também	
+
+# [acento_hoje_inexistente] Acento que a norma atual eliminou
+acento_hoje_inexistente	formúlo	formulo	acento em forma verbal, hoje inexistente
+acento_hoje_inexistente	maximé	máxime	acento deslocado
+acento_hoje_inexistente	á	a / à	preposicao grafada com acento agudo
+
+# [vocabulario_morfologia] Forma lexical ou morfologica de epoca (plurais em -aes, arcaismos)
+vocabulario_morfologia	centraes	centrais	plural em -aes
+vocabulario_morfologia	cubiça	cobiça	vogal pretonica
+vocabulario_morfologia	dous	dois	forma arcaica do numeral
+vocabulario_morfologia	geraes	gerais	plural em -aes
+vocabulario_morfologia	municipaes	municipais	plural em -aes
+vocabulario_morfologia	naturaes	naturais	plural em -aes
+vocabulario_morfologia	signaes	sinais	plural em -aes, tambem gn > n
+
+# [nome_proprio_toponimo] Nome proprio ou toponimo com grafia de epoca
+nome_proprio_toponimo	Archanjo	Arcanjo	S. Miguel Archanjo
+nome_proprio_toponimo	Batataes	Batatais	
+nome_proprio_toponimo	Benedicto	Benedito	
+nome_proprio_toponimo	Brazil	Brasil	
+nome_proprio_toponimo	Gervasio	Gervásio	
+nome_proprio_toponimo	Honorio	Honório	
+nome_proprio_toponimo	Jundiahy	Jundiaí	
+nome_proprio_toponimo	Lycurgo	Licurgo	
+nome_proprio_toponimo	Matto	Mato	Matto Grosso de Batataes
+nome_proprio_toponimo	Mogy	Mogi	Mogy das Cruzes
+nome_proprio_toponimo	Mogyana	Mogiana	Companhia Mogyana
+nome_proprio_toponimo	Parahyba	Paraíba	rio Parahyba
+nome_proprio_toponimo	Pirajú	Piraju	hoje sem acento
+nome_proprio_toponimo	Porciuncula	Porciúncula	
+nome_proprio_toponimo	Tatuhy	Tatuí	
+nome_proprio_toponimo	Ytuana	Ituana	estrada de ferro Ytuana

@@ -1,0 +1,142 @@
+# ====================================================================
+# PALAVRAS EM DESACORDO COM A NORMA ORTOGRAFICA ATUAL
+# Documento : Diario Official - Domingo, 1 de Abril de 1900 - pag. 733
+# Arquivos  : 1900-04-01_p733.html / 1900_0733_Medio.jpg
+# Fonte     : texto da transcricao em HTML  --  RASCUNHO NAO CONFERIDO
+# Gerado em : 2026-09-01
+# --------------------------------------------------------------------
+# ATENCAO   : esta lista foi extraida de uma transcricao AUTOMATICA que
+#             ainda nao foi conferida contra a imagem. Uma grafia que o
+#             transcritor tenha modernizado por conta propria nao aparece
+#             aqui - e justamente a que mais importa. Confira a lista
+#             contra o fac-simile antes de por 1900-04-01_p733 em dataset.active.
+# --------------------------------------------------------------------
+# FORMATO   : TSV (separador = TAB), codificacao UTF-8 (sem BOM)
+# Linhas iniciadas por '#' sao comentario: descartar ao processar.
+# Colunas   : grupo <TAB> forma_epoca <TAB> forma_atual <TAB> obs
+# Uso       : 'forma_epoca' e a grafia esperada no fac-simile.
+#             Se a transcricao trouxer 'forma_atual' no lugar dela,
+#             houve MODERNIZACAO indevida.
+# Grupos    : consoantes_dobradas_mudas, digrafos_gregos, alternancia_s_z, acento_ausente, acento_hoje_inexistente, vocabulario_morfologia, nome_proprio_toponimo
+# Total     : 104 linhas de dados
+# ====================================================================
+grupo	forma_epoca	forma_atual	obs
+
+
+# [consoantes_dobradas_mudas] Consoantes dobradas e consoantes mudas (cc, ct, pt, pp, ll, mm, nn, ss, ff, bb) eliminadas pelas reformas de 1911/1943/1971
+consoantes_dobradas_mudas	accôrdo	acordo	tambem acento circunflexo
+consoantes_dobradas_mudas	acto	ato	
+consoantes_dobradas_mudas	actual	atual	
+consoantes_dobradas_mudas	amarella	amarela	febre amarella
+consoantes_dobradas_mudas	annexa	anexa	
+consoantes_dobradas_mudas	anno	ano	
+consoantes_dobradas_mudas	apparecido	aparecido	
+consoantes_dobradas_mudas	attendido	atendido	
+consoantes_dobradas_mudas	auctoridade	autoridade	queda do c em auct-
+consoantes_dobradas_mudas	auctorizada	autorizada	queda do c em auct-
+consoantes_dobradas_mudas	auctorizou-se	autorizou-se	queda do c em auct-
+consoantes_dobradas_mudas	augmento	aumento	
+consoantes_dobradas_mudas	bello	belo	Bello Monte
+consoantes_dobradas_mudas	canna	cana	canna > cana
+consoantes_dobradas_mudas	cavallos	cavalos	
+consoantes_dobradas_mudas	collectoria	coletoria	
+consoantes_dobradas_mudas	commandante	comandante	
+consoantes_dobradas_mudas	communicando	comunicando	
+consoantes_dobradas_mudas	communico	comunico	
+consoantes_dobradas_mudas	contractado	contratado	
+consoantes_dobradas_mudas	directoria	diretoria	2.a sub-directoria
+consoantes_dobradas_mudas	distincção	distinção	
+consoantes_dobradas_mudas	effeitos	efeitos	
+consoantes_dobradas_mudas	escripta	escrita	
+consoantes_dobradas_mudas	exgottos	esgotos	
+consoantes_dobradas_mudas	farello	farelo	
+consoantes_dobradas_mudas	installado	instalado	
+consoantes_dobradas_mudas	municipaes	municipais	tambem plural em -aes
+consoantes_dobradas_mudas	officiaes	oficiais	tambem plural em -aes
+consoantes_dobradas_mudas	officio	ofício	tambem falta acento
+consoantes_dobradas_mudas	officios	ofícios	tambem falta acento
+consoantes_dobradas_mudas	pellado	pelado	Morro Pellado
+consoantes_dobradas_mudas	remetteram-se	remeteram-se	
+consoantes_dobradas_mudas	remetteu-se	remeteu-se	
+consoantes_dobradas_mudas	resacca	resaca	Posse de Resacca
+consoantes_dobradas_mudas	secção	seção	
+consoantes_dobradas_mudas	sellada	selada	
+consoantes_dobradas_mudas	sello	selo	regulamento do sello do Estado
+consoantes_dobradas_mudas	tabella	tabela	
+consoantes_dobradas_mudas	tabellas	tabelas	
+consoantes_dobradas_mudas	transmittiram-se	transmitiram-se	
+
+# [digrafos_gregos] Digrafos de origem grega (ph, th, ch=k, rh, y) substituidos em 1911/1943
+digrafos_gregos	ephigenia	Efigênia	ph > f; Santa Ephigenia
+digrafos_gregos	mechanica	mecânica	ch = k, tambem falta acento
+digrafos_gregos	thesouro	tesouro	th > t
+
+# [alternancia_s_z] Alternancia s/z e c/s, fixada pelas reformas
+alternancia_s_z	goso	gozo	
+
+# [acento_ausente] Palavra que hoje leva acento e no fac-simile nao leva
+acento_ausente	camaras	câmaras	
+acento_ausente	copia	cópia	
+acento_ausente	diaria	diária	
+acento_ausente	diarias	diárias	
+acento_ausente	diarios	diários	
+acento_ausente	edificio	edifício	
+acento_ausente	excluidos	excluídos	hiato hoje acentuado
+acento_ausente	exercicio	exercício	
+acento_ausente	familia	família	
+acento_ausente	humanitario	humanitário	
+acento_ausente	identico	idêntico	
+acento_ausente	identicos	idênticos	
+acento_ausente	intermedio	intermédio	
+acento_ausente	medicos	médicos	
+acento_ausente	memoriaes	memoriais	tambem plural em -aes
+acento_ausente	mez	mês	
+acento_ausente	mezes	meses	tambem z > s
+acento_ausente	negocios	negócios	
+acento_ausente	policia	polícia	
+acento_ausente	predio	prédio	
+acento_ausente	provisoria	provisória	
+acento_ausente	proximo	próximo	
+acento_ausente	publica	pública	
+acento_ausente	publicas	públicas	
+acento_ausente	publico	público	
+acento_ausente	saude	saúde	
+acento_ausente	secretario	secretário	
+acento_ausente	ultimo	último	
+acento_ausente	voluntario	voluntário	
+
+# [acento_hoje_inexistente] Acento que a norma atual eliminou
+acento_hoje_inexistente	á	a / à	preposicao grafada com acento agudo
+acento_hoje_inexistente	áquelle	àquele	
+acento_hoje_inexistente	ás	às	
+
+# [vocabulario_morfologia] Forma lexical ou morfologica de epoca (plurais em -aes, arcaismos)
+vocabulario_morfologia	animaes	animais	plural em -aes
+vocabulario_morfologia	caes	cais	plural em -aes
+vocabulario_morfologia	concertos	consertos	reparos; hoje grafado com s
+vocabulario_morfologia	creada	criada	e > i pretonico
+vocabulario_morfologia	deante	diante	e > i pretonico
+vocabulario_morfologia	dous	dois	forma arcaica do numeral
+vocabulario_morfologia	kilo	quilo	k > qu
+vocabulario_morfologia	kilos	quilos	k > qu
+vocabulario_morfologia	si	se	conjuncao condicional grafada si
+
+# [nome_proprio_toponimo] Nome proprio ou toponimo com grafia de epoca
+nome_proprio_toponimo	Anna	Ana	
+nome_proprio_toponimo	Annapolis	Anápolis	
+nome_proprio_toponimo	Antonio	Antônio	
+nome_proprio_toponimo	Benedicto	Benedito	
+nome_proprio_toponimo	Braziliano	Brasiliano	
+nome_proprio_toponimo	Corregos	Córregos	Dous Corregos
+nome_proprio_toponimo	Gregorio	Gregório	
+nome_proprio_toponimo	Horacio	Horácio	
+nome_proprio_toponimo	Jundiahy	Jundiaí	hy > i
+nome_proprio_toponimo	Octaviano	Otaviano	ct > t
+nome_proprio_toponimo	Pirajú	Piraju	hoje sem acento
+nome_proprio_toponimo	Raymundo	Raimundo	y > i
+nome_proprio_toponimo	Remedios	Remédios	
+nome_proprio_toponimo	Salles	Sales	
+nome_proprio_toponimo	Taquary	Taquari	y > i
+nome_proprio_toponimo	Tatuhy	Tatuí	hy > i
+nome_proprio_toponimo	Tieté	Tietê	
+nome_proprio_toponimo	Ytú	Itu	Y > I, hoje sem acento

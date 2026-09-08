@@ -1,0 +1,35 @@
+# ============================================================================
+# Prompts do experimento.
+#
+# Os prompts p1, p2 e p3 são os do desenho original e NÃO devem ser alterados:
+# eles formam uma escala de especificidade crescente
+#   p1: sem formato e sem contexto
+#   p2: com formato (HTML) e sem contexto histórico
+#   p3: com formato e com contexto histórico
+#
+# p4 é uma ablação opcional (desligada por padrão). Ela isola a pergunta
+# "a modernização ortográfica é viés do modelo ou defeito do prompt?",
+# acrescentando a p3 a única instrução que ataca o fenômeno diretamente.
+#
+# p0 não é um prompt: é o marcador de "este sistema não recebe prompt". Serve
+# aos sistemas de OCR/layout (MinerU), que não aceitam instrução em linguagem
+# natural. Modelos instruídos NUNCA são executados sob ele, e ele nunca é
+# executado sob modelos instruídos — a regra está em `runner.build_tasks`.
+# ============================================================================
+
+- id: p0
+  enabled: true
+  prompt_agnostic: true
+  label: "Sem prompt (OCR estrutural)"
+  description: >-
+    Sistemas que analisam o documento sem receber instrução. O eixo de prompt
+    não se aplica; a comparação com os LLMs se faz modelo a modelo, não
+    prompt a prompt.
+  text: "(não se aplica: o sistema não recebe instrução em linguagem natural)"
+
+- id: p1
+  enabled: true
+  label: "Sem formato"
+  description: "Não especifica formato de saída. Mede o comportamento default do modelo."
+  text: "Sabendo que essa imagem é um documento antigo brasileiro podendo estar entre 1890 e 1950, transforme essa imagem em um documento HTML respeitando o layout e palavras originais, retorne apenas o código HTML sem texto extra."
+

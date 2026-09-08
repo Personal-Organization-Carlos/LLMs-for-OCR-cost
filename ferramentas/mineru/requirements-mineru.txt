@@ -1,0 +1,16 @@
+# Dependencias do venv do MinerU (Python 3.12), separado do venv do benchmark.
+#
+# Versoes fixadas nas que produziram os resultados. O MinerU muda o formato do
+# log entre versoes menores, e `mineru.py` le esse log para separar o tempo de
+# inferencia do tempo de carga dos pesos: destravar a versao faz o tempo virar
+# null em silencio.
+#
+# `[core]` traz os tres backends usados no estudo - pipeline, vlm-engine e
+# hybrid-engine. Nao troque por `[all]`: ele acrescenta vllm e gradio, que nao
+# entram em nenhuma medida.
+mineru[core]==3.4.4
+mineru-vl-utils==1.0.5
+
+# Instalados pelo indice extra do PyTorch que setup_mineru.ps1 configura.
+torch==2.13.0
+torchvision==0.28.0

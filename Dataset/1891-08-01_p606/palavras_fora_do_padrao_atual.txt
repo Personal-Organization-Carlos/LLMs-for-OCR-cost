@@ -1,0 +1,128 @@
+# ====================================================================
+# PALAVRAS EM DESACORDO COM A NORMA ORTOGRAFICA ATUAL
+# Documento : Diario Official - Sabbado, 1 de Agosto de 1891 - pag. 606
+# Arquivos  : 1891-08-01_p606.html / 1891_0606_Imagem.jpg
+# Fonte     : texto da transcricao em HTML, conferido contra a imagem
+# Gerado em : 2026-08-15
+# --------------------------------------------------------------------
+# FORMATO   : TSV (separador = TAB), codificacao UTF-8 (sem BOM)
+# Linhas iniciadas por '#' sao comentario: descartar ao processar.
+# Colunas   : grupo <TAB> forma_epoca <TAB> forma_atual <TAB> obs
+# Uso       : 'forma_epoca' e a grafia esperada no fac-simile.
+#             Se a transcricao trouxer 'forma_atual' no lugar dela,
+#             houve MODERNIZACAO indevida.
+# Grupos    : consoantes_dobradas_mudas, digrafos_gregos, alternancia_s_z, acento_ausente, acento_hoje_inexistente, vocabulario_morfologia, nome_proprio_toponimo
+# Total     : 97 linhas de dados
+# ====================================================================
+grupo	forma_epoca	forma_atual	obs
+
+# [consoantes_dobradas_mudas] Consoantes dobradas e consoantes mudas (cc, ct, pt, pp, ll, mm, nn, ss, ff, bb) eliminadas pelas reformas de 1911/1943/1971
+consoantes_dobradas_mudas	accionista	acionista	
+consoantes_dobradas_mudas	accionistas	acionistas	
+consoantes_dobradas_mudas	acclamado	aclamado	
+consoantes_dobradas_mudas	accôrdo	acordo	tambem acento circunflexo
+consoantes_dobradas_mudas	acta	ata	
+consoantes_dobradas_mudas	activas	ativas	
+consoantes_dobradas_mudas	acto	ato	
+consoantes_dobradas_mudas	acção	ação	
+consoantes_dobradas_mudas	acções	ações	
+consoantes_dobradas_mudas	allegara	alegara	
+consoantes_dobradas_mudas	anno	ano	
+consoantes_dobradas_mudas	annuaes	anuais	
+consoantes_dobradas_mudas	annuncios	anúncios	tambem falta acento
+consoantes_dobradas_mudas	applicada	aplicada	
+consoantes_dobradas_mudas	approvado	aprovado	
+consoantes_dobradas_mudas	assignada	assinada	
+consoantes_dobradas_mudas	assignado	assinado	
+consoantes_dobradas_mudas	assignar	assinar	
+consoantes_dobradas_mudas	assignará	assinará	
+consoantes_dobradas_mudas	collada	colada	
+consoantes_dobradas_mudas	commercial	comercial	
+consoantes_dobradas_mudas	commercio	comércio	tambem falta acento
+consoantes_dobradas_mudas	director	diretor	
+consoantes_dobradas_mudas	director-gerente	diretor-gerente	
+consoantes_dobradas_mudas	director-secretario	diretor-secretário	tambem falta acento
+consoantes_dobradas_mudas	directores	diretores	
+consoantes_dobradas_mudas	directoria	diretoria	
+consoantes_dobradas_mudas	distinctivo	distintivo	
+consoantes_dobradas_mudas	effectuar-se-á	efetuar-se-á	
+consoantes_dobradas_mudas	immoveis	imóveis	tambem falta acento
+consoantes_dobradas_mudas	occupara	ocupara	
+consoantes_dobradas_mudas	official	oficial	
+consoantes_dobradas_mudas	producto	produto	
+consoantes_dobradas_mudas	sabbado	sábado	tambem falta acento
+consoantes_dobradas_mudas	sello	selo	
+consoantes_dobradas_mudas	somma	soma	
+consoantes_dobradas_mudas	supplente	suplente	
+consoantes_dobradas_mudas	supplicante	suplicante	
+consoantes_dobradas_mudas	supprimido	suprimido	
+
+# [digrafos_gregos] Digrafos e letras de origem grega (ph, th, ch=k, y, rh)
+digrafos_gregos	anonymas	anônimas	tambem falta acento
+digrafos_gregos	hypothecarias	hipotecárias	ph>f, th>t, falta acento
+digrafos_gregos	synopse	sinopse	
+
+# [alternancia_s_z] Alternancia s/z (inclui -isar > -izar e brazil > brasil)
+alternancia_s_z	atrazo	atraso	
+alternancia_s_z	defeza	defesa	
+alternancia_s_z	integralisados	integralizados	
+alternancia_s_z	integralisação	integralização	
+alternancia_s_z	mez	mês	tambem falta acento
+alternancia_s_z	realisadas	realizadas	
+alternancia_s_z	realisárem	realizarem	tambem acento indevido
+
+# [acento_ausente] Palavra sem acento que hoje e obrigatorio
+acento_ausente	credito	crédito	
+acento_ausente	debentures	debêntures	
+acento_ausente	diario	diário	
+acento_ausente	dividas	dívidas	
+acento_ausente	escriptorio	escritório	tambem grupo pt
+acento_ausente	escrutinio	escrutínio	
+acento_ausente	extraordinaria	extraordinária	
+acento_ausente	honorarios	honorários	
+acento_ausente	meritissima	meritíssima	
+acento_ausente	moveis	móveis	
+acento_ausente	necessario	necessário	
+acento_ausente	negocios	negócios	
+acento_ausente	numero	número	
+acento_ausente	numeros	números	
+acento_ausente	ordinaria	ordinária	
+acento_ausente	presidencia	presidência	
+acento_ausente	publicas	públicas	
+acento_ausente	publico	público	
+acento_ausente	secretario	secretário	
+acento_ausente	titulo	título	
+acento_ausente	titulos	títulos	
+acento_ausente	ultima	última	
+acento_ausente	ultimo	último	
+
+# [acento_hoje_inexistente] Palavra com acento que hoje nao existe mais
+acento_hoje_inexistente	assembléa	assembleia	ditongo -ea: hoje sem acento e com -eia
+acento_hoje_inexistente	bôa	boa	
+acento_hoje_inexistente	côr	cor	
+acento_hoje_inexistente	désse	desse	
+acento_hoje_inexistente	fôr	for	
+acento_hoje_inexistente	séde	sede	
+acento_hoje_inexistente	á	a / à	preposicao grafada com acento agudo
+acento_hoje_inexistente	ás	às	
+
+# [vocabulario_morfologia] Vocabulario, morfologia verbal e juncao/separacao de palavras
+vocabulario_morfologia	afim	a fim	locucao hoje sempre separada
+vocabulario_morfologia	dous	dois	
+vocabulario_morfologia	egualados	igualados	
+vocabulario_morfologia	logar	lugar	
+vocabulario_morfologia	pedio	pediu	perfeito em -io
+vocabulario_morfologia	propoz	propôs	
+vocabulario_morfologia	registral-a	registrá-la	infinitivo + pronome com -l-
+vocabulario_morfologia	tem	têm	3a pessoa do plural: 'os accionistas que tem'
+
+# [nome_proprio_toponimo] Nome proprio ou toponimo com grafia hoje diferente (fora da norma comum)
+nome_proprio_toponimo	Angelo	Ângelo	
+nome_proprio_toponimo	Antonio	Antônio	
+nome_proprio_toponimo	Brasilio	Brasílio	
+nome_proprio_toponimo	Irineo	Irineu	
+nome_proprio_toponimo	Itú	Itu	
+nome_proprio_toponimo	Libero	Líbero	rua Libero Badaro
+nome_proprio_toponimo	Luiz	Luís	
+nome_proprio_toponimo	Mogy-Limeira	Mogi-Limeira	
+nome_proprio_toponimo	Netto	Neto	
