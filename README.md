@@ -2,8 +2,8 @@
 
 Mede quanto uma página do Diário Oficial (1890–1950) sobrevive quando é
 transcrita por um modelo multimodal. Cada sistema recebe a **imagem** da página
-e um prompt; o que ele devolve é comparado com a **referência** — o fac-símile
-transcrito à mão, em HTML — por cinco medidas.
+e um prompt; o que ele devolve é comparado com a **referência** — a transcrição
+conferida à mão, em HTML — por cinco medidas.
 
 São avaliados modelos de API (OpenRouter e a API nativa do Google) e o MinerU,
 um analisador de documentos que roda na própria máquina. O eixo da comparação é
@@ -240,7 +240,7 @@ agregando **todas as execuções** — não só a última:
 | `cer_wer_por_modelo.png` | CER e WER lado a lado, ordenado pelo **CER** |
 | `num_f1_por_modelo.png` | fidelidade dos números |
 | `custo_beneficio.png` | CER x custo por página — onde cada sistema cai |
-| `custo_100mil_paginas.png` | a conta em dinheiro do acervo, em três cenários |
+| `custo_n_paginas.png` | a conta em dinheiro do acervo, em três cenários |
 | `tempo_do_acervo.png` | a conta em tempo do acervo, modelo a modelo |
 | `html_sem_texto_extra.png` | % das respostas que vieram só com o HTML |
 
@@ -260,8 +260,9 @@ simultâneas. O número serial fica no eixo porque é o observado; a concorrênc
 premissa declarada, não medida. A espera do `rpm_limit` não entra na conta: ela
 é decisão de configuração sua, não lentidão do modelo.
 
-O `custo_100mil_paginas.png` projeta o custo medido por página para 100 mil
-páginas — a ordem de grandeza de uma década de Diário Oficial — em três papéis:
+O `custo_n_paginas.png` projeta o custo medido por página para o tamanho de
+acervo declarado em `PAGINAS_DO_PROJETO`, em `bench/graficos.py`, em três
+papéis:
 **melhor qualidade** (menor CER), **mais barato** (menor US$/página) e **melhor
 custo-benefício**, definido como `custo ÷ (1 − CER)`: o custo por página
 efetivamente aproveitável. Um modelo que custa metade mas erra o dobro não é

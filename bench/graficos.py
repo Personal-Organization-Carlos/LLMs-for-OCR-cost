@@ -3,7 +3,7 @@
     cer_wer_por_modelo.png      erro por caractere e por palavra, ordenado pelo CER
     num_f1_por_modelo.png       fidelidade dos números
     custo_beneficio.png         CER x custo por página — onde cada sistema cai
-    custo_100mil_paginas.png    a conta em dinheiro do acervo, em três cenários
+    custo_n_paginas.png         a conta em dinheiro do acervo, em três cenários
     tempo_do_acervo.png         a conta em tempo do acervo, modelo a modelo
     html_sem_texto_extra.png    obediência ao "retorne apenas o código HTML"
 
@@ -43,9 +43,14 @@ import matplotlib.pyplot as plt  # noqa: E402
 from .config import Settings, load_settings  # noqa: E402
 from .score import METRICAS, _resumir  # noqa: E402
 
-# Paleta validada (modo claro, fundo #fcfcfb).
-AZUL, LARANJA = "#2a78d6", "#eb6834"
+
+AZUL, LARANJA = "#2a78d6", "#eb6834"      # aberto / fechado
+VERDE, VIOLETA = "#008300", "#4a3aa7"     # CER / WER
+CINZA = "#6f6d66"                         # execucao local, que nao e categoria
 TINTA, TINTA_FRACA, FUNDO = "#0b0b0b", "#52514e", "#fcfcfb"
+
+# Cor por tipo de modelo, o mesmo mapa em todas as figuras que o usam.
+COR_POR_TIPO = {"aberto": AZUL, "fechado": LARANJA}
 
 DPI = 150
 ALTURA_POR_BARRA = 0.45  # polegadas
@@ -63,7 +68,8 @@ MINIMO_DE_FAIXAS = 3
 TETO_DE_ERRO = 1.5
 
 # O horizonte do projeto: a conta que interessa não é a da página, é a do
-# acervo. Cem mil páginas é a ordem de grandeza de uma década de Diário Oficial.
+# acervo. O valor abaixo é o tamanho do acervo a projetar e muda conforme o
+# recorte; por isso as figuras leem daqui em vez de trazer o número no nome.
 PAGINAS_DO_PROJETO = 3_600_000
 
 
@@ -120,7 +126,9 @@ def carregar_chamadas(settings: Settings, run_ids: list[str] | None = None) -> l
 
 def _por_modelo(linhas: list[dict]) -> list[dict]:
     """Uma linha por modelo, agregando as chamadas de todas as execuções."""
-    _, resumo = _resumir(linhas, ["model_id", "model_label", "tipo", "empresa"])
+    _, resumo = _resumir(
+        linhas, ["model_id", "model_label", "tipo", "empresa", "api_provider"]
+    )
     for r in resumo:
         # O `n` aparece em TODOS os rótulos, não só nos poucos: marcar apenas
         # quem tem menos deixaria implícito que os demais são comparáveis entre
@@ -169,6 +177,32 @@ def _dispersao(largura: float = 9.0, altura: float = 6.0):  # noqa: ANN201
         ax.spines[lado].set_color("#d5d4d0")
     ax.tick_params(colors=TINTA_FRACA, labelsize=9, length=0)
     return fig, ax
+
+
+def _e_local(linha: dict) -> bool:
+    """O sistema roda nesta máquina, e não numa API."""
+    return linha.get("api_provider") == "mineru"
+
+
+def _legenda_por_tipo(ax, linhas: list[dict], com_local: bool = False,  # noqa: ANN001
+                     loc: str = "upper right", rotulo_local: str = "local") -> None:
+    """Legenda das cores presentes, sem inventar entrada que não aparece.
+
+    `loc` existe porque o canto vazio depende da ordenação: quando as barras
+    menores ficam em cima, sobra o canto superior; quando ficam embaixo, sobra
+    o inferior.
+    """
+    from matplotlib.patches import Patch
+
+    itens = []
+    for tipo, cor in COR_POR_TIPO.items():
+        if any(d["tipo"] == tipo and not (com_local and _e_local(d)) for d in linhas):
+            itens.append(Patch(facecolor=cor, label=tipo))
+    if com_local and any(_e_local(d) for d in linhas):
+        itens.append(Patch(facecolor=CINZA, label=rotulo_local))
+    if itens:
+        ax.legend(handles=itens, frameon=False, fontsize=9,
+                  labelcolor=TINTA_FRACA, loc=loc)
 
 
 def _titulo(ax, texto: str, subtitulo: str) -> None:  # noqa: ANN001
@@ -229,8 +263,8 @@ def _grafico_cer_wer(dados: list[dict], destino: Path) -> Path | None:
     cortou = maior > limite
 
     for deslocamento, campo, cor, nome in (
-        (0.20, "cer_media", AZUL, "CER (caractere)"),
-        (-0.20, "wer_media", LARANJA, "WER (palavra)"),
+        (0.20, "cer_media", VERDE, "CER (caractere)"),
+        (-0.20, "wer_media", VIOLETA, "WER (palavra)"),
     ):
         valores = [d[campo] or 0.0 for d in linhas]
         ax.barh([p + deslocamento for p in posicoes], [min(v, limite) for v in valores],
@@ -267,7 +301,8 @@ def _grafico_num_f1(dados: list[dict], destino: Path) -> Path | None:
     linhas.sort(key=lambda d: d["num_f1_media"])
     fig, ax = _figura(len(linhas))
     valores = [d["num_f1_media"] for d in linhas]
-    ax.barh(range(len(linhas)), valores, height=0.35, color=AZUL)
+    ax.barh(range(len(linhas)), valores, height=0.35,
+            color=[COR_POR_TIPO.get(d["tipo"], CINZA) for d in linhas])
     for i, valor in enumerate(valores):
         _rotulo_na_ponta(ax, valor, i, _pt(valor))
     ax.set_yticks(range(len(linhas)), [d["rotulo"] for d in linhas])
@@ -275,6 +310,7 @@ def _grafico_num_f1(dados: list[dict], destino: Path) -> Path | None:
     ax.set_xlabel("F1 dos valores numéricos (1 = todos recuperados)",
                   color=TINTA_FRACA, fontsize=9)
     ax.set_xlim(0, 1.08)
+    _legenda_por_tipo(ax, linhas, loc="lower right")
     _titulo(ax, "Fidelidade dos números",
             "réis, datas, números de processo · maior é melhor")
     return _salvar(fig, destino / "num_f1_por_modelo.png")
@@ -288,14 +324,33 @@ def custo_por_pagina_correta(linha: dict) -> float | None:
     """Custo dividido pela fração de caracteres que saiu certa.
 
     É o critério de custo-benefício usado aqui: um modelo que custa metade mas
-    erra o dobro não é mais barato — é mais caro por página aproveitável.
-    Formalmente, `custo / (1 - CER)`. Um CER acima de 1 (alucinação maior que a
-    página) não tem página aproveitável nenhuma e fica de fora.
+    erra o dobro não é mais barato, é mais caro por página aproveitável.
+    Formalmente, `custo / (1 - CER)`. Um CER acima de 1, ou seja, alucinação
+    maior que a própria página, não tem página aproveitável nenhuma e fica de
+    fora.
+
+    Só se aplica a quem cobra. Para um sistema local o resultado seria sempre
+    zero, o que o tornaria vencedor automático de um critério que existe para
+    comparar preços entre si — e "de graça" já tem papel próprio.
     """
     custo, cer = linha.get("cost_usd_media"), linha.get("cer_media")
-    if custo is None or cer is None or cer >= 1:
+    if not custo or cer is None or cer >= 1:
         return None
     return custo / (1 - cer)
+
+
+def _ordenar_por(chave):  # noqa: ANN001, ANN201
+    """Chave de ordenação que joga o indefinido para o fim, sem confundir com zero.
+
+    `valor or infinito` seria tentador e está errado, porque zero é falso em
+    Python: um custo de zero viraria infinito e o sistema gratuito sairia da
+    comparação sem que ninguém tivesse decidido isso.
+    """
+    def comparar(linha):
+        valor = chave(linha)
+        return float("inf") if valor is None else valor
+
+    return comparar
 
 
 def _grafico_custo_beneficio(dados: list[dict], destino: Path) -> Path | None:
@@ -321,33 +376,46 @@ def _grafico_custo_beneficio(dados: list[dict], destino: Path) -> Path | None:
     ax.set_ylabel("CER", color=TINTA_FRACA, fontsize=9)
     ax.legend(frameon=False, loc="best", fontsize=9, labelcolor=TINTA_FRACA)
 
-    melhor = min(linhas, key=lambda d: custo_por_pagina_correta(d) or float("inf"))
-    _titulo(ax, "Custo-benefício: erro x preço",
-            "canto inferior esquerdo é o melhor negócio · "
-            f"melhor custo por página correta: {melhor['model_label']}")
+    pagos = [d for d in linhas if d["cost_usd_media"]]
+    subtitulo = "canto inferior esquerdo é o melhor negócio"
+    if pagos:
+        melhor = min(pagos, key=_ordenar_por(custo_por_pagina_correta))
+        subtitulo += f" · melhor custo por página correta entre os pagos, {melhor['model_label']}"
+    _titulo(ax, "Custo-benefício: erro x preço", subtitulo)
     return _salvar(fig, destino / "custo_beneficio.png")
 
 
 # --------------------------------------------------------------------------
-# 4. A conta de 100 mil páginas
+# 4. A conta de n mil páginas
 # --------------------------------------------------------------------------
 
 def escolher_cenarios(dados: list[dict]) -> list[tuple[str, dict]]:
-    """Os três modelos que respondem à pergunta de orçamento.
+    """Os modelos que respondem à pergunta de orçamento.
 
-    Um mesmo modelo pode ocupar dois papéis — e quando ocupa, isso é o achado:
-    significa que não há trade-off a discutir.
+    São cinco papéis, e um mesmo modelo pode ocupar mais de um. Quando ocupa,
+    isso é o achado: significa que ali não há trade-off a discutir.
+
+    Os dois últimos existem porque "de graça" e "o mais barato que se paga" são
+    dois pisos diferentes, e a comparação entre eles é o que decide se vale
+    abrir a carteira.
     """
     elegiveis = [d for d in dados
                  if d["cer_media"] is not None and d["cost_usd_media"] is not None]
     if not elegiveis:
         return []
-    papeis = [
-        ("melhor qualidade", min(elegiveis, key=lambda d: d["cer_media"])),
-        ("melhor custo-benefício",
-         min(elegiveis, key=lambda d: custo_por_pagina_correta(d) or float("inf"))),
-        ("mais barato", min(elegiveis, key=lambda d: d["cost_usd_media"])),
-    ]
+    gratuitos = [d for d in elegiveis if not d["cost_usd_media"]]
+    pagos = [d for d in elegiveis if d["cost_usd_media"]]
+
+    # "Mais barato" e "melhor custo-benefício" olham só para quem cobra. Um
+    # sistema local venceria os dois com zero, o que responderia à pergunta
+    # errada: quem já decidiu não pagar não está escolhendo entre preços.
+    papeis = [("melhor qualidade", min(elegiveis, key=lambda d: d["cer_media"]))]
+    if pagos:
+        papeis.append(("melhor custo-benefício",
+                       min(pagos, key=_ordenar_por(custo_por_pagina_correta))))
+        papeis.append(("mais barato", min(pagos, key=lambda d: d["cost_usd_media"])))
+    if gratuitos:
+        papeis.append(("melhor gratuito", min(gratuitos, key=lambda d: d["cer_media"])))
     juntos: dict[str, tuple[list[str], dict]] = {}
     for papel, modelo in papeis:
         rotulos, _ = juntos.setdefault(modelo["model_id"], ([], modelo))
@@ -363,7 +431,9 @@ def _grafico_projecao(dados: list[dict], destino: Path) -> Path | None:
 
     fig, ax = _figura(len(cenarios), largura=9.5)
     valores = [c[1]["cost_usd_media"] * PAGINAS_DO_PROJETO for c in cenarios]
-    ax.barh(range(len(cenarios)), valores, height=0.35, color=AZUL)
+    ax.barh(range(len(cenarios)), valores, height=0.35,
+            color=[CINZA if _e_local(m) else COR_POR_TIPO.get(m["tipo"], CINZA)
+                   for _, m in cenarios])
     for i, (valor, (papel, modelo)) in enumerate(zip(valores, cenarios)):
         # O preço sozinho não decide nada: o que ele compra vem junto.
         _rotulo_na_ponta(
@@ -385,9 +455,11 @@ def _grafico_projecao(dados: list[dict], destino: Path) -> Path | None:
     ax.xaxis.set_major_formatter(
         matplotlib.ticker.FuncFormatter(lambda v, _: _pt(v, 0))
     )
+    _legenda_por_tipo(ax, [m for _, m in cenarios], com_local=True,
+                      rotulo_local="local (sem custo por token)")
     _titulo(ax, f"Quanto custaria transcrever {_pt(PAGINAS_DO_PROJETO, 0)} páginas",
             "projeção linear do custo medido por página · o erro medido vai junto")
-    return _salvar(fig, destino / "custo_100mil_paginas.png")
+    return _salvar(fig, destino / "custo_n_paginas.png")
 
 
 # --------------------------------------------------------------------------
@@ -415,7 +487,11 @@ def _grafico_tempo(dados: list[dict], destino: Path) -> Path | None:
     # medida. Multiplicar pelo acervo sem supor concorrência nenhuma mantém o
     # eixo colado no que foi observado.
     anos = [d["latency_s_media"] * PAGINAS_DO_PROJETO / SEGUNDOS_POR_ANO for d in linhas]
-    ax.barh(range(len(linhas)), anos, height=0.35, color=AZUL)
+    # Os locais saem em cinza porque o tempo deles não é comparável ao dos
+    # demais: mede esta GPU, não o modelo. Trocar de máquina muda a barra.
+    ax.barh(range(len(linhas)), anos, height=0.35,
+            color=[CINZA if _e_local(d) else COR_POR_TIPO.get(d["tipo"], CINZA)
+                   for d in linhas])
     for i, (d, valor) in enumerate(zip(linhas, anos)):
         dias = d["latency_s_media"] * PAGINAS_DO_PROJETO / CHAMADAS_SIMULTANEAS / SEGUNDOS_POR_DIA
         _rotulo_na_ponta(
@@ -428,6 +504,8 @@ def _grafico_tempo(dados: list[dict], destino: Path) -> Path | None:
     ax.set_xlabel(f"anos para transcrever {_pt(PAGINAS_DO_PROJETO, 0)} páginas, "
                   "uma de cada vez", color=TINTA_FRACA, fontsize=9)
     ax.set_xlim(0, max(anos) * 2.6)
+    _legenda_por_tipo(ax, linhas, com_local=True,
+                      rotulo_local="local (tempo desta máquina)")
     _titulo(
         ax,
         f"Quanto tempo levaria transcrever {_pt(PAGINAS_DO_PROJETO, 0)} páginas",
@@ -449,13 +527,16 @@ def _grafico_obediencia(dados: list[dict], destino: Path) -> Path | None:
     linhas.sort(key=lambda d: d["html_sem_texto_extra_taxa"])
     fig, ax = _figura(len(linhas))
     valores = [d["html_sem_texto_extra_taxa"] * 100 for d in linhas]
-    ax.barh(range(len(linhas)), valores, height=0.35, color=AZUL)
+    ax.barh(range(len(linhas)), valores, height=0.35,
+            color=[COR_POR_TIPO.get(d["tipo"], CINZA) for d in linhas])
     for i, valor in enumerate(valores):
         _rotulo_na_ponta(ax, valor, i, f"{valor:.0f}%")
     ax.set_yticks(range(len(linhas)), [d["rotulo"] for d in linhas])
     _faixas(ax, len(linhas))
     ax.set_xlabel("% das respostas que vieram só com o HTML", color=TINTA_FRACA, fontsize=9)
     ax.set_xlim(0, 108)
+    # Ordenado do menor para o maior, então o canto vazio é o de baixo.
+    _legenda_por_tipo(ax, linhas, loc="lower right")
     _titulo(ax, "Obediência ao formato pedido",
             'o prompt termina com "retorne apenas o código HTML sem texto extra"')
     return _salvar(fig, destino / "html_sem_texto_extra.png")

@@ -1,6 +1,6 @@
 """Normalização: HTML/Markdown -> texto -> tokens comparáveis.
 
-Este é o ponto mais sensível do benchmark. A referência é um fac-símile
+Este é o ponto mais sensível do benchmark. A referência é uma transcrição
 estilizado em HTML e as hipóteses chegam em HTML (os LLMs) ou em Markdown (o
 MinerU). Comparar as duas coisas cruas mediria coincidência de estilo, não
 fidelidade de transcrição — a marcação entraria na contagem de palavras como se
@@ -46,7 +46,7 @@ _BLOCK_TAGS = {
 # Células de tabela: separadas por espaço, não por quebra de linha, para que a
 # linha da tabela continue sendo uma linha de texto.
 #
-# `span` entra aqui porque o fac-símile o usa para recuo de linha de
+# `span` entra aqui porque a transcrição de referência o usa para recuo de
 # continuação: "Estado de<span>S. Paulo</span>" sem fronteira viraria o token
 # "deS.", que nenhum modelo produziria — erro sistemático que não tem nada a
 # ver com qualidade de transcrição.

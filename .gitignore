@@ -29,15 +29,6 @@ venv/
 env/
 ENV/
 
-# --- Saídas de execução -----------------------------------------------------
-# São 33 MB hoje e crescem a cada execução: respostas dos modelos, corpos HTTP
-# verbatim, artefatos do MinerU (layout.pdf, content_list.json), métricas e
-# figuras.
-#
-# ATENÇÃO: este é o dado PRIMÁRIO e ele custou dinheiro — chamadas de API não se
-# reproduzem iguais. Ele está fora do git por tamanho, não por ser descartável.
-# Faça backup à parte, ou versione com Git LFS se quiser preservá-lo aqui.
-results/
 
 # --- Python -----------------------------------------------------------------
 __pycache__/
