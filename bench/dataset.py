@@ -7,11 +7,25 @@ transcrita à mão). Os demais arquivos da pasta são ignorados.
 
 from __future__ import annotations
 
+import unicodedata
 from dataclasses import dataclass
 from functools import cached_property
 from pathlib import Path
 
 from .config import Settings
+
+# Grau de dificuldade visual da página, declarado no fim do nome da imagem
+# (`1891_0599_Facil.jpg`). Fácil é página só de texto, médio tem algo a mais
+# como uma tabela simples, difícil tem estrutura composta. A chave da esquerda
+# é o sufixo sem acento e em minúscula, para o nome do arquivo não precisar
+# carregar acento.
+DIFICULDADES = {"facil": "fácil", "medio": "médio", "dificil": "difícil"}
+ORDEM_DE_DIFICULDADE = ["fácil", "médio", "difícil"]
+
+
+def _sem_acento(texto: str) -> str:
+    return "".join(c for c in unicodedata.normalize("NFD", texto)
+                   if unicodedata.category(c) != "Mn")
 
 
 @dataclass
@@ -24,6 +38,16 @@ class Document:
     def reference_html(self) -> str:
         """A referência, lida uma vez por processo e não uma vez por chamada."""
         return self.reference_path.read_text(encoding="utf-8", errors="replace")
+
+    @property
+    def dificuldade(self) -> str | None:
+        """Grau declarado no nome da imagem, ou None quando não há sufixo.
+
+        Voltar None em vez de arriscar um palpite é o que impede uma imagem sem
+        rótulo de entrar calada numa categoria que não é a dela.
+        """
+        sufixo = _sem_acento(self.image_path.stem).rsplit("_", 1)[-1].lower()
+        return DIFICULDADES.get(sufixo)
 
 
 def discover_documents(settings: Settings) -> list[Document]:
