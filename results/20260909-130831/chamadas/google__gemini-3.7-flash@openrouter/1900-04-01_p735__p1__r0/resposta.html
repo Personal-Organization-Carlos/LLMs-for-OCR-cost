@@ -1,0 +1,540 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Diario Official - 1900</title>
+<style>
+    @page {
+        size: auto;
+        margin: 15mm;
+    }
+    body {
+        background-color: #f4ede0;
+        color: #111;
+        font-family: "Times New Roman", Times, "Baskerville", "Playfair Display", serif;
+        font-size: 11px;
+        line-height: 1.18;
+        margin: 0 auto;
+        padding: 20px;
+        max-width: 1000px;
+        box-sizing: border-box;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        border-bottom: 2px solid #111;
+        padding-bottom: 3px;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    .header .left {
+        font-size: 13px;
+        width: 25%;
+    }
+    .header .center {
+        font-size: 18px;
+        letter-spacing: 2px;
+        text-align: center;
+        width: 50%;
+    }
+    .header .right {
+        font-size: 13px;
+        text-align: right;
+        width: 25%;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 15px;
+        text-align: justify;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .section-title {
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+        margin: 4px 0 2px 0;
+        font-size: 11px;
+    }
+
+    .banner-title {
+        font-size: 17px;
+        font-weight: 900;
+        text-align: center;
+        letter-spacing: 3px;
+        margin: 8px 0 4px 0;
+    }
+
+    p {
+        margin: 0 0 4px 0;
+        text-indent: 12px;
+    }
+
+    .no-indent {
+        text-indent: 0;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .center-text {
+        text-align: center;
+        text-indent: 0;
+    }
+
+    .right-text {
+        text-align: right;
+    }
+
+    /* Tabelas financeiras */
+    .finance-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 10.5px;
+        margin: 2px 0;
+    }
+    .finance-table td {
+        padding: 0 1px;
+        vertical-align: bottom;
+    }
+    .finance-table td.dots {
+        border-bottom: 1px dotted #333;
+        width: 100%;
+    }
+    .finance-table td.val {
+        text-align: right;
+        white-space: nowrap;
+        padding-left: 4px;
+    }
+    .finance-table th {
+        font-weight: normal;
+        font-size: 10px;
+        padding-bottom: 2px;
+    }
+
+    /* Tabela da Hospedaria */
+    .immigrant-box {
+        border: 1.5px solid #111;
+        margin: 6px 0;
+        font-size: 8.5px;
+        line-height: 1;
+    }
+    .immigrant-table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    .immigrant-table td, .immigrant-table th {
+        border: 1px solid #111;
+        padding: 2px 1px;
+    }
+    .upside-down {
+        transform: rotate(180deg);
+        display: block;
+    }
+    .vertical-text {
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        white-space: nowrap;
+        padding: 4px 1px;
+        margin: 0 auto;
+    }
+    .rotated-table-container {
+        border-bottom: 1.5px solid #111;
+    }
+
+    .entry {
+        margin-bottom: 3.5px;
+        text-indent: 0;
+    }
+    .entry-date {
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+        margin: 5px 0 2px 0;
+        display: block;
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <div class="left">Domingo, 1</div>
+    <div class="center">DIARIO OFFICIAL</div>
+    <div class="right">Abril 1900 &nbsp; <b>735</b></div>
+</div>
+
+<div class="container">
+    <!-- COLUNA 1 -->
+    <div class="column">
+        <p class="no-indent">Officiou á directoria pedindo providencias para que seja feita uma vistoria nos predios da rua Bresser ns. 42 e 44 .</p>
+        
+        <div class="section-title">Consolação—1.ª secção</div>
+        <p>O dr. Synesio Pestana, inspector sanitario desta secção, visitou hoje as casas da rua 7 de Abril de ns. 83 a 126.</p>
+        <p>Estão em regulares condições hygienicas.</p>
+        <p>A' rua Braulio Gomes visitou a casa n. 10 á procura de uma fabrica de vinhos</p>
+
+        <div class="section-title">Consolação—3.ª secção</div>
+        <p>O dr. Evaristo Bacellar, inspector sanitario desta secção, visitou hoje as casas da rua dr. Abranches de ns. 1 a 51, inclusive 1 armazem de seccos e cocheira da Companhia Viação Paulista.</p>
+        <p>Vaccinou 9 creanças.</p>
+        <p>Expediu 3 intimações.</p>
+        <p>Encontrou todas as casas em regulares condições de asseio.</p>
+        <p>E' bom o estado sanitario.</p>
+
+        <div class="section-title">Consolação—4.ª secção</div>
+        <p>O dr. Alfredo Guaraná, inspector sanitario desta secção, visitou hoje 25 casas da rua Victorino Carmilo, de ns. 1, 11 e de 19 a -69, encontrando-as, na sua maioria, em boas condições de asseio.</p>
+        <p>E' bom o estado sanitario.</p>
+
+        <div class="banner-title">NOTICIARIO</div>
+
+        <p class="no-indent"><b>Guarda nacional.</b>—Foram declarados sem effeito :</p>
+        <p>O decreto de 17 de Março ultimo que nomeou Augusto Moreira de Carvalho para o posto de capitão da 1.ª companhia do 126.º batalhão de infanteria da guarda nacional da comarca de Santos ;</p>
+        <p>O decreto da mesma data que annullou a nomeação de Antão Alves de Moura para o posto de capitão da 1.ª companhia do 126.º batalhão de infanteria da guarda nacional da comarca de Santos, ficando subsistente o decreto de 26 de Agosto do anno passado na parte em que nomeou o referido official.</p>
+
+        <p class="no-indent"><b>Pagamentos.</b>—Pelo Ministerio da Industria, Viação e Obras Publicas foram solicitados do da Fazenda os seguintes pagamentos :</p>
+        <p>De £ 2093-13-4 á Companhia Mechanica e Importadora de S. Paulo, de fornecimento feito á Estrada de Ferro Central do Brazil, em Dezembro do anno passado.</p>
+        <p>De £ 552-14-10 idem, idem, idem, em Dezembro do anno passado.</p>
+
+        <p class="no-indent"><b>Camara Syndical.</b>—Cotação dos fundos publicos e particulares no dia 30 de Março de 1900 :</p>
+        
+        <table class="finance-table">
+            <tr>
+                <td></td>
+                <th style="text-align:right; width:45px;">90 d/v</th>
+                <th style="text-align:right; width:45px;">A' vista</th>
+            </tr>
+            <tr>
+                <td>Sobre Londres</td>
+                <td class="val">8 7/32</td>
+                <td class="val">7 3,8:</td>
+            </tr>
+            <tr>
+                <td>&nbsp; &nbsp; &nbsp; » &nbsp; Pariz</td>
+                <td class="val">1160</td>
+                <td class="val">1173</td>
+            </tr>
+            <tr>
+                <td>&nbsp; &nbsp; &nbsp; » &nbsp; Hamburgo</td>
+                <td class="val">1432</td>
+                <td class="val">1455</td>
+            </tr>
+            <tr>
+                <td>&nbsp; &nbsp; &nbsp; » &nbsp; Italia</td>
+                <td class="val">—</td>
+                <td class="val">1108</td>
+            </tr>
+            <tr>
+                <td>&nbsp; &nbsp; &nbsp; » &nbsp; Portugal</td>
+                <td class="val">—</td>
+                <td class="val">480</td>
+            </tr>
+            <tr>
+                <td>&nbsp; &nbsp; &nbsp; » &nbsp; New-York</td>
+                <td class="val">—</td>
+                <td class="val">6110</td>
+            </tr>
+            <tr>
+                <td>Soberanos</td>
+                <td class="val">—</td>
+                <td class="val">—</td>
+            </tr>
+        </table>
+
+        <div style="font-size: 8.5px; font-weight:bold; text-align:center; margin-top:3px;">CURSO OFFICIAL DOS FUNDOS PUBLICOS E PARTICULARES</div>
+        <div class="section-title" style="font-size:10px; margin:0;">Bancos</div>
+        <table class="finance-table">
+            <tr>
+                <td>São Paulo</td>
+                <td class="dots"></td>
+                <td class="val">147$000</td>
+            </tr>
+            <tr>
+                <td>Mercantil de Santos</td>
+                <td class="dots"></td>
+                <td class="val">138$000</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- COLUNA 2 -->
+    <div class="column">
+        <div class="section-title" style="font-size:10px; margin:0;">Companhias</div>
+        <table class="finance-table">
+            <tr>
+                <td>Paulista de Vias Ferreas e Fluviaes</td>
+                <td class="dots"></td>
+                <td class="val">258$000</td>
+            </tr>
+            <tr>
+                <td colspan="2">Dita de idem, a 30 dias (á vontade do vendedor)</td>
+                <td class="val">258$000</td>
+            </tr>
+        </table>
+
+        <div class="section-title" style="font-size:10px; margin:0;">Lettras hypothecarias</div>
+        <table class="finance-table">
+            <tr>
+                <td colspan="2">Banco de Credito Real de São Paulo, 8.ª, 9.ª e 11.ª</td>
+                <td class="val">69$000</td>
+            </tr>
+        </table>
+        <p class="no-indent" style="font-size: 10px; margin-top: 2px;">S. Paulo, 30 de Março de 1900.—O syndico, <i>Henry White</i>.</p>
+
+        <div class="center-text bold" style="margin-top: 3px;">DIA 31</div>
+        <table class="finance-table">
+            <tr>
+                <td></td>
+                <th style="text-align:right; width:45px;">90 d/v</th>
+                <th style="text-align:right; width:45px;">A' vista</th>
+            </tr>
+            <tr>
+                <td>Sobre Londres</td>
+                <td class="val">8 1/8</td>
+                <td class="val">8 d.</td>
+            </tr>
+            <tr>
+                <td>&nbsp; &nbsp; &nbsp; » &nbsp; Pariz</td>
+                <td class="val">1171</td>
+                <td class="val">1192</td>
+            </tr>
+            <tr>
+                <td>&nbsp; &nbsp; &nbsp; » &nbsp; Hamburgo</td>
+                <td class="val">1449</td>
+                <td class="val">1472</td>
+            </tr>
+            <tr>
+                <td>&nbsp; &nbsp; &nbsp; » &nbsp; Italia</td>
+                <td class="val">. .</td>
+                <td class="val">1119</td>
+            </tr>
+            <tr>
+                <td>&nbsp; &nbsp; &nbsp; » &nbsp; Portugal</td>
+                <td class="val">. .</td>
+                <td class="val">485</td>
+            </tr>
+            <tr>
+                <td>&nbsp; &nbsp; &nbsp; » &nbsp; New-York</td>
+                <td class="val">. .</td>
+                <td class="val">6181</td>
+            </tr>
+            <tr>
+                <td>Soberanos</td>
+                <td class="val">. .</td>
+                <td class="val">. .</td>
+            </tr>
+        </table>
+
+        <div style="font-size: 8.5px; font-weight:bold; text-align:center; margin-top:3px;">CURSO OFFICIAL DOS FUNDOS PUBLICOS E PARTICULARES</div>
+        <div class="section-title" style="font-size:10px; margin:0;">Bancos</div>
+        <table class="finance-table">
+            <tr>
+                <td>São Paulo</td>
+                <td class="dots"></td>
+                <td class="val">147$000</td>
+            </tr>
+        </table>
+
+        <div class="section-title" style="font-size:10px; margin:0;">Companhias</div>
+        <table class="finance-table">
+            <tr>
+                <td>Paulista de Vias Ferreas e Fluviaes</td>
+                <td class="dots"></td>
+                <td class="val">260$000</td>
+            </tr>
+        </table>
+
+        <div class="section-title" style="font-size:10px; margin:0;">Lettras hypothecarias</div>
+        <table class="finance-table">
+            <tr>
+                <td colspan="2">Banco de Credito Real de S. Paulo, 4.ª e 9.ª séries</td>
+                <td class="val">68$000</td>
+            </tr>
+        </table>
+        <p class="no-indent" style="font-size: 10px; margin-top: 2px;">São Paulo, 31 de Março de 1900.—O syndico, <i>Henry White</i>.</p>
+
+        <p class="no-indent" style="margin-top: 4px;"><b>Hospedaria de Immigrantes.</b>—Boletim do movimento de immigrantes no dia 31 de Março de 1900 :</p>
+
+        <!-- Quadro da Hospedaria com tipos invertidos da época -->
+        <div class="immigrant-box">
+            <div class="rotated-table-container">
+                <table class="immigrant-table">
+                    <tr>
+                        <td style="width: 28%;"><span class="upside-down">TOTAL</span></td>
+                        <td style="width: 12%;"><span class="upside-down">000</span></td>
+                        <td style="width: 12%;"><span class="upside-down">000</span></td>
+                        <td style="width: 12%;"><span class="upside-down">000</span></td>
+                        <td rowspan="7" style="width: 36%; vertical-align: middle;">
+                            <div class="vertical-text">1 fazendeiro fez pedido de 5 familias</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="upside-down">de bagagens</span></td>
+                        <td>..</td>
+                        <td>..</td>
+                        <td>..</td>
+                    </tr>
+                    <tr>
+                        <td><span class="upside-down">Conductores</span></td>
+                        <td>..</td>
+                        <td>..</td>
+                        <td>..</td>
+                    </tr>
+                    <tr>
+                        <td><span class="upside-down">Com destino certo</span></td>
+                        <td>..</td>
+                        <td>..</td>
+                        <td>..</td>
+                    </tr>
+                    <tr>
+                        <td><span class="upside-down">dos agentes</span></td>
+                        <td>..</td>
+                        <td>..</td>
+                        <td>..</td>
+                    </tr>
+                    <tr>
+                        <td><span class="upside-down">Por intermedio</span></td>
+                        <td>..</td>
+                        <td>..</td>
+                        <td>..</td>
+                    </tr>
+                    <tr>
+                        <td><span class="upside-down">directo</span></td>
+                        <td>..</td>
+                        <td>..</td>
+                        <td>..</td>
+                    </tr>
+                    <tr>
+                        <td><span class="upside-down">Por contracto</span></td>
+                        <td>..</td>
+                        <td>..</td>
+                        <td>..</td>
+                        <td rowspan="2" style="font-size:7.5px; line-height:1.1; vertical-align:middle; padding: 2px;">
+                            Sahiram para a capital .<br>
+                            Sahiram por conta propria.<br>
+                            Falleceram . . . . .
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><div class="vertical-text" style="height:40px;">PASSAGENS</div></td>
+                        <td><div class="vertical-text">Pedidas....</div></td>
+                        <td><div class="vertical-text">Concedidas.</div></td>
+                        <td><div class="vertical-text">Embarcadas</div></td>
+                    </tr>
+                </table>
+            </div>
+            
+            <!-- Parte inferior normal/mista -->
+            <table class="immigrant-table" style="border-top:none;">
+                <tr>
+                    <td style="width: 28%;"><span class="upside-down">TOTAL</span></td>
+                    <td style="width: 12%;"><span class="upside-down">26</span></td>
+                    <td style="width: 12%;">:</td>
+                    <td style="width: 12%;">:</td>
+                    <td style="width: 36%;">43</td>
+                </tr>
+                <tr>
+                    <td><span class="upside-down">Menores de 2 annos</span></td>
+                    <td><span class="upside-down">2</span></td>
+                    <td>:</td>
+                    <td>:</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td><span class="upside-down">De 2 a 6 annos</span></td>
+                    <td><span class="upside-down">8</span></td>
+                    <td>:</td>
+                    <td>:</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td><span class="upside-down">De 7 a 12 annos</span></td>
+                    <td><span class="upside-down">8</span></td>
+                    <td>:</td>
+                    <td>:</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td><span class="upside-down">Maiores de 12 annos</span></td>
+                    <td><span class="upside-down">25</span></td>
+                    <td>:</td>
+                    <td>:</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td><div class="vertical-text">MOVIMENTO</div></td>
+                    <td><div class="vertical-text">Existiam .</div></td>
+                    <td><div class="vertical-text">Entraram.</div></td>
+                    <td><div class="vertical-text">Bagagem .</div></td>
+                    <td>
+                        <div style="display:flex; justify-content:space-around;">
+                            <div class="vertical-text">Sahiram</div>
+                            <div class="vertical-text">Existem</div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <p class="no-indent" style="font-size: 10px;">Hospedaria de Immigrantes em São Paulo, 31 de Março de 1900. — O ajudante do director, <i>João M. Pinheiro</i>.</p>
+
+        <p class="no-indent" style="margin-top: 4px;"><b>Obituario.</b>—Foram sepultados no Cemiterio Municipal do Araçá os seguintes cadaveres :</p>
+    </div>
+
+    <!-- COLUNA 3 -->
+    <div class="column">
+        <div class="entry-date">Dia 25</div>
+        <div class="entry">Domingos dos Santos, 50 annos, brazileiro; hemorragia cerebral.</div>
+        <div class="entry">Maria Luisa, 60 annos, italiana, casada; embolia cerebral.</div>
+        <div class="entry">Mathias Congo, 70 annos, solteiro, africano; arterio sclerose.</div>
+        <div class="entry">Benedicta Maria Conceição, 19 annos, brazileira, solteira; endocardite syphilitica.</div>
+        <div class="entry">Antonio Correia Costa, 32 annos, portuguez, casado; tuberculose pulmonar.</div>
+        <div class="entry">Fêto masculino, filho de Ernesto Pertresi; nasceu morto.</div>
+        <div class="entry">Fêto masculino, filho de Antorelli Giovanni; nasceu morto.</div>
+        <div class="entry">Fêto masculino, filho de Carmine Natulli; nasceu morto.</div>
+        <div class="entry">Maria, 13 mezes, brazileira, filha de João Ron; bronchite.</div>
+        <div class="entry">Jannuario Rocco, 55 annos, italiano, solteiro; insufficiencia mitral.</div>
+        <div class="entry">Benedicta Andrelina Jesus, 23 annos, brazileira, solteira; tuberculose.</div>
+
+        <div class="entry-date">Dia 26</div>
+        <div class="entry">Aldo Rescoli, 17 annos, italiano, solteiro; febre amarella.</div>
+        <div class="entry">Jacintho Pinheiro, 9 annos, portuguez; febre amarella.</div>
+        <div class="entry">Carlos, 8 mezes, brazileiro, filho de José Pereira Simões; gastro enterite.</div>
+        <div class="entry">Fêto masculino, filho de Vicenzo Boceia; nasceu morto.</div>
+        <div class="entry">Francisco, 17 mezes, brazileiro, filho de Miguel Depetrangele; eclampsia.</div>
+        <div class="entry">João das Dores Pestana, 25 annos, portuguez, solteiro; febre amarella.</div>
+        <div class="entry">Julio Cesar Martins Pestana, 52 annos, portuguez, casado; febre amarella.</div>
+        <div class="entry">Angelina, 3 annos, brazileira, filha de Michele Guira; bronchite capillar.</div>
+        <div class="entry">Felicio Ferreira dos Santos, 31 annos, brazileiro, casado; peritonite traumatica.</div>
+        <div class="entry">João Evangelista, 33 annos, brazileiro, solteiro; tuberculose.</div>
+        <div class="entry">Francisco, 4 annos, brazileiro, filho de d. Eugenia Maria Conceição; infecção malarica.</div>
+        <div class="entry">Mafalda Ferraz, 50 annos, brazileira, solteira; queimadura.</div>
+        <div class="entry">Pedro Caifa, 22 annos, italiano, solteiro; insufficiencia mitral.</div>
+        <div class="entry">Izabel Slatine, 60 annos, italiana, viuva; congestão cerebral.</div>
+
+        <div class="entry-date">Dia 27</div>
+        <div class="entry">Angelo Baretta, 72 annos, italiano, viuvo; sclerose cerebral.</div>
+        <div class="entry">Angelo Tedesco, 30 annos, italiano, casado; uremia.</div>
+        <div class="entry">Joaquim, 16 dias, brazileiro, filho de João Antonio de Oliveira; inviabilidade.</div>
+        <div class="entry">José Rodrigues, 44 annos, portuguez, casado;</div>
+        <div class="entry">Narcisa Amelia Araujo, 22 annos, brazileira, solteira;</div>
+        <div class="entry">Malvina Maria Alexandrina, 35 annos, solteira, brazileira; cachexia epileptica.</div>
+        <div class="entry">Paschoal Annunciato, 18 annos, italiano, solteiro; tuberculose.</div>
+        <div class="entry">Leonardo Lole, 25 annos, italiano, casado; febre typhoide.</div>
+        <div class="entry">Antonio Pereira, 56 annos, portuguez, casado; peritonite em consequencia de fractura.</div>
+    </div>
+</div>
+
+</body>
+</html>
+```

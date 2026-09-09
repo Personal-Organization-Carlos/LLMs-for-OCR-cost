@@ -1,0 +1,334 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Diario Official do Estado de São Paulo - 1 de Abril de 1900</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=IM+Fell+English:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #e8e3d5;
+        color: #1a1917;
+        font-family: 'Libre Baskerville', 'Times New Roman', serif;
+        font-size: 11.5px;
+        line-height: 1.25;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .newspaper-page {
+        background-color: #f7f4eb;
+        width: 1000px;
+        padding: 30px 40px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+        border: 1px solid #d2caa7;
+    }
+
+    /* Top Heading Section */
+    .header-banner {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .republic-title {
+        font-family: 'Cinzel', 'Times New Roman', serif;
+        font-size: 21px;
+        font-weight: 900;
+        letter-spacing: 7px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+
+    .main-title {
+        font-family: 'Cinzel', 'Playfair Display', serif;
+        font-size: 68px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        line-height: 0.95;
+        margin: 2px 0 6px 0;
+        text-transform: uppercase;
+    }
+
+    .sub-title {
+        font-family: 'Cinzel', 'Playfair Display', serif;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        margin: 4px 0 12px 0;
+    }
+
+    /* Meta bar with dates and issue number */
+    .meta-bar {
+        border-top: 3px double #1a1917;
+        border-bottom: 3px double #1a1917;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+    }
+
+    .meta-bar span {
+        letter-spacing: 1px;
+    }
+
+    /* Three column layout */
+    .columns-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 16px;
+        position: relative;
+    }
+
+    .column {
+        position: relative;
+        text-align: justify;
+        text-justify: inter-word;
+        hyphens: auto;
+    }
+
+    .column:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: -8px;
+        width: 1px;
+        height: 100%;
+        background-color: #222;
+    }
+
+    /* Typography inside columns */
+    .section-title-box {
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .section-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 18px;
+        font-weight: 900;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    .section-subtitle {
+        font-family: 'Playfair Display', serif;
+        font-size: 15px;
+        font-style: italic;
+        text-align: center;
+        margin: 6px 0 4px 0;
+        font-weight: bold;
+    }
+
+    .dept-title {
+        font-family: 'Cinzel', 'Playfair Display', serif;
+        font-size: 16px;
+        font-weight: 900;
+        letter-spacing: 1.5px;
+        text-align: center;
+        margin: 15px 0 5px 0;
+        text-transform: uppercase;
+    }
+
+    .expediente-header {
+        font-size: 10px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin: 6px 0 2px 0;
+    }
+
+    .sub-sub-header {
+        font-size: 10.5px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 3px 0;
+    }
+
+    .italic-center-title {
+        font-style: italic;
+        font-size: 11px;
+        text-align: center;
+        margin: 4px 0 3px 0;
+    }
+
+    p {
+        margin: 0 0 7px 0;
+        text-indent: 12px;
+        line-height: 1.25;
+    }
+
+    p.no-indent {
+        text-indent: 0;
+    }
+
+    .day-header {
+        font-style: italic;
+        text-align: center;
+        margin: 6px 0 2px 0;
+        font-size: 11px;
+    }
+</style>
+</head>
+<body>
+
+<div class="newspaper-page">
+    <!-- Header -->
+    <header class="header-banner">
+        <div class="republic-title">Estados Unidos do Brazil</div>
+        <div class="main-title">Diario Official</div>
+        <div class="sub-title">do Estado de São Paulo</div>
+    </header>
+
+    <!-- Meta Info Bar -->
+    <div class="meta-bar">
+        <span>Anno 9º—12.º da Republica—N. 75</span>
+        <span>São Paulo</span>
+        <span>Domingo, 1 de Abril de 1900</span>
+    </div>
+
+    <!-- 3-Column Content -->
+    <main class="columns-container">
+        
+        <!-- Column 1 -->
+        <div class="column">
+            <div class="section-title-box">
+                <div class="section-title">Actos do Poder Executivo</div>
+            </div>
+
+            <div class="section-subtitle">Interior</div>
+
+            <p>Por decreto de 27 do corrente foi exonerado o professor preliminar, cidadão José de Castro, com exercicio na Eschola Complementar de Itapetininga, para o cargo de professor do grupo escholar de São Manoel do Paraiso;</p>
+
+            <p>Por decreto da mesma data, foi nomeada a professora preliminar, d. Anna Candida Soares, para o cargo de professora adjuncta do grupo escholar da Faxina;</p>
+
+            <p>Por decreto da mesma data, foi nomeada a professora de egual categoria, d. Emygdia Soares, para, interinamente, exercer o cargo de professora do mesmo grupo.</p>
+
+            <p>Por decreto da mesma data, foi exonerado, a pedido, o bacharel José Pinto de Moura, do cargo de lente da 9.ª cadeira do Gymnasio de Campinas;</p>
+
+            <p>Por decreto da mesma data, foram creados quatro logares de adjunctos na secção feminina do 2.º grupo escholar de Campinas;</p>
+
+            <p>Por decreto da mesma data, foram tambem creados dois logares identicos na secção feminina do grupo da Faxina.</p>
+
+            <div class="section-subtitle">Agricultura</div>
+
+            <p>Por decreto de 27 do mez findo, foi removido a pedido, o cidadão Carlos Martins, 2.º escripturario da Hospedaria de Immigrantes, para o logar de conferente da Repartição de Aguas e Exgottos; sendo nomeado para aquella vaga o cidadão Julio Bicudo.</p>
+
+            <div class="dept-title">Secretarias de Estado</div>
+
+            <div class="section-subtitle" style="font-size: 14px; margin-top: 2px;">Interior</div>
+
+            <div class="expediente-header">Expediente de 30 de Março de 1900</div>
+            <div class="sub-sub-header">1.ª Sub-Directoria</div>
+            <div class="sub-sub-header" style="font-size: 9.5px;">1.ª Secção</div>
+
+            <p>Communicou-se á Secretaria dos Negocios da Fazenda, para os devidos fins, que o bacharel Jacintho do Nascimento Moura, auxiliar da redacção do Diario Official, reassumiu o exercicio do cargo no dia 24 do corrente, visto ter terminado a licença em cujo goso se achava.</p>
+
+            <p>Transmittiram-se á Secretaria dos Negocios da Agricultura, Commercio e Obras Publicas dois officios, sendo um da camara municipal de Guarehy e outro do intendente municipal da Franca, visto tratarem de assumptos referentes áquella secretaria.</p>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="column">
+            <div class="sub-sub-header" style="margin-top: 0;">2.ª Secção</div>
+            <div class="italic-center-title">Officios despachados</div>
+
+            <p class="no-indent">Da Secretaria da Agricultura, communicando que opportunamente será executado o serviço de exgottos nos bairros da Lapa, Agua Branca e outros da capital.—A' Directoria do Serviço Sanitario.</p>
+
+            <div class="expediente-header" style="margin-top: 8px;">Expediente de 28 de Março de 1900</div>
+            <div class="sub-sub-header" style="font-size: 9.5px;">3.ª Secção</div>
+
+            <p class="no-indent">Foram solicitados da Secretaria da Fazenda os seguintes pagamentos:</p>
+
+            <p>De 35$000, pela collectoria de Mogy das Cruzes, ao director do grupo escholar daquella cidade, pelos fornecimentos feitos ao referido estabelecimento;</p>
+
+            <p>De 2:810$100, pela collectoria da Faxina, ao director do grupo escholar daquella cidade, Emilio Mario de Arantes, proveniente de fornecimentos feitos ao dito estabelecimento;</p>
+
+            <p>De 295$000, pela collectoria de Areias, ao director do grupo escholar daquella cidade, José Mario da Silveira, proveniente de reparos feitos no predio onde funcciona o referido estabelecimento;</p>
+
+            <p>De 100$000, pela collectoria de Espirito Santo do Pinhal, ao director, em commissão, do grupo escholar daquella cidade, Domingos de Paula da Silva, proveniente de contas de serviços prestados ao referido estabelecimento.</p>
+
+            <p>Auctorizou-se o director do Serviço Sanitario a despender a quantia de 725$000, para acquisição de objectos necessarios áquella repartição.</p>
+
+            <div class="sub-sub-header" style="margin-top: 6px;">1.ª Sub-Directoria</div>
+            <div class="sub-sub-header" style="font-size: 9.5px;">1.ª Secção</div>
+
+            <p class="no-indent">Communicou-se ao sr. dr. secretario da Fazenda:</p>
+
+            <p>Que, por motivo de molestia, interrompeu o exercicio de seu cargo, desde o dia 14 do corrente, o professor do grupo escholar do Braz, cidadão Dyonisio Braulio Rodrigues;</p>
+
+            <p>Que foram abonadas seis faltas dadas pelo professor de escripturação mercantil da Eschola Normal, cidadão Jeronymo Azevedo, no mez ultimo.</p>
+
+            <p>Recommendou-se ao director do grupo escholar «Dr. Flaminio Lessa», de Guaratinguetá, que informasse a este secretariado de que serviço se acha encarregado o professor Miguel Virginio dos Santos.</p>
+
+            <p>Declarou-se ao director do grupo escholar «Gabriel Prestes», de Lorena, em resposta ao seu officio n. 21, de 6 do corrente, não haver necessidade de augmento de uma sala naquelle estabelecimento, como informou o inspector escholar que alli esteve em commissão.</p>
+
+            <div class="italic-center-title" style="margin-top: 6px;">Requerimento despachado</div>
+
+            <p class="no-indent">De Maria da Piedade Canto, porteira do grupo escholar de Lorena, pedindo equiparação de seus vencimentos aos do porteiro do mesmo grupo.—Sejam equiparados.</p>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="column">
+            <div class="sub-sub-header" style="margin-top: 0; font-size: 9.5px;">3.ª Secção</div>
+            <div class="day-header">Dia 27</div>
+
+            <p class="no-indent">Officiou-se:</p>
+
+            <p>A' Fazenda, communicando que a professora nomeada para reger a eschola mixta da villa Cerqueira Cesar, desta capital, d. Maria Ellia Mac Intyre, assumiu o exercicio no dia 20 do corrente;</p>
+
+            <p>A' mesma, communicando que a 10 do corrente foi nomeado inspector municipal de Santa Barbara do Rio Pardo, assumindo o exercicio a 17 do mesmo, o major Casemiro Nunes de Carvalho;</p>
+
+            <p>A' mesma, communicando que entrou em exercicio da eschola da villa do Rio das Pedras, no dia 20 do corrente, o professor João Braulio Cesar.</p>
+
+            <div class="day-header">Dia 28</div>
+
+            <p class="no-indent">Officiou-se:</p>
+
+            <p>A' Fazenda, trasmittindo, por cópia, o decreto que aposentou a professora da eschola do 22.º districto desta capital, d. Galdina America de Almeida, bem como todos os papeis referentes ao assumpto;</p>
+
+            <p>A' mesma, transmittindo, por cópia, o decreto que aposentou o professor da eschola do bairro de Santa Cruz, municipio de Cruzeiro e demais papeis referentes ao assumpto;</p>
+
+            <p>A' mesma, transmittindo, por cópia, o decreto que aposentou o cidadão Augusto Pinto da Silva Saes, professor da eschola da villa de S. Pedro, e demais papeis referentes ao assumpto;</p>
+
+            <p>A' mesma, solicitando pagamento da gratificação de que trata o artigo 125 do regulamento de 27 de Novembro de 1893, ao professor adjuncto da 1.ª eschola de Santos, cidadão Olyntho Paiva.</p>
+
+            <div class="day-header">Dia 29</div>
+
+            <p class="no-indent">Officiou-se:</p>
+
+            <p>A' Fazenda, communicando que a professora da eschola do 5.º districto, desta capital, d. Marianna da Gloria Rodrigues Bahia, entrou a 21 do corrente no goso da licença que lhe fôra concedida;</p>
+
+            <p>A' mesma, communicando que o professor Braziliano de Azevedo, removido da eschola do bairro dos Mauricios, em São Bento do Sapucahy, para a da freguezia de Santo Antonio do Pinhal, do mesmo municipio, assumiu o exercicio do cargo no dia 17 do corrente.</p>
+
+            <div class="day-header">Dia 30</div>
+
+            <p class="no-indent">Officiou-se:</p>
+
+            <p>A' camara municipal de Santos, mandando passar os attestados de exercicio ao professor da 1.ª eschola daquella cidade, cidadão Eugenio Porchat de Assis, visto não ter sido abandonada a sua eschola, conforme se verificou dos papeis relativos ao caso.</p>
+
+            <div class="sub-sub-header" style="font-size: 9.5px; margin-top: 6px;">3.ª Secção</div>
+
+            <p class="no-indent">Officiou-se:</p>
+
+            <p class="no-indent">Ao agente da E. de Ferro Central, pedindo transporte para volumes destinados aos grupos escholares de Areias e Pindamonhangaba;</p>
+        </div>
+
+    </main>
+</div>
+
+</body>
+</html>
+```

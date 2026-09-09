@@ -19,13 +19,25 @@
     "api_provider": "gemini",
     "provider_upstream": null,
     "generation_id": null,
-    "attempts": 1,
-    "timestamp_utc": "2026-09-08T20:09:55Z"
+    "attempts": 2,
+    "timestamp_utc": "2026-09-09T13:52:27Z"
   },
   "respostas_brutas": [
     {
       "etapa": "generateContent",
       "tentativa": 1,
+      "http_status": 503,
+      "corpo": {
+        "error": {
+          "code": 503,
+          "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+          "status": "UNAVAILABLE"
+        }
+      }
+    },
+    {
+      "etapa": "generateContent",
+      "tentativa": 2,
       "http_status": 503,
       "corpo": {
         "error": {

@@ -1,3 +1,3 @@
-﻿empresa,tipo,model_id,model_label,prompt_id,n_chamadas,n_sucesso,taxa_sucesso,n_truncadas,taxa_truncamento,n_validas,html_sem_texto_extra_taxa,wer_media,cer_media,num_f1_media,cost_usd_media,completion_tokens_media,prompt_tokens_media,latency_s_media
-Anthropic,fechado,anthropic/claude-sonnet-5,Claude Sonnet 5,p1,16,16,1.0,0,0.0,16,1,0.039716814806360266,0.015637530419115753,0.9378573922274175,0.06068575,5145.1875,4616.9375,49.256176074988616
-OpenAI,fechado,openai/gpt-5.6-sol,GPT-5.6 Sol,p1,16,16,1.0,0,0.0,16,1,0.062207142946212116,0.029325299077357442,0.8705798826544275,0.06224303125,5084.8125,4558.5625,75.4855994312602
+﻿empresa,tipo,model_id,model_label,prompt_id,n_chamadas,n_sucesso,taxa_sucesso,n_truncadas,taxa_truncamento,n_validas,n_paginas,html_sem_texto_extra_taxa,wer_media,cer_media,num_f1_media,cost_usd_media,completion_tokens_media,prompt_tokens_media,latency_s_media
+Anthropic,fechado,anthropic/claude-sonnet-5,Claude Sonnet 5,p1,16,16,1.0,0,0.0,16,16,1,0.039548351194500425,0.015603232366923306,0.9383070325151873,0.06068575,5145.1875,4616.9375,49.256176074988616
+OpenAI,fechado,openai/gpt-5.6-sol,GPT-5.6 Sol,p1,16,16,1.0,0,0.0,16,16,1,0.062333789349454265,0.029336273740452955,0.8701302423666578,0.06224303125,5084.8125,4558.5625,75.4855994312602

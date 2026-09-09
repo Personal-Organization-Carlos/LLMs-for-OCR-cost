@@ -1,0 +1,264 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Diario Official do Estado de São Paulo - 1 de Abril de 1910</title>
+<style>
+    @page {
+        size: A4;
+        margin: 15mm;
+    }
+    body {
+        background-color: #f4efe4;
+        color: #1a1a1a;
+        font-family: "Times New Roman", Times, "Liberation Serif", serif;
+        font-size: 11.5px;
+        line-height: 1.25;
+        margin: 0 auto;
+        padding: 20px;
+        max-width: 900px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    }
+    
+    /* Header Styles */
+    .header {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .header-country {
+        font-size: 16px;
+        font-weight: 900;
+        letter-spacing: 4px;
+        margin-bottom: 2px;
+        text-transform: uppercase;
+    }
+    .main-title {
+        font-family: "Impact", "Arial Black", "Times New Roman", serif;
+        font-size: 58px;
+        font-weight: 900;
+        letter-spacing: 6px;
+        line-height: 1;
+        margin: 2px 0;
+        text-transform: uppercase;
+        transform: scaleY(1.1);
+    }
+    .subtitle {
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        margin-top: 4px;
+        margin-bottom: 6px;
+        text-transform: uppercase;
+    }
+    
+    /* Rules */
+    .rule-double {
+        border-top: 2px solid #000;
+        border-bottom: 1px solid #000;
+        height: 2px;
+        margin: 4px 0;
+    }
+    .rule-single {
+        border-top: 1px solid #000;
+        margin: 4px 0 10px 0;
+    }
+    
+    /* Metadata Bar */
+    .meta-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        padding: 1px 0;
+    }
+    .meta-bar .box-num {
+        border: 1px solid #000;
+        border-radius: 50%;
+        padding: 1px 4px;
+        display: inline-block;
+    }
+
+    /* Content Layout */
+    .content-columns {
+        display: flex;
+        gap: 16px;
+    }
+    .column {
+        flex: 1;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .column-left {
+        border-right: 1px solid #000;
+        padding-right: 14px;
+    }
+    
+    /* Section Headings */
+    .section-title {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin: 6px 0 12px 0;
+        font-family: "Georgia", serif;
+    }
+    .decreto-title {
+        text-align: center;
+        font-weight: 900;
+        font-size: 13px;
+        letter-spacing: 1.5px;
+        margin-top: 10px;
+        margin-bottom: 2px;
+    }
+    .decreto-date {
+        text-align: center;
+        font-size: 9.5px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+    }
+    .ementa {
+        font-style: italic;
+        margin-bottom: 10px;
+        text-indent: 16px;
+        font-size: 11px;
+    }
+    
+    /* Paragraphs & Text */
+    p {
+        margin: 0 0 5px 0;
+        text-indent: 18px;
+    }
+    p.no-indent {
+        text-indent: 0;
+    }
+    .signature-block {
+        margin-top: 8px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .signature-name {
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        font-size: 10.5px;
+        display: block;
+    }
+    
+    /* Right Column Specifics */
+    .clausulas-header {
+        font-size: 12.5px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .num-romano {
+        text-align: center;
+        font-weight: bold;
+        font-size: 11.5px;
+        margin: 10px 0 4px 0;
+    }
+    
+    .divider-short {
+        width: 60px;
+        border-top: 1px solid #000;
+        margin: 14px auto;
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <div class="header-country">Estados Unidos do Brazil</div>
+    <div class="main-title">DIARIO OFFICIAL</div>
+    <div class="subtitle">DO ESTADO DE SÃO PAULO</div>
+</div>
+
+<div class="rule-double"></div>
+
+<div class="meta-bar">
+    <div>ANNO 19.º---22.º DA REPUBLICA---N. <span class="box-num">68</span></div>
+    <div>SÃO PAULO</div>
+    <div>SEXTA-FEIRA 1 DE ABRIL DE 1910</div>
+</div>
+
+<div class="rule-single"></div>
+
+<div class="content-columns">
+    <!-- COLUNA ESQUERDA -->
+    <div class="column column-left">
+        <div class="section-title">Actos do Poder Executivo</div>
+        
+        <div class="decreto-title">DECRETO N. 1848</div>
+        <div class="decreto-date">DE 28 DE MARÇO DE 1910</div>
+        
+        <div class="ementa">
+            Auctoriza a Companhia Estrada de Ferro S. Paulo a Goyaz a abrir ao trafego publico a linha de Bebedouro a Monte Azul
+        </div>
+        
+        <p>O Vice-presidente do Estado de S. Paulo, em exercicio na fórma do § 1 artigo 27, da Constituição,</p>
+        <p>Attendendo ao que solicitou a Companhia Estrada de Ferro S. Paulo a Goyaz, e sob proposta do secretario de Estado dos Negocios da Agricultura, Commercio e Obras Publicas,</p>
+        <p>Decreta:</p>
+        <p><strong>Artigo 1.º</strong> Fica a Companhia Estrada de Ferro S. Paulo a Goyaz, auctorizada a abrir ao trafego publico a via ferrea de Bebedouro a Monte Azul, com 31 kilometros de extensão e á qual se referiu o decreto n. 1732, de 4 de Maio de 1909.</p>
+        <p><strong>Artigo 2.º</strong> A presente licença é concedida mediante a condição de, dentro do prazo de 30 dias, contados desta data, serem ultimados os serviços de assentamento da linha telegraphica de retoque do leito e de construcção de cercas lateraes.</p>
+        <p>Palacio do Governo do Estado de S. Paulo, 29 de Março de 1910.</p>
+        
+        <div class="signature-block">
+            <span class="signature-name">FERNANDO PRESTES DE ALBUQUERQUE.</span>
+            <span class="signature-name">Antonio de Padua Salles</span>
+        </div>
+        
+        <div class="divider-short"></div>
+        
+        <div class="decreto-title">DECRETO N. 1849</div>
+        <div class="decreto-date">DE 29 DE MARÇO DE 1910</div>
+        
+        <div class="ementa">
+            Concede á Companhia Mogyana de Estradas de Ferro e Navegação licença para construcção, uso e goso de uma estrada de ferro que, iniciando-se no bairro de Jatahy, termine em Ribeirão Preto.
+        </div>
+        
+        <p>O Vice-presidente do Estado de S. Paulo, em exercicio na fórma do § 1.º, art. 27 da Constituição;</p>
+        <p>Usando da attribuição que lhe confere o artigo 2.º da lei n. 30, de 13 de Junho de 1892, e attendendo ao requerido pela Companhia Mogyana de Estradas de Ferro e Navegação, nos termos dos paragraphos 2.º e 3.º do artigo e lei citados,</p>
+        <p>Decreta:</p>
+        <p><strong>Artigo unico.</strong> Fica concedida á Companhia Mogyana de Estradas de Ferro e Navegação licença para construcção, uso e goso de uma via ferrea que — partindo do ponto terminal da que lhe foi concedida pelo decreto n. 1773, de 1.º de Outubro de 1909 — vá terminar em Ribeirão Preto, de conformidade com as clausulas que com este baixam, assignadas pelo sr. dr. secretario de Estado dos Negocios da Agricultura, Commercio e Obras Publicas.</p>
+        <p>Palacio do Governo do Estado de S. Paulo, 29 de Março de 1910.</p>
+        
+        <div class="signature-block">
+            <span class="signature-name">FERNANDO PRESTES DE ALBUQUERQUE</span>
+            <span class="signature-name">Antonio de Padua Salles.</span>
+        </div>
+    </div>
+    
+    <!-- COLUNA DIREITA -->
+    <div class="column">
+        <div class="clausulas-header">
+            Clausulas a que refere o Decreto n. 1849, de 29 de Março de 1910
+        </div>
+        
+        <div class="num-romano">I</div>
+        <p>O Governo do Estado de S. Paulo concede á Companhia Mogyana de Estradas de Ferro e Navegação licença para construcção, uso e goso de uma estrada de ferro que, partindo do ponto terminal da que lhe foi concedida pelo Decreto n. 1773, de 1.º de Outubro de 1909 — vá terminar em Ribeirão Preto.</p>
+        
+        <div class="num-romano">II</div>
+        <p>Esta estrada de ferro gosará de uma zona garantida, de cem metros de cada lado, reduzida a 50 metros nas gargantas e declives de serras, limitadas por duas linhas parallelas ao eixo da via permanente, dentro da qual nenhuma outra estrada de ferro poderá receber generos ou passageiros, salvo: 1.º, o caso de outra ou mais estradas terem o mesmo ponto inicial ou terminal; 2.º, o caso em que o ponto inicial ou terminal de outra estrada esteja dentro da zona desta; 3.º, o caso de entroncamento referido nesta clausula.</p>
+        <p>Comtanto que dentro da zona garantida desta estrada de ferro não receba generos nem passageiros, poderá qualquer outra atravessar a mesma zona, cruzando a linha desta, sujeita, porém, aos onus provenientes do cruzamento.</p>
+        <p>Qualquer outra estrada de ferro poderá ter simultaneamente os mesmos pontos inicial e terminal desta, respeitada a zona garantida por esta clausula, bem como poderá entroncar na linha desta, resolvendo o Governo, definitivamente, em caso de desaccôrdo, para regular as relações provenientes de entroncamento.</p>
+        <p>Considerar-se-á entroncamento, não só o caso de ligação por meio de via permanente, como por meio de estação commum.</p>
+        
+        <div class="num-romano">III</div>
+        <p>Gosará mais a estrada de ferro do direito de desapropriação, nos termos da legislação do Estado, para os terrenos necessarios á construcção da linha, estações, armazens e mais dependencias.</p>
+        <p>Quando fôr necessario iniciar uma acção de desappropriação, deverá ser apresentada ao Governo a respectiva planta, sómente da parte a desapropriar.</p>
+        <p>O Governo, dentro do prazo de trinta dias, da data da apresentação da planta, deverá conceder ou negar a licença, dando os motivos da recusa, no caso de negativa, e indicando as modificações de traçado, de modo a permittir a continuação da obra.</p>
+        <p>Si, dentro do prazo de trinta dias, o Governo não se manifestar, fica entendido que está concedida a mesma licença.</p>
+        
+        <div class="num-romano">IV</div>
+        <p>O Governo prestará a esta estrada de ferro toda a protecção compativel com as leis, afim de que possa ella realizar a arrecadação das taxas estabelecidas, para que sejam respeitadas as disposições dos seus regulamentos e mantida a sua policia, devendo todo o empregado na arrecadação das taxas e na policia da linha ser cidadão da Republica.</p>
+        
+        <div class="num-romano">V</div>
+        <p>Antes de iniciarem-se os trabalhos da construcção desta estrada de ferro, deverão ser submettidos á approvação do Governo os projectos de todo esses trabalhos, que comprehenderão :</p>
+    </div>
+</div>
+
+</body>
+</html>
+```

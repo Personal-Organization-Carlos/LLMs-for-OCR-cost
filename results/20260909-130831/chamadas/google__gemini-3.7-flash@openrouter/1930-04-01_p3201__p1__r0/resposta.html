@@ -1,0 +1,335 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Diario Official - 1 Abril 1930</title>
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 11.5px;
+        line-height: 1.15;
+        color: #111;
+        background-color: #fbfbf9;
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 900px;
+    }
+
+    /* Header */
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        font-weight: bold;
+        padding-bottom: 4px;
+        border-bottom: 2px solid #000;
+        margin-bottom: 12px;
+    }
+    .header-title {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    /* Titles */
+    h1, h2, h3 {
+        margin: 4px 0;
+        text-align: center;
+        font-weight: bold;
+    }
+    h1 { font-size: 13px; letter-spacing: 1px; }
+    h2 { font-size: 12px; letter-spacing: 0.5px; }
+    h3 { font-size: 11px; }
+
+    .intro-text {
+        text-align: justify;
+        text-indent: 20px;
+        margin: 4px 0 8px 0;
+        font-size: 11px;
+    }
+
+    .section-subtitle {
+        font-style: italic;
+        text-align: center;
+        margin: 4px 0;
+        font-size: 10.5px;
+    }
+
+    /* Column Layouts */
+    .row-2col {
+        display: flex;
+        gap: 20px;
+    }
+    .col-2 {
+        flex: 1;
+    }
+
+    .row-3col {
+        display: flex;
+        gap: 15px;
+        margin-top: 6px;
+    }
+    .col-3 {
+        flex: 1;
+    }
+
+    /* Data Listing Table / Lines */
+    .entry-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 11px;
+    }
+    .entry-table td {
+        padding: 0.5px 0;
+        vertical-align: bottom;
+    }
+    .entry-table td.name {
+        text-align: left;
+        padding-right: 4px;
+    }
+    .entry-table td.value {
+        text-align: right;
+        white-space: nowrap;
+        font-variant-numeric: tabular-nums;
+    }
+
+    .border-top {
+        border-top: 1px solid #000;
+    }
+    .border-bottom {
+        border-bottom: 1px solid #000;
+    }
+    
+    .total-row td {
+        padding-top: 2px;
+        font-weight: normal;
+    }
+
+    .footer-note {
+        text-align: right;
+        margin-top: 8px;
+        font-size: 11px;
+    }
+    
+    .signatures {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 6px;
+        font-size: 11px;
+    }
+
+    .divider {
+        border-top: 1px solid #000;
+        margin: 14px 0 10px 0;
+    }
+</style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <div>Terça-feira, 1</div>
+        <div class="header-title">DIARIO OFFICIAL</div>
+        <div>Abril 1930 &nbsp; 3201</div>
+    </div>
+
+    <!-- Top Section: Fallencia de Jorge Mussi -->
+    <div>
+        <h1>Fallencia de Jorge Mussi</h1>
+        <p class="intro-text">
+            Quadro geral dos credores admittidos á fallencia, de accordo com o artigo 85 do dec. 5746, de 9 de Dezembro de 1929.
+        </p>
+
+        <div class="row-2col">
+            <!-- Left Column -->
+            <div class="col-2">
+                <div class="section-subtitle">Credores com privilegio sobre todo o activo</div>
+                <table class="entry-table">
+                    <tr><td class="name">Camara Municipal de Jahú</td><td class="value">1:770$300</td><td></td></tr>
+                    <tr><td class="name">Tufick Nicolau</td><td class="value">2:000$000</td><td></td></tr>
+                    <tr><td class="name">Nassri Abbud</td><td class="value">3:000$000</td><td></td></tr>
+                    <tr><td class="name">Dr. Fausto Gwyer de Azevedo</td><td class="value">1:359$065</td><td></td></tr>
+                    <tr><td class="name">Paulo Vissotto</td><td class="value">1:359$065</td><td></td></tr>
+                    <tr><td class="name">Heitor Gouvêa</td><td class="value">1:359$065</td><td class="value" style="padding-left:10px;">10:847$495</td></tr>
+                </table>
+
+                <div class="section-subtitle" style="margin-top: 8px;">Credor com privilegio sobre immovel</div>
+                <table class="entry-table">
+                    <tr><td class="name">Bonfiglio Montovani</td><td class="value">50:000$000</td></tr>
+                </table>
+
+                <div class="section-subtitle" style="margin-top: 8px;">Credores chirographarios</div>
+                <table class="entry-table">
+                    <tr><td class="name">Guilherme Herzog</td><td class="value">660$000</td></tr>
+                    <tr><td class="name">Banco Commercial do Estado de S. Paulo</td><td class="value">30:500$000</td></tr>
+                    <tr><td class="name">José Antonio</td><td class="value">7:509$000</td></tr>
+                    <tr><td class="name">Bento de Souza &amp; Comp.</td><td class="value">214$500</td></tr>
+                    <tr><td class="name">Miguel Zattar &amp; Filhos</td><td class="value">3:335$500</td></tr>
+                    <tr><td class="name">João A. Machado &amp; Comp.</td><td class="value">1:385$000</td></tr>
+                    <tr><td class="name">Nicolau Nassif</td><td class="value">52:224$940</td></tr>
+                    <tr><td class="name">Sarkis João &amp; Filho</td><td class="value">2:171$000</td></tr>
+                    <tr><td class="name">A. Sampaio &amp; Comp.</td><td class="value">2:299$800</td></tr>
+                    <tr><td class="name">Janowitzer, Wahle &amp; Comp.</td><td class="value">878$900</td></tr>
+                    <tr><td class="name">Januario Canale</td><td class="value">582$500</td></tr>
+                    <tr><td class="name">Herm Stoltz &amp; Comp.</td><td class="value">3:568$200</td></tr>
+                    <tr><td class="name">J. Baptista Aloe</td><td class="value">1:112$000</td></tr>
+                    <tr><td class="name">Nassri Abbud</td><td class="value">8:000$000</td></tr>
+                    <tr><td class="name">M. Yazigi &amp; Irmão</td><td class="value">3:730$000</td></tr>
+                    <tr><td class="name">José Milani &amp; Comp.</td><td class="value">224$000</td></tr>
+                    <tr><td class="name">Ind. Reunidas F. Matarazzo</td><td class="value">5:163$650</td></tr>
+                    <tr><td class="name">Motta Filho &amp; Comp.</td><td class="value">192$000</td></tr>
+                    <tr><td class="name">The Rio de Janeiro F. Mill &amp; Gran. Ltda.</td><td class="value">2:788$000</td></tr>
+                    <tr><td class="name">Pignatari &amp; Matarazz</td><td class="value">1:412$700</td></tr>
+                    <tr><td class="name">Theodor Block &amp; Comp.</td><td class="value">1:060$500</td></tr>
+                    <tr><td class="name">Barros Loureiro &amp; Monteiro</td><td class="value">418$000</td></tr>
+                </table>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-2">
+                <table class="entry-table" style="margin-top: 4px;">
+                    <tr><td class="name">Assab Abdalla &amp; Nagib Salem</td><td class="value">6:475$000</td></tr>
+                    <tr><td class="name">Dr. Antonio Neves de Almeida Prado</td><td class="value">12:300$000</td></tr>
+                    <tr><td class="name">Armando Terso</td><td class="value">2:000$000</td></tr>
+                    <tr><td class="name">Barros &amp; Comp.</td><td class="value">6:513$100</td></tr>
+                    <tr><td class="name">Lazaro Alves dos Santos</td><td class="value">700$000</td></tr>
+                    <tr><td class="name">Nassim Zattar</td><td class="value">45:000$000</td></tr>
+                    <tr><td class="name">José Roméro</td><td class="value">1:265$000</td></tr>
+                    <tr><td class="name">Antonio Bianco</td><td class="value">2:100$000</td></tr>
+                    <tr><td class="name">José Fernandes</td><td class="value">6:850$000</td></tr>
+                    <tr><td class="name">Nasser Antonio</td><td class="value">40:100$000</td></tr>
+                    <tr><td class="name">Aristides Cury</td><td class="value">39:500$000</td></tr>
+                    <tr><td class="name">Aristides R. Nunes</td><td class="value">40:000$000</td></tr>
+                    <tr><td class="name">Sad Antonio</td><td class="value">39:500$000</td></tr>
+                    <tr><td class="name">Semi Zattar &amp; Irmãos</td><td class="value">15:401$500</td></tr>
+                    <tr><td class="name">Banco do Brasil</td><td class="value">49:552$000</td></tr>
+                    <tr><td class="name">Banco Melhoramentos do Jahú</td><td class="value">4:000$000</td></tr>
+                    <tr><td class="name">Gonçalves, Salles &amp; Comp.</td><td class="value">1:345$000</td></tr>
+                    <tr><td class="name">João Matheus</td><td class="value">5:600$000</td></tr>
+                    <tr><td class="name">Florido Fabri</td><td class="value">13:440$000</td></tr>
+                    <tr><td class="name">Banco Paulista</td><td class="value">51:540$000</td></tr>
+                    <tr><td class="name">Victor Cesarino</td><td class="value">15:000$000</td></tr>
+                    <tr><td class="name">Mansur Yasbeck &amp; Irmão</td><td class="value">285$000</td></tr>
+                    <tr><td class="name">Felicio Bolini</td><td class="value">21:200$000</td></tr>
+                    <tr><td class="name">Bonfiglio Montovani</td><td class="value">48:525$000</td></tr>
+                    <tr><td class="name">Albino Tesser</td><td class="value">17:920$000</td></tr>
+                    <tr><td class="name">De Marco &amp; Comp.</td><td class="value">6:000$000</td></tr>
+                    <tr><td class="name">Nelsen Bechara &amp; Comp.</td><td class="value">26:159$800</td></tr>
+                    <tr><td class="name">Farah Antonio</td><td class="value">3:511$700</td></tr>
+                    <tr><td class="name">Domingos Saro</td><td class="value">7:840$000</td></tr>
+                    <tr><td class="name">Bazilio Trevizan</td><td class="value">589$200</td></tr>
+                    <tr><td class="name">Loureiro Costa &amp; Comp.</td><td class="value">2:455$500</td></tr>
+                    <tr><td class="name">Abib José Tarcha</td><td class="value">3:000$000</td></tr>
+                    <tr><td class="name">Adriano Blanch</td><td class="value">3:920$000</td></tr>
+                    <tr><td class="name">Tufick Nicolau</td><td class="value">6:000$000</td></tr>
+                    <tr><td class="name">Francisco Simões</td><td class="value">21:300$000</td></tr>
+                    <tr class="total-row"><td class="name"></td><td class="value border-top">696:185$990</td></tr>
+                    <tr class="total-row"><td class="name" style="text-align: right; padding-right: 15px;">Somma Rs.</td><td class="value">757.033$485</td></tr>
+                </table>
+
+                <div class="footer-note" style="margin-top: 15px; text-align: justify;">
+                    Jahú, 21 de Março de 1930. &mdash; O juiz de direito, Manoel Gomes de Oliveira. O syndico: Heitor Gouvêa.
+                </div>
+                <div style="text-align: right; margin-top: 5px;">3 &mdash; 3</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="divider"></div>
+
+    <!-- Bottom Section: Fallencia de L. R. Schreiner & Comp. -->
+    <div>
+        <h2>Comarca de Jahú</h2>
+        <div style="text-align: center; font-size: 11px; margin-bottom: 4px;">
+            Cartorio do 2.&ordm; officio &mdash; Fallencia de L. R. Schreiner &amp; Comp.
+        </div>
+        <p class="intro-text">
+            Quadro geral dos credores admittidos á fallencia, de accordo com o art. 85 do Dec. 5746, de 9 de Dezembro de 1929.
+        </p>
+
+        <div class="row-3col">
+            <!-- Col 1 -->
+            <div class="col-3">
+                <div class="section-subtitle">Credores com privilegio sobre todo o activo</div>
+                <table class="entry-table">
+                    <tr><td class="name">José Melges, Jahú</td><td class="value">216$000</td></tr>
+                    <tr><td class="name">Mario Martins, Jahú</td><td class="value">2:143$100</td></tr>
+                    <tr><td class="name">Pedro Beltran Junior, Jahú</td><td class="value">782$500</td></tr>
+                    <tr><td class="name">Ignacio Melges, Jahú</td><td class="value">160$000</td></tr>
+                    <tr><td class="name">Luiz Segolim, Jahú</td><td class="value">160$000</td></tr>
+                    <tr><td class="name">João Manoel do Nascimento, Jahú</td><td class="value">160$000</td></tr>
+                    <tr><td class="name">Prudente Authero Bueno, Jahú</td><td class="value">179$800</td></tr>
+                    <tr><td class="name">Aristeu Chaves, Jahú</td><td class="value">1:200$000</td></tr>
+                    <tr><td class="name">Camara Municipal de Jahú, Jahú</td><td class="value">2:197$700</td></tr>
+                    <tr class="total-row"><td class="name"></td><td class="value border-top">7:199$200</td></tr>
+                </table>
+
+                <div class="section-subtitle" style="margin-top: 6px;">Credores chirographarios</div>
+                <table class="entry-table">
+                    <tr><td class="name">Herm Stoltz &amp; Comp., São Paulo</td><td class="value">1:125$800</td></tr>
+                    <tr><td class="name">D. Almerinda do Canto Almeida Prado, Jahú</td><td class="value">67$900</td></tr>
+                    <tr><td class="name">Irmãos Canho, Jahú</td><td class="value">104$500</td></tr>
+                    <tr><td class="name">Augusto Vieira da Silva, Campinas</td><td class="value">48:627$224</td></tr>
+                    <tr><td class="name">Eduardo Baptista Leite, Campinas</td><td class="value">74:478$000</td></tr>
+                    <tr><td class="name">Sampaio Costa &amp; Comp., São Paulo</td><td class="value">3:602$000</td></tr>
+                </table>
+            </div>
+
+            <!-- Col 2 -->
+            <div class="col-3">
+                <table class="entry-table">
+                    <tr><td class="name">Loureiro Costa &amp; Comp., São Paulo</td><td class="value">4:320$500</td></tr>
+                    <tr><td class="name">Fratelli Attanasio, Jahú</td><td class="value">1:617$400</td></tr>
+                    <tr><td class="name">Dr. Rubens G. Rocha e outro, São Paulo</td><td class="value">6:674$000</td></tr>
+                    <tr><td class="name">Gonçalves Salles &amp; Comp. São Paulo</td><td class="value">4:549$800</td></tr>
+                    <tr><td class="name">Bromberg &amp; Comp., São Paulo</td><td class="value">2:024$200</td></tr>
+                    <tr><td class="name">Alves Azevedo &amp; Comp., São Paulo</td><td class="value">11:305$300</td></tr>
+                    <tr><td class="name">C. Costa Fontes &amp; Comp., Santos</td><td class="value">3:108$000</td></tr>
+                    <tr><td class="name">Pacheco &amp; Jamil, Bariry</td><td class="value">1:206$000</td></tr>
+                    <tr><td class="name">Juvenal, Franco &amp; Comp., S. Paulo</td><td class="value">906$000</td></tr>
+                    <tr><td class="name">Giovanni Pavan, Jahú</td><td class="value">585$000</td></tr>
+                    <tr><td class="name">José Balbo, Campinas</td><td class="value">467$800</td></tr>
+                    <tr><td class="name">Nicolau Soufen, Jahú</td><td class="value">3:249$000</td></tr>
+                    <tr><td class="name">Fidelis Maselli Di Lascio, Campinas</td><td class="value">35:000$000</td></tr>
+                    <tr><td class="name">José de Seixas Junior, Campinas</td><td class="value">10:000$000</td></tr>
+                    <tr><td class="name">Lion &amp; Comp., S. Paulo</td><td class="value">6:557$610</td></tr>
+                    <tr><td class="name">Luciano Vicintim &amp; Filhos S. Paulo</td><td class="value">834$500</td></tr>
+                    <tr><td class="name">Soc. Casa Moreira Ltda., Jahú</td><td class="value">168$500</td></tr>
+                    <tr><td class="name">Adalberto Maia, Campinas</td><td class="value">940$000</td></tr>
+                    <tr><td class="name">Fabrica Aurora Limitada, Piracicaba</td><td class="value">437$200</td></tr>
+                    <tr><td class="name">Comp. Paulista de Alimentação, S. Paulo</td><td class="value">298$400</td></tr>
+                    <tr><td class="name">Moinho Inglez, S. Paulo</td><td class="value">1:185$000</td></tr>
+                    <tr><td class="name">Lebre Filho &amp; Comp., S. Paulo</td><td class="value">12:591$000</td></tr>
+                </table>
+            </div>
+
+            <!-- Col 3 -->
+            <div class="col-3">
+                <table class="entry-table">
+                    <tr><td class="name">Rieckmann &amp; Comp., S. Paulo</td><td class="value">6:113$000</td></tr>
+                    <tr><td class="name">Costa Nogueira &amp; Comp., S. Paulo</td><td class="value">2:296$900</td></tr>
+                    <tr><td class="name">Zerrenner, Bulow &amp; Comp. S. Paulo</td><td class="value">4:022$800</td></tr>
+                    <tr><td class="name">Comp. Mechanica e Importado de São Paulo, S. Paulo</td><td class="value">1:953$570</td></tr>
+                    <tr><td class="name">Wilson Sons &amp; Comp., S. Paulo</td><td class="value">920$000</td></tr>
+                    <tr><td class="name">Tripaldi &amp; Catena Ltda., S. Paulo</td><td class="value">2:256$000</td></tr>
+                    <tr><td class="name">Theodor Wille &amp; Comp., S. Paulo</td><td class="value">19:354$080</td></tr>
+                    <tr><td class="name">João Jorge, Figueiredo &amp; Comp., S. Paulo</td><td class="value">19:927$300</td></tr>
+                    <tr><td class="name">Brazilian Warrant Agency &amp; Finance Comp. Ltda., S. Paulo</td><td class="value">8:253$200</td></tr>
+                    <tr><td class="name">José Milani &amp; Comp, Campinas</td><td class="value">1:540$000</td></tr>
+                    <tr><td class="name">S/A Moinho Santista, São Paulo</td><td class="value">2:572$000</td></tr>
+                    <tr><td class="name">A. Sampaio &amp; Comp., S. Paulo</td><td class="value">4:357$400</td></tr>
+                    <tr><td class="name">Motta Filho &amp; Comp., S. Paulo</td><td class="value">3:083$200</td></tr>
+                    <tr><td class="name">Irmãos Durante, Jahú</td><td class="value">231$800</td></tr>
+                    <tr><td class="name">The Dunlop Pneumatic Tyre Comp. Ltda., S. Paulo</td><td class="value">633$700</td></tr>
+                    <tr><td class="name">Nicolau Purchio &amp; Comp; Campinas</td><td class="value">10:058$000</td></tr>
+                    <tr><td class="name">José Narvaez &amp; Filho, São Carlos</td><td class="value">425$000</td></tr>
+                    <tr><td class="name">Souza Santos &amp; Comp., Santos</td><td class="value">1:677$100</td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+```

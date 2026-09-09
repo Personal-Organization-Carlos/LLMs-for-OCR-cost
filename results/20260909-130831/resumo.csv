@@ -1,0 +1,2 @@
+﻿empresa,tipo,model_id,model_label,prompt_id,n_chamadas,n_sucesso,taxa_sucesso,n_truncadas,taxa_truncamento,n_validas,n_paginas,html_sem_texto_extra_taxa,wer_media,cer_media,num_f1_media,cost_usd_media,completion_tokens_media,prompt_tokens_media,latency_s_media
+Google,fechado,google/gemini-3.7-flash@openrouter,Gemini 3.7 Flash (OpenRouter),p1,16,16,1.0,0,0.0,16,16,1,0.051816395330317094,0.019644993804845894,0.917147750084422,0.029455078125,7627.5,1135.9375,23.10974960000749

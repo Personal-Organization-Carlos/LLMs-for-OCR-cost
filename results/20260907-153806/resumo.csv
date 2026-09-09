@@ -1,2 +1,1 @@
-﻿empresa,tipo,model_id,model_label,prompt_id,n_chamadas,n_sucesso,taxa_sucesso,n_truncadas,taxa_truncamento,n_validas,html_sem_texto_extra_taxa,wer_media,cer_media,num_f1_media,cost_usd_media,completion_tokens_media,prompt_tokens_media,latency_s_media
-Google,fechado,google/gemini-3.7-flash,Gemini 3.7 Flash,p1,37,5,0.13513513513513514,0,0.0,5,1,0.0233837224575413,0.0116106115778652,0.9755558093497793,0.0240945,6198.6,1133,28.85114108000416
+﻿empresa,tipo,model_id,model_label,prompt_id,n_chamadas,n_sucesso,taxa_sucesso,n_truncadas,taxa_truncamento,n_validas,n_paginas,html_sem_texto_extra_taxa,wer_media,cer_media,num_f1_media,cost_usd_media,completion_tokens_media,prompt_tokens_media,latency_s_media

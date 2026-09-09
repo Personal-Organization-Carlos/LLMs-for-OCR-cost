@@ -1,0 +1,325 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diario Official do Estado de São Paulo - 1 de Abril de 1920</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 1.5cm;
+        }
+        body {
+            background-color: #f6f3ea;
+            color: #111111;
+            font-family: "Times New Roman", Times, "Baskerville", "Playfair Display", Georgia, serif;
+            font-size: 11.5px;
+            line-height: 1.25;
+            margin: 0 auto;
+            padding: 25px 35px;
+            max-width: 900px;
+        }
+
+        /* Top Header */
+        .header {
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .header .country {
+            font-size: 19px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 2px;
+            font-family: "Arial Black", "Impact", "Times New Roman", sans-serif;
+            transform: scaleY(1.1);
+        }
+        .header .main-title {
+            font-size: 64px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            line-height: 0.95;
+            margin: 0;
+            text-transform: uppercase;
+            font-family: "Impact", "Arial Black", "Times New Roman", sans-serif;
+            transform: scaleY(1.15);
+        }
+        .header .sub-title {
+            font-size: 24px;
+            font-weight: 900;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            margin-top: 4px;
+            margin-bottom: 8px;
+            font-family: "Arial Black", "Impact", "Times New Roman", sans-serif;
+        }
+
+        /* Metadata Banner */
+        .meta-bar {
+            border-top: 2px solid #000;
+            border-bottom: 2px solid #000;
+            padding: 3px 0;
+            display: flex;
+            justify-content: space-between;
+            font-size: 11.5px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+            position: relative;
+        }
+        .meta-bar::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -5px;
+            border-bottom: 1px solid #000;
+        }
+
+        /* Layout Columns */
+        .columns {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        .column {
+            flex: 1;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .column:first-child {
+            border-right: 1px solid #222;
+            padding-right: 18px;
+        }
+
+        /* Typography Elements */
+        h2.section-header {
+            font-family: "Brush Script MT", "Edwardian Script ITC", "Playfair Display", "Times New Roman", cursive, serif;
+            font-size: 32px;
+            font-weight: normal;
+            font-style: italic;
+            text-align: center;
+            margin: 5px 0 2px 0;
+            border-top: 1px solid #000;
+            border-bottom: 1px solid #000;
+            padding: 2px 0;
+            letter-spacing: 1px;
+        }
+        h2.interior-header {
+            font-family: "Impact", "Arial Black", "Times New Roman", sans-serif;
+            font-size: 22px;
+            text-align: center;
+            letter-spacing: 3px;
+            margin: 20px 0 10px 0;
+            font-weight: 900;
+        }
+
+        .decreto-title {
+            font-weight: bold;
+            text-align: center;
+            font-size: 11px;
+            letter-spacing: 1px;
+            margin-top: 12px;
+            margin-bottom: 6px;
+        }
+        .summary {
+            font-style: italic;
+            margin-bottom: 8px;
+            text-indent: 15px;
+            font-size: 11px;
+            line-height: 1.2;
+        }
+        p {
+            margin: 0 0 5px 0;
+            text-indent: 18px;
+        }
+        .no-indent {
+            text-indent: 0;
+        }
+        .signatures {
+            margin-top: 8px;
+            margin-bottom: 12px;
+            text-align: right;
+            padding-right: 25px;
+        }
+        .signatures .name-caps {
+            font-variant: small-caps;
+            font-weight: bold;
+            font-size: 11.5px;
+            letter-spacing: 1px;
+        }
+        .signatures .name-italic {
+            font-style: italic;
+            font-weight: bold;
+            font-size: 11px;
+        }
+        .divider {
+            width: 80px;
+            border-bottom: 1px solid #000;
+            margin: 12px auto;
+        }
+
+        /* Budget table / dotted alignment */
+        .budget-table {
+            width: 100%;
+            margin: 4px 0 8px 0;
+            border-collapse: collapse;
+        }
+        .budget-table td {
+            padding: 0;
+            font-size: 11px;
+        }
+        .budget-table .dots {
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .budget-table .dots::after {
+            content: " .....................................................................................";
+        }
+        .budget-table .val {
+            text-align: right;
+            white-space: nowrap;
+            width: 85px;
+            vertical-align: bottom;
+        }
+        .budget-table .total {
+            border-top: 1px solid #000;
+            text-align: right;
+            padding-top: 1px;
+        }
+        
+        .list-item {
+            margin-bottom: 3px;
+            text-indent: 18px;
+        }
+        .sub-list {
+            margin-left: 20px;
+            text-indent: 0;
+            margin-bottom: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="country">ESTADOS UNIDOS DO BRAZIL</div>
+        <h1 class="main-title">DIARIO OFFICIAL</h1>
+        <div class="sub-title">DO ESTADO DE SÃO PAULO</div>
+    </header>
+
+    <div class="meta-bar">
+        <div>ANNO 30 — 32.° DA REPUBLICA — N. 73</div>
+        <div>SÃO PAULO</div>
+        <div>QUINTA-FEIRA, 1.° DE ABRIL DE 1920</div>
+    </div>
+
+    <div class="columns">
+        <!-- COLUNA 1 -->
+        <div class="column">
+            <h2 class="section-header">Actos do Poder Executivo</h2>
+
+            <div class="decreto-title">DECRETO N. 3185 — DE 30 DE MARÇO DE 1920</div>
+            <div class="summary">
+                Abre á Secretaria da Fazenda e do Thesouro do Estado, um credito especial de vinte e cinco contos, novecentos e setenta e quatro mil e oitocentos e vinte réis...... (25:974$820), para fazer face ás despezas effectuadas com a epidemia de grippe no exercicio de 1919.
+            </div>
+
+            <p>O Doutor Altino Arantes, Presidente do Estado de São Paulo,</p>
+            <p>Attendendo ao que lhe representou o sr. Secretario de Estado dos Negocios da Fazenda e do Thesouro e usando da faculdade que lhe confere a Lei n. 1605 de 31 de Outubro de 1918,</p>
+            <p class="no-indent" style="margin-left: 18px;">Decreta :</p>
+            <p>Artigo 1.º — Fica aberto na Secretaria da Fazenda e do Thesouro do Estado um credito especial de vinte e cinco contos, novecentos e setenta e quatro mil e oitocentos e vinte réis (Rs. 25:974$820) para fazer face ás despezas effectuadas com a epidemia de grippe no exercicio de 1919.</p>
+            <p>Artigo 2.º — Revogam-se as disposições em contrario.</p>
+            <p>Palacio do Governo do Estado de São Paulo, em 30 de Março de 1920.</p>
+
+            <div class="signatures">
+                <div class="name-caps">Altino Arantes.</div>
+                <div class="name-italic">U. Herculano de Freitas.</div>
+            </div>
+
+            <p class="no-indent" style="font-size: 10.5px; font-style: italic; margin-top: 8px;">
+                Publicado na Secretaria da Fazenda e do Thesouro do Estado de São Paulo, em 31 de Março de 1920. — <em>Theophilo M. Nobrega</em>, director-geral.
+            </p>
+
+            <div class="divider"></div>
+
+            <div class="decreto-title">DECRETO N. 3186 — DE 30 DE MARÇO DE 1920</div>
+            <div class="summary">
+                Abre no Thesouro do Estado um credito de 253:739$000 para liquidação da despesa da Secretaria do Interior no exercicio de 1919.
+            </div>
+
+            <p>O Presidente do Estado, usando da auctorisação que lhe é conferida pela lei n. 1.673, de 2 de Dezembro de 1919,</p>
+            <p class="no-indent" style="margin-left: 18px;">Decreta :</p>
+            <p>Artigo unico. — Fica aberto no Thesouro do Estado, á Secretaria de Estado dos Negocios do Interior, um credito supplementar de duzentos e cincoenta e tres contos setecentos e trinta e nove mil réis (253:739$000), para saldar o deficit verificado nas seguintes rubricas do orçamento para o exercicio de 1919 :</p>
+
+            <table class="budget-table">
+                <tr>
+                    <td class="dots">§ 2.° Senado</td>
+                    <td class="val">52:206$000</td>
+                </tr>
+                <tr>
+                    <td class="dots">§ 3.° Camara dos Deputados</td>
+                    <td class="val">201:533$000</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="total">253:739$000</td>
+                </tr>
+            </table>
+
+            <p>Palacio do Governo do Estado de São Paulo, aos 30 de Março de 1920.</p>
+
+            <div class="signatures">
+                <div class="name-caps">Altino Arantes.</div>
+                <div class="name-italic">Oscar Rodrigues Alves.</div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="decreto-title">DECRETO N. 3187 — DE 3 DE MARÇO DE 1920</div>
+            <div class="summary">
+                Abre no Thesouro do Estado, á Secretaria de Estado dos Negocios do Interior, um credito especial de rs. ...... 3.386:403$468, para as despesas com a epidemia de grippe.
+            </div>
+
+            <p>O presidente do Estado, usando da auctorisação que lhe é conferida pela lei n. 1.605, de 31 de Outubro de 1918,</p>
+        </div>
+
+        <!-- COLUNA 2 -->
+        <div class="column">
+            <p class="no-indent" style="margin-left: 18px;">Decreta :</p>
+            <p>Artigo unico. — Fica aberto no Thesouro do Estado, á Secretaria de Estado dos Negocios do Interior, um credito especial de tres mil trezentos e oitenta e seis contos quatrocentos e trez mil quatrocentos e sessenta e oito réis...... (3.386:403$468), para as despesas feitas com a epidemia de grippe.</p>
+            <p>Palacio do Governo do Estado de São Paulo, aos 30 de Março de 1920.</p>
+
+            <div class="signatures">
+                <div class="name-caps">Altino Arantes.</div>
+                <div class="name-italic">Oscar Rodrigues Alves.</div>
+            </div>
+
+            <div class="divider"></div>
+
+            <h2 class="interior-header">INTERIOR</h2>
+
+            <p class="list-item">Por decretos de 31 do corrente :</p>
+            <p class="list-item">foram aposentados o dr. Augusto Militão Pacheco, inspector sanitario da Capital e o sr. Antonio Egydio Martins, 1.° escripturario da Repartição de Estatistica e Archivo do Estado ;</p>
+            <p class="list-item">foi removido o inspector sanitario da Delegacia de Saúde de Campinas, dr. João Paes Leme de Monlevade, para igual cargo nesta Capital ;</p>
+            <p class="list-item">foram nomeados inspectores sanitarios os drs. João Thomaz Monteiro da Silva, para S. Carlos ; Daniel Martins, para Botucatú ; Justiniano Lisbôa e Jorge Dutra Fragoso, para Santos ;</p>
+            <p class="list-item">foi nomeado o sr. Alfredo de Barros Santos, para exercer o cargo de auxiliar do director da Escola Profissional Masculina da Capital ;</p>
+            <p class="list-item">foi promovido a 2.° escripturario da Directoria Geral do Serviço Sanitario, o 3.° escripturario da mesma repartição, sr. Bernardino de Campos Araujo ;</p>
+            <p class="list-item">foi nomeado o dr. Henrique Jorge Guedes para exercer o cargo de lente substituto interino da 2.ª secção da Escola Polytechnica de S. Paulo ;</p>
+            <p class="list-item">foi transferido o dr. Francisco Pereira Ramos; lente cathedratico das cadeiras reunidas de Physica Industrial e Electrotechnica (1.ª parte) da Escola Polytechnica de São Paulo, para lente cathedratico da cadeira isolada de Economia Politica. Elementos de Estatistica. Noções de Direito Administrativo da mesma Escola, de accordo com o art. 20, § 3.° do Decreto n. 2.931, de 12 de Junho de 1918 ;</p>
+            <p class="list-item">foi annexada ao grupo escolar de Pirajú a escola mixta urbana, das Paivas, da mesma localidade ;</p>
+            <p class="list-item">foi dada a denominação de « Francisco Simões », ao grupo escolar de Dois Corregos ;</p>
+            <p class="list-item">foi effectivado no cargo de director do grupo escolar de Tambahú, o actual director interino, professor Manoel Nogueira de Carvalho ;</p>
+            <p class="list-item">foram nomeadas adjunctas dos grupos escolares de Ribeirão Bonito e Brotas, as seguintes professoras dd. Maria Paula de Paula Sousa, Maria Silveira Almeida, respectivamente ;</p>
+            <p class="list-item">foram removidos, a pedido, os seguintes adjunctos de grupos escolares :</p>
+            <p class="sub-list">d. Maria Augusta de Andrade Justo, do de Brotas para o «Antonio Padilha», de Sorocaba ;</p>
+            <p class="sub-list">d. Dulce de Barros Pereira, da de Brotas, para o «Visconde de Porto Seguro», de Sorocaba ;</p>
+            <p class="sub-list">Luiz do Amaral Wagner, do «Antonio Padilha», de Sorocaba, para o de Brotas ;</p>
+            <p class="sub-list">d. Marianna Mastroandréa, do «Visconde de Porto Seguro», de Sorocaba, para o de Brotas ;</p>
+            <p class="sub-list">d. Edemea Rudge Ramos Parada, do de Belémzinho, para o de S. João, ambos desta Capital ;</p>
+            <p class="list-item">foram exoneradas, a pedido, do cargo de adjunctas do grupo escolar do Bebedouro, d. Luiza Oliveira Algodoal e d. Tamilde Rossi Magalhães, do 1.° de Araraquara ;</p>
+        </div>
+    </div>
+
+</body>
+</html>
+```
