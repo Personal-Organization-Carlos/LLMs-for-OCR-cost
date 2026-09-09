@@ -1,2 +1,0 @@
-﻿empresa,tipo,model_id,model_label,prompt_id,n_chamadas,n_sucesso,taxa_sucesso,n_truncadas,taxa_truncamento,n_validas,html_sem_texto_extra_taxa,wer_media,cer_media,num_f1_media,cost_usd_media,completion_tokens_media,prompt_tokens_media,latency_s_media
-Alibaba,fechado,qwen/qwen3.7-plus,Qwen3.7 Plus,p1,1,1,1.0,0,0.0,1,1,0.06511309115832763,0.02865903998112985,0.9054945054945055,0.0086736,6133,2573,109.711418199935
