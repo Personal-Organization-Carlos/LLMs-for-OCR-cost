@@ -25,7 +25,7 @@ api:
   max_retries: 3
   retry_backoff_seconds: 5
   # O que fazer quando a casa de hospedagem fixada em models.yaml
-  # (`provider_upstream`) não atende. false = a chamada falha, e a
+  # (`endpoint_tag`) não atende. false = a chamada falha, e a
   # comparabilidade entre execuções fica preservada; true = o OpenRouter pode
   # servir de outra casa, com outra quantização, sem avisar na hora.
   permitir_fallback_de_hospedagem: false

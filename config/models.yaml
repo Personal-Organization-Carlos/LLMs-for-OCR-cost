@@ -41,6 +41,17 @@
 #   As tags vem de `GET /api/v1/models/<id>/endpoints`.
 #
 # ---------------------------------------------------------------------------
+# EXCLUSAO DA ANALISE (campo `excluido`)
+#   Guarda o MOTIVO pelo qual um sistema saiu do estudo. Excluir e diferente de
+#   desabilitar: `enabled: false` diz "nao chame"; `excluido` diz "nao conte" —
+#   o sistema nao e chamado, nao aparece em figura nem na tabela do relatorio, e
+#   as medicoes que ele ja produziu continuam no disco, intactas.
+#
+#   E o motivo, e nao um booleano, porque "por que este sistema nao esta nos
+#   resultados?" e a primeira pergunta que um leitor faz, e a resposta tem que
+#   morar junto do sistema. `bench check` imprime a lista e o motivo.
+#
+# ---------------------------------------------------------------------------
 # PRECO DECLARADO (`preco_entrada_usd_mtok` / `preco_saida_usd_mtok`)
 #   So os modelos `provider: gemini` precisam de preco aqui: a API do Google
 #   devolve tokens mas nao o valor cobrado. Pelo OpenRouter o custo vem medido,
@@ -76,6 +87,49 @@ models:
     preco_entrada_usd_mtok: 0.750
     preco_saida_usd_mtok: 3.750
     rpm_limit: 10
+    excluido: >-
+      cobertura insuficiente por indisponibilidade da API nativa. Em 58
+      tentativas saíram 9 transcrições válidas (15,5% de sucesso: 41 erros de
+      servidor e 8 de cota), contra 16/16 de todos os demais Gemini. As 9
+      páginas que passaram ainda são enviesadas para o grau fácil (6 fácil, 1
+      médio, 2 difícil), então a média delas não é comparável com a dos outros
+      sistemas nem representativa do conjunto. O mesmo modelo continua no
+      estudo pela via OpenRouter (google/gemini-3.7-flash@openrouter), que
+      cobriu as 16 páginas e bate no mesmo backend (Google AI Studio).
+
+  # O MESMO modelo pela outra via. Existe para isolar UMA variavel: o caminho de
+  # chamada e de cobranca. A casa fixada e `google-ai-studio` de proposito —
+  # a API nativa (generativelanguage.googleapis.com) E o AI Studio, entao as
+  # duas entradas batem no mesmo backend e so a via difere. Fixar
+  # `google-vertex/global` trocaria via E casa ao mesmo tempo, que e justamente
+  # o que a `endpoint_tag` existe para impedir.
+  #
+  # Ele ja pagou o seu lugar no estudo: na unica chamada coletada
+  # (1930-04-01_p3192, execucao 20260909-114551) o valor COBRADO pelo OpenRouter
+  # — 1131 tokens de entrada, 7550 de saida, US$ 0,02916075 — bate ate o ultimo
+  # digito com o preco de tabela declarado acima. E a prova de que o
+  # `cost_source: tabela_precos` dos Gemini nativos e uma base comum legitima, e
+  # nao uma estimativa que ninguem conferiu.
+  #
+  # ATENCAO: aquela chamada saiu por `google-vertex/global` (o bruto.json gravou
+  # `provider: Google`, e nao `Google AI Studio`), porque foi feita sem
+  # endpoint_tag. Mesmo preco, casa diferente. Ela conta como parcial e precisa
+  # ser refeita sob a tag fixada antes de valer como medida deste sistema.
+  - id: google/gemini-3.7-flash@openrouter
+    # Explicito porque tem custo: ligado, o proximo `bench run` chama e cobra.
+    # Trocar para false regulariza o registro sem rodar.
+    enabled: true
+    empresa: Google
+    tipo: fechado
+    provider: openrouter
+    api_model_id: google/gemini-3.7-flash
+    endpoint_tag: google-ai-studio
+    label: Gemini 3.7 Flash (OpenRouter)
+    licenca: proprietária
+    familia: gemini-3
+    notas: controle de via — o gemini-3.7-flash chamado pelo OpenRouter em vez da API nativa, para confrontar custo cobrado (cost_source usage) com preco de tabela (cost_source tabela_precos).
+    preco_entrada_usd_mtok: 0.750
+    preco_saida_usd_mtok: 3.750
 
   - id: google/gemini-3.6-flash
     empresa: Google

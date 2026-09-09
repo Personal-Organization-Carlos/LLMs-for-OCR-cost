@@ -1,20 +1,20 @@
 # ============================================================================
 # Prompts do experimento.
 #
-# Os prompts p1, p2 e p3 são os do desenho original e NÃO devem ser alterados:
-# eles formam uma escala de especificidade crescente
-#   p1: sem formato e sem contexto
-#   p2: com formato (HTML) e sem contexto histórico
-#   p3: com formato e com contexto histórico
+# O registro tem DOIS, e o estudo não tem eixo de especificidade de prompt: a
+# comparação é entre sistemas, com a instrução fixa.
 #
-# p4 é uma ablação opcional (desligada por padrão). Ela isola a pergunta
-# "a modernização ortográfica é viés do modelo ou defeito do prompt?",
-# acrescentando a p3 a única instrução que ataca o fenômeno diretamente.
+#   p0  não é um prompt: é o marcador de "este sistema não recebe instrução em
+#       linguagem natural". Serve aos sistemas de OCR/layout (MinerU). Modelos
+#       instruídos NUNCA são executados sob ele, e ele nunca é executado sob
+#       modelos instruídos — a regra está em `runner.prompts_do_modelo`.
 #
-# p0 não é um prompt: é o marcador de "este sistema não recebe prompt". Serve
-# aos sistemas de OCR/layout (MinerU), que não aceitam instrução em linguagem
-# natural. Modelos instruídos NUNCA são executados sob ele, e ele nunca é
-# executado sob modelos instruídos — a regra está em `runner.build_tasks`.
+#   p1  o prompt do estudo, e o único instruído.
+#
+# O cabeçalho antigo descrevia uma escala p1/p2/p3 de especificidade crescente,
+# mais uma ablação p4. Nada disso existe neste arquivo, e o README já registra
+# que não há esse eixo. Acrescentar um prompt aqui não é de graça: cada um
+# dispara uma rodada paga a mais em todos os modelos de API.
 # ============================================================================
 
 - id: p0

@@ -35,7 +35,7 @@ estilo, não fidelidade de transcrição.
 servido por várias casas, e elas não são equivalentes: o Kimi K3 tem 18, com
 quantização fp4, mxfp4, fp8 ou bf16 conforme quem atende. Sem fixar, a casa muda
 a cada chamada e a variação entra na média como se fosse propriedade do modelo.
-Cada modelo declara a sua em `provider_upstream` (sempre a casa **de origem** —
+Cada modelo declara a sua em `endpoint_tag` (sempre a casa **de origem** —
 Alibaba para os Qwen, Anthropic para os Claude, OpenAI para o GPT, Moonshot AI
 para o Kimi), `bench check` confere que o nome existe, e
 `permitir_fallback_de_hospedagem: false` faz a chamada **falhar** em vez de ser
@@ -171,8 +171,9 @@ results/<run_id>/
   mineru/<modelo>/      artefatos do MinerU: layout.pdf, content_list.json, log
   metricas.csv          uma linha por chamada, com as cinco medidas
   resumo.csv            uma linha por (modelo, prompt), com as médias
+                        (`n_validas` conta chamadas; `n_paginas`, páginas distintas)
 
-results/graficos/       as cinco figuras, sobre TODAS as execuções
+results/graficos/       as sete figuras, sobre TODAS as execuções
 ```
 
 **Tudo que pertence a uma chamada mora na pasta dela.** Conferir uma
@@ -232,7 +233,7 @@ modelo aberto. Guardá-lo é assimétrico: o disco é barato e a chamada não.
 
 ## Gráficos
 
-`python -m bench graficos` escreve seis PNG em `results/graficos/`,
+`python -m bench graficos` escreve sete PNG em `results/graficos/`,
 agregando **todas as execuções** — não só a última:
 
 | figura | o que mostra |
@@ -240,18 +241,62 @@ agregando **todas as execuções** — não só a última:
 | `cer_wer_por_modelo.png` | CER e WER lado a lado, ordenado pelo **CER** |
 | `num_f1_por_modelo.png` | fidelidade dos números |
 | `custo_beneficio.png` | CER x custo por página — onde cada sistema cai |
-| `custo_n_paginas.png` | a conta em dinheiro do acervo, em três cenários |
+| `custo_n_paginas.png` | a conta em dinheiro do acervo, em quatro papéis |
 | `tempo_do_acervo.png` | a conta em tempo do acervo, modelo a modelo |
 | `html_sem_texto_extra.png` | % das respostas que vieram só com o HTML |
+| `erro_por_dificuldade.png` | quanto a complexidade da página custa em erro |
+
+O mesmo comando reescreve a **tabela de resultados** dentro de
+`results/relatorio.html`, a partir dos mesmos dados que alimentam as figuras.
+A tabela mora entre dois comentários marcadores e tudo que está fora deles é
+texto do autor, que nunca é tocado. Sistemas que ainda não cobriram todas as
+páginas do conjunto recebem a etiqueta `parcial` e ficam fora da disputa pelo
+negrito de melhor valor, porque uma média sobre uma página não é comparável a
+uma média sobre dezesseis. Se os marcadores não existirem no arquivo, o
+comando avisa e não altera nada.
 
 A agregação é **por chamada**, não por média de médias: as linhas de todos os
 `metricas.csv` entram na mesma conta, então uma execução de 16 páginas pesa
 dezesseis vezes mais que uma de 1. `--run-ids A B` restringe a execuções
 específicas.
 
-**Todo rótulo carrega o `n`** — o número de chamadas válidas por trás da média.
-Marcar só quem tem poucas deixaria implícito que as demais são comparáveis entre
-si; uma média de 16 páginas não é a mesma afirmação que uma de 1.
+**Cada célula do desenho entra uma vez.** Uma página remedida — porque a
+execução foi retomada, ou simplesmente refeita — aparece em mais de um
+`metricas.csv`, e empilhá-los cruamente a faria pesar duas vezes na média do
+modelo. Vale a medição **mais recente entre as válidas**: a remedição existe
+justamente para consertar o que falhou, então a ordem crua deixaria uma falha
+posterior apagar o sucesso que ela veio corrigir. O comando diz quantas
+remedições descartou.
+
+**Um sistema pode sair da análise, com o motivo escrito.** O campo `excluido`
+no `models.yaml` guarda a justificativa; quem o tem não é chamado, não aparece
+em nenhuma figura nem na tabela, e as medições que já produziu continuam no
+disco — sair da análise não é deixar de ter existido. É diferente de
+`enabled: false`, que só diz "não chame". O motivo é impresso pelo `bench check`
+e pelo `bench graficos`, para a exclusão nunca ser silenciosa. Hoje há um:
+o `google/gemini-3.7-flash` pela API nativa do Google, que rendeu 9 transcrições
+válidas em 58 tentativas (15,5%) — o mesmo modelo segue no estudo pela via
+OpenRouter, com as 16 páginas.
+
+**Todo `model_id` medido é conferido contra o `models.yaml`.** Os CSV são um
+histórico e guardam sistemas renomeados ou retirados do registro; sem a
+conferência, um `model_id` órfão entra nas figuras como se fosse mais um sistema
+do estudo e ninguém tem onde ler o que ele é. Nada é removido — o comando avisa,
+nomeando o órfão.
+
+**Todo rótulo carrega o `n`** — o número de **páginas distintas** por trás da
+média. Marcar só quem tem poucas deixaria implícito que as demais são
+comparáveis entre si; uma média de 16 páginas não é a mesma afirmação que uma
+de 1. É página, e não chamada, porque uma página remedida não é uma página a
+mais.
+
+**Superlativo só entre quem cobriu o conjunto.** A mesma regra que dá a etiqueta
+`parcial` na tabela decide quem disputa "melhor qualidade", "mais barato" e
+"melhor custo-benefício". Os parciais continuam nas figuras — o dado existe —,
+mas aparecem como ponto vazado no `custo_beneficio.png` e não recebem papel no
+`custo_n_paginas.png`, que é a figura que multiplica o custo medido por milhões
+de páginas. Se ninguém tiver cobertura completa, a disputa acontece entre
+parciais e o subtítulo da figura diz isso.
 
 O `tempo_do_acervo.png` faz a mesma projeção com a **latência** medida: o eixo
 mostra o prazo em série, uma página de cada vez, que é exatamente como o tempo
@@ -260,19 +305,38 @@ simultâneas. O número serial fica no eixo porque é o observado; a concorrênc
 premissa declarada, não medida. A espera do `rpm_limit` não entra na conta: ela
 é decisão de configuração sua, não lentidão do modelo.
 
+O `erro_por_dificuldade.png` é a única figura que agrega por **página** e não
+por modelo. As imagens do `Dataset/` declaram o grau no fim do nome
+(`1891_0599_Facil.jpg`), e `Document.dificuldade` lê dali: **fácil** é página
+basicamente só de texto, **médio** tem algo a mais como uma tabela simples e
+**difícil** tem estrutura composta. Cada transcrição de cada sistema conta como
+uma observação da página, o que só é comparável se a cobertura for
+equilibrada — condição que a figura **mede e declara no subtítulo**, em vez de
+afirmar. A barra é
+a média e o traço claro sobre ela é a mediana, e a distância entre as duas diz
+se o grau é difícil para todos ou se poucos sistemas desabam nele. Uma imagem
+sem grau no nome fica de fora e a figura declara quantas foram.
+
 O `custo_n_paginas.png` projeta o custo medido por página para o tamanho de
-acervo declarado em `PAGINAS_DO_PROJETO`, em `bench/graficos.py`, em três
+acervo declarado em `PAGINAS_DO_PROJETO`, em `bench/graficos.py`, em quatro
 papéis:
-**melhor qualidade** (menor CER), **mais barato** (menor US$/página) e **melhor
-custo-benefício**, definido como `custo ÷ (1 − CER)`: o custo por página
-efetivamente aproveitável. Um modelo que custa metade mas erra o dobro não é
-mais barato. Quando o mesmo modelo ocupa dois papéis, os papéis aparecem juntos
-no rótulo — e isso é o achado: não há trade-off a discutir.
+**melhor qualidade** (menor CER), **mais barato** (menor US$/página), **melhor
+custo-benefício**, definido como `custo ÷ (1 − CER)` — o custo por página
+efetivamente aproveitável —, e **melhor gratuito** (menor CER entre os que não
+cobram). Um modelo que custa metade mas erra o dobro não é mais barato. Os dois
+últimos existem porque "de graça" e "o mais barato que se paga" são pisos
+diferentes, e a comparação entre eles é o que decide se vale abrir a carteira.
+Quando o mesmo modelo ocupa dois papéis, os papéis aparecem juntos no rótulo —
+e isso é o achado: não há trade-off a discutir.
 
 Três decisões que não são gosto:
 
 * **Nunca dois eixos y.** WER e CER cabem na mesma figura porque são a mesma
   unidade; custo e qualidade viram dispersão, não um segundo eixo.
+* **O sistema local tem cor própria, em todas as figuras.** Cinza, porque
+  rodar nesta máquina não é uma terceira categoria de licença — os MinerU são
+  `tipo: aberto` — e sim uma condição que muda o que os eixos significam: custo
+  por token não se aplica e o tempo mede esta GPU, não o modelo.
 * **As cores são verificadas, não escolhidas a olho.** Azul `#2a78d6` e laranja
   `#eb6834` passam nos testes de daltonismo (ΔE 24,7 em protanopia) e de
   contraste contra o fundo. E a cor nunca é a única pista: toda barra tem o
@@ -302,7 +366,8 @@ bench/runner.py        monta as chamadas, executa e grava
 bench/normalize.py     HTML/Markdown -> texto -> tokens comparáveis
 bench/metrics.py       WER, CER, num_f1, html_sem_texto_extra
 bench/score.py         aplica as métricas e escreve os dois CSV
-bench/graficos.py      as seis figuras
+bench/graficos.py      as sete figuras
+bench/relatorio.py     a tabela de resultados do relatorio.html
 bench/cli.py           check | run | score | graficos | all
 ```
 
