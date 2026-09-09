@@ -26,7 +26,7 @@ import csv
 from pathlib import Path
 from statistics import mean
 
-from .config import Settings, load_models, load_settings
+from .config import Settings, load_models, load_settings, motivos_de_exclusao
 from .dataset import discover_documents
 from .metrics import calcular
 from .normalize import prepare
@@ -141,7 +141,26 @@ def score_run(run_dir: Path, settings: Settings | None = None) -> Path:
 
     caminho = run_dir / METRICAS
     _escrever_csv(caminho, COLUNAS, linhas)
-    _escrever_csv(run_dir / RESUMO, *_resumir(linhas))
+
+    # Os dois CSV respondem a perguntas diferentes, e a exclusão só vale para um
+    # deles. O `metricas.csv` é a tabela de AUDITORIA: uma linha por chamada,
+    # todas, inclusive as de quem saiu da análise — foram pagas e continuam
+    # sendo evidência. O `resumo.csv` APRESENTA médias, e a média de um sistema
+    # que a análise dispensou não é resultado: era o que acontecia, com o
+    # `resumo.csv` publicando um CER que nenhuma figura mostrava.
+    #
+    # A regra mora em `config.motivos_de_exclusao`, a mesma que as figuras e a
+    # tabela do relatório aplicam — três números que se apresentam como o mesmo
+    # não podem responder a perguntas diferentes.
+    excluidos = motivos_de_exclusao()
+    do_resumo = [l for l in linhas if l.get("model_id") not in excluidos]
+    for model_id, motivo in sorted(excluidos.items()):
+        n = sum(1 for l in linhas if l.get("model_id") == model_id)
+        if n:
+            print(f"[score] {model_id} fora da análise ({n} chamada(s) ficam no "
+                  f"{METRICAS} mas não entram no {RESUMO}): {motivo}")
+    _escrever_csv(run_dir / RESUMO, *resumir(do_resumo))
+
     print(f"[score] {len(linhas)} chamada(s) avaliada(s) -> {caminho}")
     print(f"[score] resumo por modelo e prompt          -> {run_dir / RESUMO}")
     print(f"[score] normalizado.txt e referencia.txt gravados na pasta de cada chamada")
@@ -158,12 +177,23 @@ CHAVES_DO_RESUMO = ["empresa", "tipo", "model_id", "model_label", "prompt_id"]
 MEDIAS = ["wer", "cer", "num_f1", "cost_usd", "completion_tokens", "prompt_tokens", "latency_s"]
 
 
+def valida(linha: dict) -> bool:
+    """Respondeu e nao foi cortada — a unica condicao em que a qualidade e medivel.
+
+    Publica e usada tambem pelos graficos: a regra que separa CONFIABILIDADE de
+    QUALIDADE precisa ser a mesma no resumo, nas figuras e na tabela do
+    relatorio, senao tres numeros que se apresentam como o mesmo passam a
+    responder a perguntas diferentes.
+    """
+    return bool(linha.get("ok")) and not linha.get("truncated")
+
+
 def _media(valores: list) -> float | None:
     numeros = [v for v in valores if isinstance(v, (int, float))]
     return mean(numeros) if numeros else None
 
 
-def _resumir(
+def resumir(
     linhas: list[dict], chaves: list[str] | None = None
 ) -> tuple[list[str], list[dict]]:
     """Agrupa as chamadas e resume cada grupo.
@@ -180,7 +210,12 @@ def _resumir(
 
     colunas = chaves + [
         "n_chamadas", "n_sucesso", "taxa_sucesso", "n_truncadas", "taxa_truncamento",
-        "n_validas", "html_sem_texto_extra_taxa",
+        # `n_validas` conta CHAMADAS; `n_paginas`, PAGINAS distintas. Os dois so
+        # coincidem quando cada pagina foi medida uma vez. Com `repetitions > 1`,
+        # com mais de um prompt, ou com uma pagina remedida noutra execucao, eles
+        # divergem — e e `n_paginas` que responde "isto cobre o conjunto?", que e
+        # a pergunta que decide quem disputa um superlativo.
+        "n_validas", "n_paginas", "html_sem_texto_extra_taxa",
     ] + [f"{m}_media" for m in MEDIAS]
 
     resumo = []
@@ -189,7 +224,9 @@ def _resumir(
         sucesso = [g for g in grupo if g.get("ok")]
         truncadas = [g for g in grupo if g.get("truncated")]
         # Qualidade só sobre o que dá para medir: respondeu e não foi cortada.
-        validas = [g for g in sucesso if not g.get("truncated")]
+        # Sai de `grupo`, e não de `sucesso`: `valida` já testa `ok`, e filtrar
+        # duas vezes sugeria que as duas condições eram independentes.
+        validas = [g for g in grupo if valida(g)]
         linha = dict(zip(chaves, chave))
         linha.update(
             {
@@ -199,6 +236,7 @@ def _resumir(
                 "n_truncadas": len(truncadas),
                 "taxa_truncamento": len(truncadas) / n,
                 "n_validas": len(validas),
+                "n_paginas": len({g.get("doc_id") for g in validas if g.get("doc_id")}),
                 # Só entram as chamadas em que a instrução foi de fato dada; as
                 # do prompt sentinela têm a coluna vazia e ficam de fora, senão
                 # o MinerU apareceria com 0% de obediência a uma ordem que

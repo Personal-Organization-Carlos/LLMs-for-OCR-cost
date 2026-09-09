@@ -67,6 +67,9 @@ def num_f1(ref: NormalizedDoc, hyp: NormalizedDoc) -> dict:
 
     A comparação é por multiconjunto, não por posição: interessa se os valores
     da página foram recuperados, não onde foram parar.
+
+    Numa página SEM número nenhum na referência a medida não se aplica e
+    `num_f1` sai vazio — ver abaixo.
     """
     numeros_ref = Counter(_NUM_RE.findall(ref.normalized))
     numeros_hyp = Counter(_NUM_RE.findall(hyp.normalized))
@@ -75,8 +78,19 @@ def num_f1(ref: NormalizedDoc, hyp: NormalizedDoc) -> dict:
     n_hyp = sum(numeros_hyp.values())
     acertos = sum((numeros_ref & numeros_hyp).values())
 
+    # Referência sem número nenhum: não há o que recuperar, e a medida NÃO SE
+    # APLICA. Devolver 0,0 aqui dava nota zero a todos os sistemas — inclusive
+    # a quem acertou justamente por não inventar número que a página não tem —
+    # e essa nota entrava na média do modelo como se fosse falha de
+    # transcrição. Vazio é o que a coluna significa ali, exatamente como
+    # `html_sem_texto_extra` sob o prompt sentinela.
+    if not n_ref:
+        return {"num_n_ref": 0, "num_n_hyp": n_hyp, "num_acertos": 0, "num_f1": None}
+
     precisao = acertos / n_hyp if n_hyp else 0.0
-    revocacao = acertos / n_ref if n_ref else 0.0
+    revocacao = acertos / n_ref
+    # Referência COM números e hipótese sem nenhum continua sendo 0,0, e está
+    # certo: o sistema não recuperou nada.
     f1 = 2 * precisao * revocacao / (precisao + revocacao) if (precisao + revocacao) else 0.0
 
     return {"num_n_ref": n_ref, "num_n_hyp": n_hyp, "num_acertos": acertos, "num_f1": f1}

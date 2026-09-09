@@ -3,7 +3,7 @@
     python -m bench check    confere dataset, modelos, prompts e chaves
     python -m bench run      faz as chamadas e grava as respostas
     python -m bench score    calcula as métricas de uma execução
-    python -m bench graficos gera as figuras sobre todas as execuções
+    python -m bench graficos gera as figuras e a tabela do relatório
     python -m bench all      run + score + gráficos
 """
 
@@ -83,6 +83,14 @@ def cmd_check(args) -> int:  # noqa: ANN001
     settings = load_settings()
     config = _config(args)
     ativos = set(settings.active_documents)
+    # Tres estados, e o registro agora traz os tres. Habilitado: chamado e
+    # contado. Fora da analise (`excluido`): nao chamado e nao contado, mas as
+    # medicoes que ja produziu continuam no disco. Desabilitado
+    # (`enabled: false`): so "nao chame". Os desabilitados eram invisiveis aqui,
+    # o que fazia um registro de tres estados se apresentar como de um.
+    habilitados = [m for m in config.models if m.enabled and not m.excluido]
+    excluidos = [m for m in config.models if m.enabled and m.excluido]
+    desabilitados = [m for m in config.models if not m.enabled]
 
     print(f"Raiz do projeto : {project_root()}")
     print(f"Dataset         : {settings.dataset_root}")
@@ -93,12 +101,24 @@ def cmd_check(args) -> int:  # noqa: ANN001
         marca = "[ativo]" if not ativos or doc.doc_id in ativos else "[  -  ]"
         print(f"  {marca} {doc.doc_id:22s} imagem={doc.image_path.name}")
 
-    print(f"\nModelos habilitados ({len(config.models)}):")
-    for modelo in config.models:
+    print(f"\nModelos habilitados ({len(habilitados)}):")
+    for modelo in habilitados:
         print(f"  - {modelo.id:42s} {modelo.empresa:12s} {modelo.tipo:8s} via {modelo.provider}")
+    if excluidos:
+        print(f"\nFora da análise ({len(excluidos)}) — não são chamados e não entram "
+              f"em figura, tabela nem resumo.csv; o que já mediram fica no disco:")
+        for modelo in excluidos:
+            print(f"  - {modelo.id}\n      {modelo.excluido}")
+    if desabilitados:
+        print(f"\nDesabilitados ({len(desabilitados)}) — `enabled: false`, não são chamados:")
+        for modelo in desabilitados:
+            fora = f"\n      também fora da análise: {modelo.excluido}" if modelo.excluido else ""
+            print(f"  - {modelo.id}{fora}")
     print(f"\nPrompts habilitados : {[p.id for p in config.prompts]}")
 
-    provedores = {m.provider for m in config.models}
+    # Só os que vão ser de fato chamados: cobrar a chave de um provedor cujo
+    # único modelo está desabilitado seria pedir credencial para nada.
+    provedores = {m.provider for m in habilitados}
     print("\nChaves de API:")
     for rotulo, chave, provedor in (
         ("OPENROUTER_API_KEY", settings.api_key, "openrouter"),
@@ -127,7 +147,7 @@ def _conferir_hospedagem(config: Config) -> int:  # noqa: ANN001
     que é a segunda metade do que a tag fixa e a que passa despercebida com mais
     facilidade. O catálogo de endpoints é público e não consome cota.
     """
-    fixados = [m for m in config.models if m.endpoint_tag]
+    fixados = [m for m in config.models if m.endpoint_tag and m.enabled and not m.excluido]
     if not fixados:
         return 0
 
@@ -137,8 +157,13 @@ def _conferir_hospedagem(config: Config) -> int:  # noqa: ANN001
     problemas = 0
     for modelo in fixados:
         try:
+            # `remote_id`, e nao `id`: o catalogo conhece o modelo pelo nome que
+            # o provedor usa. Quando os dois diferem — um mesmo modelo inscrito
+            # duas vezes no estudo, uma por via — consultar pelo `id` devolve
+            # uma lista vazia e o check acusa "NAO EXISTE" para uma tag correta.
             resposta = requests.get(
-                f"https://openrouter.ai/api/v1/models/{modelo.id}/endpoints", timeout=30
+                f"https://openrouter.ai/api/v1/models/{modelo.remote_id}/endpoints",
+                timeout=30,
             )
             endpoints = (resposta.json().get("data") or {}).get("endpoints") or []
         except Exception as exc:  # noqa: BLE001 - sem rede, isto é aviso, não erro
@@ -184,9 +209,14 @@ def cmd_run(args) -> int:  # noqa: ANN001
     else:
         run_dir = settings.results_dir / new_run_id()
 
+    # Derivada das tasks, e não do produto das listas de entrada: a igualdade
+    # "modelos x documentos x repetições" é falsa sempre que há MinerU (que só
+    # roda sob o prompt sentinela) ou um sistema que não vai ser chamado.
+    modelos_chamados = {t.model.id for t in tasks}
     print(
-        f"[run] {len(config.models)} modelo(s) x {len(documentos)} documento(s) x "
-        f"{repeticoes} repetição(ões) = {len(tasks)} chamada(s)"
+        f"[run] {len(tasks)} chamada(s): {len(modelos_chamados)} modelo(s) x "
+        f"{len(documentos)} documento(s) x {repeticoes} repetição(ões), "
+        f"já descontados os prompts que não se aplicam"
     )
     if args.dry_run:
         for task in tasks:
@@ -243,13 +273,17 @@ def cmd_score(args) -> int:  # noqa: ANN001
 
 def cmd_graficos(args) -> int:  # noqa: ANN001
     from .graficos import build_graficos
+    from .relatorio import atualizar_relatorio
 
-    build_graficos(load_settings(), run_ids=args.run_ids)
+    settings = load_settings()
+    build_graficos(settings, run_ids=args.run_ids)
+    atualizar_relatorio(settings, run_ids=args.run_ids)
     return 0
 
 
 def cmd_all(args) -> int:  # noqa: ANN001
     from .graficos import build_graficos
+    from .relatorio import atualizar_relatorio
     from .score import score_run
 
     codigo = cmd_run(args)
@@ -260,6 +294,9 @@ def cmd_all(args) -> int:  # noqa: ANN001
     score_run(run_dir, settings)
     # Os gráficos são de TODAS as execuções, não só da que acabou de rodar.
     build_graficos(settings)
+    # E a tabela do relatório junto, como em `cmd_graficos`: sem isto um `all`
+    # deixa as figuras novas ao lado de uma tabela velha, sem avisar.
+    atualizar_relatorio(settings)
     return 0
 
 

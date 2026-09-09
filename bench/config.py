@@ -63,6 +63,19 @@ class ModelSpec:
     # Teto de chamadas por minuto para este modelo.
     rpm_limit: float | None = None
 
+    # Motivo pelo qual este sistema saiu da ANALISE, ou None se esta nela.
+    #
+    # Excluir e diferente de desabilitar. `enabled: false` diz "nao chame";
+    # `excluido` diz "nao conte" — o sistema nao e chamado, nao aparece em
+    # figura nem em tabela, e as medicoes que ele ja produziu continuam no
+    # disco, intactas, porque custaram dinheiro e continuam sendo evidencia.
+    #
+    # O campo guarda o MOTIVO, e nao um booleano, de proposito: "por que este
+    # sistema nao esta nos resultados?" e uma pergunta que um leitor vai fazer,
+    # e a resposta tem que morar junto do sistema e nao na memoria de quem
+    # tomou a decisao.
+    excluido: str | None = None
+
     # "none" | "minimal" | "low" | "medium" | "high" | "max". Só é enviado
     # quando declarado: nos modelos que raciocinam por padrão, os tokens de
     # pensamento são cobrados como saída e distorcem o custo por página.
@@ -156,10 +169,18 @@ def load_settings(path: Path | None = None) -> Settings:
 
 
 def load_models(path: Path | None = None) -> list[ModelSpec]:
-    """Lê models.yaml validando na carga.
+    """Lê models.yaml validando na carga, e devolve o registro COMO ESCRITO.
 
     A validação é aqui, e não no meio de uma execução paga: um `tipo` errado ou
     um MinerU sem backend declarado devem falhar no `check`.
+
+    Nada é filtrado aqui — nem `enabled: false`, nem `excluido`. Quem decide o
+    que fazer com cada estado é quem chama: `runner.build_tasks` não chama os
+    desabilitados nem os excluídos, e a análise (`score`, `graficos`) não conta
+    os excluídos. Filtrar na carga desligava a exclusão em silêncio: um modelo
+    marcado `excluido` E `enabled: false` sumia do registro, e as linhas que ele
+    já tinha produzido voltavam para as figuras como se fossem de um sistema
+    desconhecido, sem ninguém para explicar o que eram.
     """
     path = path or project_root() / "config" / "models.yaml"
     entradas = (_ler_yaml(path) or {}).get("models") or []
@@ -204,11 +225,30 @@ def load_models(path: Path | None = None) -> list[ModelSpec]:
                 preco_entrada_usd_mtok=_float_ou_none(entrada.get("preco_entrada_usd_mtok")),
                 preco_saida_usd_mtok=_float_ou_none(entrada.get("preco_saida_usd_mtok")),
                 rpm_limit=_float_ou_none(entrada.get("rpm_limit")),
+                excluido=(str(entrada["excluido"]).strip()
+                          if entrada.get("excluido") else None),
                 reasoning_effort=entrada.get("reasoning_effort"),
                 backend_options=backend_options,
             )
         )
-    return [m for m in modelos if m.enabled]
+    return modelos
+
+
+def motivos_de_exclusao(modelos: list[ModelSpec] | None = None) -> dict[str, str]:
+    """`model_id` -> motivo, para os sistemas que saíram da ANÁLISE.
+
+    Uma regra num lugar só. Ela decide quem fica de fora do `resumo.csv`, das
+    figuras e da tabela do relatório — três números que se apresentam como o
+    mesmo e que, com a regra duplicada, passariam a responder a perguntas
+    diferentes. Foi o que aconteceu: a exclusão valia nas figuras e não no
+    `score`, e o `resumo.csv` publicava a média de um sistema que a análise já
+    tinha dispensado.
+
+    Excluir não é apagar: as medições continuam no `chamadas.jsonl`, nas pastas
+    de chamada e no `metricas.csv`, que é a tabela de auditoria. O que a
+    exclusão tira é o direito de virar média apresentada.
+    """
+    return {m.id: m.excluido for m in (modelos or load_models()) if m.excluido}
 
 
 def load_prompts(path: Path | None = None) -> list[PromptSpec]:

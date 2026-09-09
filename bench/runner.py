@@ -91,6 +91,19 @@ def build_tasks(
     prompts: list[PromptSpec],
     repeticoes: int,
 ) -> list[Task]:
+    # `load_models` devolve o registro inteiro; é aqui que os dois estados que
+    # impedem uma chamada são aplicados. `enabled: false` diz "não chame";
+    # `excluido` diz "não conte" — e um sistema que ninguém vai contar também
+    # não vale ser pago, então nenhum dos dois é chamado.
+    #
+    # Nenhum dos dois em silêncio: quem lê a saída do `run` precisa ver por que
+    # um sistema que está no registro não apareceu na execução.
+    for modelo in modelos:
+        if not modelo.enabled:
+            print(f"[run] {modelo.id} desabilitado, não será chamado.")
+        elif modelo.excluido:
+            print(f"[run] {modelo.id} fora da análise, não será chamado: {modelo.excluido}")
+    modelos = [m for m in modelos if m.enabled and not m.excluido]
     return [
         Task(model=modelo, document=doc, prompt=prompt, repetition=rep)
         for modelo in modelos

@@ -78,7 +78,7 @@ class Resultado:
 
     # A resposta como ela chegou, sem interpretação — uma entrada por TENTATIVA,
     # na ordem em que aconteceram. Não entra no `chamadas.jsonl`: vai inteira
-    # para `raw/<modelo>/<chamada>.json`.
+    # para `chamadas/<modelo>/<doc>__<prompt>__r<n>/bruto.json`.
     #
     # Guardar isto é assimétrico e por isso vale a pena: o disco é barato e a
     # chamada não. Todo campo que o `Resultado` não extrai — tokens nativos,
@@ -93,8 +93,9 @@ class Resultado:
     def to_record(self) -> dict:
         """Linha do `chamadas.jsonl`.
 
-        Sem o texto (que vai para `outputs/`) e sem as respostas brutas (que vão
-        para `raw/`): os dois são grandes e tornariam o JSONL ilegível.
+        Sem o texto (que vai para `resposta.<ext>`, na pasta da chamada) e sem
+        as respostas brutas (que vão para `bruto.json`, na mesma pasta): os
+        dois são grandes e tornariam o JSONL ilegível.
         """
         registro = asdict(self)
         registro.pop("text", None)
