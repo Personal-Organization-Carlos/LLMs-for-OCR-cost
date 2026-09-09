@@ -1,11 +1,12 @@
-"""Seis figuras sobre TODAS as chamadas já coletadas.
+"""Sete figuras sobre TODAS as chamadas já coletadas.
 
     cer_wer_por_modelo.png      erro por caractere e por palavra, ordenado pelo CER
     num_f1_por_modelo.png       fidelidade dos números
     custo_beneficio.png         CER x custo por página — onde cada sistema cai
-    custo_n_paginas.png         a conta em dinheiro do acervo, em três cenários
+    custo_n_paginas.png         a conta em dinheiro do acervo, em quatro papéis
     tempo_do_acervo.png         a conta em tempo do acervo, modelo a modelo
     html_sem_texto_extra.png    obediência ao "retorne apenas o código HTML"
+    erro_por_dificuldade.png    quanto a complexidade da página custa em erro
 
 Os gráficos agregam **todas as execuções**, não a última: cada linha de
 `metricas.csv` é uma chamada, e as chamadas de um mesmo modelo entram na mesma
@@ -25,14 +26,19 @@ Decisões de desenho que não são gosto:
   a legenda está sempre presente quando há duas séries.
 * **O texto nunca veste a cor da série** — rótulos e valores ficam em tinta
   neutra; quem carrega a identidade é a barra ao lado.
-* **`n=` no rótulo de quem tem menos evidência.** Um modelo medido em 1 página
-  não pode ser lido como um medido em 16, e a figura precisa dizer isso sem
-  nota de rodapé.
+* **`n=` no rótulo de TODOS, e em páginas.** Um modelo medido em 1 página não
+  pode ser lido como um medido em 16, e a figura precisa dizer isso sem nota de
+  rodapé. Marcar só quem tem pouco deixaria implícito que os demais são
+  comparáveis entre si; o número é de páginas distintas, não de chamadas.
+* **Superlativo só entre quem cobriu o conjunto.** "Melhor qualidade" apoiado
+  numa página não é a mesma afirmação que apoiado em dezesseis, e é a figura de
+  projeção — a que vira dinheiro — que mais sofre com a confusão.
 """
 
 from __future__ import annotations
 
 import csv
+from collections import defaultdict
 from pathlib import Path
 
 import matplotlib
@@ -40,8 +46,10 @@ import matplotlib
 matplotlib.use("Agg")  # sem janela: só arquivos
 import matplotlib.pyplot as plt  # noqa: E402
 
-from .config import Settings, load_settings  # noqa: E402
-from .score import METRICAS, _resumir  # noqa: E402
+from .config import Settings, load_models, load_settings, motivos_de_exclusao  # noqa: E402
+from .dataset import ORDEM_DE_DIFICULDADE, discover_documents  # noqa: E402
+from .formato import pt, usd  # noqa: E402
+from .score import METRICAS, resumir, valida  # noqa: E402
 
 
 AZUL, LARANJA = "#2a78d6", "#eb6834"      # aberto / fechado
@@ -99,8 +107,82 @@ def _converter(linha: dict) -> dict:
     return convertida
 
 
-def carregar_chamadas(settings: Settings, run_ids: list[str] | None = None) -> list[dict]:
-    """Junta o `metricas.csv` de todas as execuções (ou das indicadas)."""
+# A identidade de uma chamada dentro do desenho experimental. Duas linhas com
+# esta mesma chave sao a MESMA celula medida duas vezes, e nao duas evidencias.
+_CHAVE_DA_CHAMADA = ("model_id", "doc_id", "prompt_id", "repetition")
+
+
+def _deduplicar(linhas: list[dict]) -> tuple[list[dict], int]:
+    """Uma linha por celula do desenho: modelo x pagina x prompt x repeticao.
+
+    Uma execucao interrompida e retomada, ou simplesmente refeita, grava a mesma
+    pagina de novo. Empilhar os `metricas.csv` sem isto faz essa pagina pesar
+    duas vezes na media do modelo — e o peso passa a refletir quantas vezes ela
+    foi remedida, que nao e propriedade do modelo nem do documento.
+
+    Vence a medicao mais recente ENTRE AS VALIDAS. O `entre as validas` importa:
+    remede-se justamente o que falhou, entao a ordem crua faria uma falha
+    posterior apagar o sucesso que ela veio consertar. Quando nenhuma e valida,
+    fica a mais recente, para a falha continuar visivel nas taxas.
+
+    As linhas chegam na ordem das execucoes, que sao lidas em ordem de
+    timestamp: a ultima de cada grupo e a mais nova.
+    """
+    grupos: dict[tuple, list[dict]] = {}
+    for linha in linhas:
+        grupos.setdefault(tuple(linha.get(c) for c in _CHAVE_DA_CHAMADA), []).append(linha)
+    escolhidas = [
+        next((l for l in reversed(grupo) if valida(l)), grupo[-1])
+        for grupo in grupos.values()
+    ]
+    return escolhidas, len(linhas) - len(escolhidas)
+
+
+def _reconciliar(linhas: list[dict]) -> list[dict]:
+    """Confronta os `model_id` medidos com o registro, e aplica as exclusoes.
+
+    Duas situacoes diferentes, tratadas de modo diferente de proposito:
+
+    ORFAO — o `model_id` nao esta em `models.yaml`. Os CSV sao um historico e
+    guardam sistemas renomeados ou retirados do registro; sem a conferencia um
+    orfao entra nas figuras como se fosse mais um sistema do estudo e ninguem
+    tem onde ler o que ele e. Aqui nada e removido, so AVISADO: ninguem decidiu
+    nada, e provavelmente foi um acidente de renome que alguem precisa olhar.
+
+    EXCLUIDO — o sistema esta no registro e declara um motivo para estar fora da
+    analise. Aqui alguem decidiu, o motivo esta escrito, e as linhas saem das
+    figuras, da tabela e do `resumo.csv`. As medicoes seguem no disco: sair da
+    analise nao e deixar de ter existido.
+
+    A regra da exclusao NAO mora aqui: mora em `config.motivos_de_exclusao`, e e
+    a mesma que o `score` aplica ao montar o `resumo.csv`. Enquanto ela existia
+    so neste arquivo, o resumo publicava a media de um sistema que nenhuma
+    figura mostrava.
+    """
+    registro = {m.id: m for m in load_models()}
+    orfaos = sorted({l["model_id"] for l in linhas if l.get("model_id") not in registro})
+    if orfaos:
+        print(f"[graficos] AVISO: {len(orfaos)} model_id fora de models.yaml, "
+              f"presente(s) nas figuras sem registro que os descreva: {orfaos}")
+
+    excluidos = motivos_de_exclusao(list(registro.values()))
+    if not excluidos:
+        return linhas
+    mantidas = [l for l in linhas if l["model_id"] not in excluidos]
+    for model_id, motivo in sorted(excluidos.items()):
+        n = sum(1 for l in linhas if l["model_id"] == model_id)
+        if n:
+            print(f"[graficos] {model_id} fora da análise ({n} chamada(s) "
+                  f"não entram nas figuras): {motivo}")
+    return mantidas
+
+
+def execucoes_avaliadas(settings: Settings, run_ids: list[str] | None = None) -> list[Path]:
+    """As execuções que já têm `metricas.csv`, em ordem cronológica.
+
+    O `run_id` é `%Y%m%d-%H%M%S`, então ordem alfabética É ordem de tempo — e é
+    disso que o `_deduplicar` depende para saber qual medição é a mais recente.
+    """
     raiz = settings.results_dir
     execucoes = sorted(p for p in raiz.iterdir() if p.is_dir() and (p / METRICAS).exists()) \
         if raiz.is_dir() else []
@@ -114,27 +196,78 @@ def carregar_chamadas(settings: Settings, run_ids: list[str] | None = None) -> l
         raise FileNotFoundError(
             f"Nenhuma execução avaliada em {raiz}. Rode `run` e depois `score`."
         )
+    return execucoes
 
+
+def carregar_brutas(
+    settings: Settings, run_ids: list[str] | None = None
+) -> tuple[list[dict], list[Path]]:
+    """Todas as linhas dos `metricas.csv`, SEM deduplicar e SEM excluir.
+
+    Responde "quantas chamadas foram feitas e quanto custaram" — que é a
+    pergunta do cabeçalho do relatório, e não a das figuras. As duas contagens
+    são legitimamente diferentes: aqui conta-se dinheiro gasto, então uma
+    remedição é mais uma chamada paga e um sistema fora da análise continua
+    tendo custado. As figuras precisam do oposto — uma linha por célula do
+    desenho, sem os excluídos —, e é o que `carregar_chamadas` entrega.
+    """
+    execucoes = execucoes_avaliadas(settings, run_ids)
     linhas: list[dict] = []
     for execucao in execucoes:
         with open(execucao / METRICAS, encoding="utf-8-sig") as fh:
             linhas.extend(_converter(l) for l in csv.DictReader(fh))
+    return linhas, execucoes
+
+
+def carregar_chamadas(settings: Settings, run_ids: list[str] | None = None) -> list[dict]:
+    """Junta o `metricas.csv` de todas as execuções (ou das indicadas)."""
+    linhas, execucoes = carregar_brutas(settings, run_ids)
+    linhas, repetidas = _deduplicar(linhas)
     print(f"[graficos] {len(linhas)} chamada(s) de {len(execucoes)} execução(ões): "
           f"{', '.join(p.name for p in execucoes)}")
-    return linhas
+    if repetidas:
+        print(f"[graficos] {repetidas} remedição(ões) descartada(s): a mesma página "
+              f"medida mais de uma vez pelo mesmo sistema, mantida a mais recente válida")
+    return _reconciliar(linhas)
 
 
-def _por_modelo(linhas: list[dict]) -> list[dict]:
-    """Uma linha por modelo, agregando as chamadas de todas as execuções."""
-    _, resumo = _resumir(
+def por_modelo(linhas: list[dict], total_de_paginas: int) -> list[dict]:
+    """Uma linha por modelo, agregando as chamadas de todas as execuções.
+
+    Marca tambem a COBERTURA, que e a mesma regra para as figuras e para a
+    tabela do relatorio: um sistema so esta completo quando mediu todas as
+    paginas do conjunto. Ter a regra num lugar so e o que impede o caso em que
+    a tabela marca um sistema como `parcial` e a figura, gerada pelo mesmo
+    comando e dos mesmos dados, lhe da um superlativo.
+
+    A contagem e de PAGINAS distintas, nao de chamadas: comparar um numero de
+    chamadas com um numero de documentos daria "completo" a quem mediu metade
+    do conjunto duas vezes.
+    """
+    _, resumo = resumir(
         linhas, ["model_id", "model_label", "tipo", "empresa", "api_provider"]
     )
     for r in resumo:
         # O `n` aparece em TODOS os rótulos, não só nos poucos: marcar apenas
         # quem tem menos deixaria implícito que os demais são comparáveis entre
         # si, e a média de 16 páginas não é a mesma coisa que a de 1.
-        r["rotulo"] = f"{r['model_label']} (n={r['n_validas']})"
+        #
+        # E conta PAGINAS, nao chamadas: todo o texto do projeto le este numero
+        # como pagina, e uma pagina remedida nao e uma pagina a mais.
+        r["rotulo"] = f"{r['model_label']} (n={r['n_paginas']})"
+        r["completo"] = r["n_paginas"] >= total_de_paginas
     return [r for r in resumo if r["n_validas"]]
+
+
+def _completos(dados: list[dict]) -> list[dict]:
+    """Os sistemas que podem disputar um superlativo, ou todos se nenhum pode.
+
+    Devolver a lista inteira quando ninguem tem cobertura completa e deliberado:
+    no comeco de um estudo ninguem tem, e uma figura vazia esconderia o que ja
+    foi medido. Quem chama e obrigado a dizer na figura que a disputa foi entre
+    parciais — ver o subtitulo de `_grafico_projecao`.
+    """
+    return [d for d in dados if d["completo"]] or dados
 
 
 # --------------------------------------------------------------------------
@@ -184,6 +317,19 @@ def _e_local(linha: dict) -> bool:
     return linha.get("api_provider") == "mineru"
 
 
+def _cor(linha: dict) -> str:
+    """A cor de um sistema, a MESMA em todas as figuras.
+
+    O local tem cor propria porque nao e uma terceira categoria de licenca — os
+    MinerU sao `tipo: aberto` — e sim uma condicao que muda o que os eixos
+    significam: custo por token nao se aplica e o tempo mede esta GPU. Antes
+    esta regra existia so em duas das quatro figuras que pintam barras, e o
+    mesmo MinerU aparecia cinza numa e azul na outra, como se tivesse mudado de
+    categoria entre uma pagina e a seguinte.
+    """
+    return CINZA if _e_local(linha) else COR_POR_TIPO.get(linha["tipo"], CINZA)
+
+
 def _legenda_por_tipo(ax, linhas: list[dict], com_local: bool = False,  # noqa: ANN001
                      loc: str = "upper right", rotulo_local: str = "local") -> None:
     """Legenda das cores presentes, sem inventar entrada que não aparece.
@@ -229,19 +375,12 @@ def _salvar(fig, caminho: Path) -> Path:  # noqa: ANN001
     return caminho
 
 
-def _pt(valor: float, casas: int = 3) -> str:
-    """Número em português: vírgula decimal, ponto de milhar."""
-    return f"{valor:,.{casas}f}".replace(",", "\x00").replace(".", ",").replace("\x00", ".")
-
-
-def _usd(valor: float, casas: int = 2) -> str:
-    r"""Valor em dólar, com o cifrão escapado.
-
-    Entre dois `$` o matplotlib entra em modo fórmula: "US$ 383 · US$ 0,0038"
-    saía em itálico matemático, como se fosse uma equação. A barra invertida
-    desliga a interpretação.
-    """
-    return rf"US\$ {_pt(valor, casas)}"
+def _mediana(ordenados: list[float]) -> float:
+    """Mediana de uma lista JÁ ordenada."""
+    meio = len(ordenados) // 2
+    if len(ordenados) % 2:
+        return ordenados[meio]
+    return (ordenados[meio - 1] + ordenados[meio]) / 2
 
 
 # --------------------------------------------------------------------------
@@ -258,7 +397,8 @@ def _grafico_cer_wer(dados: list[dict], destino: Path) -> Path | None:
     fig, ax = _figura(len(linhas))
     posicoes = range(len(linhas))
 
-    maior = max(max(d["cer_media"], d["wer_media"] or 0) for d in linhas)
+    medidos = [v for d in linhas for v in (d["cer_media"], d["wer_media"]) if v is not None]
+    maior = max(medidos)
     limite = min(maior * 1.15, TETO_DE_ERRO)
     cortou = maior > limite
 
@@ -266,18 +406,26 @@ def _grafico_cer_wer(dados: list[dict], destino: Path) -> Path | None:
         (0.20, "cer_media", VERDE, "CER (caractere)"),
         (-0.20, "wer_media", VIOLETA, "WER (palavra)"),
     ):
-        valores = [d[campo] or 0.0 for d in linhas]
-        ax.barh([p + deslocamento for p in posicoes], [min(v, limite) for v in valores],
+        # Sem `or 0.0`: nao medido nao e erro zero. Zero e falso em Python, e
+        # trocar ausencia por zero desenharia uma barra vazia com o rotulo
+        # "0,000" — que se le como transcricao perfeita, exatamente o oposto do
+        # que o dado diz. E a mesma armadilha que `_ordenar_por` documenta.
+        valores = [d[campo] for d in linhas]
+        presentes = [(p, v) for p, v in zip(posicoes, valores) if v is not None]
+        ax.barh([p + deslocamento for p, _ in presentes],
+                [min(v, limite) for _, v in presentes],
                 height=0.36, color=cor, label=nome)
         for p, valor in zip(posicoes, valores):
-            if valor > limite:
+            if valor is None:
+                _rotulo_na_ponta(ax, 0.0, p + deslocamento, "sem dado")
+            elif valor > limite:
                 ax.plot(limite, p + deslocamento, marker=">", markersize=7,
                         color=cor, clip_on=False)
-                ax.annotate(_pt(valor), xy=(limite, p + deslocamento), xytext=(12, 0),
+                ax.annotate(pt(valor), xy=(limite, p + deslocamento), xytext=(12, 0),
                             textcoords="offset points", va="center",
                             color=TINTA_FRACA, fontsize=8.5, annotation_clip=False)
             else:
-                _rotulo_na_ponta(ax, valor, p + deslocamento, _pt(valor))
+                _rotulo_na_ponta(ax, valor, p + deslocamento, pt(valor))
 
     ax.set_yticks(list(posicoes), [d["rotulo"] for d in linhas])
     _faixas(ax, len(linhas))
@@ -286,7 +434,7 @@ def _grafico_cer_wer(dados: list[dict], destino: Path) -> Path | None:
     ax.legend(frameon=False, fontsize=9, labelcolor=TINTA_FRACA, loc="upper right")
     _titulo(ax, "Erro de transcrição por modelo",
             "ordenado pelo CER · menor é melhor"
-            + (f" · acima de {_pt(limite, 1)} a barra é cortada" if cortou else ""))
+            + (f" · acima de {pt(limite, 1)} a barra é cortada" if cortou else ""))
     return _salvar(fig, destino / "cer_wer_por_modelo.png")
 
 
@@ -301,16 +449,15 @@ def _grafico_num_f1(dados: list[dict], destino: Path) -> Path | None:
     linhas.sort(key=lambda d: d["num_f1_media"])
     fig, ax = _figura(len(linhas))
     valores = [d["num_f1_media"] for d in linhas]
-    ax.barh(range(len(linhas)), valores, height=0.35,
-            color=[COR_POR_TIPO.get(d["tipo"], CINZA) for d in linhas])
+    ax.barh(range(len(linhas)), valores, height=0.35, color=[_cor(d) for d in linhas])
     for i, valor in enumerate(valores):
-        _rotulo_na_ponta(ax, valor, i, _pt(valor))
+        _rotulo_na_ponta(ax, valor, i, pt(valor))
     ax.set_yticks(range(len(linhas)), [d["rotulo"] for d in linhas])
     _faixas(ax, len(linhas))
     ax.set_xlabel("F1 dos valores numéricos (1 = todos recuperados)",
                   color=TINTA_FRACA, fontsize=9)
     ax.set_xlim(0, 1.08)
-    _legenda_por_tipo(ax, linhas, loc="lower right")
+    _legenda_por_tipo(ax, linhas, com_local=True, loc="lower right")
     _titulo(ax, "Fidelidade dos números",
             "réis, datas, números de processo · maior é melhor")
     return _salvar(fig, destino / "num_f1_por_modelo.png")
@@ -360,11 +507,20 @@ def _grafico_custo_beneficio(dados: list[dict], destino: Path) -> Path | None:
         return None
     fig, ax = _dispersao()
 
-    for tipo, cor in (("aberto", AZUL), ("fechado", LARANJA)):
-        grupo = [d for d in linhas if d["tipo"] == tipo]
-        if grupo:
-            ax.scatter([d["cost_usd_media"] for d in grupo], [d["cer_media"] for d in grupo],
-                       s=90, color=cor, edgecolors=FUNDO, linewidths=2, label=tipo, zorder=3)
+    # Os de cobertura parcial ficam na figura — o dado existe — mas vazados: um
+    # ponto medido numa pagina nao pode ter o mesmo peso visual de um medido em
+    # dezesseis, e o canto inferior esquerdo e justamente onde o olho procura o
+    # vencedor.
+    for completo in (True, False):
+        grupo = [d for d in linhas if bool(d["completo"]) is completo]
+        if not grupo:
+            continue
+        ax.scatter(
+            [d["cost_usd_media"] for d in grupo], [d["cer_media"] for d in grupo],
+            s=90, zorder=3, linewidths=2,
+            color=[_cor(d) for d in grupo] if completo else "none",
+            edgecolors=FUNDO if completo else [_cor(d) for d in grupo],
+        )
     # Cada ponto é um sistema: sem o nome ao lado, a figura não se lê.
     for d in linhas:
         ax.annotate(d["rotulo"], xy=(d["cost_usd_media"], d["cer_media"]), xytext=(8, 3),
@@ -374,14 +530,11 @@ def _grafico_custo_beneficio(dados: list[dict], destino: Path) -> Path | None:
     ax.set_xlim(-maior_custo * 0.06 - 0.0005, maior_custo * 1.30)
     ax.set_xlabel(r"custo por página (US\$)", color=TINTA_FRACA, fontsize=9)
     ax.set_ylabel("CER", color=TINTA_FRACA, fontsize=9)
-    ax.legend(frameon=False, loc="best", fontsize=9, labelcolor=TINTA_FRACA)
+    _legenda_por_tipo(ax, linhas, com_local=True, loc="best",
+                      rotulo_local="local (sem custo por token)")
 
-    pagos = [d for d in linhas if d["cost_usd_media"]]
-    subtitulo = "canto inferior esquerdo é o melhor negócio"
-    if pagos:
-        melhor = min(pagos, key=_ordenar_por(custo_por_pagina_correta))
-        subtitulo += f" · melhor custo por página correta entre os pagos, {melhor['model_label']}"
-    _titulo(ax, "Custo-benefício: erro x preço", subtitulo)
+    _titulo(ax, "Custo-benefício: erro x preço",
+            "canto inferior esquerdo é o melhor custo benefício")
     return _salvar(fig, destino / "custo_beneficio.png")
 
 
@@ -392,15 +545,21 @@ def _grafico_custo_beneficio(dados: list[dict], destino: Path) -> Path | None:
 def escolher_cenarios(dados: list[dict]) -> list[tuple[str, dict]]:
     """Os modelos que respondem à pergunta de orçamento.
 
-    São cinco papéis, e um mesmo modelo pode ocupar mais de um. Quando ocupa,
+    São QUATRO papéis, e um mesmo modelo pode ocupar mais de um. Quando ocupa,
     isso é o achado: significa que ali não há trade-off a discutir.
 
     Os dois últimos existem porque "de graça" e "o mais barato que se paga" são
     dois pisos diferentes, e a comparação entre eles é o que decide se vale
     abrir a carteira.
+
+    So disputam os sistemas com COBERTURA COMPLETA. E a figura que vira dinheiro:
+    ela multiplica o custo medido por milhoes de paginas, e coroar um sistema
+    medido numa pagina so projetaria uma unica chamada para o acervo inteiro
+    como se fosse medida. E a mesma regra que a tabela do relatorio ja aplica
+    para o negrito de melhor valor — aqui ela faltava.
     """
-    elegiveis = [d for d in dados
-                 if d["cer_media"] is not None and d["cost_usd_media"] is not None]
+    elegiveis = _completos([d for d in dados
+                            if d["cer_media"] is not None and d["cost_usd_media"] is not None])
     if not elegiveis:
         return []
     gratuitos = [d for d in elegiveis if not d["cost_usd_media"]]
@@ -432,33 +591,41 @@ def _grafico_projecao(dados: list[dict], destino: Path) -> Path | None:
     fig, ax = _figura(len(cenarios), largura=9.5)
     valores = [c[1]["cost_usd_media"] * PAGINAS_DO_PROJETO for c in cenarios]
     ax.barh(range(len(cenarios)), valores, height=0.35,
-            color=[CINZA if _e_local(m) else COR_POR_TIPO.get(m["tipo"], CINZA)
-                   for _, m in cenarios])
+            color=[_cor(m) for _, m in cenarios])
     for i, (valor, (papel, modelo)) in enumerate(zip(valores, cenarios)):
         # O preço sozinho não decide nada: o que ele compra vem junto.
         _rotulo_na_ponta(
             ax, valor, i,
-            f"{_usd(valor, 0)}   ·   CER {_pt(modelo['cer_media'])}"
-            f"   ·   {_usd(modelo['cost_usd_media'], 4)}/página",
+            f"{usd(valor, 0)}   ·   CER {pt(modelo['cer_media'])}"
+            f"   ·   {usd(modelo['cost_usd_media'], 4)}/página",
         )
     # O rótulo leva o `n`: "melhor qualidade" medido em 1 página não é a mesma
     # afirmação que "melhor qualidade" medido em 16.
     ax.set_yticks(range(len(cenarios)),
                   [f"{modelo['rotulo']}\n{papel}" for papel, modelo in cenarios])
     _faixas(ax, len(cenarios))
-    ax.set_xlabel(f"custo total de {_pt(PAGINAS_DO_PROJETO, 0)} páginas (US$)",
+    ax.set_xlabel(rf"custo total de {pt(PAGINAS_DO_PROJETO, 0)} páginas (US\$)",
                   color=TINTA_FRACA, fontsize=9)
-    ax.set_xlim(0, max(valores) * 1.75)
+    # `or 1` porque um eixo de 0 a 0 nao existe: se todos os elegiveis forem
+    # gratuitos o maior valor e zero, e a figura morreria dentro do try/except
+    # do `build_graficos` — sumindo com uma mensagem em vez de mostrar que a
+    # projecao para aquele conjunto custa nada.
+    ax.set_xlim(0, max(valores) * 1.75 or 1)
     # O eixo usa o mesmo formato dos rótulos: com o horizonte em milhões de
     # páginas os valores passam de cinco dígitos, e "45963" ao lado de
     # "US$ 45.963" faria o leitor conferir duas vezes se é o mesmo número.
     ax.xaxis.set_major_formatter(
-        matplotlib.ticker.FuncFormatter(lambda v, _: _pt(v, 0))
+        matplotlib.ticker.FuncFormatter(lambda v, _: pt(v, 0))
     )
     _legenda_por_tipo(ax, [m for _, m in cenarios], com_local=True,
                       rotulo_local="local (sem custo por token)")
-    _titulo(ax, f"Quanto custaria transcrever {_pt(PAGINAS_DO_PROJETO, 0)} páginas",
-            "projeção linear do custo medido por página · o erro medido vai junto")
+    subtitulo = "projeção linear do custo medido por página · o erro medido vai junto"
+    if not all(m["completo"] for _, m in cenarios):
+        # Nunca em silencio: um papel decidido entre coberturas parciais e uma
+        # afirmacao mais fraca do que a figura aparenta fazer.
+        subtitulo += " · nenhum sistema cobriu o conjunto: papéis decididos entre parciais"
+    _titulo(ax, f"Quanto custaria transcrever {pt(PAGINAS_DO_PROJETO, 0)} páginas",
+            subtitulo)
     return _salvar(fig, destino / "custo_n_paginas.png")
 
 
@@ -489,33 +656,31 @@ def _grafico_tempo(dados: list[dict], destino: Path) -> Path | None:
     anos = [d["latency_s_media"] * PAGINAS_DO_PROJETO / SEGUNDOS_POR_ANO for d in linhas]
     # Os locais saem em cinza porque o tempo deles não é comparável ao dos
     # demais: mede esta GPU, não o modelo. Trocar de máquina muda a barra.
-    ax.barh(range(len(linhas)), anos, height=0.35,
-            color=[CINZA if _e_local(d) else COR_POR_TIPO.get(d["tipo"], CINZA)
-                   for d in linhas])
+    ax.barh(range(len(linhas)), anos, height=0.35, color=[_cor(d) for d in linhas])
     for i, (d, valor) in enumerate(zip(linhas, anos)):
         dias = d["latency_s_media"] * PAGINAS_DO_PROJETO / CHAMADAS_SIMULTANEAS / SEGUNDOS_POR_DIA
         _rotulo_na_ponta(
             ax, valor, i,
-            f"{_pt(valor, 1)} anos em série   ·   {_pt(d['latency_s_media'], 0)} s/página"
-            f"   ·   {_pt(dias, 0)} dias com {CHAMADAS_SIMULTANEAS} simultâneas",
+            f"{pt(valor, 1)} anos em série   ·   {pt(d['latency_s_media'], 0)} s/página"
+            f"   ·   {pt(dias, 0)} dias com {CHAMADAS_SIMULTANEAS} simultâneas",
         )
     ax.set_yticks(range(len(linhas)), [d["rotulo"] for d in linhas])
     _faixas(ax, len(linhas))
-    ax.set_xlabel(f"anos para transcrever {_pt(PAGINAS_DO_PROJETO, 0)} páginas, "
+    ax.set_xlabel(f"anos para transcrever {pt(PAGINAS_DO_PROJETO, 0)} páginas, "
                   "uma de cada vez", color=TINTA_FRACA, fontsize=9)
     ax.set_xlim(0, max(anos) * 2.6)
     _legenda_por_tipo(ax, linhas, com_local=True,
                       rotulo_local="local (tempo desta máquina)")
     _titulo(
         ax,
-        f"Quanto tempo levaria transcrever {_pt(PAGINAS_DO_PROJETO, 0)} páginas",
+        f"Quanto tempo levaria transcrever {pt(PAGINAS_DO_PROJETO, 0)} páginas",
         "latência medida por página x o acervo · a espera do rate limit não entra",
     )
     return _salvar(fig, destino / "tempo_do_acervo.png")
 
 
 # --------------------------------------------------------------------------
-# 5. Obediência ao formato
+# 6. Obediência ao formato
 # --------------------------------------------------------------------------
 
 def _grafico_obediencia(dados: list[dict], destino: Path) -> Path | None:
@@ -527,8 +692,7 @@ def _grafico_obediencia(dados: list[dict], destino: Path) -> Path | None:
     linhas.sort(key=lambda d: d["html_sem_texto_extra_taxa"])
     fig, ax = _figura(len(linhas))
     valores = [d["html_sem_texto_extra_taxa"] * 100 for d in linhas]
-    ax.barh(range(len(linhas)), valores, height=0.35,
-            color=[COR_POR_TIPO.get(d["tipo"], CINZA) for d in linhas])
+    ax.barh(range(len(linhas)), valores, height=0.35, color=[_cor(d) for d in linhas])
     for i, valor in enumerate(valores):
         _rotulo_na_ponta(ax, valor, i, f"{valor:.0f}%")
     ax.set_yticks(range(len(linhas)), [d["rotulo"] for d in linhas])
@@ -536,28 +700,186 @@ def _grafico_obediencia(dados: list[dict], destino: Path) -> Path | None:
     ax.set_xlabel("% das respostas que vieram só com o HTML", color=TINTA_FRACA, fontsize=9)
     ax.set_xlim(0, 108)
     # Ordenado do menor para o maior, então o canto vazio é o de baixo.
-    _legenda_por_tipo(ax, linhas, loc="lower right")
+    _legenda_por_tipo(ax, linhas, com_local=True, loc="lower right")
     _titulo(ax, "Obediência ao formato pedido",
             'o prompt termina com "retorne apenas o código HTML sem texto extra"')
     return _salvar(fig, destino / "html_sem_texto_extra.png")
 
 
 # --------------------------------------------------------------------------
+# 7. Erro por dificuldade da página
+# --------------------------------------------------------------------------
+
+def _grafico_dificuldade(chamadas: list[dict], destino: Path,
+                         settings: Settings) -> Path | None:
+    """Erro médio por grau de dificuldade da página, somando todos os sistemas.
+
+    Esta figura agrega por CHAMADA, não por modelo: a pergunta é o que a página
+    faz com o erro, e cada transcrição de cada sistema é uma observação dela.
+
+    A comparação só é honesta se a cobertura for equilibrada: se os sistemas
+    que não rodaram tudo faltarem mais num grau que noutro, a categoria mais
+    difícil pode estar apenas concentrando os modelos piores, e o efeito medido
+    seria dos modelos ausentes e não da página.
+
+    Essa condição é MEDIDA a cada geração e impressa na saída do comando, e não
+    afirmada aqui. Um número escrito na docstring envelhece na execução
+    seguinte — este envelheceu: dizia "treze dos catorze sistemas rodaram as
+    dezesseis páginas" quando já eram doze de quinze.
+
+    Ela sai no console, e não no subtítulo, porque são coisas de leitores
+    diferentes: o subtítulo diz o que é preciso para LER a figura e para no
+    traço da mediana; a cobertura é condição de VALIDADE, que interessa a quem
+    gera a figura e decide se ela pode ser publicada.
+
+    A média vem acompanhada da MEDIANA, marcada por um traço fino sobre a
+    barra. As duas juntas dizem o que uma sozinha esconde: quando a média é
+    muito maior, o grau não é difícil para todo mundo, é difícil porque poucos
+    sistemas desabam nele.
+
+    O `TETO_DE_ERRO` NAO se aplica aqui, e a excecao e proposital. Nas figuras
+    por modelo cada barra e um valor, e cortar o eixo esconde apenas o desenho
+    de um outlier. Aqui cada barra ja e uma media: o outlier entrou nela e
+    cortar o eixo esconderia a contaminacao em vez de mostra-la. Quem cumpre
+    esse papel e a mediana ao lado — se as duas se afastam, o grau tem um caso
+    extremo dentro, e a figura diz isso sem apagar nada.
+    """
+    graus = {d.doc_id: d.dificuldade for d in discover_documents(settings)}
+    # `valida` — a MESMA função que o `resumir` aplica às demais figuras e ao
+    # resumo, e não uma cópia da condição dela. Medir o CER de meia página não
+    # mede a qualidade da transcrição, mede o corte, e as respostas cortadas
+    # caíram só em médio e difícil, ou seja, inflariam justamente os dois graus
+    # que carregam o efeito que a figura existe para mostrar. Com a regra
+    # duplicada aqui, mudá-la num lugar deixava esta figura discordando em
+    # silêncio de todas as outras.
+    validas = [c for c in chamadas
+               if valida(c) and graus.get(c["doc_id"]) and c.get("cer") is not None]
+    if not validas:
+        return None
+    sem_grau = {c["doc_id"] for c in chamadas if not graus.get(c["doc_id"])}
+    # As paginas efetivamente MEDIDAS, nao todas as do `Dataset/`: com
+    # `--run-ids`, ou com `dataset.active` restringindo o conjunto, o rotulo
+    # anunciaria paginas que nao entraram em observacao nenhuma.
+    medidas = {c["doc_id"] for c in validas}
+    paginas = {g: sum(1 for d, v in graus.items() if v == g and d in medidas)
+               for g in ORDEM_DE_DIFICULDADE}
+
+    def resumo(grau: str) -> dict:
+        do_grau = [c for c in validas if graus[c["doc_id"]] == grau]
+        valores = {m: sorted(c[m] for c in do_grau if c.get(m) is not None)
+                   for m in ("cer", "wer")}
+        return {
+            "grau": grau,
+            "n": len(do_grau),
+            **{f"{m}_media": (sum(v) / len(v) if v else None) for m, v in valores.items()},
+            **{f"{m}_mediana": (_mediana(v) if v else None) for m, v in valores.items()},
+        }
+
+    # De baixo para cima o eixo cresce, então a lista invertida põe "fácil" no
+    # topo e "difícil" embaixo, na ordem em que a dificuldade se lê.
+    linhas = [resumo(g) for g in reversed(ORDEM_DE_DIFICULDADE)]
+    linhas = [l for l in linhas if l["n"]]
+    fig, ax = _figura(len(linhas))
+    posicoes = range(len(linhas))
+
+    for deslocamento, campo, cor, nome in (
+        (0.20, "cer", VERDE, "CER (caractere)"),
+        (-0.20, "wer", VIOLETA, "WER (palavra)"),
+    ):
+        presentes = [(p, l) for p, l in zip(posicoes, linhas)
+                     if l[f"{campo}_media"] is not None]
+        ax.barh([p + deslocamento for p, _ in presentes],
+                [l[f"{campo}_media"] for _, l in presentes],
+                height=0.36, color=cor, label=nome)
+        for p, linha in zip(posicoes, linhas):
+            media = linha[f"{campo}_media"]
+            if media is None:
+                _rotulo_na_ponta(ax, 0.0, p + deslocamento, "sem dado")
+                continue
+            _rotulo_na_ponta(ax, media, p + deslocamento, pt(media))
+            mediana = linha[f"{campo}_mediana"]
+            if mediana is not None:
+                # O traco e claro por cair DENTRO da barra. Quando a mediana
+                # passa da media — distribuicao torta para o outro lado — ele
+                # cairia no fundo e sumiria justamente no caso que a figura
+                # existe para mostrar, entao ali ele veste tinta.
+                ax.plot([mediana, mediana],
+                        [p + deslocamento - 0.16, p + deslocamento + 0.16],
+                        color=FUNDO if mediana <= media else TINTA_FRACA,
+                        linewidth=1.8, solid_capstyle="butt")
+
+    ax.set_yticks(list(posicoes),
+                  [f"{l['grau']}\n{paginas[l['grau']]} páginas · n={l['n']}"
+                   for l in linhas])
+    _faixas(ax, len(linhas))
+    ax.set_xlabel("taxa de erro média (0 = perfeito)", color=TINTA_FRACA, fontsize=9)
+    # O limite olha as DUAS métricas: dimensionar pelo CER cortaria o rótulo do
+    # WER, que é sempre o maior dos dois.
+    maior = max(max(l["cer_media"] or 0, l["wer_media"] or 0) for l in linhas)
+    ax.set_xlim(0, maior * 1.22)
+    # Canto superior: as barras crescem com a dificuldade e a área livre fica
+    # sempre do lado do grau mais fácil, que está no topo.
+    ax.legend(frameon=False, fontsize=9, labelcolor=TINTA_FRACA, loc="upper right")
+
+    # A cobertura, medida agora e dita na figura. `completos` conta sistemas que
+    # mediram TODAS as paginas com grau; sem isso o leitor nao tem como saber se
+    # a comparacao entre graus e uma comparacao entre paginas ou entre modelos.
+    #
+    # Contra as paginas MEDIDAS, e nao contra todo o `Dataset/` — a mesma
+    # correcao que `paginas`, acima, ja tinha recebido. Com `--run-ids` ou com
+    # `dataset.active` restringindo o conjunto, comparar com o dataset inteiro
+    # anunciava "0 de N sistemas cobriram" mesmo quando todos cobriram tudo o
+    # que rodou.
+    paginas_com_grau = {d for d, g in graus.items() if g and d in medidas}
+    por_sistema: dict[str, set] = defaultdict(set)
+    for c in validas:
+        por_sistema[c["model_id"]].add(c["doc_id"])
+    completos = sum(1 for docs in por_sistema.values() if docs >= paginas_com_grau)
+
+    # O subtitulo diz o que o leitor precisa para LER a figura, e para no traco
+    # da mediana. A cobertura, a razao entre os graus e as paginas sem grau
+    # continuam sendo MEDIDAS — sem elas a comparacao entre graus poderia ser
+    # uma comparacao entre modelos sem ninguem notar —, mas vao para a saida do
+    # comando: sao condicao de validade, que quem gera a figura precisa
+    # conferir, e nao legenda, que quem le a figura precisa ver.
+    por_grau = {l["grau"]: l for l in linhas}
+    aviso = (f"[graficos] erro_por_dificuldade: {completos} de {len(por_sistema)} "
+             f"sistema(s) cobriram as {len(paginas_com_grau)} página(s) com grau")
+    facil, dificil = por_grau.get("fácil"), por_grau.get("difícil")
+    if facil and dificil and facil["cer_media"]:
+        aviso += (f" · a página difícil erra "
+                  f"{pt(dificil['cer_media'] / facil['cer_media'], 1)} vezes mais que a fácil")
+    if sem_grau:
+        aviso += f" · {len(sem_grau)} página(s) sem grau no nome ficaram de fora"
+    print(aviso)
+
+    _titulo(ax, "Erro por dificuldade da página",
+            "média de todas as chamadas · o traço claro é a mediana")
+    return _salvar(fig, destino / "erro_por_dificuldade.png")
+
 
 def build_graficos(settings: Settings | None = None,
                    run_ids: list[str] | None = None) -> list[Path]:
-    """Gera as seis figuras em `results/graficos/`."""
+    """Gera as sete figuras em `results/graficos/`."""
     settings = settings or load_settings()
-    dados = _por_modelo(carregar_chamadas(settings, run_ids))
+    chamadas = carregar_chamadas(settings, run_ids)
+    dados = por_modelo(chamadas, len(discover_documents(settings)))
     destino = settings.results_dir / GRAFICOS_DIR
     destino.mkdir(parents=True, exist_ok=True)
 
+    # Duas famílias, com unidades de agregação diferentes: as seis primeiras
+    # comparam MODELOS, a última compara PÁGINAS. Por isso uma recebe o resumo
+    # por modelo e a outra recebe as chamadas cruas.
+    trabalhos = [(f, (dados, destino)) for f in (
+        _grafico_cer_wer, _grafico_num_f1, _grafico_custo_beneficio,
+        _grafico_projecao, _grafico_tempo, _grafico_obediencia)]
+    trabalhos.append((_grafico_dificuldade, (chamadas, destino, settings)))
+
     figuras = []
-    for construir in (_grafico_cer_wer, _grafico_num_f1, _grafico_custo_beneficio,
-                      _grafico_projecao, _grafico_tempo, _grafico_obediencia):
+    for construir, argumentos in trabalhos:
         # Uma figura sem dados (ou que falhe) não derruba as outras.
         try:
-            caminho = construir(dados, destino)
+            caminho = construir(*argumentos)
         except Exception as exc:  # noqa: BLE001
             print(f"[graficos] {construir.__name__} falhou: {type(exc).__name__}: {exc}")
             continue
