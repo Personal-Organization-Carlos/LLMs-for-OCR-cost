@@ -15,16 +15,20 @@ conferir um número à mão.
 
 A separação entre CONFIABILIDADE e QUALIDADE é mantida no resumo: taxa de
 sucesso e taxa de truncamento se calculam sobre TODAS as chamadas; WER, CER,
-num_f1 e custo, só sobre as válidas (`ok` e não truncadas). Misturar as duas
-coisas premiaria quem falha, porque quem falha muito acaba avaliado só nos
-casos fáceis em que conseguiu responder.
+palavras_f1, num_f1 e custo médio, só sobre as válidas (`ok` e não truncadas).
+Misturar as duas coisas premiaria quem falha, porque quem falha muito acaba
+avaliado só nos casos fáceis em que conseguiu responder.
+
+O dinheiro é a exceção que confirma a regra: `custo_por_pagina_valida` soma o
+que TODAS as chamadas custaram e divide pelas válidas. A chamada truncada não
+diz nada sobre qualidade, mas foi paga.
 """
 
 from __future__ import annotations
 
 import csv
 from pathlib import Path
-from statistics import mean
+from statistics import mean, median
 
 from .config import Settings, load_models, load_settings, motivos_de_exclusao
 from .dataset import discover_documents
@@ -40,8 +44,9 @@ COLUNAS = [
     "run_id", "empresa", "tipo", "model_id", "model_label", "api_provider",
     "provider_upstream", "doc_id", "prompt_id", "repetition",
     "ok", "error_kind", "truncated", "finish_reason", "attempts",
-    # --- as cinco medidas do estudo ------------------------------------
+    # --- as seis medidas do estudo -------------------------------------
     "wer", "cer", "num_f1", "html_sem_texto_extra",
+    "palavras_f1",
     "prompt_tokens", "completion_tokens", "total_tokens", "cost_usd", "cost_source",
     # --- contexto para conferir os números acima -----------------------
     "latency_s", "saida_formato", "ref_n_tokens", "hyp_n_tokens",
@@ -116,8 +121,10 @@ def score_run(run_dir: Path, settings: Settings | None = None) -> Path:
             # As métricas rodam sobre a resposta como o modelo a devolveu: o
             # prompt pede o documento e nada mais, então texto em volta, se
             # houver, é resposta fora do pedido e conta como tal.
-            hipotese = prepare(bruto)
             referencia = referencias[chamada["doc_id"]]
+            # A referência entra só para decidir a hifenização (ver
+            # `normalize._resolver_hifens`); nenhuma letra vem dela.
+            hipotese = prepare(bruto, referencia)
             linha.update(
                 calcular(
                     referencia,
@@ -131,8 +138,8 @@ def score_run(run_dir: Path, settings: Settings | None = None) -> Path:
             # Os dois lados da comparação, na forma exata em que ela foi feita,
             # ao lado da resposta que os gerou. É o que permite conferir um WER
             # na mão: um diff entre estes dois arquivos mostra precisamente o
-            # que a métrica contou — sem marcação, em minúsculas, sem
-            # hifenização de fim de linha. A referência é repetida em cada
+            # que a métrica contou — sem marcação, em minúsculas, com a
+            # hifenização já resolvida. A referência é repetida em cada
             # pasta de propósito: são ~8 KB, e é o que faz o diff ser um
             # comando só, sem navegar.
             (pasta / NORMALIZADO).write_text(hipotese.normalized, encoding="utf-8")
@@ -174,7 +181,12 @@ def score_run(run_dir: Path, settings: Settings | None = None) -> Path:
 CHAVES_DO_RESUMO = ["empresa", "tipo", "model_id", "model_label", "prompt_id"]
 
 # Médias calculadas só sobre as chamadas válidas.
-MEDIAS = ["wer", "cer", "num_f1", "cost_usd", "completion_tokens", "prompt_tokens", "latency_s"]
+MEDIAS = ["wer", "cer", "palavras_f1", "num_f1", "cost_usd", "completion_tokens",
+          "prompt_tokens", "latency_s"]
+
+# WER e CER não têm teto: uma página alucinada vale por várias boas e arrasta a
+# média sozinha. A mediana vai ao lado para que isso se veja.
+MEDIANAS = ["wer", "cer"]
 
 
 def valida(linha: dict) -> bool:
@@ -191,6 +203,30 @@ def valida(linha: dict) -> bool:
 def _media(valores: list) -> float | None:
     numeros = [v for v in valores if isinstance(v, (int, float))]
     return mean(numeros) if numeros else None
+
+
+def _mediana(valores: list) -> float | None:
+    numeros = [v for v in valores if isinstance(v, (int, float))]
+    return median(numeros) if numeros else None
+
+
+def custo_por_pagina_valida(grupo: list[dict]) -> float | None:
+    """Tudo o que se pagou, dividido pelas chamadas que deram página medível.
+
+    É o custo real de UMA página aproveitável. O `cost_usd_media` olha só para
+    as válidas e esconde as que foram pagas e jogadas fora — a truncada no teto
+    de tokens é justamente a mais cara. Medido aqui: um sistema com 5
+    truncadas em 16 passava de US$ 0,109 para US$ 0,241 por página útil.
+
+    Recebe as chamadas CRUAS, com remedições: uma página refeita é dinheiro
+    gasto, e uma remedição válida também entra no denominador, então refazer
+    o que já deu certo não infla o número.
+    """
+    custos = [g.get("cost_usd") for g in grupo if isinstance(g.get("cost_usd"), (int, float))]
+    n_validas = sum(1 for g in grupo if valida(g))
+    if not custos or not n_validas:
+        return None
+    return sum(custos) / n_validas
 
 
 def resumir(
@@ -216,7 +252,9 @@ def resumir(
         # divergem — e e `n_paginas` que responde "isto cobre o conjunto?", que e
         # a pergunta que decide quem disputa um superlativo.
         "n_validas", "n_paginas", "html_sem_texto_extra_taxa",
-    ] + [f"{m}_media" for m in MEDIAS]
+    ] + [f"{m}_media" for m in MEDIAS] + [f"{m}_mediana" for m in MEDIANAS] + [
+        "custo_por_pagina_valida",
+    ]
 
     resumo = []
     for chave, grupo in sorted(grupos.items(), key=lambda item: [str(v) for v in item[0]]):
@@ -251,6 +289,9 @@ def resumir(
             }
         )
         linha.update({f"{m}_media": _media([g.get(m) for g in validas]) for m in MEDIAS})
+        linha.update({f"{m}_mediana": _mediana([g.get(m) for g in validas]) for m in MEDIANAS})
+        # Sobre o grupo inteiro, não sobre as válidas: é o que se pagou.
+        linha["custo_por_pagina_valida"] = custo_por_pagina_valida(grupo)
         resumo.append(linha)
     return colunas, resumo
 

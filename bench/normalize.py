@@ -13,8 +13,12 @@ A solução é reduzir os DOIS lados à mesma representação, com uma pipeline 
                                                             |-> char_sequence() (CER)
 
 As regras de normalização são fixas (não há chave em settings.yaml para elas):
-NFC, minúsculas, tipografia canônica, pontuação removida só nas BORDAS do token
-e desifenização de fim de linha. Para mudar qualquer uma, mexa aqui.
+NFC, minúsculas, tipografia canônica, pontuação removida só nas BORDAS do token,
+fios e traços soltos fora da contagem de palavras e desifenização. Para mudar
+qualquer uma, mexa aqui.
+
+A desifenização é a única regra que olha para a referência — ver
+`_resolver_hifens`. As demais tratam os dois lados sem saber qual é qual.
 
 Implementado sobre `html.parser` da biblioteca padrão: sem dependência externa,
 comportamento estável e auditável.
@@ -24,7 +28,9 @@ from __future__ import annotations
 
 import re
 import unicodedata
+import warnings
 from dataclasses import dataclass
+from html import unescape as _decodificar_entidades
 from html.parser import HTMLParser
 
 # Tags cujo conteúdo textual nunca faz parte da transcrição.
@@ -58,10 +64,21 @@ _CODE_FENCE_RE = re.compile(
     re.DOTALL,
 )
 
+# Linha que é só uma cerca, em qualquer ponto da resposta. Pega a cerca que
+# sobra quando a resposta foi cortada pelo limite de tokens (abre e nunca
+# fecha) ou quando vem depois de uma prosa de abertura.
+_FENCE_LINE_RE = re.compile(r"^[ \t]*```+[ \t]*[A-Za-z0-9_+-]*[ \t]*$", re.MULTILINE)
+
 _TYPOGRAPHY_TABLE = str.maketrans({
     "‘": "'", "’": "'", "‚": "'", "‛": "'",
     "“": '"', "”": '"', "„": '"', "‟": '"',
     "′": "'", "″": '"',
+    # O ordinal tem quatro grafias para o mesmo sinal impresso: "1.º", "1.°"
+    # (grau e ordinal são o mesmo glifo no tipo da época), "1.<sup>o</sup>"
+    # e o `$^{o}$` do MinerU. As duas últimas já chegam aqui como "o" e "a";
+    # as outras vão para a mesma letra, senão a escolha de grafia contava como
+    # palavra errada.
+    "º": "o", "°": "o", "ª": "a",
     "‐": "-", "‑": "-", "‒": "-", "–": "-",
     "—": "-", "―": "-", "−": "-",
     " ": " ", " ": " ", " ": " ", " ": " ",
@@ -71,15 +88,34 @@ _TYPOGRAPHY_TABLE = str.maketrans({
 _WS_RUN_RE = re.compile(r"[ \t\f\v]+")
 _BLANK_LINES_RE = re.compile(r"\n\s*\n+")
 
-# Hifenização de fim de linha: "San-\ntos" -> "santos". Aceita o hífen do
-# jornal e "¬", a convenção do CATMuS. O jornal hifeniza; um modelo pode
-# reunir a palavra ou preservar a quebra, e nenhuma das duas escolhas é erro de
-# transcrição — por isso a junção é feita nos DOIS lados da comparação.
-_HYPHEN_BREAK_RE = re.compile(r"(?<=\w)[-¬]\n(?=\w)")
+# Hifenização de fim de linha: "San-\ntos". Aceita o hífen do jornal e "¬", a
+# convenção do CATMuS. O jornal hifeniza; um modelo pode reunir a palavra,
+# preservar a quebra ou manter o hífen e perder a quebra ("apresen-tando"), e
+# nenhuma dessas escolhas é erro de transcrição.
+#
+# Só entre LETRAS: entre dígitos a quebra costuma ser fronteira de linha de
+# tabela, e "12-" numa linha seguido de "15" na outra não é o número "1215".
+#
+# A quebra não some aqui: vira `_QUEBRA`, e quem decide se ela vira junção ou
+# hífen é `_resolver_hifens`.
+_HYPHEN_BREAK_RE = re.compile(r"(?<=[^\W\d_])[-¬]\n(?=[^\W\d_])")
+_QUEBRA = ""  # área de uso privado: não é \w, não é espaço, não é pontuação
+_PALAVRA_HIFENIZADA = re.compile(
+    r"(?<![\w\-])[^\W\d_]+(?:[-][^\W\d_]+)+(?![\w\-])"
+)
 
 # Pontuação removida das BORDAS do token. A interna é preservada de propósito:
 # valores em réis como "1:770$300" e numerações como "1.º" perderiam o sentido.
 _EDGE_PUNCTUATION = ".,;:!?()[]{}\"'«»…"
+
+# Token feito só de fio ou traço: "-", "---", "|", "* * *". É desenho da página
+# — régua, pontilhado de índice, separador de célula — e não palavra. Sem esta
+# regra o ponto final isolado sumia (é pontuação de borda) mas o travessão
+# isolado contava como palavra, e quem desenhasse mais réguas errava mais.
+# Fica no CER, que mede a página caractere a caractere.
+#
+# Não inclui "&", "%" nem "$": têm valor.
+_SO_FIOS = re.compile(r"^[-_=|*~·•/\\]+$")
 
 
 # --------------------------------------------------------------------------
@@ -135,7 +171,10 @@ def html_to_text(html: str) -> str:
     try:
         extractor.feed(html)
         extractor.close()
-    except Exception:  # noqa: BLE001 - html.parser é tolerante, mas não infalível
+    except Exception as erro:  # noqa: BLE001 - html.parser é tolerante, mas não infalível
+        # Devolver o HTML cru mantém a chamada no estudo, mas as tags entram
+        # como palavras: o aviso é o que impede isso de passar calado.
+        warnings.warn(f"html_to_text falhou ({erro!r}); usando o texto sem extração")
         return html
     return "".join(extractor.parts)
 
@@ -154,7 +193,9 @@ def strip_code_fences(texto: str) -> str:
 # Markdown -> texto
 # --------------------------------------------------------------------------
 
-_MD_HEADING = re.compile(r"^\s{0,3}(#{1,6})\s+(.*?)\s*#*\s*$")
+# O texto do título é opcional: um `##` sozinho na linha (o MinerU produz) é
+# título vazio, não a palavra "##".
+_MD_HEADING = re.compile(r"^\s{0,3}(#{1,6})(?:\s+(.*?))?\s*#*\s*$")
 _MD_TABLE_SEP = re.compile(r"^\s*\|?(?:\s*:?-{1,}:?\s*\|)+\s*:?-{0,}:?\s*\|?\s*$")
 _MD_IMAGE = re.compile(r"!\[[^\]]*\]\([^)]*\)")
 _MD_LINK = re.compile(r"\[([^\]]*)\]\([^)]*\)")
@@ -173,6 +214,45 @@ _HTML_BLOCO = re.compile(
     re.IGNORECASE,
 )
 _DOC_START = re.compile(r"<!doctype\s+html|<html[\s>]", re.IGNORECASE)
+
+# HTML solto no Markdown, fora das tabelas. O MinerU embrulha o texto lido
+# dentro de imagens em <details><summary>text_image</summary>...</details>: o
+# rótulo do <summary> é dele, não da página, e sai com o conteúdo; o resto do
+# bloco é texto da página e fica.
+#
+# Só tags HTML conhecidas saem. Uma regra genérica `<...>` apagaria texto: o
+# OCR lê "«" como "<" e "<City of Santos Improvements Company" é página.
+_MD_HTML_RESUMO = re.compile(r"<summary\b[^>]*>.*?</summary\s*>", re.IGNORECASE | re.DOTALL)
+_MD_HTML_EM_LINHA = re.compile(  # inline: some sem deixar espaço, como no navegador
+    r"</?(?:a|b|i|em|strong|u|s|small|sup|sub|font)\b[^>]*>", re.IGNORECASE
+)
+_MD_HTML_BLOCO = re.compile(  # separa palavras, como _BLOCK_TAGS/_CELL_TAGS
+    r"</?(?:details|summary|div|p|br|hr|center|span|img|section)\b[^>]*/?>", re.IGNORECASE
+)
+
+# Matemática inline do MinerU: `$^{a}$` (ordinal), `$_{o}$`, `$\frac{1}{2}$`.
+# O corpo tem de começar por `^`, `_` ou `\` e o `$` não pode estar escapado.
+# É o que separa a fórmula dos valores em réis, que também usam `$`
+# ("1:770$300 e 2:000$000" não pode virar fórmula).
+_MD_MATEMATICA = re.compile(r"(?<!\\)\$\s*([\\^_][^$\n]{0,30}?)\s*(?<!\\)\$")
+_TEX_FRACAO = re.compile(r"\\frac\s*\{([^{}]*)\}\s*\{([^{}]*)\}")
+
+# Escape de Markdown: `\$`, `\*`, `\_`, `\-`... O MinerU escapa o cifrão dos
+# réis, e "7:500\$000" contra "7:500$000" errava a palavra E partia o número em
+# dois no num_f1. A barra sai e fica o caractere — mas o caractere precisa
+# atravessar as regras de ênfase e de fórmula sem ser lido como marcação: um
+# `\*` literal não é ênfase e um `\$` literal não abre fórmula. Por isso ele
+# viaja protegido na área de uso privado e só volta ao fim.
+_MD_ESCAPE = re.compile(r"\\([!-/:-@\[-`{-~])")  # pontuação ASCII, como no CommonMark
+_PROTEGIDO = 0xE100
+_DESPROTEGER = {_PROTEGIDO + i: chr(i) for i in range(128)}
+_TEX_COMANDO = re.compile(r"\\[A-Za-z]+\s*")
+
+
+def _tex_para_texto(match: re.Match) -> str:
+    """`^{a}` -> `a`, `\\frac{1}{2}` -> `1/2`: fica o que a fórmula exibe."""
+    corpo = _TEX_FRACAO.sub(r"\1/\2", match.group(1)).replace("\\circ", "°")
+    return re.sub(r"[\^_{}\s]", "", _TEX_COMANDO.sub("", corpo))
 
 
 def markdown_to_text(md: str) -> str:
@@ -193,7 +273,8 @@ def markdown_to_text(md: str) -> str:
         fragmentos.append(match.group(0))
         return f"\n\x00{len(fragmentos) - 1}\x00\n"
 
-    corpo = _HTML_TABELA.sub(_guardar, md)
+    md = _MD_ESCAPE.sub(lambda m: chr(_PROTEGIDO + ord(m.group(1))), md)
+    corpo = _MD_HTML_RESUMO.sub("", _HTML_TABELA.sub(_guardar, md))
 
     saida: list[str] = []
     em_cerca = False
@@ -206,7 +287,9 @@ def markdown_to_text(md: str) -> str:
 
         marca = re.fullmatch(r"\s*\x00(\d+)\x00\s*", linha)
         if marca:
-            saida.append(html_to_text(fragmentos[int(marca.group(1))]))
+            # O MinerU põe fórmula também dentro da célula.
+            tabela = html_to_text(fragmentos[int(marca.group(1))])
+            saida.append(_MD_MATEMATICA.sub(_tex_para_texto, tabela))
             continue
 
         if not em_cerca:
@@ -214,7 +297,7 @@ def markdown_to_text(md: str) -> str:
                 continue  # régua horizontal e separador de tabela não são texto
             titulo = _MD_HEADING.match(linha)
             if titulo:
-                linha = titulo.group(2)
+                linha = titulo.group(2) or ""
             else:
                 item = _MD_ULIST.match(linha) or _MD_OLIST.match(linha)
                 if item:
@@ -222,14 +305,18 @@ def markdown_to_text(md: str) -> str:
                 linha = _MD_QUOTE.sub("", linha)
             if "|" in linha:
                 # Célula de tabela: a barra vira espaço, para que a linha da
-                # tabela continue sendo uma linha de texto legível.
-                linha = linha.replace("\\|", "\x01").replace("|", " ").replace("\x01", "|")
+                # tabela continue sendo uma linha de texto legível. Uma `\|`
+                # escapada já está protegida e não passa por aqui.
+                linha = linha.replace("|", " ")
 
         linha = _MD_IMAGE.sub(" ", linha)   # a imagem não é texto da página
         linha = _MD_LINK.sub(r"\1", linha)  # do link fica o rótulo
+        linha = _MD_HTML_BLOCO.sub(" ", _MD_HTML_EM_LINHA.sub("", linha))
+        # Antes da ênfase: ela levaria o `_` de `$_{o}$` e deixaria `${o}$`.
+        linha = _MD_MATEMATICA.sub(_tex_para_texto, linha)
         saida.append(_MD_ENFASE.sub("", linha))
 
-    return "\n".join(saida)
+    return "\n".join(saida).translate(_DESPROTEGER)
 
 
 # --------------------------------------------------------------------------
@@ -270,7 +357,11 @@ def detectar_formato(bruto: str) -> str:
 
     if blocos_html > marcas_md:
         return "html"
-    if marcas_md:
+    # Uma <table> sem nenhuma outra marcação em volta também é o formato do
+    # MinerU: páginas só de tabela, ou de tabela e uma linha solta. Classificá-
+    # la como texto corrido mandava as tags inteiras para a contagem de
+    # palavras.
+    if marcas_md or _HTML_TABELA.search(texto):
         return "markdown"
     return "texto"
 
@@ -285,10 +376,17 @@ def to_plain_text(bruto: str) -> str:
         return ""
     formato = detectar_formato(bruto)
     texto = strip_code_fences(bruto)
-    if formato == "html":
-        texto = html_to_text(texto)
-    elif formato == "markdown":
-        texto = markdown_to_text(texto)
+    if formato == "markdown":
+        # O Markdown trata as próprias cercas (o conteúdo delas fica).
+        texto = _decodificar_entidades(markdown_to_text(texto))
+    else:
+        # A cerca é formatação, não palavra; a prosa em volta dela, se houver,
+        # continua contando.
+        texto = _FENCE_LINE_RE.sub("", texto)
+        # Fora do HTML ninguém decodifica `&amp;`: o extrator faz isso no
+        # caminho do HTML, e no Markdown e no texto corrido a entidade virava
+        # palavra.
+        texto = html_to_text(texto) if formato == "html" else _decodificar_entidades(texto)
     return collapse_whitespace(texto)
 
 
@@ -299,14 +397,54 @@ def collapse_whitespace(texto: str) -> str:
 
 
 def normalize_text(texto: str) -> str:
-    """Normalização de caracteres (sem tokenizar)."""
+    """Normalização de caracteres (sem tokenizar).
+
+    A quebra hifenizada sai daqui marcada com `_QUEBRA`, não resolvida: ver
+    `_resolver_hifens`.
+    """
     texto = unicodedata.normalize("NFC", texto.translate(_TYPOGRAPHY_TABLE)).lower()
-    return _HYPHEN_BREAK_RE.sub("", collapse_whitespace(texto))
+    return _HYPHEN_BREAK_RE.sub(_QUEBRA, collapse_whitespace(texto))
+
+
+def _resolver_hifens(texto: str, vocabulario: set[str] | None) -> str:
+    """Decide, palavra a palavra, entre a forma unida e a hifenizada.
+
+    Sem vocabulário (é o caso da própria referência) a quebra de linha
+    hifenizada é unida — é divisão silábica na quase totalidade dos casos — e o
+    hífen interno fica como está.
+
+    Com o vocabulário da referência (o caso da hipótese), uma palavra que só
+    difere de uma palavra da página pela presença do hífen recebe a grafia da
+    página. Isso cobre os três jeitos de transcrever a mesma divisão silábica —
+    unir, quebrar a linha no hífen, ou manter o hífen e perder a quebra — e
+    também o composto quebrado no fim da linha ("guarda-\\nchuva"), que unir
+    às cegas transformaria em "guardachuva". A regra é a mesma para todos os
+    sistemas e nunca troca uma letra: só decide sobre o hífen.
+    """
+    def resolver(match: re.Match) -> str:
+        palavra = match.group(0)
+        hifenizada = palavra.replace(_QUEBRA, "-")
+        if vocabulario is not None:
+            if hifenizada in vocabulario:
+                return hifenizada
+            unida = hifenizada.replace("-", "")
+            if unida in vocabulario:
+                return unida
+        return palavra.replace(_QUEBRA, "")
+
+    # O replace final pega a quebra que a regex não alcançou (colada a dígito).
+    return _PALAVRA_HIFENIZADA.sub(resolver, texto).replace(_QUEBRA, "")
 
 
 def tokenize(texto: str) -> list[str]:
-    """Divide em tokens de palavra, tirando a pontuação só das bordas."""
-    return [tok for tok in (p.strip(_EDGE_PUNCTUATION) for p in texto.split()) if tok]
+    """Divide em tokens de palavra, tirando a pontuação só das bordas.
+
+    Tokens que são só fio ou traço (`_SO_FIOS`) saem: são desenho da página.
+    """
+    return [
+        tok for tok in (p.strip(_EDGE_PUNCTUATION) for p in texto.split())
+        if tok and not _SO_FIOS.match(tok)
+    ]
 
 
 def char_sequence(texto: str) -> str:
@@ -327,9 +465,14 @@ class NormalizedDoc:
         return len(self.tokens)
 
 
-def prepare(bruto: str) -> NormalizedDoc:
-    """Executa a pipeline completa sobre um texto bruto."""
-    normalizado = normalize_text(to_plain_text(bruto))
+def prepare(bruto: str, referencia: NormalizedDoc | None = None) -> NormalizedDoc:
+    """Executa a pipeline completa sobre um texto bruto.
+
+    `referencia` é passada ao preparar uma HIPÓTESE: o vocabulário dela decide
+    a hifenização (ver `_resolver_hifens`). A referência é preparada sem ela.
+    """
+    vocabulario = set(referencia.tokens) if referencia is not None else None
+    normalizado = _resolver_hifens(normalize_text(to_plain_text(bruto)), vocabulario)
     return NormalizedDoc(
         normalized=normalizado,
         tokens=tuple(tokenize(normalizado)),

@@ -2,7 +2,7 @@
 
     cer_wer_por_modelo.png      erro por caractere e por palavra, ordenado pelo CER
     num_f1_por_modelo.png       fidelidade dos números
-    custo_beneficio.png         CER x custo por página — onde cada sistema cai
+    custo_beneficio.png         CER x custo por página válida — onde cada sistema cai
     custo_n_paginas.png         a conta em dinheiro do acervo, em quatro papéis
     tempo_do_acervo.png         a conta em tempo do acervo, modelo a modelo
     html_sem_texto_extra.png    obediência ao "retorne apenas o código HTML"
@@ -20,10 +20,13 @@ Decisões de desenho que não são gosto:
 * **Uma escala por figura.** Nunca dois eixos y — CER e WER cabem juntos porque
   são a mesma unidade (taxa de erro); custo e qualidade viram dispersão, não um
   segundo eixo.
-* **Duas cores só, e verificadas.** Azul `#2a78d6` e laranja `#eb6834` passam
-  nos testes de daltonismo (ΔE 24,7 em protanopia) e de contraste contra o
-  fundo. A cor nunca é a única pista: toda barra tem o valor escrito na ponta e
-  a legenda está sempre presente quando há duas séries.
+* **Duas cores só, e verificadas.** Terracota `#b5532f` (fechado) e azul
+  `#2f64a8` (aberto) passam nos testes de daltonismo (ΔE 18,9 em protanopia) e
+  de contraste contra o fundo; CER e WER usam o mesmo azul e o ocre `#b9822a`
+  (ΔE 24,4). É a paleta da apresentação do projeto, para que figura e slide
+  falem a mesma língua visual. A cor nunca é a única pista: toda barra tem o
+  valor escrito na ponta e a legenda está sempre presente quando há duas
+  séries.
 * **O texto nunca veste a cor da série** — rótulos e valores ficam em tinta
   neutra; quem carrega a identidade é a barra ao lado.
 * **`n=` no rótulo de TODOS, e em páginas.** Um modelo medido em 1 página não
@@ -49,16 +52,19 @@ import matplotlib.pyplot as plt  # noqa: E402
 from .config import Settings, load_models, load_settings, motivos_de_exclusao  # noqa: E402
 from .dataset import ORDEM_DE_DIFICULDADE, discover_documents  # noqa: E402
 from .formato import pt, usd  # noqa: E402
-from .score import METRICAS, resumir, valida  # noqa: E402
+from .score import METRICAS, custo_por_pagina_valida, resumir, valida  # noqa: E402
 
 
-AZUL, LARANJA = "#2a78d6", "#eb6834"      # aberto / fechado
-VERDE, VIOLETA = "#008300", "#4a3aa7"     # CER / WER
-CINZA = "#6f6d66"                         # execucao local, que nao e categoria
-TINTA, TINTA_FRACA, FUNDO = "#0b0b0b", "#52514e", "#fcfcfb"
+AZUL, TERRACOTA = "#2f64a8", "#b5532f"    # aberto / fechado
+COR_CER, COR_WER = AZUL, "#b9822a"        # azul / ocre
+CINZA = "#8a8f98"                         # execucao local, que nao e categoria
+TINTA, TINTA_FRACA, FUNDO = "#1f2430", "#4a5060", "#ffffff"
+
+# A tipografia da apresentação; DejaVu Sans fica de reserva onde não houver Calibri.
+matplotlib.rcParams["font.family"] = ["Calibri", "DejaVu Sans"]
 
 # Cor por tipo de modelo, o mesmo mapa em todas as figuras que o usam.
-COR_POR_TIPO = {"aberto": AZUL, "fechado": LARANJA}
+COR_POR_TIPO = {"aberto": AZUL, "fechado": TERRACOTA}
 
 DPI = 150
 ALTURA_POR_BARRA = 0.45  # polegadas
@@ -86,7 +92,7 @@ PAGINAS_DO_PROJETO = 3_600_000
 # --------------------------------------------------------------------------
 
 _NUMERICAS = {
-    "wer", "cer", "num_f1", "cost_usd", "latency_s", "completion_tokens",
+    "wer", "cer", "palavras_f1", "num_f1", "cost_usd", "latency_s", "completion_tokens",
     "prompt_tokens", "total_tokens", "ref_n_tokens", "hyp_n_tokens",
 }
 _BOOLEANAS = {"ok", "truncated", "html_sem_texto_extra"}
@@ -231,7 +237,8 @@ def carregar_chamadas(settings: Settings, run_ids: list[str] | None = None) -> l
     return _reconciliar(linhas)
 
 
-def por_modelo(linhas: list[dict], total_de_paginas: int) -> list[dict]:
+def por_modelo(linhas: list[dict], total_de_paginas: int,
+               brutas: list[dict] | None = None) -> list[dict]:
     """Uma linha por modelo, agregando as chamadas de todas as execuções.
 
     Marca tambem a COBERTURA, que e a mesma regra para as figuras e para a
@@ -243,10 +250,20 @@ def por_modelo(linhas: list[dict], total_de_paginas: int) -> list[dict]:
     A contagem e de PAGINAS distintas, nao de chamadas: comparar um numero de
     chamadas com um numero de documentos daria "completo" a quem mediu metade
     do conjunto duas vezes.
+
+    `brutas` são as chamadas ANTES da deduplicação. O custo por página válida
+    sai delas: deduplicar troca a truncada paga pela remedição que deu certo, e
+    o dinheiro da truncada sumiria da conta.
     """
     _, resumo = resumir(
         linhas, ["model_id", "model_label", "tipo", "empresa", "api_provider"]
     )
+    if brutas is not None:
+        por_id: dict[str, list[dict]] = defaultdict(list)
+        for b in brutas:
+            por_id[b.get("model_id")].append(b)
+        for r in resumo:
+            r["custo_por_pagina_valida"] = custo_por_pagina_valida(por_id[r["model_id"]])
     for r in resumo:
         # O `n` aparece em TODOS os rótulos, não só nos poucos: marcar apenas
         # quem tem menos deixaria implícito que os demais são comparáveis entre
@@ -403,8 +420,8 @@ def _grafico_cer_wer(dados: list[dict], destino: Path) -> Path | None:
     cortou = maior > limite
 
     for deslocamento, campo, cor, nome in (
-        (0.20, "cer_media", VERDE, "CER (caractere)"),
-        (-0.20, "wer_media", VIOLETA, "WER (palavra)"),
+        (0.20, "cer_media", COR_CER, "CER (caractere)"),
+        (-0.20, "wer_media", COR_WER, "WER (palavra)"),
     ):
         # Sem `or 0.0`: nao medido nao e erro zero. Zero e falso em Python, e
         # trocar ausencia por zero desenharia uma barra vazia com o rotulo
@@ -480,7 +497,7 @@ def custo_por_pagina_correta(linha: dict) -> float | None:
     zero, o que o tornaria vencedor automático de um critério que existe para
     comparar preços entre si — e "de graça" já tem papel próprio.
     """
-    custo, cer = linha.get("cost_usd_media"), linha.get("cer_media")
+    custo, cer = linha.get("custo_por_pagina_valida"), linha.get("cer_media")
     if not custo or cer is None or cer >= 1:
         return None
     return custo / (1 - cer)
@@ -502,7 +519,7 @@ def _ordenar_por(chave):  # noqa: ANN001, ANN201
 
 def _grafico_custo_beneficio(dados: list[dict], destino: Path) -> Path | None:
     linhas = [d for d in dados
-              if d["cer_media"] is not None and d["cost_usd_media"] is not None]
+              if d["cer_media"] is not None and d["custo_por_pagina_valida"] is not None]
     if not linhas:
         return None
     fig, ax = _dispersao()
@@ -516,19 +533,19 @@ def _grafico_custo_beneficio(dados: list[dict], destino: Path) -> Path | None:
         if not grupo:
             continue
         ax.scatter(
-            [d["cost_usd_media"] for d in grupo], [d["cer_media"] for d in grupo],
+            [d["custo_por_pagina_valida"] for d in grupo], [d["cer_media"] for d in grupo],
             s=90, zorder=3, linewidths=2,
             color=[_cor(d) for d in grupo] if completo else "none",
             edgecolors=FUNDO if completo else [_cor(d) for d in grupo],
         )
     # Cada ponto é um sistema: sem o nome ao lado, a figura não se lê.
     for d in linhas:
-        ax.annotate(d["rotulo"], xy=(d["cost_usd_media"], d["cer_media"]), xytext=(8, 3),
+        ax.annotate(d["rotulo"], xy=(d["custo_por_pagina_valida"], d["cer_media"]), xytext=(8, 3),
                     textcoords="offset points", color=TINTA_FRACA, fontsize=8)
 
-    maior_custo = max(d["cost_usd_media"] for d in linhas) or 0.001
+    maior_custo = max(d["custo_por_pagina_valida"] for d in linhas) or 0.001
     ax.set_xlim(-maior_custo * 0.06 - 0.0005, maior_custo * 1.30)
-    ax.set_xlabel(r"custo por página (US\$)", color=TINTA_FRACA, fontsize=9)
+    ax.set_xlabel(r"custo por página válida (US\$)", color=TINTA_FRACA, fontsize=9)
     ax.set_ylabel("CER", color=TINTA_FRACA, fontsize=9)
     _legenda_por_tipo(ax, linhas, com_local=True, loc="best",
                       rotulo_local="local (sem custo por token)")
@@ -559,11 +576,11 @@ def escolher_cenarios(dados: list[dict]) -> list[tuple[str, dict]]:
     para o negrito de melhor valor — aqui ela faltava.
     """
     elegiveis = _completos([d for d in dados
-                            if d["cer_media"] is not None and d["cost_usd_media"] is not None])
+                            if d["cer_media"] is not None and d["custo_por_pagina_valida"] is not None])
     if not elegiveis:
         return []
-    gratuitos = [d for d in elegiveis if not d["cost_usd_media"]]
-    pagos = [d for d in elegiveis if d["cost_usd_media"]]
+    gratuitos = [d for d in elegiveis if not d["custo_por_pagina_valida"]]
+    pagos = [d for d in elegiveis if d["custo_por_pagina_valida"]]
 
     # "Mais barato" e "melhor custo-benefício" olham só para quem cobra. Um
     # sistema local venceria os dois com zero, o que responderia à pergunta
@@ -572,7 +589,7 @@ def escolher_cenarios(dados: list[dict]) -> list[tuple[str, dict]]:
     if pagos:
         papeis.append(("melhor custo-benefício",
                        min(pagos, key=_ordenar_por(custo_por_pagina_correta))))
-        papeis.append(("mais barato", min(pagos, key=lambda d: d["cost_usd_media"])))
+        papeis.append(("mais barato", min(pagos, key=lambda d: d["custo_por_pagina_valida"])))
     if gratuitos:
         papeis.append(("melhor gratuito", min(gratuitos, key=lambda d: d["cer_media"])))
     juntos: dict[str, tuple[list[str], dict]] = {}
@@ -586,10 +603,10 @@ def _grafico_projecao(dados: list[dict], destino: Path) -> Path | None:
     cenarios = escolher_cenarios(dados)
     if not cenarios:
         return None
-    cenarios.sort(key=lambda c: c[1]["cost_usd_media"] * PAGINAS_DO_PROJETO, reverse=True)
+    cenarios.sort(key=lambda c: c[1]["custo_por_pagina_valida"] * PAGINAS_DO_PROJETO, reverse=True)
 
     fig, ax = _figura(len(cenarios), largura=9.5)
-    valores = [c[1]["cost_usd_media"] * PAGINAS_DO_PROJETO for c in cenarios]
+    valores = [c[1]["custo_por_pagina_valida"] * PAGINAS_DO_PROJETO for c in cenarios]
     ax.barh(range(len(cenarios)), valores, height=0.35,
             color=[_cor(m) for _, m in cenarios])
     for i, (valor, (papel, modelo)) in enumerate(zip(valores, cenarios)):
@@ -597,7 +614,7 @@ def _grafico_projecao(dados: list[dict], destino: Path) -> Path | None:
         _rotulo_na_ponta(
             ax, valor, i,
             f"{usd(valor, 0)}   ·   CER {pt(modelo['cer_media'])}"
-            f"   ·   {usd(modelo['cost_usd_media'], 4)}/página",
+            f"   ·   {usd(modelo['custo_por_pagina_valida'], 4)}/página",
         )
     # O rótulo leva o `n`: "melhor qualidade" medido em 1 página não é a mesma
     # afirmação que "melhor qualidade" medido em 16.
@@ -783,8 +800,8 @@ def _grafico_dificuldade(chamadas: list[dict], destino: Path,
     posicoes = range(len(linhas))
 
     for deslocamento, campo, cor, nome in (
-        (0.20, "cer", VERDE, "CER (caractere)"),
-        (-0.20, "wer", VIOLETA, "WER (palavra)"),
+        (0.20, "cer", COR_CER, "CER (caractere)"),
+        (-0.20, "wer", COR_WER, "WER (palavra)"),
     ):
         presentes = [(p, l) for p, l in zip(posicoes, linhas)
                      if l[f"{campo}_media"] is not None]
@@ -862,8 +879,9 @@ def build_graficos(settings: Settings | None = None,
                    run_ids: list[str] | None = None) -> list[Path]:
     """Gera as sete figuras em `results/graficos/`."""
     settings = settings or load_settings()
+    brutas, _ = carregar_brutas(settings, run_ids)
     chamadas = carregar_chamadas(settings, run_ids)
-    dados = por_modelo(chamadas, len(discover_documents(settings)))
+    dados = por_modelo(chamadas, len(discover_documents(settings)), brutas)
     destino = settings.results_dir / GRAFICOS_DIR
     destino.mkdir(parents=True, exist_ok=True)
 

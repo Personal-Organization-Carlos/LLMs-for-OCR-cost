@@ -3,7 +3,7 @@
 Mede quanto uma página do Diário Oficial (1890–1950) sobrevive quando é
 transcrita por um modelo multimodal. Cada sistema recebe a **imagem** da página
 e um prompt; o que ele devolve é comparado com a **referência** — a transcrição
-conferida à mão, em HTML — por cinco medidas.
+conferida à mão, em HTML — por seis medidas.
 
 São avaliados modelos de API (OpenRouter e a API nativa do Google) e o MinerU,
 um analisador de documentos que roda na própria máquina. O eixo da comparação é
@@ -12,12 +12,13 @@ tempo, por cada ponto de precisão.
 
 ---
 
-## As cinco medidas
+## As medidas
 
 | medida | o que responde | onde está |
 |---|---|---|
 | **WER** | quantas *palavras* da página o sistema errou | `bench/metrics.py` |
 | **CER** | quantos *caracteres* da página o sistema errou | `bench/metrics.py` |
+| **`palavras_f1`** | recuperou as palavras, em *qualquer* ordem? | `bench/metrics.py` |
 | **Custo de token** | tokens de entrada, de saída e US$ por chamada | vem do provedor, gravado em `bench/clients.py` |
 | **`html_sem_texto_extra`** | obedeceu ao "retorne apenas o código HTML sem texto extra"? | `bench/metrics.py` |
 | **`num_f1`** | recuperou os números — réis, datas, processos? | `bench/metrics.py` |
@@ -26,10 +27,29 @@ tempo, por cada ponto de precisão.
 dividida pelo tamanho da referência, isto é `(S + D + I) / N_ref`. Podem passar
 de 1,0 — uma alucinação longa acrescenta inserções sem aumentar o denominador.
 Antes de comparar, os dois lados passam pela mesma normalização
-(`bench/normalize.py`): a marcação vira texto, a tipografia é canonizada, tudo
-vai a minúsculas, a pontuação sai das bordas dos tokens e as palavras quebradas
-por hífen no fim da linha são reunidas. Sem isso o WER mediria coincidência de
+(`bench/normalize.py`): a marcação vira texto (inclusive os escapes do
+Markdown, como o `\$` dos réis no MinerU, e as entidades `&amp;`), a tipografia
+é canonizada (aspas, travessões e as grafias do ordinal — `º`, `°`,
+`<sup>o</sup>`, `$^{o}$` — viram uma só), tudo vai a minúsculas, a pontuação
+sai das bordas dos tokens e tokens que são só fio ou traço (`-`, `---`, `|`)
+não contam como palavra — ficam no CER. Sem isso o WER mediria coincidência de
 estilo, não fidelidade de transcrição.
+
+**Hifenização.** Uma palavra dividida no fim da linha pode ser transcrita de
+três jeitos — unida, quebrada no hífen, ou com o hífen mantido na mesma linha
+(`apresen-tando`) — e nenhum é erro. Por isso a hipótese recebe a grafia da
+página sempre que difere de uma palavra da referência *só* pelo hífen: é a
+única regra que consulta a referência, e ela nunca troca uma letra. Sem
+consulta (a própria referência) a quebra hifenizada entre letras é unida; entre
+dígitos ela não é tocada, porque ali costuma ser fronteira de linha de tabela.
+
+**`palavras_f1`** é o WER sem a ordem: F1 das palavras por multiconjunto. A
+ordem de leitura de um jornal de três colunas ou de uma tabela não é única, e
+quem a troca recupera todas as palavras e ainda assim leva WER alto — o Qwen
+3.7 Plus ficou com WER 0,46 e `palavras_f1` 0,94 na mesma página. Lidas juntas,
+as duas medidas separam erro de leitura de erro de ordem. O `resumo.csv` traz
+também a **mediana** de WER e CER, porque nenhuma das duas tem teto e uma única
+página alucinada arrasta a média.
 
 **A casa de hospedagem é fixada.** Dentro do OpenRouter o mesmo modelo é
 servido por várias casas, e elas não são equivalentes: o Kimi K3 tem 18, com
@@ -50,6 +70,13 @@ provedores, essa diferença de procedência precisa ser dita. O MinerU roda loca
 custo zero, e os campos de token ficam **nulos de propósito** — não há
 tokenizador comum entre ele e os LLMs, e inventar uma contagem o faria entrar
 nas médias de custo por token como se fosse comparável.
+
+**O custo que as figuras e a tabela usam é `custo_por_pagina_valida`**: tudo o
+que se pagou — truncadas e remedições inclusive — dividido pelas chamadas
+válidas. O `cost_usd_media` olha só para as válidas e esconde o dinheiro jogado
+fora: o Gemini 3.5 Flash, com 5 truncadas, custa US$ 0,109 por chamada válida
+mas US$ 0,241 por página aproveitável. É este segundo número que se multiplica
+pelo acervo.
 
 **`html_sem_texto_extra`** é a obediência ao formato pedido, medida à parte da
 qualidade: depois de tirar uma cerca de código que envolva a resposta inteira
@@ -169,7 +196,7 @@ results/<run_id>/
       normalizado.txt   esse texto depois da normalização — o que o WER/CER comparam
       referencia.txt    a referência depois da MESMA normalização
   mineru/<modelo>/      artefatos do MinerU: layout.pdf, content_list.json, log
-  metricas.csv          uma linha por chamada, com as cinco medidas
+  metricas.csv          uma linha por chamada, com as seis medidas
   resumo.csv            uma linha por (modelo, prompt), com as médias
                         (`n_validas` conta chamadas; `n_paginas`, páginas distintas)
 
@@ -188,8 +215,10 @@ momento, inclusive depois de você mudar a definição de uma métrica. É por i
 que a coleta é separada do cálculo.
 
 No `resumo.csv`, **confiabilidade e qualidade não se misturam**: `taxa_sucesso`
-e `taxa_truncamento` são calculadas sobre *todas* as chamadas; WER, CER, num_f1
-e custo, só sobre as **válidas** (respondeu e não foi truncada). Misturar as
+e `taxa_truncamento` são calculadas sobre *todas* as chamadas; WER, CER,
+`palavras_f1`, num_f1 e custo médio, só sobre as **válidas** (respondeu e não
+foi truncada); `custo_por_pagina_valida`, sobre todas, porque o que foi pago foi
+pago. Misturar as
 duas coisas premiaria quem falha, porque quem falha muito acaba avaliado só nos
 casos fáceis em que conseguiu responder.
 
@@ -217,8 +246,9 @@ git diff --no-index "$p/referencia.txt" "$p/normalizado.txt"
 ```
 
 A diferença que a métrica contou está ali, na forma exata em que ela a contou —
-sem marcação, em minúsculas, sem hifenização de fim de linha. Os tokens do WER
-são esse arquivo separado nos espaços, com a pontuação tirada das bordas; o CER
+sem marcação, em minúsculas, com a hifenização resolvida. Os tokens do WER
+são esse arquivo separado nos espaços, com a pontuação tirada das bordas e sem
+os tokens que são só fio; o CER
 usa o mesmo texto com as quebras de linha viradas espaço.
 
 A referência é repetida em cada pasta de propósito: são ~8 KB, e é o que faz o
@@ -364,7 +394,7 @@ bench/dataset.py       descobre os documentos
 bench/clients.py       OpenRouter, Gemini e MinerU — mesmo método, mesmo retorno
 bench/runner.py        monta as chamadas, executa e grava
 bench/normalize.py     HTML/Markdown -> texto -> tokens comparáveis
-bench/metrics.py       WER, CER, num_f1, html_sem_texto_extra
+bench/metrics.py       WER, CER, palavras_f1, num_f1, html_sem_texto_extra
 bench/score.py         aplica as métricas e escreve os dois CSV
 bench/graficos.py      as sete figuras
 bench/relatorio.py     a tabela de resultados do relatorio.html
@@ -415,8 +445,9 @@ Delimitar isto importa tanto quanto o que ele mede:
   alinhada com a lista de grafias de época de cada documento.
 * **Nada sobre estrutura de tabela.** A árvore do HTML não é comparada; o texto
   das células entra na contagem de palavras em ordem de leitura, como o resto.
-* **Nada sobre ordem de leitura.** Um sistema que lê as três colunas do jornal
-  na ordem errada é punido pelo WER com a mesma severidade de quem erra as
-  palavras — e os dois casos ficam indistinguíveis no número final.
+* **Ordem de leitura só por diferença.** Um sistema que lê as três colunas do
+  jornal na ordem errada é punido pelo WER com a mesma severidade de quem erra
+  as palavras. A `palavras_f1`, que ignora a ordem, é o que permite separar os
+  dois casos; não há uma métrica que avalie a ordem em si.
 * **Uma única chamada por página, por padrão.** `execution.repetitions`
   aumenta isso, mas o padrão não mede variância dentro do mesmo dia.

@@ -75,6 +75,7 @@ def montar_tabela(dados: list[dict], total_de_documentos: int) -> str:
     melhores = {
         "cer_media": _melhor_valor(linhas, "cer_media", False),
         "wer_media": _melhor_valor(linhas, "wer_media", False),
+        "palavras_f1_media": _melhor_valor(linhas, "palavras_f1_media", True),
         "num_f1_media": _melhor_valor(linhas, "num_f1_media", True),
     }
 
@@ -88,7 +89,9 @@ def montar_tabela(dados: list[dict], total_de_documentos: int) -> str:
             f'<span class="parcial" title="cobertura incompleta, '
             f'{l["n_paginas"]} de {total_de_documentos} páginas">parcial</span>')
         obediencia = l.get("html_sem_texto_extra_taxa")
-        custo, tempo = l.get("cost_usd_media"), l.get("latency_s_media")
+        # O custo que a tabela mostra é o de uma página APROVEITÁVEL: tudo o que
+        # se pagou, truncadas inclusive, dividido pelas válidas.
+        custo, tempo = l.get("custo_por_pagina_valida"), l.get("latency_s_media")
         corpo.append(f"""    <tr>
       <th scope="row">{html.escape(l["model_label"])}{parcial}<span class="sub">{html.escape(l["empresa"])}</span></th>
       <td><span class="selo {l["tipo"]}">{l["tipo"]}</span></td>
@@ -96,6 +99,7 @@ def montar_tabela(dados: list[dict], total_de_documentos: int) -> str:
       <td class="num n">{l["n_paginas"]}<span class="de">/{total_de_documentos}</span></td>
       <td class="num barra-celula"><span class="barra" style="width:{largura}%"></span><span class="valor{destaque}">{pt(l["cer_media"], 3)}</span></td>
 {_celula(l["wer_media"], 3, l["wer_media"] == melhores["wer_media"])}
+{_celula(l["palavras_f1_media"], 3, l["palavras_f1_media"] == melhores["palavras_f1_media"])}
 {_celula(l["num_f1_media"], 3, l["num_f1_media"] == melhores["num_f1_media"])}
       <td class="num">{"n/a" if obediencia is None else f"{round(obediencia * 100)}%"}</td>
       <td class="num">{"grátis" if not custo else pt(custo, 4)}</td>
@@ -108,9 +112,11 @@ def montar_tabela(dados: list[dict], total_de_documentos: int) -> str:
   <thead><tr>
     <th scope="col">Sistema</th><th scope="col">Tipo</th><th scope="col">Via</th>
     <th scope="col" class="num">Páginas</th><th scope="col" class="num">CER</th>
-    <th scope="col" class="num">WER</th><th scope="col" class="num">num_f1</th>
+    <th scope="col" class="num">WER</th>
+    <th scope="col" class="num" title="F1 das palavras sem considerar a ordem de leitura">F1 palavras</th>
+    <th scope="col" class="num">num_f1</th>
     <th scope="col" class="num">HTML limpo</th>
-    <th scope="col" class="num">US$ por página</th>
+    <th scope="col" class="num">US$ por página válida</th>
     <th scope="col" class="num">Segundos</th>
   </tr></thead>
   <tbody>
@@ -195,7 +201,7 @@ def atualizar_relatorio(settings: Settings | None = None,
 
     total = len(discover_documents(settings))
     brutas, execucoes = carregar_brutas(settings, run_ids)
-    dados = por_modelo(carregar_chamadas(settings, run_ids), total)
+    dados = por_modelo(carregar_chamadas(settings, run_ids), total, brutas)
 
     texto = _substituir(texto, ABRE, FECHA, montar_tabela(dados, total), "tabela")
     escritos = ["tabela"]
